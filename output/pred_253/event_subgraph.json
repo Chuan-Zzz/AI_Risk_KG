@@ -1,0 +1,5776 @@
+{
+  "event_id": "pred_253",
+  "incident_node": {
+    "id": "pred_253",
+    "name": "The iPhone X’s archnemesis: identical twins",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_253",
+    "evidence": [
+      {
+        "evidence_id": "f526b2e5d9ec",
+        "evidence_sentence": "The iPhone X’s archnemesis: identical twins",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "da804d2251d4",
+        "evidence_sentence": "The iPhone X's Face ID can be fooled by identical twins",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "abc96d3bde77",
+        "evidence_sentence": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "c8a5ad5937ed",
+        "evidence_sentence": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "c186f79c5fd5",
+        "evidence_sentence": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+        "source_doc_id": "448",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "442",
+      "444",
+      "445",
+      "446",
+      "448"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_253",
+      "name": "The iPhone X’s archnemesis: identical twins",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_253",
+      "evidence": [
+        {
+          "evidence_id": "f526b2e5d9ec",
+          "evidence_sentence": "The iPhone X’s archnemesis: identical twins",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "da804d2251d4",
+          "evidence_sentence": "The iPhone X's Face ID can be fooled by identical twins",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "abc96d3bde77",
+          "evidence_sentence": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "c8a5ad5937ed",
+          "evidence_sentence": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "c186f79c5fd5",
+          "evidence_sentence": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442",
+        "444",
+        "445",
+        "446",
+        "448"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ba7dc3ab97f8",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442",
+        "444",
+        "445",
+        "446",
+        "448"
+      ],
+      "attributes": {
+        "report_count": 5
+      },
+      "reasoning": null
+    },
+    {
+      "id": "442",
+      "name": "The iPhone X’s archnemesis: identical twins",
+      "entity_type": "NewsReport",
+      "description": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.\n\nThe company touted it as a more secure",
+      "evidence": [
+        {
+          "evidence_id": "5330b52f3625",
+          "evidence_sentence": "The iPhone X’s archnemesis: identical twins",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {
+        "url": "https://thehustle.co/iPhone-X-facial-recognition-identical-twins",
+        "publish_time": "2017-11-01T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "444",
+      "name": "The iPhone X's Face ID can be fooled by identical twins",
+      "entity_type": "NewsReport",
+      "description": "The iPhone X has a weakness for identical twins.\n\nIt can’t really tell the difference.\n\nIt's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, ver",
+      "evidence": [
+        {
+          "evidence_id": "2768bc698431",
+          "evidence_sentence": "The iPhone X's Face ID can be fooled by identical twins",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {
+        "url": "https://mashable.com/2017/10/31/putting-iphone-x-face-id-to-twin-test/#ZSbrCeQ60qqf",
+        "publish_time": "2017-10-31T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "445",
+      "name": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+      "entity_type": "NewsReport",
+      "description": "The new $1,000 rectangle from Apple has a troubling security flaw.\n\nIn a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using ",
+      "evidence": [
+        {
+          "evidence_id": "4d3c3df4ea08",
+          "evidence_sentence": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "attributes": {
+        "url": "https://qz.com/1120545/a-man-was-able-to-use-face-id-to-unlock-his-brothers-apple-aapl-iphone-x/",
+        "publish_time": "2017-11-05T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "446",
+      "name": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+      "entity_type": "NewsReport",
+      "description": "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID. This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown",
+      "evidence": [
+        {
+          "evidence_id": "060d90406ee6",
+          "evidence_sentence": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {
+        "url": "https://www.bustle.com/p/does-iphone-x-facial-recognition-work-on-twins-mashable-tested-it-out-well-whoops-3147727",
+        "publish_time": "2017-11-01T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "448",
+      "name": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+      "entity_type": "NewsReport",
+      "description": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X. With the Franklin twins, we had both brothers remove their ",
+      "evidence": [
+        {
+          "evidence_id": "70dc653a9389",
+          "evidence_sentence": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "attributes": {
+        "url": "https://www.macrumors.com/2017/10/31/iphone-x-face-id-twin-tests/",
+        "publish_time": "2017-10-31T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "278e48eeef4a",
+      "name": "iPhone X",
+      "entity_type": "AISystem",
+      "description": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "4be80010f3d2",
+          "evidence_sentence": "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 29,
+            "end": 37
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "3394bfea2294",
+          "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 185,
+            "end": 193
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "90e6e028c217",
+          "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 53,
+            "end": 61
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "c40264d47adb",
+          "evidence_sentence": "The iPhone X has a weakness for identical twins.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 4,
+            "end": 12
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 4,
+      "source_doc_ids": [
+        "448",
+        "446",
+        "445",
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d958696fd8bb",
+      "name": "Face ID",
+      "entity_type": "AITechnique",
+      "description": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 77,
+            "end": 84
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "47f14aab92a7",
+      "name": "Apple Inc.",
+      "entity_type": "Stakeholder",
+      "description": "Apple",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3bbdf6355c21",
+          "evidence_sentence": "It's worth noting that Apple itself admitted that Face ID may not be able to distinguish between identical twins during the iPhone X unveiling on September 12.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Apple",
+            "start": 297,
+            "end": 302
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "46c746f32d6e",
+          "evidence_sentence": "Apple’s Face ID, according to the company, is more secure than Touch ID.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Apple",
+            "start": 103,
+            "end": 108
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 5,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "eb0dda0dd610",
+      "name": "Mashable",
+      "entity_type": "Stakeholder",
+      "description": "Mashable",
+      "evidence": [
+        {
+          "evidence_id": "bcfe9a729231",
+          "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 845,
+            "end": 853
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8b7e51d44120",
+          "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 959,
+            "end": 967
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "446",
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a7f9b3d39f94",
+      "name": "Gizmodo",
+      "entity_type": "Stakeholder",
+      "description": "Gizmodo",
+      "evidence": [
+        {
+          "evidence_id": "1f2ad65047b4",
+          "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Gizmodo",
+            "start": 2331,
+            "end": 2338
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "bb348bf4011a",
+      "name": "Wall Street Journal",
+      "entity_type": "Stakeholder",
+      "description": "Wall Street Journal",
+      "evidence": [
+        {
+          "evidence_id": "1380b22784b7",
+          "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Wall Street Journal",
+            "start": 2946,
+            "end": 2965
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2c79c14a5da9",
+      "name": "Face ID",
+      "entity_type": "AISystem",
+      "description": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "3394bfea2294",
+          "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 204,
+            "end": 211
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "64ec476713da",
+          "evidence_sentence": "The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k “invisible dots” onto a user’s face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 352,
+            "end": 359
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "90e6e028c217",
+          "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 116,
+            "end": 123
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 127,
+            "end": 134
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "448",
+        "442",
+        "445",
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "03f92503c0e9",
+      "name": "facial recognition",
+      "entity_type": "AITechnique",
+      "description": "facial recognition software",
+      "evidence": [
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "facial recognition software",
+            "start": 742,
+            "end": 769
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "facial recognition",
+            "start": 141,
+            "end": 159
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Facial recognition technology",
+            "start": 2882,
+            "end": 2911
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "442",
+        "445",
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d3eb345e0c44",
+      "name": "machine learning",
+      "entity_type": "AITechnique",
+      "description": "machine learning",
+      "evidence": [
+        {
+          "evidence_id": "19693d24fa14",
+          "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "machine learning",
+            "start": 594,
+            "end": 610
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "51e52bac90b7",
+      "name": "detect changes in appearance",
+      "entity_type": "AICapability",
+      "description": "detect changes in a user’s appearance",
+      "evidence": [
+        {
+          "evidence_id": "19693d24fa14",
+          "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "detect changes in a user’s appearance",
+            "start": 614,
+            "end": 651
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "dcac46808b02",
+      "name": "Phil Schiller",
+      "entity_type": "Stakeholder",
+      "description": "Phil Schiller",
+      "evidence": [
+        {
+          "evidence_id": "6e5ee261dca1",
+          "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Phil Schiller",
+            "start": 2362,
+            "end": 2375
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f18f45eecd11",
+      "name": "face-mapping technology",
+      "entity_type": "AITechnique",
+      "description": "face-mapping technology",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "face-mapping technology",
+            "start": 138,
+            "end": 161
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4988fac18b73",
+      "name": "unlock the phone",
+      "entity_type": "AICapability",
+      "description": "unlock the phone",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "unlock the phone",
+            "start": 179,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c6be1cbf0fb4",
+      "name": "verify Apple Pay",
+      "entity_type": "AICapability",
+      "description": "verify Apple Pay",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "verify Apple Pay",
+            "start": 197,
+            "end": 213
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "5f262c104b86",
+      "name": "Windows Hello",
+      "entity_type": "AISystem",
+      "description": "Windows Hello Facial recognition technology",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Windows Hello Facial recognition technology",
+            "start": 2868,
+            "end": 2911
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "18db4c9c6ddd",
+      "name": "Touch ID",
+      "entity_type": "AISystem",
+      "description": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "46c746f32d6e",
+          "evidence_sentence": "Apple’s Face ID, according to the company, is more secure than Touch ID.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Touch ID",
+            "start": 268,
+            "end": 276
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "04983ee3d07a",
+      "name": "Microsoft",
+      "entity_type": "Stakeholder",
+      "description": "Microsoft",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Microsoft",
+            "start": 2849,
+            "end": 2858
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "88232fbe5322",
+      "name": "Apple Inc._AIDeveloper",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "53465b881c90",
+          "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": "Apple developed the Face ID system and its underlying technology (TrueDepth camera, machine learning algorithms)."
+    },
+    {
+      "id": "08e416b9ab79",
+      "name": "Apple Inc._AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "69c3770841a8",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": "Apple provides Face ID as part of the iPhone X product to consumers."
+    },
+    {
+      "id": "9086764fd088",
+      "name": "Mashable_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bc1ee27e59bc",
+          "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": "Mashable experimented with and tested Face ID, acting as a user of the technology."
+    },
+    {
+      "id": "405074bfbc73",
+      "name": "Gizmodo_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0662ba3fee1f",
+          "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": "Gizmodo tested Face ID functionality, acting as a user of the technology."
+    },
+    {
+      "id": "2da2888c6aed",
+      "name": "Wall Street Journal_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "7d15d3c7cfcf",
+          "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": "Wall Street Journal tested Face ID capabilities, acting as a user of the technology."
+    },
+    {
+      "id": "94b7b7253b66",
+      "name": "Phil Schiller_AIDeveloper",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "3856be9e78a2",
+          "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "attributes": {},
+      "reasoning": "Phil Schiller is an Apple executive involved in the development and promotion of Face ID technology."
+    },
+    {
+      "id": "543264a833ba",
+      "name": "Microsoft_AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "b1df70798d57",
+          "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+          "source_doc_id": "447",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "447"
+      ],
+      "attributes": {},
+      "reasoning": "Microsoft provides Windows Hello facial recognition technology as part of Windows devices."
+    },
+    {
+      "id": "0471b6811dd5",
+      "name": "Facial recognition system unable to distinguish between identical twins",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2d814a85e2b5",
+          "evidence_sentence": "[442] Mashable experimented and found that the phone's Face ID couldn't distinguish between sets of identical twins: they could easily log into each other's devices.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "91047f35df15",
+      "name": "Unauthorized access to locked devices by individuals with similar facial features",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8a16e5933d37",
+          "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4fe3c6a693ca",
+      "name": "Biometric authentication system lacks robustness to facial similarity between identical twins",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "3d62d1acebe6",
+          "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "9cef0690a8d9",
+      "name": "Identical twins can bypass Face ID security and access each other's devices",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2ba5a85d5c19",
+          "evidence_sentence": "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e38303406b7a",
+      "name": "Compromise of device security and potential unauthorized access to personal data and financial services",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "05c56e5d0b3b",
+          "evidence_sentence": "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c4b903c38a96",
+      "name": "iPhone X users, particularly those with identical twins",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "cefa4111916b",
+          "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "9ddbcfdef262",
+      "name": "biometric security for device authentication",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "80c88a343495",
+          "evidence_sentence": "[446] This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence explicitly states Face ID is Apple's attempt at conquering biometric security, indicating its purpose is device authentication."
+    },
+    {
+      "id": "e49e8a44d710",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "517fd0dc5f2f",
+          "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence shows the AI system is already in use by consumers (being demonstrated on new iPhone X), indicating deployment phase."
+    },
+    {
+      "id": "af1c4160ca27",
+      "name": "consumer electronics/security",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "178082d5298d",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence shows Face ID is integrated into iPhone X, a consumer electronics product, for security authentication."
+    }
+  ],
+  "edges": [
+    {
+      "id": "8aab7680097b",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasReport",
+      "object_id": "442",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "5330b52f3625",
+          "evidence_sentence": "The iPhone X’s archnemesis: identical twins",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a89b81bf0053",
+      "subject_id": "ba7dc3ab97f8",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "442",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0f56ff63b2ba",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasReport",
+      "object_id": "444",
+      "object_name": "The iPhone X's Face ID can be fooled by identical twins",
+      "evidence": [
+        {
+          "evidence_id": "2768bc698431",
+          "evidence_sentence": "The iPhone X's Face ID can be fooled by identical twins",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7c27159055e7",
+      "subject_id": "ba7dc3ab97f8",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "444",
+      "object_name": "The iPhone X's Face ID can be fooled by identical twins",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "88b4d03bdb6d",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasReport",
+      "object_id": "445",
+      "object_name": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "4d3c3df4ea08",
+          "evidence_sentence": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ab05844ed7c",
+      "subject_id": "ba7dc3ab97f8",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "445",
+      "object_name": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "27cb62608380",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasReport",
+      "object_id": "446",
+      "object_name": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+      "evidence": [
+        {
+          "evidence_id": "060d90406ee6",
+          "evidence_sentence": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f3f497d4e930",
+      "subject_id": "ba7dc3ab97f8",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "446",
+      "object_name": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c5663904ca96",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasReport",
+      "object_id": "448",
+      "object_name": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+      "evidence": [
+        {
+          "evidence_id": "70dc653a9389",
+          "evidence_sentence": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4ce61be85c4a",
+      "subject_id": "ba7dc3ab97f8",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "448",
+      "object_name": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "da5e91cce348",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesAISystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "4be80010f3d2",
+          "evidence_sentence": "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 29,
+            "end": 37
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "3394bfea2294",
+          "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 185,
+            "end": 193
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "90e6e028c217",
+          "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "iPhone X",
+            "start": 53,
+            "end": 61
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448",
+        "446",
+        "445",
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "834b1a3ca6a8",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "47f14aab92a7",
+      "object_name": "Apple Inc.",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "40ceb5b38ec0",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "eb0dda0dd610",
+      "object_name": "Mashable",
+      "evidence": [
+        {
+          "evidence_id": "bcfe9a729231",
+          "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 845,
+            "end": 853
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8b7e51d44120",
+          "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 959,
+            "end": 967
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c3bf3c63f084",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "a7f9b3d39f94",
+      "object_name": "Gizmodo",
+      "evidence": [
+        {
+          "evidence_id": "1f2ad65047b4",
+          "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Gizmodo",
+            "start": 2331,
+            "end": 2338
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6eb940f53976",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "bb348bf4011a",
+      "object_name": "Wall Street Journal",
+      "evidence": [
+        {
+          "evidence_id": "1380b22784b7",
+          "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Wall Street Journal",
+            "start": 2946,
+            "end": 2965
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "98f7534b3a05",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesAISystem",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "3394bfea2294",
+          "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 204,
+            "end": 211
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "64ec476713da",
+          "evidence_sentence": "The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k “invisible dots” onto a user’s face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 352,
+            "end": 359
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "90e6e028c217",
+          "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 116,
+            "end": 123
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448",
+        "442",
+        "445",
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bbfbaabda0a9",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "dcac46808b02",
+      "object_name": "Phil Schiller",
+      "evidence": [
+        {
+          "evidence_id": "6e5ee261dca1",
+          "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Phil Schiller",
+            "start": 2362,
+            "end": 2375
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dd77dac14c89",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesAISystem",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Windows Hello Facial recognition technology",
+            "start": 2868,
+            "end": 2911
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a610964e503",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesAISystem",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "46c746f32d6e",
+          "evidence_sentence": "Apple’s Face ID, according to the company, is more secure than Touch ID.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Touch ID",
+            "start": 268,
+            "end": 276
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c854726aadae",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "involvesStakeholder",
+      "object_id": "04983ee3d07a",
+      "object_name": "Microsoft",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Microsoft",
+            "start": 2849,
+            "end": 2858
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "316006429cf6",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "usesTechnique",
+      "object_id": "d958696fd8bb",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Face ID",
+            "start": 77,
+            "end": 84
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1b543ba8dda1",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "usesTechnique",
+      "object_id": "03f92503c0e9",
+      "object_name": "facial recognition",
+      "evidence": [
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "facial recognition software",
+            "start": 742,
+            "end": 769
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "facial recognition",
+            "start": 141,
+            "end": 159
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Facial recognition technology",
+            "start": 2882,
+            "end": 2911
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442",
+        "445",
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c3e208a66569",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "usesTechnique",
+      "object_id": "d3eb345e0c44",
+      "object_name": "machine learning",
+      "evidence": [
+        {
+          "evidence_id": "19693d24fa14",
+          "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "machine learning",
+            "start": 594,
+            "end": 610
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e4361d2f703b",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "usesTechnique",
+      "object_id": "f18f45eecd11",
+      "object_name": "face-mapping technology",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "face-mapping technology",
+            "start": 138,
+            "end": 161
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3998fa7f3c43",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "hasCapability",
+      "object_id": "51e52bac90b7",
+      "object_name": "detect changes in appearance",
+      "evidence": [
+        {
+          "evidence_id": "19693d24fa14",
+          "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "detect changes in a user’s appearance",
+            "start": 614,
+            "end": 651
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1affe0489863",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "hasCapability",
+      "object_id": "4988fac18b73",
+      "object_name": "unlock the phone",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "unlock the phone",
+            "start": 179,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b03e939e0b52",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "hasCapability",
+      "object_id": "c6be1cbf0fb4",
+      "object_name": "verify Apple Pay",
+      "evidence": [
+        {
+          "evidence_id": "b9d7bc76f58a",
+          "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "verify Apple Pay",
+            "start": 197,
+            "end": 213
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "659143589163",
+      "subject_id": "88232fbe5322",
+      "subject_name": "Apple Inc._AIDeveloper",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "object_name": "Apple Inc.",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e302d467e76f",
+      "subject_id": "88232fbe5322",
+      "subject_name": "Apple Inc._AIDeveloper",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c07399a97c03",
+      "subject_id": "88232fbe5322",
+      "subject_name": "Apple Inc._AIDeveloper",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c4dc5617475b",
+      "subject_id": "08e416b9ab79",
+      "subject_name": "Apple Inc._AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "object_name": "Apple Inc.",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d156d11741de",
+      "subject_id": "08e416b9ab79",
+      "subject_name": "Apple Inc._AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e5070dbc037d",
+      "subject_id": "08e416b9ab79",
+      "subject_name": "Apple Inc._AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "4f35e14ac319",
+          "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Apple",
+            "start": 94,
+            "end": 99
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "ccc2af9dd853",
+          "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": {
+            "text": "Apple",
+            "start": 30,
+            "end": 35
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "18bb717a61d9",
+          "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Apple",
+            "start": 5,
+            "end": 10
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "445",
+        "444",
+        "442",
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4acf8c5dc1d2",
+      "subject_id": "9086764fd088",
+      "subject_name": "Mashable_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "eb0dda0dd610",
+      "object_name": "Mashable",
+      "evidence": [
+        {
+          "evidence_id": "bcfe9a729231",
+          "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 845,
+            "end": 853
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8b7e51d44120",
+          "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 959,
+            "end": 967
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "429b121ab66b",
+      "subject_id": "9086764fd088",
+      "subject_name": "Mashable_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "bcfe9a729231",
+          "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 845,
+            "end": 853
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8b7e51d44120",
+          "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 959,
+            "end": 967
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c2647ae892eb",
+      "subject_id": "9086764fd088",
+      "subject_name": "Mashable_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "bcfe9a729231",
+          "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 845,
+            "end": 853
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8b7e51d44120",
+          "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+          "source_doc_id": "442",
+          "mention_span": {
+            "text": "Mashable",
+            "start": 959,
+            "end": 967
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446",
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "288a0d3001d3",
+      "subject_id": "405074bfbc73",
+      "subject_name": "Gizmodo_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "a7f9b3d39f94",
+      "object_name": "Gizmodo",
+      "evidence": [
+        {
+          "evidence_id": "1f2ad65047b4",
+          "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Gizmodo",
+            "start": 2331,
+            "end": 2338
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b8bb93989678",
+      "subject_id": "405074bfbc73",
+      "subject_name": "Gizmodo_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "1f2ad65047b4",
+          "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Gizmodo",
+            "start": 2331,
+            "end": 2338
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a632039bc16b",
+      "subject_id": "405074bfbc73",
+      "subject_name": "Gizmodo_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "1f2ad65047b4",
+          "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Gizmodo",
+            "start": 2331,
+            "end": 2338
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6eb2c1fd70b6",
+      "subject_id": "2da2888c6aed",
+      "subject_name": "Wall Street Journal_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "bb348bf4011a",
+      "object_name": "Wall Street Journal",
+      "evidence": [
+        {
+          "evidence_id": "1380b22784b7",
+          "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Wall Street Journal",
+            "start": 2946,
+            "end": 2965
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f10c47712ce3",
+      "subject_id": "2da2888c6aed",
+      "subject_name": "Wall Street Journal_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "1380b22784b7",
+          "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Wall Street Journal",
+            "start": 2946,
+            "end": 2965
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "85bdd9c0dc66",
+      "subject_id": "2da2888c6aed",
+      "subject_name": "Wall Street Journal_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "1380b22784b7",
+          "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": {
+            "text": "Wall Street Journal",
+            "start": 2946,
+            "end": 2965
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b388f8af9a86",
+      "subject_id": "94b7b7253b66",
+      "subject_name": "Phil Schiller_AIDeveloper",
+      "predicate": "roleHeldBy",
+      "object_id": "dcac46808b02",
+      "object_name": "Phil Schiller",
+      "evidence": [
+        {
+          "evidence_id": "6e5ee261dca1",
+          "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Phil Schiller",
+            "start": 2362,
+            "end": 2375
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e766ff23647",
+      "subject_id": "94b7b7253b66",
+      "subject_name": "Phil Schiller_AIDeveloper",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "6e5ee261dca1",
+          "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Phil Schiller",
+            "start": 2362,
+            "end": 2375
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0bba54da3e6a",
+      "subject_id": "94b7b7253b66",
+      "subject_name": "Phil Schiller_AIDeveloper",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "6e5ee261dca1",
+          "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+          "source_doc_id": "448",
+          "mention_span": {
+            "text": "Phil Schiller",
+            "start": 2362,
+            "end": 2375
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "84baa441f1c2",
+      "subject_id": "543264a833ba",
+      "subject_name": "Microsoft_AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "04983ee3d07a",
+      "object_name": "Microsoft",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Microsoft",
+            "start": 2849,
+            "end": 2858
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2f97bcf003ee",
+      "subject_id": "543264a833ba",
+      "subject_name": "Microsoft_AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "object_name": "The iPhone X’s archnemesis: identical twins",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Microsoft",
+            "start": 2849,
+            "end": 2858
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5a6e94bcb8d4",
+      "subject_id": "543264a833ba",
+      "subject_name": "Microsoft_AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "706861bd049f",
+          "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+          "source_doc_id": "444",
+          "mention_span": {
+            "text": "Microsoft",
+            "start": 2849,
+            "end": 2858
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0990239cc375",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "develops",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "a5de86f81355",
+          "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6c01e3846aae",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "develops",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "1f23a4718b5d",
+          "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "993a732f3abf",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "develops",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "3fa0522fafe0",
+          "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e4441133784",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "develops",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "6f11f04bb9aa",
+          "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cfb9ee48da8b",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "provides",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "b92f0042a685",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8d8ab8b22301",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "provides",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "a9dc62cbbf28",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5c48b516f247",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "provides",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "26058d28cd5b",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1738c40f12a8",
+      "subject_id": "47f14aab92a7",
+      "subject_name": "Apple Inc.",
+      "predicate": "provides",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "eda35c617ff2",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cf4f6ba16fb0",
+      "subject_id": "eb0dda0dd610",
+      "subject_name": "Mashable",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "dbed03bb46fe",
+          "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8f19083ac66c",
+      "subject_id": "eb0dda0dd610",
+      "subject_name": "Mashable",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "29a5e1cc5281",
+          "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4e06d45d95a7",
+      "subject_id": "eb0dda0dd610",
+      "subject_name": "Mashable",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "bcdda82a16ca",
+          "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fe2d3ac254e5",
+      "subject_id": "eb0dda0dd610",
+      "subject_name": "Mashable",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "2ec39f840f51",
+          "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1f9c84151b4b",
+      "subject_id": "a7f9b3d39f94",
+      "subject_name": "Gizmodo",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "0136f94ba1f5",
+          "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1fb815bc4c19",
+      "subject_id": "a7f9b3d39f94",
+      "subject_name": "Gizmodo",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "a014f5eb1fcb",
+          "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "857c1c5c48cf",
+      "subject_id": "a7f9b3d39f94",
+      "subject_name": "Gizmodo",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "4a5452334916",
+          "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "93ff67d55354",
+      "subject_id": "a7f9b3d39f94",
+      "subject_name": "Gizmodo",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "cf910fd7c05a",
+          "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ad75eeb5f76",
+      "subject_id": "bb348bf4011a",
+      "subject_name": "Wall Street Journal",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "5eb679819e20",
+          "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a3844b79e749",
+      "subject_id": "bb348bf4011a",
+      "subject_name": "Wall Street Journal",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "9bf78a0bb0bb",
+          "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c92047e5c39f",
+      "subject_id": "bb348bf4011a",
+      "subject_name": "Wall Street Journal",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "84ad051730ac",
+          "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a3014467134",
+      "subject_id": "bb348bf4011a",
+      "subject_name": "Wall Street Journal",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "f9bec765690a",
+          "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cf7f8f6b7d1e",
+      "subject_id": "dcac46808b02",
+      "subject_name": "Phil Schiller",
+      "predicate": "develops",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "cf889c53bb14",
+          "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c6e94c4cac36",
+      "subject_id": "dcac46808b02",
+      "subject_name": "Phil Schiller",
+      "predicate": "develops",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "320f90259750",
+          "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fa5f3e8eeeb2",
+      "subject_id": "dcac46808b02",
+      "subject_name": "Phil Schiller",
+      "predicate": "develops",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "346a494d74fe",
+          "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e26299990225",
+      "subject_id": "dcac46808b02",
+      "subject_name": "Phil Schiller",
+      "predicate": "develops",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "6368e6dd6c71",
+          "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bf8504d7e382",
+      "subject_id": "04983ee3d07a",
+      "subject_name": "Microsoft",
+      "predicate": "provides",
+      "object_id": "278e48eeef4a",
+      "object_name": "iPhone X",
+      "evidence": [
+        {
+          "evidence_id": "8232dfd911ab",
+          "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+          "source_doc_id": "447",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "447"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8862f7ed1bd2",
+      "subject_id": "04983ee3d07a",
+      "subject_name": "Microsoft",
+      "predicate": "provides",
+      "object_id": "2c79c14a5da9",
+      "object_name": "Face ID",
+      "evidence": [
+        {
+          "evidence_id": "68db2c414f79",
+          "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+          "source_doc_id": "447",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "447"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e3a37d8b1730",
+      "subject_id": "04983ee3d07a",
+      "subject_name": "Microsoft",
+      "predicate": "provides",
+      "object_id": "5f262c104b86",
+      "object_name": "Windows Hello",
+      "evidence": [
+        {
+          "evidence_id": "daf9884d9832",
+          "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+          "source_doc_id": "447",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "447"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "694a879ea4ae",
+      "subject_id": "04983ee3d07a",
+      "subject_name": "Microsoft",
+      "predicate": "provides",
+      "object_id": "18db4c9c6ddd",
+      "object_name": "Touch ID",
+      "evidence": [
+        {
+          "evidence_id": "33b3555f8999",
+          "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+          "source_doc_id": "447",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "447"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "aaa7479c25e2",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "isRiskSourceFor",
+      "object_id": "0471b6811dd5",
+      "object_name": "Facial recognition system unable to distinguish between identical twins",
+      "evidence": [
+        {
+          "evidence_id": "2d814a85e2b5",
+          "evidence_sentence": "[442] Mashable experimented and found that the phone's Face ID couldn't distinguish between sets of identical twins: they could easily log into each other's devices.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d50f3eadd9f7",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasRisk",
+      "object_id": "91047f35df15",
+      "object_name": "Unauthorized access to locked devices by individuals with similar facial features",
+      "evidence": [
+        {
+          "evidence_id": "8a16e5933d37",
+          "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2c449516a47f",
+      "subject_id": "0471b6811dd5",
+      "subject_name": "Facial recognition system unable to distinguish between identical twins",
+      "predicate": "causes",
+      "object_id": "91047f35df15",
+      "object_name": "Unauthorized access to locked devices by individuals with similar facial features",
+      "evidence": [
+        {
+          "evidence_id": "8a16e5933d37",
+          "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442",
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "571d19b5999f",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasConsequence",
+      "object_id": "9cef0690a8d9",
+      "object_name": "Identical twins can bypass Face ID security and access each other's devices",
+      "evidence": [
+        {
+          "evidence_id": "2ba5a85d5c19",
+          "evidence_sentence": "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bdd8df74cf33",
+      "subject_id": "91047f35df15",
+      "subject_name": "Unauthorized access to locked devices by individuals with similar facial features",
+      "predicate": "leadsTo",
+      "object_id": "9cef0690a8d9",
+      "object_name": "Identical twins can bypass Face ID security and access each other's devices",
+      "evidence": [
+        {
+          "evidence_id": "2ba5a85d5c19",
+          "evidence_sentence": "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+          "source_doc_id": "448",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448",
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c81d53d46056",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasImpact",
+      "object_id": "e38303406b7a",
+      "object_name": "Compromise of device security and potential unauthorized access to personal data and financial services",
+      "evidence": [
+        {
+          "evidence_id": "05c56e5d0b3b",
+          "evidence_sentence": "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c16ffbef0222",
+      "subject_id": "9cef0690a8d9",
+      "subject_name": "Identical twins can bypass Face ID security and access each other's devices",
+      "predicate": "impacts",
+      "object_id": "e38303406b7a",
+      "object_name": "Compromise of device security and potential unauthorized access to personal data and financial services",
+      "evidence": [
+        {
+          "evidence_id": "05c56e5d0b3b",
+          "evidence_sentence": "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448",
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "37267c1f83ce",
+      "subject_id": "e38303406b7a",
+      "subject_name": "Compromise of device security and potential unauthorized access to personal data and financial services",
+      "predicate": "affects",
+      "object_id": "c4b903c38a96",
+      "object_name": "iPhone X users, particularly those with identical twins",
+      "evidence": [
+        {
+          "evidence_id": "cefa4111916b",
+          "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a5c7a474cf66",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "hasVulnerability",
+      "object_id": "4fe3c6a693ca",
+      "object_name": "Biometric authentication system lacks robustness to facial similarity between identical twins",
+      "evidence": [
+        {
+          "evidence_id": "3d62d1acebe6",
+          "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+          "source_doc_id": "444",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "448",
+        "446",
+        "445",
+        "444"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9774d6795a66",
+      "subject_id": "278e48eeef4a",
+      "subject_name": "iPhone X",
+      "predicate": "hasCapability",
+      "object_id": "9ddbcfdef262",
+      "object_name": "biometric security for device authentication",
+      "evidence": [
+        {
+          "evidence_id": "80c88a343495",
+          "evidence_sentence": "[446] This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+          "source_doc_id": "446",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "446"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "16e513b558ce",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasEvidence",
+      "object_id": "e49e8a44d710",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "517fd0dc5f2f",
+          "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+          "source_doc_id": "445",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "445"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "77e6f92c430f",
+      "subject_id": "pred_253",
+      "subject_name": "The iPhone X’s archnemesis: identical twins",
+      "predicate": "hasEvidence",
+      "object_id": "af1c4160ca27",
+      "object_name": "consumer electronics/security",
+      "evidence": [
+        {
+          "evidence_id": "178082d5298d",
+          "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+          "source_doc_id": "442",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "442"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "ba15058e67ed",
+      "subject_id": "pred_253",
+      "predicate": "hasReport",
+      "object_id": "442",
+      "evidence": {
+        "evidence_id": "5330b52f3625",
+        "evidence_sentence": "The iPhone X’s archnemesis: identical twins",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "049e1a3567a6",
+      "subject_id": "pred_253",
+      "predicate": "hasReport",
+      "object_id": "444",
+      "evidence": {
+        "evidence_id": "2768bc698431",
+        "evidence_sentence": "The iPhone X's Face ID can be fooled by identical twins",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d9dc54967751",
+      "subject_id": "pred_253",
+      "predicate": "hasReport",
+      "object_id": "445",
+      "evidence": {
+        "evidence_id": "4d3c3df4ea08",
+        "evidence_sentence": "A man was able to use Face ID to unlock his brother’s new iPhone X",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3d38e5f9c6af",
+      "subject_id": "pred_253",
+      "predicate": "hasReport",
+      "object_id": "446",
+      "evidence": {
+        "evidence_id": "060d90406ee6",
+        "evidence_sentence": "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b22eb17dc4c3",
+      "subject_id": "pred_253",
+      "predicate": "hasReport",
+      "object_id": "448",
+      "evidence": {
+        "evidence_id": "70dc653a9389",
+        "evidence_sentence": "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results",
+        "source_doc_id": "448",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1dc43ce98bb7",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "4be80010f3d2",
+        "evidence_sentence": "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "iPhone X",
+          "start": 29,
+          "end": 37
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "8bfd55885066",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "3394bfea2294",
+        "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "iPhone X",
+          "start": 185,
+          "end": 193
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "092cf5775897",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "90e6e028c217",
+        "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "iPhone X",
+          "start": 53,
+          "end": 61
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "a5a95cf4a941",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "7d77c80dd8a2",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "7d3a8ee8cd6e",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "448eaad081f7",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "eb0dda0dd610",
+      "evidence": {
+        "evidence_id": "bcfe9a729231",
+        "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 845,
+          "end": 853
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "06a69c2f5a9f",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "eb0dda0dd610",
+      "evidence": {
+        "evidence_id": "8b7e51d44120",
+        "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 959,
+          "end": 967
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "70a153750a26",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "a7f9b3d39f94",
+      "evidence": {
+        "evidence_id": "1f2ad65047b4",
+        "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Gizmodo",
+          "start": 2331,
+          "end": 2338
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "dface889e15f",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "bb348bf4011a",
+      "evidence": {
+        "evidence_id": "1380b22784b7",
+        "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Wall Street Journal",
+          "start": 2946,
+          "end": 2965
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "5090008b00be",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "3394bfea2294",
+        "evidence_sentence": "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Face ID",
+          "start": 204,
+          "end": 211
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "6fcfad5a6c67",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "64ec476713da",
+        "evidence_sentence": "The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k “invisible dots” onto a user’s face creating a 3D model that verifies identity and unlocks the screen.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Face ID",
+          "start": 352,
+          "end": 359
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c2dd114bd5da",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "90e6e028c217",
+        "evidence_sentence": "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "Face ID",
+          "start": 116,
+          "end": 123
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f2740673f4da",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "dcac46808b02",
+      "evidence": {
+        "evidence_id": "6e5ee261dca1",
+        "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "Phil Schiller",
+          "start": 2362,
+          "end": 2375
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "319707bb567f",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Windows Hello Facial recognition technology",
+          "start": 2868,
+          "end": 2911
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c1ef5b2b7faf",
+      "subject_id": "pred_253",
+      "predicate": "involvesAISystem",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "46c746f32d6e",
+        "evidence_sentence": "Apple’s Face ID, according to the company, is more secure than Touch ID.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Touch ID",
+          "start": 268,
+          "end": 276
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2d2d6c7a0e2d",
+      "subject_id": "pred_253",
+      "predicate": "involvesStakeholder",
+      "object_id": "04983ee3d07a",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Microsoft",
+          "start": 2849,
+          "end": 2858
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ec1458be6bfd",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "d958696fd8bb",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Face ID",
+          "start": 77,
+          "end": 84
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "325eed73f567",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "03f92503c0e9",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "facial recognition software",
+          "start": 742,
+          "end": 769
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2d8309a49469",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "03f92503c0e9",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "facial recognition",
+          "start": 141,
+          "end": 159
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f64ade4db432",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "03f92503c0e9",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Facial recognition technology",
+          "start": 2882,
+          "end": 2911
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "81464aa65573",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "d3eb345e0c44",
+      "evidence": {
+        "evidence_id": "19693d24fa14",
+        "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "machine learning",
+          "start": 594,
+          "end": 610
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fc629fda5a94",
+      "subject_id": "278e48eeef4a",
+      "predicate": "usesTechnique",
+      "object_id": "f18f45eecd11",
+      "evidence": {
+        "evidence_id": "b9d7bc76f58a",
+        "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "face-mapping technology",
+          "start": 138,
+          "end": 161
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "82a63b3d84ac",
+      "subject_id": "278e48eeef4a",
+      "predicate": "hasCapability",
+      "object_id": "51e52bac90b7",
+      "evidence": {
+        "evidence_id": "19693d24fa14",
+        "evidence_sentence": "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "detect changes in a user’s appearance",
+          "start": 614,
+          "end": 651
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4dfca65c70ff",
+      "subject_id": "278e48eeef4a",
+      "predicate": "hasCapability",
+      "object_id": "4988fac18b73",
+      "evidence": {
+        "evidence_id": "b9d7bc76f58a",
+        "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "unlock the phone",
+          "start": 179,
+          "end": 195
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1281c8f69e3e",
+      "subject_id": "278e48eeef4a",
+      "predicate": "hasCapability",
+      "object_id": "c6be1cbf0fb4",
+      "evidence": {
+        "evidence_id": "b9d7bc76f58a",
+        "evidence_sentence": "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "verify Apple Pay",
+          "start": 197,
+          "end": 213
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b63d84dd755a",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a97983d06c32",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "cd6229087a30",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "417e3d73120c",
+      "subject_id": "88232fbe5322",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "927c72f85cf9",
+      "subject_id": "88232fbe5322",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "263e812d2477",
+      "subject_id": "88232fbe5322",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "93038efbf390",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d5e6a8396b5a",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "a565582b8776",
+      "subject_id": "88232fbe5322",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "5650bec52b8b",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8c868b98dc83",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b5b20dd1e8b2",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleHeldBy",
+      "object_id": "47f14aab92a7",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fa83541974fa",
+      "subject_id": "08e416b9ab79",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "36e52410753d",
+      "subject_id": "08e416b9ab79",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c4814c606c04",
+      "subject_id": "08e416b9ab79",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "7dcc416a5fce",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "4f35e14ac319",
+        "evidence_sentence": "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Apple",
+          "start": 94,
+          "end": 99
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "6d3b62dffede",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "ccc2af9dd853",
+        "evidence_sentence": "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": {
+          "text": "Apple",
+          "start": 30,
+          "end": 35
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "c698fb008143",
+      "subject_id": "08e416b9ab79",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "18bb717a61d9",
+        "evidence_sentence": "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Apple",
+          "start": 5,
+          "end": 10
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d727b486b9c0",
+      "subject_id": "9086764fd088",
+      "predicate": "roleHeldBy",
+      "object_id": "eb0dda0dd610",
+      "evidence": {
+        "evidence_id": "bcfe9a729231",
+        "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 845,
+          "end": 853
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "40bad1569ae3",
+      "subject_id": "9086764fd088",
+      "predicate": "roleHeldBy",
+      "object_id": "eb0dda0dd610",
+      "evidence": {
+        "evidence_id": "8b7e51d44120",
+        "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 959,
+          "end": 967
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "78f5889cfb6f",
+      "subject_id": "9086764fd088",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "bcfe9a729231",
+        "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 845,
+          "end": 853
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3eae0a44c082",
+      "subject_id": "9086764fd088",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "8b7e51d44120",
+        "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 959,
+          "end": 967
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a36c8c8ba402",
+      "subject_id": "9086764fd088",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "bcfe9a729231",
+        "evidence_sentence": "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 845,
+          "end": 853
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "91aec71f957c",
+      "subject_id": "9086764fd088",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "8b7e51d44120",
+        "evidence_sentence": "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices.",
+        "source_doc_id": "442",
+        "mention_span": {
+          "text": "Mashable",
+          "start": 959,
+          "end": 967
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "6e98236623d8",
+      "subject_id": "405074bfbc73",
+      "predicate": "roleHeldBy",
+      "object_id": "a7f9b3d39f94",
+      "evidence": {
+        "evidence_id": "1f2ad65047b4",
+        "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Gizmodo",
+          "start": 2331,
+          "end": 2338
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "73bc682221d2",
+      "subject_id": "405074bfbc73",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "1f2ad65047b4",
+        "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Gizmodo",
+          "start": 2331,
+          "end": 2338
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2595f392f6a9",
+      "subject_id": "405074bfbc73",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "1f2ad65047b4",
+        "evidence_sentence": "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Gizmodo",
+          "start": 2331,
+          "end": 2338
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "221f65aa6432",
+      "subject_id": "2da2888c6aed",
+      "predicate": "roleHeldBy",
+      "object_id": "bb348bf4011a",
+      "evidence": {
+        "evidence_id": "1380b22784b7",
+        "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Wall Street Journal",
+          "start": 2946,
+          "end": 2965
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7c90d9207e5b",
+      "subject_id": "2da2888c6aed",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "1380b22784b7",
+        "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Wall Street Journal",
+          "start": 2946,
+          "end": 2965
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "959e447ee719",
+      "subject_id": "2da2888c6aed",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "1380b22784b7",
+        "evidence_sentence": "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": {
+          "text": "Wall Street Journal",
+          "start": 2946,
+          "end": 2965
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "e955c811566f",
+      "subject_id": "94b7b7253b66",
+      "predicate": "roleHeldBy",
+      "object_id": "dcac46808b02",
+      "evidence": {
+        "evidence_id": "6e5ee261dca1",
+        "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "Phil Schiller",
+          "start": 2362,
+          "end": 2375
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "14e641b4c410",
+      "subject_id": "94b7b7253b66",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "6e5ee261dca1",
+        "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "Phil Schiller",
+          "start": 2362,
+          "end": 2375
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "e0ecf63ead4b",
+      "subject_id": "94b7b7253b66",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "6e5ee261dca1",
+        "evidence_sentence": "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million.",
+        "source_doc_id": "448",
+        "mention_span": {
+          "text": "Phil Schiller",
+          "start": 2362,
+          "end": 2375
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "37716d08ef33",
+      "subject_id": "543264a833ba",
+      "predicate": "roleHeldBy",
+      "object_id": "04983ee3d07a",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Microsoft",
+          "start": 2849,
+          "end": 2858
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "e62813c4951d",
+      "subject_id": "543264a833ba",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_253",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Microsoft",
+          "start": 2849,
+          "end": 2858
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "f687dd74e6dc",
+      "subject_id": "543264a833ba",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "706861bd049f",
+        "evidence_sentence": "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail.",
+        "source_doc_id": "444",
+        "mention_span": {
+          "text": "Microsoft",
+          "start": 2849,
+          "end": 2858
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "6ed63923139a",
+      "subject_id": "47f14aab92a7",
+      "predicate": "develops",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "a5de86f81355",
+        "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "635caf73f303",
+      "subject_id": "47f14aab92a7",
+      "predicate": "develops",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "1f23a4718b5d",
+        "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "712476dd035d",
+      "subject_id": "47f14aab92a7",
+      "predicate": "develops",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "3fa0522fafe0",
+        "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1ffd3b98d187",
+      "subject_id": "47f14aab92a7",
+      "predicate": "develops",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "6f11f04bb9aa",
+        "evidence_sentence": "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0e5c06150a9d",
+      "subject_id": "47f14aab92a7",
+      "predicate": "provides",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "b92f0042a685",
+        "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "df7e4a869eab",
+      "subject_id": "47f14aab92a7",
+      "predicate": "provides",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "a9dc62cbbf28",
+        "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "17441f5b1b14",
+      "subject_id": "47f14aab92a7",
+      "predicate": "provides",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "26058d28cd5b",
+        "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1af22b0069f3",
+      "subject_id": "47f14aab92a7",
+      "predicate": "provides",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "eda35c617ff2",
+        "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "49738c25a90b",
+      "subject_id": "eb0dda0dd610",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "dbed03bb46fe",
+        "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f0e69106c3a2",
+      "subject_id": "eb0dda0dd610",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "29a5e1cc5281",
+        "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "eff849517511",
+      "subject_id": "eb0dda0dd610",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "bcdda82a16ca",
+        "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3f879d5d262f",
+      "subject_id": "eb0dda0dd610",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "2ec39f840f51",
+        "evidence_sentence": "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f7c9fa9bcd91",
+      "subject_id": "a7f9b3d39f94",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "0136f94ba1f5",
+        "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9bd9ad3d59d3",
+      "subject_id": "a7f9b3d39f94",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "a014f5eb1fcb",
+        "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f59da33666bb",
+      "subject_id": "a7f9b3d39f94",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "4a5452334916",
+        "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b521ce767bca",
+      "subject_id": "a7f9b3d39f94",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "cf910fd7c05a",
+        "evidence_sentence": "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "38f0b8759fb4",
+      "subject_id": "bb348bf4011a",
+      "predicate": "uses",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "5eb679819e20",
+        "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c4b65daf9cc8",
+      "subject_id": "bb348bf4011a",
+      "predicate": "uses",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "9bf78a0bb0bb",
+        "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "26838bb46ea8",
+      "subject_id": "bb348bf4011a",
+      "predicate": "uses",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "84ad051730ac",
+        "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0e1247880fb0",
+      "subject_id": "bb348bf4011a",
+      "predicate": "uses",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "f9bec765690a",
+        "evidence_sentence": "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c80346a217e4",
+      "subject_id": "dcac46808b02",
+      "predicate": "develops",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "cf889c53bb14",
+        "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "239301ecee3f",
+      "subject_id": "dcac46808b02",
+      "predicate": "develops",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "320f90259750",
+        "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "a24f0d1936e6",
+      "subject_id": "dcac46808b02",
+      "predicate": "develops",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "346a494d74fe",
+        "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "fc6cfc5907ac",
+      "subject_id": "dcac46808b02",
+      "predicate": "develops",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "6368e6dd6c71",
+        "evidence_sentence": "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "96078fd37924",
+      "subject_id": "04983ee3d07a",
+      "predicate": "provides",
+      "object_id": "278e48eeef4a",
+      "evidence": {
+        "evidence_id": "8232dfd911ab",
+        "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+        "source_doc_id": "447",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "0fe07ccb67a5",
+      "subject_id": "04983ee3d07a",
+      "predicate": "provides",
+      "object_id": "2c79c14a5da9",
+      "evidence": {
+        "evidence_id": "68db2c414f79",
+        "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+        "source_doc_id": "447",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "9d6696195e40",
+      "subject_id": "04983ee3d07a",
+      "predicate": "provides",
+      "object_id": "5f262c104b86",
+      "evidence": {
+        "evidence_id": "daf9884d9832",
+        "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+        "source_doc_id": "447",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "d64481907f22",
+      "subject_id": "04983ee3d07a",
+      "predicate": "provides",
+      "object_id": "18db4c9c6ddd",
+      "evidence": {
+        "evidence_id": "33b3555f8999",
+        "evidence_sentence": "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years.",
+        "source_doc_id": "447",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "900c25e85c9a",
+      "subject_id": "pred_253",
+      "predicate": "isRiskSourceFor",
+      "object_id": "0471b6811dd5",
+      "evidence": {
+        "evidence_id": "2d814a85e2b5",
+        "evidence_sentence": "[442] Mashable experimented and found that the phone's Face ID couldn't distinguish between sets of identical twins: they could easily log into each other's devices.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "8ab4907ad80b",
+      "subject_id": "pred_253",
+      "predicate": "hasRisk",
+      "object_id": "91047f35df15",
+      "evidence": {
+        "evidence_id": "8a16e5933d37",
+        "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7ffe82969ecd",
+      "subject_id": "0471b6811dd5",
+      "predicate": "causes",
+      "object_id": "91047f35df15",
+      "evidence": {
+        "evidence_id": "8a16e5933d37",
+        "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c71da2afb208",
+      "subject_id": "pred_253",
+      "predicate": "hasConsequence",
+      "object_id": "9cef0690a8d9",
+      "evidence": {
+        "evidence_id": "2ba5a85d5c19",
+        "evidence_sentence": "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+        "source_doc_id": "448",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "162f31721f0f",
+      "subject_id": "91047f35df15",
+      "predicate": "leadsTo",
+      "object_id": "9cef0690a8d9",
+      "evidence": {
+        "evidence_id": "2ba5a85d5c19",
+        "evidence_sentence": "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X.",
+        "source_doc_id": "448",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6c53c677c21a",
+      "subject_id": "pred_253",
+      "predicate": "hasImpact",
+      "object_id": "e38303406b7a",
+      "evidence": {
+        "evidence_id": "05c56e5d0b3b",
+        "evidence_sentence": "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "139f812b916b",
+      "subject_id": "9cef0690a8d9",
+      "predicate": "impacts",
+      "object_id": "e38303406b7a",
+      "evidence": {
+        "evidence_id": "05c56e5d0b3b",
+        "evidence_sentence": "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID).",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "97131e47dd41",
+      "subject_id": "e38303406b7a",
+      "predicate": "affects",
+      "object_id": "c4b903c38a96",
+      "evidence": {
+        "evidence_id": "cefa4111916b",
+        "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "400d1786ec3d",
+      "subject_id": "278e48eeef4a",
+      "predicate": "hasVulnerability",
+      "object_id": "4fe3c6a693ca",
+      "evidence": {
+        "evidence_id": "3d62d1acebe6",
+        "evidence_sentence": "[444] The iPhone X has a weakness for identical twins.",
+        "source_doc_id": "444",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "5766edb709b1",
+      "subject_id": "278e48eeef4a",
+      "predicate": "hasCapability",
+      "object_id": "9ddbcfdef262",
+      "evidence": {
+        "evidence_id": "80c88a343495",
+        "evidence_sentence": "[446] This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown.",
+        "source_doc_id": "446",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "9ec591117030",
+      "subject_id": "pred_253",
+      "predicate": "hasEvidence",
+      "object_id": "e49e8a44d710",
+      "evidence": {
+        "evidence_id": "517fd0dc5f2f",
+        "evidence_sentence": "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option.",
+        "source_doc_id": "445",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3d2567a619fd",
+      "subject_id": "pred_253",
+      "predicate": "hasEvidence",
+      "object_id": "af1c4160ca27",
+      "evidence": {
+        "evidence_id": "178082d5298d",
+        "evidence_sentence": "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.",
+        "source_doc_id": "442",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "iPhone X": 4,
+    "Face ID": 3,
+    "Apple Inc.": 1,
+    "Mashable": 2,
+    "Gizmodo": 1,
+    "Wall Street Journal": 1,
+    "facial recognition": 2,
+    "Apple": 4,
+    "machine learning": 1,
+    "detect changes in appearance": 1,
+    "Phil Schiller": 1,
+    "Apple Face ID": 1,
+    "face-mapping technology": 1,
+    "unlock the phone": 1,
+    "verify Apple Pay": 1,
+    "facial recognition technology": 1,
+    "Windows Hello": 1,
+    "Touch ID": 1,
+    "Microsoft": 1
+  },
+  "report_count": 5,
+  "first_seen": "2017-10-31T00:00:00Z",
+  "last_seen": "2017-11-05T00:00:00Z"
+}

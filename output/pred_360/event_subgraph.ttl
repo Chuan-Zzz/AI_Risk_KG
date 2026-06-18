@@ -1,0 +1,1383 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/2be6e7bd0dcb> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2121>,
+        <https://w3id.org/airo/incident/NewsReport/2198>,
+        <https://w3id.org/airo/incident/NewsReport/2199>,
+        <https://w3id.org/airo/incident/NewsReport/2200> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2198>,
+        <https://w3id.org/airo/incident/document/2199>,
+        <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Obligation/a6cc3368a209> a airo:Obligation ;
+    rdfs:label "conduct research into harmful effects on users with low digital literacy" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1484e9421fbd> ;
+    airo:hasReasoning "The evidence shows Facebook was obligated (likely internally or by emerging standards) to research the harmful effects of its platforms, as it conducted several studies." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/RoleAssignment/04c645a91cc1> a airo:RoleAssignment ;
+    rdfs:label "Facebook_AIDeployer" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9642ba946e83> ;
+    airo:hasReasoning "Facebook deploys and operates its recommendation algorithms on its platform to feed content to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d18cb6d9b222> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/186d621c889d> a airo:RoleAssignment ;
+    rdfs:label "Meta Platforms_AIDeployer" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3aa0db072e17> ;
+    airo:hasReasoning "Meta is the parent company of Facebook and is the entity deploying the platform and its AI systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c9a3d15a8796> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3407e35fdd82> a airo:RoleAssignment ;
+    rdfs:label "Wall Street Journal_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32cd1d4e7a1d> ;
+    airo:hasReasoning "The Wall Street Journal is a media organization reporting on the issue, making it a stakeholder in the broader discourse." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b4088baf81d0> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d0004bf974f> a airo:RoleAssignment ;
+    rdfs:label "Connections (The Oasis Institute)_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a656bb64da3> ;
+    airo:hasReasoning "This organization is likely involved in digital literacy initiatives related to the AI system's impact, making it a stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2b810c47f5b1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d665b4f0f64> a airo:RoleAssignment ;
+    rdfs:label "Facebook_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a30f1db014> ;
+    airo:hasReasoning "Facebook conducted internal research studies, indicating it develops and evaluates its own AI systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d18cb6d9b222> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8b8de4247780> a airo:RoleAssignment ;
+    rdfs:label "National Digital Inclusion Alliance_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0142fa7332b> ;
+    airo:hasReasoning "This organization is likely involved in digital inclusion efforts related to the AI system's impact, making it a stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e68ecc2eb553> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8dd29850515c> a airo:RoleAssignment ;
+    rdfs:label "United States Congress_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ed7c00d0309> ;
+    airo:hasReasoning "The U.S. Congress is a legislative and oversight body that received disclosures, fitting the Regulator role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7c9b263f1d6b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8fb820cb4bad> a airo:RoleAssignment ;
+    rdfs:label "Digital Literacy Working Group_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1792e062831> ;
+    airo:hasReasoning "This group is mentioned in the context of digital literacy research, likely as a stakeholder involved in or affected by such studies." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e7fe3c939a7c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a34d26027d01> a airo:RoleAssignment ;
+    rdfs:label "U.S. Congress_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bc21a1ec818> ;
+    airo:hasReasoning "The U.S. Congress is a legislative and oversight body that received disclosures, fitting the Regulator role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/eaf3fc0a6dbe> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b3ae61fc4a98> a airo:RoleAssignment ;
+    rdfs:label "Frances Haugen_AffectedActor" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/389c60dc816d> ;
+    airo:hasReasoning "As a whistleblower disclosing internal documents about platform harms, she is an actor affected by and responding to the AI system's issues." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/12aba614e8d1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c685e6bbed24> a airo:RoleAssignment ;
+    rdfs:label "Guy Rosen_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ce42a8e12dc> ;
+    airo:hasReasoning "As a Facebook executive commenting on the company's metrics, he is a stakeholder representing the deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e52826c34ebb> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cce31e68d515> a airo:RoleAssignment ;
+    rdfs:label "Securities and Exchange Commission_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b4e484781b3> ;
+    airo:hasReasoning "The SEC is a government regulatory body that received disclosures, fitting the Regulator role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6b39696adb7d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f5224f293e3f> a airo:RoleAssignment ;
+    rdfs:label "Frances Haugen_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/012a71c35a08> ;
+    airo:hasReasoning "She is a former employee and whistleblower, a key stakeholder but not fitting neatly into the other defined roles based solely on the provided evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_360> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/12aba614e8d1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> .
+
+<https://w3id.org/airo/incident/event/pred_360> a airo:AIRiskIncident ;
+    airo:firstSeen "2021-11-03T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2021-11-27T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00bb7d703341> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/503ea9f756d6> .
+
+<https://w3id.org/airo/incident/ks/0615e55acecb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/07053aafbf9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/070737137463> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e6aa2757d9> .
+
+<https://w3id.org/airo/incident/ks/0acf58b76097> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b7a6370067a> .
+
+<https://w3id.org/airo/incident/ks/0b68f4e58f4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59556b796b2d> .
+
+<https://w3id.org/airo/incident/ks/0cbcf4f218e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7de9921d914> .
+
+<https://w3id.org/airo/incident/ks/0ebede891f43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/275defa95c68> .
+
+<https://w3id.org/airo/incident/ks/11cad11dad41> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52e45b568253> .
+
+<https://w3id.org/airo/incident/ks/1452225a4885> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/14cbdcdd20dd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0181a3cac65a> .
+
+<https://w3id.org/airo/incident/ks/15b097fb637f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/15b2fa8aa857> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8d2696b20fe> .
+
+<https://w3id.org/airo/incident/ks/178bbcb8a04d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/1955278081a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f7e0b6ce26> .
+
+<https://w3id.org/airo/incident/ks/1a23d184abbc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d020104a0c59> .
+
+<https://w3id.org/airo/incident/ks/1a9c86b1c350> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/1c250866f041> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/2029f73e8350> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08fc353ea6e4> .
+
+<https://w3id.org/airo/incident/ks/208e0b8724ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/22c01f17e68a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40beca918b9f> .
+
+<https://w3id.org/airo/incident/ks/22de8e82bcd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/27dad689b35f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6fbc792f9f3> .
+
+<https://w3id.org/airo/incident/ks/2b9f4c17e094> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/3225fbc6026d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81b05decdca0> .
+
+<https://w3id.org/airo/incident/ks/3776002b8458> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/3a5140fdf48a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/3d208e4b9cf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6eeff7fefdab> .
+
+<https://w3id.org/airo/incident/ks/3d6b5765f7e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/4335455692f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/442a9711079c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08fc353ea6e4> .
+
+<https://w3id.org/airo/incident/ks/48d65d219f0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca479e490363> .
+
+<https://w3id.org/airo/incident/ks/4a1f221048d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed50a59b7cb1> .
+
+<https://w3id.org/airo/incident/ks/4c1d47c7a1cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fdddab90bef> .
+
+<https://w3id.org/airo/incident/ks/4ce79ef97fda> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59d2497672b5> .
+
+<https://w3id.org/airo/incident/ks/4dd38ac57637> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/4e08f3dd01ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/50a11c29ddd6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e98fb7904b1f> .
+
+<https://w3id.org/airo/incident/ks/51f8ffff19a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/5242db4989ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/52a535eabcd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/54515ef4118f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/5473e7604d00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59556b796b2d> .
+
+<https://w3id.org/airo/incident/ks/599d58f1452b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/59c89bfc766b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f705fe99b5a0> .
+
+<https://w3id.org/airo/incident/ks/5a306a9ae27d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e6aa2757d9> .
+
+<https://w3id.org/airo/incident/ks/605ae9cb56d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59d2497672b5> .
+
+<https://w3id.org/airo/incident/ks/60799559d408> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/6300064aa318> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/65abc2cfc4af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef6547095895> .
+
+<https://w3id.org/airo/incident/ks/67c1c9415751> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/67d0662241ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/166bd1c5be06> .
+
+<https://w3id.org/airo/incident/ks/689207bf8f26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40beca918b9f> .
+
+<https://w3id.org/airo/incident/ks/6977b381944e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52e45b568253> .
+
+<https://w3id.org/airo/incident/ks/6994852a9541> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/7cbbde95c39d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/7e06fffac373> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/80e2160e3f4c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/838d246ad3a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e98fb7904b1f> .
+
+<https://w3id.org/airo/incident/ks/8828cc3184ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52e45b568253> .
+
+<https://w3id.org/airo/incident/ks/8a571a0f8eae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5358d4d0849> .
+
+<https://w3id.org/airo/incident/ks/8b5dbd24087d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/254e326e12d0> .
+
+<https://w3id.org/airo/incident/ks/8bdd34af3e73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e98fb7904b1f> .
+
+<https://w3id.org/airo/incident/ks/8c3d225612ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/8e07939348e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f7e0b6ce26> .
+
+<https://w3id.org/airo/incident/ks/90d8e6b58de7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40beca918b9f> .
+
+<https://w3id.org/airo/incident/ks/92b38a92458b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40beca918b9f> .
+
+<https://w3id.org/airo/incident/ks/93931d24a63f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/97e352d626cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f680f2bee11> .
+
+<https://w3id.org/airo/incident/ks/9bd52b1381cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/9cacc36577a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca479e490363> .
+
+<https://w3id.org/airo/incident/ks/9decae41e716> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/9eba8a4dff2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/a40d1e428c66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/aad72332f600> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/ac3ab8dae4ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5241199a236e> .
+
+<https://w3id.org/airo/incident/ks/ad1d92d83caf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d38d5b693ea1> .
+
+<https://w3id.org/airo/incident/ks/b1bb7d21429e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33ed11aa263a> .
+
+<https://w3id.org/airo/incident/ks/b210e9da160a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f7e0b6ce26> .
+
+<https://w3id.org/airo/incident/ks/b27cf61f99bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c66a2d047b0d> .
+
+<https://w3id.org/airo/incident/ks/b35a949ed8c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/b7083c5affc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/b7d2e173f676> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52e45b568253> .
+
+<https://w3id.org/airo/incident/ks/b8c81b34284c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/bb55cf2b0efb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43b80a5369d3> .
+
+<https://w3id.org/airo/incident/ks/bc0637024a52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/bc15aeba45c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f7e0b6ce26> .
+
+<https://w3id.org/airo/incident/ks/c37b49c23dcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e6aa2757d9> .
+
+<https://w3id.org/airo/incident/ks/c386e511e197> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca479e490363> .
+
+<https://w3id.org/airo/incident/ks/ca8888649ce1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef6547095895> .
+
+<https://w3id.org/airo/incident/ks/cb0966202763> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/503ea9f756d6> .
+
+<https://w3id.org/airo/incident/ks/cb9a2a244ccb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7204eb03ae4> .
+
+<https://w3id.org/airo/incident/ks/cc5ae53cee28> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/d1a358da0175> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/d1bac81c535b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d534fe3cdd9b> .
+
+<https://w3id.org/airo/incident/ks/d3536361a95b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/d403bcf4b0f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29f011716b57> .
+
+<https://w3id.org/airo/incident/ks/d476d4c59c51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef6547095895> .
+
+<https://w3id.org/airo/incident/ks/d65ac69aa9d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e98fb7904b1f> .
+
+<https://w3id.org/airo/incident/ks/d95f9444c8ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e00babeea571> .
+
+<https://w3id.org/airo/incident/ks/da6c8f2349db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8aba2d08c2d3> .
+
+<https://w3id.org/airo/incident/ks/db0c83d74b49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/dbfd3d2a1883> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/de7879789c57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e78a7809fa92> .
+
+<https://w3id.org/airo/incident/ks/e02584ae56b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/e06b18aa5e76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/e443b5300ca5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e6aa2757d9> .
+
+<https://w3id.org/airo/incident/ks/e49a9db0ffca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e04ea979e03e> .
+
+<https://w3id.org/airo/incident/ks/e5224d7ed4b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/e8c9afb2caaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca479e490363> .
+
+<https://w3id.org/airo/incident/ks/e9cc9ced38ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/eaaf3bba229f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/ee9f355ebca3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef6547095895> .
+
+<https://w3id.org/airo/incident/ks/ef0786463c60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/f22c08ad089f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/ks/f375958af185> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/f48c143ae5de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> .
+
+<https://w3id.org/airo/incident/ks/f65b63b2a73e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1> .
+
+<https://w3id.org/airo/incident/ks/f69db61939e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b038dd2721a> .
+
+<https://w3id.org/airo/incident/ks/f8590e62dc66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/fcbd078a957a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> .
+
+<https://w3id.org/airo/incident/ks/fd4bfbdce493> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d928b74d60> .
+
+<https://w3id.org/airo/incident/ks/fdd707c35401> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/24d357eb964c> a airo:AILifecyclePhase ;
+    rdfs:label "monitoring" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f680f2bee11> ;
+    airo:hasReasoning "The evidence describes Facebook conducting internal research/surveys to assess the impact of its platforms on users, which is a monitoring activity." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/AITechnique/0d598eda35ce> a airo:AITechnique ;
+    rdfs:label "Facebook recommendation algorithms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook's algorithms" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33ed11aa263a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/AffectedActor/99319a852a5e> a airo:AffectedActor ;
+    rdfs:label "Users with low digital literacy skills, especially older adults and historically disadvantaged groups" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c66a2d047b0d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Documentation/f2d8a87f94d7> a airo:Documentation ;
+    rdfs:label "internal research studies and user surveys on digital literacy and platform impact" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/254e326e12d0> ;
+    airo:hasReasoning "The evidence explicitly mentions 'studies' conducted by Facebook, which are a form of documentation assessing AI system impact." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Domain/33cb4bdc61fc> a airo:Domain ;
+    rdfs:label "social media" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8d2696b20fe> ;
+    airo:hasReasoning "The evidence explicitly discusses the 'Facebook platform' and its content, placing the AI system in the social media domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> .
+
+<https://w3id.org/airo/incident/Purpose/bad05016e0f5> a airo:Purpose ;
+    rdfs:label "content recommendation and distribution" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fdddab90bef> ;
+    airo:hasReasoning "The evidence states that Facebook's algorithms 'fed' content to users, which is the core function of a recommendation and distribution system." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> .
+
+<https://w3id.org/airo/incident/RiskSource/688effb55dab> a airo:RiskSource ;
+    rdfs:label "Facebook recommendation algorithms and AI systems" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/d8da285030e1> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d38d5b693ea1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/TechnicalDocumentation/59b394e2c23b> a airo:TechnicalDocumentation ;
+    rdfs:label "Facebook Community Standards Enforcement Report" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/166bd1c5be06> ;
+    airo:hasReasoning "The evidence references a specific metric ('prevalence') and a report from a Facebook executive, implying the existence of technical documentation like an enforcement report." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/VerificationTest/f3da8c242a1f> a airo:VerificationTest ;
+    rdfs:label "5-question survey to assess users' digital literacy skills" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d534fe3cdd9b> ;
+    airo:hasReasoning "The survey is a form of testing to understand user capabilities, which is part of verifying the system's impact on different user groups." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Vulnerability/fcd8598b5f96> a airo:Vulnerability ;
+    rdfs:label "Low digital literacy skills among a significant portion of users" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43b80a5369d3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/evidence/012a71c35a08> a airo:Evidence ;
+    airo:evidenceText "[2198] leaked internal research material courtesy of whistleblower Frances Haugen has revealed a history of questionable choices made by the company." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/02ede8c0e7e8> a airo:Evidence ;
+    airo:evidenceText "Why Some People See More Disturbing Content on Facebook Than Others, According to Leaked Documents" ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/1484e9421fbd> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms on people with low digital literacy skills..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/1b4e484781b3> a airo:Evidence ;
+    airo:evidenceText "[2121] As per the documents furnished to the Securities and Exchange Commission (SEC) and Congress..." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/275defa95c68> a airo:Evidence ;
+    airo:evidenceText "[2200] Only a small fraction of posts on Facebook – less than one-tenth of one percent, according to company estimates – show violating content, said Drew Pusateri, a spokesperson for Facebook's parent company, Meta." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/29a30f1db014> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/29f011716b57> a airo:Evidence ;
+    airo:evidenceText "[2121] The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/2bc21a1ec818> a airo:Evidence ;
+    airo:evidenceText "[2199] This reporting is based on Haugen’s disclosures to the Securities and Exchange Commission (SEC), which were also provided to Congress..." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/32cd1d4e7a1d> a airo:Evidence ;
+    airo:evidenceText "[2199] In an October 17 installment of its “Facebook Files” series of investigative reports on the Facebook Papers, the Wall Street Journal detailed..." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/389c60dc816d> a airo:Evidence ;
+    airo:evidenceText "[2121] As per the documents furnished to the Securities and Exchange Commission (SEC) and Congress by attorneys for Frances Haugen, a former Facebook employee..." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/3aa0db072e17> a airo:Evidence ;
+    airo:evidenceText "[2200] Only a small fraction of posts on Facebook – less than one-tenth of one percent, according to company estimates – show violating content, said Drew Pusateri, a spokesperson for Facebook's parent company, Meta." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/40c6db84fcab> a airo:Evidence ;
+    airo:evidenceText "Facebook’s Latest Scandal: Exposing Low Digitally Skilled Users to More Violent and Adult Content" ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/4a656bb64da3> a airo:Evidence ;
+    airo:evidenceText "[2198] The company — which now goes by the name Meta — conducted a user survey a couple of years ago with the goal of analyzing the digital literacy skills of its audience." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/4b14e32fb510> a airo:Evidence ;
+    airo:evidenceText "Facebook Exposed Its Less Digital Conversant Audience To Graphic Content" ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/5241199a236e> a airo:Evidence ;
+    airo:evidenceText "[2121] The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/5ce42a8e12dc> a airo:Evidence ;
+    airo:evidenceText "[2199] ...Facebook’s vice president for Integrity Guy Rosen reemphasizing that the company views “prevalence”—the percentage of viewed content that consists of hate speech—as the most meaningful hate speech metric." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/6eeff7fefdab> a airo:Evidence ;
+    airo:evidenceText "[2200] Only a small fraction of posts on Facebook – less than one-tenth of one percent, according to company estimates – show violating content, said Drew Pusateri, a spokesperson for Facebook's parent company, Meta." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/7b8543788dea> a airo:Evidence ;
+    airo:evidenceText "the Wall Street Journal detailed the extent to which Facebook’s artificial-intelligence systems are tripped up by various forms of disturbing content." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/8ed7c00d0309> a airo:Evidence ;
+    airo:evidenceText "[2121] As per the documents furnished to the Securities and Exchange Commission (SEC) and Congress..." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/9642ba946e83> a airo:Evidence ;
+    airo:evidenceText "[2121] The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/9862b818a6bd> a airo:Evidence ;
+    airo:evidenceText "The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms on people with low digital literacy skills, according to documents provided to the Securities and Exchange Commission and Congress by attorneys for Frances Haugen, a former Facebook employee." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/d020104a0c59> a airo:Evidence ;
+    airo:evidenceText "[2200] Only a small fraction of posts on Facebook – less than one-tenth of one percent, according to company estimates – show violating content, said Drew Pusateri, a spokesperson for Facebook's parent company, Meta." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/d34780f80039> a airo:Evidence ;
+    airo:evidenceText "Facebook fed posts with violence and nudity to people with low digital literacy" ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/e00babeea571> a airo:Evidence ;
+    airo:evidenceText "[2121] The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/e04ea979e03e> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/e1792e062831> a airo:Evidence ;
+    airo:evidenceText "[2198] The company — which now goes by the name Meta — conducted a user survey a couple of years ago with the goal of analyzing the digital literacy skills of its audience." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/e78a7809fa92> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/ed50a59b7cb1> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/f0142fa7332b> a airo:Evidence ;
+    airo:evidenceText "[2198] The company — which now goes by the name Meta — conducted a user survey a couple of years ago with the goal of analyzing the digital literacy skills of its audience." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/Consequence/67f8371fadbe> a airo:Consequence ;
+    rdfs:label "Disproportionate exposure to disturbing content (graphic violence, sexual content, etc.)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08fc353ea6e4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/671ce8c16522> .
+
+<https://w3id.org/airo/incident/Impact/671ce8c16522> a airo:Impact ;
+    rdfs:label "Potential harm to individuals with low digital literacy, particularly those historically disadvantaged" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/99319a852a5e> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/503ea9f756d6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/NewsReport/2121> a airo:NewsReport ;
+    rdfs:label "Facebook’s Latest Scandal: Exposing Low Digitally Skilled Users to More Violent and Adult Content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook has been dealing with scandal after scandal for some time and has come under intense scrutiny from global lawmakers and regulators. According to a recent report, users with low digital litera" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6fbc792f9f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> .
+
+<https://w3id.org/airo/incident/NewsReport/2198> a airo:NewsReport ;
+    rdfs:label "Facebook Exposed Its Less Digital Conversant Audience To Graphic Content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "[Facebook's](https://screenrant.com/tag/facebook) track record with content available on its platform is nothing worth envying, but for users who are not well-versed with social media tools, the platf" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0181a3cac65a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> .
+
+<https://w3id.org/airo/incident/NewsReport/2199> a airo:NewsReport ;
+    rdfs:label "Why Some People See More Disturbing Content on Facebook Than Others, According to Leaked Documents" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Some users are significantly more likely to see disturbing content on [Facebook](https://time.com/6111389/facebook-new-name-meta/) than others, according to internal company documents leaked by whistl" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b7a6370067a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/NewsReport/2200> a airo:NewsReport ;
+    rdfs:label "Facebook fed posts with violence and nudity to people with low digital literacy" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """*   Facebook studies said algorithms harmed users with low tech skills with repeated disturbing content.
+*   Some users did not understand how content came to appear in their feeds or how to control i""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8aba2d08c2d3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Risk/d8da285030e1> a airo:Risk ;
+    rdfs:label "Risk of exposure to disturbing content for users with low digital literacy" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59556b796b2d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/67f8371fadbe> .
+
+<https://w3id.org/airo/incident/Stakeholder/2b810c47f5b1> a airo:Stakeholder ;
+    rdfs:label "Connections (The Oasis Institute)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Connections" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/428dee0883c5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Stakeholder/6b39696adb7d> a airo:Stakeholder ;
+    rdfs:label "Securities and Exchange Commission" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Securities and Exchange Commission (SEC)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b>,
+        <https://w3id.org/airo/incident/evidence/528a0affd5e7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2199> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/7c9b263f1d6b> a airo:Stakeholder ;
+    rdfs:label "United States Congress" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Congress" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121> .
+
+<https://w3id.org/airo/incident/Stakeholder/b4088baf81d0> a airo:Stakeholder ;
+    rdfs:label "Wall Street Journal" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Wall Street Journal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef6547095895> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/Stakeholder/c9a3d15a8796> a airo:Stakeholder ;
+    rdfs:label "Meta Platforms" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/8a4c5c227402>,
+        <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1>,
+        <https://w3id.org/airo/incident/AISystem/d8b1d9d06095> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Meta" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40beca918b9f>,
+        <https://w3id.org/airo/incident/evidence/52e45b568253>,
+        <https://w3id.org/airo/incident/evidence/ca479e490363> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198>,
+        <https://w3id.org/airo/incident/document/2199>,
+        <https://w3id.org/airo/incident/document/2200> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/e52826c34ebb> a airo:Stakeholder ;
+    rdfs:label "Guy Rosen" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Guy Rosen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e98fb7904b1f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/Stakeholder/e68ecc2eb553> a airo:Stakeholder ;
+    rdfs:label "National Digital Inclusion Alliance" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Digital Inclusion Alliance" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e6aa2757d9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/Stakeholder/e7fe3c939a7c> a airo:Stakeholder ;
+    rdfs:label "Digital Literacy Working Group" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Digital Literacy Working group" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f7e0b6ce26> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/Stakeholder/eaf3fc0a6dbe> a airo:Stakeholder ;
+    rdfs:label "U.S. Congress" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Congress" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/528a0affd5e7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/Standard/35a5d929e781> a airo:Standard ;
+    rdfs:label "Facebook Community Standards Enforcement Report" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Community Standards Enforcement Report" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59d2497672b5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2199> .
+
+<https://w3id.org/airo/incident/evidence/0181a3cac65a> a airo:Evidence ;
+    airo:evidenceText "Facebook Exposed Its Less Digital Conversant Audience To Graphic Content" ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/0f680f2bee11> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms on people with low digital literacy skills..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/166bd1c5be06> a airo:Evidence ;
+    airo:evidenceText "[2199] ...the percentage of viewed content that consists of hate speech—as the most meaningful hate speech metric." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/254e326e12d0> a airo:Evidence ;
+    airo:evidenceText "[2200] The studies are among several conducted by Facebook in recent years into the damaging effects of its platforms on people with low digital literacy skills..." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/33ed11aa263a> a airo:Evidence ;
+    airo:evidenceText "The researchers then compared the users' scores to the types of content Facebook's algorithms fed them over a 30-day period." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/3b7a6370067a> a airo:Evidence ;
+    airo:evidenceText "Why Some People See More Disturbing Content on Facebook Than Others, According to Leaked Documents" ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/43b80a5369d3> a airo:Evidence ;
+    airo:evidenceText "A survey of 67,000 Facebook users across 17 countries conducted by the Digital Literacy Working group found that at least one fourth and up to one third of the global Facebook population lacks key digital skills" ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/6fdddab90bef> a airo:Evidence ;
+    airo:evidenceText "[2121] The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/81b05decdca0> a airo:Evidence ;
+    airo:evidenceText "The researchers then compared the users’ scores with the kind of content being fed by Facebook’s algorithms over a 30-day period." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/8aba2d08c2d3> a airo:Evidence ;
+    airo:evidenceText "Facebook fed posts with violence and nudity to people with low digital literacy" ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/b8d2696b20fe> a airo:Evidence ;
+    airo:evidenceText "[2198] Facebook's track record with content available on its platform..." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/c5358d4d0849> a airo:Evidence ;
+    airo:evidenceText "Sister platform Instagram is no stranger to the problem either, as it recently received a stern warning for allowing the online drugs trade to thrive." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/c66a2d047b0d> a airo:Evidence ;
+    airo:evidenceText "Amy VanDeVelde is the national technology program director for Connections, a branch of The Oasis Institute, a St. Louis-based nonprofit that teaches older adults digital literacy and cybersecurity skills." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/c6fbc792f9f3> a airo:Evidence ;
+    airo:evidenceText "Facebook’s Latest Scandal: Exposing Low Digitally Skilled Users to More Violent and Adult Content" ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/d38d5b693ea1> a airo:Evidence ;
+    airo:evidenceText "the Wall Street Journal detailed the extent to which Facebook’s artificial-intelligence systems are tripped up by various forms of disturbing content." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/d534fe3cdd9b> a airo:Evidence ;
+    airo:evidenceText "[2200] Facebook researchers conducted a five-question survey designed to assess its users' digital literacy skills." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/f705fe99b5a0> a airo:Evidence ;
+    airo:evidenceText "Facebook's track record with content available on its platform is nothing worth envying, but for users who are not well-versed with social media tools, the platform dished out more disturbing content that could be anything from graphically violent to sexual in nature." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/f7de9921d914> a airo:Evidence ;
+    airo:evidenceText "Users with lower digital literacy tended to heavily use Facebook's Watch, a curated feed of popular and viral videos." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/Stakeholder/12aba614e8d1> a airo:Stakeholder ;
+    rdfs:label "Frances Haugen" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Frances Haugen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d0188a035b>,
+        <https://w3id.org/airo/incident/evidence/8b038dd2721a>,
+        <https://w3id.org/airo/incident/evidence/9862b818a6bd>,
+        <https://w3id.org/airo/incident/evidence/c7204eb03ae4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2198>,
+        <https://w3id.org/airo/incident/document/2199>,
+        <https://w3id.org/airo/incident/document/2200> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/d18cb6d9b222> a airo:Stakeholder ;
+    rdfs:label "Facebook" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/8a4c5c227402>,
+        <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1>,
+        <https://w3id.org/airo/incident/AISystem/d8b1d9d06095> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/8a4c5c227402>,
+        <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1>,
+        <https://w3id.org/airo/incident/AISystem/d8b1d9d06095> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/810bad1ba0e1>,
+        <https://w3id.org/airo/incident/evidence/a5d928b74d60> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2200> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/08fc353ea6e4> a airo:Evidence ;
+    airo:evidenceText "Some users are significantly more likely to see disturbing content on Facebook than others" ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/503ea9f756d6> a airo:Evidence ;
+    airo:evidenceText "it is those who have been who've been harmed in the past in structurally, historically, systemic kinds of ways" ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/59556b796b2d> a airo:Evidence ;
+    airo:evidenceText "the harmful effects that Facebook’s platforms pose to people with low digital literacy skills." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/59d2497672b5> a airo:Evidence ;
+    airo:evidenceText "Facebook’s spokesperson also pointed TIME to Facebook’s most recent Community Standards Enforcement Report, which included reports on violence and graphic content, adult nudity and sexual activity, and hate speech." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/AISystem/8a4c5c227402> a airo:AISystem ;
+    rdfs:label "Instagram" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5358d4d0849> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2198> .
+
+<https://w3id.org/airo/incident/AISystem/d8b1d9d06095> a airo:AISystem ;
+    rdfs:label "Facebook Watch" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook's Watch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7de9921d914> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2200> .
+
+<https://w3id.org/airo/incident/evidence/40beca918b9f> a airo:Evidence ;
+    airo:evidenceText "Only a small fraction of posts on Facebook – less than one-tenth of one percent, according to company estimates – show violating content, said Drew Pusateri, a spokesperson for Facebook's parent company, Meta." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/52e45b568253> a airo:Evidence ;
+    airo:evidenceText "A 2019 report from Facebook’s Civic Integrity team details the results of a study that measured the impact of removing certain integrity protections from some users’ News Feeds." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/73f7e0b6ce26> a airo:Evidence ;
+    airo:evidenceText "A survey of 67,000 Facebook users across 17 countries conducted by the Digital Literacy Working group found that at least one fourth and up to one third of the global Facebook population lacks key digital skills while at least one sixth of the U.S. Facebook population has medium or low digital skills." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/75e6aa2757d9> a airo:Evidence ;
+    airo:evidenceText "When you think about who's being harmed by the choices that Facebook and other platforms are making, it is those who have been who've been harmed in the past in structurally, historically, systemic kinds of ways, said Angela Siefer, executive director of the National Digital Inclusion Alliance, an advocacy group that aims to bridge the digital divide in part through digital literacy education." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/ca479e490363> a airo:Evidence ;
+    airo:evidenceText "The company — which now goes by the name Meta — conducted a user survey a couple of years ago with the goal of analyzing the digital literacy skills of its audience." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/e98fb7904b1f> a airo:Evidence ;
+    airo:evidenceText "Regarding hate speech, Facebook’s spokesperson directed TIME to an October 17 Facebook Newsroom post from Facebook’s vice president for Integrity Guy Rosen reemphasizing that the company views “prevalence”—the percentage of viewed content that consists of hate speech—as the most meaningful hate speech metric." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/ef6547095895> a airo:Evidence ;
+    airo:evidenceText "In an October 17 installment of its “Facebook Files” series of investigative reports on the Facebook Papers, the Wall Street Journal detailed the extent to which Facebook’s artificial-intelligence systems are tripped up by various forms of disturbing content." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/810bad1ba0e1> a airo:Evidence ;
+    airo:evidenceText "Facebook has been dealing with scandal after scandal for some time and has come under intense scrutiny from global lawmakers and regulators." ;
+    airo:sourceDocId "2121" .
+
+<https://w3id.org/airo/incident/evidence/8b038dd2721a> a airo:Evidence ;
+    airo:evidenceText "Throughout the past few weeks, leaked internal research material courtesy of whistleblower Frances Haugen has revealed a history of questionable choices made by the company." ;
+    airo:sourceDocId "2198" .
+
+<https://w3id.org/airo/incident/evidence/a5d928b74d60> a airo:Evidence ;
+    airo:evidenceText "Facebook researchers conducted a five-question survey designed to assess its users' digital literacy skills." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/428dee0883c5> a airo:Evidence ;
+    airo:evidenceText "Amy VanDeVelde is the national technology program director for Connections, a branch of The Oasis Institute, a St. Louis-based nonprofit that teaches older adults digital literacy and cybersecurity skills." ;
+    airo:sourceDocId "2200" .
+
+<https://w3id.org/airo/incident/evidence/528a0affd5e7> a airo:Evidence ;
+    airo:evidenceText "This reporting is based on Haugen’s disclosures to the Securities and Exchange Commission (SEC), which were also provided to Congress in redacted form by her legal team." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/evidence/c7204eb03ae4> a airo:Evidence ;
+    airo:evidenceText "Some users are significantly more likely to see disturbing content on Facebook than others, according to internal company documents leaked by whistleblower Frances Haugen." ;
+    airo:sourceDocId "2199" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_360> a airo:AIRiskIncident ;
+    rdfs:label "Facebook Exposed Its Less Digital Conversant Audience To Graphic Content" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/67f8371fadbe> ;
+    airo:hasDescription "pred_360" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/24d357eb964c>,
+        <https://w3id.org/airo/incident/Domain/33cb4bdc61fc>,
+        <https://w3id.org/airo/incident/evidence/02ede8c0e7e8>,
+        <https://w3id.org/airo/incident/evidence/40c6db84fcab>,
+        <https://w3id.org/airo/incident/evidence/4b14e32fb510>,
+        <https://w3id.org/airo/incident/evidence/d34780f80039> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/671ce8c16522> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2121>,
+        <https://w3id.org/airo/incident/NewsReport/2198>,
+        <https://w3id.org/airo/incident/NewsReport/2199>,
+        <https://w3id.org/airo/incident/NewsReport/2200> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/d8da285030e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2198>,
+        <https://w3id.org/airo/incident/document/2199>,
+        <https://w3id.org/airo/incident/document/2200> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/8a4c5c227402>,
+        <https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1>,
+        <https://w3id.org/airo/incident/AISystem/d8b1d9d06095> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/12aba614e8d1>,
+        <https://w3id.org/airo/incident/Stakeholder/2b810c47f5b1>,
+        <https://w3id.org/airo/incident/Stakeholder/6b39696adb7d>,
+        <https://w3id.org/airo/incident/Stakeholder/7c9b263f1d6b>,
+        <https://w3id.org/airo/incident/Stakeholder/b4088baf81d0>,
+        <https://w3id.org/airo/incident/Stakeholder/c9a3d15a8796>,
+        <https://w3id.org/airo/incident/Stakeholder/d18cb6d9b222>,
+        <https://w3id.org/airo/incident/Stakeholder/e52826c34ebb>,
+        <https://w3id.org/airo/incident/Stakeholder/e68ecc2eb553>,
+        <https://w3id.org/airo/incident/Stakeholder/e7fe3c939a7c>,
+        <https://w3id.org/airo/incident/Stakeholder/eaf3fc0a6dbe> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/688effb55dab> ;
+    airo:specifies <https://w3id.org/airo/incident/Standard/35a5d929e781> .
+
+<https://w3id.org/airo/incident/AISystem/c7b9dc8f03e1> a airo:AISystem ;
+    rdfs:label "Facebook" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:conformsToStandard <https://w3id.org/airo/incident/Standard/35a5d929e781> ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/bad05016e0f5> ;
+    airo:hasDescription "Facebook’s algorithms" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/f2d8a87f94d7>,
+        <https://w3id.org/airo/incident/TechnicalDocumentation/59b394e2c23b>,
+        <https://w3id.org/airo/incident/VerificationTest/f3da8c242a1f>,
+        <https://w3id.org/airo/incident/evidence/7b8543788dea>,
+        <https://w3id.org/airo/incident/evidence/81b05decdca0>,
+        <https://w3id.org/airo/incident/evidence/c7204eb03ae4>,
+        <https://w3id.org/airo/incident/evidence/f705fe99b5a0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2121>,
+        <https://w3id.org/airo/incident/document/2198>,
+        <https://w3id.org/airo/incident/document/2199> ;
+    airo:hasSupportCount 3 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/fcd8598b5f96> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/0d598eda35ce> .
+
+<https://w3id.org/airo/incident/evidence/01d0188a035b> a airo:Evidence ;
+    airo:evidenceText "As per the documents furnished to the Securities and Exchange Commission (SEC) and Congress by attorneys for Frances Haugen, a former Facebook employee, the studies are some of several conducted in the past few years into the harmful effects that Facebook’s platforms pose to people with low digital literacy skills." ;
+    airo:sourceDocId "2121" .
+

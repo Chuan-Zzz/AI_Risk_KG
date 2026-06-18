@@ -1,0 +1,4119 @@
+{
+  "event_id": "pred_380",
+  "incident_node": {
+    "id": "pred_380",
+    "name": "Chinese facial recognition confuses bus ad with jaywalker",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_380",
+    "evidence": [
+      {
+        "evidence_id": "a1ea509b7596",
+        "evidence_sentence": "Chinese AI caught out by face in bus ad",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "16049578595e",
+        "evidence_sentence": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+        "source_doc_id": "503",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "d19b35be1393",
+        "evidence_sentence": "Chinese facial recognition confuses bus ad with jaywalker",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "0d8ce00a9766",
+        "evidence_sentence": "Facial recognition system mistakes bus ad for jaywalker",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "1174",
+      "503",
+      "5069",
+      "521"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_380",
+      "name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_380",
+      "evidence": [
+        {
+          "evidence_id": "a1ea509b7596",
+          "evidence_sentence": "Chinese AI caught out by face in bus ad",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "16049578595e",
+          "evidence_sentence": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+          "source_doc_id": "503",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "d19b35be1393",
+          "evidence_sentence": "Chinese facial recognition confuses bus ad with jaywalker",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "0d8ce00a9766",
+          "evidence_sentence": "Facial recognition system mistakes bus ad for jaywalker",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174",
+        "503",
+        "5069",
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a4dbe09cb9cf",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174",
+        "503",
+        "521"
+      ],
+      "attributes": {
+        "report_count": 3
+      },
+      "reasoning": null
+    },
+    {
+      "id": "2b50c7da4793",
+      "name": "aiaaic",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiaaic",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {
+        "report_count": 1
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1174",
+      "name": "Chinese AI caught out by face in bus ad",
+      "entity_type": "NewsReport",
+      "description": "Over-zealous AI systems in China have accused a woman pictured on the side of a bus of jaywalking.\n\nThe face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a bi",
+      "evidence": [
+        {
+          "evidence_id": "0d44ab789b41",
+          "evidence_sentence": "Chinese AI caught out by face in bus ad",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {
+        "url": "https://www.bbc.com/news/technology-46357004",
+        "publish_time": "2018-11-27T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "503",
+      "name": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+      "entity_type": "NewsReport",
+      "description": "It's not a big deal to jaywalk in India. Eight times out of ten, no one will even notice. But if you jaywalk in China, you might have to face something extremely embarrassing. While China has moved ah",
+      "evidence": [
+        {
+          "evidence_id": "22b812ee371a",
+          "evidence_sentence": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+          "source_doc_id": "503",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {
+        "url": "https://www.indiatimes.com/trending/wtf/china-s-ai-camera-mistakes-ceo-s-photo-on-moving-bus-for-real-person-shames-her-for-jaywalking-357534.html",
+        "publish_time": "2018-11-28T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "5069",
+      "name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "entity_type": "NewsReport",
+      "description": "There are many criticisms you can level at China's growing reliance on facial recognition, including its absolute faith in technology: what happens if there's a false positive? Unfortunately, we just ",
+      "evidence": [
+        {
+          "evidence_id": "3a9849c98165",
+          "evidence_sentence": "Chinese facial recognition confuses bus ad with jaywalker",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {
+        "url": "https://www.engadget.com/2018-11-22-chinese-facial-recognition-confuses-bus-ad-with-jaywalker.html",
+        "publish_time": "2018-11-22",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "521",
+      "name": "Facial recognition system mistakes bus ad for jaywalker",
+      "entity_type": "NewsReport",
+      "description": "NurPhoto\n\nChina is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.\n\nA camera at an intersection in the eastern city",
+      "evidence": [
+        {
+          "evidence_id": "37ed5712f268",
+          "evidence_sentence": "Facial recognition system mistakes bus ad for jaywalker",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {
+        "url": "https://www.cnet.com/news/facial-recognition-system-mistakes-bus-ad-for-jaywalker/",
+        "publish_time": "2018-11-23T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "73088900eacc",
+      "name": "facial recognition",
+      "entity_type": "AITechnique",
+      "description": "facial recognition",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "facial recognition",
+            "start": 71,
+            "end": 89
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "9288a7480835",
+          "evidence_sentence": "China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "facial recognition systems",
+            "start": 45,
+            "end": 71
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "38730bc9b19b",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "facial recognition technology",
+            "start": 236,
+            "end": 265
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2e383475d159",
+      "name": "Dong Mingzhu",
+      "entity_type": "Stakeholder",
+      "description": "Dong Mingzhu",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 383,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "26a130ba9ce3",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 238,
+            "end": 250
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "188d8767122f",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "f44d9dc6ed3c",
+          "evidence_sentence": "In a hilarious incident, Dong Mingzhu, chairwoman of China’s biggest maker of air conditioners Gree Electric Appliances, found her face on a huge screen along a street in the city of Ningbo.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 370,
+            "end": 382
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 4,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e2f0d8647d25",
+      "name": "Ningbo Traffic Police",
+      "entity_type": "Stakeholder",
+      "description": "Police in the city of Ningbo",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Police in the city of Ningbo",
+            "start": 234,
+            "end": 262
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Police in Ningbo",
+            "start": 856,
+            "end": 872
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cbde59e512cf",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Ningbo police",
+            "start": 780,
+            "end": 793
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1282e30c7bad",
+          "evidence_sentence": "Later, the traffic police of Ningbo recognised the mistake and deleted the image.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "traffic police of Ningbo",
+            "start": 776,
+            "end": 800
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1c80cf8f9ad7",
+      "name": "Gree Electric Appliances",
+      "entity_type": "Stakeholder",
+      "description": "Gree Electric Appliances",
+      "evidence": [
+        {
+          "evidence_id": "a8dd7f7362aa",
+          "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 694,
+            "end": 718
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 977,
+            "end": 1001
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "fb8984ac7242",
+          "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric",
+            "start": 977,
+            "end": 990
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "f44d9dc6ed3c",
+          "evidence_sentence": "In a hilarious incident, Dong Mingzhu, chairwoman of China’s biggest maker of air conditioners Gree Electric Appliances, found her face on a huge screen along a street in the city of Ningbo.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 440,
+            "end": 464
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "503",
+        "1174",
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f152a21f968b",
+      "name": "gait recognition",
+      "entity_type": "AITechnique",
+      "description": "gait recognition",
+      "evidence": [
+        {
+          "evidence_id": "a4d8cacd3739",
+          "evidence_sentence": "Earlier this month, it was reported that Chinese authorities have started using \"gait recognition\" software -- artificial intelligence that identifies people by their walk -- in Beijing and Shanghai.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "gait recognition",
+            "start": 1147,
+            "end": 1163
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2846d133574d",
+      "name": "jaywalker-spotting system",
+      "entity_type": "AISystem",
+      "description": "AI-based spotting system",
+      "evidence": [
+        {
+          "evidence_id": "a9f64ff6928d",
+          "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "AI-based spotting system",
+            "start": 261,
+            "end": 285
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "12a5595631d2",
+          "evidence_sentence": "Police said they had deleted the photo and would update the jaywalker-spotting system to avoid similar mistakes.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "jaywalker-spotting system",
+            "start": 416,
+            "end": 441
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "242b7551eebf",
+      "name": "automatic camera-based systems",
+      "entity_type": "AISystem",
+      "description": "automatic camera-based systems",
+      "evidence": [
+        {
+          "evidence_id": "d126a7e53624",
+          "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "automatic camera-based systems",
+            "start": 621,
+            "end": 651
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "682a242f6039",
+      "name": "automatic camera-based systems",
+      "entity_type": "AITechnique",
+      "description": "automatic camera-based systems",
+      "evidence": [
+        {
+          "evidence_id": "d126a7e53624",
+          "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "automatic camera-based systems",
+            "start": 621,
+            "end": 651
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "45d954e457bb",
+      "name": "differentiate between ads and people",
+      "entity_type": "AICapability",
+      "description": "AI-system could differentiate between ads and people",
+      "evidence": [
+        {
+          "evidence_id": "5ee8bd082408",
+          "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "AI-system could differentiate between ads and people",
+            "start": 1214,
+            "end": 1266
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "471cf9e6cdc2",
+      "name": "AI-backed cameras",
+      "entity_type": "AISystem",
+      "description": "AI-backed cameras",
+      "evidence": [
+        {
+          "evidence_id": "38730bc9b19b",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "AI-backed cameras",
+            "start": 273,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2dc0a848ec81",
+      "name": "surveillance system",
+      "entity_type": "AISystem",
+      "description": "surveillance system",
+      "evidence": [
+        {
+          "evidence_id": "08838a239017",
+          "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "surveillance system",
+            "start": 864,
+            "end": 883
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "559fcabee6b4",
+      "name": "AI traffic regulation system",
+      "entity_type": "AISystem",
+      "description": "AI system",
+      "evidence": [
+        {
+          "evidence_id": "4ab5a71412a4",
+          "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "AI system",
+            "start": 1142,
+            "end": 1151
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "317d180d810d",
+      "name": "identify traffic rule violators",
+      "entity_type": "AICapability",
+      "description": "identify drivers who violate the road rules",
+      "evidence": [
+        {
+          "evidence_id": "4ab5a71412a4",
+          "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "identify drivers who violate the road rules",
+            "start": 1185,
+            "end": 1228
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1376a1061c8a",
+      "name": "facial recognition (failure mode: false recognition)",
+      "entity_type": "AICapability",
+      "description": "false recognition",
+      "evidence": [
+        {
+          "evidence_id": "08838a239017",
+          "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "false recognition",
+            "start": 933,
+            "end": 950
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "34369c33b318",
+      "name": "Dong Mingzhu_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "40737162bbaa",
+          "evidence_sentence": "[5069] Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu...",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {},
+      "reasoning": "She was the individual wrongly accused and publicly shamed by the AI system's error."
+    },
+    {
+      "id": "b46304a1fc99",
+      "name": "Gree Electric Appliances_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ae1563d6a407",
+          "evidence_sentence": "[1174] Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": "Gree Electric Appliances is only mentioned as the company in the advert that triggered the error; no other role (developer, deployer, etc.) is supported by the evidence."
+    },
+    {
+      "id": "d4b18ec3e00e",
+      "name": "Ningbo Traffic Police_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "9b49c2cbd888",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": "The traffic police are the specific unit operating the system, admitting the error, and initiating system upgrades."
+    },
+    {
+      "id": "23c7b32050df",
+      "name": "Facial recognition system's inability to distinguish between a person's face in a real-world setting versus in an advertisement",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "5884212f5834",
+          "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "95a557c52d0b",
+      "name": "Risk of false positive identification leading to erroneous public shaming",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2447491d7027",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c567bab1aa1b",
+      "name": "Use of imperfect facial recognition technology in automated public surveillance and shaming systems without adequate differentiation capabilities",
+      "entity_type": "Hazard",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "695bf79a54ef",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "23b146ac27c8",
+      "name": "System lacks robustness to distinguish between real human subjects and faces displayed in advertisements or on moving objects",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "469e2d08cb54",
+          "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "3145688faae9",
+      "name": "A prominent individual was wrongly identified as a traffic violator and publicly shamed on a public display screen",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "9a55cf4665bc",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "dae281609825",
+      "name": "Reputational harm to an individual and erosion of public trust in the accuracy and fairness of AI-based law enforcement systems",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8485ab1443c5",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "59187d91e7b2",
+      "name": "Individuals misidentified by facial recognition systems, particularly those whose likenesses appear in public advertisements or media",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f0ea913b3264",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c005814c577a",
+      "name": "System upgrade to improve differentiation between advertisements and real people, and deletion of erroneous shaming records",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "55c6c6e74f93",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d5dfba77313d",
+      "name": "identify traffic rule violators",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "e04f2325c877",
+          "evidence_sentence": "[521] China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence explicitly states the system is used to 'name and shame citizens who jaywalk', indicating its purpose is to identify traffic rule violators."
+    },
+    {
+      "id": "84c2e999fb12",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "5e054d0d00d1",
+          "evidence_sentence": "[5069] Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused...",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {},
+      "reasoning": "The incident occurred with a system already installed at a crosswalk and actively being used by police, placing it in the deployment phase."
+    },
+    {
+      "id": "243d24557def",
+      "name": "transportation",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "c679b026b580",
+          "evidence_sentence": "[1174] The face of Dong Mingzhu...was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "attributes": {},
+      "reasoning": "The system is used for traffic law enforcement and public shaming of jaywalkers, which is directly within the transportation domain."
+    },
+    {
+      "id": "b7e1180f6024",
+      "name": "take corrective action for AI errors",
+      "entity_type": "Obligation",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ee8ddcdc4cc5",
+          "evidence_sentence": "[5069] Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused...",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "attributes": {},
+      "reasoning": "The police took corrective action (deleting the infraction) after the system's error, demonstrating an obligation to remedy mistakes."
+    },
+    {
+      "id": "56bfba836e4d",
+      "name": "increasing reliance on automated facial recognition for traffic enforcement",
+      "entity_type": "Trend",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "27592bf16823",
+          "evidence_sentence": "[521] China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence points to a growing trend in the use of this specific AI application for traffic law enforcement."
+    }
+  ],
+  "edges": [
+    {
+      "id": "e787ea3a82ae",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasReport",
+      "object_id": "1174",
+      "object_name": "Chinese AI caught out by face in bus ad",
+      "evidence": [
+        {
+          "evidence_id": "0d44ab789b41",
+          "evidence_sentence": "Chinese AI caught out by face in bus ad",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a41ba8646145",
+      "subject_id": "a4dbe09cb9cf",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1174",
+      "object_name": "Chinese AI caught out by face in bus ad",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e0af7a93321",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasReport",
+      "object_id": "503",
+      "object_name": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+      "evidence": [
+        {
+          "evidence_id": "22b812ee371a",
+          "evidence_sentence": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+          "source_doc_id": "503",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2b4d5b2a4e2d",
+      "subject_id": "a4dbe09cb9cf",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "503",
+      "object_name": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e4bcbdad6cd3",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasReport",
+      "object_id": "5069",
+      "object_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "evidence": [
+        {
+          "evidence_id": "3a9849c98165",
+          "evidence_sentence": "Chinese facial recognition confuses bus ad with jaywalker",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3020ee292067",
+      "subject_id": "2b50c7da4793",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "5069",
+      "object_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5bac28d62c53",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasReport",
+      "object_id": "521",
+      "object_name": "Facial recognition system mistakes bus ad for jaywalker",
+      "evidence": [
+        {
+          "evidence_id": "37ed5712f268",
+          "evidence_sentence": "Facial recognition system mistakes bus ad for jaywalker",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "623be4f2afd1",
+      "subject_id": "a4dbe09cb9cf",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "521",
+      "object_name": "Facial recognition system mistakes bus ad for jaywalker",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c7a47d16bc6c",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e383475d159",
+      "object_name": "Dong Mingzhu",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 383,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "26a130ba9ce3",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 238,
+            "end": 250
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "188d8767122f",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "50eca4034df1",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2f0d8647d25",
+      "object_name": "Ningbo Traffic Police",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Police in the city of Ningbo",
+            "start": 234,
+            "end": 262
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Police in Ningbo",
+            "start": 856,
+            "end": 872
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cbde59e512cf",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Ningbo police",
+            "start": 780,
+            "end": 793
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1058ef68a4ca",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesStakeholder",
+      "object_id": "1c80cf8f9ad7",
+      "object_name": "Gree Electric Appliances",
+      "evidence": [
+        {
+          "evidence_id": "a8dd7f7362aa",
+          "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 694,
+            "end": 718
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 977,
+            "end": 1001
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "fb8984ac7242",
+          "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric",
+            "start": 977,
+            "end": 990
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "87e376e8ba87",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesAISystem",
+      "object_id": "2846d133574d",
+      "object_name": "jaywalker-spotting system",
+      "evidence": [
+        {
+          "evidence_id": "a9f64ff6928d",
+          "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "AI-based spotting system",
+            "start": 261,
+            "end": 285
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "12a5595631d2",
+          "evidence_sentence": "Police said they had deleted the photo and would update the jaywalker-spotting system to avoid similar mistakes.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "jaywalker-spotting system",
+            "start": 416,
+            "end": 441
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4fa887959483",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesAISystem",
+      "object_id": "242b7551eebf",
+      "object_name": "automatic camera-based systems",
+      "evidence": [
+        {
+          "evidence_id": "d126a7e53624",
+          "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "automatic camera-based systems",
+            "start": 621,
+            "end": 651
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5d965cb22569",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesAISystem",
+      "object_id": "471cf9e6cdc2",
+      "object_name": "AI-backed cameras",
+      "evidence": [
+        {
+          "evidence_id": "38730bc9b19b",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "AI-backed cameras",
+            "start": 273,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "94cd9d79198a",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesAISystem",
+      "object_id": "2dc0a848ec81",
+      "object_name": "surveillance system",
+      "evidence": [
+        {
+          "evidence_id": "08838a239017",
+          "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "surveillance system",
+            "start": 864,
+            "end": 883
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "aa7b43fcca26",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "involvesAISystem",
+      "object_id": "559fcabee6b4",
+      "object_name": "AI traffic regulation system",
+      "evidence": [
+        {
+          "evidence_id": "4ab5a71412a4",
+          "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "AI system",
+            "start": 1142,
+            "end": 1151
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "46f85b425fbf",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "usesTechnique",
+      "object_id": "73088900eacc",
+      "object_name": "facial recognition",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "facial recognition",
+            "start": 71,
+            "end": 89
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "9288a7480835",
+          "evidence_sentence": "China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "facial recognition systems",
+            "start": 45,
+            "end": 71
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "38730bc9b19b",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "facial recognition technology",
+            "start": 236,
+            "end": 265
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ceb6b1bcab1",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "usesTechnique",
+      "object_id": "f152a21f968b",
+      "object_name": "gait recognition",
+      "evidence": [
+        {
+          "evidence_id": "a4d8cacd3739",
+          "evidence_sentence": "Earlier this month, it was reported that Chinese authorities have started using \"gait recognition\" software -- artificial intelligence that identifies people by their walk -- in Beijing and Shanghai.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "gait recognition",
+            "start": 1147,
+            "end": 1163
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "52654fd5b893",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "usesTechnique",
+      "object_id": "682a242f6039",
+      "object_name": "automatic camera-based systems",
+      "evidence": [
+        {
+          "evidence_id": "d126a7e53624",
+          "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "automatic camera-based systems",
+            "start": 621,
+            "end": 651
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "69ab874c029d",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "hasCapability",
+      "object_id": "45d954e457bb",
+      "object_name": "differentiate between ads and people",
+      "evidence": [
+        {
+          "evidence_id": "5ee8bd082408",
+          "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "AI-system could differentiate between ads and people",
+            "start": 1214,
+            "end": 1266
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b02df84368e",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "hasCapability",
+      "object_id": "317d180d810d",
+      "object_name": "identify traffic rule violators",
+      "evidence": [
+        {
+          "evidence_id": "4ab5a71412a4",
+          "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "identify drivers who violate the road rules",
+            "start": 1185,
+            "end": 1228
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "91f495586b38",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "hasCapability",
+      "object_id": "1376a1061c8a",
+      "object_name": "facial recognition (failure mode: false recognition)",
+      "evidence": [
+        {
+          "evidence_id": "08838a239017",
+          "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+          "source_doc_id": "503",
+          "mention_span": {
+            "text": "false recognition",
+            "start": 933,
+            "end": 950
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a9ae58b62b36",
+      "subject_id": "34369c33b318",
+      "subject_name": "Dong Mingzhu_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "2e383475d159",
+      "object_name": "Dong Mingzhu",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 383,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "26a130ba9ce3",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 238,
+            "end": 250
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "188d8767122f",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "40462db18bc2",
+      "subject_id": "34369c33b318",
+      "subject_name": "Dong Mingzhu_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "object_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 383,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "26a130ba9ce3",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 238,
+            "end": 250
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "188d8767122f",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6a8e1abfac8b",
+      "subject_id": "34369c33b318",
+      "subject_name": "Dong Mingzhu_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "object_name": "jaywalker-spotting system",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 383,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "26a130ba9ce3",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 238,
+            "end": 250
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "188d8767122f",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Dong Mingzhu",
+            "start": 112,
+            "end": 124
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7efcf6012ce8",
+      "subject_id": "b46304a1fc99",
+      "subject_name": "Gree Electric Appliances_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "1c80cf8f9ad7",
+      "object_name": "Gree Electric Appliances",
+      "evidence": [
+        {
+          "evidence_id": "a8dd7f7362aa",
+          "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 694,
+            "end": 718
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 977,
+            "end": 1001
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "fb8984ac7242",
+          "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric",
+            "start": 977,
+            "end": 990
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "49ca33963f01",
+      "subject_id": "b46304a1fc99",
+      "subject_name": "Gree Electric Appliances_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "object_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "evidence": [
+        {
+          "evidence_id": "a8dd7f7362aa",
+          "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 694,
+            "end": 718
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 977,
+            "end": 1001
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "fb8984ac7242",
+          "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric",
+            "start": 977,
+            "end": 990
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bb56308ac037",
+      "subject_id": "b46304a1fc99",
+      "subject_name": "Gree Electric Appliances_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "object_name": "jaywalker-spotting system",
+      "evidence": [
+        {
+          "evidence_id": "a8dd7f7362aa",
+          "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 694,
+            "end": 718
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric Appliances",
+            "start": 977,
+            "end": 1001
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "fb8984ac7242",
+          "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Gree Electric",
+            "start": 977,
+            "end": 990
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dc76c4fd6b80",
+      "subject_id": "d4b18ec3e00e",
+      "subject_name": "Ningbo Traffic Police_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "e2f0d8647d25",
+      "object_name": "Ningbo Traffic Police",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Police in the city of Ningbo",
+            "start": 234,
+            "end": 262
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Police in Ningbo",
+            "start": 856,
+            "end": 872
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cbde59e512cf",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Ningbo police",
+            "start": 780,
+            "end": 793
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cf7ff05de47a",
+      "subject_id": "d4b18ec3e00e",
+      "subject_name": "Ningbo Traffic Police_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "object_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Police in the city of Ningbo",
+            "start": 234,
+            "end": 262
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Police in Ningbo",
+            "start": 856,
+            "end": 872
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cbde59e512cf",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Ningbo police",
+            "start": 780,
+            "end": 793
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3ae39af3d6f2",
+      "subject_id": "d4b18ec3e00e",
+      "subject_name": "Ningbo Traffic Police_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "object_name": "jaywalker-spotting system",
+      "evidence": [
+        {
+          "evidence_id": "c0617d6d93e1",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": {
+            "text": "Police in the city of Ningbo",
+            "start": 234,
+            "end": 262
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d94b92d1d8e",
+          "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+          "source_doc_id": "1174",
+          "mention_span": {
+            "text": "Police in Ningbo",
+            "start": 856,
+            "end": 872
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cbde59e512cf",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": {
+            "text": "Ningbo police",
+            "start": 780,
+            "end": 793
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "5069",
+        "1174",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0e9418ef9816",
+      "subject_id": "e2f0d8647d25",
+      "subject_name": "Ningbo Traffic Police",
+      "predicate": "deploys",
+      "object_id": "2846d133574d",
+      "object_name": "jaywalker-spotting system",
+      "evidence": [
+        {
+          "evidence_id": "df2f1ece63a5",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "065a37b77f69",
+      "subject_id": "e2f0d8647d25",
+      "subject_name": "Ningbo Traffic Police",
+      "predicate": "deploys",
+      "object_id": "242b7551eebf",
+      "object_name": "automatic camera-based systems",
+      "evidence": [
+        {
+          "evidence_id": "db7a9f8de7ff",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a23bed775b28",
+      "subject_id": "e2f0d8647d25",
+      "subject_name": "Ningbo Traffic Police",
+      "predicate": "deploys",
+      "object_id": "471cf9e6cdc2",
+      "object_name": "AI-backed cameras",
+      "evidence": [
+        {
+          "evidence_id": "ec8c867ef95f",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "688d96de77f7",
+      "subject_id": "e2f0d8647d25",
+      "subject_name": "Ningbo Traffic Police",
+      "predicate": "deploys",
+      "object_id": "2dc0a848ec81",
+      "object_name": "surveillance system",
+      "evidence": [
+        {
+          "evidence_id": "466b3f49540d",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b157b133dff4",
+      "subject_id": "e2f0d8647d25",
+      "subject_name": "Ningbo Traffic Police",
+      "predicate": "deploys",
+      "object_id": "559fcabee6b4",
+      "object_name": "AI traffic regulation system",
+      "evidence": [
+        {
+          "evidence_id": "3734955b4d43",
+          "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e4b9b976b9a5",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "isRiskSourceFor",
+      "object_id": "23c7b32050df",
+      "object_name": "Facial recognition system's inability to distinguish between a person's face in a real-world setting versus in an advertisement",
+      "evidence": [
+        {
+          "evidence_id": "5884212f5834",
+          "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dee4d75c4ee9",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasRisk",
+      "object_id": "95a557c52d0b",
+      "object_name": "Risk of false positive identification leading to erroneous public shaming",
+      "evidence": [
+        {
+          "evidence_id": "2447491d7027",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ac10b7ace964",
+      "subject_id": "23c7b32050df",
+      "subject_name": "Facial recognition system's inability to distinguish between a person's face in a real-world setting versus in an advertisement",
+      "predicate": "causes",
+      "object_id": "95a557c52d0b",
+      "object_name": "Risk of false positive identification leading to erroneous public shaming",
+      "evidence": [
+        {
+          "evidence_id": "2447491d7027",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069",
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c3e09fc1af37",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasConsequence",
+      "object_id": "3145688faae9",
+      "object_name": "A prominent individual was wrongly identified as a traffic violator and publicly shamed on a public display screen",
+      "evidence": [
+        {
+          "evidence_id": "9a55cf4665bc",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d30af95f4ff0",
+      "subject_id": "95a557c52d0b",
+      "subject_name": "Risk of false positive identification leading to erroneous public shaming",
+      "predicate": "leadsTo",
+      "object_id": "3145688faae9",
+      "object_name": "A prominent individual was wrongly identified as a traffic violator and publicly shamed on a public display screen",
+      "evidence": [
+        {
+          "evidence_id": "9a55cf4665bc",
+          "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f66bff8a11aa",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasImpact",
+      "object_id": "dae281609825",
+      "object_name": "Reputational harm to an individual and erosion of public trust in the accuracy and fairness of AI-based law enforcement systems",
+      "evidence": [
+        {
+          "evidence_id": "8485ab1443c5",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "375307980f49",
+      "subject_id": "3145688faae9",
+      "subject_name": "A prominent individual was wrongly identified as a traffic violator and publicly shamed on a public display screen",
+      "predicate": "impacts",
+      "object_id": "dae281609825",
+      "object_name": "Reputational harm to an individual and erosion of public trust in the accuracy and fairness of AI-based law enforcement systems",
+      "evidence": [
+        {
+          "evidence_id": "8485ab1443c5",
+          "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b6065ab28336",
+      "subject_id": "dae281609825",
+      "subject_name": "Reputational harm to an individual and erosion of public trust in the accuracy and fairness of AI-based law enforcement systems",
+      "predicate": "affects",
+      "object_id": "59187d91e7b2",
+      "object_name": "Individuals misidentified by facial recognition systems, particularly those whose likenesses appear in public advertisements or media",
+      "evidence": [
+        {
+          "evidence_id": "f0ea913b3264",
+          "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069",
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b9c9e6a662ec",
+      "subject_id": "23c7b32050df",
+      "subject_name": "Facial recognition system's inability to distinguish between a person's face in a real-world setting versus in an advertisement",
+      "predicate": "hasHazard",
+      "object_id": "c567bab1aa1b",
+      "object_name": "Use of imperfect facial recognition technology in automated public surveillance and shaming systems without adequate differentiation capabilities",
+      "evidence": [
+        {
+          "evidence_id": "695bf79a54ef",
+          "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+          "source_doc_id": "503",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "503",
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5cd1b2dcf517",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "hasVulnerability",
+      "object_id": "23b146ac27c8",
+      "object_name": "System lacks robustness to distinguish between real human subjects and faces displayed in advertisements or on moving objects",
+      "evidence": [
+        {
+          "evidence_id": "469e2d08cb54",
+          "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "52a179d78af1",
+      "subject_id": "c005814c577a",
+      "subject_name": "System upgrade to improve differentiation between advertisements and real people, and deletion of erroneous shaming records",
+      "predicate": "mitigates",
+      "object_id": "95a557c52d0b",
+      "object_name": "Risk of false positive identification leading to erroneous public shaming",
+      "evidence": [
+        {
+          "evidence_id": "55c6c6e74f93",
+          "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069",
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ae462f541edc",
+      "subject_id": "2846d133574d",
+      "subject_name": "jaywalker-spotting system",
+      "predicate": "hasCapability",
+      "object_id": "d5dfba77313d",
+      "object_name": "identify traffic rule violators",
+      "evidence": [
+        {
+          "evidence_id": "e04f2325c877",
+          "evidence_sentence": "[521] China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+          "source_doc_id": "521",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "521"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ed0dce57f5ad",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasEvidence",
+      "object_id": "84c2e999fb12",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "5e054d0d00d1",
+          "evidence_sentence": "[5069] Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused...",
+          "source_doc_id": "5069",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5069"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7de97c236f67",
+      "subject_id": "pred_380",
+      "subject_name": "Chinese facial recognition confuses bus ad with jaywalker",
+      "predicate": "hasEvidence",
+      "object_id": "243d24557def",
+      "object_name": "transportation",
+      "evidence": [
+        {
+          "evidence_id": "c679b026b580",
+          "evidence_sentence": "[1174] The face of Dong Mingzhu...was briefly shown on a billboard used to shame those who flout traffic laws.",
+          "source_doc_id": "1174",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1174"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "a1fc824e7915",
+      "subject_id": "pred_380",
+      "predicate": "hasReport",
+      "object_id": "1174",
+      "evidence": {
+        "evidence_id": "0d44ab789b41",
+        "evidence_sentence": "Chinese AI caught out by face in bus ad",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e3385453121e",
+      "subject_id": "pred_380",
+      "predicate": "hasReport",
+      "object_id": "503",
+      "evidence": {
+        "evidence_id": "22b812ee371a",
+        "evidence_sentence": "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+        "source_doc_id": "503",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7cae91635d23",
+      "subject_id": "pred_380",
+      "predicate": "hasReport",
+      "object_id": "5069",
+      "evidence": {
+        "evidence_id": "3a9849c98165",
+        "evidence_sentence": "Chinese facial recognition confuses bus ad with jaywalker",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6739446445da",
+      "subject_id": "pred_380",
+      "predicate": "hasReport",
+      "object_id": "521",
+      "evidence": {
+        "evidence_id": "37ed5712f268",
+        "evidence_sentence": "Facial recognition system mistakes bus ad for jaywalker",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0c4b970821be",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 383,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "d26f5c6f3f31",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "26a130ba9ce3",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 238,
+          "end": 250
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "20e9cd3ca4ec",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "188d8767122f",
+        "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 112,
+          "end": 124
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "4fe0eece0ef9",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Police in the city of Ningbo",
+          "start": 234,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b34328539e43",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Police in Ningbo",
+          "start": 856,
+          "end": 872
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ea909e983c7e",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "cbde59e512cf",
+        "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Ningbo police",
+          "start": 780,
+          "end": 793
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c8fff100cf70",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "a8dd7f7362aa",
+        "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 694,
+          "end": 718
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "679ffb8247f6",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 977,
+          "end": 1001
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "9d2d0f2d5ae9",
+      "subject_id": "pred_380",
+      "predicate": "involvesStakeholder",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "fb8984ac7242",
+        "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric",
+          "start": 977,
+          "end": 990
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0592f90c1c5a",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "a9f64ff6928d",
+        "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "AI-based spotting system",
+          "start": 261,
+          "end": 285
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "43913912c29e",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "12a5595631d2",
+        "evidence_sentence": "Police said they had deleted the photo and would update the jaywalker-spotting system to avoid similar mistakes.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "jaywalker-spotting system",
+          "start": 416,
+          "end": 441
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "5240a7b98572",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "242b7551eebf",
+      "evidence": {
+        "evidence_id": "d126a7e53624",
+        "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "automatic camera-based systems",
+          "start": 621,
+          "end": 651
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "55ed019fc3b6",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "471cf9e6cdc2",
+      "evidence": {
+        "evidence_id": "38730bc9b19b",
+        "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "AI-backed cameras",
+          "start": 273,
+          "end": 290
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6249c04bd67d",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "2dc0a848ec81",
+      "evidence": {
+        "evidence_id": "08838a239017",
+        "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "surveillance system",
+          "start": 864,
+          "end": 883
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "14b5869c3653",
+      "subject_id": "pred_380",
+      "predicate": "involvesAISystem",
+      "object_id": "559fcabee6b4",
+      "evidence": {
+        "evidence_id": "4ab5a71412a4",
+        "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "AI system",
+          "start": 1142,
+          "end": 1151
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "3140d6c0e12d",
+      "subject_id": "2846d133574d",
+      "predicate": "usesTechnique",
+      "object_id": "73088900eacc",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "facial recognition",
+          "start": 71,
+          "end": 89
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "36033bc677ca",
+      "subject_id": "2846d133574d",
+      "predicate": "usesTechnique",
+      "object_id": "73088900eacc",
+      "evidence": {
+        "evidence_id": "9288a7480835",
+        "evidence_sentence": "China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "facial recognition systems",
+          "start": 45,
+          "end": 71
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0b915436bcd5",
+      "subject_id": "2846d133574d",
+      "predicate": "usesTechnique",
+      "object_id": "73088900eacc",
+      "evidence": {
+        "evidence_id": "38730bc9b19b",
+        "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "facial recognition technology",
+          "start": 236,
+          "end": 265
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "91d08a25e9ca",
+      "subject_id": "2846d133574d",
+      "predicate": "usesTechnique",
+      "object_id": "f152a21f968b",
+      "evidence": {
+        "evidence_id": "a4d8cacd3739",
+        "evidence_sentence": "Earlier this month, it was reported that Chinese authorities have started using \"gait recognition\" software -- artificial intelligence that identifies people by their walk -- in Beijing and Shanghai.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "gait recognition",
+          "start": 1147,
+          "end": 1163
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f14a17532b82",
+      "subject_id": "2846d133574d",
+      "predicate": "usesTechnique",
+      "object_id": "682a242f6039",
+      "evidence": {
+        "evidence_id": "d126a7e53624",
+        "evidence_sentence": "Many now rely on automatic camera-based systems that take pictures of people as they cross roads or mingle with traffic.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "automatic camera-based systems",
+          "start": 621,
+          "end": 651
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "b7112fe9b810",
+      "subject_id": "2846d133574d",
+      "predicate": "hasCapability",
+      "object_id": "45d954e457bb",
+      "evidence": {
+        "evidence_id": "5ee8bd082408",
+        "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "AI-system could differentiate between ads and people",
+          "start": 1214,
+          "end": 1266
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f23a97d87219",
+      "subject_id": "2846d133574d",
+      "predicate": "hasCapability",
+      "object_id": "317d180d810d",
+      "evidence": {
+        "evidence_id": "4ab5a71412a4",
+        "evidence_sentence": "Cities like Beijing and Shanghai were amongst the first to employ the AI system to help regulate the traffic and identify drivers who violate the road rules.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "identify drivers who violate the road rules",
+          "start": 1185,
+          "end": 1228
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ba652a761143",
+      "subject_id": "2846d133574d",
+      "predicate": "hasCapability",
+      "object_id": "1376a1061c8a",
+      "evidence": {
+        "evidence_id": "08838a239017",
+        "evidence_sentence": "It also said the surveillance system would be completely upgraded to cut incidents of false recognition in future.",
+        "source_doc_id": "503",
+        "mention_span": {
+          "text": "false recognition",
+          "start": 933,
+          "end": 950
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "eec0af6ff8cb",
+      "subject_id": "34369c33b318",
+      "predicate": "roleHeldBy",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 383,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "43d62c9bac18",
+      "subject_id": "34369c33b318",
+      "predicate": "roleHeldBy",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "26a130ba9ce3",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 238,
+          "end": 250
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "285a6c39a2a7",
+      "subject_id": "34369c33b318",
+      "predicate": "roleHeldBy",
+      "object_id": "2e383475d159",
+      "evidence": {
+        "evidence_id": "188d8767122f",
+        "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 112,
+          "end": 124
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d74fdf1952a7",
+      "subject_id": "34369c33b318",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 383,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ff7f5d7c7c23",
+      "subject_id": "34369c33b318",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "26a130ba9ce3",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 238,
+          "end": 250
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ae0f6f25774e",
+      "subject_id": "34369c33b318",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "188d8767122f",
+        "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 112,
+          "end": 124
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "9dd431a9aa38",
+      "subject_id": "34369c33b318",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 383,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "50ab27b32b5b",
+      "subject_id": "34369c33b318",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "26a130ba9ce3",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 238,
+          "end": 250
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "3d0a46a42030",
+      "subject_id": "34369c33b318",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "188d8767122f",
+        "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Dong Mingzhu",
+          "start": 112,
+          "end": 124
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "7003408ecc29",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleHeldBy",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "a8dd7f7362aa",
+        "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 694,
+          "end": 718
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "319522ee48e2",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleHeldBy",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 977,
+          "end": 1001
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3c448fea3d1d",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleHeldBy",
+      "object_id": "1c80cf8f9ad7",
+      "evidence": {
+        "evidence_id": "fb8984ac7242",
+        "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric",
+          "start": 977,
+          "end": 990
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0d47c78d33dd",
+      "subject_id": "b46304a1fc99",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "a8dd7f7362aa",
+        "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 694,
+          "end": 718
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "34482bfcf4d0",
+      "subject_id": "b46304a1fc99",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 977,
+          "end": 1001
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "de3cf55062aa",
+      "subject_id": "b46304a1fc99",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "fb8984ac7242",
+        "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric",
+          "start": 977,
+          "end": 990
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7c170926f14f",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "a8dd7f7362aa",
+        "evidence_sentence": "Dong Mingzhu is the chair of Gree Electric Appliances, China's biggest air conditioner manufacturer, which thanked Ningbo police and urged people to obey traffic rules, according to South China Morning Post.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 694,
+          "end": 718
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "98d3217588a4",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric Appliances",
+          "start": 977,
+          "end": 1001
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "de489b749ba1",
+      "subject_id": "b46304a1fc99",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "fb8984ac7242",
+        "evidence_sentence": "Gree Electric reacted by thanking the police for their hard work, the paper said.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Gree Electric",
+          "start": 977,
+          "end": 990
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "8065329bde9f",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleHeldBy",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Police in the city of Ningbo",
+          "start": 234,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d13a9a8a7fe7",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleHeldBy",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Police in Ningbo",
+          "start": 856,
+          "end": 872
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2346ec43da86",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleHeldBy",
+      "object_id": "e2f0d8647d25",
+      "evidence": {
+        "evidence_id": "cbde59e512cf",
+        "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Ningbo police",
+          "start": 780,
+          "end": 793
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "843d8f2cf89d",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Police in the city of Ningbo",
+          "start": 234,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "20f49d11afd1",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Police in Ningbo",
+          "start": 856,
+          "end": 872
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "58b0aaf6acd7",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_380",
+      "evidence": {
+        "evidence_id": "cbde59e512cf",
+        "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Ningbo police",
+          "start": 780,
+          "end": 793
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1f3efcaef95d",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "c0617d6d93e1",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": {
+          "text": "Police in the city of Ningbo",
+          "start": 234,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "7cd408292b43",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "1d94b92d1d8e",
+        "evidence_sentence": "Police in Ningbo said its public shaming of Ms Dong was a mistake as the AI system had spotted her face in an advert for Gree Electric Appliances - the business she runs.",
+        "source_doc_id": "1174",
+        "mention_span": {
+          "text": "Police in Ningbo",
+          "start": 856,
+          "end": 872
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d12f689e891f",
+      "subject_id": "d4b18ec3e00e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "cbde59e512cf",
+        "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+        "source_doc_id": "521",
+        "mention_span": {
+          "text": "Ningbo police",
+          "start": 780,
+          "end": 793
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "ee1b920b889f",
+      "subject_id": "e2f0d8647d25",
+      "predicate": "deploys",
+      "object_id": "2846d133574d",
+      "evidence": {
+        "evidence_id": "df2f1ece63a5",
+        "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "dd30a81f39c7",
+      "subject_id": "e2f0d8647d25",
+      "predicate": "deploys",
+      "object_id": "242b7551eebf",
+      "evidence": {
+        "evidence_id": "db7a9f8de7ff",
+        "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "42e4e8449461",
+      "subject_id": "e2f0d8647d25",
+      "predicate": "deploys",
+      "object_id": "471cf9e6cdc2",
+      "evidence": {
+        "evidence_id": "ec8c867ef95f",
+        "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0be144171907",
+      "subject_id": "e2f0d8647d25",
+      "predicate": "deploys",
+      "object_id": "2dc0a848ec81",
+      "evidence": {
+        "evidence_id": "466b3f49540d",
+        "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0fa2039ac453",
+      "subject_id": "e2f0d8647d25",
+      "predicate": "deploys",
+      "object_id": "559fcabee6b4",
+      "evidence": {
+        "evidence_id": "3734955b4d43",
+        "evidence_sentence": "[521] The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded...",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0aa46630cf1d",
+      "subject_id": "pred_380",
+      "predicate": "isRiskSourceFor",
+      "object_id": "23c7b32050df",
+      "evidence": {
+        "evidence_id": "5884212f5834",
+        "evidence_sentence": "But the AI-based spotting system in Ningbo had reacted to the bus advert rather than Ms Dong herself.",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1c75eebac086",
+      "subject_id": "pred_380",
+      "predicate": "hasRisk",
+      "object_id": "95a557c52d0b",
+      "evidence": {
+        "evidence_id": "2447491d7027",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "de66d7129203",
+      "subject_id": "23c7b32050df",
+      "predicate": "causes",
+      "object_id": "95a557c52d0b",
+      "evidence": {
+        "evidence_id": "2447491d7027",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1d2367c1c2d4",
+      "subject_id": "pred_380",
+      "predicate": "hasConsequence",
+      "object_id": "3145688faae9",
+      "evidence": {
+        "evidence_id": "9a55cf4665bc",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b381b9c3a3cc",
+      "subject_id": "95a557c52d0b",
+      "predicate": "leadsTo",
+      "object_id": "3145688faae9",
+      "evidence": {
+        "evidence_id": "9a55cf4665bc",
+        "evidence_sentence": "A camera at an intersection in the eastern city of Ningbo named famous businesswoman Dong Mingzhu as a jaywalker after catching her face on the side of passing bus, Chinese tech site Abacus reported.",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "5ee35814e763",
+      "subject_id": "pred_380",
+      "predicate": "hasImpact",
+      "object_id": "dae281609825",
+      "evidence": {
+        "evidence_id": "8485ab1443c5",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "36e2f372df11",
+      "subject_id": "3145688faae9",
+      "predicate": "impacts",
+      "object_id": "dae281609825",
+      "evidence": {
+        "evidence_id": "8485ab1443c5",
+        "evidence_sentence": "Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused famous businesswoman Dong Mingzhu of jaywalking because she appeared in an ad on a passing bus.",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "aea95800e8f7",
+      "subject_id": "dae281609825",
+      "predicate": "affects",
+      "object_id": "59187d91e7b2",
+      "evidence": {
+        "evidence_id": "f0ea913b3264",
+        "evidence_sentence": "The face of Dong Mingzhu, who heads China's biggest air-conditioner maker, was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "bd8ffad79b96",
+      "subject_id": "23c7b32050df",
+      "predicate": "hasHazard",
+      "object_id": "c567bab1aa1b",
+      "evidence": {
+        "evidence_id": "695bf79a54ef",
+        "evidence_sentence": "While China has moved ahead of the rest of the world making facial recognition technology or the AI-backed cameras a part of everyday life, they are still not perfect.",
+        "source_doc_id": "503",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "7570c18dd984",
+      "subject_id": "2846d133574d",
+      "predicate": "hasVulnerability",
+      "object_id": "23b146ac27c8",
+      "evidence": {
+        "evidence_id": "469e2d08cb54",
+        "evidence_sentence": "Work was now taking place to ensure the AI-system could differentiate between ads and people, it added.",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9cdcb0a05cd9",
+      "subject_id": "c005814c577a",
+      "predicate": "mitigates",
+      "object_id": "95a557c52d0b",
+      "evidence": {
+        "evidence_id": "55c6c6e74f93",
+        "evidence_sentence": "The city's traffic police admitted the error in a post on microblogging site Weibo, saying the infraction had been deleted and the system was upgraded to prevent that problem from happening again, without offering specifics.",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1aebd1884f24",
+      "subject_id": "2846d133574d",
+      "predicate": "hasCapability",
+      "object_id": "d5dfba77313d",
+      "evidence": {
+        "evidence_id": "e04f2325c877",
+        "evidence_sentence": "[521] China is increasingly dependent on facial recognition systems to name and shame citizens who jaywalk, but it reportedly hit a snag this week.",
+        "source_doc_id": "521",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "29377b52c39e",
+      "subject_id": "pred_380",
+      "predicate": "hasEvidence",
+      "object_id": "84c2e999fb12",
+      "evidence": {
+        "evidence_id": "5e054d0d00d1",
+        "evidence_sentence": "[5069] Police in the city of Ningbo have taken corrective action after the facial recognition system at a crosswalk mistakenly accused...",
+        "source_doc_id": "5069",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3117b4a317d1",
+      "subject_id": "pred_380",
+      "predicate": "hasEvidence",
+      "object_id": "243d24557def",
+      "evidence": {
+        "evidence_id": "c679b026b580",
+        "evidence_sentence": "[1174] The face of Dong Mingzhu...was briefly shown on a billboard used to shame those who flout traffic laws.",
+        "source_doc_id": "1174",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "facial recognition": 3,
+    "Dong Mingzhu": 4,
+    "Ningbo Police": 2,
+    "Gree Electric Appliances": 3,
+    "Ningbo Traffic Police": 2,
+    "gait recognition": 1,
+    "jaywalker-spotting system": 1,
+    "automatic camera-based systems": 1,
+    "differentiate between ads and people": 1,
+    "AI-backed cameras": 1,
+    "surveillance system": 1,
+    "AI traffic regulation system": 1,
+    "identify traffic rule violators": 1,
+    "facial recognition (failure mode: false recognition)": 1
+  },
+  "report_count": 4,
+  "first_seen": "2018-11-22",
+  "last_seen": "2018-11-28T00:00:00Z"
+}

@@ -1,0 +1,1918 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/51ee05110bac> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/6966> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/InformationSource/a4fa68dae2d4> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/3770>,
+        <https://w3id.org/airo/incident/NewsReport/3976>,
+        <https://w3id.org/airo/incident/NewsReport/3977> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770>,
+        <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977> .
+
+<https://w3id.org/airo/incident/RiskControl/babb59e37903> a airo:RiskControl ;
+    rdfs:label "Legal action against AI developers for copyright violations and public education on media literacy" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d27844af2909> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/370575a91aa8> .
+
+<https://w3id.org/airo/incident/RoleAssignment/030c667f4059> a airo:RoleAssignment ;
+    rdfs:label "CNET_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64125eeb137b> ;
+    airo:hasReasoning "CNET is listed as a stakeholder but has no specific action or role described in the provided evidence related to the AI system in question." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/73ac4893c197> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/07c497955dd5> a airo:RoleAssignment ;
+    rdfs:label "News/Media Alliance_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ace3534880f7> ;
+    airo:hasReasoning "News/Media Alliance is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e030889d88ce> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0eb6273c3b03> a airo:RoleAssignment ;
+    rdfs:label "East Palo Alto Police Department_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da1dea2affdd> ;
+    airo:hasReasoning "The police department is mentioned as part of the real investigation that the AI system distorted, but they are not directly described as a developer, provider, deployer, user, or regulator of AI." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/289eff643c51> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1091da174b2a> a airo:RoleAssignment ;
+    rdfs:label "News Literacy Project_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/565016068dd5> ;
+    airo:hasReasoning "News Literacy Project is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61c09d9cfdfd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/20242d1a743c> a airo:RoleAssignment ;
+    rdfs:label "Wayback Machine_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6ebbd19d4d3> ;
+    airo:hasReasoning "Wayback Machine is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7e34c0c6d544> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2b89c1b75591> a airo:RoleAssignment ;
+    rdfs:label "Mark Graham_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7eb96690c46b> ;
+    airo:hasReasoning "Mark Graham is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5315abf7db18> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3044a360ef1f> a airo:RoleAssignment ;
+    rdfs:label "Impress3_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37cc567f9a2d> ;
+    airo:hasReasoning "Impress3 owns and operates Hoodline, which is the entity using the AI system to generate news content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6edac67a1d30> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/503071fd04d1> a airo:RoleAssignment ;
+    rdfs:label "Felix Simon_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abe9d47b0b2> ;
+    airo:hasReasoning "Felix Simon is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/414db00a2bc4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/534d994840f7> a airo:RoleAssignment ;
+    rdfs:label "CNN_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59fa47894885> ;
+    airo:hasReasoning "CNN is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/82f5e639507b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/715b0a67912f> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ca523240d5e> ;
+    airo:hasReasoning "OpenAI is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/48ac55160b8a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/76d6e380675e> a airo:RoleAssignment ;
+    rdfs:label "Gannett_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9567fa22615> ;
+    airo:hasReasoning "Gannett is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5a094918d94f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7e4f89e85a02> a airo:RoleAssignment ;
+    rdfs:label "Nuala Bishari_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5e6e57dbd0d4> ;
+    airo:hasReasoning "Nuala Bishari is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d2e9e33d4383> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/811abab1a641> a airo:RoleAssignment ;
+    rdfs:label "News Corp._Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eaf107e54f08> ;
+    airo:hasReasoning "News Corp. is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d30486081c76> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/85d35bc55f73> a airo:RoleAssignment ;
+    rdfs:label "San Mateo County District Attorney’s Office_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6500c364a9e8> ;
+    airo:hasReasoning "The DA office's official communication was misinterpreted by the AI, leading to a false and damaging claim about the DA, making the office a direct victim of the AI's error." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5f741745ac79> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/92b53cf8531c> a airo:RoleAssignment ;
+    rdfs:label "Eileen Vargas_AffectedActor" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8ff41a1152> ;
+    airo:hasReasoning "Eileen Vargas is a fake persona created by the AI system, representing an entity (a non-existent journalist) that is negatively affected by being falsely represented as the author of inaccurate content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/540917ab2cdd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9d3c03773150> a airo:RoleAssignment ;
+    rdfs:label "Danielle Coffey_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/489ee339a631> ;
+    airo:hasReasoning "Danielle Coffey is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/da01f89f5326> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a440c25a4d92> a airo:RoleAssignment ;
+    rdfs:label "Techdirt_Regulator" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2269004ecbe> ;
+    airo:hasReasoning "Techdirt is acting as an investigative watchdog that identified and reported the AI-generated error, fulfilling a monitoring and accountability role akin to a non-governmental regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e05a11953b43> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/af24c5342541> a airo:RoleAssignment ;
+    rdfs:label "Reuters Institute for the Study of Journalism_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/abebab314a9d> ;
+    airo:hasReasoning "Reuters Institute is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/24db3e203b5d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ba17dcd8bed2> a airo:RoleAssignment ;
+    rdfs:label "Google News_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6245cd7a97b8> ;
+    airo:hasReasoning "Google News is the platform that recommended and delivered the AI-generated article to the reader, making it a provider of the AI-generated content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e568491bc5ec> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bc239c2fc340> a airo:RoleAssignment ;
+    rdfs:label "Gazetteer_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3bfb0c4d5ef> ;
+    airo:hasReasoning "Gazetteer is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fe57afb4dc85> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d7cf74792624> a airo:RoleAssignment ;
+    rdfs:label "Zachary Chen_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a3904878e4b> ;
+    airo:hasReasoning "As CEO of the company that owns and operates the AI-using news site, he is responsible for the deployment of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4ec1d46cbde2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d98c5fcf8371> a airo:RoleAssignment ;
+    rdfs:label "Hoodline_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5cc2cf6b14> ;
+    airo:hasReasoning "Hoodline is the news site that actively uses the AI system to generate its articles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4f4a96806dea> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/dff8d5d33a78> a airo:RoleAssignment ;
+    rdfs:label "Peter Adams_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1feefb0c2a9d> ;
+    airo:hasReasoning "Peter Adams is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cfb89ab324d2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f0f621e4050f> a airo:RoleAssignment ;
+    rdfs:label "Internet Archive_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49cde2c1bcb6> ;
+    airo:hasReasoning "Internet Archive is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ea4f5203b675> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/fd21e42336b4> a airo:RoleAssignment ;
+    rdfs:label "San Francisco Chronicle_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/809be255a6cd> ;
+    airo:hasReasoning "San Francisco Chronicle is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f64bc54a0987> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/fd4a2cd1a878> a airo:RoleAssignment ;
+    rdfs:label "Sports Illustrated_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d63345379e3> ;
+    airo:hasReasoning "Sports Illustrated is listed as a stakeholder but is not mentioned in the evidence as having any direct role with the Hoodline AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/78b9373649f2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/event/pred_408> a airo:AIRiskIncident ;
+    airo:firstSeen "2024-05-31T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2024-10-18T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/004a063df4f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6740ba12321> .
+
+<https://w3id.org/airo/incident/ks/008b3c19ed04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/033e8118c4b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0d76709a4f4> .
+
+<https://w3id.org/airo/incident/ks/04a67c8a535a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6473aae0e6cd> .
+
+<https://w3id.org/airo/incident/ks/054e1e324e02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19d52a1515cd> .
+
+<https://w3id.org/airo/incident/ks/078f32f1bd54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/07d344a30bf6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/0c3e315ba6be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/0cae694df39c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> .
+
+<https://w3id.org/airo/incident/ks/0cea56886713> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b56e8efeb67> .
+
+<https://w3id.org/airo/incident/ks/0ceab0e5e798> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/0d201e3cdbf5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39620a189749> .
+
+<https://w3id.org/airo/incident/ks/10eed37d2e35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c7aea2ae334> .
+
+<https://w3id.org/airo/incident/ks/11a347dfd28a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/470c5ab84a58> .
+
+<https://w3id.org/airo/incident/ks/129ca1572723> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b56e8efeb67> .
+
+<https://w3id.org/airo/incident/ks/131fe42aad83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6b854129616> .
+
+<https://w3id.org/airo/incident/ks/13a643830012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d12816b6f9> .
+
+<https://w3id.org/airo/incident/ks/151b4270056f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/15b6a3cd0ee8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b52b0fe240a> .
+
+<https://w3id.org/airo/incident/ks/1720425d97d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c1e979af288e> .
+
+<https://w3id.org/airo/incident/ks/1df92df1829e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19d52a1515cd> .
+
+<https://w3id.org/airo/incident/ks/20a439a3b363> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/22d3706275b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/2350b1523c48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/2561216dbe89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af6150d12280> .
+
+<https://w3id.org/airo/incident/ks/25a7d573b266> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/28bd1cd3bd7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7896653e79dd> .
+
+<https://w3id.org/airo/incident/ks/29219de61a76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8277413a2c8> .
+
+<https://w3id.org/airo/incident/ks/2adb7d0b4bf4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d0fcfd53864> .
+
+<https://w3id.org/airo/incident/ks/30f5e5792ec6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0d76709a4f4> .
+
+<https://w3id.org/airo/incident/ks/330b982dcd6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/3459b094b493> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/3589c6ecdec4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/36618938aa93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c545b985b4e8> .
+
+<https://w3id.org/airo/incident/ks/3875851ca659> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/39ff1aafe0fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ceb6672ef7> .
+
+<https://w3id.org/airo/incident/ks/3bd5a7cd1474> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/3c978eb9f78d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d72b34abe8f> .
+
+<https://w3id.org/airo/incident/ks/3cb160dfa11e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> .
+
+<https://w3id.org/airo/incident/ks/3d092581e3cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6473aae0e6cd> .
+
+<https://w3id.org/airo/incident/ks/3fac3186a297> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af6150d12280> .
+
+<https://w3id.org/airo/incident/ks/4260b0951565> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/431d41b72951> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> .
+
+<https://w3id.org/airo/incident/ks/448d3797e422> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cba9d1382df> .
+
+<https://w3id.org/airo/incident/ks/46d96d096c15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af6150d12280> .
+
+<https://w3id.org/airo/incident/ks/472706560d3a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/479db9059a89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39620a189749> .
+
+<https://w3id.org/airo/incident/ks/481b4b312582> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b56e8efeb67> .
+
+<https://w3id.org/airo/incident/ks/4873250e6685> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c545b985b4e8> .
+
+<https://w3id.org/airo/incident/ks/49f269b8ac75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16b73387e654> .
+
+<https://w3id.org/airo/incident/ks/4b746b9fe28b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d27844af2909> .
+
+<https://w3id.org/airo/incident/ks/4f4fc09e6fd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> .
+
+<https://w3id.org/airo/incident/ks/525d49e4d898> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/534087d3b30d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b52b0fe240a> .
+
+<https://w3id.org/airo/incident/ks/551514540fb2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b52b0fe240a> .
+
+<https://w3id.org/airo/incident/ks/56c462dff093> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/372ae9242a24> .
+
+<https://w3id.org/airo/incident/ks/576e8804771c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c545b985b4e8> .
+
+<https://w3id.org/airo/incident/ks/58485e6454ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/5a3c3882089b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/5bf3603d6394> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5668442b6c6f> .
+
+<https://w3id.org/airo/incident/ks/5df5f49626f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/5e668fd7f1d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f9f78aa5698> .
+
+<https://w3id.org/airo/incident/ks/5f4c5e1d5c7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> .
+
+<https://w3id.org/airo/incident/ks/5ff56cf6605f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fb1059a3369> .
+
+<https://w3id.org/airo/incident/ks/60c189541bf0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfdcceb92852> .
+
+<https://w3id.org/airo/incident/ks/64786f45244f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e41ea0ccd75> .
+
+<https://w3id.org/airo/incident/ks/6577946a82f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b89c73c444a> .
+
+<https://w3id.org/airo/incident/ks/65a6961790a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab27b61899e7> .
+
+<https://w3id.org/airo/incident/ks/67285ad0dc85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faf29f3b81fb> .
+
+<https://w3id.org/airo/incident/ks/6e5411062112> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/736be6926172> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/749fdb8798e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/752c26261ca8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51ec352f6477> .
+
+<https://w3id.org/airo/incident/ks/762ea8889c6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6b854129616> .
+
+<https://w3id.org/airo/incident/ks/787e4e628449> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51ec352f6477> .
+
+<https://w3id.org/airo/incident/ks/7883b8ba3598> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfdcceb92852> .
+
+<https://w3id.org/airo/incident/ks/78ab998c7b97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/79b54286706d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> .
+
+<https://w3id.org/airo/incident/ks/7a4ac5de0b46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19d52a1515cd> .
+
+<https://w3id.org/airo/incident/ks/7de9299fc752> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/806b7326b740> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39620a189749> .
+
+<https://w3id.org/airo/incident/ks/80b15296a6fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/80e6c676da66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/811174e64366> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51ec352f6477> .
+
+<https://w3id.org/airo/incident/ks/8280989c2ffd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> .
+
+<https://w3id.org/airo/incident/ks/829e2cea43a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/840a368784c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0874dd725ea> .
+
+<https://w3id.org/airo/incident/ks/88625cdcd250> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/89a08932fc9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be5e74868c36> .
+
+<https://w3id.org/airo/incident/ks/8b0edc9d2538> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eb65a023cf5> .
+
+<https://w3id.org/airo/incident/ks/8b5a078b891a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/8b7b85ac2c51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51ec352f6477> .
+
+<https://w3id.org/airo/incident/ks/8bff0ab16cfa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/8c0ae59c66bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> .
+
+<https://w3id.org/airo/incident/ks/937748dc9ad9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab27b61899e7> .
+
+<https://w3id.org/airo/incident/ks/93bdc60361e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/ks/953a73200db2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5668442b6c6f> .
+
+<https://w3id.org/airo/incident/ks/96c4f093fa31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2> .
+
+<https://w3id.org/airo/incident/ks/9a9261058f37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6473aae0e6cd> .
+
+<https://w3id.org/airo/incident/ks/9bc5dcb85cbd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ceb6672ef7> .
+
+<https://w3id.org/airo/incident/ks/9f4c09478708> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43a7a6bd5f0b> .
+
+<https://w3id.org/airo/incident/ks/a078b635a935> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab27b61899e7> .
+
+<https://w3id.org/airo/incident/ks/a280f3fa6699> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be5e74868c36> .
+
+<https://w3id.org/airo/incident/ks/a2c33bed0d9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2> .
+
+<https://w3id.org/airo/incident/ks/a7343e57d64a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/a8992dbbe012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/a90f5f996a3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/a9d97b3e3be0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af6150d12280> .
+
+<https://w3id.org/airo/incident/ks/ad000672babe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ceb6672ef7> .
+
+<https://w3id.org/airo/incident/ks/aedb7b040c57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18aca43e6116> .
+
+<https://w3id.org/airo/incident/ks/b49fe771b455> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c545b985b4e8> .
+
+<https://w3id.org/airo/incident/ks/b5984b5ab4b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/bc724ebc8ebf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> .
+
+<https://w3id.org/airo/incident/ks/c01377dbfdba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/c267639a2b38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1055815393e6> .
+
+<https://w3id.org/airo/incident/ks/c29d08a56b04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfdcceb92852> .
+
+<https://w3id.org/airo/incident/ks/c3b3e12fb42f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0d76709a4f4> .
+
+<https://w3id.org/airo/incident/ks/c46113388c2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b56e8efeb67> .
+
+<https://w3id.org/airo/incident/ks/c5cf829aba5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2> .
+
+<https://w3id.org/airo/incident/ks/c5fa824510c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/cc5018627880> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d0fcfd53864> .
+
+<https://w3id.org/airo/incident/ks/cddb300e8273> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d72b34abe8f> .
+
+<https://w3id.org/airo/incident/ks/d0ede289de93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/d20b6b19441a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be5e74868c36> .
+
+<https://w3id.org/airo/incident/ks/d4eef4baede9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6b854129616> .
+
+<https://w3id.org/airo/incident/ks/d6c6cbdd5d2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0d76709a4f4> .
+
+<https://w3id.org/airo/incident/ks/d926053acdce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/d95c9e802a4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/dc0c5a7d4b56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d50d2a6476> .
+
+<https://w3id.org/airo/incident/ks/dedd2a6523a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d0fcfd53864> .
+
+<https://w3id.org/airo/incident/ks/dfe3d86cabba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d0fcfd53864> .
+
+<https://w3id.org/airo/incident/ks/e0a0040dc337> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6473aae0e6cd> .
+
+<https://w3id.org/airo/incident/ks/e1116c1cfb94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/e1f9cde4aa7a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> .
+
+<https://w3id.org/airo/incident/ks/e1fd2cf28e64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6269b385bf1a> .
+
+<https://w3id.org/airo/incident/ks/e3976fa9e0b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5668442b6c6f> .
+
+<https://w3id.org/airo/incident/ks/e6b66ddeea56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d12816b6f9> .
+
+<https://w3id.org/airo/incident/ks/e6c21d6afaa5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19fa93d8d275> .
+
+<https://w3id.org/airo/incident/ks/e8c0413fe61f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> .
+
+<https://w3id.org/airo/incident/ks/e8f88bce8f1c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2> .
+
+<https://w3id.org/airo/incident/ks/e9dbc741a3c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e41ea0ccd75> .
+
+<https://w3id.org/airo/incident/ks/ed12139d029a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab27b61899e7> .
+
+<https://w3id.org/airo/incident/ks/ed4e0416e1f6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> .
+
+<https://w3id.org/airo/incident/ks/ee2c30ffc76d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6b854129616> .
+
+<https://w3id.org/airo/incident/ks/ee969d08f130> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> .
+
+<https://w3id.org/airo/incident/ks/eeebd07e39d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19d52a1515cd> .
+
+<https://w3id.org/airo/incident/ks/ef1cb9264750> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfdcceb92852> .
+
+<https://w3id.org/airo/incident/ks/ef7db6fe9495> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ba431388dbf> .
+
+<https://w3id.org/airo/incident/ks/ef80550bb34a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d12816b6f9> .
+
+<https://w3id.org/airo/incident/ks/efa454061d5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/f0bad71ad981> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ceb6672ef7> .
+
+<https://w3id.org/airo/incident/ks/f2a673a4dae7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f9f78aa5698> .
+
+<https://w3id.org/airo/incident/ks/f2d68fff14d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39620a189749> .
+
+<https://w3id.org/airo/incident/ks/f5d288f3299c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/f7714198add9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/f7e9dd73c31b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> .
+
+<https://w3id.org/airo/incident/ks/f84dd15348d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5668442b6c6f> .
+
+<https://w3id.org/airo/incident/ks/f972d611bc96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b52b0fe240a> .
+
+<https://w3id.org/airo/incident/ks/fb000786968f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e9c04a4433> .
+
+<https://w3id.org/airo/incident/ks/fb3c94a03792> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d12816b6f9> .
+
+<https://w3id.org/airo/incident/ks/fcf95b6a1e47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/fdd61d80cd7e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be5e74868c36> .
+
+<https://w3id.org/airo/incident/ks/fe76fe0baeba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> .
+
+<https://w3id.org/airo/incident/ks/fed32bb2001e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/f0a78d1ce073> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c7aea2ae334> ;
+    airo:hasReasoning "The AI-generated article was published and accessible to readers, indicating the system is in active deployment." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/AffectedActor/fecdcb6ecb8b> a airo:AffectedActor ;
+    rdfs:label "San Mateo County District Attorney and general news consumers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19fa93d8d275> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> .
+
+<https://w3id.org/airo/incident/Domain/396f9061b5aa> a airo:Domain ;
+    rdfs:label "media and journalism" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0874dd725ea> ;
+    airo:hasReasoning "The AI system is applied in a news outlet for content creation, placing it in the media/journalism domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Hazard/72f13ed77e7e> a airo:Hazard ;
+    rdfs:label "Automated content generation without adequate fact-checking or human oversight" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cba9d1382df> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/Purpose/406bda02a364> a airo:Purpose ;
+    rdfs:label "generate and distribute local news articles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/470c5ab84a58> ;
+    airo:hasReasoning "The text explicitly states Hoodline uses AI to create synthetic news articles for distribution on their local news sites." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/RiskSource/912675bf83c3> a airo:RiskSource ;
+    rdfs:label "AI-generated news content with factual inaccuracies" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/370575a91aa8> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43a7a6bd5f0b> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/72f13ed77e7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/Vulnerability/f3ea6bb86bec> a airo:Vulnerability ;
+    rdfs:label "AI system lacks robustness for accurate information extraction and transformation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e9c04a4433> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/evidence/1055815393e6> a airo:Evidence ;
+    airo:evidenceText "[3977] a few days ago, I was reading the news recommended by Google News, and a story caught my eye, claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/18aca43e6116> a airo:Evidence ;
+    airo:evidenceText "[3977] a few days ago, I was reading the news recommended by Google News, and a story caught my eye, claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/1feefb0c2a9d> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/2a3904878e4b> a airo:Evidence ;
+    airo:evidenceText "[3770] Zachary Chen, chief executive of Hoodline parent company Impress3, which acquired the site in 2020, defended the site's use of AI" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/2d8ff41a1152> a airo:Evidence ;
+    airo:evidenceText "[3976] The article was attributed to the byline Eileen Vargas, one of the website's many fake, AI-generated reporter personas." ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/3606a31fecf6> a airo:Evidence ;
+    airo:evidenceText "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/37cc567f9a2d> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/3abe9d47b0b2> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/489ee339a631> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/49cde2c1bcb6> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/4ba431388dbf> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/565016068dd5> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/59fa47894885> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/5e6e57dbd0d4> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/6245cd7a97b8> a airo:Evidence ;
+    airo:evidenceText "[3977] a few days ago, I was reading the news recommended by Google News, and a story caught my eye, claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/6269b385bf1a> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/64125eeb137b> a airo:Evidence ;
+    airo:evidenceText "[3976] As Techdirt first reported, an article appeared on Hoodline San Jose." ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/6500c364a9e8> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account... and garbled it so badly that it said the DA himself committed the grisly murder." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/744a76c77ce0> a airo:Evidence ;
+    airo:evidenceText "AI Sludge Local News Site Hoodline Falsely Accuses San Mateo DA Of Murder" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/7896653e79dd> a airo:Evidence ;
+    airo:evidenceText "[3770] Zachary Chen, chief executive of Hoodline parent company Impress3, which acquired the site in 2020, defended the site's use of AI" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/7a5cc2cf6b14> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/7eb96690c46b> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/809be255a6cd> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/8ca523240d5e> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/8d63345379e3> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/8eb65a023cf5> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/abebab314a9d> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/ace3534880f7> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/c2269004ecbe> a airo:Evidence ;
+    airo:evidenceText "[6966] As Techdirt first reported, an article appeared on Hoodline San Jose." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/c3bfb0c4d5ef> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/d48ceea69547> a airo:Evidence ;
+    airo:evidenceText "The outlet, Hoodline, is not the first or only news site to harness AI." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/d6740ba12321> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/d6ebbd19d4d3> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/d9567fa22615> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/da1dea2affdd> a airo:Evidence ;
+    airo:evidenceText "[3977] Thompson was apprehended after a collaborative investigation by the DA’s Office and the East Palo Alto Police Department, which initially began as a search for a missing person." ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/eaf107e54f08> a airo:Evidence ;
+    airo:evidenceText "[3976] Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/ebe347d3ae0d> a airo:Evidence ;
+    airo:evidenceText "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/edf71703bd28> a airo:Evidence ;
+    airo:evidenceText "A national network of local news sites is publishing AI-written articles under fake bylines. Experts are raising alarm" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/faf29f3b81fb> a airo:Evidence ;
+    airo:evidenceText "[3770] Zachary Chen, chief executive of Hoodline parent company Impress3, which acquired the site in 2020, defended the site's use of AI" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/Consequence/568ed3c99a7f> a airo:Consequence ;
+    rdfs:label "Publication of false criminal accusation against a public official" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e41ea0ccd75> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/10ce04664a1e> .
+
+<https://w3id.org/airo/incident/Impact/10ce04664a1e> a airo:Impact ;
+    rdfs:label "Damage to reputation of public official and erosion of trust in news sources" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/fecdcb6ecb8b> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d72b34abe8f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> .
+
+<https://w3id.org/airo/incident/NewsReport/3770> a airo:NewsReport ;
+    rdfs:label "A national network of local news sites is publishing AI-written articles under fake bylines. Experts are raising alarm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The articles on a local news site popping up around the country appear to cover what any community outlet would focus on: crime, local politics, weather and happenings. \"In-depth reporting about your " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b89c73c444a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/NewsReport/3976> a airo:NewsReport ;
+    rdfs:label "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A controversial AI-powered local news site really stepped in it this week — by accidentally accusing a regional district attorney of murder.
+
+As [_Techdirt_ first reported](https://www.techdirt.com/20""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01d50d2a6476> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> .
+
+<https://w3id.org/airo/incident/NewsReport/3977> a airo:NewsReport ;
+    rdfs:label "AI Sludge Local News Site Hoodline Falsely Accuses San Mateo DA Of Murder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "How should we feel when an AI journalist operation falsely accuses someone of murder? How about if the person falsely accused is a public figure? I know there are some questions lately about where lia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8277413a2c8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> .
+
+<https://w3id.org/airo/incident/NewsReport/6966> a airo:NewsReport ;
+    rdfs:label "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A controversial AI-powered local news site really stepped in it this week — by accidentally accusing a regional district attorney of murder.
+As Techdirt first reported, an article appeared on Hoodline""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/372ae9242a24> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/Regulation/b92c5f3d3081> a airo:Regulation ;
+    rdfs:label "Copyright Law" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "copyright law" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/24db3e203b5d> a airo:Stakeholder ;
+    rdfs:label "Reuters Institute for the Study of Journalism" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Reuters Institute for the Study of Journalism" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/289eff643c51> a airo:Stakeholder ;
+    rdfs:label "East Palo Alto Police Department" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "East Palo Alto Police Department" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896589baeeba> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3977> .
+
+<https://w3id.org/airo/incident/Stakeholder/414db00a2bc4> a airo:Stakeholder ;
+    rdfs:label "Felix Simon" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Felix Simon" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61a633ed492e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/48ac55160b8a> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/4ec1d46cbde2> a airo:Stakeholder ;
+    rdfs:label "Zachary Chen" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/18e32bf2f2a3>,
+        <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Zachary Chen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/4f4a96806dea> a airo:Stakeholder ;
+    rdfs:label "Hoodline" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/18e32bf2f2a3>,
+        <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hoodline" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6473aae0e6cd>,
+        <https://w3id.org/airo/incident/evidence/a6b854129616> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/5315abf7db18> a airo:Stakeholder ;
+    rdfs:label "Mark Graham" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mark Graham" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/540917ab2cdd> a airo:Stakeholder ;
+    rdfs:label "Eileen Vargas" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Eileen Vargas" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51ec352f6477> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> .
+
+<https://w3id.org/airo/incident/Stakeholder/5a094918d94f> a airo:Stakeholder ;
+    rdfs:label "Gannett" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gannett" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d0fcfd53864> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/5f741745ac79> a airo:Stakeholder ;
+    rdfs:label "San Mateo County District Attorney’s Office" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Mateo County District Attorney’s Office" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19d52a1515cd>,
+        <https://w3id.org/airo/incident/evidence/896589baeeba>,
+        <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/61c09d9cfdfd> a airo:Stakeholder ;
+    rdfs:label "News Literacy Project" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "News Literacy Project" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39620a189749> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/6edac67a1d30> a airo:Stakeholder ;
+    rdfs:label "Impress3" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/18e32bf2f2a3>,
+        <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Impress3" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b52b0fe240a>,
+        <https://w3id.org/airo/incident/evidence/5668442b6c6f>,
+        <https://w3id.org/airo/incident/evidence/86d5025099fb>,
+        <https://w3id.org/airo/incident/evidence/b0319d7ca5a2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770>,
+        <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/73ac4893c197> a airo:Stakeholder ;
+    rdfs:label "CNET" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CNET" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d12816b6f9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/78b9373649f2> a airo:Stakeholder ;
+    rdfs:label "Sports Illustrated" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sports Illustrated" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0d76709a4f4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/7e34c0c6d544> a airo:Stakeholder ;
+    rdfs:label "Wayback Machine" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Wayback Machine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccb500c9552> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/82f5e639507b> a airo:Stakeholder ;
+    rdfs:label "CNN" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CNN" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86d5025099fb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/cfb89ab324d2> a airo:Stakeholder ;
+    rdfs:label "Peter Adams" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peter Adams" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab27b61899e7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/d2e9e33d4383> a airo:Stakeholder ;
+    rdfs:label "Nuala Bishari" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nuala Bishari" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/d30486081c76> a airo:Stakeholder ;
+    rdfs:label "News Corp." ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "News Corp." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1900ec5061e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/da01f89f5326> a airo:Stakeholder ;
+    rdfs:label "Danielle Coffey" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Danielle Coffey" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/471d1d103e03> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/e030889d88ce> a airo:Stakeholder ;
+    rdfs:label "News/Media Alliance" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "News/Media Alliance" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ceb6672ef7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/e05a11953b43> a airo:Stakeholder ;
+    rdfs:label "Techdirt" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Techdirt" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af6150d12280> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> .
+
+<https://w3id.org/airo/incident/Stakeholder/e568491bc5ec> a airo:Stakeholder ;
+    rdfs:label "Google News" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google News" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b56e8efeb67>,
+        <https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2>,
+        <https://w3id.org/airo/incident/evidence/cfdcceb92852> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:hasSupportCount 3 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/18e32bf2f2a3>,
+        <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> .
+
+<https://w3id.org/airo/incident/Stakeholder/ea4f5203b675> a airo:Stakeholder ;
+    rdfs:label "Internet Archive" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Internet Archive" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be5e74868c36> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/f64bc54a0987> a airo:Stakeholder ;
+    rdfs:label "San Francisco Chronicle" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco Chronicle" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b284bcc3a142> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/Stakeholder/fe57afb4dc85> a airo:Stakeholder ;
+    rdfs:label "Gazetteer" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gazetteer" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c545b985b4e8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770> .
+
+<https://w3id.org/airo/incident/evidence/01d50d2a6476> a airo:Evidence ;
+    airo:evidenceText "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/16b73387e654> a airo:Evidence ;
+    airo:evidenceText "an article appeared on Hoodline San Jose — one of the media network's many local news sites that span the US — earlier this month with a gruesome headline" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/19fa93d8d275> a airo:Evidence ;
+    airo:evidenceText "claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/2b89c73c444a> a airo:Evidence ;
+    airo:evidenceText "A national network of local news sites is publishing AI-written articles under fake bylines. Experts are raising alarm" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/372ae9242a24> a airo:Evidence ;
+    airo:evidenceText "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/3c7aea2ae334> a airo:Evidence ;
+    airo:evidenceText "[6966] an article appeared on Hoodline San Jose — one of the media network's many local news sites that span the US — earlier this month with a gruesome headline." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/3cba9d1382df> a airo:Evidence ;
+    airo:evidenceText "As Techdirt found, Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account... and garbled it so badly that it said the DA himself committed the grisly murder." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/43a7a6bd5f0b> a airo:Evidence ;
+    airo:evidenceText "Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account... and garbled it so badly that it said the DA himself committed the grisly murder." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/470c5ab84a58> a airo:Evidence ;
+    airo:evidenceText "[6966] Hoodline is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/51e9c04a4433> a airo:Evidence ;
+    airo:evidenceText "Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account... and garbled it so badly that it said the DA himself committed the grisly murder." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/9fb1059a3369> a airo:Evidence ;
+    airo:evidenceText "An article appeared on Hoodline San Jose — one of the media network's many local news sites that span the US — earlier this month with a gruesome headline." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/c0874dd725ea> a airo:Evidence ;
+    airo:evidenceText "[3770] The outlet, Hoodline, is not the first or only news site to harness AI." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/c1e979af288e> a airo:Evidence ;
+    airo:evidenceText "he discovered the false AI accusation when the Hoodline piece cropped up in his Google News tab." ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/d27844af2909> a airo:Evidence ;
+    airo:evidenceText "The News/Media Alliance, which represents more than 2,200 US publishers, has supported news organizations taking legal action against AI developers who are harvesting news content without permission." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/d8277413a2c8> a airo:Evidence ;
+    airo:evidenceText "AI Sludge Local News Site Hoodline Falsely Accuses San Mateo DA Of Murder" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/Risk/370575a91aa8> a airo:Risk ;
+    rdfs:label "Risk of AI-generated misinformation masquerading as legitimate news" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f9f78aa5698> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6966> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/568ed3c99a7f> .
+
+<https://w3id.org/airo/incident/evidence/3e41ea0ccd75> a airo:Evidence ;
+    airo:evidenceText "claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/6f9f78aa5698> a airo:Evidence ;
+    airo:evidenceText "Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/7d72b34abe8f> a airo:Evidence ;
+    airo:evidenceText "a story caught my eye, claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/AISystem/18e32bf2f2a3> a airo:AISystem ;
+    rdfs:label "Google News" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google News" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c1e979af288e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3976> .
+
+<https://w3id.org/airo/incident/evidence/19d52a1515cd> a airo:Evidence ;
+    airo:evidenceText "Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account, in which the office shared a run-of-the-mill press release." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/1b52b0fe240a> a airo:Evidence ;
+    airo:evidenceText "Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic \"news\"" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/23d12816b6f9> a airo:Evidence ;
+    airo:evidenceText "Tech outlet CNET's AI-generated articles made embarrassing factual errors." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/39620a189749> a airo:Evidence ;
+    airo:evidenceText "The way the site uses and discloses AI purposely tricks readers by \"mimicking\" the look and feel of a \"standards-based local news organization with real journalists,\" said Peter Adams, a senior vice president of the News Literacy Project." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/51ec352f6477> a airo:Evidence ;
+    airo:evidenceText "The article was attributed to the byline Eileen Vargas, one of the website's many fake, AI-generated reporter personas." ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/5668442b6c6f> a airo:Evidence ;
+    airo:evidenceText "Hoodline, which is currently owned by a murky media outfit called Impress3, is openly using AI to find and cough up synthetic 'news.'" ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/5b56e8efeb67> a airo:Evidence ;
+    airo:evidenceText "There might be some implications for Google — an AI company reportedly testing AI news products itself — as well." ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/6473aae0e6cd> a airo:Evidence ;
+    airo:evidenceText "As Techdirt found, Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account... and garbled it so badly that it said the DA himself committed the grisly murder." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/8d0fcfd53864> a airo:Evidence ;
+    airo:evidenceText "The nation's largest newspaper chain owner, Gannett, pulled back on an AI experiment reporting on high school sports games after public mockery." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/a6b854129616> a airo:Evidence ;
+    airo:evidenceText "Hoodline, founded in 2014 as a San Francisco-based hyper-local news outlet...once employed a newsroom full of human journalists." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/ab27b61899e7> a airo:Evidence ;
+    airo:evidenceText "said Peter Adams, a senior vice president of the News Literacy Project, which aims to educate the public on identifying credible information." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/af6150d12280> a airo:Evidence ;
+    airo:evidenceText "As Techdirt first reported, an article appeared on Hoodline San Jose." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/be5e74868c36> a airo:Evidence ;
+    airo:evidenceText "Screenshots captured last year by the Internet Archive and local outlet Gazetteer showed Hoodline had further embellished its AI author bylines with what appeared to be AI-generated headshots resembling real people and fake biographical information." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/c545b985b4e8> a airo:Evidence ;
+    airo:evidenceText "Gazetteer previously reported that at least two Hoodline employees said on LinkedIn that they were based in the Philippines, far from the US cities that the outlet purports to cover." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/c5a2f1a5d8b2> a airo:Evidence ;
+    airo:evidenceText "There might be some implications for Google — an AI company reportedly testing AI news products itself — as well." ;
+    airo:sourceDocId "6966" .
+
+<https://w3id.org/airo/incident/evidence/cfdcceb92852> a airo:Evidence ;
+    airo:evidenceText "a few days ago, I was reading the news recommended by Google News, and a story caught my eye, claiming that the San Mateo County DA had been charged with murder!" ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/e4ceb6672ef7> a airo:Evidence ;
+    airo:evidenceText "The News/Media Alliance, which represents more than 2,200 US publishers, has supported news organizations taking legal action against AI developers who are harvesting news content without permission." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/f0d76709a4f4> a airo:Evidence ;
+    airo:evidenceText "Sports Illustrated deleted several articles from its website after they were found to have been published under fake author names." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/ed3f46e2eb76> a airo:Evidence ;
+    airo:evidenceText "Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account",
+        "Hoodline's AI seems to have taken an X-formerly-Twitter post from the San Mateo DA office's official account, in which the office shared a run-of-the-mill press release about a local man" ;
+    airo:sourceDocId "3976" .
+
+<https://w3id.org/airo/incident/evidence/b0319d7ca5a2> a airo:Evidence ;
+    airo:evidenceText "a nonsense peddling AI sludge factory called “Hoodline” run by a company called Impress3." ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/471d1d103e03> a airo:Evidence ;
+    airo:evidenceText "Danielle Coffey, the group's chief executive, told CNN that Hoodline's content \"is likely a violation of copyright law.\"" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/61a633ed492e> a airo:Evidence ;
+    airo:evidenceText "said Felix Simon, a research fellow in AI and digital news at the Reuters Institute for the Study of Journalism at the University of Oxford." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/896589baeeba> a airo:Evidence ;
+    airo:evidenceText "According to an official X account from the San Mateo County District Attorney’s Office, Thompson was apprehended after a collaborative investigation by the DA’s Office and the East Palo Alto Police Department, which initially began as a search for a missing person." ;
+    airo:sourceDocId "3977" .
+
+<https://w3id.org/airo/incident/evidence/b284bcc3a142> a airo:Evidence ;
+    airo:evidenceText "Nuala Bishari, a former Hoodline reporter, wrote in a recent column for the San Francisco Chronicle that seeing her old job replaced by AI is \"surreal.\"" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/eccb500c9552> a airo:Evidence ;
+    airo:evidenceText "Wayback Machine director Mark Graham told CNN that archived pages of Hoodline's AI writers were removed last month \"at the request of the rights holder of the site.\"" ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/f1900ec5061e> a airo:Evidence ;
+    airo:evidenceText "Some news organizations, like News Corp., are increasingly inking lucrative partnerships with AI developers like OpenAI to help bolster its large language models' knowledge base." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/evidence/86d5025099fb> a airo:Evidence ;
+    airo:evidenceText "Zachary Chen, chief executive of Hoodline parent company Impress3, which acquired the site in 2020, defended the site's use of AI and its transparency with readers, telling CNN the outlet provides valuable reporting.",
+        "Zachary Chen, chief executive of Hoodline parent company Impress3, which acquired the site in 2020, defended the site's use of AI and its transparency with readers." ;
+    airo:sourceDocId "3770" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_408> a airo:AIRiskIncident ;
+    rdfs:label "AI-Powered News Site Accidentally Accuses District Attorney of Murder" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/b92c5f3d3081> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/568ed3c99a7f> ;
+    airo:hasDescription "pred_408" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/f0a78d1ce073>,
+        <https://w3id.org/airo/incident/Domain/396f9061b5aa>,
+        <https://w3id.org/airo/incident/evidence/3606a31fecf6>,
+        <https://w3id.org/airo/incident/evidence/744a76c77ce0>,
+        <https://w3id.org/airo/incident/evidence/ebe347d3ae0d>,
+        <https://w3id.org/airo/incident/evidence/edf71703bd28> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/10ce04664a1e> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/3770>,
+        <https://w3id.org/airo/incident/NewsReport/3976>,
+        <https://w3id.org/airo/incident/NewsReport/3977>,
+        <https://w3id.org/airo/incident/NewsReport/6966> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/370575a91aa8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770>,
+        <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/18e32bf2f2a3>,
+        <https://w3id.org/airo/incident/AISystem/6f48eeadeef7> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/24db3e203b5d>,
+        <https://w3id.org/airo/incident/Stakeholder/289eff643c51>,
+        <https://w3id.org/airo/incident/Stakeholder/414db00a2bc4>,
+        <https://w3id.org/airo/incident/Stakeholder/48ac55160b8a>,
+        <https://w3id.org/airo/incident/Stakeholder/4ec1d46cbde2>,
+        <https://w3id.org/airo/incident/Stakeholder/4f4a96806dea>,
+        <https://w3id.org/airo/incident/Stakeholder/5315abf7db18>,
+        <https://w3id.org/airo/incident/Stakeholder/540917ab2cdd>,
+        <https://w3id.org/airo/incident/Stakeholder/5a094918d94f>,
+        <https://w3id.org/airo/incident/Stakeholder/5f741745ac79>,
+        <https://w3id.org/airo/incident/Stakeholder/61c09d9cfdfd>,
+        <https://w3id.org/airo/incident/Stakeholder/6edac67a1d30>,
+        <https://w3id.org/airo/incident/Stakeholder/73ac4893c197>,
+        <https://w3id.org/airo/incident/Stakeholder/78b9373649f2>,
+        <https://w3id.org/airo/incident/Stakeholder/7e34c0c6d544>,
+        <https://w3id.org/airo/incident/Stakeholder/82f5e639507b>,
+        <https://w3id.org/airo/incident/Stakeholder/cfb89ab324d2>,
+        <https://w3id.org/airo/incident/Stakeholder/d2e9e33d4383>,
+        <https://w3id.org/airo/incident/Stakeholder/d30486081c76>,
+        <https://w3id.org/airo/incident/Stakeholder/da01f89f5326>,
+        <https://w3id.org/airo/incident/Stakeholder/e030889d88ce>,
+        <https://w3id.org/airo/incident/Stakeholder/e05a11953b43>,
+        <https://w3id.org/airo/incident/Stakeholder/e568491bc5ec>,
+        <https://w3id.org/airo/incident/Stakeholder/ea4f5203b675>,
+        <https://w3id.org/airo/incident/Stakeholder/f64bc54a0987>,
+        <https://w3id.org/airo/incident/Stakeholder/fe57afb4dc85> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/912675bf83c3> .
+
+<https://w3id.org/airo/incident/AISystem/6f48eeadeef7> a airo:AISystem ;
+    rdfs:label "Hoodline AI" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/b92c5f3d3081> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/406bda02a364> ;
+    airo:hasDescription "Hoodline" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16b73387e654>,
+        <https://w3id.org/airo/incident/evidence/9fb1059a3369>,
+        <https://w3id.org/airo/incident/evidence/b0319d7ca5a2>,
+        <https://w3id.org/airo/incident/evidence/d48ceea69547>,
+        <https://w3id.org/airo/incident/evidence/ed3f46e2eb76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3770>,
+        <https://w3id.org/airo/incident/document/3976>,
+        <https://w3id.org/airo/incident/document/3977>,
+        <https://w3id.org/airo/incident/document/6966> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/f3ea6bb86bec> .
+

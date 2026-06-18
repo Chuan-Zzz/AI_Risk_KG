@@ -1,0 +1,2144 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/656e5cdd69b4> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5839>,
+        <https://w3id.org/airo/incident/NewsReport/5841>,
+        <https://w3id.org/airo/incident/NewsReport/5927>,
+        <https://w3id.org/airo/incident/NewsReport/5938> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/InformationSource/691c0538440c> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/3676>,
+        <https://w3id.org/airo/incident/NewsReport/3677> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/RiskControl/e95e0cde43de> a airo:RiskControl ;
+    rdfs:label "acknowledgment and apology from the system operator after error" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30c6a2592c8c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/c8917c921a7f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0e688ad05169> a airo:RoleAssignment ;
+    rdfs:label "Home Bargains_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0283a169c0d8> ;
+    airo:hasReasoning "Home Bargains uses/deployed Facewatch in its stores." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0b870ad3f858> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2bbee6adb322> a airo:RoleAssignment ;
+    rdfs:label "Costcutter_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b802d771281> ;
+    airo:hasReasoning "Costcutter is 1 of the stores using the Facewatch system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8ebb11720edc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/401e0af71f07> a airo:RoleAssignment ;
+    rdfs:label "Budgens_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6f6d8dd5cb6> ;
+    airo:hasReasoning "Budgens is 1 of the stores using the Facewatch system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ef3287f5bc52> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/56a6899b1dd3> a airo:RoleAssignment ;
+    rdfs:label "Chris Philp_Stakeholder" ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc4c68c3ec37> ;
+    airo:hasReasoning "Chris Philp is listed as a stakeholder but no specific action evidence in the provided snippets." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9926c33ee654> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5c83240e0c9c> a airo:RoleAssignment ;
+    rdfs:label "Facewatch_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7129e697e5aa> ;
+    airo:hasReasoning "Facewatch provides the facial recognition system to retail stores." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/de315fa5103a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/71cbe4769473> a airo:RoleAssignment ;
+    rdfs:label "Shaun Thompson_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/196488bc8c68> ;
+    airo:hasReasoning "Shaun Thompson was negatively affected by being incorrectly identified." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8fded4de41e0> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/746e2e3df8cc> a airo:RoleAssignment ;
+    rdfs:label "Ada Lovelace Institute_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b0147882496> ;
+    airo:hasReasoning "Ada Lovelace Institute is a research group analyzing the technology and legal implications, acting as a stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/918a9455b034> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d540abfeb38> a airo:RoleAssignment ;
+    rdfs:label "Sports Direct_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f29b6765395a> ;
+    airo:hasReasoning "Sports Direct is 1 of the stores using the Facewatch system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/814914fe568c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a2c11227ac5e> a airo:RoleAssignment ;
+    rdfs:label "NEC_AIProvider" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7346988a251> ;
+    airo:hasReasoning "NEC is listed as a stakeholder and is a known provider of facial recognition technology to police forces, though evidence is indirect." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0929367dd856> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c1d1c802ba1f> a airo:RoleAssignment ;
+    rdfs:label "Metropolitan Police_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f1ca0b49894> ;
+    airo:hasReasoning "The Metropolitan Police deploys and uses live facial recognition technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/dcdb38932894> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cf58dac40f60> a airo:RoleAssignment ;
+    rdfs:label "Lindsey Chiswick_Stakeholder" ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1df8bd384db6> ;
+    airo:hasReasoning "Lindsey Chiswick is listed as a stakeholder but no specific action evidence in the provided snippets." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f39846ebe8fa> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cffafcca7e7a> a airo:RoleAssignment ;
+    rdfs:label "South Wales Police_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ff5e4bd97b2> ;
+    airo:hasReasoning "South Wales Police deploys and uses facial recognition technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/91b2a7dd7cf4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d51ba168de0e> a airo:RoleAssignment ;
+    rdfs:label "National Physical Laboratory_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9de76a15613> ;
+    airo:hasReasoning "NPL is listed as a stakeholder; likely involved in testing or standards but no direct action evidence in snippets." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3dd1bb6a6127> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/eb4cdc2309bd> a airo:RoleAssignment ;
+    rdfs:label "Big Brother Watch_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ace446107442> ;
+    airo:hasReasoning "Big Brother Watch is an advocacy group observing and commenting on facial recognition deployments, acting as a civil society stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_187> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f2dedeafc9cf> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/7057d7e2f83e> .
+
+<https://w3id.org/airo/incident/Trend/3487e71a11da> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny and public concern over facial recognition deployment in retail and policing" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2f8491248c> ;
+    airo:hasReasoning "The evidence highlights a gap between technology deployment and existing laws, coupled with advocacy group monitoring." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839> .
+
+<https://w3id.org/airo/incident/event/pred_187> a airo:AIRiskIncident ;
+    airo:firstSeen "2024-05-25T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 6 ;
+    airo:lastSeen "2024-05-27T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00b913e03249> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11889bbd6c7c> .
+
+<https://w3id.org/airo/incident/ks/02a50c7ccdf0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/03d95d856697> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe19294effb> .
+
+<https://w3id.org/airo/incident/ks/06293749b9ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8e74c74d3abf> .
+
+<https://w3id.org/airo/incident/ks/0659f9097d2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0d4841fc678> .
+
+<https://w3id.org/airo/incident/ks/06d4c450a3ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/06f887a6e499> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/06fc8a178523> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c30eb654048> .
+
+<https://w3id.org/airo/incident/ks/07893bbc73f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b78e7b424d1d> .
+
+<https://w3id.org/airo/incident/ks/081ff3fa9531> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/0a4ecfa37d92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/692d81f9c3f6> .
+
+<https://w3id.org/airo/incident/ks/0a788e62f012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37535d08752e> .
+
+<https://w3id.org/airo/incident/ks/0c4383c7bb34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb41b2f3d300> .
+
+<https://w3id.org/airo/incident/ks/0c847747ba34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/0dcd8d93aa92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe19294effb> .
+
+<https://w3id.org/airo/incident/ks/0ddf18e1b705> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a5c22ad27f1> .
+
+<https://w3id.org/airo/incident/ks/0de55c11c186> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5345ea64903e> .
+
+<https://w3id.org/airo/incident/ks/0e3adf1db86e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcc395e36f24> .
+
+<https://w3id.org/airo/incident/ks/10aff621103c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f0cfef49d1> .
+
+<https://w3id.org/airo/incident/ks/12f9eef182b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3221006f1c4> .
+
+<https://w3id.org/airo/incident/ks/13dd23eab603> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be968574a0ff> .
+
+<https://w3id.org/airo/incident/ks/15f75a82ebdf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d2e10713f38> .
+
+<https://w3id.org/airo/incident/ks/1616c4734883> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a5c22ad27f1> .
+
+<https://w3id.org/airo/incident/ks/16aa2ef0e566> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf27e046f003> .
+
+<https://w3id.org/airo/incident/ks/18347d24726d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6227e072453> .
+
+<https://w3id.org/airo/incident/ks/184446e3b322> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bb1d68424b9> .
+
+<https://w3id.org/airo/incident/ks/19239dbf16c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebd3b0348a12> .
+
+<https://w3id.org/airo/incident/ks/1af83e7accec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd43c482ca0d> .
+
+<https://w3id.org/airo/incident/ks/1cf619172783> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ad0a6ba6222> .
+
+<https://w3id.org/airo/incident/ks/1e7a59db3bef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/1eb5258164f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce> .
+
+<https://w3id.org/airo/incident/ks/1ed04a3df4d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74325835924f> .
+
+<https://w3id.org/airo/incident/ks/1ef1f8f5c819> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb41b2f3d300> .
+
+<https://w3id.org/airo/incident/ks/1f8acb89e2ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f79b7a7fd> .
+
+<https://w3id.org/airo/incident/ks/203fb8cd7df9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8c2d1fa8ed8> .
+
+<https://w3id.org/airo/incident/ks/205390a5b3f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd43c482ca0d> .
+
+<https://w3id.org/airo/incident/ks/21873fcb93cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ce9d3136ca0> .
+
+<https://w3id.org/airo/incident/ks/21af4c8455f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fa58c154709> .
+
+<https://w3id.org/airo/incident/ks/23771268a7fe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d1b2c189cc3> .
+
+<https://w3id.org/airo/incident/ks/24860fb495f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29e7698f057f> .
+
+<https://w3id.org/airo/incident/ks/24d9785de159> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3524ee1764cb> .
+
+<https://w3id.org/airo/incident/ks/2556990e3f25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28ff5fb6acf4> .
+
+<https://w3id.org/airo/incident/ks/289ab7bbc73c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6227e072453> .
+
+<https://w3id.org/airo/incident/ks/2af584c87208> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3221006f1c4> .
+
+<https://w3id.org/airo/incident/ks/2bf90818850f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab3f8478cc3d> .
+
+<https://w3id.org/airo/incident/ks/2c516545c6b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987e3f7dcf0e> .
+
+<https://w3id.org/airo/incident/ks/2c6d2497099b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf248a25708> .
+
+<https://w3id.org/airo/incident/ks/2d9f6d146ff8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5345ea64903e> .
+
+<https://w3id.org/airo/incident/ks/2f590632b667> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29e7698f057f> .
+
+<https://w3id.org/airo/incident/ks/3017d0a6b219> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e776b4b95202> .
+
+<https://w3id.org/airo/incident/ks/30269c7294eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/305875051f57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/659c5e525818> .
+
+<https://w3id.org/airo/incident/ks/31c3540350b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d176dc21dd2d> .
+
+<https://w3id.org/airo/incident/ks/337ce244c5d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75b6574c8647> .
+
+<https://w3id.org/airo/incident/ks/34b3ccfa16d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32e2e2e74e51> .
+
+<https://w3id.org/airo/incident/ks/3758e2cdb505> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19e8644b3934> .
+
+<https://w3id.org/airo/incident/ks/3888be027cf7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37461d16c7df> .
+
+<https://w3id.org/airo/incident/ks/39ec4f57c968> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63fb1789eb5> .
+
+<https://w3id.org/airo/incident/ks/3c17f4810032> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64386515d56a> .
+
+<https://w3id.org/airo/incident/ks/3c6485a904ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fcc4109278b> .
+
+<https://w3id.org/airo/incident/ks/409aea7f3858> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab3f8478cc3d> .
+
+<https://w3id.org/airo/incident/ks/40b85998e834> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/429611f4e83f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/803e26344e7f> .
+
+<https://w3id.org/airo/incident/ks/431455668653> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebd3b0348a12> .
+
+<https://w3id.org/airo/incident/ks/439c4041404f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29e7698f057f> .
+
+<https://w3id.org/airo/incident/ks/44d658d3e79f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74325835924f> .
+
+<https://w3id.org/airo/incident/ks/46181defa7d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d176dc21dd2d> .
+
+<https://w3id.org/airo/incident/ks/48cd167f866c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab3f8478cc3d> .
+
+<https://w3id.org/airo/incident/ks/48d2d88a4082> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97fff57b9ab8> .
+
+<https://w3id.org/airo/incident/ks/49607ec3b2e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/4a8b15cbfe19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/4bbe0ca0ea47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ab4f0eeae7e> .
+
+<https://w3id.org/airo/incident/ks/4f6b8269049e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/50a1d01d2b76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37535d08752e> .
+
+<https://w3id.org/airo/incident/ks/51d0ff4caccd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a5c22ad27f1> .
+
+<https://w3id.org/airo/incident/ks/52897dc95167> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94ba057dbc68> .
+
+<https://w3id.org/airo/incident/ks/52bf866693c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56ba54faac9d> .
+
+<https://w3id.org/airo/incident/ks/53a1ac9f435f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/5f88a77e67ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/659c5e525818> .
+
+<https://w3id.org/airo/incident/ks/630615cd8ecc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbb36181aa31> .
+
+<https://w3id.org/airo/incident/ks/633d3ebe8888> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d2e10713f38> .
+
+<https://w3id.org/airo/incident/ks/654d926c8cdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce> .
+
+<https://w3id.org/airo/incident/ks/68f79b37febe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987e3f7dcf0e> .
+
+<https://w3id.org/airo/incident/ks/6accbae1fea0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d2e10713f38> .
+
+<https://w3id.org/airo/incident/ks/6b313096e1e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32e2e2e74e51> .
+
+<https://w3id.org/airo/incident/ks/6c75bff9e8e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe19294effb> .
+
+<https://w3id.org/airo/incident/ks/6e147c762117> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/6f256ab88a26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/70295873d101> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef4517ae3b81> .
+
+<https://w3id.org/airo/incident/ks/7217aa465ee9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e741e53f73b0> .
+
+<https://w3id.org/airo/incident/ks/761261cbdf4c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/791e52d60703> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bb1d68424b9> .
+
+<https://w3id.org/airo/incident/ks/79e99e947f3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37461d16c7df> .
+
+<https://w3id.org/airo/incident/ks/79f0efba9c1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3221006f1c4> .
+
+<https://w3id.org/airo/incident/ks/7dfd3f4f6d1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/81637af9dfd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b200dea0acd4> .
+
+<https://w3id.org/airo/incident/ks/82b8f5039b05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11889bbd6c7c> .
+
+<https://w3id.org/airo/incident/ks/840c5cbed856> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5345ea64903e> .
+
+<https://w3id.org/airo/incident/ks/847089b532db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/8845e3c780bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/8913f590a4e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/8df5d0cdfbe0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a00cbc041> .
+
+<https://w3id.org/airo/incident/ks/92550582bf27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bca06ed30888> .
+
+<https://w3id.org/airo/incident/ks/93f14c83a00f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e725d6eb3a09> .
+
+<https://w3id.org/airo/incident/ks/942dee2fbe47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7eefb76d3290> .
+
+<https://w3id.org/airo/incident/ks/95a41b96aab0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f622e38872a7> .
+
+<https://w3id.org/airo/incident/ks/969441fd4943> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd43c482ca0d> .
+
+<https://w3id.org/airo/incident/ks/97c9937152a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/803e26344e7f> .
+
+<https://w3id.org/airo/incident/ks/989bffe7361f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d7870e174f73> .
+
+<https://w3id.org/airo/incident/ks/9b9edd4ebd2b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29e7698f057f> .
+
+<https://w3id.org/airo/incident/ks/9c3d684d35f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42c3b1dcb2d2> .
+
+<https://w3id.org/airo/incident/ks/9d35c98ad202> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/9e4e23572f27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30c6a2592c8c> .
+
+<https://w3id.org/airo/incident/ks/9eac7710373e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28ff5fb6acf4> .
+
+<https://w3id.org/airo/incident/ks/a0a192b85ab0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bb1d68424b9> .
+
+<https://w3id.org/airo/incident/ks/a35eeb4ee1f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab3f8478cc3d> .
+
+<https://w3id.org/airo/incident/ks/a41ffffebc40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f79b7a7fd> .
+
+<https://w3id.org/airo/incident/ks/a5218d7c656d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb41b2f3d300> .
+
+<https://w3id.org/airo/incident/ks/a5398a951da4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/a785167ee7a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/a8ce98c30e21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b78e7b424d1d> .
+
+<https://w3id.org/airo/incident/ks/aaa0a6e85655> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d2e10713f38> .
+
+<https://w3id.org/airo/incident/ks/ab05bc71435b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5345ea64903e> .
+
+<https://w3id.org/airo/incident/ks/ac9ab418a604> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce> .
+
+<https://w3id.org/airo/incident/ks/adbde97398b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/aefc847b91d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f79b7a7fd> .
+
+<https://w3id.org/airo/incident/ks/b0300e244937> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37535d08752e> .
+
+<https://w3id.org/airo/incident/ks/b0b5bba1a5f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d176dc21dd2d> .
+
+<https://w3id.org/airo/incident/ks/b2f1fb839022> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/659c5e525818> .
+
+<https://w3id.org/airo/incident/ks/b3a33e7f6fbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/b4f55599471b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d3f4d150b0f> .
+
+<https://w3id.org/airo/incident/ks/b52a01f083a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/b821ba37d39e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b78e7b424d1d> .
+
+<https://w3id.org/airo/incident/ks/baf5f20c5a82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b63d111e05e> .
+
+<https://w3id.org/airo/incident/ks/bcc06b374a66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/ks/bdca9bf97719> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebd3b0348a12> .
+
+<https://w3id.org/airo/incident/ks/be3a2b003687> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/c041d504c54c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/659c5e525818> .
+
+<https://w3id.org/airo/incident/ks/c126c056150c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/290eb6054d8e> .
+
+<https://w3id.org/airo/incident/ks/c76e5c0f04e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11889bbd6c7c> .
+
+<https://w3id.org/airo/incident/ks/c8d4291db18c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e725d6eb3a09> .
+
+<https://w3id.org/airo/incident/ks/c94ed8038f7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7369a660b00e> .
+
+<https://w3id.org/airo/incident/ks/cb0a0d293ec2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b78e7b424d1d> .
+
+<https://w3id.org/airo/incident/ks/cc28ae4b9582> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f79b7a7fd> .
+
+<https://w3id.org/airo/incident/ks/cd8ccf80aa06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05553ae40d86> .
+
+<https://w3id.org/airo/incident/ks/cdc4a21c7f48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11f9ec2df907> .
+
+<https://w3id.org/airo/incident/ks/ced721bc0f97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a5c22ad27f1> .
+
+<https://w3id.org/airo/incident/ks/d155f3a6fe69> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/d1b09442312c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32e2e2e74e51> .
+
+<https://w3id.org/airo/incident/ks/d1d5cee698b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c82bb67b4d8> .
+
+<https://w3id.org/airo/incident/ks/d2463f14d790> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebd3b0348a12> .
+
+<https://w3id.org/airo/incident/ks/d2c13f514e5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe19294effb> .
+
+<https://w3id.org/airo/incident/ks/d376a36b5afd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987e3f7dcf0e> .
+
+<https://w3id.org/airo/incident/ks/d4c42ad8c14a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bb1d68424b9> .
+
+<https://w3id.org/airo/incident/ks/d565c5bfdc32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb41b2f3d300> .
+
+<https://w3id.org/airo/incident/ks/d8886153735a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/da3633fea3bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf248a25708> .
+
+<https://w3id.org/airo/incident/ks/da91ffa3e00e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d176dc21dd2d> .
+
+<https://w3id.org/airo/incident/ks/daacab133795> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd43c482ca0d> .
+
+<https://w3id.org/airo/incident/ks/db2d4fc1a2e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20de9b83db7b> .
+
+<https://w3id.org/airo/incident/ks/debe7260937f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21eb29e0e2ac> .
+
+<https://w3id.org/airo/incident/ks/e12562dc4a2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/e2be6f6ea8d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6227e072453> .
+
+<https://w3id.org/airo/incident/ks/e4d0d13eef64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37461d16c7df> .
+
+<https://w3id.org/airo/incident/ks/e75152b0e4b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9725a5fbee94> .
+
+<https://w3id.org/airo/incident/ks/e981d56e0c31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9725a5fbee94> .
+
+<https://w3id.org/airo/incident/ks/e9871e2eac32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce> .
+
+<https://w3id.org/airo/incident/ks/eaa2c8e25dcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6227e072453> .
+
+<https://w3id.org/airo/incident/ks/eada3bd03490> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/eaeddbf2ac4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9725a5fbee94> .
+
+<https://w3id.org/airo/incident/ks/ece8e967db17> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3221006f1c4> .
+
+<https://w3id.org/airo/incident/ks/ee7d4fde346a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11889bbd6c7c> .
+
+<https://w3id.org/airo/incident/ks/eea6b2651329> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7723ebd601d9> .
+
+<https://w3id.org/airo/incident/ks/ef3506a49c9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987e3f7dcf0e> .
+
+<https://w3id.org/airo/incident/ks/ef73458531cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e46fee6dd409> .
+
+<https://w3id.org/airo/incident/ks/efebd51d4ac6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37535d08752e> .
+
+<https://w3id.org/airo/incident/ks/f029b514aac2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf248a25708> .
+
+<https://w3id.org/airo/incident/ks/f0fc98284f94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf27e046f003> .
+
+<https://w3id.org/airo/incident/ks/f2c45144abf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf248a25708> .
+
+<https://w3id.org/airo/incident/ks/f34ab06d8e1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce> .
+
+<https://w3id.org/airo/incident/ks/f5455888bb9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9725a5fbee94> .
+
+<https://w3id.org/airo/incident/ks/f5bd2058ee15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/927d56f53344> .
+
+<https://w3id.org/airo/incident/ks/f9a4c207f525> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32e2e2e74e51> .
+
+<https://w3id.org/airo/incident/ks/fa08551c86e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/fb08f5a9ee12> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/fc57237ebe26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11cc860ff48c> .
+
+<https://w3id.org/airo/incident/ks/fc9def6880a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb> .
+
+<https://w3id.org/airo/incident/ks/fcd702ed912b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/769fd1d7d8a4> .
+
+<https://w3id.org/airo/incident/ks/fd64f705f7ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06ff3e8181d3> .
+
+<https://w3id.org/airo/incident/ks/fd85dd1bfb8f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37461d16c7df> .
+
+<https://w3id.org/airo/incident/ks/fd9a0f0dbd95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be43e2345951> .
+
+<https://w3id.org/airo/incident/ks/ff85ffaff756> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21664c113b1f> .
+
+<https://w3id.org/airo/incident/AICapability/5a4a3df10ac7> a airo:AICapability ;
+    rdfs:label "facial mapping" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "map the face" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42c3b1dcb2d2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/AICapability/843f3335b457> a airo:AICapability ;
+    rdfs:label "facial matching" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "compared to large databases to try to find a match" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19e8644b3934> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/AICapability/c7df2b07c387> a airo:AICapability ;
+    rdfs:label "face detection" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "detect faces" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bca06ed30888> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/f1e0a4b2b53a> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/692d81f9c3f6> ;
+    airo:hasReasoning "The systems are actively being used in real-world retail and policing contexts, indicating deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/AITechnique/1cfde496b19a> a airo:AITechnique ;
+    rdfs:label "live facial scanning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "live facial scanning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7723ebd601d9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/AITechnique/1f8febf56a06> a airo:AITechnique ;
+    rdfs:label "facial recognition" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d8e6e180163>,
+        <https://w3id.org/airo/incident/evidence/6251ef8862ad>,
+        <https://w3id.org/airo/incident/evidence/6ae519d3f871>,
+        <https://w3id.org/airo/incident/evidence/6c30eb654048>,
+        <https://w3id.org/airo/incident/evidence/803e26344e7f>,
+        <https://w3id.org/airo/incident/evidence/957af869302d>,
+        <https://w3id.org/airo/incident/evidence/a3221006f1c4>,
+        <https://w3id.org/airo/incident/evidence/e725d6eb3a09>,
+        <https://w3id.org/airo/incident/evidence/e776b4b95202>,
+        <https://w3id.org/airo/incident/evidence/ee296c16d50c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/AITechnique/2a62555c926e> a airo:AITechnique ;
+    rdfs:label "biometric imaging" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "biometric image" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7369a660b00e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5841> .
+
+<https://w3id.org/airo/incident/AffectedActor/4dc469fb91d2> a airo:AffectedActor ;
+    rdfs:label "individuals wrongly identified by facial recognition systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b63d111e05e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/Domain/8ee818e10eea> a airo:Domain ;
+    rdfs:label "retail" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/769fd1d7d8a4> ;
+    airo:hasReasoning "The primary context described is retail stores using facial recognition for security purposes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> .
+
+<https://w3id.org/airo/incident/Hazard/b3164c98276d> a airo:Hazard ;
+    rdfs:label "deployment of non-infallible facial recognition technology" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11cc860ff48c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/Purpose/556b556837b0> a airo:Purpose ;
+    rdfs:label "identify shoplifters and suspects in retail stores and public spaces" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20de9b83db7b> ;
+    airo:hasReasoning "Evidence shows Facewatch is used in retail to identify shoplifters, while police use it for surveillance and arrest assistance." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> .
+
+<https://w3id.org/airo/incident/RiskSource/64a3dbd83d3a> a airo:RiskSource ;
+    rdfs:label "facial recognition software errors" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/c8917c921a7f> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef4517ae3b81> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/b3164c98276d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839> .
+
+<https://w3id.org/airo/incident/Stakeholder/1bde4c5deca0> a airo:Stakeholder ;
+    rdfs:label "Street Fathers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Streetfathers" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce>,
+        <https://w3id.org/airo/incident/evidence/e46fee6dd409> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5841> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/f59f02362d06> a airo:Stakeholder ;
+    rdfs:label "Tower Hamlets Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tower Hamlets Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97fff57b9ab8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/Vulnerability/c744cc4cad85> a airo:Vulnerability ;
+    rdfs:label "inaccuracy and lack of robustness in facial recognition algorithms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0d4841fc678> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5841> .
+
+<https://w3id.org/airo/incident/evidence/0283a169c0d8> a airo:Evidence ;
+    airo:evidenceText "an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/05553ae40d86> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/06ff3e8181d3> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/0908829aebc3> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, told the BBC that laws have not yet caught up with the technology." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/0ad0a6ba6222> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/0ccb0ba9f9f0> a airo:Evidence ;
+    airo:evidenceText "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/11f9ec2df907> a airo:Evidence ;
+    airo:evidenceText "The BBC also reported a case of mistaken identity by the Metropolitan Police using a facial recognition system." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/196488bc8c68> a airo:Evidence ;
+    airo:evidenceText "Shaun Thompson, who works for the youth-advocacy group Street Fathers, said that he was incorrectly identified by police using a facial recognition system near London Bridge." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/1df8bd384db6> a airo:Evidence ;
+    airo:evidenceText "Lindsey Chiswick" ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/21eb29e0e2ac> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/290eb6054d8e> a airo:Evidence ;
+    airo:evidenceText "The BBC also reported a case of mistaken identity by the Metropolitan Police using a facial recognition system." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/2f1ca0b49894> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/3524ee1764cb> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/3b0147882496> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, believes the technology is so new that the laws have not yet caught up." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/3dd42b5bea20> a airo:Evidence ;
+    airo:evidenceText "Innocent woman branded a shoplifter by facial recognition software" ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/4d3f4d150b0f> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/5597b907ad58> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has been observing facial recognition deployments for years." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/559803263b10> a airo:Evidence ;
+    airo:evidenceText "Innocent woman branded a thief by AI facial recognition software" ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/56ba54faac9d> a airo:Evidence ;
+    airo:evidenceText "an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/5c2a00cbc041> a airo:Evidence ;
+    airo:evidenceText "The BBC also reported a case of mistaken identity by the Metropolitan Police using a facial recognition system." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/6251ef8862ad> a airo:Evidence ;
+    airo:evidenceText "She says that anyone's face who is scanned is effectively part of a digital police line-up." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/64366a1413c0> a airo:Evidence ;
+    airo:evidenceText "That is the exact scenario one woman found herself in due to a mistake made by facial recognition software in a Home Bargains store." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/64f5ed808b4b> a airo:Evidence ;
+    airo:evidenceText "A woman said that an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/6e2f8491248c> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, believes the technology is so new that the laws have not yet caught up." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/6fa58c154709> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/7129e697e5aa> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/75b6574c8647> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/82a2914fe357> a airo:Evidence ;
+    airo:evidenceText "The BBC reported that Facewatch, which uses a cloud-based facial recognition security system, wrote to her and admitted it had made an error." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/8b802d771281> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/8e74c74d3abf> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/927d56f53344> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/94ba057dbc68> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/9c82bb67b4d8> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/9ce9d3136ca0> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/9ff5e4bd97b2> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/a7346988a251> a airo:Evidence ;
+    airo:evidenceText "The BBC also reported a case of mistaken identity by the Metropolitan Police using a facial recognition system." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/a806810bc97e> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, told the BBC that laws have not yet caught up with the technology." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/a8c2d1fa8ed8> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/aa293dbf2ff3> a airo:Evidence ;
+    airo:evidenceText "'I was misidentified as shoplifter by facial recognition tech'" ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/ace446107442> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has been observing facial recognition deployments for years." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/b739b58d9129> a airo:Evidence ;
+    airo:evidenceText "Sara had been mistakenly identified by facial recognition software called Facewatch, which is used in a number of stores around the UK alongside Home Bargains, including Sports Direct, Budgens and Costcutter." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/be968574a0ff> a airo:Evidence ;
+    airo:evidenceText "an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/c63fb1789eb5> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/c9de76a15613> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, told the BBC that laws have not yet caught up with the technology." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/cbb36181aa31> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/d4134fb6be07> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has been observing facial recognition deployments for years." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/d7870e174f73> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/dc4c68c3ec37> a airo:Evidence ;
+    airo:evidenceText "Chris Philp" ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/e741e53f73b0> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/ee7ddafdd10c> a airo:Evidence ;
+    airo:evidenceText "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/f29b6765395a> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/f622e38872a7> a airo:Evidence ;
+    airo:evidenceText "an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/f6f6d8dd5cb6> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/Consequence/87c1815559fc> a airo:Consequence ;
+    rdfs:label "incorrect identification and wrongful accusation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28ff5fb6acf4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/85ac58962465> .
+
+<https://w3id.org/airo/incident/Impact/85ac58962465> a airo:Impact ;
+    rdfs:label "personal distress and reputational harm to wrongly identified individuals" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/4dc469fb91d2> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74325835924f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/NewsReport/3676> a airo:NewsReport ;
+    rdfs:label "'I was misidentified as shoplifter by facial recognition tech'" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**Sara needed some chocolate - she had had one of those days - so wandered into a Home Bargains store.**
+
+"Within less than a minute, I'm approached by a store worker who comes up to me and says, 'You""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fcc4109278b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676> .
+
+<https://w3id.org/airo/incident/NewsReport/3677> a airo:NewsReport ;
+    rdfs:label "Innocent woman branded a shoplifter by facial recognition software" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Shoppers have been warned that facial recognition software used by stores is wrongly identifying some innocent customers as thieves.
+
+A woman said that an employee at Home Bargains, the variety store """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d1b2c189cc3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/NewsReport/5839> a airo:NewsReport ;
+    rdfs:label "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """'I was misidentified as shoplifter by facial recognition tech'
+Sara needed some chocolate - she had had one of those days - so wandered into a Home Bargains store.
+"Within less than a minute, I'm appr""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7eefb76d3290> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5839> .
+
+<https://w3id.org/airo/incident/NewsReport/5841> a airo:NewsReport ;
+    rdfs:label "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """'I was misidentified as shoplifter by facial recognition tech'
+Sara needed some chocolate - she had had one of those days - so wandered into a Home Bargains store.
+"Within less than a minute, I'm appr""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73f0cfef49d1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5841> .
+
+<https://w3id.org/airo/incident/NewsReport/5927> a airo:NewsReport ;
+    rdfs:label "Innocent woman branded a thief by AI facial recognition software" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """You’re out shopping, minding your own business, when suddenly the security guard appears and declares you’re a criminal.
+That is the exact scenario one woman found herself in due to a mistake made by """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b200dea0acd4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5927> .
+
+<https://w3id.org/airo/incident/NewsReport/5938> a airo:NewsReport ;
+    rdfs:label "Innocent woman branded a thief by AI facial recognition software" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """You’re out shopping, minding your own business, when suddenly the security guard appears and declares you’re a criminal.
+That is the exact scenario one woman found herself in due to a mistake made by """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ab4f0eeae7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5938> .
+
+<https://w3id.org/airo/incident/Stakeholder/0929367dd856> a airo:Stakeholder ;
+    rdfs:label "NEC" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NEC" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37535d08752e>,
+        <https://w3id.org/airo/incident/evidence/705f79b7a7fd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 2 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> .
+
+<https://w3id.org/airo/incident/Stakeholder/0b870ad3f858> a airo:Stakeholder ;
+    rdfs:label "Home Bargains" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Home Bargains" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d8e6e180163>,
+        <https://w3id.org/airo/incident/evidence/64366a1413c0>,
+        <https://w3id.org/airo/incident/evidence/64f5ed808b4b>,
+        <https://w3id.org/airo/incident/evidence/b78e7b424d1d>,
+        <https://w3id.org/airo/incident/evidence/dd43c482ca0d>,
+        <https://w3id.org/airo/incident/evidence/eb41b2f3d300> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/Stakeholder/3dd1bb6a6127> a airo:Stakeholder ;
+    rdfs:label "National Physical Laboratory" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Physical Laboratory" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29e7698f057f>,
+        <https://w3id.org/airo/incident/evidence/2bb1d68424b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/814914fe568c> a airo:Stakeholder ;
+    rdfs:label "Sports Direct" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sports Direct" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb>,
+        <https://w3id.org/airo/incident/evidence/21664c113b1f>,
+        <https://w3id.org/airo/incident/evidence/859aa620ff51>,
+        <https://w3id.org/airo/incident/evidence/be43e2345951> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/8ebb11720edc> a airo:Stakeholder ;
+    rdfs:label "Costcutter" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Costcutter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb>,
+        <https://w3id.org/airo/incident/evidence/21664c113b1f>,
+        <https://w3id.org/airo/incident/evidence/859aa620ff51>,
+        <https://w3id.org/airo/incident/evidence/be43e2345951> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/8fded4de41e0> a airo:Stakeholder ;
+    rdfs:label "Shaun Thompson" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Shaun Thompson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f79e24445ce>,
+        <https://w3id.org/airo/incident/evidence/3d2e10713f38> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5841> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/918a9455b034> a airo:Stakeholder ;
+    rdfs:label "Ada Lovelace Institute" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ada Lovelace Institute" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0908829aebc3>,
+        <https://w3id.org/airo/incident/evidence/659c5e525818>,
+        <https://w3id.org/airo/incident/evidence/9725a5fbee94>,
+        <https://w3id.org/airo/incident/evidence/a806810bc97e>,
+        <https://w3id.org/airo/incident/evidence/bbe19294effb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/91b2a7dd7cf4> a airo:Stakeholder ;
+    rdfs:label "South Wales Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Wales Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a5c22ad27f1>,
+        <https://w3id.org/airo/incident/evidence/ab3f8478cc3d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/9926c33ee654> a airo:Stakeholder ;
+    rdfs:label "Chris Philp" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chris Philp" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37461d16c7df> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/Stakeholder/dcdb38932894> a airo:Stakeholder ;
+    rdfs:label "Metropolitan Police" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Metropolitan Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5345ea64903e>,
+        <https://w3id.org/airo/incident/evidence/6ae519d3f871>,
+        <https://w3id.org/airo/incident/evidence/957af869302d>,
+        <https://w3id.org/airo/incident/evidence/d6227e072453>,
+        <https://w3id.org/airo/incident/evidence/ebd3b0348a12>,
+        <https://w3id.org/airo/incident/evidence/ee296c16d50c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/Stakeholder/de315fa5103a> a airo:Stakeholder ;
+    rdfs:label "Facewatch" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facewatch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11889bbd6c7c>,
+        <https://w3id.org/airo/incident/evidence/bbf248a25708> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839> ;
+    airo:hasSupportCount 2 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> .
+
+<https://w3id.org/airo/incident/Stakeholder/ef3287f5bc52> a airo:Stakeholder ;
+    rdfs:label "Budgens" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Budgens" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/175ad2ef22fb>,
+        <https://w3id.org/airo/incident/evidence/21664c113b1f>,
+        <https://w3id.org/airo/incident/evidence/859aa620ff51>,
+        <https://w3id.org/airo/incident/evidence/be43e2345951> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/f2dedeafc9cf> a airo:Stakeholder ;
+    rdfs:label "Big Brother Watch" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Big Brother Watch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32e2e2e74e51>,
+        <https://w3id.org/airo/incident/evidence/5597b907ad58>,
+        <https://w3id.org/airo/incident/evidence/987e3f7dcf0e>,
+        <https://w3id.org/airo/incident/evidence/a3221006f1c4>,
+        <https://w3id.org/airo/incident/evidence/d4134fb6be07> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/f39846ebe8fa> a airo:Stakeholder ;
+    rdfs:label "Lindsey Chiswick" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lindsey Chiswick" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d176dc21dd2d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/evidence/11cc860ff48c> a airo:Evidence ;
+    airo:evidenceText "[5938] However, just as in the case of Facewatch, the Met's software, provided by NEC, is not infallible either." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/19e8644b3934> a airo:Evidence ;
+    airo:evidenceText "This can then be quickly compared to large databases to try to find a match from faces that have already been mapped." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/1ab4f0eeae7e> a airo:Evidence ;
+    airo:evidenceText "Innocent woman branded a thief by AI facial recognition software" ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/20de9b83db7b> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/2fcc4109278b> a airo:Evidence ;
+    airo:evidenceText "'I was misidentified as shoplifter by facial recognition tech'" ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/30c6a2592c8c> a airo:Evidence ;
+    airo:evidenceText "[5839] Facewatch later wrote to Sara and acknowledged it had made an error." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/3d1b2c189cc3> a airo:Evidence ;
+    airo:evidenceText "Innocent woman branded a shoplifter by facial recognition software" ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/42c3b1dcb2d2> a airo:Evidence ;
+    airo:evidenceText "It then maps the face, such as measuring the distance between certain features, to create a ‘numerical expression’ for an individual." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/4b63d111e05e> a airo:Evidence ;
+    airo:evidenceText "[3677] Shaun Thompson, who works for the youth-advocacy group Street Fathers, said that he was incorrectly identified by police using a facial recognition system near London Bridge." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/5d8e6e180163> a airo:Evidence ;
+    airo:evidenceText "That is the exact scenario one woman found herself in due to a mistake made by facial recognition software in a Home Bargains store." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/64386515d56a> a airo:Evidence ;
+    airo:evidenceText "On a humid day in Bethnal Green, in east London, we joined the police as they positioned a modified white van on the high street." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/692d81f9c3f6> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/6ae519d3f871> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/6c30eb654048> a airo:Evidence ;
+    airo:evidenceText "She says that anyone's face who is scanned is effectively part of a digital police line-up." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/7369a660b00e> a airo:Evidence ;
+    airo:evidenceText "It takes less than a second for the technology to create a biometric image of a person's face, assess it against the bespoke watchlist and automatically delete it when there is no match." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/73f0cfef49d1> a airo:Evidence ;
+    airo:evidenceText "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/769fd1d7d8a4> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/7723ebd601d9> a airo:Evidence ;
+    airo:evidenceText "Times analysis shows that since its introduction live facial scanning has been used 62 times over 340 hours, resulting in 152 arrests --- equivalent to almost one arrest every two hours." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/7eefb76d3290> a airo:Evidence ;
+    airo:evidenceText "I was misidentified as shoplifter by facial recognition tech" ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/957af869302d> a airo:Evidence ;
+    airo:evidenceText "Since the Notting Hill Carnival in 2016, the Metropolitan Police has used live facial recognition (LFR) technology both at major events and as part of general surveillance on streets." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/97fff57b9ab8> a airo:Evidence ;
+    airo:evidenceText "Earlier this month, a post on X by Tower Hamlets Police alerted residents to use of the software in the borough." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/b200dea0acd4> a airo:Evidence ;
+    airo:evidenceText "Innocent woman branded a thief by AI facial recognition software" ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/bca06ed30888> a airo:Evidence ;
+    airo:evidenceText "Facial recognition starts by identifying face in a still or video – picking out which pixels make up a face and which are the body, background or something else." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/bcc395e36f24> a airo:Evidence ;
+    airo:evidenceText "Earlier this year the government announced that £230 million would be spent over four years on police technology, including facial recognition vans." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/d0d4841fc678> a airo:Evidence ;
+    airo:evidenceText "[5841] But civil liberty groups are worried that its accuracy is yet to be fully established, and point to cases such as Shaun Thompson's." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/e46fee6dd409> a airo:Evidence ;
+    airo:evidenceText "Mr Thompson, who works for youth-advocacy group Streetfathers, didn't think much of it when he walked by a white van near London Bridge in February." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/ee296c16d50c> a airo:Evidence ;
+    airo:evidenceText "The BBC also reported a case of mistaken identity by the Metropolitan Police using facial recognition." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/ef4517ae3b81> a airo:Evidence ;
+    airo:evidenceText "[5839] Sara - who wants to remain anonymous - was wrongly accused after being flagged by a facial-recognition system called Facewatch." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/Risk/c8917c921a7f> a airo:Risk ;
+    rdfs:label "risk of false accusations from facial recognition" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf27e046f003> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/87c1815559fc> .
+
+<https://w3id.org/airo/incident/evidence/28ff5fb6acf4> a airo:Evidence ;
+    airo:evidenceText "[3677] The BBC also reported a case of mistaken identity by the Metropolitan Police using facial recognition." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/74325835924f> a airo:Evidence ;
+    airo:evidenceText "[5938] That is the exact scenario one woman found herself in due to a mistake made by facial recognition software in a Home Bargains store." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/859aa620ff51> a airo:Evidence ;
+    airo:evidenceText "The company's system is used in stores throughout the UK --- including Budgens, Sports Direct and Costcutter." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/bf27e046f003> a airo:Evidence ;
+    airo:evidenceText "[3677] A woman said that an employee at Home Bargains, the variety store chain, accused her of being a shoplifter when she was incorrectly flagged by the Facewatch software." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/e776b4b95202> a airo:Evidence ;
+    airo:evidenceText "Sara - who wants to remain anonymous - was wrongly accused after being flagged by a facial-recognition system called Facewatch." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/803e26344e7f> a airo:Evidence ;
+    airo:evidenceText "Sara - who wants to remain anonymous - was wrongly accused after being flagged by a facial-recognition system called Facewatch." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/e725d6eb3a09> a airo:Evidence ;
+    airo:evidenceText "Sara - who wants to remain anonymous - was wrongly accused after being flagged by a facial-recognition system called Facewatch." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/11889bbd6c7c> a airo:Evidence ;
+    airo:evidenceText "Facewatch, which is based in central London, declined to comment but said its technology helped to prevent crime and protect workers." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/1a5c22ad27f1> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/29e7698f057f> a airo:Evidence ;
+    airo:evidenceText "although a study last year by the National Physical Laboratory (NPL) found algorithms used by the UK forces did not discriminate based on gender, age or ethnicity." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/2bb1d68424b9> a airo:Evidence ;
+    airo:evidenceText "...although a study last year by the National Physical Laboratory (NPL) found algorithms used by the UK forces did not discriminate based on gender, age or ethnicity." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/32e2e2e74e51> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has filmed the police on numerous facial-recognition deployments." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/37461d16c7df> a airo:Evidence ;
+    airo:evidenceText "Chris Philp, the policing minister, said: 'Facial recognition has the potential to completely revolutionise policing.'" ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/37535d08752e> a airo:Evidence ;
+    airo:evidenceText "However, just as in the case of Facewatch, the Met’s software, provided by NEC, is not infallible either." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/3d2e10713f38> a airo:Evidence ;
+    airo:evidenceText "But civil liberty groups are worried that its accuracy is yet to be fully established, and point to cases such as Shaun Thompson's." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/5345ea64903e> a airo:Evidence ;
+    airo:evidenceText "On the day we were filming, the Metropolitan Police said they made six arrests with the assistance of the tech." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/659c5e525818> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, believes the technology is so new that the laws have not yet caught up." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/705f79b7a7fd> a airo:Evidence ;
+    airo:evidenceText "However, just as in the case of Facewatch, the Met's software, provided by NEC, is not infallible either." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/evidence/9725a5fbee94> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, believes the technology is so new that the laws have not yet caught up." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/987e3f7dcf0e> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has filmed the police on numerous facial-recognition deployments." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/ab3f8478cc3d> a airo:Evidence ;
+    airo:evidenceText "Alongside the Met, South Wales Police uses facial recognition technology, including as major events – it will be deployed at a Take That concert next month." ;
+    airo:sourceDocId "5927" .
+
+<https://w3id.org/airo/incident/evidence/b78e7b424d1d> a airo:Evidence ;
+    airo:evidenceText "Home Bargains, too, declined to comment." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/bbe19294effb> a airo:Evidence ;
+    airo:evidenceText "Michael Birtwhistle, head of research at the Ada Lovelace Institute research group, believes the technology is so new that the laws have not yet caught up." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/bbf248a25708> a airo:Evidence ;
+    airo:evidenceText "Facewatch later wrote to Sara and acknowledged it had made an error." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/d176dc21dd2d> a airo:Evidence ;
+    airo:evidenceText "In an interview last month to mark a year of the technology's use, Lindsey Chiswick, the force's director of intelligence, said that it had been the biggest breakthrough for crime detection since the advent of DNA profiling." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/evidence/d6227e072453> a airo:Evidence ;
+    airo:evidenceText "On the day we were filming, the Metropolitan Police said they made six arrests with the assistance of the tech." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/dd43c482ca0d> a airo:Evidence ;
+    airo:evidenceText "Sara needed some chocolate - she had had one of those days - so wandered into a Home Bargains store." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/eb41b2f3d300> a airo:Evidence ;
+    airo:evidenceText "Sara needed some chocolate - she had had one of those days - so wandered into a Home Bargains store." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/ebd3b0348a12> a airo:Evidence ;
+    airo:evidenceText "On the day we were filming, the Metropolitan Police said they made six arrests with the assistance of the tech." ;
+    airo:sourceDocId "5839" .
+
+<https://w3id.org/airo/incident/evidence/a3221006f1c4> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo, director of Big Brother Watch, has filmed the police on numerous facial-recognition deployments." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/2f79e24445ce> a airo:Evidence ;
+    airo:evidenceText "Shaun Thompson, who works for the youth-advocacy group Street Fathers, said that he was incorrectly identified by police using a facial recognition system near London Bridge." ;
+    airo:sourceDocId "3677" .
+
+<https://w3id.org/airo/incident/AISystem/31ccfe9eb813> a airo:AISystem ;
+    rdfs:label "Police surveillance van" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "white van" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64386515d56a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5841> .
+
+<https://w3id.org/airo/incident/AISystem/80a8c0c640d0> a airo:AISystem ;
+    rdfs:label "facial recognition vans" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition vans" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcc395e36f24> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3677> .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_187> a airo:AIRiskIncident ;
+    rdfs:label "'I was misidentified as shoplifter by facial recognition tech'" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/87c1815559fc> ;
+    airo:hasDescription "pred_187" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/f1e0a4b2b53a>,
+        <https://w3id.org/airo/incident/Domain/8ee818e10eea>,
+        <https://w3id.org/airo/incident/evidence/0ccb0ba9f9f0>,
+        <https://w3id.org/airo/incident/evidence/3dd42b5bea20>,
+        <https://w3id.org/airo/incident/evidence/559803263b10>,
+        <https://w3id.org/airo/incident/evidence/aa293dbf2ff3>,
+        <https://w3id.org/airo/incident/evidence/ee7ddafdd10c> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/85ac58962465> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/3676>,
+        <https://w3id.org/airo/incident/NewsReport/3677>,
+        <https://w3id.org/airo/incident/NewsReport/5839>,
+        <https://w3id.org/airo/incident/NewsReport/5841>,
+        <https://w3id.org/airo/incident/NewsReport/5927>,
+        <https://w3id.org/airo/incident/NewsReport/5938> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/c8917c921a7f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/31ccfe9eb813>,
+        <https://w3id.org/airo/incident/AISystem/7057d7e2f83e>,
+        <https://w3id.org/airo/incident/AISystem/80a8c0c640d0> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0929367dd856>,
+        <https://w3id.org/airo/incident/Stakeholder/0b870ad3f858>,
+        <https://w3id.org/airo/incident/Stakeholder/1bde4c5deca0>,
+        <https://w3id.org/airo/incident/Stakeholder/3dd1bb6a6127>,
+        <https://w3id.org/airo/incident/Stakeholder/814914fe568c>,
+        <https://w3id.org/airo/incident/Stakeholder/8ebb11720edc>,
+        <https://w3id.org/airo/incident/Stakeholder/8fded4de41e0>,
+        <https://w3id.org/airo/incident/Stakeholder/918a9455b034>,
+        <https://w3id.org/airo/incident/Stakeholder/91b2a7dd7cf4>,
+        <https://w3id.org/airo/incident/Stakeholder/9926c33ee654>,
+        <https://w3id.org/airo/incident/Stakeholder/dcdb38932894>,
+        <https://w3id.org/airo/incident/Stakeholder/de315fa5103a>,
+        <https://w3id.org/airo/incident/Stakeholder/ef3287f5bc52>,
+        <https://w3id.org/airo/incident/Stakeholder/f2dedeafc9cf>,
+        <https://w3id.org/airo/incident/Stakeholder/f39846ebe8fa>,
+        <https://w3id.org/airo/incident/Stakeholder/f59f02362d06> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/64a3dbd83d3a> .
+
+<https://w3id.org/airo/incident/evidence/175ad2ef22fb> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "5841" .
+
+<https://w3id.org/airo/incident/evidence/21664c113b1f> a airo:Evidence ;
+    airo:evidenceText "Facewatch is used in numerous stores in the UK - including Budgens, Sports Direct and Costcutter - to identify shoplifters." ;
+    airo:sourceDocId "3676" .
+
+<https://w3id.org/airo/incident/evidence/be43e2345951> a airo:Evidence ;
+    airo:evidenceText "Sara had been mistakenly identified by facial recognition software called Facewatch, which is used in a number of stores around the UK alongside Home Bargains, including Sports Direct, Budgens and Costcutter." ;
+    airo:sourceDocId "5938" .
+
+<https://w3id.org/airo/incident/AISystem/7057d7e2f83e> a airo:AISystem ;
+    rdfs:label "Facewatch" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/5a4a3df10ac7>,
+        <https://w3id.org/airo/incident/AICapability/843f3335b457>,
+        <https://w3id.org/airo/incident/AICapability/c7df2b07c387>,
+        <https://w3id.org/airo/incident/Purpose/556b556837b0> ;
+    airo:hasDescription "Facewatch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/803e26344e7f>,
+        <https://w3id.org/airo/incident/evidence/82a2914fe357>,
+        <https://w3id.org/airo/incident/evidence/b739b58d9129>,
+        <https://w3id.org/airo/incident/evidence/be43e2345951>,
+        <https://w3id.org/airo/incident/evidence/e725d6eb3a09>,
+        <https://w3id.org/airo/incident/evidence/e776b4b95202> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3676>,
+        <https://w3id.org/airo/incident/document/3677>,
+        <https://w3id.org/airo/incident/document/5839>,
+        <https://w3id.org/airo/incident/document/5841>,
+        <https://w3id.org/airo/incident/document/5927>,
+        <https://w3id.org/airo/incident/document/5938> ;
+    airo:hasSupportCount 6 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/c744cc4cad85> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/1cfde496b19a>,
+        <https://w3id.org/airo/incident/AITechnique/1f8febf56a06>,
+        <https://w3id.org/airo/incident/AITechnique/2a62555c926e> .
+

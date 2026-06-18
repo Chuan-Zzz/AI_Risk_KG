@@ -1,0 +1,223 @@
+# AIRO Ontology Configuration
+# AI Risk Ontology - Class Hierarchy and Relations
+
+# ==============================================================================
+# Entity Classes (AIRO)
+# ==============================================================================
+
+classes:
+  # Core AI System Classes
+  AI_System:
+    description: "AI 系统、模型、算法"
+    examples: ["GPT-4", "Claude", "Stable Diffusion", " Gemini"]
+    parent: null
+
+  Model:
+    description: "AI 模型"
+    parent: AI_System
+
+  Component:
+    description: "AI 系统组件"
+    parent: AI_System
+
+  Capability:
+    description: "AI 系统能力"
+    parent: AI_System
+
+  # Risk Classes
+  Risk:
+    description: "AI 风险类型"
+    examples: ["偏见", "隐私泄露", "安全风险", "歧视"]
+    parent: null
+
+  Threat:
+    description: "威胁源"
+    examples: ["恶意攻击者", "对抗样本"]
+    parent: Risk
+
+  Vulnerability:
+    description: "漏洞"
+    examples: ["提示注入", "数据污染", "成员推断"]
+    parent: Risk
+
+  Hazard:
+    description: "危害"
+    parent: Risk
+
+  # Stakeholder Classes
+  Stakeholder:
+    description: "利益相关者"
+    examples: ["OpenAI", "用户", "监管机构", "受影响群体"]
+    parent: null
+
+  Provider:
+    description: "AI 系统提供者"
+    parent: Stakeholder
+
+  Deployer:
+    description: "AI 系统部署者"
+    parent: Stakeholder
+
+  Subject:
+    description: "受 AI 系统影响的个体"
+    parent: Stakeholder
+
+  # Impact Classes
+  Consequence:
+    description: "后果/影响"
+    examples: ["歧视", "经济损失", "社会危害", "人身伤害"]
+    parent: null
+
+  Impact:
+    description: "影响"
+    parent: Consequence
+
+  # Governance Classes
+  Regulation:
+    description: "法规/政策"
+    examples: ["EU AI Act", "NIST AI RMF", "生成式 AI 管理办法"]
+    parent: null
+
+  Standard:
+    description: "标准/规范"
+    parent: Regulation
+
+  # Context Classes
+  Domain:
+    description: "应用领域"
+    examples: ["医疗", "金融", "自动驾驶", "教育"]
+    parent: null
+
+  TimeElement:
+    description: "时间元素"
+    parent: null
+
+# ==============================================================================
+# Relations (with Domain and Range Constraints)
+# ==============================================================================
+
+relations:
+  # AI System Relations
+  has_component:
+    domain: [AI_System]
+    range: [AI_System]
+    description: "AI 系统包含组件"
+
+  has_capability:
+    domain: [AI_System]
+    range: [Capability]
+    description: "AI 系统具有能力"
+
+  developed_by:
+    domain: [AI_System]
+    range: [Stakeholder]
+    description: "AI 系统由...开发"
+
+  deployed_in:
+    domain: [AI_System]
+    range: [Domain]
+    description: "AI 系统部署于...领域"
+
+  provides:
+    domain: [Stakeholder]
+    range: [AI_System]
+    description: "...提供 AI 系统"
+
+  uses:
+    domain: [Stakeholder]
+    range: [AI_System]
+    description: "...使用 AI 系统"
+
+  # Risk Relations
+  has_risk:
+    domain: [AI_System]
+    range: [Risk]
+    description: "AI 系统具有风险"
+
+  has_threat:
+    domain: [Risk]
+    range: [Threat]
+    description: "风险包含威胁"
+
+  has_vulnerability:
+    domain: [AI_System]
+    range: [Vulnerability]
+    description: "AI 系统具有漏洞"
+
+  leads_to:
+    domain: [Risk]
+    range: [Consequence]
+    description: "风险导致后果"
+
+  causes:
+    domain: [Risk]
+    range: [Consequence]
+    description: "风险引起后果"
+
+  # Stakeholder Relations
+  affected_by:
+    domain: [Stakeholder]
+    range: [Risk]
+    description: "利益相关者受风险影响"
+
+  # Governance Relations
+  mitigated_by:
+    domain: [Risk]
+    range: [Regulation]
+    description: "风险被...缓解"
+
+  governed_by:
+    domain: [AI_System]
+    range: [Regulation]
+    description: "AI 系统受...监管"
+
+  regulates:
+    domain: [Regulation]
+    range: [AI_System]
+    description: "法规监管 AI 系统"
+
+# ==============================================================================
+# Axioms (OWL-style Constraints)
+# ==============================================================================
+
+axioms:
+  # Disjoint Classes
+  - disjoint: [AI_System, Risk, Stakeholder]
+  - disjoint: [Regulation, Standard]
+
+  # Transitive Relations
+  - transitive: [leads_to, causes]
+
+  # Inverse Relations
+  - inverse: [provides, developed_by]
+  - inverse: [affected_by, affects]
+
+# ==============================================================================
+# Instance Examples (for Testing)
+# ==============================================================================
+
+examples:
+  - entity: "GPT-4"
+    type: AI_System
+    attributes:
+      developer: "OpenAI"
+      release_date: "2023-03"
+      type: "Multimodal LLM"
+
+  - entity: "偏见风险"
+    type: Risk
+    attributes:
+      category: "Fairness"
+      severity: "High"
+
+  - entity: "OpenAI"
+    type: Stakeholder
+    attributes:
+      organization_type: "Company"
+      role: "Provider"
+
+  - entity: "EU AI Act"
+    type: Regulation
+    attributes:
+      jurisdiction: "European Union"
+      effective_date: "2024-08-01"

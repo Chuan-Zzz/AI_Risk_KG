@@ -1,0 +1,5009 @@
+{
+  "event_id": "pred_366",
+  "incident_node": {
+    "id": "pred_366",
+    "name": "Confused self-driving taxi drives away from its support crew",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_366",
+    "evidence": [
+      {
+        "evidence_id": "c11258b03aa7",
+        "evidence_sentence": "Confused self-driving taxi drives away from its support crew",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "e447ffa25f5e",
+        "evidence_sentence": "Waymo self-driving taxi confused by traffic cones flees help",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "e9ddc3614432",
+        "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "8f4d0f44633d",
+        "evidence_sentence": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "1865",
+      "1903",
+      "1904",
+      "4099"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_366",
+      "name": "Confused self-driving taxi drives away from its support crew",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_366",
+      "evidence": [
+        {
+          "evidence_id": "c11258b03aa7",
+          "evidence_sentence": "Confused self-driving taxi drives away from its support crew",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "e447ffa25f5e",
+          "evidence_sentence": "Waymo self-driving taxi confused by traffic cones flees help",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "e9ddc3614432",
+          "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "8f4d0f44633d",
+          "evidence_sentence": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865",
+        "1903",
+        "1904",
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0ec7ec821b82",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865",
+        "1903",
+        "1904",
+        "4099"
+      ],
+      "attributes": {
+        "report_count": 4
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1865",
+      "name": "Confused self-driving taxi drives away from its support crew",
+      "entity_type": "NewsReport",
+      "description": "**CHANDLER, Ariz. —** A confused [Waymo](https://www.cnn.com/2021/01/06/tech/waymo-self-driving/index.html) self-driving taxi car was captured on video as it became stranded on an [Arizona](https://ww",
+      "evidence": [
+        {
+          "evidence_id": "ddcc01836c3d",
+          "evidence_sentence": "Confused self-driving taxi drives away from its support crew",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {
+        "url": "https://www.wlwt.com/article/arizona-self-driving-taxi-waymo-got-confused/36466487#",
+        "publish_time": "2021-05-18T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1903",
+      "name": "Waymo self-driving taxi confused by traffic cones flees help",
+      "entity_type": "NewsReport",
+      "description": "**A self-driving taxi has blocked a road in Arizona after becoming confused by a lane closed off with traffic cones.**\n\nThe Waymo vehicle repeatedly drove away from roadside assistance, dispatched wit",
+      "evidence": [
+        {
+          "evidence_id": "0739ef7a244d",
+          "evidence_sentence": "Waymo self-driving taxi confused by traffic cones flees help",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {
+        "url": "https://www.bbc.com/news/technology-57144755",
+        "publish_time": "2021-05-17T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1904",
+      "name": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+      "entity_type": "NewsReport",
+      "description": "A special thank you to Danny Harmon from [@Distant Signal](https://www.youtube.com/channel/UCW3ztjFA4AoU4pXCTKb4rMQ) for the voiceover segment. Check him out if you need voice work done!\n\n- [00:00](ht",
+      "evidence": [
+        {
+          "evidence_id": "d1c5256de3a6",
+          "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "attributes": {
+        "url": "https://www.youtube.com/watch?v=zdKCQKBvH-A",
+        "publish_time": "2021-05-13T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "4099",
+      "name": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+      "entity_type": "NewsReport",
+      "description": "SAN FRANCISCO (KGO) -- As the autonomous driving technology expands, we are also seeing reports of incidents in San Francisco involving passengers and a cyclist.\n\nA couple of minutes into his Waymo ri",
+      "evidence": [
+        {
+          "evidence_id": "76c87aef229c",
+          "evidence_sentence": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {
+        "url": "https://abc7news.com/waymo-sf-attacked-self-driving-car-incidents/14397184/",
+        "publish_time": "2024-02-08T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "a795c39f4507",
+      "name": "Waymo",
+      "entity_type": "AISystem",
+      "description": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "807cb1153990",
+          "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+          "source_doc_id": "1904",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 1297,
+            "end": 1302
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cc2925570732",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "50bf57ea8bd0",
+          "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo vehicle",
+            "start": 124,
+            "end": 137
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1372dbb4d23c",
+          "evidence_sentence": "\"While the situation was not ideal, the Waymo Driver operated the vehicle safely until roadside assistance arrived,\" the company said.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo Driver",
+            "start": 1640,
+            "end": 1652
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 192,
+            "end": 197
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "1904",
+        "1903",
+        "1865",
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c24b336158d9",
+      "name": "Danny Harmon",
+      "entity_type": "Stakeholder",
+      "description": "Danny Harmon from @Distant Signal",
+      "evidence": [
+        {
+          "evidence_id": "6d8bbdab8a71",
+          "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ac78be1bdc5f",
+      "name": "Waymo",
+      "entity_type": "Stakeholder",
+      "description": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "fd3dca7ac25a",
+      "name": "autonomous vehicle",
+      "entity_type": "AITechnique",
+      "description": "autonomous vehicle",
+      "evidence": [
+        {
+          "evidence_id": "24379bf88dd7",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "autonomous vehicle",
+            "start": 1871,
+            "end": 1889
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "57f8ba441f3f",
+      "name": "self-driving technology",
+      "entity_type": "AITechnique",
+      "description": "self-driving technology",
+      "evidence": [
+        {
+          "evidence_id": "24379bf88dd7",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "self-driving technology",
+            "start": 946,
+            "end": 969
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "8eddb6bdb15e",
+      "name": "vehicle communication",
+      "entity_type": "AITechnique",
+      "description": "vehicle communication",
+      "evidence": [
+        {
+          "evidence_id": "bf1ae25929d2",
+          "evidence_sentence": "Noah Goodall, a University of Virginia scientist who researches vehicle communication and automation, told CNN Business.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "vehicle communication",
+            "start": 1167,
+            "end": 1188
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d71d3f1dba42",
+      "name": "Alphabet",
+      "entity_type": "Stakeholder",
+      "description": "Alphabet",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7462c485a0b2",
+      "name": "Joel Johnson",
+      "entity_type": "Stakeholder",
+      "description": "Joel Johnson",
+      "evidence": [
+        {
+          "evidence_id": "e78db3c7f22b",
+          "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Joel Johnson",
+            "start": 250,
+            "end": 262
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ce0e187c13ac",
+      "name": "Cruise",
+      "entity_type": "AISystem",
+      "description": "Cruise autonomous vehicle",
+      "evidence": [
+        {
+          "evidence_id": "43266ec00cdf",
+          "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Cruise autonomous vehicle",
+            "start": 838,
+            "end": 863
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a7fc42822a37",
+      "name": "Robert Moreno",
+      "entity_type": "Stakeholder",
+      "description": "Robert Moreno",
+      "evidence": [
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Robert Moreno",
+            "start": 204,
+            "end": 217
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "527c6094c752",
+      "name": "University of California, Berkeley",
+      "entity_type": "Stakeholder",
+      "description": "UC Berkeley",
+      "evidence": [
+        {
+          "evidence_id": "bc2ceb13b8c1",
+          "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "UC Berkeley",
+            "start": 1450,
+            "end": 1461
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "5346d7515e03",
+      "name": "San Francisco Bicycle Coalition",
+      "entity_type": "Stakeholder",
+      "description": "San Francisco Bicycle Coalition",
+      "evidence": [
+        {
+          "evidence_id": "7f0f72f7456d",
+          "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "San Francisco Bicycle Coalition",
+            "start": 2286,
+            "end": 2317
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c04ac8665f19",
+      "name": "Christopher White",
+      "entity_type": "Stakeholder",
+      "description": "Christopher White",
+      "evidence": [
+        {
+          "evidence_id": "fc8f56be47f9",
+          "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Christopher White",
+            "start": 2366,
+            "end": 2383
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2671c5489a8f",
+      "name": "Waymo_AIDeveloper",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "b0ab16349e29",
+          "evidence_sentence": "[1865] Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence refers to 'Waymo self-driving technology,' implying Waymo is the developer of the AI system."
+    },
+    {
+      "id": "496605af7405",
+      "name": "Waymo_AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "3fbdfd2b089a",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "Waymo operates and provides the autonomous ridehail service to passengers, making it a provider of the AI system/service."
+    },
+    {
+      "id": "d9461f6a8e39",
+      "name": "Waymo_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "934343745794",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "Waymo deploys and operates the autonomous vehicles in its commercial service."
+    },
+    {
+      "id": "1ed2ff9cf3e2",
+      "name": "Alphabet_AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "1660b0a9709a",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": "Alphabet owns Waymo, which provides the autonomous ridehail service."
+    },
+    {
+      "id": "2167e49aa3ce",
+      "name": "Alphabet_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "82c89369cda9",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": "As the parent company of the deployer (Waymo), Alphabet is ultimately responsible for the deployment."
+    },
+    {
+      "id": "3efdf1b1e2e2",
+      "name": "Robert Moreno_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ba532714f630",
+          "evidence_sentence": "[4099] A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": "Robert Moreno was a passenger on the Waymo ride, making him a direct user of the AI system."
+    },
+    {
+      "id": "94694c256c39",
+      "name": "Joel Johnson_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "3056590eefc2",
+          "evidence_sentence": "[1903] Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": "Joel Johnson was a passenger on the Waymo ride, making him a direct user of the AI system."
+    },
+    {
+      "id": "4bd723e4b24f",
+      "name": "University of California, Berkeley_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "78e4cc8fcfbe",
+          "evidence_sentence": "[4099] Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": "UC Berkeley is providing expert commentary and analysis on the AI system's behavior but is not directly developing, providing, deploying, using, or regulating the system in this context."
+    },
+    {
+      "id": "35c9d8b4c4fe",
+      "name": "San Francisco Bicycle Coalition_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f8d24bec098b",
+          "evidence_sentence": "[4099] Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": "The coalition is taking a stance on autonomous vehicle expansion, indicating it is an interested stakeholder affected by or influencing the technology's deployment."
+    },
+    {
+      "id": "26bb46f96d3d",
+      "name": "Christopher White_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2206f6fe6906",
+          "evidence_sentence": "[4099] This week, Christopher White, interim executive director of the coalition said, 'We are really relieved that seems like the person's injuries were minor but they could have been much worse.'",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": "Christopher White, as interim executive director of the San Francisco Bicycle Coalition, is expressing a stakeholder perspective on the safety implications of autonomous vehicles."
+    },
+    {
+      "id": "4a0a4fb96e7b",
+      "name": "Danny Harmon_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bddf51e180fc",
+          "evidence_sentence": "[1904] A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "attributes": {},
+      "reasoning": "Danny Harmon is credited for a voiceover segment in the video documentation of the event, making him a contributor to the documentation but not fitting other specific roles."
+    },
+    {
+      "id": "524c88254263",
+      "name": "Limitations or flaws in self-driving technology and vehicle communication systems",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "857b3491080e",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e3aa7e2795ee",
+      "name": "Risk of unpredictable vehicle behavior leading to unsafe situations",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8847c194562f",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "3622054ef98b",
+      "name": "Inability of the autonomous system to safely handle or recover from specific edge cases or roadside assistance scenarios",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d4dedf500a8a",
+          "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4f6adfd9304d",
+      "name": "Vehicle stranded and then driving away from assistance, creating an uncontrolled traffic situation",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "51cbe8c70479",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b333da11e7fa",
+      "name": "Potential for traffic disruption, passenger distress, and risk of injury to road users",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "1db161b95e48",
+          "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "819c02c8a587",
+      "name": "Passengers and the general public/road users",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "1b14634543d4",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b7d074e0aa3a",
+      "name": "Deployment of roadside assistance teams and company statements emphasizing safe operation",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f726433b1d03",
+          "evidence_sentence": "While the situation was not ideal, the Waymo Driver operated the vehicle safely until roadside assistance arrived, the company said.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "adc4aaa70d11",
+      "name": "autonomous passenger transportation",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "58defb765c8e",
+          "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence describes the AI system as a self-driving taxi carrying a passenger, indicating its purpose is autonomous passenger transportation."
+    },
+    {
+      "id": "7dc6cadbaa93",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "831b68df955f",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence states that the system is operating in a commercial ridehail service, indicating it is in the deployment phase of its lifecycle."
+    },
+    {
+      "id": "a50ea34e63d7",
+      "name": "transportation",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0cbdbb41e217",
+          "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence describes an autonomous vehicle in the context of a taxi service, which is a transportation application."
+    }
+  ],
+  "edges": [
+    {
+      "id": "f916995bb5af",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasReport",
+      "object_id": "1865",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "ddcc01836c3d",
+          "evidence_sentence": "Confused self-driving taxi drives away from its support crew",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fba799b40c55",
+      "subject_id": "0ec7ec821b82",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1865",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "90ae8dddd2b4",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasReport",
+      "object_id": "1903",
+      "object_name": "Waymo self-driving taxi confused by traffic cones flees help",
+      "evidence": [
+        {
+          "evidence_id": "0739ef7a244d",
+          "evidence_sentence": "Waymo self-driving taxi confused by traffic cones flees help",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "544d7457b51a",
+      "subject_id": "0ec7ec821b82",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1903",
+      "object_name": "Waymo self-driving taxi confused by traffic cones flees help",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3fdddf74006e",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasReport",
+      "object_id": "1904",
+      "object_name": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+      "evidence": [
+        {
+          "evidence_id": "d1c5256de3a6",
+          "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0f0d0bb6c1a2",
+      "subject_id": "0ec7ec821b82",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1904",
+      "object_name": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c5ecb4ca1592",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasReport",
+      "object_id": "4099",
+      "object_name": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+      "evidence": [
+        {
+          "evidence_id": "76c87aef229c",
+          "evidence_sentence": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "66e5feab6c72",
+      "subject_id": "0ec7ec821b82",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "4099",
+      "object_name": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d3dd41ae21c5",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesAISystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "807cb1153990",
+          "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+          "source_doc_id": "1904",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 1297,
+            "end": 1302
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "cc2925570732",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "50bf57ea8bd0",
+          "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo vehicle",
+            "start": 124,
+            "end": 137
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904",
+        "1903",
+        "1865",
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "42f2c7441b15",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "c24b336158d9",
+      "object_name": "Danny Harmon",
+      "evidence": [
+        {
+          "evidence_id": "6d8bbdab8a71",
+          "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e53d4b912a0",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "ac78be1bdc5f",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "abc49bb9658b",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "d71d3f1dba42",
+      "object_name": "Alphabet",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dbde028b76f2",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "7462c485a0b2",
+      "object_name": "Joel Johnson",
+      "evidence": [
+        {
+          "evidence_id": "e78db3c7f22b",
+          "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Joel Johnson",
+            "start": 250,
+            "end": 262
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "522207028030",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesAISystem",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "43266ec00cdf",
+          "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Cruise autonomous vehicle",
+            "start": 838,
+            "end": 863
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3e07940c16e7",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "a7fc42822a37",
+      "object_name": "Robert Moreno",
+      "evidence": [
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Robert Moreno",
+            "start": 204,
+            "end": 217
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4e55408911a2",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "527c6094c752",
+      "object_name": "University of California, Berkeley",
+      "evidence": [
+        {
+          "evidence_id": "bc2ceb13b8c1",
+          "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "UC Berkeley",
+            "start": 1450,
+            "end": 1461
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fea6ed900ace",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "5346d7515e03",
+      "object_name": "San Francisco Bicycle Coalition",
+      "evidence": [
+        {
+          "evidence_id": "7f0f72f7456d",
+          "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "San Francisco Bicycle Coalition",
+            "start": 2286,
+            "end": 2317
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a948334c45b3",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "involvesStakeholder",
+      "object_id": "c04ac8665f19",
+      "object_name": "Christopher White",
+      "evidence": [
+        {
+          "evidence_id": "fc8f56be47f9",
+          "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Christopher White",
+            "start": 2366,
+            "end": 2383
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "32b0a28df8cd",
+      "subject_id": "a795c39f4507",
+      "subject_name": "Waymo",
+      "predicate": "usesTechnique",
+      "object_id": "fd3dca7ac25a",
+      "object_name": "autonomous vehicle",
+      "evidence": [
+        {
+          "evidence_id": "24379bf88dd7",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "autonomous vehicle",
+            "start": 1871,
+            "end": 1889
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fe296158ed38",
+      "subject_id": "a795c39f4507",
+      "subject_name": "Waymo",
+      "predicate": "usesTechnique",
+      "object_id": "57f8ba441f3f",
+      "object_name": "self-driving technology",
+      "evidence": [
+        {
+          "evidence_id": "24379bf88dd7",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "self-driving technology",
+            "start": 946,
+            "end": 969
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d7baa3189604",
+      "subject_id": "a795c39f4507",
+      "subject_name": "Waymo",
+      "predicate": "usesTechnique",
+      "object_id": "8eddb6bdb15e",
+      "object_name": "vehicle communication",
+      "evidence": [
+        {
+          "evidence_id": "bf1ae25929d2",
+          "evidence_sentence": "Noah Goodall, a University of Virginia scientist who researches vehicle communication and automation, told CNN Business.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "vehicle communication",
+            "start": 1167,
+            "end": 1188
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "913f25c3106c",
+      "subject_id": "2671c5489a8f",
+      "subject_name": "Waymo_AIDeveloper",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1616bd1bd0fc",
+      "subject_id": "2671c5489a8f",
+      "subject_name": "Waymo_AIDeveloper",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ec1ca4bd8095",
+      "subject_id": "2671c5489a8f",
+      "subject_name": "Waymo_AIDeveloper",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9539d3375393",
+      "subject_id": "496605af7405",
+      "subject_name": "Waymo_AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dccaed549d57",
+      "subject_id": "496605af7405",
+      "subject_name": "Waymo_AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5fae491c3f5b",
+      "subject_id": "496605af7405",
+      "subject_name": "Waymo_AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "afb140a56e45",
+      "subject_id": "d9461f6a8e39",
+      "subject_name": "Waymo_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6896133a0f58",
+      "subject_id": "d9461f6a8e39",
+      "subject_name": "Waymo_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e4bd03cfb6e6",
+      "subject_id": "d9461f6a8e39",
+      "subject_name": "Waymo_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "caaa043c8125",
+          "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 34,
+            "end": 39
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Waymo",
+            "start": 124,
+            "end": 129
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "88089016bdd1",
+      "subject_id": "1ed2ff9cf3e2",
+      "subject_name": "Alphabet_AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "d71d3f1dba42",
+      "object_name": "Alphabet",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b76be883e12",
+      "subject_id": "1ed2ff9cf3e2",
+      "subject_name": "Alphabet_AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4745789b967e",
+      "subject_id": "1ed2ff9cf3e2",
+      "subject_name": "Alphabet_AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5c12defc6ea5",
+      "subject_id": "2167e49aa3ce",
+      "subject_name": "Alphabet_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "d71d3f1dba42",
+      "object_name": "Alphabet",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "709f3cec1300",
+      "subject_id": "2167e49aa3ce",
+      "subject_name": "Alphabet_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8cfb86626086",
+      "subject_id": "2167e49aa3ce",
+      "subject_name": "Alphabet_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "560dc8d3479f",
+          "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Alphabet",
+            "start": 365,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ef821bb43132",
+      "subject_id": "3efdf1b1e2e2",
+      "subject_name": "Robert Moreno_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "a7fc42822a37",
+      "object_name": "Robert Moreno",
+      "evidence": [
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Robert Moreno",
+            "start": 204,
+            "end": 217
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0f835e4d48f5",
+      "subject_id": "3efdf1b1e2e2",
+      "subject_name": "Robert Moreno_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Robert Moreno",
+            "start": 204,
+            "end": 217
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9ef371dd345d",
+      "subject_id": "3efdf1b1e2e2",
+      "subject_name": "Robert Moreno_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "0ebce423eced",
+          "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Robert Moreno",
+            "start": 204,
+            "end": 217
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1024f96800a2",
+      "subject_id": "94694c256c39",
+      "subject_name": "Joel Johnson_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "7462c485a0b2",
+      "object_name": "Joel Johnson",
+      "evidence": [
+        {
+          "evidence_id": "e78db3c7f22b",
+          "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Joel Johnson",
+            "start": 250,
+            "end": 262
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ad5a839119dd",
+      "subject_id": "94694c256c39",
+      "subject_name": "Joel Johnson_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "e78db3c7f22b",
+          "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Joel Johnson",
+            "start": 250,
+            "end": 262
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "09c235dc9330",
+      "subject_id": "94694c256c39",
+      "subject_name": "Joel Johnson_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "e78db3c7f22b",
+          "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": {
+            "text": "Joel Johnson",
+            "start": 250,
+            "end": 262
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fb032fa6e6c9",
+      "subject_id": "4bd723e4b24f",
+      "subject_name": "University of California, Berkeley_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "527c6094c752",
+      "object_name": "University of California, Berkeley",
+      "evidence": [
+        {
+          "evidence_id": "bc2ceb13b8c1",
+          "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "UC Berkeley",
+            "start": 1450,
+            "end": 1461
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4d98cf33d39d",
+      "subject_id": "4bd723e4b24f",
+      "subject_name": "University of California, Berkeley_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "bc2ceb13b8c1",
+          "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "UC Berkeley",
+            "start": 1450,
+            "end": 1461
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3efa743daa8b",
+      "subject_id": "4bd723e4b24f",
+      "subject_name": "University of California, Berkeley_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "bc2ceb13b8c1",
+          "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "UC Berkeley",
+            "start": 1450,
+            "end": 1461
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "af4356678075",
+      "subject_id": "35c9d8b4c4fe",
+      "subject_name": "San Francisco Bicycle Coalition_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "5346d7515e03",
+      "object_name": "San Francisco Bicycle Coalition",
+      "evidence": [
+        {
+          "evidence_id": "7f0f72f7456d",
+          "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "San Francisco Bicycle Coalition",
+            "start": 2286,
+            "end": 2317
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3d3bce198512",
+      "subject_id": "35c9d8b4c4fe",
+      "subject_name": "San Francisco Bicycle Coalition_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "7f0f72f7456d",
+          "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "San Francisco Bicycle Coalition",
+            "start": 2286,
+            "end": 2317
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c90cfdf9dc4b",
+      "subject_id": "35c9d8b4c4fe",
+      "subject_name": "San Francisco Bicycle Coalition_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "7f0f72f7456d",
+          "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "San Francisco Bicycle Coalition",
+            "start": 2286,
+            "end": 2317
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "473dd52f85e3",
+      "subject_id": "26bb46f96d3d",
+      "subject_name": "Christopher White_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "c04ac8665f19",
+      "object_name": "Christopher White",
+      "evidence": [
+        {
+          "evidence_id": "fc8f56be47f9",
+          "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Christopher White",
+            "start": 2366,
+            "end": 2383
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "36127594d1cb",
+      "subject_id": "26bb46f96d3d",
+      "subject_name": "Christopher White_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "fc8f56be47f9",
+          "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Christopher White",
+            "start": 2366,
+            "end": 2383
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e0e8250597d5",
+      "subject_id": "26bb46f96d3d",
+      "subject_name": "Christopher White_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "fc8f56be47f9",
+          "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+          "source_doc_id": "4099",
+          "mention_span": {
+            "text": "Christopher White",
+            "start": 2366,
+            "end": 2383
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "99686dacb515",
+      "subject_id": "4a0a4fb96e7b",
+      "subject_name": "Danny Harmon_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "c24b336158d9",
+      "object_name": "Danny Harmon",
+      "evidence": [
+        {
+          "evidence_id": "6d8bbdab8a71",
+          "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "70cf2d931556",
+      "subject_id": "4a0a4fb96e7b",
+      "subject_name": "Danny Harmon_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "object_name": "Confused self-driving taxi drives away from its support crew",
+      "evidence": [
+        {
+          "evidence_id": "6d8bbdab8a71",
+          "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8ac256b2499e",
+      "subject_id": "4a0a4fb96e7b",
+      "subject_name": "Danny Harmon_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "6d8bbdab8a71",
+          "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+          "source_doc_id": "1904",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1904"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2123525928ad",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "develops",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "4e845f6a3ba7",
+          "evidence_sentence": "[1865] Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "478357e1cd93",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "develops",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "4c827238794f",
+          "evidence_sentence": "[1865] Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5377b5d2ad68",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "provides",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "1e2426d33725",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "874c6832ed87",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "provides",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "25bdec77519e",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a16775fa9dbd",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "deploys",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "6293b4ca6281",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "803c2bdcf0d9",
+      "subject_id": "ac78be1bdc5f",
+      "subject_name": "Waymo",
+      "predicate": "deploys",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "20f9640746e5",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d64b730cf507",
+      "subject_id": "d71d3f1dba42",
+      "subject_name": "Alphabet",
+      "predicate": "provides",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "8528016f42e2",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fc21dc87b922",
+      "subject_id": "d71d3f1dba42",
+      "subject_name": "Alphabet",
+      "predicate": "provides",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "c960f04773fd",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b0cad678c94f",
+      "subject_id": "d71d3f1dba42",
+      "subject_name": "Alphabet",
+      "predicate": "deploys",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "9f2d21bf77ed",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a6b2aecbc8f",
+      "subject_id": "d71d3f1dba42",
+      "subject_name": "Alphabet",
+      "predicate": "deploys",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "9cc431423e37",
+          "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6f03355fa065",
+      "subject_id": "a7fc42822a37",
+      "subject_name": "Robert Moreno",
+      "predicate": "uses",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "b11bf4acaf3f",
+          "evidence_sentence": "[4099] A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b822624c840",
+      "subject_id": "a7fc42822a37",
+      "subject_name": "Robert Moreno",
+      "predicate": "uses",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "55be85c06341",
+          "evidence_sentence": "[4099] A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b0d7e8ef7fbe",
+      "subject_id": "7462c485a0b2",
+      "subject_name": "Joel Johnson",
+      "predicate": "uses",
+      "object_id": "a795c39f4507",
+      "object_name": "Waymo",
+      "evidence": [
+        {
+          "evidence_id": "d31e9f80f1d4",
+          "evidence_sentence": "[1903] Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a259f467137f",
+      "subject_id": "7462c485a0b2",
+      "subject_name": "Joel Johnson",
+      "predicate": "uses",
+      "object_id": "ce0e187c13ac",
+      "object_name": "Cruise",
+      "evidence": [
+        {
+          "evidence_id": "54bc58cdd14a",
+          "evidence_sentence": "[1903] Passenger Joel Johnson documented the experience on his YouTube channel.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "754b2a32a340",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "isRiskSourceFor",
+      "object_id": "524c88254263",
+      "object_name": "Limitations or flaws in self-driving technology and vehicle communication systems",
+      "evidence": [
+        {
+          "evidence_id": "857b3491080e",
+          "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "92a107aae1aa",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasRisk",
+      "object_id": "e3aa7e2795ee",
+      "object_name": "Risk of unpredictable vehicle behavior leading to unsafe situations",
+      "evidence": [
+        {
+          "evidence_id": "8847c194562f",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a836ed165af",
+      "subject_id": "524c88254263",
+      "subject_name": "Limitations or flaws in self-driving technology and vehicle communication systems",
+      "predicate": "causes",
+      "object_id": "e3aa7e2795ee",
+      "object_name": "Risk of unpredictable vehicle behavior leading to unsafe situations",
+      "evidence": [
+        {
+          "evidence_id": "8847c194562f",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bee74b521da6",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasConsequence",
+      "object_id": "4f6adfd9304d",
+      "object_name": "Vehicle stranded and then driving away from assistance, creating an uncontrolled traffic situation",
+      "evidence": [
+        {
+          "evidence_id": "51cbe8c70479",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "420329fc6d08",
+      "subject_id": "e3aa7e2795ee",
+      "subject_name": "Risk of unpredictable vehicle behavior leading to unsafe situations",
+      "predicate": "leadsTo",
+      "object_id": "4f6adfd9304d",
+      "object_name": "Vehicle stranded and then driving away from assistance, creating an uncontrolled traffic situation",
+      "evidence": [
+        {
+          "evidence_id": "51cbe8c70479",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "99b138c75951",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasImpact",
+      "object_id": "b333da11e7fa",
+      "object_name": "Potential for traffic disruption, passenger distress, and risk of injury to road users",
+      "evidence": [
+        {
+          "evidence_id": "1db161b95e48",
+          "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "887435ea6e7b",
+      "subject_id": "4f6adfd9304d",
+      "subject_name": "Vehicle stranded and then driving away from assistance, creating an uncontrolled traffic situation",
+      "predicate": "impacts",
+      "object_id": "b333da11e7fa",
+      "object_name": "Potential for traffic disruption, passenger distress, and risk of injury to road users",
+      "evidence": [
+        {
+          "evidence_id": "1db161b95e48",
+          "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+          "source_doc_id": "4099",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865",
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b76e78b4ed43",
+      "subject_id": "b333da11e7fa",
+      "subject_name": "Potential for traffic disruption, passenger distress, and risk of injury to road users",
+      "predicate": "affects",
+      "object_id": "819c02c8a587",
+      "object_name": "Passengers and the general public/road users",
+      "evidence": [
+        {
+          "evidence_id": "1b14634543d4",
+          "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865",
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9e0b5fd6da3c",
+      "subject_id": "a795c39f4507",
+      "subject_name": "Waymo",
+      "predicate": "hasVulnerability",
+      "object_id": "3622054ef98b",
+      "object_name": "Inability of the autonomous system to safely handle or recover from specific edge cases or roadside assistance scenarios",
+      "evidence": [
+        {
+          "evidence_id": "d4dedf500a8a",
+          "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865",
+        "1903",
+        "1904",
+        "4099"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1ed941235106",
+      "subject_id": "b7d074e0aa3a",
+      "subject_name": "Deployment of roadside assistance teams and company statements emphasizing safe operation",
+      "predicate": "mitigates",
+      "object_id": "e3aa7e2795ee",
+      "object_name": "Risk of unpredictable vehicle behavior leading to unsafe situations",
+      "evidence": [
+        {
+          "evidence_id": "f726433b1d03",
+          "evidence_sentence": "While the situation was not ideal, the Waymo Driver operated the vehicle safely until roadside assistance arrived, the company said.",
+          "source_doc_id": "1903",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1903",
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e90bd90becf2",
+      "subject_id": "a795c39f4507",
+      "subject_name": "Waymo",
+      "predicate": "hasCapability",
+      "object_id": "adc4aaa70d11",
+      "object_name": "autonomous passenger transportation",
+      "evidence": [
+        {
+          "evidence_id": "58defb765c8e",
+          "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "70c37c69d13a",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasEvidence",
+      "object_id": "7dc6cadbaa93",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "831b68df955f",
+          "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4cd897edf651",
+      "subject_id": "pred_366",
+      "subject_name": "Confused self-driving taxi drives away from its support crew",
+      "predicate": "hasEvidence",
+      "object_id": "a50ea34e63d7",
+      "object_name": "transportation",
+      "evidence": [
+        {
+          "evidence_id": "0cbdbb41e217",
+          "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+          "source_doc_id": "1865",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1865"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "155c5ac35ff8",
+      "subject_id": "pred_366",
+      "predicate": "hasReport",
+      "object_id": "1865",
+      "evidence": {
+        "evidence_id": "ddcc01836c3d",
+        "evidence_sentence": "Confused self-driving taxi drives away from its support crew",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7ebb9d41fff0",
+      "subject_id": "pred_366",
+      "predicate": "hasReport",
+      "object_id": "1903",
+      "evidence": {
+        "evidence_id": "0739ef7a244d",
+        "evidence_sentence": "Waymo self-driving taxi confused by traffic cones flees help",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b574a3acab47",
+      "subject_id": "pred_366",
+      "predicate": "hasReport",
+      "object_id": "1904",
+      "evidence": {
+        "evidence_id": "d1c5256de3a6",
+        "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "4c2d9bb20ef6",
+      "subject_id": "pred_366",
+      "predicate": "hasReport",
+      "object_id": "4099",
+      "evidence": {
+        "evidence_id": "76c87aef229c",
+        "evidence_sentence": "SF couple describes feeling 'trapped' riding in Waymo driverless car that was being attacked",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "4686df99e1f9",
+      "subject_id": "pred_366",
+      "predicate": "involvesAISystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "807cb1153990",
+        "evidence_sentence": "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54",
+        "source_doc_id": "1904",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 1297,
+          "end": 1302
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d4bdfd2b1c0e",
+      "subject_id": "pred_366",
+      "predicate": "involvesAISystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "cc2925570732",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fbbbdbe54b99",
+      "subject_id": "pred_366",
+      "predicate": "involvesAISystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "50bf57ea8bd0",
+        "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo vehicle",
+          "start": 124,
+          "end": 137
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "5f8fab79a670",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "c24b336158d9",
+      "evidence": {
+        "evidence_id": "6d8bbdab8a71",
+        "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "1da3c4d6e11d",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "31bf8a4ccb03",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c88050d7f1d7",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "d71d3f1dba42",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "afdf0f512f9b",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "7462c485a0b2",
+      "evidence": {
+        "evidence_id": "e78db3c7f22b",
+        "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Joel Johnson",
+          "start": 250,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f391eb2724dc",
+      "subject_id": "pred_366",
+      "predicate": "involvesAISystem",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "43266ec00cdf",
+        "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Cruise autonomous vehicle",
+          "start": 838,
+          "end": 863
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8a2728fde659",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "a7fc42822a37",
+      "evidence": {
+        "evidence_id": "0ebce423eced",
+        "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Robert Moreno",
+          "start": 204,
+          "end": 217
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "df9a35a50ca0",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "527c6094c752",
+      "evidence": {
+        "evidence_id": "bc2ceb13b8c1",
+        "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "UC Berkeley",
+          "start": 1450,
+          "end": 1461
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fc3f0d8be47d",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "5346d7515e03",
+      "evidence": {
+        "evidence_id": "7f0f72f7456d",
+        "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "San Francisco Bicycle Coalition",
+          "start": 2286,
+          "end": 2317
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4a3f8dfe958c",
+      "subject_id": "pred_366",
+      "predicate": "involvesStakeholder",
+      "object_id": "c04ac8665f19",
+      "evidence": {
+        "evidence_id": "fc8f56be47f9",
+        "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Christopher White",
+          "start": 2366,
+          "end": 2383
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b5bb9f4b3d3b",
+      "subject_id": "a795c39f4507",
+      "predicate": "usesTechnique",
+      "object_id": "fd3dca7ac25a",
+      "evidence": {
+        "evidence_id": "24379bf88dd7",
+        "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "autonomous vehicle",
+          "start": 1871,
+          "end": 1889
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2e96be4cc6bd",
+      "subject_id": "a795c39f4507",
+      "predicate": "usesTechnique",
+      "object_id": "57f8ba441f3f",
+      "evidence": {
+        "evidence_id": "24379bf88dd7",
+        "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "self-driving technology",
+          "start": 946,
+          "end": 969
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f683dfd75ef4",
+      "subject_id": "a795c39f4507",
+      "predicate": "usesTechnique",
+      "object_id": "8eddb6bdb15e",
+      "evidence": {
+        "evidence_id": "bf1ae25929d2",
+        "evidence_sentence": "Noah Goodall, a University of Virginia scientist who researches vehicle communication and automation, told CNN Business.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "vehicle communication",
+          "start": 1167,
+          "end": 1188
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "528b920fd893",
+      "subject_id": "2671c5489a8f",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "3d138dfcdd2c",
+      "subject_id": "2671c5489a8f",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f51cb8441264",
+      "subject_id": "2671c5489a8f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "dc5ba673f6b5",
+      "subject_id": "2671c5489a8f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f19402bc3fe3",
+      "subject_id": "2671c5489a8f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "f915d09aacef",
+      "subject_id": "2671c5489a8f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "aa2e1015ce43",
+      "subject_id": "496605af7405",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0c2599ff053a",
+      "subject_id": "496605af7405",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "240c34ba919e",
+      "subject_id": "496605af7405",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a378c89a219a",
+      "subject_id": "496605af7405",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d9e4a79537b1",
+      "subject_id": "496605af7405",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "de33b2e30b21",
+      "subject_id": "496605af7405",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "96aec75b4e34",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "24d042668916",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "roleHeldBy",
+      "object_id": "ac78be1bdc5f",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "6ebff61c3d2a",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8ceccbfe3bea",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "be86a4a0bb25",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "caaa043c8125",
+        "evidence_sentence": "Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 34,
+          "end": 39
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "572b8b081b65",
+      "subject_id": "d9461f6a8e39",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Waymo",
+          "start": 124,
+          "end": 129
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "893061aeb1ea",
+      "subject_id": "1ed2ff9cf3e2",
+      "predicate": "roleHeldBy",
+      "object_id": "d71d3f1dba42",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "41f714ea2770",
+      "subject_id": "1ed2ff9cf3e2",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2b979f27e1be",
+      "subject_id": "1ed2ff9cf3e2",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "52c69f2599bb",
+      "subject_id": "2167e49aa3ce",
+      "predicate": "roleHeldBy",
+      "object_id": "d71d3f1dba42",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "3fe141eed392",
+      "subject_id": "2167e49aa3ce",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "e32a85151be7",
+      "subject_id": "2167e49aa3ce",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "560dc8d3479f",
+        "evidence_sentence": "The Alphabet-owned company said it was an \"unusual situation\" and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Alphabet",
+          "start": 365,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "154ab94fd313",
+      "subject_id": "3efdf1b1e2e2",
+      "predicate": "roleHeldBy",
+      "object_id": "a7fc42822a37",
+      "evidence": {
+        "evidence_id": "0ebce423eced",
+        "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Robert Moreno",
+          "start": 204,
+          "end": 217
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fec90e47b552",
+      "subject_id": "3efdf1b1e2e2",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "0ebce423eced",
+        "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Robert Moreno",
+          "start": 204,
+          "end": 217
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "040bdbf76e8a",
+      "subject_id": "3efdf1b1e2e2",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "0ebce423eced",
+        "evidence_sentence": "A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Robert Moreno",
+          "start": 204,
+          "end": 217
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d870fcd3e51c",
+      "subject_id": "94694c256c39",
+      "predicate": "roleHeldBy",
+      "object_id": "7462c485a0b2",
+      "evidence": {
+        "evidence_id": "e78db3c7f22b",
+        "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Joel Johnson",
+          "start": 250,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1595fdaa7d02",
+      "subject_id": "94694c256c39",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "e78db3c7f22b",
+        "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Joel Johnson",
+          "start": 250,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f1ba2d0be574",
+      "subject_id": "94694c256c39",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "e78db3c7f22b",
+        "evidence_sentence": "Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": {
+          "text": "Joel Johnson",
+          "start": 250,
+          "end": 262
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "924e1e45e18a",
+      "subject_id": "4bd723e4b24f",
+      "predicate": "roleHeldBy",
+      "object_id": "527c6094c752",
+      "evidence": {
+        "evidence_id": "bc2ceb13b8c1",
+        "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "UC Berkeley",
+          "start": 1450,
+          "end": 1461
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "e736d53409a4",
+      "subject_id": "4bd723e4b24f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "bc2ceb13b8c1",
+        "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "UC Berkeley",
+          "start": 1450,
+          "end": 1461
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "5ae8f5a1c18b",
+      "subject_id": "4bd723e4b24f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "bc2ceb13b8c1",
+        "evidence_sentence": "Scott Moura, UC Berkeley's faculty director for the Program for Advanced Transportation Technology or PATH, explained why the Waymo vehicle responded the way it did.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "UC Berkeley",
+          "start": 1450,
+          "end": 1461
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "89a705b74cb3",
+      "subject_id": "35c9d8b4c4fe",
+      "predicate": "roleHeldBy",
+      "object_id": "5346d7515e03",
+      "evidence": {
+        "evidence_id": "7f0f72f7456d",
+        "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "San Francisco Bicycle Coalition",
+          "start": 2286,
+          "end": 2317
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "6a67e9c0d525",
+      "subject_id": "35c9d8b4c4fe",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "7f0f72f7456d",
+        "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "San Francisco Bicycle Coalition",
+          "start": 2286,
+          "end": 2317
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "c8cbf928a42b",
+      "subject_id": "35c9d8b4c4fe",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "7f0f72f7456d",
+        "evidence_sentence": "Last summer, the San Francisco Bicycle Coalition took a stance against AV expansion.",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "San Francisco Bicycle Coalition",
+          "start": 2286,
+          "end": 2317
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "dcd4124f7bb0",
+      "subject_id": "26bb46f96d3d",
+      "predicate": "roleHeldBy",
+      "object_id": "c04ac8665f19",
+      "evidence": {
+        "evidence_id": "fc8f56be47f9",
+        "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Christopher White",
+          "start": 2366,
+          "end": 2383
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "41c627505b0f",
+      "subject_id": "26bb46f96d3d",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "fc8f56be47f9",
+        "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Christopher White",
+          "start": 2366,
+          "end": 2383
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "4f33159b8568",
+      "subject_id": "26bb46f96d3d",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "fc8f56be47f9",
+        "evidence_sentence": "This week, Christopher White, interim executive director of the coalition said, \"We are really relieved that seems like the person's injuries were minor but they could have been much worse.\"",
+        "source_doc_id": "4099",
+        "mention_span": {
+          "text": "Christopher White",
+          "start": 2366,
+          "end": 2383
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "246607230007",
+      "subject_id": "4a0a4fb96e7b",
+      "predicate": "roleHeldBy",
+      "object_id": "c24b336158d9",
+      "evidence": {
+        "evidence_id": "6d8bbdab8a71",
+        "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d2e9c99bc6e2",
+      "subject_id": "4a0a4fb96e7b",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_366",
+      "evidence": {
+        "evidence_id": "6d8bbdab8a71",
+        "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "8d856243a121",
+      "subject_id": "4a0a4fb96e7b",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "6d8bbdab8a71",
+        "evidence_sentence": "A special thank you to Danny Harmon from @Distant Signal for the voiceover segment.",
+        "source_doc_id": "1904",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "9c50b9c14d05",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "develops",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "4e845f6a3ba7",
+        "evidence_sentence": "[1865] Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a731c6029b92",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "develops",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "4c827238794f",
+        "evidence_sentence": "[1865] Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "29f890cddff8",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "provides",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "1e2426d33725",
+        "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a2bfd320df76",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "provides",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "25bdec77519e",
+        "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "adde6d23c95b",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "deploys",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "6293b4ca6281",
+        "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "62a6430435f1",
+      "subject_id": "ac78be1bdc5f",
+      "predicate": "deploys",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "20f9640746e5",
+        "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b99692039a79",
+      "subject_id": "d71d3f1dba42",
+      "predicate": "provides",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "8528016f42e2",
+        "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "28b18300d1bf",
+      "subject_id": "d71d3f1dba42",
+      "predicate": "provides",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "c960f04773fd",
+        "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7d0e230fbe43",
+      "subject_id": "d71d3f1dba42",
+      "predicate": "deploys",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "9f2d21bf77ed",
+        "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "0094b45488c6",
+      "subject_id": "d71d3f1dba42",
+      "predicate": "deploys",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "9cc431423e37",
+        "evidence_sentence": "[1903] The Alphabet-owned company said it was an 'unusual situation' and the taxi had operated safely throughout the journey.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "54a78d32b364",
+      "subject_id": "a7fc42822a37",
+      "predicate": "uses",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "b11bf4acaf3f",
+        "evidence_sentence": "[4099] A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "6f745073c749",
+      "subject_id": "a7fc42822a37",
+      "predicate": "uses",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "55be85c06341",
+        "evidence_sentence": "[4099] A couple of minutes into his Waymo ride, Robert Moreno said the cool feeling of getting an invitation to ride on a driverless vehicle quickly shifted.",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1bac0173d258",
+      "subject_id": "7462c485a0b2",
+      "predicate": "uses",
+      "object_id": "a795c39f4507",
+      "evidence": {
+        "evidence_id": "d31e9f80f1d4",
+        "evidence_sentence": "[1903] Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "3b72cf0e11ab",
+      "subject_id": "7462c485a0b2",
+      "predicate": "uses",
+      "object_id": "ce0e187c13ac",
+      "evidence": {
+        "evidence_id": "54bc58cdd14a",
+        "evidence_sentence": "[1903] Passenger Joel Johnson documented the experience on his YouTube channel.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "60348b430b58",
+      "subject_id": "pred_366",
+      "predicate": "isRiskSourceFor",
+      "object_id": "524c88254263",
+      "evidence": {
+        "evidence_id": "857b3491080e",
+        "evidence_sentence": "Autonomous vehicle experts who reviewed the video footage of the 41-minute trip posted on YouTube by the Waymo passenger say it shows a series of gaffes by the Waymo self-driving technology.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a3214f57ab4b",
+      "subject_id": "pred_366",
+      "predicate": "hasRisk",
+      "object_id": "e3aa7e2795ee",
+      "evidence": {
+        "evidence_id": "8847c194562f",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e9c61a958180",
+      "subject_id": "524c88254263",
+      "predicate": "causes",
+      "object_id": "e3aa7e2795ee",
+      "evidence": {
+        "evidence_id": "8847c194562f",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d79ebe6b14e1",
+      "subject_id": "pred_366",
+      "predicate": "hasConsequence",
+      "object_id": "4f6adfd9304d",
+      "evidence": {
+        "evidence_id": "51cbe8c70479",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "15a47f0528bd",
+      "subject_id": "e3aa7e2795ee",
+      "predicate": "leadsTo",
+      "object_id": "4f6adfd9304d",
+      "evidence": {
+        "evidence_id": "51cbe8c70479",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "aa0d6ef2b5be",
+      "subject_id": "pred_366",
+      "predicate": "hasImpact",
+      "object_id": "b333da11e7fa",
+      "evidence": {
+        "evidence_id": "1db161b95e48",
+        "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "5b5b6f84265a",
+      "subject_id": "4f6adfd9304d",
+      "predicate": "impacts",
+      "object_id": "b333da11e7fa",
+      "evidence": {
+        "evidence_id": "1db161b95e48",
+        "evidence_sentence": "A woman is injured in San Francisco after being hit by a human-driven car that sent her in front of a Cruise autonomous vehicle, the company says.",
+        "source_doc_id": "4099",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "015f440f73e4",
+      "subject_id": "b333da11e7fa",
+      "predicate": "affects",
+      "object_id": "819c02c8a587",
+      "evidence": {
+        "evidence_id": "1b14634543d4",
+        "evidence_sentence": "A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "c0e23c8d9b03",
+      "subject_id": "a795c39f4507",
+      "predicate": "hasVulnerability",
+      "object_id": "3622054ef98b",
+      "evidence": {
+        "evidence_id": "d4dedf500a8a",
+        "evidence_sentence": "The Waymo vehicle repeatedly drove away from roadside assistance, dispatched within minutes of the car becoming stuck.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "fb4fe42b55de",
+      "subject_id": "b7d074e0aa3a",
+      "predicate": "mitigates",
+      "object_id": "e3aa7e2795ee",
+      "evidence": {
+        "evidence_id": "f726433b1d03",
+        "evidence_sentence": "While the situation was not ideal, the Waymo Driver operated the vehicle safely until roadside assistance arrived, the company said.",
+        "source_doc_id": "1903",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b391ac105af3",
+      "subject_id": "a795c39f4507",
+      "predicate": "hasCapability",
+      "object_id": "adc4aaa70d11",
+      "evidence": {
+        "evidence_id": "58defb765c8e",
+        "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f818dc92114f",
+      "subject_id": "pred_366",
+      "predicate": "hasEvidence",
+      "object_id": "7dc6cadbaa93",
+      "evidence": {
+        "evidence_id": "831b68df955f",
+        "evidence_sentence": "[1865] Waymo operates a limited ridehail service in Chandler, Arizona.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "8f6479500417",
+      "subject_id": "pred_366",
+      "predicate": "hasEvidence",
+      "object_id": "a50ea34e63d7",
+      "evidence": {
+        "evidence_id": "0cbdbb41e217",
+        "evidence_sentence": "[1865] A confused Waymo self-driving taxi car was captured on video as it became stranded on an Arizona road earlier this month while carrying a passenger and then unexpectedly driving away as a worker from the company's roadside assistance arrived to help.",
+        "source_doc_id": "1865",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "Waymo": 2,
+    "Danny Harmon": 1,
+    "autonomous vehicle": 1,
+    "self-driving technology": 1,
+    "vehicle communication": 1,
+    "Alphabet": 1,
+    "Joel Johnson": 1,
+    "Waymo Driver": 1,
+    "Cruise": 1,
+    "Robert Moreno": 1,
+    "University of California, Berkeley": 1,
+    "San Francisco Bicycle Coalition": 1,
+    "Christopher White": 1
+  },
+  "report_count": 4,
+  "first_seen": "2021-05-13T00:00:00Z",
+  "last_seen": "2024-02-08T00:00:00Z"
+}

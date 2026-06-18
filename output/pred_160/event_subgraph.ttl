@@ -1,0 +1,2789 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/CodeOfConduct/edde1f3b3e26> a airo:CodeOfConduct ;
+    rdfs:label "universal detection system collaboration" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/853e571bf27a> ;
+    airo:hasReasoning "ElevenLabs proposed a collaborative, industry-wide approach to detection, which is a form of voluntary conduct or standard." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/2c9db7d3754d> a airo:ComplianceRequirement ;
+    rdfs:label "address Federal Deepfake Law (2019)" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45f02928ae41> ;
+    airo:hasReasoning "The existence of a federal law on deepfakes suggests a compliance requirement for systems that can generate deepfake audio." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/EnforcementAction/acfea04bdd33> a airo:EnforcementAction ;
+    rdfs:label "none mentioned" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aca03162642a> ;
+    airo:hasReasoning "The evidence focuses on misuse and company response, not regulatory enforcement." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> .
+
+<https://w3id.org/airo/incident/InformationSource/2ad04905346a> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2552>,
+        <https://w3id.org/airo/incident/NewsReport/2618>,
+        <https://w3id.org/airo/incident/NewsReport/2668> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/InformationSource/6d0dce798c10> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8027>,
+        <https://w3id.org/airo/incident/NewsReport/8028>,
+        <https://w3id.org/airo/incident/NewsReport/8030>,
+        <https://w3id.org/airo/incident/NewsReport/8031> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030>,
+        <https://w3id.org/airo/incident/document/8031> .
+
+<https://w3id.org/airo/incident/RiskControl/08c491cfed3a> a airo:RiskControl ;
+    rdfs:label "exploring collaboration to create an industry-wide universal detection system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af93d0f923be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/c1dd94aa3c33> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1ae1868ca518> a airo:RoleAssignment ;
+    rdfs:label "Meta_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/957e8feb772c> ;
+    airo:hasReasoning "Meta developed a deepfake detection tool through a competition, indicating AI development activity in the domain." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e186afbe91a8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1edd6ea18443> a airo:RoleAssignment ;
+    rdfs:label "Vice_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b109e10faa4> ;
+    airo:hasReasoning "Vice is a news organization that discovered and reported on the misuse incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ca31ca0ad5b1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/75e4be8907d8> a airo:RoleAssignment ;
+    rdfs:label "Credo_Stakeholder" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad4e857ce193> ;
+    airo:hasReasoning "Credo is a venture capital firm that invested in ElevenLabs, making them a financial stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ffbb4ec5af22> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7858a86f44f9> a airo:RoleAssignment ;
+    rdfs:label "ElevenLabs_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f429ea1a732b> ;
+    airo:hasReasoning "ElevenLabs launched and operated the beta platform where misuse occurred." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8031> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b06b2f62427b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/86f202487638> a airo:RoleAssignment ;
+    rdfs:label "4Chan_AIUser" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc16c6ea6b4> ;
+    airo:hasReasoning "4chan is the platform where users who misused the ElevenLabs tool posted the resulting deepfake audio." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/426c0ab8c9fb> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8cf91e525fbc> a airo:RoleAssignment ;
+    rdfs:label "Henry Ajder_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/124e514df23e> ;
+    airo:hasReasoning "No evidence in the provided sentences shows a direct role for Henry Ajder in the AI system's development, deployment, or misuse." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8516cffad7ca> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9aa7ac520a7c> a airo:RoleAssignment ;
+    rdfs:label "Piotr Dabkowski_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c1a23f52df7d> ;
+    airo:hasReasoning "Piotr Dabkowski is a co-founder of ElevenLabs, the company that developed the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/27c1def6598c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a2f602be7fd2> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c5862766c7e> ;
+    airo:hasReasoning "OpenAI develops ChatGPT, which is mentioned as part of the generative AI landscape alongside ElevenLabs." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e5dce25f5338> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b1f85d29afdb> a airo:RoleAssignment ;
+    rdfs:label "Microsoft_AIDeveloper" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a68d8815dc2> ;
+    airo:hasReasoning "Microsoft developed VALL-E, another voice cloning AI system mentioned in the context of similar technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3d075d687139> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d59d841f90ea> a airo:RoleAssignment ;
+    rdfs:label "Graphika_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab198246ac77> ;
+    airo:hasReasoning "Graphika is mentioned as a research company in the context of deepfake analysis, though not directly involved in the ElevenLabs incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fe98e14413e6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e9640c96530f> a airo:RoleAssignment ;
+    rdfs:label "ElevenLabs_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e82de8297e32> ;
+    airo:hasReasoning "ElevenLabs is the company that created and developed the AI voice generation and cloning system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b06b2f62427b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f8211e0768d9> a airo:RoleAssignment ;
+    rdfs:label "ElevenLabs_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/466073552be5> ;
+    airo:hasReasoning "ElevenLabs provides the voice cloning platform as a service to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b06b2f62427b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/28df1f2d2294> .
+
+<https://w3id.org/airo/incident/Trend/4492243d8f78> a airo:Trend ;
+    rdfs:label "increasing misuse of voice cloning technology" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bb21f23ca28> ;
+    airo:hasReasoning "The company's statement points to a growing trend of misuse for newly released voice cloning tools." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/event/pred_160> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-01-30T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 7 ;
+    airo:lastSeen "2023-03-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/000beb3076a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4598446c20d5> .
+
+<https://w3id.org/airo/incident/ks/026fea26f1c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/02ff27f9e393> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf54d659cae4> .
+
+<https://w3id.org/airo/incident/ks/0477c3bf980d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c68be1f0e8d> .
+
+<https://w3id.org/airo/incident/ks/04bb0c585e74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> .
+
+<https://w3id.org/airo/incident/ks/04d2a1da064f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d363dc157c3> .
+
+<https://w3id.org/airo/incident/ks/04e5fa7543dd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/910ab1f36051> .
+
+<https://w3id.org/airo/incident/ks/0519af588ad3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f185b0971e98> .
+
+<https://w3id.org/airo/incident/ks/053e6c7132c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aca03162642a> .
+
+<https://w3id.org/airo/incident/ks/0590ea4596b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ba49a767553> .
+
+<https://w3id.org/airo/incident/ks/0827f635696b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05e8781ae21e> .
+
+<https://w3id.org/airo/incident/ks/0830cd24ee20> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac673503de7f> .
+
+<https://w3id.org/airo/incident/ks/090b0ae56245> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/0aa2d994e1f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f18ee39379c1> .
+
+<https://w3id.org/airo/incident/ks/0b2338d54a83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/0b28e3aad80e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d76afa9bf0ef> .
+
+<https://w3id.org/airo/incident/ks/0e1d1434cf14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea2630855cce> .
+
+<https://w3id.org/airo/incident/ks/0e829fe1bfa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463ea009e963> .
+
+<https://w3id.org/airo/incident/ks/0f0fc14ebc50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fce439dd03c> .
+
+<https://w3id.org/airo/incident/ks/0f1320ed3831> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/640d973b7bf9> .
+
+<https://w3id.org/airo/incident/ks/0f59e033c1e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bfecc82f88f> .
+
+<https://w3id.org/airo/incident/ks/0f60966c613a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7963bbd48a3c> .
+
+<https://w3id.org/airo/incident/ks/101c8d7fac77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/119bafa9307a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24cfb9bfc844> .
+
+<https://w3id.org/airo/incident/ks/1247f0f44500> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f33097624165> .
+
+<https://w3id.org/airo/incident/ks/12763cadd6bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ed2e8e5a8a2> .
+
+<https://w3id.org/airo/incident/ks/12c53f58ed86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/951957a5b410> .
+
+<https://w3id.org/airo/incident/ks/1331a8c927a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c76ce660d8bf> .
+
+<https://w3id.org/airo/incident/ks/1355074b5da9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9cd18ab51494> .
+
+<https://w3id.org/airo/incident/ks/13e5aba617d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8bf270c0602> .
+
+<https://w3id.org/airo/incident/ks/140efb02e54d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> .
+
+<https://w3id.org/airo/incident/ks/14515ac4a795> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c56e1f9cd3ef> .
+
+<https://w3id.org/airo/incident/ks/16fd42534f61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c50389b8478c> .
+
+<https://w3id.org/airo/incident/ks/1906ad426dae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c> .
+
+<https://w3id.org/airo/incident/ks/19e9e8e35336> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef0f0103ab5b> .
+
+<https://w3id.org/airo/incident/ks/1b756a2130c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b634f8d0dd8> .
+
+<https://w3id.org/airo/incident/ks/1c18b239c301> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7a64ba9ca29> .
+
+<https://w3id.org/airo/incident/ks/1c34871ccd46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4598446c20d5> .
+
+<https://w3id.org/airo/incident/ks/1fed7b74287c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463ea009e963> .
+
+<https://w3id.org/airo/incident/ks/21af19fdce72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/23ea1e4bccfc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5493b09683bb> .
+
+<https://w3id.org/airo/incident/ks/266eab5a2f79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463ea009e963> .
+
+<https://w3id.org/airo/incident/ks/27334f6c21a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b1ee1b7f27a5> .
+
+<https://w3id.org/airo/incident/ks/28cd5413c5a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb0c804ed959> .
+
+<https://w3id.org/airo/incident/ks/2a4a262cc80a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/2a82e612e2c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e4d42554c51> .
+
+<https://w3id.org/airo/incident/ks/2b75d4755822> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19f843500591> .
+
+<https://w3id.org/airo/incident/ks/2cbe7e8b8e4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/2dce414baaf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f185b0971e98> .
+
+<https://w3id.org/airo/incident/ks/2f001dd97d4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c> .
+
+<https://w3id.org/airo/incident/ks/31a987e85381> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30254dd3ff15> .
+
+<https://w3id.org/airo/incident/ks/3269af232a1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30254dd3ff15> .
+
+<https://w3id.org/airo/incident/ks/32f3172c44ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7616d9045f8a> .
+
+<https://w3id.org/airo/incident/ks/339e2e8034ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a471df50358a> .
+
+<https://w3id.org/airo/incident/ks/33b379f9fd51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea205ae8629d> .
+
+<https://w3id.org/airo/incident/ks/3427c6abdfda> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/3556005eaa1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e78793661fca> .
+
+<https://w3id.org/airo/incident/ks/358403e4a737> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/36f23da003bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f185b0971e98> .
+
+<https://w3id.org/airo/incident/ks/38e4ba821a15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ec8e9536243> .
+
+<https://w3id.org/airo/incident/ks/398e2d73d9d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/66d149b44e76> .
+
+<https://w3id.org/airo/incident/ks/3ae2e7ad8012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> .
+
+<https://w3id.org/airo/incident/ks/3c942a3d8707> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07db6538f3ce> .
+
+<https://w3id.org/airo/incident/ks/3d13d2341fd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eacae4586676> .
+
+<https://w3id.org/airo/incident/ks/3f64e236df60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21c72ef7932c> .
+
+<https://w3id.org/airo/incident/ks/40384c10377a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/40c1d7afc040> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4598446c20d5> .
+
+<https://w3id.org/airo/incident/ks/41a47f648133> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> .
+
+<https://w3id.org/airo/incident/ks/41fa98067a5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dab6b3b3af8c> .
+
+<https://w3id.org/airo/incident/ks/439365a89015> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/804e322e538b> .
+
+<https://w3id.org/airo/incident/ks/4465d9ffefdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fa56827b8a3> .
+
+<https://w3id.org/airo/incident/ks/454e98be91a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0029e58d048> .
+
+<https://w3id.org/airo/incident/ks/461af03963e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98cc42f3196f> .
+
+<https://w3id.org/airo/incident/ks/4943a521025d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3dcaeded2b2c> .
+
+<https://w3id.org/airo/incident/ks/4a44da61302d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/78d7c196b68d> .
+
+<https://w3id.org/airo/incident/ks/4b1d8104d786> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc99757fcc86> .
+
+<https://w3id.org/airo/incident/ks/4b2c6d11ee4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7408424897f0> .
+
+<https://w3id.org/airo/incident/ks/4bd3fceba735> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef1e6dbdee86> .
+
+<https://w3id.org/airo/incident/ks/4c8b01638b16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c43f1533ab> .
+
+<https://w3id.org/airo/incident/ks/4e89b6c734b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faab0cb0039f> .
+
+<https://w3id.org/airo/incident/ks/4eb43975112d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83ef48fd5ba7> .
+
+<https://w3id.org/airo/incident/ks/4f8e353938af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb5441d39191> .
+
+<https://w3id.org/airo/incident/ks/4f9d51af2440> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eacae4586676> .
+
+<https://w3id.org/airo/incident/ks/52262dae60e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7616d9045f8a> .
+
+<https://w3id.org/airo/incident/ks/52d2c8df43f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6490d9bba6a> .
+
+<https://w3id.org/airo/incident/ks/52e54fc68ae4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4598446c20d5> .
+
+<https://w3id.org/airo/incident/ks/53020f40ba17> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c> .
+
+<https://w3id.org/airo/incident/ks/55cca5f88e3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/093970fe9dd9> .
+
+<https://w3id.org/airo/incident/ks/56072d3c5157> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24cfb9bfc844> .
+
+<https://w3id.org/airo/incident/ks/56cb274debaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3b5e6e942f9> .
+
+<https://w3id.org/airo/incident/ks/586a458c41db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/59538cb39fcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5493b09683bb> .
+
+<https://w3id.org/airo/incident/ks/5a4f219fbdf7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5b6783d9134> .
+
+<https://w3id.org/airo/incident/ks/5b90534e4997> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/473ff48d8c23> .
+
+<https://w3id.org/airo/incident/ks/5bc913df0150> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> .
+
+<https://w3id.org/airo/incident/ks/5d2cd394b032> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83ef48fd5ba7> .
+
+<https://w3id.org/airo/incident/ks/5dc6acc6385b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/5e34fa89f207> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bac9274be9d3> .
+
+<https://w3id.org/airo/incident/ks/5e9918ca4b41> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cda113520ab2> .
+
+<https://w3id.org/airo/incident/ks/5eb40727337c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/5f3be0d0cbcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16c56dac54cc> .
+
+<https://w3id.org/airo/incident/ks/5f5bf3cd6e7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8e68783cc33> .
+
+<https://w3id.org/airo/incident/ks/623f79c3abdd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/6242c79e2064> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd6a7ea88112> .
+
+<https://w3id.org/airo/incident/ks/646ba11233d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a3ac2e127c6> .
+
+<https://w3id.org/airo/incident/ks/649825bcd61b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4fa1a93e47e> .
+
+<https://w3id.org/airo/incident/ks/68b0aa5c755d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be79c5e68af2> .
+
+<https://w3id.org/airo/incident/ks/6bebbff078db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3696b161aeda> .
+
+<https://w3id.org/airo/incident/ks/6daa8e08d94d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7616d9045f8a> .
+
+<https://w3id.org/airo/incident/ks/6dd637621a8a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab6ab028acab> .
+
+<https://w3id.org/airo/incident/ks/6f5a6f60dc07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e8a00aa5495> .
+
+<https://w3id.org/airo/incident/ks/700a94e0a1e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> .
+
+<https://w3id.org/airo/incident/ks/72d242796029> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/857f809cd1ab> .
+
+<https://w3id.org/airo/incident/ks/742c9552cb3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5f0e3c3cbcf> .
+
+<https://w3id.org/airo/incident/ks/7d0e59035104> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/daf83fd01985> .
+
+<https://w3id.org/airo/incident/ks/7d10a881754b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1af1b43133a4> .
+
+<https://w3id.org/airo/incident/ks/7d94d2ebebb2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/50b626beb90a> .
+
+<https://w3id.org/airo/incident/ks/7e3946d4f182> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7616d9045f8a> .
+
+<https://w3id.org/airo/incident/ks/822b259d65fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3947e15b99f> .
+
+<https://w3id.org/airo/incident/ks/82899525771d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/8327ad07c14c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ca8a33baa5> .
+
+<https://w3id.org/airo/incident/ks/83c9f879a65b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c50389b8478c> .
+
+<https://w3id.org/airo/incident/ks/8588d9063f13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f185b0971e98> .
+
+<https://w3id.org/airo/incident/ks/859a899a8ec0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/85ee231e6d3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5638c65cddde> .
+
+<https://w3id.org/airo/incident/ks/87ffa3af8b54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e8a00aa5495> .
+
+<https://w3id.org/airo/incident/ks/8a1ad3592e77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2229f200a2ef> .
+
+<https://w3id.org/airo/incident/ks/8cf442984895> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5493b09683bb> .
+
+<https://w3id.org/airo/incident/ks/8d551c7d5300> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3696b161aeda> .
+
+<https://w3id.org/airo/incident/ks/8fe0d12b17e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/862c390de499> .
+
+<https://w3id.org/airo/incident/ks/900c5a55e70a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/9283ea092dea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> .
+
+<https://w3id.org/airo/incident/ks/9381f99ea008> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56889cdfe3e8> .
+
+<https://w3id.org/airo/incident/ks/938d930e10e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/942cb6ae7998> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c72fb433679> .
+
+<https://w3id.org/airo/incident/ks/9607a27baab8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/96c536103180> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1176caa73099> .
+
+<https://w3id.org/airo/incident/ks/97043ea561a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52d80c4f169d> .
+
+<https://w3id.org/airo/incident/ks/9860cd3e8a1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b76135b5c4cc> .
+
+<https://w3id.org/airo/incident/ks/9940aaba7acf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> .
+
+<https://w3id.org/airo/incident/ks/998fcc8d6d51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44349de2739> .
+
+<https://w3id.org/airo/incident/ks/9a1149ad64a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/639634d901d9> .
+
+<https://w3id.org/airo/incident/ks/9b731f3efc1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6618cdf206f1> .
+
+<https://w3id.org/airo/incident/ks/9bafd643e338> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af93d0f923be> .
+
+<https://w3id.org/airo/incident/ks/9da979319930> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e8a00aa5495> .
+
+<https://w3id.org/airo/incident/ks/9e2385cfb9e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/9e8c4d3f7c26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f50eb7b7b811> .
+
+<https://w3id.org/airo/incident/ks/9ef9a5722161> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc99757fcc86> .
+
+<https://w3id.org/airo/incident/ks/9efb7294852d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463ea009e963> .
+
+<https://w3id.org/airo/incident/ks/9f867829047b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/a0782cc79a8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4067188de86e> .
+
+<https://w3id.org/airo/incident/ks/a10e5a7d05af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032a7d39eb94> .
+
+<https://w3id.org/airo/incident/ks/a328d11249e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3eb8ca17c7c3> .
+
+<https://w3id.org/airo/incident/ks/a503e7fb30e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/a6816594ea9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3dcaeded2b2c> .
+
+<https://w3id.org/airo/incident/ks/a7aeb2f0141e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3197b1c4e790> .
+
+<https://w3id.org/airo/incident/ks/a95ba6a78a3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ca8a33baa5> .
+
+<https://w3id.org/airo/incident/ks/a9a14c19a761> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c72fb433679> .
+
+<https://w3id.org/airo/incident/ks/aa5ab6f994eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eacae4586676> .
+
+<https://w3id.org/airo/incident/ks/ab975aeaf9a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/50698bb014ab> .
+
+<https://w3id.org/airo/incident/ks/ac353c0a1e62> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/ac47dad1452c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5493b09683bb> .
+
+<https://w3id.org/airo/incident/ks/ac74446ed507> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05e526fa098a> .
+
+<https://w3id.org/airo/incident/ks/acec28f33e4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/650f7e41c08b> .
+
+<https://w3id.org/airo/incident/ks/ae7abd6d244e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c72fb433679> .
+
+<https://w3id.org/airo/incident/ks/b0f790dae23f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e6b717b3542d> .
+
+<https://w3id.org/airo/incident/ks/b1a68d052d0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83ef48fd5ba7> .
+
+<https://w3id.org/airo/incident/ks/b1c5883a4bc6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f518b7ddd2b> .
+
+<https://w3id.org/airo/incident/ks/b1e4877ae223> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa311cbf6042> .
+
+<https://w3id.org/airo/incident/ks/b3de0edd1ec5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ff44beb1264> .
+
+<https://w3id.org/airo/incident/ks/b41dc77bb329> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3526d50edb1a> .
+
+<https://w3id.org/airo/incident/ks/b42d868ab6de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfec4abf4527> .
+
+<https://w3id.org/airo/incident/ks/b62356cc5f56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> .
+
+<https://w3id.org/airo/incident/ks/b68377e3f8c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/b87bf13f88f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f7de28ed39f> .
+
+<https://w3id.org/airo/incident/ks/ba3b5590dd56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d608959b4a0e> .
+
+<https://w3id.org/airo/incident/ks/baa375d4573b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/bb314c61572b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e64535d76c0> .
+
+<https://w3id.org/airo/incident/ks/bb4e28b9130e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c72fb433679> .
+
+<https://w3id.org/airo/incident/ks/bbb7a3bf7d27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c538306b602> .
+
+<https://w3id.org/airo/incident/ks/bf17dcb23d2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d97f7f727bd> .
+
+<https://w3id.org/airo/incident/ks/c0caf87786da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> .
+
+<https://w3id.org/airo/incident/ks/c309c45f97a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1af5f7d898f1> .
+
+<https://w3id.org/airo/incident/ks/c312c1eb02fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c> .
+
+<https://w3id.org/airo/incident/ks/c3bec67fafcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c50389b8478c> .
+
+<https://w3id.org/airo/incident/ks/c41115b7959b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a96c13bf09f4> .
+
+<https://w3id.org/airo/incident/ks/c4116fb944a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/c79dcb1e1f96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3526d50edb1a> .
+
+<https://w3id.org/airo/incident/ks/c949b14cfc2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bda0f529afa1> .
+
+<https://w3id.org/airo/incident/ks/cac93a2a2d0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eacae4586676> .
+
+<https://w3id.org/airo/incident/ks/cbf737999364> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/cecc7d418dc6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3b5e6e942f9> .
+
+<https://w3id.org/airo/incident/ks/d03c941fb7a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2b4de93b98d> .
+
+<https://w3id.org/airo/incident/ks/d1b5a8d5c86e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8e68783cc33> .
+
+<https://w3id.org/airo/incident/ks/d2026a9b35e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b0c05571748> .
+
+<https://w3id.org/airo/incident/ks/d514a4fec3fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3dcaeded2b2c> .
+
+<https://w3id.org/airo/incident/ks/d8631bbb5bf4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29c912e8b346> .
+
+<https://w3id.org/airo/incident/ks/d91544494fce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83ef48fd5ba7> .
+
+<https://w3id.org/airo/incident/ks/db119cedc833> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faab0cb0039f> .
+
+<https://w3id.org/airo/incident/ks/e1953f2d40b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/e2ca504b5ed5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d159c13050b1> .
+
+<https://w3id.org/airo/incident/ks/e35bc4198857> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3dcaeded2b2c> .
+
+<https://w3id.org/airo/incident/ks/e45c9b12305d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/457e1137e278> .
+
+<https://w3id.org/airo/incident/ks/e4e9260ad873> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/e6500dfe3b68> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec7e8f4c439b> .
+
+<https://w3id.org/airo/incident/ks/e6f5ea87d0be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/35051b0712bc> .
+
+<https://w3id.org/airo/incident/ks/e8eaeeb73741> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/600982305b50> .
+
+<https://w3id.org/airo/incident/ks/e9294b70409c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e8a00aa5495> .
+
+<https://w3id.org/airo/incident/ks/e969bdd8b250> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> .
+
+<https://w3id.org/airo/incident/ks/ebf67f002ed7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30254dd3ff15> .
+
+<https://w3id.org/airo/incident/ks/ed71673db02f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> .
+
+<https://w3id.org/airo/incident/ks/edd8cfbfb04a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16df58e8d4e7> .
+
+<https://w3id.org/airo/incident/ks/ef65621cb34d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> .
+
+<https://w3id.org/airo/incident/ks/f0f14f76f8ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d25368bd3f78> .
+
+<https://w3id.org/airo/incident/ks/f115dc788fd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30254dd3ff15> .
+
+<https://w3id.org/airo/incident/ks/f11b5c3adf9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92e4f4a4e981> .
+
+<https://w3id.org/airo/incident/ks/f2f01a1bf3d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d491f27215e> .
+
+<https://w3id.org/airo/incident/ks/f374156496e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> .
+
+<https://w3id.org/airo/incident/ks/f4f16b67d208> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> .
+
+<https://w3id.org/airo/incident/ks/f6d9acd060d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23ecacbf4cd1> .
+
+<https://w3id.org/airo/incident/ks/f7563ec4c4b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfe1ccbf24e7> .
+
+<https://w3id.org/airo/incident/ks/f8168ce6328a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/f8498f76770e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/640d973b7bf9> .
+
+<https://w3id.org/airo/incident/ks/f86f2c289e2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7ba1345a436> .
+
+<https://w3id.org/airo/incident/ks/f8e730ea0803> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8e68783cc33> .
+
+<https://w3id.org/airo/incident/ks/f9d259be33c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d7de357fc70> .
+
+<https://w3id.org/airo/incident/ks/fc8bb96f4c35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> .
+
+<https://w3id.org/airo/incident/ks/fd133ac3d83d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab16a7eac8b8> .
+
+<https://w3id.org/airo/incident/ks/fdedad5b6073> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff2fd3ba55cd> .
+
+<https://w3id.org/airo/incident/AICapability/00fef6f5d748> a airo:AICapability ;
+    rdfs:label "AI speech platform" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI speech platform" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/457e1137e278> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027> .
+
+<https://w3id.org/airo/incident/AICapability/6a7f8654ad51> a airo:AICapability ;
+    rdfs:label "generate deepfakes" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake videos" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c68be1f0e8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/AICapability/782e8225d31e> a airo:AICapability ;
+    rdfs:label "synthesize speech" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "speech synthesis" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c50389b8478c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/AICapability/7a7020779e51> a airo:AICapability ;
+    rdfs:label "translate spoken audio" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "convert spoken audio between languages" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c43f1533ab> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/AICapability/898a76c2042d> a airo:AICapability ;
+    rdfs:label "AI voice generator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI voice generator" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027> .
+
+<https://w3id.org/airo/incident/AICapability/9c9b720c2426> a airo:AICapability ;
+    rdfs:label "voice cloning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate a clone of someone’s voice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23ecacbf4cd1>,
+        <https://w3id.org/airo/incident/evidence/4b634f8d0dd8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/ccc83282381c> a airo:AICapability ;
+    rdfs:label "professional cloning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "professional cloning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bda0f529afa1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/AICapability/dacf85341390> a airo:AICapability ;
+    rdfs:label "deepfake detection" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake detection challenge" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8e68783cc33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/AICapability/ec960e467fd2> a airo:AICapability ;
+    rdfs:label "AI detection" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A.I. detecting tool" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/857f809cd1ab> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/AICapability/f2b9110232b4> a airo:AICapability ;
+    rdfs:label "clone and synthesize voices" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "clonar y sintetizar voces" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c50389b8478c>,
+        <https://w3id.org/airo/incident/evidence/e3b5e6e942f9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/ffe0116cce29> a airo:AICapability ;
+    rdfs:label "reproduce accents" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "reproduce any accent" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/862c390de499> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/fa9349a8fd03> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5b6783d9134> ;
+    airo:hasReasoning "The misuse occurred after the system was released to users in a beta phase, indicating it was in the deployment stage." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/AITechnique/1cead07d7460> a airo:AITechnique ;
+    rdfs:label "speech synthesis" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "speech synthesis" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/640d973b7bf9>,
+        <https://w3id.org/airo/incident/evidence/c50389b8478c>,
+        <https://w3id.org/airo/incident/evidence/dc99757fcc86> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AITechnique/43a3872e4399> a airo:AITechnique ;
+    rdfs:label "deepfake voices" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake voices" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72d9e9a354dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/AITechnique/620cce1fb5f0> a airo:AITechnique ;
+    rdfs:label "deepfake audio" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake audio" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/473ff48d8c23> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8031> .
+
+<https://w3id.org/airo/incident/AITechnique/cb23a9fe2565> a airo:AITechnique ;
+    rdfs:label "voice cloning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "voice cloning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51cd682d2b40>,
+        <https://w3id.org/airo/incident/evidence/640d973b7bf9>,
+        <https://w3id.org/airo/incident/evidence/7a333d5e8be4>,
+        <https://w3id.org/airo/incident/evidence/c44349de2739>,
+        <https://w3id.org/airo/incident/evidence/c50389b8478c>,
+        <https://w3id.org/airo/incident/evidence/dc99757fcc86> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8027>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/AITechnique/ea5e4eaa3aec> a airo:AITechnique ;
+    rdfs:label "generative AI" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generative AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/650f7e41c08b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AITechnique/f3441ef0ae4c> a airo:AITechnique ;
+    rdfs:label "deepfake video" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake video" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a96c13bf09f4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8031> .
+
+<https://w3id.org/airo/incident/AffectedActor/21ffe9013e36> a airo:AffectedActor ;
+    rdfs:label "public figures (celebrities) and the broader public exposed to hateful content" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d363dc157c3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/Documentation/0e9cf292faaf> a airo:Documentation ;
+    rdfs:label "beta launch documentation" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fce439dd03c> ;
+    airo:hasReasoning "The release of a beta version implies documentation outlining its features and access terms." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/Domain/bb1b0c26aad2> a airo:Domain ;
+    rdfs:label "entertainment" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4fa1a93e47e> ;
+    airo:hasReasoning "The system is explicitly mentioned for use in film and publishing, which are part of the entertainment domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/Hazard/069eed72db78> a airo:Hazard ;
+    rdfs:label "lack of robust safeguards against misuse in a recently launched beta platform" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6618cdf206f1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/Obligation/1f0f3fd9accc> a airo:Obligation ;
+    rdfs:label "investigate and address misuse cases" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/50698bb014ab> ;
+    airo:hasReasoning "The company took the obligation to monitor and respond to misuse of its platform after it was discovered." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/Purpose/c6ac620cc4f5> a airo:Purpose ;
+    rdfs:label "speech synthesis and voice cloning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d76afa9bf0ef> ;
+    airo:hasReasoning "The company's primary offering is explicitly stated as speech synthesis and voice cloning capabilities." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/RiskSource/1b9a242e970b> a airo:RiskSource ;
+    rdfs:label "voice cloning capability of AI platform" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/c1dd94aa3c33> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab6ab028acab> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/069eed72db78> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/42df2b6dc837> .
+
+<https://w3id.org/airo/incident/Stakeholder/13d1534f73ea> a airo:Stakeholder ;
+    rdfs:label "Palantir" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Palantir" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ca8a33baa5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/Stakeholder/87fec0254347> a airo:Stakeholder ;
+    rdfs:label "Twitter" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Twitter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3eb8ca17c7c3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Stakeholder/a87e79e9dbab> a airo:Stakeholder ;
+    rdfs:label "TikTok" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "TikTok" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b76135b5c4cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Stakeholder/b1b4c4b6c3ef> a airo:Stakeholder ;
+    rdfs:label "Google" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ca8a33baa5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/Stakeholder/b36725047f4c> a airo:Stakeholder ;
+    rdfs:label "Jack Posobiec" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jack Posobiec" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb0c804ed959> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Stakeholder/ffb9d2b02e39> a airo:Stakeholder ;
+    rdfs:label "YouTube" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "YouTube" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56889cdfe3e8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/TechnicalDocumentation/8f649714ca00> a airo:TechnicalDocumentation ;
+    rdfs:label "none mentioned" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3197b1c4e790> ;
+    airo:hasReasoning "The evidence does not cite any formal technical documentation for the AI system." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/Threat/42df2b6dc837> a airo:Threat ;
+    rdfs:label "external users exploiting the platform for hateful content generation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b1ee1b7f27a5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8031> .
+
+<https://w3id.org/airo/incident/VerificationTest/abf950187eec> a airo:VerificationTest ;
+    rdfs:label "deepfake detection testing" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1af5f7d898f1> ;
+    airo:hasReasoning "Meta's competition was a form of testing and verification focused on detecting deepfakes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Vulnerability/72dbea084795> a airo:Vulnerability ;
+    rdfs:label "platform openness allowing misuse during beta phase without sufficient controls" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/600982305b50> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/evidence/032a7d39eb94> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/05e526fa098a> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/05e8781ae21e> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/07db6538f3ce> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/093970fe9dd9> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/0a6160e9ecb3> a airo:Evidence ;
+    airo:evidenceText "In an email, a spokeswoman for ElevenLabs said the company was looking to collaborate with other A.I. developers to create a universal detection system that could be adopted across the industry." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/0ba49a767553> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/0bfecc82f88f> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/0e4d42554c51> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/1176caa73099> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/124e514df23e> a airo:Evidence ;
+    airo:evidenceText "Henry Ajder is mentioned in the core entities but no direct evidence in the provided sentences links him to a specific action related to the ElevenLabs incident or system." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/16c56dac54cc> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/16df58e8d4e7> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/19f843500591> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/1af1b43133a4> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/2229f200a2ef> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/29c912e8b346> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/2bb21f23ca28> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/2d97f7f727bd> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/330d6786afac> a airo:Evidence ;
+    airo:evidenceText "Many of the video clips featuring synthesized voices appeared to use technology from ElevenLabs, an American start-up co-founded by a former Google engineer." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/35051b0712bc> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/3a3ac2e127c6> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/3fc16c6ea6b4> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/4067188de86e> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/45f02928ae41> a airo:Evidence ;
+    airo:evidenceText "The Federal Deepfake Law (2019) is listed as a regulation in the core entities." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/466073552be5> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/4fa56827b8a3> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/50b626beb90a> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/52d80c4f169d> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/5412a8ba3663> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs’ website says the company was founded by Piotr Dabkowski, an ex-Google machine learning engineer, and Mati Staniszewski, an ex-Palantir deployment strategist." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/5638c65cddde> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/5b109e10faa4> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/5d491f27215e> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/5ff3c4cc682f> a airo:Evidence ;
+    airo:evidenceText "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/639634d901d9> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/66d149b44e76> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/6b09fa017ebd> a airo:Evidence ;
+    airo:evidenceText "Emma Watson reads Mein Kampf on 4Chan in deepfake audio trick" ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/6c538306b602> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/6fab0f9c34d0> a airo:Evidence ;
+    airo:evidenceText "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/6ff44beb1264> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/7394456bb1a1> a airo:Evidence ;
+    airo:evidenceText "Making Deepfakes Gets Cheaper and Easier Thanks to A.I." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/7963bbd48a3c> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/7a333d5e8be4> a airo:Evidence ;
+    airo:evidenceText "But 4chan users said they would create their own version of the voice-cloning technology using open source code, posting demos that sound similar to audio produced by ElevenLabs." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/7b11ded2d9dc> a airo:Evidence ;
+    airo:evidenceText "1 week after opening access to its voice-cloning platform, AI speech startup ElevenLabs says it may need to rethink that openness amid \"an increasing number of voice cloning misuse cases.\"" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/7ed2e8e5a8a2> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/7f518b7ddd2b> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/804e322e538b> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/853e571bf27a> a airo:Evidence ;
+    airo:evidenceText "In an email, a spokeswoman for ElevenLabs said the company was looking to collaborate with other A.I. developers to create a universal detection system that could be adopted across the industry." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/8a68d8815dc2> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/8c5862766c7e> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/910ab1f36051> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/92e4f4a4e981> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/951957a5b410> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/957e8feb772c> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/98cc42f3196f> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/9cd18ab51494> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/9e64535d76c0> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/9ec269b6c74f> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs attracted attention last month after 4chan, a message board known for racist and conspiratorial content, used the tool to share hateful messages." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/9ec8e9536243> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/a471df50358a> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/ab16a7eac8b8> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/ab198246ac77> a airo:Evidence ;
+    airo:evidenceText "In an email, a spokeswoman for ElevenLabs said the company was looking to collaborate with other A.I. developers to create a universal detection system that could be adopted across the industry." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/ac673503de7f> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/ad4e857ce193> a airo:Evidence ;
+    airo:evidenceText "This month the company announced a $2 million pre-seed round led by Czech venture capital firm Credo." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/bac9274be9d3> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/bd6a7ea88112> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/bf54d659cae4> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/bfe1ccbf24e7> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/bfec4abf4527> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/c1a23f52df7d> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/c56e1f9cd3ef> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/c76ce660d8bf> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/cda113520ab2> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/ce7ab88bff56> a airo:Evidence ;
+    airo:evidenceText "Mati Staniszewski and Piotr Dabkowski, the founders of ElevenLabs, recently announced $2 million (£1.6 million) in funding." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/d0029e58d048> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/d159c13050b1> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/d2b4de93b98d> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/d5f0e3c3cbcf> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/d608959b4a0e> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/dab6b3b3af8c> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/df2eb3c7e6d5> a airo:Evidence ;
+    airo:evidenceText "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse" ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/e3947e15b99f> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/e6b717b3542d> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/e78793661fca> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/e82de8297e32> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/e8bf270c0602> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/ea205ae8629d> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/ea2630855cce> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/ec7e8f4c439b> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/ef0f0103ab5b> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/ef1e6dbdee86> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/f18ee39379c1> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/f33097624165> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/f429ea1a732b> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/f50eb7b7b811> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/f7a64ba9ca29> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/f7ba1345a436> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/fa311cbf6042> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/ff2fd3ba55cd> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/Consequence/0cdbbcde4f69> a airo:Consequence ;
+    rdfs:label "creation and circulation of deepfake audio featuring celebrities making offensive statements" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24cfb9bfc844> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/b2505555b653> .
+
+<https://w3id.org/airo/incident/Impact/b2505555b653> a airo:Impact ;
+    rdfs:label "spread of racist, transphobic, and violent content, potentially causing reputational harm and social discord" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/21ffe9013e36> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3526d50edb1a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/NewsReport/2552> a airo:NewsReport ;
+    rdfs:label "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**4chan members used ElevenLabs to make deepfake voices of Emma Watson, Joe Rogan, and others saying racist, transphobic, and violent things.**
+
+It was only a matter of time before the wave of artific""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6490d9bba6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552> .
+
+<https://w3id.org/airo/incident/NewsReport/2618> a airo:NewsReport ;
+    rdfs:label "Making Deepfakes Gets Cheaper and Easier Thanks to A.I." ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """It wouldn’t be completely out of character for Joe Rogan, the comedian turned podcaster, to endorse a “libido-boosting” coffee brand for men.
+
+But when a video circulating on TikTok recently showed Mr""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb5441d39191> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/NewsReport/2668> a airo:NewsReport ;
+    rdfs:label "Emma Watson reads Mein Kampf on 4Chan in deepfake audio trick" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A British start-up has been forced to introduce safeguards after deepfake audio recordings of the actress Emma Watson reading _Mein Kampf_ by Adolf Hitler and the broadcaster Sir David Attenborough be" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be79c5e68af2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/NewsReport/8027> a airo:NewsReport ;
+    rdfs:label "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "On January 23, ElevenLabs — an AI startup founded by former Google and Palantir employees — announced two things: a $2 million funding round, and the release of a beta for a AI voice generator called " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d25368bd3f78> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027> .
+
+<https://w3id.org/airo/incident/NewsReport/8028> a airo:NewsReport ;
+    rdfs:label "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """One week after opening access to its voice-cloning platform, AI speech startup ElevenLabs says it may need to rethink that openness amid "an increasing number of voice cloning misuse cases."
+The compa""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21c72ef7932c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/NewsReport/8030> a airo:NewsReport ;
+    rdfs:label "Compañía que hace voces con IA tomará acciones ante usuarios que usan su tecnología para racismo y misoginia" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Compañía que hace voces con IA tomará acciones ante usuarios que usan su tecnología para racismo y misoginia
+Por
+Yoss Delgado
+|
+30 enero, 2023
+Compañía que hace voces con IA tomará acciones ante usuar""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7408424897f0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8030> .
+
+<https://w3id.org/airo/incident/NewsReport/8031> a airo:NewsReport ;
+    rdfs:label "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """ShareCopied to clipboard
+It was only a matter of time before the wave of artificial intelligence-generated voice startups became a play thing of internet trolls. On Monday, ElevenLabs, founded by ex-G""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/daf83fd01985> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8031> .
+
+<https://w3id.org/airo/incident/Regulation/450d7ed4dfde> a airo:Regulation ;
+    rdfs:label "Federal Deepfake Law (2019)" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "1 federal law from 2019" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faab0cb0039f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/1f0f3fd9accc> .
+
+<https://w3id.org/airo/incident/Stakeholder/27c1def6598c> a airo:Stakeholder ;
+    rdfs:label "Piotr Dabkowski" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Piotr Dabkowski" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c>,
+        <https://w3id.org/airo/incident/evidence/5412a8ba3663>,
+        <https://w3id.org/airo/incident/evidence/5493b09683bb>,
+        <https://w3id.org/airo/incident/evidence/8c72fb433679>,
+        <https://w3id.org/airo/incident/evidence/ce7ab88bff56>,
+        <https://w3id.org/airo/incident/evidence/f185b0971e98> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/3d075d687139> a airo:Stakeholder ;
+    rdfs:label "Microsoft" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/Stakeholder/426c0ab8c9fb> a airo:Stakeholder ;
+    rdfs:label "4Chan" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "4Chan" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463ea009e963>,
+        <https://w3id.org/airo/incident/evidence/51cd682d2b40>,
+        <https://w3id.org/airo/incident/evidence/72d9e9a354dd>,
+        <https://w3id.org/airo/incident/evidence/7616d9045f8a>,
+        <https://w3id.org/airo/incident/evidence/9ec269b6c74f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8027>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 5 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> .
+
+<https://w3id.org/airo/incident/Stakeholder/8516cffad7ca> a airo:Stakeholder ;
+    rdfs:label "Henry Ajder" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Henry Ajder" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3dcaeded2b2c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/Stakeholder/ca31ca0ad5b1> a airo:Stakeholder ;
+    rdfs:label "Vice" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fb7647da9c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/Stakeholder/e186afbe91a8> a airo:Stakeholder ;
+    rdfs:label "Meta" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Meta" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83ef48fd5ba7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Stakeholder/e5dce25f5338> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30254dd3ff15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027> .
+
+<https://w3id.org/airo/incident/Stakeholder/fe98e14413e6> a airo:Stakeholder ;
+    rdfs:label "Graphika" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Graphika" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eacae4586676> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/Stakeholder/ffbb4ec5af22> a airo:Stakeholder ;
+    rdfs:label "Credo" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Credo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4598446c20d5>,
+        <https://w3id.org/airo/incident/evidence/6e8a00aa5495> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Standard/9c6f344e3501> a airo:Standard ;
+    rdfs:label "Meta Deepfake Detection Challenge" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake detection challenge" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8e68783cc33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2618> .
+
+<https://w3id.org/airo/incident/evidence/0d363dc157c3> a airo:Evidence ;
+    airo:evidenceText "4chan members used ElevenLabs to make deepfake voices of Emma Watson, Joe Rogan, and others saying racist, transphobic, and violent things." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/1af5f7d898f1> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/1fce439dd03c> a airo:Evidence ;
+    airo:evidenceText "1 week after opening access to its voice-cloning platform, AI speech startup ElevenLabs says it may need to rethink that openness amid \"an increasing number of voice cloning misuse cases.\"" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/21c72ef7932c> a airo:Evidence ;
+    airo:evidenceText "People Are Still Terrible: AI Voice-Cloning Tool Misused for Deepfake Celeb Clips" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/23ecacbf4cd1> a airo:Evidence ;
+    airo:evidenceText "In November, the company debuted a speech-cloning tool that can be trained to replicate voices in seconds." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/2c68be1f0e8d> a airo:Evidence ;
+    airo:evidenceText "Similar advances in automation previously led to a rise in deepfake videos (specifically: pornography)." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/3197b1c4e790> a airo:Evidence ;
+    airo:evidenceText "No specific technical documents like model cards or risk assessments are referenced." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/3eb8ca17c7c3> a airo:Evidence ;
+    airo:evidenceText "Twitter also removed some of the videos." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/457e1137e278> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs — an AI startup founded by former Google and Palantir employees — announced two things: a $2 million funding round, and the release of a beta for a AI voice generator called Eleven, described in a company press release as an \"AI speech platform promising to revolutionize audio storytelling.\"" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/473ff48d8c23> a airo:Evidence ;
+    airo:evidenceText "But given the high quality of the generated voices, and the apparent ease at which people created them, they highlight the looming risk of deepfake audio clips." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/49c43f1533ab> a airo:Evidence ;
+    airo:evidenceText "And while ElevenLabs built its software with the goal to \"instantly convert spoken audio between languages\"—there will always be someone who abuses it." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/4b0c05571748> a airo:Evidence ;
+    airo:evidenceText "some users appear to have taken the voice-cloning tool, which can generate a deepfake from a recording of just one minute, to create recordings of Watson, Attenborough and other prominent people." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/4b634f8d0dd8> a airo:Evidence ;
+    airo:evidenceText "For the latter, ElevenLabs says it can generate a clone of someone’s voice from a clean sample recording, over one minute in length." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/50698bb014ab> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/51cd682d2b40> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/56889cdfe3e8> a airo:Evidence ;
+    airo:evidenceText "In a statement, a spokeswoman for YouTube said the video of Mr. Rogan and Mr. Trudeau did not violate the platform’s policies because it “provides sufficient context.”" ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/600982305b50> a airo:Evidence ;
+    airo:evidenceText "1 week after opening access to its voice-cloning platform, AI speech startup ElevenLabs says it may need to rethink that openness amid \"an increasing number of voice cloning misuse cases.\"" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/650f7e41c08b> a airo:Evidence ;
+    airo:evidenceText "Text-to-speech AI and voice cloning are among \"generative AI\" technologies that are catching the eye of investors and the public." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/6618cdf206f1> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/7408424897f0> a airo:Evidence ;
+    airo:evidenceText "Compañía que hace voces con IA tomará acciones ante usuarios que usan su tecnología para racismo y misoginia" ;
+    airo:sourceDocId "8030" .
+
+<https://w3id.org/airo/incident/evidence/79330015976f> a airo:Evidence ;
+    airo:evidenceText "The research company ElevenLabs released its new text-to-audio tool that enables users to type in words and hear them reproduced immediately in a human voice." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/857f809cd1ab> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs said on Twitter that it would introduce new safeguards, like limiting voice cloning to paid accounts and providing a new A.I. detecting tool." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/862c390de499> a airo:Evidence ;
+    airo:evidenceText "\"Professional cloning,\" meanwhile, can allegedly reproduce any accent, for use in newsletters, books, and videos." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/8d7de357fc70> a airo:Evidence ;
+    airo:evidenceText "1 post contained a link to Prime Voice AI, suggesting the company's software may have been employed." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/a6490d9bba6a> a airo:Evidence ;
+    airo:evidenceText "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse" ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/a96c13bf09f4> a airo:Evidence ;
+    airo:evidenceText "In much the same way deepfake video started as a method for people to create non-consensual pornography of specific people before branching onto other use cases, the trajectory of deepfake audio is only just beginning." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/ab6ab028acab> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/aca03162642a> a airo:Evidence ;
+    airo:evidenceText "No enforcement actions are described in the evidence sentences." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/af93d0f923be> a airo:Evidence ;
+    airo:evidenceText "In an email, a spokeswoman for ElevenLabs said the company was looking to collaborate with other A.I. developers to create a universal detection system that could be adopted across the industry." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/b1ee1b7f27a5> a airo:Evidence ;
+    airo:evidenceText "Motherboard found 4chan members appear to have used the product to generate voices that sound like Joe Rogan, Ben Shapiro, and Emma Watson to spew racist and other sorts of material." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/b5b6783d9134> a airo:Evidence ;
+    airo:evidenceText "1 week after opening access to its voice-cloning platform, AI speech startup ElevenLabs says it may need to rethink that openness amid \"an increasing number of voice cloning misuse cases.\"" ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/b76135b5c4cc> a airo:Evidence ;
+    airo:evidenceText "A TikTok spokesman said the company used “a combination of technology and human moderation to detect and remove” manipulated videos, but declined to elaborate on its methods." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/bda0f529afa1> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs also offers “professional cloning,” which it says can reproduce any accent." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/be79c5e68af2> a airo:Evidence ;
+    airo:evidenceText "Emma Watson reads Mein Kampf on 4Chan in deepfake audio trick" ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/c44349de2739> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs is already being forced to reckon with, as they put it in a Monday Twitter thread, \"an increasing number of voice cloning misuse cases.\"" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/d25368bd3f78> a airo:Evidence ;
+    airo:evidenceText "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/d76afa9bf0ef> a airo:Evidence ;
+    airo:evidenceText "On its website ElevenLabs offers both “speech synthesis” and “voice cloning.”" ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/daf83fd01985> a airo:Evidence ;
+    airo:evidenceText "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse" ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/e4fa1a93e47e> a airo:Evidence ;
+    airo:evidenceText "Founded by 2 former engineers from Google and Palantir, it has also developed voice cloning and dubbing technology to be used in the film and publishing industries." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/eb5441d39191> a airo:Evidence ;
+    airo:evidenceText "Making Deepfakes Gets Cheaper and Easier Thanks to A.I." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/fb0c804ed959> a airo:Evidence ;
+    airo:evidenceText "The video was produced by the team behind “Human Events Daily,” a podcast and livestream run by Jack Posobiec, a right-wing influencer known for spreading conspiracy theories." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/Risk/c1dd94aa3c33> a airo:Risk ;
+    rdfs:label "risk of generating deepfake audio content for malicious purposes" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3696b161aeda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/0cdbbcde4f69> .
+
+<https://w3id.org/airo/incident/evidence/24cfb9bfc844> a airo:Evidence ;
+    airo:evidenceText "Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/3526d50edb1a> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs attracted attention last month after 4chan, a message board known for racist and conspiratorial content, used the tool to share hateful messages." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/3696b161aeda> a airo:Evidence ;
+    airo:evidenceText "Users took the voice-cloning technology to create the audio files and posted them on the message board 4Chan in the latest abuse of AI technology." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/78d7c196b68d> a airo:Evidence ;
+    airo:evidenceText "On Monday, ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/faab0cb0039f> a airo:Evidence ;
+    airo:evidenceText "1 federal law from 2019 requested a report on the weaponization of deepfakes by foreigners, required government agencies to notify Congress if deepfakes targeted elections in the United States and created a prize to encourage the research on tools that could detect deepfakes." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/Stakeholder/b06b2f62427b> a airo:Stakeholder ;
+    rdfs:label "ElevenLabs" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ElevenLabs" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6160e9ecb3>,
+        <https://w3id.org/airo/incident/evidence/20fb7647da9c>,
+        <https://w3id.org/airo/incident/evidence/5f7de28ed39f>,
+        <https://w3id.org/airo/incident/evidence/78d7c196b68d>,
+        <https://w3id.org/airo/incident/evidence/79330015976f>,
+        <https://w3id.org/airo/incident/evidence/90bf9975851e>,
+        <https://w3id.org/airo/incident/evidence/dd6e5bf5be82> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8027>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 7 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> .
+
+<https://w3id.org/airo/incident/evidence/21ca8a33baa5> a airo:Evidence ;
+    airo:evidenceText "Founded by 2 former engineers from Google and Palantir, it has also developed voice cloning and dubbing technology to be used in the film and publishing industries." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/640d973b7bf9> a airo:Evidence ;
+    airo:evidenceText "On its website ElevenLabs offers both “speech synthesis” and “voice cloning.”" ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/dc99757fcc86> a airo:Evidence ;
+    airo:evidenceText "On its website ElevenLabs offers both “speech synthesis” and “voice cloning.”" ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/e3b5e6e942f9> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs es una compañía de IA que puede clonar y sintetizar voces." ;
+    airo:sourceDocId "8030" .
+
+<https://w3id.org/airo/incident/evidence/30254dd3ff15> a airo:Evidence ;
+    airo:evidenceText "The generative AI marketplace, led by OpenAI, is absolutely red hot, and startups have a better chance of securing VC funding if they have a product" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/3dcaeded2b2c> a airo:Evidence ;
+    airo:evidenceText "Henry Ajder, an expert in deepfakes and generative AI, said: \"What they [ElevenLabs] have developed, technologically, is very impressive [but] by opening up these models they have made, unfortunately, a fairly naive judgment about the intentions of those people out there who will use those models." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/4598446c20d5> a airo:Evidence ;
+    airo:evidenceText "This month the company announced a $2 million pre-seed round led by Czech venture capital firm Credo." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/463ea009e963> a airo:Evidence ;
+    airo:evidenceText "Motherboard found 4chan members appear to have used the product to generate voices that sound like Joe Rogan, Ben Shapiro, and Emma Watson to spew racist and other sorts of material." ;
+    airo:sourceDocId "8031" .
+
+<https://w3id.org/airo/incident/evidence/5493b09683bb> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs’ website says the company was founded by Piotr Dabkowski, an ex-Google machine learning engineer, and Mati Staniszewski, an ex-Palantir deployment strategist." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/6e8a00aa5495> a airo:Evidence ;
+    airo:evidenceText "This month the company announced a $2 million pre-seed round led by Czech venture capital firm Credo." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/7616d9045f8a> a airo:Evidence ;
+    airo:evidenceText "Startup Shocked When 4Chan Immediately Abuses Its Voice-Cloning AI" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/evidence/83ef48fd5ba7> a airo:Evidence ;
+    airo:evidenceText "Many social media companies, including Meta and Twitch, have banned deepfakes and manipulated videos that deceive users." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/8c72fb433679> a airo:Evidence ;
+    airo:evidenceText "Es una empresa checa creada por Piotr Dabkowski —un ingeniero de aprendizaje automático que laboró en Google—." ;
+    airo:sourceDocId "8030" .
+
+<https://w3id.org/airo/incident/evidence/d8e68783cc33> a airo:Evidence ;
+    airo:evidenceText "Meta, which owns Facebook and Instagram, ran a competition in 2021 to develop programs capable of identifying deepfakes, resulting in one tool that could spot them 83 percent of the time." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/eacae4586676> a airo:Evidence ;
+    airo:evidenceText "Graphika, a research firm that studies disinformation, spotted deepfakes of fictional news anchors that pro-China bot accounts distributed late last year, in the first known example of the technology’s being used for state-aligned influence campaigns." ;
+    airo:sourceDocId "2618" .
+
+<https://w3id.org/airo/incident/evidence/f185b0971e98> a airo:Evidence ;
+    airo:evidenceText "Es una empresa checa creada por ... y Mati Staniszewski —un estratega de implementación —." ;
+    airo:sourceDocId "8030" .
+
+<https://w3id.org/airo/incident/evidence/20fb7647da9c> a airo:Evidence ;
+    airo:evidenceText "The company, founded in 2022 by former Google machine learning engineer Piotr Dabkowski and ex-Palantir deployment strategist Mati Staniszewski, addressed the issue on Twitter after Vice found clips on 4chan featuring what sound like auto-generated celebrity voices making questionable statements." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/72d9e9a354dd> a airo:Evidence ;
+    airo:evidenceText "4chan members used ElevenLabs to make deepfake voices of Emma Watson, Joe Rogan, and others saying racist, transphobic, and violent things." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/c50389b8478c> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs offers \"speech synthesis\" and \"voice cloning\"—the latter of which results in a clean sample recording, more than one minute in length." ;
+    airo:sourceDocId "8028" .
+
+<https://w3id.org/airo/incident/evidence/fe2de1d676ac> a airo:Evidence ;
+    airo:evidenceText "Microsoft recently announced an artificial intelligence program called VALL-E that can clone someone's voice from a three-second audio clip." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/evidence/c07be2da8ff9> a airo:Evidence ;
+    airo:evidenceText "The chatbot ChatGPT and the image generators Stable Diffusion, DALL-E and Midjourney are all promising to revolutionise and disrupt the creative industries and other businesses." ;
+    airo:sourceDocId "2668" .
+
+<https://w3id.org/airo/incident/AISystem/1cc88805c185> a airo:AISystem ;
+    rdfs:label "VALL-E" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "VALL-E" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe2de1d676ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/36fe9fbfd83f> a airo:AISystem ;
+    rdfs:label "Midjourney" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Midjourney" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/454f5174c2b2> a airo:AISystem ;
+    rdfs:label "11" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "11" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90bf9975851e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8027> .
+
+<https://w3id.org/airo/incident/AISystem/56271da2c94f> a airo:AISystem ;
+    rdfs:label "DALL-E" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "DALL-E" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/5e962290c0ab> a airo:AISystem ;
+    rdfs:label "ElevenLabs voice-cloning tool" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "voice-cloning tool" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b0c05571748> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/67ae4bbd83ef> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ChatGPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/a7a4de20017b> a airo:AISystem ;
+    rdfs:label "Stable Diffusion" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stable Diffusion" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c07be2da8ff9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2668> .
+
+<https://w3id.org/airo/incident/AISystem/b1506c684eca> a airo:AISystem ;
+    rdfs:label "Prime Voice AI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Prime Voice AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d7de357fc70> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8028> .
+
+<https://w3id.org/airo/incident/evidence/5f7de28ed39f> a airo:Evidence ;
+    airo:evidenceText "Tras esto, ElevenLabs publicó en Twitter lo siguiente: “Fin de semana loco: gracias a todos por probar nuestra plataforma beta... también vemos un número creciente de casos de uso indebido de clonación de voz”." ;
+    airo:sourceDocId "8030" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_160> a airo:AIRiskIncident ;
+    rdfs:label "Making Deepfakes Gets Cheaper and Easier Thanks to A.I." ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/450d7ed4dfde> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/0cdbbcde4f69> ;
+    airo:hasDescription "pred_160" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/fa9349a8fd03>,
+        <https://w3id.org/airo/incident/Domain/bb1b0c26aad2>,
+        <https://w3id.org/airo/incident/evidence/5ff3c4cc682f>,
+        <https://w3id.org/airo/incident/evidence/6b09fa017ebd>,
+        <https://w3id.org/airo/incident/evidence/6fab0f9c34d0>,
+        <https://w3id.org/airo/incident/evidence/7394456bb1a1>,
+        <https://w3id.org/airo/incident/evidence/df2eb3c7e6d5> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/b2505555b653> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2552>,
+        <https://w3id.org/airo/incident/NewsReport/2618>,
+        <https://w3id.org/airo/incident/NewsReport/2668>,
+        <https://w3id.org/airo/incident/NewsReport/8027>,
+        <https://w3id.org/airo/incident/NewsReport/8028>,
+        <https://w3id.org/airo/incident/NewsReport/8030>,
+        <https://w3id.org/airo/incident/NewsReport/8031> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/c1dd94aa3c33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8027>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/1cc88805c185>,
+        <https://w3id.org/airo/incident/AISystem/28df1f2d2294>,
+        <https://w3id.org/airo/incident/AISystem/36fe9fbfd83f>,
+        <https://w3id.org/airo/incident/AISystem/454f5174c2b2>,
+        <https://w3id.org/airo/incident/AISystem/56271da2c94f>,
+        <https://w3id.org/airo/incident/AISystem/5e962290c0ab>,
+        <https://w3id.org/airo/incident/AISystem/67ae4bbd83ef>,
+        <https://w3id.org/airo/incident/AISystem/a7a4de20017b>,
+        <https://w3id.org/airo/incident/AISystem/b1506c684eca> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/13d1534f73ea>,
+        <https://w3id.org/airo/incident/Stakeholder/27c1def6598c>,
+        <https://w3id.org/airo/incident/Stakeholder/3d075d687139>,
+        <https://w3id.org/airo/incident/Stakeholder/426c0ab8c9fb>,
+        <https://w3id.org/airo/incident/Stakeholder/8516cffad7ca>,
+        <https://w3id.org/airo/incident/Stakeholder/87fec0254347>,
+        <https://w3id.org/airo/incident/Stakeholder/a87e79e9dbab>,
+        <https://w3id.org/airo/incident/Stakeholder/b06b2f62427b>,
+        <https://w3id.org/airo/incident/Stakeholder/b1b4c4b6c3ef>,
+        <https://w3id.org/airo/incident/Stakeholder/b36725047f4c>,
+        <https://w3id.org/airo/incident/Stakeholder/ca31ca0ad5b1>,
+        <https://w3id.org/airo/incident/Stakeholder/e186afbe91a8>,
+        <https://w3id.org/airo/incident/Stakeholder/e5dce25f5338>,
+        <https://w3id.org/airo/incident/Stakeholder/fe98e14413e6>,
+        <https://w3id.org/airo/incident/Stakeholder/ffb9d2b02e39>,
+        <https://w3id.org/airo/incident/Stakeholder/ffbb4ec5af22> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/1b9a242e970b> ;
+    airo:specifies <https://w3id.org/airo/incident/Standard/9c6f344e3501> .
+
+<https://w3id.org/airo/incident/evidence/dd6e5bf5be82> a airo:Evidence ;
+    airo:evidenceText "ElevenLabs, founded by ex-Google and Palantir staffers, said it had found an “increasing number of voice cloning misuse cases” during its recently launched beta." ;
+    airo:sourceDocId "2552" .
+
+<https://w3id.org/airo/incident/evidence/90bf9975851e> a airo:Evidence ;
+    airo:evidenceText "On January 23, ElevenLabs — an AI startup founded by former Google and Palantir employees — announced two things: a $2 million funding round, and the release of a beta for a AI voice generator called Eleven" ;
+    airo:sourceDocId "8027" .
+
+<https://w3id.org/airo/incident/AISystem/28df1f2d2294> a airo:AISystem ;
+    rdfs:label "ElevenLabs" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/450d7ed4dfde> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:conformsToStandard <https://w3id.org/airo/incident/Standard/9c6f344e3501> ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/00fef6f5d748>,
+        <https://w3id.org/airo/incident/AICapability/6a7f8654ad51>,
+        <https://w3id.org/airo/incident/AICapability/782e8225d31e>,
+        <https://w3id.org/airo/incident/AICapability/7a7020779e51>,
+        <https://w3id.org/airo/incident/AICapability/898a76c2042d>,
+        <https://w3id.org/airo/incident/AICapability/9c9b720c2426>,
+        <https://w3id.org/airo/incident/AICapability/ccc83282381c>,
+        <https://w3id.org/airo/incident/AICapability/dacf85341390>,
+        <https://w3id.org/airo/incident/AICapability/ec960e467fd2>,
+        <https://w3id.org/airo/incident/AICapability/f2b9110232b4>,
+        <https://w3id.org/airo/incident/AICapability/ffe0116cce29>,
+        <https://w3id.org/airo/incident/Purpose/c6ac620cc4f5> ;
+    airo:hasDescription "ElevenLabs" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/0e9cf292faaf>,
+        <https://w3id.org/airo/incident/TechnicalDocumentation/8f649714ca00>,
+        <https://w3id.org/airo/incident/VerificationTest/abf950187eec>,
+        <https://w3id.org/airo/incident/evidence/330d6786afac>,
+        <https://w3id.org/airo/incident/evidence/78d7c196b68d>,
+        <https://w3id.org/airo/incident/evidence/79330015976f>,
+        <https://w3id.org/airo/incident/evidence/7b11ded2d9dc>,
+        <https://w3id.org/airo/incident/evidence/dd6e5bf5be82>,
+        <https://w3id.org/airo/incident/evidence/e3b5e6e942f9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2552>,
+        <https://w3id.org/airo/incident/document/2618>,
+        <https://w3id.org/airo/incident/document/2668>,
+        <https://w3id.org/airo/incident/document/8028>,
+        <https://w3id.org/airo/incident/document/8030>,
+        <https://w3id.org/airo/incident/document/8031> ;
+    airo:hasSupportCount 6 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/72dbea084795> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/1cead07d7460>,
+        <https://w3id.org/airo/incident/AITechnique/43a3872e4399>,
+        <https://w3id.org/airo/incident/AITechnique/620cce1fb5f0>,
+        <https://w3id.org/airo/incident/AITechnique/cb23a9fe2565>,
+        <https://w3id.org/airo/incident/AITechnique/ea5e4eaa3aec>,
+        <https://w3id.org/airo/incident/AITechnique/f3441ef0ae4c> .
+

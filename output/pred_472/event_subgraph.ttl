@@ -1,0 +1,2026 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/CodeOfConduct/14bdfe545782> a airo:CodeOfConduct ;
+    rdfs:label "no specific code of conduct mentioned" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0348116b0d25> ;
+    airo:hasReasoning "The evidence does not reference adherence to a particular ethical framework or code." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/c01db3918504> a airo:ComplianceRequirement ;
+    rdfs:label "conform to Istanbul Convention on preventing gender-based violence" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7fae87b0cba> ;
+    airo:hasReasoning "The system, as part of a program to curb feminicides, likely must align with the Istanbul Convention's requirements for preventing gender-based violence." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/EnforcementAction/50aa8670f6bf> a airo:EnforcementAction ;
+    rdfs:label "no enforcement action mentioned" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5df6e15c0bf5> ;
+    airo:hasReasoning "The evidence focuses on system use and debate, not regulatory penalties." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> .
+
+<https://w3id.org/airo/incident/InformationSource/708d3d2d80da> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5347>,
+        <https://w3id.org/airo/incident/NewsReport/8630> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347>,
+        <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/InformationSource/dd0f8acf43ec> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1401>,
+        <https://w3id.org/airo/incident/NewsReport/3766> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/RoleAssignment/16e02e6019ba> a airo:RoleAssignment ;
+    rdfs:label "Sindicato Unificado de Policía_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a190293a169c> ;
+    airo:hasReasoning "The union is commenting on the system's use and limitations, representing a stakeholder interest group." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/01c170712a25> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1ac907999e5b> a airo:RoleAssignment ;
+    rdfs:label "Bouthaer el Banaisati_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a54893dabf35> ;
+    airo:hasReasoning "He is the subject of the violence and the risk assessment, making him an affected party in the context of the system's evaluation." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ddd10658c90e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3b7af7ed5453> a airo:RoleAssignment ;
+    rdfs:label "marginalized communities_AffectedActor" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd22a784284c> ;
+    airo:hasReasoning "The system assesses victims of gender violence, a group that often includes marginalized communities, who may be disproportionately affected by algorithmic bias or errors." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/18eacc904824> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/42fbc84856a4> a airo:RoleAssignment ;
+    rdfs:label "Spanish police_AIUser" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b68dd3842b42> ;
+    airo:hasReasoning "Police officers directly interact with the system by inputting data and receiving output." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2ab1e00c2cc4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/55db1bc23596> a airo:RoleAssignment ;
+    rdfs:label "University of Barcelona_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c42ed7bd95a6> ;
+    airo:hasReasoning "A professor from the university joined the effort to develop VioGén, indicating institutional involvement in development." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/24531521b66b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/660d6f31f4fe> a airo:RoleAssignment ;
+    rdfs:label "Antonio Pueyo_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74aab8d464dc> ;
+    airo:hasReasoning "He has advised VioGén from its beginning, contributing to its development." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/038c27f17f04> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/78748db5d64c> a airo:RoleAssignment ;
+    rdfs:label "Lobna Hemid_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0afe4c3a07cb> ;
+    airo:hasReasoning "She is a victim of gender violence who was assessed by the system, and the low-risk score may have had negative consequences for her safety." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2abebd1e7290> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8a0bde457267> a airo:RoleAssignment ;
+    rdfs:label "United Association of Civil Guards_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/333aef9abd5d> ;
+    airo:hasReasoning "The union represents officers affected by the system's implementation and resource constraints." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/dd916116d4d9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9d1fabfdb3e0> a airo:RoleAssignment ;
+    rdfs:label "Fundación Ana Bella_Stakeholder" ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0fe8fcb83a0> ;
+    airo:hasReasoning "While listed as a stakeholder, the evidence package does not contain a sentence with a [doc_id] that describes Fundación Ana Bella's actions. Therefore, a role cannot be inferred based on the strict rules." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9b9617a9e9e9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b46f39e55765> a airo:RoleAssignment ;
+    rdfs:label "Fundación Éticas_Regulator" ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f256294d93af> ;
+    airo:hasReasoning "While listed as a stakeholder, the evidence package does not contain a sentence with a [doc_id] that describes Fundación Éticas's actions. Therefore, a role cannot be inferred based on the strict rules." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/074a5c80efec> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b5b2c7085d76> a airo:RoleAssignment ;
+    rdfs:label "Spanish police_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/741be62e0de5> ;
+    airo:hasReasoning "Police officers use the VioGén system in their daily operations to assess risk." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2ab1e00c2cc4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bc8b9b6f7766> a airo:RoleAssignment ;
+    rdfs:label "AlgorithmWatch_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/17f68afa9e1c> ;
+    airo:hasReasoning "AlgorithmWatch is an organization that investigates and audits AI systems, fulfilling a watchdog/regulatory oversight role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4d50aff20471> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c07e06cae663> a airo:RoleAssignment ;
+    rdfs:label "Juan José López Ossorio_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22e61f0aed0e> ;
+    airo:hasReasoning "He helped create the VioGén system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_472> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/13addc2f9230> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/Trend/d21b364126ad> a airo:Trend ;
+    rdfs:label "increasing use of AI for risk assessment in law enforcement" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79e12ffd0e0a> ;
+    airo:hasReasoning "The creation of such a system by a national government indicates a trend of adopting AI for public safety and risk prediction." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/event/pred_472> a airo:AIRiskIncident ;
+    airo:firstSeen "2020-04-27T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2024-08-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/03565d924620> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e47db6833e4> .
+
+<https://w3id.org/airo/incident/ks/05760c178fea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63dc0f05505> .
+
+<https://w3id.org/airo/incident/ks/073b9eb93381> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fdd480021f0> .
+
+<https://w3id.org/airo/incident/ks/0750523954e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b798dab2bec1> .
+
+<https://w3id.org/airo/incident/ks/0767fa8a7572> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bfb6e3a3c65> .
+
+<https://w3id.org/airo/incident/ks/07cffc10091b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e> .
+
+<https://w3id.org/airo/incident/ks/0a11832e6d2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cc6aaf27f68> .
+
+<https://w3id.org/airo/incident/ks/0ab09ef85287> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/200cad5c277e> .
+
+<https://w3id.org/airo/incident/ks/0e12efac2903> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cc6aaf27f68> .
+
+<https://w3id.org/airo/incident/ks/0e6608033ead> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e09b9ecf0670> .
+
+<https://w3id.org/airo/incident/ks/1114b89ca148> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d8a475c9999> .
+
+<https://w3id.org/airo/incident/ks/12d52721c659> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e061f135c390> .
+
+<https://w3id.org/airo/incident/ks/156abcdfea98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f9f3d9d62db> .
+
+<https://w3id.org/airo/incident/ks/175da18f20ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a664e8419c0> .
+
+<https://w3id.org/airo/incident/ks/17b750c8681e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae1bdec4eaee> .
+
+<https://w3id.org/airo/incident/ks/198bed10e0f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b5844091fb8> .
+
+<https://w3id.org/airo/incident/ks/1c5aa63eab2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a241c1e6e4ca> .
+
+<https://w3id.org/airo/incident/ks/1cc959966506> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/295bfc504537> .
+
+<https://w3id.org/airo/incident/ks/1d35e48f2651> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57099bb67624> .
+
+<https://w3id.org/airo/incident/ks/1daf6a3a7069> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f4c95463> .
+
+<https://w3id.org/airo/incident/ks/23ff02fa7503> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a664e8419c0> .
+
+<https://w3id.org/airo/incident/ks/2443746789d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/785b4166238b> .
+
+<https://w3id.org/airo/incident/ks/245b8bd598cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ee299e4612> .
+
+<https://w3id.org/airo/incident/ks/2493e35f4b14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72521909c0c2> .
+
+<https://w3id.org/airo/incident/ks/29550610df8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d6d46b0f4f> .
+
+<https://w3id.org/airo/incident/ks/2cadb3c357a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/2de438d22b5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/2e403df303c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76fdf5f49dc7> .
+
+<https://w3id.org/airo/incident/ks/3250b0bca465> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d8a475c9999> .
+
+<https://w3id.org/airo/incident/ks/33480acc9a2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8354e34d81a8> .
+
+<https://w3id.org/airo/incident/ks/340921bcebe8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/356efd32487b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756cbd082918> .
+
+<https://w3id.org/airo/incident/ks/3683464d2a79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd6b0624d4ba> .
+
+<https://w3id.org/airo/incident/ks/36c5de4896f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ae7fb20f14f> .
+
+<https://w3id.org/airo/incident/ks/36cc77a8ade2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57099bb67624> .
+
+<https://w3id.org/airo/incident/ks/38447d890c1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/417ac9731eb7> .
+
+<https://w3id.org/airo/incident/ks/3aa93b3670a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80fc55e2c4c2> .
+
+<https://w3id.org/airo/incident/ks/3c47a76ccfe0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/3edcf78b28ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1dcea9750e80> .
+
+<https://w3id.org/airo/incident/ks/44f5502a4ea6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cc6aaf27f68> .
+
+<https://w3id.org/airo/incident/ks/458f26b71187> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/785b4166238b> .
+
+<https://w3id.org/airo/incident/ks/482ca48bd7b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d8a475c9999> .
+
+<https://w3id.org/airo/incident/ks/4b1f06535097> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca8530e1b5d> .
+
+<https://w3id.org/airo/incident/ks/4c121880f7c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/4d54bd4dc017> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/4f262a709e94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/4f2f0b588b69> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ae7fb20f14f> .
+
+<https://w3id.org/airo/incident/ks/53143fa7e14f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/360e89594d5f> .
+
+<https://w3id.org/airo/incident/ks/55020c62a620> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e> .
+
+<https://w3id.org/airo/incident/ks/575c0020dbb3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ee299e4612> .
+
+<https://w3id.org/airo/incident/ks/57740a4d8e87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81327280d604> .
+
+<https://w3id.org/airo/incident/ks/57bb1d2d773e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/099b2cc2ee18> .
+
+<https://w3id.org/airo/incident/ks/59128d087250> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd7419252cd0> .
+
+<https://w3id.org/airo/incident/ks/5b8832e269cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca8530e1b5d> .
+
+<https://w3id.org/airo/incident/ks/5c680b9384fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5edff99e5f62> .
+
+<https://w3id.org/airo/incident/ks/5ce5d58760b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64c3785042fb> .
+
+<https://w3id.org/airo/incident/ks/5e2896689457> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca8530e1b5d> .
+
+<https://w3id.org/airo/incident/ks/63d73589a417> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d6d46b0f4f> .
+
+<https://w3id.org/airo/incident/ks/64dd26d47b66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/66ec291a7a59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76fdf5f49dc7> .
+
+<https://w3id.org/airo/incident/ks/694fdb31b853> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/6b4aacfe9292> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5edff99e5f62> .
+
+<https://w3id.org/airo/incident/ks/6c076315fd77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f9f3d9d62db> .
+
+<https://w3id.org/airo/incident/ks/6d4699ceb5c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab21622fe971> .
+
+<https://w3id.org/airo/incident/ks/7108d0a35212> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2a4056db1f5> .
+
+<https://w3id.org/airo/incident/ks/7271ef0307b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45ef04ce8070> .
+
+<https://w3id.org/airo/incident/ks/7582a60ca210> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57099bb67624> .
+
+<https://w3id.org/airo/incident/ks/76f721d8be44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/785b4166238b> .
+
+<https://w3id.org/airo/incident/ks/77665e4551ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5edff99e5f62> .
+
+<https://w3id.org/airo/incident/ks/7791a99271cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76193f52d46b> .
+
+<https://w3id.org/airo/incident/ks/7955cd465d86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/7adc3e8b00b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cc6aaf27f68> .
+
+<https://w3id.org/airo/incident/ks/7bc0998ea06e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/7fef05e6a78c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49ecac552815> .
+
+<https://w3id.org/airo/incident/ks/8005a0a1c082> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76fdf5f49dc7> .
+
+<https://w3id.org/airo/incident/ks/86a56ed8b045> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/8a56566dd570> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/774324c53afb> .
+
+<https://w3id.org/airo/incident/ks/8b04f41fa3a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/038d1865762f> .
+
+<https://w3id.org/airo/incident/ks/8bca40dfcc87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0716911b2cc> .
+
+<https://w3id.org/airo/incident/ks/8cd85fbe37ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bfb6e3a3c65> .
+
+<https://w3id.org/airo/incident/ks/8e2d4f62c24e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/738616ad379c> .
+
+<https://w3id.org/airo/incident/ks/8e2d56715022> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e09b9ecf0670> .
+
+<https://w3id.org/airo/incident/ks/90e26fceb2db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57099bb67624> .
+
+<https://w3id.org/airo/incident/ks/94f7860e7cb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2205aed59cc> .
+
+<https://w3id.org/airo/incident/ks/999bf97f8fbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c6861e999a4> .
+
+<https://w3id.org/airo/incident/ks/9ad5dfd8c7b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1dcea9750e80> .
+
+<https://w3id.org/airo/incident/ks/9b082acb1d0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76193f52d46b> .
+
+<https://w3id.org/airo/incident/ks/9b542af57115> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3afda750d238> .
+
+<https://w3id.org/airo/incident/ks/9d0fe752224f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.88"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a86bced34740> .
+
+<https://w3id.org/airo/incident/ks/9f2927ad93d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76193f52d46b> .
+
+<https://w3id.org/airo/incident/ks/9f799b616e3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc788ee2edc> .
+
+<https://w3id.org/airo/incident/ks/a0b0511d9c72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/052ee8dfd1cb> .
+
+<https://w3id.org/airo/incident/ks/a47a313523ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b4a404cb238> .
+
+<https://w3id.org/airo/incident/ks/a60a8b48d94a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca8530e1b5d> .
+
+<https://w3id.org/airo/incident/ks/a64baf295c42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d21cbb3f334> .
+
+<https://w3id.org/airo/incident/ks/a66887101112> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756cbd082918> .
+
+<https://w3id.org/airo/incident/ks/a7c9ecd668a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0716911b2cc> .
+
+<https://w3id.org/airo/incident/ks/a7ea57b30a42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dd96756c94f> .
+
+<https://w3id.org/airo/incident/ks/a846c8cd8953> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/aa228801b189> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3d58df47419> .
+
+<https://w3id.org/airo/incident/ks/aad582d5a2bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9effc1b8c0ff> .
+
+<https://w3id.org/airo/incident/ks/ab0620e91a97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55f8383948df> .
+
+<https://w3id.org/airo/incident/ks/acba9e132300> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/310be6fc801a> .
+
+<https://w3id.org/airo/incident/ks/ae25aac887ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b798dab2bec1> .
+
+<https://w3id.org/airo/incident/ks/b1e9ef16ab0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/b265d422789e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f8499acd27c> .
+
+<https://w3id.org/airo/incident/ks/b2b79179be32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d8a475c9999> .
+
+<https://w3id.org/airo/incident/ks/b33c01697455> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/b482833c84c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/792c62cbe4b3> .
+
+<https://w3id.org/airo/incident/ks/b4d82544aa59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e> .
+
+<https://w3id.org/airo/incident/ks/b9803be9e958> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/785b4166238b> .
+
+<https://w3id.org/airo/incident/ks/b9d111150f0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45ef04ce8070> .
+
+<https://w3id.org/airo/incident/ks/bb534b7b7f5c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6883783929b7> .
+
+<https://w3id.org/airo/incident/ks/bbb818ae8d5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756cbd082918> .
+
+<https://w3id.org/airo/incident/ks/bbdbaba3ca09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/bf8ff30e2f5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4b942b68f90> .
+
+<https://w3id.org/airo/incident/ks/bf94bebd10f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7fcdfb8628f> .
+
+<https://w3id.org/airo/incident/ks/c0a6ccf63b30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/c1d425391616> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc788ee2edc> .
+
+<https://w3id.org/airo/incident/ks/c3413679102c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9effc1b8c0ff> .
+
+<https://w3id.org/airo/incident/ks/c90f02c5d93b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76fdf5f49dc7> .
+
+<https://w3id.org/airo/incident/ks/ca60e47b2aa1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c498332d0425> .
+
+<https://w3id.org/airo/incident/ks/cac10bcb80e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/d009c4d4462b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc788ee2edc> .
+
+<https://w3id.org/airo/incident/ks/d070e25abfc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/d0d1b3a3617a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb9f3dda0e63> .
+
+<https://w3id.org/airo/incident/ks/d3b8a267c3d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd0ef4772302> .
+
+<https://w3id.org/airo/incident/ks/d3e750d67e5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2a4056db1f5> .
+
+<https://w3id.org/airo/incident/ks/dc1624913889> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc788ee2edc> .
+
+<https://w3id.org/airo/incident/ks/de885128e5b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2205aed59cc> .
+
+<https://w3id.org/airo/incident/ks/df3179837637> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ee299e4612> .
+
+<https://w3id.org/airo/incident/ks/df59c4c620d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5df6e15c0bf5> .
+
+<https://w3id.org/airo/incident/ks/df63c39ec16e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/e1c5b22dae15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76193f52d46b> .
+
+<https://w3id.org/airo/incident/ks/e1d7e21d6d3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756cbd082918> .
+
+<https://w3id.org/airo/incident/ks/e257e98681af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/e850f590e512> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> .
+
+<https://w3id.org/airo/incident/ks/ea19588dff4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07e2cf4ac46c> .
+
+<https://w3id.org/airo/incident/ks/eb11d24b6bab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ee299e4612> .
+
+<https://w3id.org/airo/incident/ks/ec61a63c4d29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e> .
+
+<https://w3id.org/airo/incident/ks/ecb4ca2781a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef8d6d6a4cb6> .
+
+<https://w3id.org/airo/incident/ks/eeda9e85aa66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/efec90ca584b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb5fc79bdd49> .
+
+<https://w3id.org/airo/incident/ks/f6a5ad595356> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> .
+
+<https://w3id.org/airo/incident/ks/f6f04279be36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/911604732544> .
+
+<https://w3id.org/airo/incident/ks/f724e54b2cbf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9effc1b8c0ff> .
+
+<https://w3id.org/airo/incident/ks/f99fbbf2ff3a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5edff99e5f62> .
+
+<https://w3id.org/airo/incident/ks/fa020f73cb06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0eb47d8e602f> .
+
+<https://w3id.org/airo/incident/ks/fba5555877a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d55f59abd8> .
+
+<https://w3id.org/airo/incident/ks/fda8d92a9faf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf475eb2a15> .
+
+<https://w3id.org/airo/incident/ks/fdf609d344fe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9effc1b8c0ff> .
+
+<https://w3id.org/airo/incident/ks/fe91fd885dc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1e83132d426> .
+
+<https://w3id.org/airo/incident/AICapability/f3fbb9639d1e> a airo:AICapability ;
+    rdfs:label "risk prediction" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "predicción de riesgo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/360e89594d5f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/1d54b9b77c1d> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3afda750d238> ;
+    airo:hasReasoning "The system is actively evaluating cases in production use by police, indicating deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/AITechnique/6bd254f4d13e> a airo:AITechnique ;
+    rdfs:label "risk prediction algorithm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "algoritmo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d6d46b0f4f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/AITechnique/b62507523610> a airo:AITechnique ;
+    rdfs:label "VioGén algorithm" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "VioGén" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49ecac552815> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/AffectedActor/2bcd1d349aaf> a airo:AffectedActor ;
+    rdfs:label "victims of gender violence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab21622fe971> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Documentation/ed118c2266b4> a airo:Documentation ;
+    rdfs:label "written statement provided to external watchdog" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3d58df47419> ;
+    airo:hasReasoning "A written statement describing the algorithm's nature was provided to an external organization." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Domain/8efd1cb12ead> a airo:Domain ;
+    rdfs:label "public safety" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1e83132d426> ;
+    airo:hasReasoning "Gender violence risk assessment falls under public safety/law enforcement domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/Obligation/4a4f66f5e1e0> a airo:Obligation ;
+    rdfs:label "conduct external audit" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c498332d0425> ;
+    airo:hasReasoning "The presence of 'external audit' as a standard implies an obligation or practice of independent review for the AI system." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/Purpose/58f6073a7190> a airo:Purpose ;
+    rdfs:label "risk prediction for gender violence victims" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/310be6fc801a> ;
+    airo:hasReasoning "The evidence explicitly states the algorithm assesses risk faced by victims of gender violence to curb feminicides." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/RiskSource/893a7aec6633> a airo:RiskSource ;
+    rdfs:label "simple risk prediction algorithm" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/e8d194768442> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4b942b68f90> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/0f4eb3e5f2a1> a airo:Stakeholder ;
+    rdfs:label "Tamaia" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tamaia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0716911b2cc>,
+        <https://w3id.org/airo/incident/evidence/cb5fc79bdd49> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/1107d4138c24> a airo:Stakeholder ;
+    rdfs:label "El Mundo" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "El Mundo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/417ac9731eb7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/Stakeholder/24d1d75fe9aa> a airo:Stakeholder ;
+    rdfs:label "Ángeles Carmona" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ángeles Carmona" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0eb47d8e602f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/2b3b20d1b913> a airo:Stakeholder ;
+    rdfs:label "Policía Nacional" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Policía Nacional" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ae7fb20f14f>,
+        <https://w3id.org/airo/incident/evidence/a2205aed59cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/2eb930f219e0> a airo:Stakeholder ;
+    rdfs:label "Bárbara Tardón" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bárbara Tardón" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd6b0624d4ba> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/40d5b6551ac4> a airo:Stakeholder ;
+    rdfs:label "University of Manchester" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "University of Manchester" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/911604732544> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/Stakeholder/5b1e1d9596c0> a airo:Stakeholder ;
+    rdfs:label "Belén Crego" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Belén Crego" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b5844091fb8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/5d9914770ec4> a airo:Stakeholder ;
+    rdfs:label "Irene Montero" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Irene Montero" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fdd480021f0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/62ed22391ad4> a airo:Stakeholder ;
+    rdfs:label "Chelo Álvarez" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chelo Álvarez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45ef04ce8070> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/63b774cd13ba> a airo:Stakeholder ;
+    rdfs:label "Alanna" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Alanna" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45ef04ce8070>,
+        <https://w3id.org/airo/incident/evidence/7d21cbb3f334> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/63cea88ea7e2> a airo:Stakeholder ;
+    rdfs:label "Juanjo Medina" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Juanjo Medina" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81327280d604> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/6eed86c20131> a airo:Stakeholder ;
+    rdfs:label "Stefany González Escarraman" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stefany González Escarraman" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64c3785042fb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Stakeholder/6f14faf2f6ec> a airo:Stakeholder ;
+    rdfs:label "Vicky Rosell" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vicky Rosell" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/200cad5c277e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/78a094349827> a airo:Stakeholder ;
+    rdfs:label "Itziar P." ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Itziar P." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f9f3d9d62db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/7bb655b526b8> a airo:Stakeholder ;
+    rdfs:label "Carme Vidal Estruel" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Carme Vidal Estruel" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0716911b2cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/89f0aaf8921c> a airo:Stakeholder ;
+    rdfs:label "Women-Children Teams (EMUME)" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Women-Children Teams (EMUME)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72521909c0c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/Stakeholder/9dbe0fa14d9d> a airo:Stakeholder ;
+    rdfs:label "Guardia Civil" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Guardia Civil" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ae7fb20f14f>,
+        <https://w3id.org/airo/incident/evidence/a2205aed59cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a3fd88a9f955> a airo:Stakeholder ;
+    rdfs:label "court" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "juzgado" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd7419252cd0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/a487d0f0580f> a airo:Stakeholder ;
+    rdfs:label "judge" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "un juez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7fcdfb8628f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/a4c65a5fa717> a airo:Stakeholder ;
+    rdfs:label "National Police (Spain)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "La Policía" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d6d46b0f4f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/a643d9611090> a airo:Stakeholder ;
+    rdfs:label "Fernando Grande-Marlaska" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Fernando Grande-Marlaska" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07e2cf4ac46c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/a93c4d3f333f> a airo:Stakeholder ;
+    rdfs:label "Ministry of the Interior (Spain)" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Spain's Interior Ministry" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e47db6833e4>,
+        <https://w3id.org/airo/incident/evidence/e09b9ecf0670> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/5347> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/b67b3c28bbe5> a airo:Stakeholder ;
+    rdfs:label "Jesús Melguizo" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jesús Melguizo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f8499acd27c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Stakeholder/c84fde171bf6> a airo:Stakeholder ;
+    rdfs:label "The New York Times" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The New York Times" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/052ee8dfd1cb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/cc85ae4f6f5f> a airo:Stakeholder ;
+    rdfs:label "General Council of the Judiciary" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Council of the Judiciary (CGPJ)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8354e34d81a8>,
+        <https://w3id.org/airo/incident/evidence/c63dc0f05505> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/d3f447ae4221> a airo:Stakeholder ;
+    rdfs:label "Ricardo C." ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ricardo C." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f9f3d9d62db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Stakeholder/fd09e81198f7> a airo:Stakeholder ;
+    rdfs:label "Government of Spain" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Spain" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/038d1865762f>,
+        <https://w3id.org/airo/incident/evidence/d2a4056db1f5>,
+        <https://w3id.org/airo/incident/evidence/e09b9ecf0670> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/5347> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/TechnicalDocumentation/f95a370fee91> a airo:TechnicalDocumentation ;
+    rdfs:label "no specific technical documentation (e.g., model card) mentioned" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c6861e999a4> ;
+    airo:hasReasoning "The evidence only references a written statement about the algorithm's simplicity, not formal technical documentation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/VerificationTest/d77f36b7f54c> a airo:VerificationTest ;
+    rdfs:label "no specific verification or testing procedure mentioned" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/738616ad379c> ;
+    airo:hasReasoning "The evidence does not detail how the system's accuracy or fairness was validated." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/Vulnerability/b59bd5d956d3> a airo:Vulnerability ;
+    rdfs:label "over-reliance on algorithmic risk scores by police" ;
+    airo:confidenceScore "0.88"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a86bced34740> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/evidence/02c514145390> a airo:Evidence ;
+    airo:evidenceText "In Spain, the VioGén algorithm attempts to forecast gender violence" ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/0348116b0d25> a airo:Evidence ;
+    airo:evidenceText "No evidence in the provided sentences describes a specific voluntary or mandatory code of conduct for the AI system." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/0afe4c3a07cb> a airo:Evidence ;
+    airo:evidenceText "[3766] VioGén produced a score: LOW RISK Lobna Hemid 2022 Madrid" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/17f68afa9e1c> a airo:Evidence ;
+    airo:evidenceText "[8630] The formula used in VioGén is a “simple algorithm,” according to Juan José López Ossorio, a psychologist who has been in charge of VioGén from its early stages, in a written statement to AlgorithmWatch." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/212b75de085a> a airo:Evidence ;
+    airo:evidenceText "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista" ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/22e61f0aed0e> a airo:Evidence ;
+    airo:evidenceText "[3766] Juan José López Ossorio, a psychologist who helped create VioGén and works for the Interior Ministry." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/295bfc504537> a airo:Evidence ;
+    airo:evidenceText "[3766] Antonio Pueyo, a psychology professor at the University of Barcelona who later joined the effort." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/333aef9abd5d> a airo:Evidence ;
+    airo:evidenceText "[3766] A leader in the United Association of Civil Guards, a union representing officers in rural areas, he said that outside of big cities, the police often must choose between addressing violence against women or other crimes." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/55d55f59abd8> a airo:Evidence ;
+    airo:evidenceText "[3766] Antonio Pueyo, a psychology professor at the University of Barcelona who later joined the effort." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/55f8383948df> a airo:Evidence ;
+    airo:evidenceText "[3766] Spanish police are trained to overrule VioGén's recommendations depending on the evidence, but accept the risk scores about 95 percent of the time, officials said." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/6597643233a7> a airo:Evidence ;
+    airo:evidenceText "The police officer asked Itziar P. a set of questions and fed the answers to VioGén, a software that helps the Spanish police estimate the risk of recidivism in gender violence." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/741be62e0de5> a airo:Evidence ;
+    airo:evidenceText "[3766] Spanish police are trained to overrule VioGén's recommendations depending on the evidence, but accept the risk scores about 95 percent of the time, officials said." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/74aab8d464dc> a airo:Evidence ;
+    airo:evidenceText "[8630] It’s impossible to know how many lives have been saved thanks to VioGén, according to Antonio Pueyo, a professor of psychology at the Univeristy of Barcelona who has advised VioGén from the beginning." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/774324c53afb> a airo:Evidence ;
+    airo:evidenceText "[8630] It’s impossible to know how many lives have been saved thanks to VioGén, according to Antonio Pueyo, a professor of psychology at the Univeristy of Barcelona who has advised VioGén from the beginning." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/792c62cbe4b3> a airo:Evidence ;
+    airo:evidenceText "[3766] Spanish police are trained to overrule VioGén's recommendations depending on the evidence, but accept the risk scores about 95 percent of the time, officials said." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/79e12ffd0e0a> a airo:Evidence ;
+    airo:evidenceText "[1401] As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/80fc55e2c4c2> a airo:Evidence ;
+    airo:evidenceText "[3766] A police officer clicked through 35 yes or no questions --- Was a weapon used? Were there economic problems? Has the aggressor shown controlling behaviors? --- to feed into an algorithm called VioGén" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/a0fe8fcb83a0> a airo:Evidence ;
+    airo:evidenceText "The provided evidence does not contain a specific sentence with a [doc_id] mentioning Fundación Ana Bella's actions, so a direct inference cannot be made from the text." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/a190293a169c> a airo:Evidence ;
+    airo:evidenceText "[3766] Sindicato Unificado de Policía, a union that represents national police officers, said even the most effective technology cannot make up for a lack of trained experts." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/a241c1e6e4ca> a airo:Evidence ;
+    airo:evidenceText "[8630] It’s impossible to know how many lives have been saved thanks to VioGén, according to Antonio Pueyo, a professor of psychology at the Univeristy of Barcelona who has advised VioGén from the beginning." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/a54893dabf35> a airo:Evidence ;
+    airo:evidenceText "[3766] Ms. Hemid's husband of more than a decade, Bouthaer el Banaisati, regularly punched and kicked her, she later told the police." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/b4765beeb6c1> a airo:Evidence ;
+    airo:evidenceText "As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/b49731e97b19> a airo:Evidence ;
+    airo:evidenceText "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/b68dd3842b42> a airo:Evidence ;
+    airo:evidenceText "[3766] A police officer clicked through 35 yes or no questions --- Was a weapon used? Were there economic problems? Has the aggressor shown controlling behaviors? --- to feed into an algorithm called VioGén" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/c42ed7bd95a6> a airo:Evidence ;
+    airo:evidenceText "[3766] Antonio Pueyo, a psychology professor at the University of Barcelona who later joined the effort." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/dd0ef4772302> a airo:Evidence ;
+    airo:evidenceText "[3766] A police officer clicked through 35 yes or no questions --- Was a weapon used? Were there economic problems? Has the aggressor shown controlling behaviors? --- to feed into an algorithm called VioGén" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/dd22a784284c> a airo:Evidence ;
+    airo:evidenceText "[8630] The police officer asked Itziar P. a set of questions and fed the answers to VioGén, a software that helps the Spanish police estimate the risk of recidivism in gender violence." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/e061f135c390> a airo:Evidence ;
+    airo:evidenceText "[3766] Juan José López Ossorio, a psychologist who helped create VioGén and works for the Interior Ministry." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/e49d2536d85c> a airo:Evidence ;
+    airo:evidenceText "El Gobierno ha anunciado además que trabaja ya en la implantación de una actualización del sistema, VioGén II, que “ampliará sus actuales funcionalidades e integrará otras nuevas que facilitarán el seguimiento integral en casos de violencia de género”." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/e7fae87b0cba> a airo:Evidence ;
+    airo:evidenceText "The core entities list includes 'Istanbul Convention' under regulations." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/ed6f37f7a089> a airo:Evidence ;
+    airo:evidenceText "VioGén Algorithm and Gender Violence" ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/f256294d93af> a airo:Evidence ;
+    airo:evidenceText "The provided evidence does not contain a specific sentence with a [doc_id] mentioning Fundación Éticas's actions, so a direct inference cannot be made from the text." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/fb9f3dda0e63> a airo:Evidence ;
+    airo:evidenceText "[3766] Juan José López Ossorio, a psychologist who helped create VioGén and works for the Interior Ministry." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/Consequence/73ec2486d1c2> a airo:Consequence ;
+    rdfs:label "victims classified as low risk despite ongoing violence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bfb6e3a3c65> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/e1b48e1b6563> .
+
+<https://w3id.org/airo/incident/Impact/e1b48e1b6563> a airo:Impact ;
+    rdfs:label "potential failure to protect victims from severe violence or feminicide" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/2bcd1d349aaf> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a664e8419c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/NewsReport/1401> a airo:NewsReport ;
+    rdfs:label "In Spain, the VioGén algorithm attempts to forecast gender violence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence. It remains a work in progress.
+
+In the early morning of 24 Februa""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dd96756c94f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/NewsReport/3766> a airo:NewsReport ;
+    rdfs:label "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her." ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "In a small apartment outside Madrid on Jan. 11, 2022, an argument over household chores turned violent when Lobna Hemid's husband smashed a wooden shoe rack and used one of the broken pieces to beat h" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6883783929b7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/NewsReport/5347> a airo:NewsReport ;
+    rdfs:label "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista
+El sistema de predicción informatizado salva vidas, pero también ha demostrado cometer""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b4a404cb238> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/NewsReport/8630> a airo:NewsReport ;
+    rdfs:label "VioGén Algorithm and Gender Violence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """In Spain, the VioGén algorithm attempts to forecast gender violence
+As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violenc""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/099b2cc2ee18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Regulation/7d177e55ecf6> a airo:Regulation ;
+    rdfs:label "EU AI Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "EU AI Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8630> .
+
+<https://w3id.org/airo/incident/Regulation/f8107bc32446> a airo:Regulation ;
+    rdfs:label "Istanbul Convention" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Istanbul Convention" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/465696ccbf7e>,
+        <https://w3id.org/airo/incident/evidence/b798dab2bec1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/4a4f66f5e1e0> .
+
+<https://w3id.org/airo/incident/Risk/e8d194768442> a airo:Risk ;
+    rdfs:label "risk of inaccurate risk assessment for gender violence victims" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1dcea9750e80> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/73ec2486d1c2> .
+
+<https://w3id.org/airo/incident/Stakeholder/01c170712a25> a airo:Stakeholder ;
+    rdfs:label "Sindicato Unificado de Policía" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sindicato Unificado de Policía" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5edff99e5f62> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Stakeholder/038c27f17f04> a airo:Stakeholder ;
+    rdfs:label "Antonio Pueyo" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Antonio Pueyo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d8a475c9999>,
+        <https://w3id.org/airo/incident/evidence/7cc6aaf27f68> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/074a5c80efec> a airo:Stakeholder ;
+    rdfs:label "Fundación Éticas" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Fundación Éticas" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/13addc2f9230> a airo:Stakeholder ;
+    rdfs:label "Juan José López Ossorio" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Juan José López Ossorio" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756cbd082918>,
+        <https://w3id.org/airo/incident/evidence/76fdf5f49dc7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/18eacc904824> a airo:Stakeholder ;
+    rdfs:label "marginalized communities" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "marginalized communities" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ee299e4612> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Stakeholder/24531521b66b> a airo:Stakeholder ;
+    rdfs:label "University of Barcelona" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "University of Barcelona" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc788ee2edc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/Stakeholder/2abebd1e7290> a airo:Stakeholder ;
+    rdfs:label "Lobna Hemid" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lobna Hemid" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57099bb67624>,
+        <https://w3id.org/airo/incident/evidence/7bf475eb2a15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/5347> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/4d50aff20471> a airo:Stakeholder ;
+    rdfs:label "AlgorithmWatch" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AlgorithmWatch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/785b4166238b>,
+        <https://w3id.org/airo/incident/evidence/cca8530e1b5d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/9b9617a9e9e9> a airo:Stakeholder ;
+    rdfs:label "Fundación Ana Bella" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Fundación Ana Bella" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/Stakeholder/dd916116d4d9> a airo:Stakeholder ;
+    rdfs:label "United Association of Civil Guards" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United Association of Civil Guards" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9effc1b8c0ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> .
+
+<https://w3id.org/airo/incident/Stakeholder/ddd10658c90e> a airo:Stakeholder ;
+    rdfs:label "Bouthaer el Banaisati" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bouthaer el Banaisati" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76193f52d46b>,
+        <https://w3id.org/airo/incident/evidence/7bf475eb2a15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/5347> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Standard/48e0f9ce34ab> a airo:Standard ;
+    rdfs:label "external audit" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "audit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af6e550565a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5347> .
+
+<https://w3id.org/airo/incident/evidence/038d1865762f> a airo:Evidence ;
+    airo:evidenceText "el sistema que utiliza desde 2007 el Gobierno de España para evaluar si una mujer víctima de violencia de género corre el riesgo de volver a sufrir algún tipo de maltrato." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/052ee8dfd1cb> a airo:Evidence ;
+    airo:evidenceText "Con este crudo titular comenzaba el diario The New York Times un extenso reportaje hace unos días sobre VioGén." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/07e2cf4ac46c> a airo:Evidence ;
+    airo:evidenceText "“El modelo no es infalible, pero salva muchas vidas”, defendía hace unas semanas el ministro del Interior, Fernando Grande-Marlaska." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/099b2cc2ee18> a airo:Evidence ;
+    airo:evidenceText "VioGén Algorithm and Gender Violence" ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/0eb47d8e602f> a airo:Evidence ;
+    airo:evidenceText "VioGén is the best device available to protect women’s lives, according to Ángeles Carmona, president of the Domestic and Gender-Based Violence Observatory of the Spanish General Council of the Judiciary (CGPJ)." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/200cad5c277e> a airo:Evidence ;
+    airo:evidenceText "La jueza Vicky Rosell conoce bien el sistema de su época como delegada del Gobierno contra la Violencia de Género." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/2fdd480021f0> a airo:Evidence ;
+    airo:evidenceText "cuando Irene Montero era ministra de Igualdad." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/310be6fc801a> a airo:Evidence ;
+    airo:evidenceText "[1401] As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/360e89594d5f> a airo:Evidence ;
+    airo:evidenceText "hacer predicción de riesgo; atendiendo al nivel de riesgo, realizar seguimiento y protección a las víctimas en todo el territorio nacional." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/3afda750d238> a airo:Evidence ;
+    airo:evidenceText "[3766] Spain now has 92,000 active cases of gender violence victims who were evaluated by VioGén" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/3f8499acd27c> a airo:Evidence ;
+    airo:evidenceText "Jesús Melguizo, Ms. Hemid's brother-in-law, who is a guardian for two of her children." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/417ac9731eb7> a airo:Evidence ;
+    airo:evidenceText "In 2014, the newspaper El Mundo published a leaked document from the General Council of the Judiciary that showed that 14 out of 15 women who were killed that year, having reported their aggressor before, had low or non-specific risk." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/49ecac552815> a airo:Evidence ;
+    airo:evidenceText "In Spain, the VioGén algorithm attempts to forecast gender violence." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/5b4a404cb238> a airo:Evidence ;
+    airo:evidenceText "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista" ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/5df6e15c0bf5> a airo:Evidence ;
+    airo:evidenceText "No evidence in the provided sentences describes an enforcement action like an investigation or fine." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/64c3785042fb> a airo:Evidence ;
+    airo:evidenceText "1 was Stefany González Escarraman, a 26-year-old living near Seville." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/6883783929b7> a airo:Evidence ;
+    airo:evidenceText "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/72521909c0c2> a airo:Evidence ;
+    airo:evidenceText "In 2017, there was a total of 654 agents in all Spain belonging to the Women-Children Teams (EMUME) of the Guardia Civil." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/738616ad379c> a airo:Evidence ;
+    airo:evidenceText "No evidence in the provided sentences describes red teaming, bias audits, or other verification tests." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/7d21cbb3f334> a airo:Evidence ;
+    airo:evidenceText "Agents should ask circular questions (instead of blunt, direct questions) and avoid transmitting the feeling that the object of investigation is the woman, according to Chelo Álvarez, president of Alanna, an association of former victims in Valencia." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/81327280d604> a airo:Evidence ;
+    airo:evidenceText "“Comparing with what is around and within the existing limitations, VioGén is among the best things available”, says Juanjo Medina, a professor of quantitative criminology at the University of Manchester that has compared instruments of assessing the risk of intimate partner violence." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/8354e34d81a8> a airo:Evidence ;
+    airo:evidenceText "VioGén is the best device available to protect women's lives, according to Ángeles Carmona, president of the Domestic and Gender-Based Violence Observatory of the Spanish General Council of the Judiciary (CGPJ)." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/8b5844091fb8> a airo:Evidence ;
+    airo:evidenceText "Así lo defiende Belén Crego, jefa del área de VioGén del Ministerio del Interior." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/8c6861e999a4> a airo:Evidence ;
+    airo:evidenceText "No evidence in the provided sentences describes the existence of a model card, system card, or similar technical document." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/8dd96756c94f> a airo:Evidence ;
+    airo:evidenceText "In Spain, the VioGén algorithm attempts to forecast gender violence" ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/911604732544> a airo:Evidence ;
+    airo:evidenceText "“Comparing with what is around and within the existing limitations, VioGén is among the best things available”, says Juanjo Medina, a professor of quantitative criminology at the University of Manchester that has compared instruments of assessing the risk of intimate partner violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/9c52f4c95463> a airo:Evidence ;
+    airo:evidenceText "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/9e47db6833e4> a airo:Evidence ;
+    airo:evidenceText "Spain now has 92,000 active cases of gender violence victims who were evaluated by VioGén, with most of them --- 83 percent --- classified as facing little risk of being hurt by their abuser again." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/a86bced34740> a airo:Evidence ;
+    airo:evidenceText "Spanish police are trained to overrule VioGén's recommendations depending on the evidence, but accept the risk scores about 95 percent of the time, officials said." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/ab21622fe971> a airo:Evidence ;
+    airo:evidenceText "Spain now has 92,000 active cases of gender violence victims who were evaluated by VioGén, with most of them --- 83 percent --- classified as facing little risk of being hurt by their abuser again." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/ae1bdec4eaee> a airo:Evidence ;
+    airo:evidenceText "A police officer clicked through 35 yes or no questions --- Was a weapon used? Were there economic problems? Has the aggressor shown controlling behaviors? --- to feed into an algorithm called VioGén that would help generate an answer." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/b4b942b68f90> a airo:Evidence ;
+    airo:evidenceText "The formula used in VioGén is a \"simple algorithm,\" according to Juan José López Ossorio, a psychologist who has been in charge of VioGén from its early stages, in a written statement to AlgorithmWatch." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/c498332d0425> a airo:Evidence ;
+    airo:evidenceText "The core entities list includes 'external audit' under standards." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/c63dc0f05505> a airo:Evidence ;
+    airo:evidenceText "In 2014, the newspaper El Mundo published a leaked document from the General Council of the Judiciary that showed that 14 out of 15 women who were killed that year, having reported their aggressor before, had low or non-specific risk (the classification used for any person reporting a threat to the police)." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/c7fcdfb8628f> a airo:Evidence ;
+    airo:evidenceText "un juez estableció un régimen de visitas con las hijas, que no tenían protección." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/cb5fc79bdd49> a airo:Evidence ;
+    airo:evidenceText "Some critics say that low risk should not even be an option. Reporting is a maximum risk moment for a woman, according to Carme Vidal Estruel, spokesperson of Tamaia, an association that helps victims in Barcelona." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/cd6b0624d4ba> a airo:Evidence ;
+    airo:evidenceText "Bárbara Tardón, experta en violencia de género y doctora en Estudios Interdisciplinares de Género." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/ef8d6d6a4cb6> a airo:Evidence ;
+    airo:evidenceText "This quantitative approach is different to the one used in DAS-H, the British equivalent of VioGén." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/f1e83132d426> a airo:Evidence ;
+    airo:evidenceText "[1401] As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/f3d58df47419> a airo:Evidence ;
+    airo:evidenceText "[8630] The formula used in VioGén is a “simple algorithm,” according to Juan José López Ossorio, a psychologist who has been in charge of VioGén from its early stages, in a written statement to AlgorithmWatch." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/fd7419252cd0> a airo:Evidence ;
+    airo:evidenceText "un día antes de una cita en el juzgado para presentar la demanda de divorcio." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/Stakeholder/2ab1e00c2cc4> a airo:Stakeholder ;
+    rdfs:label "Spanish police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Spanish police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76743ec67d7b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3766> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> .
+
+<https://w3id.org/airo/incident/evidence/1dcea9750e80> a airo:Evidence ;
+    airo:evidenceText "VioGén produced a score: LOW RISK Lobna Hemid 2022 Madrid" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/6bfb6e3a3c65> a airo:Evidence ;
+    airo:evidenceText "As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence... Ms. Hemid's husband of more than a decade, Bouthaer el Banaisati, regularly punched and kicked her, she later told the police." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/9a664e8419c0> a airo:Evidence ;
+    airo:evidenceText "As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/b798dab2bec1> a airo:Evidence ;
+    airo:evidenceText "VioGén is 1 of the outcomes of a pioneering law on gender-based violence that Spain approved in 2004, ten years before the Council of Europe adopted a common framework on the subject, the Istanbul Convention." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/0ae7fb20f14f> a airo:Evidence ;
+    airo:evidenceText "Nowadays, the software is used by the main Spanish police forces (Policía Nacional and Guardia Civil) and by hundreds of local police forces (except in Catalonia and the Basque Country that have independent police bodies)." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/2f9f3d9d62db> a airo:Evidence ;
+    airo:evidenceText "In the early morning of 24 February 2018, Itziar P., a psychologist living in the Spanish city of Castellón, went to a police station to report threats from her husband, Ricardo C.." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/45ef04ce8070> a airo:Evidence ;
+    airo:evidenceText "Agents should ask circular questions (instead of blunt, direct questions) and avoid transmitting the feeling that the object of investigation is the woman, according to Chelo Álvarez, president of Alanna, an association of former victims in Valencia." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/a0716911b2cc> a airo:Evidence ;
+    airo:evidenceText "Some critics say that low risk should not even be an option. Reporting is a maximum risk moment for a woman, according to Carme Vidal Estruel, spokesperson of Tamaia, an association that helps victims in Barcelona." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/a2205aed59cc> a airo:Evidence ;
+    airo:evidenceText "Nowadays, the software is used by the main Spanish police forces (Policía Nacional and Guardia Civil) and by hundreds of local police forces (except in Catalonia and the Basque Country that have independent police bodies)." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/d2a4056db1f5> a airo:Evidence ;
+    airo:evidenceText "As part of a program to curb feminicides, Spain built VioGén, an algorithm that assesses the risk faced by victims of gender violence." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/e1d6d46b0f4f> a airo:Evidence ;
+    airo:evidenceText "Un algoritmo le dijo a la Policía que estaba a salvo." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/57099bb67624> a airo:Evidence ;
+    airo:evidenceText "VioGén produced a score: LOW RISK Lobna Hemid 2022 Madrid" ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/5edff99e5f62> a airo:Evidence ;
+    airo:evidenceText "Sindicato Unificado de Policía, a union that represents national police officers, said even the most effective technology cannot make up for a lack of trained experts." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/6d8a475c9999> a airo:Evidence ;
+    airo:evidenceText "Antonio Pueyo, a psychology professor at the University of Barcelona who later joined the effort." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/756cbd082918> a airo:Evidence ;
+    airo:evidenceText "Juan José López Ossorio, a psychologist who helped create VioGén and works for the Interior Ministry." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/76193f52d46b> a airo:Evidence ;
+    airo:evidenceText "Ms. Hemid's husband of more than a decade, Bouthaer el Banaisati, regularly punched and kicked her, she later told the police." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/76fdf5f49dc7> a airo:Evidence ;
+    airo:evidenceText "The formula used in VioGén is a “simple algorithm,” according to Juan José López Ossorio, a psychologist who has been in charge of VioGén from its early stages, in a written statement to AlgorithmWatch." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/785b4166238b> a airo:Evidence ;
+    airo:evidenceText "The formula used in VioGén is a “simple algorithm,” according to Juan José López Ossorio, a psychologist who has been in charge of VioGén from its early stages, in a written statement to AlgorithmWatch." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/7cc6aaf27f68> a airo:Evidence ;
+    airo:evidenceText "It’s impossible to know how many lives have been saved thanks to VioGén, according to Antonio Pueyo, a professor of psychology at the Univeristy of Barcelona who has advised VioGén from the beginning." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/9effc1b8c0ff> a airo:Evidence ;
+    airo:evidenceText "A leader in the United Association of Civil Guards, a union representing officers in rural areas, he said that outside of big cities, the police often must choose between addressing violence against women or other crimes." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/c4ee299e4612> a airo:Evidence ;
+    airo:evidenceText "The team also consulted with social workers, psychologists, and members of marginalized communities to ensure that the questionnaire reflected a diverse range of experiences and risks." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/cca8530e1b5d> a airo:Evidence ;
+    airo:evidenceText "This story is part of AlgorithmWatch's upcoming report Automating Society 2020, to be published later this year." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/ccc788ee2edc> a airo:Evidence ;
+    airo:evidenceText "It's impossible to know how many lives have been saved thanks to VioGén, according to Antonio Pueyo, a professor of psychology at the Univeristy of Barcelona who has advised VioGén from the beginning." ;
+    airo:sourceDocId "1401" .
+
+<https://w3id.org/airo/incident/evidence/e09b9ecf0670> a airo:Evidence ;
+    airo:evidenceText "La Secretaría de Estado de Seguridad del Ministerio del Interior puso en funcionamiento el Sistema de Seguimiento Integral en los casos de Violencia de Género, más conocido como Sistema VioGén.",
+        "La Secretaría de Estado de Seguridad del Ministerio del Interior puso en funcionamiento el Sistema de Seguimiento Integral en los casos de Violencia de Género." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/AISystem/1c29d13b3095> a airo:AISystem ;
+    rdfs:label "DAS-H" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "DAS-H" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef8d6d6a4cb6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401> .
+
+<https://w3id.org/airo/incident/evidence/465696ccbf7e> a airo:Evidence ;
+    airo:evidenceText "VioGén is 1 of the outcomes of a pioneering law on gender-based violence that Spain approved in 2004, ten years before the Council of Europe adopted a common framework on the subject, the Istanbul Convention." ;
+    airo:sourceDocId "8630" .
+
+<https://w3id.org/airo/incident/evidence/76743ec67d7b> a airo:Evidence ;
+    airo:evidenceText "Spanish police are trained to overrule VioGén's recommendations depending on the evidence, but accept the risk scores about 95 percent of the time, officials said." ;
+    airo:sourceDocId "3766" .
+
+<https://w3id.org/airo/incident/evidence/7bf475eb2a15> a airo:Evidence ;
+    airo:evidenceText "El periódico estadounidense se basaba para su titular en el caso de Lobna Hemid, a quien su marido, Bouthaer el Banaisati, maltrataba con asiduidad." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/evidence/9af6e550565a> a airo:Evidence ;
+    airo:evidenceText "Según una auditoría externa de VioGén realizada en 2022 por la Fundación Éticas en colaboración con la Fundación Ana Bella." ;
+    airo:sourceDocId "5347" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_472> a airo:AIRiskIncident ;
+    rdfs:label "VioGén Algorithm and Gender Violence" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/7d177e55ecf6>,
+        <https://w3id.org/airo/incident/Regulation/f8107bc32446> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/73ec2486d1c2> ;
+    airo:hasDescription "pred_472" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/1d54b9b77c1d>,
+        <https://w3id.org/airo/incident/Domain/8efd1cb12ead>,
+        <https://w3id.org/airo/incident/evidence/02c514145390>,
+        <https://w3id.org/airo/incident/evidence/212b75de085a>,
+        <https://w3id.org/airo/incident/evidence/b49731e97b19>,
+        <https://w3id.org/airo/incident/evidence/ed6f37f7a089> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/e1b48e1b6563> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1401>,
+        <https://w3id.org/airo/incident/NewsReport/3766>,
+        <https://w3id.org/airo/incident/NewsReport/5347>,
+        <https://w3id.org/airo/incident/NewsReport/8630> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/e8d194768442> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/5347>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/1c29d13b3095>,
+        <https://w3id.org/airo/incident/AISystem/5498d8cd3182> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/01c170712a25>,
+        <https://w3id.org/airo/incident/Stakeholder/038c27f17f04>,
+        <https://w3id.org/airo/incident/Stakeholder/074a5c80efec>,
+        <https://w3id.org/airo/incident/Stakeholder/0f4eb3e5f2a1>,
+        <https://w3id.org/airo/incident/Stakeholder/1107d4138c24>,
+        <https://w3id.org/airo/incident/Stakeholder/13addc2f9230>,
+        <https://w3id.org/airo/incident/Stakeholder/18eacc904824>,
+        <https://w3id.org/airo/incident/Stakeholder/24531521b66b>,
+        <https://w3id.org/airo/incident/Stakeholder/24d1d75fe9aa>,
+        <https://w3id.org/airo/incident/Stakeholder/2ab1e00c2cc4>,
+        <https://w3id.org/airo/incident/Stakeholder/2abebd1e7290>,
+        <https://w3id.org/airo/incident/Stakeholder/2b3b20d1b913>,
+        <https://w3id.org/airo/incident/Stakeholder/2eb930f219e0>,
+        <https://w3id.org/airo/incident/Stakeholder/40d5b6551ac4>,
+        <https://w3id.org/airo/incident/Stakeholder/4d50aff20471>,
+        <https://w3id.org/airo/incident/Stakeholder/5b1e1d9596c0>,
+        <https://w3id.org/airo/incident/Stakeholder/5d9914770ec4>,
+        <https://w3id.org/airo/incident/Stakeholder/62ed22391ad4>,
+        <https://w3id.org/airo/incident/Stakeholder/63b774cd13ba>,
+        <https://w3id.org/airo/incident/Stakeholder/63cea88ea7e2>,
+        <https://w3id.org/airo/incident/Stakeholder/6eed86c20131>,
+        <https://w3id.org/airo/incident/Stakeholder/6f14faf2f6ec>,
+        <https://w3id.org/airo/incident/Stakeholder/78a094349827>,
+        <https://w3id.org/airo/incident/Stakeholder/7bb655b526b8>,
+        <https://w3id.org/airo/incident/Stakeholder/89f0aaf8921c>,
+        <https://w3id.org/airo/incident/Stakeholder/9b9617a9e9e9>,
+        <https://w3id.org/airo/incident/Stakeholder/9dbe0fa14d9d>,
+        <https://w3id.org/airo/incident/Stakeholder/a3fd88a9f955>,
+        <https://w3id.org/airo/incident/Stakeholder/a487d0f0580f>,
+        <https://w3id.org/airo/incident/Stakeholder/a4c65a5fa717>,
+        <https://w3id.org/airo/incident/Stakeholder/a643d9611090>,
+        <https://w3id.org/airo/incident/Stakeholder/a93c4d3f333f>,
+        <https://w3id.org/airo/incident/Stakeholder/b67b3c28bbe5>,
+        <https://w3id.org/airo/incident/Stakeholder/c84fde171bf6>,
+        <https://w3id.org/airo/incident/Stakeholder/cc85ae4f6f5f>,
+        <https://w3id.org/airo/incident/Stakeholder/d3f447ae4221>,
+        <https://w3id.org/airo/incident/Stakeholder/dd916116d4d9>,
+        <https://w3id.org/airo/incident/Stakeholder/ddd10658c90e>,
+        <https://w3id.org/airo/incident/Stakeholder/fd09e81198f7> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/893a7aec6633> ;
+    airo:specifies <https://w3id.org/airo/incident/Standard/48e0f9ce34ab> .
+
+<https://w3id.org/airo/incident/AISystem/5498d8cd3182> a airo:AISystem ;
+    rdfs:label "VioGén" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/7d177e55ecf6>,
+        <https://w3id.org/airo/incident/Regulation/f8107bc32446> ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:conformsToStandard <https://w3id.org/airo/incident/Standard/48e0f9ce34ab> ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/f3fbb9639d1e>,
+        <https://w3id.org/airo/incident/Purpose/58f6073a7190> ;
+    airo:hasDescription "VioGén" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/ed118c2266b4>,
+        <https://w3id.org/airo/incident/TechnicalDocumentation/f95a370fee91>,
+        <https://w3id.org/airo/incident/VerificationTest/d77f36b7f54c>,
+        <https://w3id.org/airo/incident/evidence/6597643233a7>,
+        <https://w3id.org/airo/incident/evidence/9c52f4c95463>,
+        <https://w3id.org/airo/incident/evidence/ae1bdec4eaee>,
+        <https://w3id.org/airo/incident/evidence/b4765beeb6c1>,
+        <https://w3id.org/airo/incident/evidence/d2a4056db1f5>,
+        <https://w3id.org/airo/incident/evidence/e09b9ecf0670>,
+        <https://w3id.org/airo/incident/evidence/e49d2536d85c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1401>,
+        <https://w3id.org/airo/incident/document/3766>,
+        <https://w3id.org/airo/incident/document/5347>,
+        <https://w3id.org/airo/incident/document/8630> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/b59bd5d956d3> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/6bd254f4d13e>,
+        <https://w3id.org/airo/incident/AITechnique/b62507523610> .
+

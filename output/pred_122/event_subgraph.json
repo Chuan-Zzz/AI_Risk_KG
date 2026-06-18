@@ -1,0 +1,3348 @@
+{
+  "event_id": "pred_122",
+  "incident_node": {
+    "id": "pred_122",
+    "name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_122",
+    "evidence": [
+      {
+        "evidence_id": "b715664c2c75",
+        "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+        "source_doc_id": "1581",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "35e91d66f55a",
+        "evidence_sentence": "Chess robot goes rogue, breaks seven-year-old player's finger",
+        "source_doc_id": "1582",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "0fab82875bd7",
+        "evidence_sentence": "Chess robot grabs and breaks finger of seven-year-old opponent",
+        "source_doc_id": "1583",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "5aa5ccc43634",
+        "evidence_sentence": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+        "source_doc_id": "1585",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "57b15a629d81",
+        "evidence_sentence": "Chess-playing robot breaks finger of 7-year-old boy during match",
+        "source_doc_id": "1590",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "1581",
+      "1582",
+      "1583",
+      "1585",
+      "1590",
+      "6778",
+      "8481",
+      "8482"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_122",
+      "name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_122",
+      "evidence": [
+        {
+          "evidence_id": "b715664c2c75",
+          "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "35e91d66f55a",
+          "evidence_sentence": "Chess robot goes rogue, breaks seven-year-old player's finger",
+          "source_doc_id": "1582",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "0fab82875bd7",
+          "evidence_sentence": "Chess robot grabs and breaks finger of seven-year-old opponent",
+          "source_doc_id": "1583",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "5aa5ccc43634",
+          "evidence_sentence": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "57b15a629d81",
+          "evidence_sentence": "Chess-playing robot breaks finger of 7-year-old boy during match",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581",
+        "1582",
+        "1583",
+        "1585",
+        "1590",
+        "6778",
+        "8481",
+        "8482"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b847ecb5584e",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581",
+        "1582",
+        "1583",
+        "1585",
+        "1590"
+      ],
+      "attributes": {
+        "report_count": 5
+      },
+      "reasoning": null
+    },
+    {
+      "id": "a81dad0d2304",
+      "name": "aiaaic",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiaaic",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "6778",
+        "8481",
+        "8482"
+      ],
+      "attributes": {
+        "report_count": 3
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1581",
+      "name": "A chess robot in Moscow has broken the finger of its human opponent",
+      "entity_type": "NewsReport",
+      "description": "According to the organizers of the tournament in the Russian capital, it was an “accidental” attack by the robot. A seven-year-old boy named Christopher, who, by the way, according to them, is among t",
+      "evidence": [
+        {
+          "evidence_id": "2f8ebae4a991",
+          "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "attributes": {
+        "url": "https://newsbeezer.com/czechrepubliceng/a-chess-robot-in-moscow-has-broken-the-finger-of-its-human-opponent/",
+        "publish_time": "2022-07-23T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1582",
+      "name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "entity_type": "NewsReport",
+      "description": "A damaged ego is usually the worst injury a chess player can come out of a match with. But in Russia, a seven-year-old child playing with a robot was forced to interrupt the game when the machine sudd",
+      "evidence": [
+        {
+          "evidence_id": "7e8b382627b6",
+          "evidence_sentence": "Chess robot goes rogue, breaks seven-year-old player's finger",
+          "source_doc_id": "1582",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1582"
+      ],
+      "attributes": {
+        "url": "https://www.newsweek.com/chess-robot-goes-rogue-breaks-seven-year-old-player-child-finger-1727104",
+        "publish_time": "2022-07-22T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1583",
+      "name": "Chess robot grabs and breaks finger of seven-year-old opponent",
+      "entity_type": "NewsReport",
+      "description": "Played by humans, chess is a game of strategic thinking, calm concentration and patient intellectual endeavour. Violence does not usually come into it. The same, it seems, cannot always be said of mac",
+      "evidence": [
+        {
+          "evidence_id": "eac8697c93bc",
+          "evidence_sentence": "Chess robot grabs and breaks finger of seven-year-old opponent",
+          "source_doc_id": "1583",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583"
+      ],
+      "attributes": {
+        "url": "https://www.theguardian.com/sport/2022/jul/24/chess-robot-grabs-and-breaks-finger-of-seven-year-old-opponent-moscow",
+        "publish_time": "2022-07-24T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1585",
+      "name": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+      "entity_type": "NewsReport",
+      "description": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task. On July 19,",
+      "evidence": [
+        {
+          "evidence_id": "4aea53c1b4bf",
+          "evidence_sentence": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "attributes": {
+        "url": "https://www.livemint.com/news/world/ai-gone-wrong-chess-robot-breaks-child-s-finger-at-russia-tournament-11658674872366.html",
+        "publish_time": "2022-07-24T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1590",
+      "name": "Chess-playing robot breaks finger of 7-year-old boy during match",
+      "entity_type": "NewsReport",
+      "description": "A chess-playing robot broke the finger of a 7-year-old boy who was competing against it during a recent tournament in Moscow.\n\nAccording to officials from the Moscow Chess Federation, the child contin",
+      "evidence": [
+        {
+          "evidence_id": "96d9081cb2ee",
+          "evidence_sentence": "Chess-playing robot breaks finger of 7-year-old boy during match",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590"
+      ],
+      "attributes": {
+        "url": "https://www.washingtonpost.com/sports/2022/07/24/chess-playing-robot-breaks-finger-7-year-old-boy-during-match/",
+        "publish_time": "2022-07-24T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "6778",
+      "name": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+      "entity_type": "NewsReport",
+      "description": "Chess robot breaks seven-year-old’s finger during tournament in Russia\n‘The robot broke the child’s finger. This, of course, is bad’\n‘The robot broke the child’s finger. This, of course, is bad’\nA che",
+      "evidence": [
+        {
+          "evidence_id": "88431195168a",
+          "evidence_sentence": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+          "source_doc_id": "6778",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "6778"
+      ],
+      "attributes": {
+        "url": "https://www.theverge.com/2022/7/25/23276982/chess-robot-breaks-childs-finger-russia-tournament",
+        "publish_time": "2022-07-25",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "8481",
+      "name": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+      "entity_type": "NewsReport",
+      "description": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.\nSergey Lazarev said the incident occurred",
+      "evidence": [
+        {
+          "evidence_id": "bc8be7bb8737",
+          "evidence_sentence": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "attributes": {
+        "url": "https://www.cnn.com/2022/07/25/europe/chess-robot-russia-boy-finger-intl-scli/index.html",
+        "publish_time": "2022-07-25",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "8482",
+      "name": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+      "entity_type": "NewsReport",
+      "description": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open\nМОСКВА, 21 июля. /Корр. ТАСС Андрей Карташов/. Робот-шахматист сломал палец ребенку во время международного шахматного фо",
+      "evidence": [
+        {
+          "evidence_id": "44dcc2522e2a",
+          "evidence_sentence": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+          "source_doc_id": "8482",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482"
+      ],
+      "attributes": {
+        "url": "https://tass.ru/sport/15280405?&utm_source=pcgamer.com&utm_medium=referral&utm_campaign=pcgamer.com&utm_referrer=pcgamer.com",
+        "publish_time": "2022-07-22",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "4eeb4ceb51d7",
+      "name": "chess-playing robot",
+      "entity_type": "AISystem",
+      "description": "chess-playing robot",
+      "evidence": [
+        {
+          "evidence_id": "4b3e5ec1a7dc",
+          "evidence_sentence": "A chess-playing robot broke the finger of a 7-year-old boy who was competing against it during a recent tournament in Moscow.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "chess-playing robot",
+            "start": 2,
+            "end": 21
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "837fd05aba4f",
+          "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "chess-playing robot",
+            "start": 33,
+            "end": 52
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "9eecc67f2e56",
+          "evidence_sentence": "Робот-шахматист сломал палец ребенку во время международного шахматного форума Moscow Chess Open, проходившего в Москве с 13 по 21 июля.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Робот-шахматист",
+            "start": 126,
+            "end": 141
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "9ac5b5103a9d",
+          "evidence_sentence": "Last week, according to Russian media outlets, a chess-playing robot, apparently unsettled by the quick responses of a seven-year-old boy, unceremoniously grabbed and broke his finger during a match at the Moscow Open.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "a chess-playing robot",
+            "start": 255,
+            "end": 276
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "073d11296230",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "chess-playing robot",
+            "start": 2,
+            "end": 21
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "2a868a037c7b",
+          "evidence_sentence": "The incident, on July 19, was reported by state-owned news agency RIA Novosti and shared on Telegram by channel Baza, which quoted the vice president of the Chess Federation of Russia recalling what appeared to happen.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "chess robot",
+            "start": 496,
+            "end": 507
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "98dea5fa0790",
+          "evidence_sentence": "A chess robot broke the finger of a seven-year-old boy playing in a tournament in Russia, according to reports from local news outlets.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "chess robot",
+            "start": 197,
+            "end": 208
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "e9f282a39ac3",
+          "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "chess robot",
+            "start": 867,
+            "end": 878
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 8,
+      "source_doc_ids": [
+        "1583",
+        "8482",
+        "1581",
+        "1582",
+        "8481",
+        "1585",
+        "1590",
+        "6778"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ebe60c0a1d67",
+      "name": "Chess Federation of Russia",
+      "entity_type": "Stakeholder",
+      "description": "Moscow Chess Federation",
+      "evidence": [
+        {
+          "evidence_id": "6ed278cec78a",
+          "evidence_sentence": "According to officials from the Moscow Chess Federation, the child continued his participation in the event after his finger was placed in a plaster cast.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 159,
+            "end": 182
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "be00ae82d883",
+          "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 703,
+            "end": 726
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "0731ac74c5c4",
+          "evidence_sentence": "We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 1367,
+            "end": 1390
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "9be24ef5161e",
+          "evidence_sentence": "Об этом ТАСС в четверг рассказал президент Федерации шахмат Москвы Сергей Лазарев.",
+          "source_doc_id": "8482",
+          "mention_span": null,
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e68e67c1967e",
+          "evidence_sentence": "“The robot broke the child’s finger,” Sergey Lazarev, president of the Moscow Chess Federation, told the TASS news agency after the incident, adding that the machine had played many previous exhibitions without upset.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 499,
+            "end": 522
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "073d11296230",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 100,
+            "end": 123
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "a4c204742569",
+          "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "Chess Federation of Russia",
+            "start": 401,
+            "end": 427
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 7,
+      "source_doc_ids": [
+        "1583",
+        "1581",
+        "8482",
+        "1582",
+        "8481",
+        "1590",
+        "6778"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "5e00023dcb98",
+      "name": "Sergey Lazarev",
+      "entity_type": "Stakeholder",
+      "description": "Sergey Lazarev",
+      "evidence": [
+        {
+          "evidence_id": "d6526ec96ab3",
+          "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Sergey Lazarev",
+            "start": 647,
+            "end": 661
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "d57196979602",
+          "evidence_sentence": "“A robot broke a child’s finger – that’s bad, of course. We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.”, commented Moscow Chess Federation President Sergey Lazarev.",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Sergey Lazarev",
+            "start": 1401,
+            "end": 1415
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "9be24ef5161e",
+          "evidence_sentence": "Об этом ТАСС в четверг рассказал президент Федерации шахмат Москвы Сергей Лазарев.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Сергей Лазарев",
+            "start": 330,
+            "end": 344
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e68e67c1967e",
+          "evidence_sentence": "“The robot broke the child’s finger,” Sergey Lazarev, president of the Moscow Chess Federation, told the TASS news agency after the incident, adding that the machine had played many previous exhibitions without upset.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Sergey Lazarev",
+            "start": 466,
+            "end": 480
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 4,
+      "source_doc_ids": [
+        "1590",
+        "1583",
+        "1581",
+        "8482"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a403235703d7",
+      "name": "Sergey Smagin",
+      "entity_type": "Stakeholder",
+      "description": "Sergey Smagin",
+      "evidence": [
+        {
+          "evidence_id": "a6561ca2e822",
+          "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 1059,
+            "end": 1072
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "bb5d2a9a15d5",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 340,
+            "end": 353
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "a4c204742569",
+          "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 477,
+            "end": 490
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1962a2e032a1",
+          "evidence_sentence": "Sergey Smagin, vice-president of the Russian Chess Federation, told Baza the robot appeared to pounce after it took one of the boy’s pieces.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 1053,
+            "end": 1066
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 4,
+      "source_doc_ids": [
+        "1590",
+        "1582",
+        "1585",
+        "1583"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "65d5afb81db9",
+      "name": "Christopher",
+      "entity_type": "Stakeholder",
+      "description": "Christopher",
+      "evidence": [
+        {
+          "evidence_id": "bcbf543c3aef",
+          "evidence_sentence": "The boy, Christopher, is one of the top 30 young chess players in Moscow, and he is just nine years old.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 467,
+            "end": 478
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "5080a160b473",
+          "evidence_sentence": "According to Baza, the seven-year-old is called Christopher, and he's among the 30 strongest chess players in Moscow aged up to nine years old.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 1805,
+            "end": 1816
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "f081bb4ad246",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 141,
+            "end": 152
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "94d35273146d",
+          "evidence_sentence": "Baza named the boy as Christopher and said he was one of the 30 best chess players in the Russian capital in the under-nines category.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 1841,
+            "end": 1852
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "1583",
+        "1582",
+        "1585",
+        "1581"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0030c5d8e25e",
+      "name": "Russian Chess Federation",
+      "entity_type": "Stakeholder",
+      "description": "Russian Chess Federation",
+      "evidence": [
+        {
+          "evidence_id": "bb5d2a9a15d5",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Russian Chess Federation",
+            "start": 377,
+            "end": 401
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e19d2e251757",
+          "evidence_sentence": "\"There are certain safety rules and the child, apparently, violated them...\" Sergey Smagin, vice-president of the Russian Chess Federation, told a Telegram-based news channel Baza.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "Russian Chess Federation",
+            "start": 2451,
+            "end": 2475
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1962a2e032a1",
+          "evidence_sentence": "Sergey Smagin, vice-president of the Russian Chess Federation, told Baza the robot appeared to pounce after it took one of the boy’s pieces.",
+          "source_doc_id": "1583",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "1583",
+        "1585",
+        "6778"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "49c950c3ae21",
+      "name": "Moscow Chess Open",
+      "entity_type": "Stakeholder",
+      "description": "Moscow Chess Open",
+      "evidence": [
+        {
+          "evidence_id": "ecaec4757187",
+          "evidence_sentence": "On July 19, at the Moscow Chess Open competition, the incident took place.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Moscow Chess Open",
+            "start": 208,
+            "end": 225
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1851849af7ad",
+          "evidence_sentence": "A robot broke a child’s finger – this is, of course, bad,” Lazarev said.\n“The robot was rented by us, it has been exhibited in many places by specialists for a long time.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "Moscow Chess Open",
+            "start": 208,
+            "end": 225
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "8481",
+        "1585"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2c51763c0f15",
+      "name": "TASS",
+      "entity_type": "Stakeholder",
+      "description": "TASS",
+      "evidence": [
+        {
+          "evidence_id": "be00ae82d883",
+          "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "TASS",
+            "start": 753,
+            "end": 757
+          },
+          "confidence": 0.8
+        },
+        {
+          "evidence_id": "073d11296230",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "TASS",
+            "start": 147,
+            "end": 151
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 2,
+      "source_doc_ids": [
+        "8481",
+        "6778"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "353c0f41c9ce",
+      "name": "robot operators",
+      "entity_type": "Stakeholder",
+      "description": "robot operators",
+      "evidence": [
+        {
+          "evidence_id": "3bd4eede96d4",
+          "evidence_sentence": "Robot operators should probably consider increasing security to prevent the situation from repeating itself in the future",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Robot operators",
+            "start": 1671,
+            "end": 1686
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "0c7d563e4413",
+          "evidence_sentence": "А операторам робота, видимо, придется подумать над усилением защиты, чтобы подобная ситуация не повторялась.",
+          "source_doc_id": "8482",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 2,
+      "source_doc_ids": [
+        "8482",
+        "1581"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2a4a9085a0bc",
+      "name": "Moscomsport",
+      "entity_type": "Stakeholder",
+      "description": "Москомспорт",
+      "evidence": [
+        {
+          "evidence_id": "fef3ac1670f8",
+          "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Москомспорт",
+            "start": 783,
+            "end": 794
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2de6b94cfc93",
+      "name": "Prosecutor's office",
+      "entity_type": "Stakeholder",
+      "description": "прокуратуру",
+      "evidence": [
+        {
+          "evidence_id": "fef3ac1670f8",
+          "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "прокуратуру",
+            "start": 824,
+            "end": 835
+          },
+          "confidence": 0.85
+        },
+        {
+          "evidence_id": "0110e9097f21",
+          "evidence_sentence": "His parents, however, have reportedly contacted the public prosecutor’s office.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "public prosecutor’s office",
+            "start": 2365,
+            "end": 2391
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 2,
+      "source_doc_ids": [
+        "1583",
+        "8482"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b1c354f2566d",
+      "name": "Sergey Karjakin",
+      "entity_type": "Stakeholder",
+      "description": "Sergey Karjakin",
+      "evidence": [
+        {
+          "evidence_id": "1e2dab8d3f54",
+          "evidence_sentence": "A Russian grandmaster, Sergey Karjakin, said the incident was no doubt due to “some kind of software error or something”, adding: “This has never happened before.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Sergey Karjakin",
+            "start": 2855,
+            "end": 2870
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ee33554d1c42",
+      "name": "Baza",
+      "entity_type": "Stakeholder",
+      "description": "Baza",
+      "evidence": [
+        {
+          "evidence_id": "86869c211c9c",
+          "evidence_sentence": "Video published on the Baza Telegram channel shows the robot grabbing the boy’s finger.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "Baza",
+            "start": 1256,
+            "end": 1260
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c203d34585bd",
+      "name": "Inadequate safety warnings or operator oversight",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ae37e39185e9",
+          "evidence_sentence": "\"A robot broke a child’s finger – this is, of course, bad,\" Lazarev said. \"The robot was rented by us, it has been exhibited in many places by specialists for a long time.\"",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c439c0900ea9",
+      "name": "Risk of physical injury during human-robot interaction",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "e10f884c7739",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "8d019b14b229",
+      "name": "Lack of real-time safety constraints in robot's movement execution",
+      "entity_type": "Hazard",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "b5d44d95a6a7",
+          "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+          "source_doc_id": "1582",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1582"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f6ae1419c0c3",
+      "name": "Unexpectedly rapid or premature input from a human opponent",
+      "entity_type": "Threat",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "cae7e705a314",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "218c1b58947e",
+      "name": "Insufficient time delay or safety mechanism to account for human input variability",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "09cbf18ecd44",
+          "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "16f9694e4120",
+      "name": "The robot physically grabbed and fractured a child's finger",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f7714e1670f9",
+          "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1cf62499db6b",
+      "name": "Physical injury to a child participant",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f9eb6760ec1f",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b68ac1bc4e49",
+      "name": "Child chess players",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "253bc847992b",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1b68fe8a33b4",
+      "name": "Need for enhanced operator safety protocols and warnings",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "289f06118708",
+          "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590"
+      ],
+      "attributes": {},
+      "reasoning": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "b17637717e6c",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "1581",
+      "object_name": "A chess robot in Moscow has broken the finger of its human opponent",
+      "evidence": [
+        {
+          "evidence_id": "2f8ebae4a991",
+          "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b9ebbe4bf2c",
+      "subject_id": "b847ecb5584e",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1581",
+      "object_name": "A chess robot in Moscow has broken the finger of its human opponent",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f268a82a3d5a",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "1582",
+      "object_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "evidence": [
+        {
+          "evidence_id": "7e8b382627b6",
+          "evidence_sentence": "Chess robot goes rogue, breaks seven-year-old player's finger",
+          "source_doc_id": "1582",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1582"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fe54bc0f860d",
+      "subject_id": "b847ecb5584e",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1582",
+      "object_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1582"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f8f770cb4a83",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "1583",
+      "object_name": "Chess robot grabs and breaks finger of seven-year-old opponent",
+      "evidence": [
+        {
+          "evidence_id": "eac8697c93bc",
+          "evidence_sentence": "Chess robot grabs and breaks finger of seven-year-old opponent",
+          "source_doc_id": "1583",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a4b4ff1f274f",
+      "subject_id": "b847ecb5584e",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1583",
+      "object_name": "Chess robot grabs and breaks finger of seven-year-old opponent",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6fa1c848b621",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "1585",
+      "object_name": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+      "evidence": [
+        {
+          "evidence_id": "4aea53c1b4bf",
+          "evidence_sentence": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d14d2d47cb7d",
+      "subject_id": "b847ecb5584e",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1585",
+      "object_name": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f56f3ad7b5d4",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "1590",
+      "object_name": "Chess-playing robot breaks finger of 7-year-old boy during match",
+      "evidence": [
+        {
+          "evidence_id": "96d9081cb2ee",
+          "evidence_sentence": "Chess-playing robot breaks finger of 7-year-old boy during match",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "68ec75ac947a",
+      "subject_id": "b847ecb5584e",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1590",
+      "object_name": "Chess-playing robot breaks finger of 7-year-old boy during match",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "534e7559af6c",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "6778",
+      "object_name": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+      "evidence": [
+        {
+          "evidence_id": "88431195168a",
+          "evidence_sentence": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+          "source_doc_id": "6778",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "6778"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0718d28d6e99",
+      "subject_id": "a81dad0d2304",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "6778",
+      "object_name": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "6778"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "84e5034461e6",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "8481",
+      "object_name": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+      "evidence": [
+        {
+          "evidence_id": "bc8be7bb8737",
+          "evidence_sentence": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d719b0152968",
+      "subject_id": "a81dad0d2304",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "8481",
+      "object_name": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2843fd9cb00d",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasReport",
+      "object_id": "8482",
+      "object_name": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+      "evidence": [
+        {
+          "evidence_id": "44dcc2522e2a",
+          "evidence_sentence": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+          "source_doc_id": "8482",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8598fc476e3f",
+      "subject_id": "a81dad0d2304",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "8482",
+      "object_name": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1c9f51e3bd72",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesAISystem",
+      "object_id": "4eeb4ceb51d7",
+      "object_name": "chess-playing robot",
+      "evidence": [
+        {
+          "evidence_id": "4b3e5ec1a7dc",
+          "evidence_sentence": "A chess-playing robot broke the finger of a 7-year-old boy who was competing against it during a recent tournament in Moscow.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "chess-playing robot",
+            "start": 2,
+            "end": 21
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "837fd05aba4f",
+          "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "chess-playing robot",
+            "start": 33,
+            "end": 52
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "9eecc67f2e56",
+          "evidence_sentence": "Робот-шахматист сломал палец ребенку во время международного шахматного форума Moscow Chess Open, проходившего в Москве с 13 по 21 июля.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Робот-шахматист",
+            "start": 126,
+            "end": 141
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "8482",
+        "1581",
+        "1582",
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c53d2221ff98",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "ebe60c0a1d67",
+      "object_name": "Chess Federation of Russia",
+      "evidence": [
+        {
+          "evidence_id": "6ed278cec78a",
+          "evidence_sentence": "According to officials from the Moscow Chess Federation, the child continued his participation in the event after his finger was placed in a plaster cast.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 159,
+            "end": 182
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "be00ae82d883",
+          "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 703,
+            "end": 726
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "0731ac74c5c4",
+          "evidence_sentence": "We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Moscow Chess Federation",
+            "start": 1367,
+            "end": 1390
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "1581",
+        "8482",
+        "1582",
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a8e048fea865",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "5e00023dcb98",
+      "object_name": "Sergey Lazarev",
+      "evidence": [
+        {
+          "evidence_id": "d6526ec96ab3",
+          "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Sergey Lazarev",
+            "start": 647,
+            "end": 661
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "d57196979602",
+          "evidence_sentence": "“A robot broke a child’s finger – that’s bad, of course. We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.”, commented Moscow Chess Federation President Sergey Lazarev.",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Sergey Lazarev",
+            "start": 1401,
+            "end": 1415
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "9be24ef5161e",
+          "evidence_sentence": "Об этом ТАСС в четверг рассказал президент Федерации шахмат Москвы Сергей Лазарев.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Сергей Лазарев",
+            "start": 330,
+            "end": 344
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590",
+        "1583",
+        "1581",
+        "8482"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a7a4a9299eeb",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "a403235703d7",
+      "object_name": "Sergey Smagin",
+      "evidence": [
+        {
+          "evidence_id": "a6561ca2e822",
+          "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+          "source_doc_id": "1590",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 1059,
+            "end": 1072
+          },
+          "confidence": 0.98
+        },
+        {
+          "evidence_id": "bb5d2a9a15d5",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 340,
+            "end": 353
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "a4c204742569",
+          "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "Sergey Smagin",
+            "start": 477,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590",
+        "1582",
+        "1585",
+        "1583"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2882c57e8a58",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "65d5afb81db9",
+      "object_name": "Christopher",
+      "evidence": [
+        {
+          "evidence_id": "bcbf543c3aef",
+          "evidence_sentence": "The boy, Christopher, is one of the top 30 young chess players in Moscow, and he is just nine years old.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 467,
+            "end": 478
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "5080a160b473",
+          "evidence_sentence": "According to Baza, the seven-year-old is called Christopher, and he's among the 30 strongest chess players in Moscow aged up to nine years old.",
+          "source_doc_id": "1582",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 1805,
+            "end": 1816
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "f081bb4ad246",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Christopher",
+            "start": 141,
+            "end": 152
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "1582",
+        "1585",
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b879b338ef16",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "0030c5d8e25e",
+      "object_name": "Russian Chess Federation",
+      "evidence": [
+        {
+          "evidence_id": "bb5d2a9a15d5",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Russian Chess Federation",
+            "start": 377,
+            "end": 401
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e19d2e251757",
+          "evidence_sentence": "\"There are certain safety rules and the child, apparently, violated them...\" Sergey Smagin, vice-president of the Russian Chess Federation, told a Telegram-based news channel Baza.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "Russian Chess Federation",
+            "start": 2451,
+            "end": 2475
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1962a2e032a1",
+          "evidence_sentence": "Sergey Smagin, vice-president of the Russian Chess Federation, told Baza the robot appeared to pounce after it took one of the boy’s pieces.",
+          "source_doc_id": "1583",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "1585",
+        "6778"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "07ef412caca0",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "49c950c3ae21",
+      "object_name": "Moscow Chess Open",
+      "evidence": [
+        {
+          "evidence_id": "ecaec4757187",
+          "evidence_sentence": "On July 19, at the Moscow Chess Open competition, the incident took place.",
+          "source_doc_id": "1585",
+          "mention_span": {
+            "text": "Moscow Chess Open",
+            "start": 208,
+            "end": 225
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "1851849af7ad",
+          "evidence_sentence": "A robot broke a child’s finger – this is, of course, bad,” Lazarev said.\n“The robot was rented by us, it has been exhibited in many places by specialists for a long time.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "Moscow Chess Open",
+            "start": 208,
+            "end": 225
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481",
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e83aa2a5e5f5",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "2c51763c0f15",
+      "object_name": "TASS",
+      "evidence": [
+        {
+          "evidence_id": "be00ae82d883",
+          "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+          "source_doc_id": "6778",
+          "mention_span": {
+            "text": "TASS",
+            "start": 753,
+            "end": 757
+          },
+          "confidence": 0.8
+        },
+        {
+          "evidence_id": "073d11296230",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "TASS",
+            "start": 147,
+            "end": 151
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481",
+        "6778"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bb5f45a8029c",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "353c0f41c9ce",
+      "object_name": "robot operators",
+      "evidence": [
+        {
+          "evidence_id": "3bd4eede96d4",
+          "evidence_sentence": "Robot operators should probably consider increasing security to prevent the situation from repeating itself in the future",
+          "source_doc_id": "1581",
+          "mention_span": {
+            "text": "Robot operators",
+            "start": 1671,
+            "end": 1686
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "0c7d563e4413",
+          "evidence_sentence": "А операторам робота, видимо, придется подумать над усилением защиты, чтобы подобная ситуация не повторялась.",
+          "source_doc_id": "8482",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482",
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "172318479fd2",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "2a4a9085a0bc",
+      "object_name": "Moscomsport",
+      "evidence": [
+        {
+          "evidence_id": "fef3ac1670f8",
+          "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "Москомспорт",
+            "start": 783,
+            "end": 794
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8482"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3e847ec1d700",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "2de6b94cfc93",
+      "object_name": "Prosecutor's office",
+      "evidence": [
+        {
+          "evidence_id": "fef3ac1670f8",
+          "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+          "source_doc_id": "8482",
+          "mention_span": {
+            "text": "прокуратуру",
+            "start": 824,
+            "end": 835
+          },
+          "confidence": 0.85
+        },
+        {
+          "evidence_id": "0110e9097f21",
+          "evidence_sentence": "His parents, however, have reportedly contacted the public prosecutor’s office.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "public prosecutor’s office",
+            "start": 2365,
+            "end": 2391
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "8482"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f7ec5c4ccfbf",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "b1c354f2566d",
+      "object_name": "Sergey Karjakin",
+      "evidence": [
+        {
+          "evidence_id": "1e2dab8d3f54",
+          "evidence_sentence": "A Russian grandmaster, Sergey Karjakin, said the incident was no doubt due to “some kind of software error or something”, adding: “This has never happened before.",
+          "source_doc_id": "1583",
+          "mention_span": {
+            "text": "Sergey Karjakin",
+            "start": 2855,
+            "end": 2870
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "93c38b5d1755",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "involvesStakeholder",
+      "object_id": "ee33554d1c42",
+      "object_name": "Baza",
+      "evidence": [
+        {
+          "evidence_id": "86869c211c9c",
+          "evidence_sentence": "Video published on the Baza Telegram channel shows the robot grabbing the boy’s finger.",
+          "source_doc_id": "8481",
+          "mention_span": {
+            "text": "Baza",
+            "start": 1256,
+            "end": 1260
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1c5374c525c4",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "isRiskSourceFor",
+      "object_id": "c203d34585bd",
+      "object_name": "Inadequate safety warnings or operator oversight",
+      "evidence": [
+        {
+          "evidence_id": "ae37e39185e9",
+          "evidence_sentence": "\"A robot broke a child’s finger – this is, of course, bad,\" Lazarev said. \"The robot was rented by us, it has been exhibited in many places by specialists for a long time.\"",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "969d12149e34",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasRisk",
+      "object_id": "c439c0900ea9",
+      "object_name": "Risk of physical injury during human-robot interaction",
+      "evidence": [
+        {
+          "evidence_id": "e10f884c7739",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9aedbe8be691",
+      "subject_id": "c203d34585bd",
+      "subject_name": "Inadequate safety warnings or operator oversight",
+      "predicate": "causes",
+      "object_id": "c439c0900ea9",
+      "object_name": "Risk of physical injury during human-robot interaction",
+      "evidence": [
+        {
+          "evidence_id": "e10f884c7739",
+          "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+          "source_doc_id": "8481",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ce2383f354ef",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasConsequence",
+      "object_id": "16f9694e4120",
+      "object_name": "The robot physically grabbed and fractured a child's finger",
+      "evidence": [
+        {
+          "evidence_id": "f7714e1670f9",
+          "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d4e6fb32b29c",
+      "subject_id": "c439c0900ea9",
+      "subject_name": "Risk of physical injury during human-robot interaction",
+      "predicate": "leadsTo",
+      "object_id": "16f9694e4120",
+      "object_name": "The robot physically grabbed and fractured a child's finger",
+      "evidence": [
+        {
+          "evidence_id": "f7714e1670f9",
+          "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481",
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "32dd9e0693d7",
+      "subject_id": "pred_122",
+      "subject_name": "Chess robot goes rogue, breaks seven-year-old player's finger",
+      "predicate": "hasImpact",
+      "object_id": "1cf62499db6b",
+      "object_name": "Physical injury to a child participant",
+      "evidence": [
+        {
+          "evidence_id": "f9eb6760ec1f",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "894c3ca567d5",
+      "subject_id": "16f9694e4120",
+      "subject_name": "The robot physically grabbed and fractured a child's finger",
+      "predicate": "impacts",
+      "object_id": "1cf62499db6b",
+      "object_name": "Physical injury to a child participant",
+      "evidence": [
+        {
+          "evidence_id": "f9eb6760ec1f",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1585",
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d97e7c6a80a5",
+      "subject_id": "1cf62499db6b",
+      "subject_name": "Physical injury to a child participant",
+      "predicate": "affects",
+      "object_id": "b68ac1bc4e49",
+      "object_name": "Child chess players",
+      "evidence": [
+        {
+          "evidence_id": "253bc847992b",
+          "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+          "source_doc_id": "1581",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1581"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "523f20f33072",
+      "subject_id": "c203d34585bd",
+      "subject_name": "Inadequate safety warnings or operator oversight",
+      "predicate": "hasHazard",
+      "object_id": "8d019b14b229",
+      "object_name": "Lack of real-time safety constraints in robot's movement execution",
+      "evidence": [
+        {
+          "evidence_id": "b5d44d95a6a7",
+          "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+          "source_doc_id": "1582",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1582",
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4cadfb5701ff",
+      "subject_id": "c203d34585bd",
+      "subject_name": "Inadequate safety warnings or operator oversight",
+      "predicate": "hasThreat",
+      "object_id": "f6ae1419c0c3",
+      "object_name": "Unexpectedly rapid or premature input from a human opponent",
+      "evidence": [
+        {
+          "evidence_id": "cae7e705a314",
+          "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+          "source_doc_id": "1585",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "8481",
+        "1585"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9c290737838e",
+      "subject_id": "4eeb4ceb51d7",
+      "subject_name": "chess-playing robot",
+      "predicate": "hasVulnerability",
+      "object_id": "218c1b58947e",
+      "object_name": "Insufficient time delay or safety mechanism to account for human input variability",
+      "evidence": [
+        {
+          "evidence_id": "09cbf18ecd44",
+          "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1583",
+        "1581",
+        "8482",
+        "1582",
+        "8481"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b794604b245",
+      "subject_id": "1b68fe8a33b4",
+      "subject_name": "Need for enhanced operator safety protocols and warnings",
+      "predicate": "mitigates",
+      "object_id": "c439c0900ea9",
+      "object_name": "Risk of physical injury during human-robot interaction",
+      "evidence": [
+        {
+          "evidence_id": "289f06118708",
+          "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+          "source_doc_id": "1590",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1590",
+        "8481"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "a984b3aa16c1",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "1581",
+      "evidence": {
+        "evidence_id": "2f8ebae4a991",
+        "evidence_sentence": "A chess robot in Moscow has broken the finger of its human opponent",
+        "source_doc_id": "1581",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "bcea86c2e35e",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "1582",
+      "evidence": {
+        "evidence_id": "7e8b382627b6",
+        "evidence_sentence": "Chess robot goes rogue, breaks seven-year-old player's finger",
+        "source_doc_id": "1582",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a0cb2971b5c1",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "1583",
+      "evidence": {
+        "evidence_id": "eac8697c93bc",
+        "evidence_sentence": "Chess robot grabs and breaks finger of seven-year-old opponent",
+        "source_doc_id": "1583",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c0d39967cf53",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "1585",
+      "evidence": {
+        "evidence_id": "4aea53c1b4bf",
+        "evidence_sentence": "AI gone wrong? Chess robot breaks child's finger at Russia tournament",
+        "source_doc_id": "1585",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "460b79cc3447",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "1590",
+      "evidence": {
+        "evidence_id": "96d9081cb2ee",
+        "evidence_sentence": "Chess-playing robot breaks finger of 7-year-old boy during match",
+        "source_doc_id": "1590",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9df74dc2b6f4",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "6778",
+      "evidence": {
+        "evidence_id": "88431195168a",
+        "evidence_sentence": "Chess robot breaks seven-year-old’s finger during tournament in Russia",
+        "source_doc_id": "6778",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "7f69d9ae34db",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "8481",
+      "evidence": {
+        "evidence_id": "bc8be7bb8737",
+        "evidence_sentence": "Chess-playing robot breaks boy’s finger at Moscow tournament",
+        "source_doc_id": "8481",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "38b70f55e1d8",
+      "subject_id": "pred_122",
+      "predicate": "hasReport",
+      "object_id": "8482",
+      "evidence": {
+        "evidence_id": "44dcc2522e2a",
+        "evidence_sentence": "Робот сломал палец ребенку на международном шахматном форуме Moscow Chess Open",
+        "source_doc_id": "8482",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9fa40a8e7c96",
+      "subject_id": "pred_122",
+      "predicate": "involvesAISystem",
+      "object_id": "4eeb4ceb51d7",
+      "evidence": {
+        "evidence_id": "4b3e5ec1a7dc",
+        "evidence_sentence": "A chess-playing robot broke the finger of a 7-year-old boy who was competing against it during a recent tournament in Moscow.",
+        "source_doc_id": "1590",
+        "mention_span": {
+          "text": "chess-playing robot",
+          "start": 2,
+          "end": 21
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4ca6a23d92c8",
+      "subject_id": "pred_122",
+      "predicate": "involvesAISystem",
+      "object_id": "4eeb4ceb51d7",
+      "evidence": {
+        "evidence_id": "837fd05aba4f",
+        "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+        "source_doc_id": "1585",
+        "mention_span": {
+          "text": "chess-playing robot",
+          "start": 33,
+          "end": 52
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2cea92ead311",
+      "subject_id": "pred_122",
+      "predicate": "involvesAISystem",
+      "object_id": "4eeb4ceb51d7",
+      "evidence": {
+        "evidence_id": "9eecc67f2e56",
+        "evidence_sentence": "Робот-шахматист сломал палец ребенку во время международного шахматного форума Moscow Chess Open, проходившего в Москве с 13 по 21 июля.",
+        "source_doc_id": "8482",
+        "mention_span": {
+          "text": "Робот-шахматист",
+          "start": 126,
+          "end": 141
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "fe7ba0d06b23",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "ebe60c0a1d67",
+      "evidence": {
+        "evidence_id": "6ed278cec78a",
+        "evidence_sentence": "According to officials from the Moscow Chess Federation, the child continued his participation in the event after his finger was placed in a plaster cast.",
+        "source_doc_id": "1590",
+        "mention_span": {
+          "text": "Moscow Chess Federation",
+          "start": 159,
+          "end": 182
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "6f06de859e81",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "ebe60c0a1d67",
+      "evidence": {
+        "evidence_id": "be00ae82d883",
+        "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+        "source_doc_id": "6778",
+        "mention_span": {
+          "text": "Moscow Chess Federation",
+          "start": 703,
+          "end": 726
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "5b9530be232f",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "ebe60c0a1d67",
+      "evidence": {
+        "evidence_id": "0731ac74c5c4",
+        "evidence_sentence": "We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.",
+        "source_doc_id": "1581",
+        "mention_span": {
+          "text": "Moscow Chess Federation",
+          "start": 1367,
+          "end": 1390
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "e0f08553a016",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "5e00023dcb98",
+      "evidence": {
+        "evidence_id": "d6526ec96ab3",
+        "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+        "source_doc_id": "1590",
+        "mention_span": {
+          "text": "Sergey Lazarev",
+          "start": 647,
+          "end": 661
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "18df74a199f6",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "5e00023dcb98",
+      "evidence": {
+        "evidence_id": "d57196979602",
+        "evidence_sentence": "“A robot broke a child’s finger – that’s bad, of course. We rented the robot, it used to be with experts in many places for a long time. Apparently the operators overlooked that.”, commented Moscow Chess Federation President Sergey Lazarev.",
+        "source_doc_id": "1581",
+        "mention_span": {
+          "text": "Sergey Lazarev",
+          "start": 1401,
+          "end": 1415
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "55c95f902449",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "5e00023dcb98",
+      "evidence": {
+        "evidence_id": "9be24ef5161e",
+        "evidence_sentence": "Об этом ТАСС в четверг рассказал президент Федерации шахмат Москвы Сергей Лазарев.",
+        "source_doc_id": "8482",
+        "mention_span": {
+          "text": "Сергей Лазарев",
+          "start": 330,
+          "end": 344
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "feaf887cdb86",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "a403235703d7",
+      "evidence": {
+        "evidence_id": "a6561ca2e822",
+        "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+        "source_doc_id": "1590",
+        "mention_span": {
+          "text": "Sergey Smagin",
+          "start": 1059,
+          "end": 1072
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "59c678acebcd",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "a403235703d7",
+      "evidence": {
+        "evidence_id": "bb5d2a9a15d5",
+        "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+        "source_doc_id": "1585",
+        "mention_span": {
+          "text": "Sergey Smagin",
+          "start": 340,
+          "end": 353
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "f85e3e1773e0",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "a403235703d7",
+      "evidence": {
+        "evidence_id": "a4c204742569",
+        "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+        "source_doc_id": "1582",
+        "mention_span": {
+          "text": "Sergey Smagin",
+          "start": 477,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "2229e1bb57e2",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "65d5afb81db9",
+      "evidence": {
+        "evidence_id": "bcbf543c3aef",
+        "evidence_sentence": "The boy, Christopher, is one of the top 30 young chess players in Moscow, and he is just nine years old.",
+        "source_doc_id": "1585",
+        "mention_span": {
+          "text": "Christopher",
+          "start": 467,
+          "end": 478
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "636831cc86c3",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "65d5afb81db9",
+      "evidence": {
+        "evidence_id": "5080a160b473",
+        "evidence_sentence": "According to Baza, the seven-year-old is called Christopher, and he's among the 30 strongest chess players in Moscow aged up to nine years old.",
+        "source_doc_id": "1582",
+        "mention_span": {
+          "text": "Christopher",
+          "start": 1805,
+          "end": 1816
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c505b5a8a876",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "65d5afb81db9",
+      "evidence": {
+        "evidence_id": "f081bb4ad246",
+        "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+        "source_doc_id": "1581",
+        "mention_span": {
+          "text": "Christopher",
+          "start": 141,
+          "end": 152
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "951aec8882bb",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "0030c5d8e25e",
+      "evidence": {
+        "evidence_id": "bb5d2a9a15d5",
+        "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+        "source_doc_id": "1585",
+        "mention_span": {
+          "text": "Russian Chess Federation",
+          "start": 377,
+          "end": 401
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "34c496a5d20f",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "0030c5d8e25e",
+      "evidence": {
+        "evidence_id": "e19d2e251757",
+        "evidence_sentence": "\"There are certain safety rules and the child, apparently, violated them...\" Sergey Smagin, vice-president of the Russian Chess Federation, told a Telegram-based news channel Baza.",
+        "source_doc_id": "6778",
+        "mention_span": {
+          "text": "Russian Chess Federation",
+          "start": 2451,
+          "end": 2475
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "e7678aa29ec0",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "0030c5d8e25e",
+      "evidence": {
+        "evidence_id": "1962a2e032a1",
+        "evidence_sentence": "Sergey Smagin, vice-president of the Russian Chess Federation, told Baza the robot appeared to pounce after it took one of the boy’s pieces.",
+        "source_doc_id": "1583",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "bf1c53c9019c",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "49c950c3ae21",
+      "evidence": {
+        "evidence_id": "ecaec4757187",
+        "evidence_sentence": "On July 19, at the Moscow Chess Open competition, the incident took place.",
+        "source_doc_id": "1585",
+        "mention_span": {
+          "text": "Moscow Chess Open",
+          "start": 208,
+          "end": 225
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f2b1f232c625",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "49c950c3ae21",
+      "evidence": {
+        "evidence_id": "1851849af7ad",
+        "evidence_sentence": "A robot broke a child’s finger – this is, of course, bad,” Lazarev said.\n“The robot was rented by us, it has been exhibited in many places by specialists for a long time.",
+        "source_doc_id": "8481",
+        "mention_span": {
+          "text": "Moscow Chess Open",
+          "start": 208,
+          "end": 225
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "49a810d74be5",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "2c51763c0f15",
+      "evidence": {
+        "evidence_id": "be00ae82d883",
+        "evidence_sentence": "\"The robot broke the child's finger. This, of course, is bad,\" Sergey Lazarev, President of the Moscow Chess Federation, told Russian news agency TASS.",
+        "source_doc_id": "6778",
+        "mention_span": {
+          "text": "TASS",
+          "start": 753,
+          "end": 757
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "32718d03390c",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "2c51763c0f15",
+      "evidence": {
+        "evidence_id": "073d11296230",
+        "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+        "source_doc_id": "8481",
+        "mention_span": {
+          "text": "TASS",
+          "start": 147,
+          "end": 151
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9fa1df1c96ab",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "353c0f41c9ce",
+      "evidence": {
+        "evidence_id": "3bd4eede96d4",
+        "evidence_sentence": "Robot operators should probably consider increasing security to prevent the situation from repeating itself in the future",
+        "source_doc_id": "1581",
+        "mention_span": {
+          "text": "Robot operators",
+          "start": 1671,
+          "end": 1686
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "fe9214310db7",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "353c0f41c9ce",
+      "evidence": {
+        "evidence_id": "0c7d563e4413",
+        "evidence_sentence": "А операторам робота, видимо, придется подумать над усилением защиты, чтобы подобная ситуация не повторялась.",
+        "source_doc_id": "8482",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "99f066fa6a21",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "2a4a9085a0bc",
+      "evidence": {
+        "evidence_id": "fef3ac1670f8",
+        "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+        "source_doc_id": "8482",
+        "mention_span": {
+          "text": "Москомспорт",
+          "start": 783,
+          "end": 794
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "08ddbceb2bf8",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "2de6b94cfc93",
+      "evidence": {
+        "evidence_id": "fef3ac1670f8",
+        "evidence_sentence": "Сейчас звонил Москомспорт, родители хотят обратиться в прокуратуру, будем общаться, разбираться и постараемся помочь [семье], чем сможем.",
+        "source_doc_id": "8482",
+        "mention_span": {
+          "text": "прокуратуру",
+          "start": 824,
+          "end": 835
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "f5c63c21013a",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "2de6b94cfc93",
+      "evidence": {
+        "evidence_id": "0110e9097f21",
+        "evidence_sentence": "His parents, however, have reportedly contacted the public prosecutor’s office.",
+        "source_doc_id": "1583",
+        "mention_span": {
+          "text": "public prosecutor’s office",
+          "start": 2365,
+          "end": 2391
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "5e472c1a3284",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "b1c354f2566d",
+      "evidence": {
+        "evidence_id": "1e2dab8d3f54",
+        "evidence_sentence": "A Russian grandmaster, Sergey Karjakin, said the incident was no doubt due to “some kind of software error or something”, adding: “This has never happened before.",
+        "source_doc_id": "1583",
+        "mention_span": {
+          "text": "Sergey Karjakin",
+          "start": 2855,
+          "end": 2870
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "bed061ab2f2d",
+      "subject_id": "pred_122",
+      "predicate": "involvesStakeholder",
+      "object_id": "ee33554d1c42",
+      "evidence": {
+        "evidence_id": "86869c211c9c",
+        "evidence_sentence": "Video published on the Baza Telegram channel shows the robot grabbing the boy’s finger.",
+        "source_doc_id": "8481",
+        "mention_span": {
+          "text": "Baza",
+          "start": 1256,
+          "end": 1260
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2058f8f1828a",
+      "subject_id": "pred_122",
+      "predicate": "isRiskSourceFor",
+      "object_id": "c203d34585bd",
+      "evidence": {
+        "evidence_id": "ae37e39185e9",
+        "evidence_sentence": "\"A robot broke a child’s finger – this is, of course, bad,\" Lazarev said. \"The robot was rented by us, it has been exhibited in many places by specialists for a long time.\"",
+        "source_doc_id": "8481",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "301b1acc5450",
+      "subject_id": "pred_122",
+      "predicate": "hasRisk",
+      "object_id": "c439c0900ea9",
+      "evidence": {
+        "evidence_id": "e10f884c7739",
+        "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+        "source_doc_id": "8481",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "db81a6c7b4c7",
+      "subject_id": "c203d34585bd",
+      "predicate": "causes",
+      "object_id": "c439c0900ea9",
+      "evidence": {
+        "evidence_id": "e10f884c7739",
+        "evidence_sentence": "A chess-playing robot broke a boy’s finger during a match in Russia last week, the president of the Moscow Chess Federation told state news agency TASS media.",
+        "source_doc_id": "8481",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "46ecd9206f95",
+      "subject_id": "pred_122",
+      "predicate": "hasConsequence",
+      "object_id": "16f9694e4120",
+      "evidence": {
+        "evidence_id": "f7714e1670f9",
+        "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+        "source_doc_id": "1585",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "43f75c8641ae",
+      "subject_id": "c439c0900ea9",
+      "predicate": "leadsTo",
+      "object_id": "16f9694e4120",
+      "evidence": {
+        "evidence_id": "f7714e1670f9",
+        "evidence_sentence": "During a tournament in Moscow, a chess-playing robot fractured a 7-year-old boy's finger when the youngster attempted a quick move without giving the device enough time to finish its task.",
+        "source_doc_id": "1585",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "209b5077fc7f",
+      "subject_id": "pred_122",
+      "predicate": "hasImpact",
+      "object_id": "1cf62499db6b",
+      "evidence": {
+        "evidence_id": "f9eb6760ec1f",
+        "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+        "source_doc_id": "1581",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1e3a705f6f7d",
+      "subject_id": "16f9694e4120",
+      "predicate": "impacts",
+      "object_id": "1cf62499db6b",
+      "evidence": {
+        "evidence_id": "f9eb6760ec1f",
+        "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+        "source_doc_id": "1581",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "8349133e748f",
+      "subject_id": "1cf62499db6b",
+      "predicate": "affects",
+      "object_id": "b68ac1bc4e49",
+      "evidence": {
+        "evidence_id": "253bc847992b",
+        "evidence_sentence": "A 7-year-old boy named Christopher, who, by the way, according to them, is among the top 30 chess players in Moscow under the age of nine, moved a piece on the chessboard earlier than he should",
+        "source_doc_id": "1581",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f1e846534039",
+      "subject_id": "c203d34585bd",
+      "predicate": "hasHazard",
+      "object_id": "8d019b14b229",
+      "evidence": {
+        "evidence_id": "b5d44d95a6a7",
+        "evidence_sentence": "According to Sergey Smagin, the chess robot broke the boy's finger when the child went for a swift move without waiting for the necessary time for the machine to complete its action.",
+        "source_doc_id": "1582",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "ab3e2be51726",
+      "subject_id": "c203d34585bd",
+      "predicate": "hasThreat",
+      "object_id": "f6ae1419c0c3",
+      "evidence": {
+        "evidence_id": "cae7e705a314",
+        "evidence_sentence": "The youngster is fine, but one of his fingers has been broken, according to Sergey Smagin, vice president of the Russian Chess Federation, who spoke to state-run news organisation RIA Novosti.",
+        "source_doc_id": "1585",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "e99cc30ba7de",
+      "subject_id": "4eeb4ceb51d7",
+      "predicate": "hasVulnerability",
+      "object_id": "218c1b58947e",
+      "evidence": {
+        "evidence_id": "09cbf18ecd44",
+        "evidence_sentence": "“The child made a move, and after that we need to give time for the robot to answer, but the boy hurried, the robot grabbed him,” Sergey Lazarev, president of the Moscow Chess Federation, told TASS.",
+        "source_doc_id": "1590",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9e5a9dc935f4",
+      "subject_id": "1b68fe8a33b4",
+      "predicate": "mitigates",
+      "object_id": "c439c0900ea9",
+      "evidence": {
+        "evidence_id": "289f06118708",
+        "evidence_sentence": "“It happens, a coincidence. It is necessary, apparently, to warn the children additionally,” federation vice president Sergey Smagin told RIA Novosti.",
+        "source_doc_id": "1590",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "chess-playing robot": 5,
+    "Moscow Chess Federation": 6,
+    "Sergey Lazarev": 4,
+    "Sergey Smagin": 4,
+    "Christopher": 4,
+    "Russian Chess Federation": 3,
+    "Moscow Chess Open": 2,
+    "Chess Robot": 3,
+    "Chess Federation of Russia": 1,
+    "TASS": 2,
+    "robot operators": 2,
+    "Moscomsport": 1,
+    "Prosecutor's office": 1,
+    "Public Prosecutor's Office": 1,
+    "Sergey Karjakin": 1,
+    "Baza": 1
+  },
+  "report_count": 8,
+  "first_seen": "2022-07-22",
+  "last_seen": "2022-07-25"
+}

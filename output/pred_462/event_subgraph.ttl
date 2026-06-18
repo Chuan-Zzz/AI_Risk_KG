@@ -1,0 +1,1371 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/83f04f6f812b> a airo:ComplianceRequirement ;
+    rdfs:label "AI products must undergo security assessment before public release" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e90cc7c0e8cd> ;
+    airo:hasReasoning "The draft law explicitly mandates a security assessment as a compliance step for releasing AI products." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/InformationSource/6ac85739410a> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8255>,
+        <https://w3id.org/airo/incident/NewsReport/8257>,
+        <https://w3id.org/airo/incident/NewsReport/8261> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255>,
+        <https://w3id.org/airo/incident/document/8257>,
+        <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/InformationSource/f7facc828207> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/4749> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/RiskControl/14cb5b8da469> a airo:RiskControl ;
+    rdfs:label "cross-regional police-bank collaboration to intercept fraudulent transfers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a2badf0e287> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/b6d4eb24356f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/06ae85381ae9> a airo:RoleAssignment ;
+    rdfs:label "Zhao Zhanling_Stakeholder" ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f4b3079ec1b6> ;
+    airo:hasReasoning "Zhao Zhanling is mentioned but no specific action or role is described in the provided evidence sentences. Insufficient information to assign a role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9d57de737aa9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1573bb3dd41b> a airo:RoleAssignment ;
+    rdfs:label "Beijing Anti-Fraud Center_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/549b26d29959> ;
+    airo:hasReasoning "As an anti-fraud center, it is part of the law enforcement and public education apparatus, similar to the police forces mentioned, thus fulfilling a regulatory function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0dd4f8daaab5> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/19547c5702b9> a airo:RoleAssignment ;
+    rdfs:label "Baotou Police_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0564a180be70> ;
+    airo:hasReasoning "Police conducted an investigation, stopped fraudulent transfers, and are educating the public, performing regulatory and enforcement functions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/84fa5cb402ef> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1a5794c5b947> a airo:RoleAssignment ;
+    rdfs:label "Qi Qi (alias)_AIUser" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3187d5ef48d> ;
+    airo:hasReasoning "The evidence describes a person (Qi Qi) who used ChatGPT (an AI system) to generate fake news, making them an AIUser in that specific context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c5ee48c7e5fd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/268ab94bc383> a airo:RoleAssignment ;
+    rdfs:label "Mengshang Bank_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e06efa0ea9c> ;
+    airo:hasReasoning "The bank is mentioned as the destination for the fraudulent funds. While it assisted police, its primary role in the evidence is as a financial intermediary, not fitting neatly into the other defined roles like AIDeployer or Regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8c8252499dae> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3ea4d4a9f2ff> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31972506574e> ;
+    airo:hasReasoning "OpenAI is mentioned as the company that launched (provided) ChatGPT, an AI system. The evidence does not state OpenAI developed or deployed the specific fraud AI." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2a2b4426f576> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/46d1ed97f7a8> a airo:RoleAssignment ;
+    rdfs:label "police and banks in Fuzhou and Baotou_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c33bc9f0d63> ;
+    airo:hasReasoning "The joint police and bank action to stop the payment is a regulatory and enforcement response to the fraud." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bd9ef6e92866> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/51e4e804756b> a airo:RoleAssignment ;
+    rdfs:label "Mr. Guo_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/284af0f69511> ;
+    airo:hasReasoning "Mr. Guo was the direct victim of the AI-enabled fraud, suffering a personal and financial loss." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6757504f2171> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/569bb61213d0> a airo:RoleAssignment ;
+    rdfs:label "Fuzhou Police_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdc79fbdba53> ;
+    airo:hasReasoning "Fuzhou police are part of the investigative and enforcement response to the fraud incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/49238974665d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/776dd8a34a24> a airo:RoleAssignment ;
+    rdfs:label "online vendor_AIProvider" ;
+    airo:confidenceScore "0.3"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db17f3e9c156> ;
+    airo:hasReasoning "The evidence mentions an 'online vendor' in the context of fraud (though not explicit in this sentence). In the broader fraud case, the scammer likely acquired the AI tools from somewhere. However, the provided evidence does not explicitly link the 'online vendor' to providing the AI. This is a weak inference. Omitting." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4e4c163cf3e4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bbd37b88a251> a airo:RoleAssignment ;
+    rdfs:label "Baotou Public Security Bureau_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d57560e0481> ;
+    airo:hasReasoning "The Public Security Bureau is a law enforcement body that investigated the case and is issuing public warnings, fulfilling a regulatory role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cada8a3be111> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cab61d442e13> a airo:RoleAssignment ;
+    rdfs:label "a technology company in Fuzhou_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c1cc9f2de9f6> ;
+    airo:hasReasoning "The company, through its legal representative, was the victim of the fraud and suffered a significant financial loss." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bcb93ea27420> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d4fb10c8c8ca> a airo:RoleAssignment ;
+    rdfs:label "Fu Liang_AffectedActor" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e330ed8338d9> ;
+    airo:hasReasoning "The evidence states coercive measures were taken against this man for using AI, indicating he was adversely affected by the enforcement action." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_462> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2dec27c43a4f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/9418897888b4> .
+
+<https://w3id.org/airo/incident/Trend/0a6c0b05eef5> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny of generative AI and deepfakes due to risks like fraud and misinformation" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fb2f3ffd28b> ;
+    airo:hasReasoning "The evidence cites a new deepfake law and a draft AI security assessment law, indicating a trend toward stronger governance of high-risk AI applications." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/event/pred_462> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-05-22T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2023-05-24T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0062a606b720> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f745d04a7ad> .
+
+<https://w3id.org/airo/incident/ks/01e843e610a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc8076d967c> .
+
+<https://w3id.org/airo/incident/ks/045e566deb8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55db65d6d439> .
+
+<https://w3id.org/airo/incident/ks/05626ba343ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a4c9daeb02> .
+
+<https://w3id.org/airo/incident/ks/0733e1da92f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b615c496d10> .
+
+<https://w3id.org/airo/incident/ks/0849adaeec2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f373268f00d> .
+
+<https://w3id.org/airo/incident/ks/0da6b3f0ded2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0abd6a166042> .
+
+<https://w3id.org/airo/incident/ks/0ffa8449cc9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6b160039a6a> .
+
+<https://w3id.org/airo/incident/ks/177c2322381d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44d47ce6f27b> .
+
+<https://w3id.org/airo/incident/ks/1ab390b04eab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44d47ce6f27b> .
+
+<https://w3id.org/airo/incident/ks/1ceec1bbfc19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e30a6793ddfb> .
+
+<https://w3id.org/airo/incident/ks/1e20d67e7a2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c7788ace5b1> .
+
+<https://w3id.org/airo/incident/ks/20fb7f756c22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d979124ce22f> .
+
+<https://w3id.org/airo/incident/ks/23e6d570df27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44775a77f606> .
+
+<https://w3id.org/airo/incident/ks/245dbf9010a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/148ac978ad6a> .
+
+<https://w3id.org/airo/incident/ks/2604993726b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f9d33e0b04e> .
+
+<https://w3id.org/airo/incident/ks/285af67918c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/288dffc13b4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c588da5a95b9> .
+
+<https://w3id.org/airo/incident/ks/2a6975a60c5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a916faffce10> .
+
+<https://w3id.org/airo/incident/ks/366d3b6b619b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b65c351034f1> .
+
+<https://w3id.org/airo/incident/ks/3a70232e4ffb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a4466ad9e9> .
+
+<https://w3id.org/airo/incident/ks/3aa227cf8f6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44d47ce6f27b> .
+
+<https://w3id.org/airo/incident/ks/3bf34af44157> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70ea9af458be> .
+
+<https://w3id.org/airo/incident/ks/3e7dcef6129f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44775a77f606> .
+
+<https://w3id.org/airo/incident/ks/411dd966b74a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/459660c9ffb9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4ba85d276a4> .
+
+<https://w3id.org/airo/incident/ks/4ae0ba731e91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b67dcf09f137> .
+
+<https://w3id.org/airo/incident/ks/4eca3a8b3e7c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/514054014e70> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/237184504c44> .
+
+<https://w3id.org/airo/incident/ks/54588900dd89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44d47ce6f27b> .
+
+<https://w3id.org/airo/incident/ks/553779ccf7a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> .
+
+<https://w3id.org/airo/incident/ks/55ec9fd22019> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43753ca7045e> .
+
+<https://w3id.org/airo/incident/ks/5815c61ca494> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22fdc04d8cb5> .
+
+<https://w3id.org/airo/incident/ks/59dc356553a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a4c9daeb02> .
+
+<https://w3id.org/airo/incident/ks/5b266d1d0883> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/148ac978ad6a> .
+
+<https://w3id.org/airo/incident/ks/5c2efb1e45d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2ac7a537f04> .
+
+<https://w3id.org/airo/incident/ks/5f59a5bfaa7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/237184504c44> .
+
+<https://w3id.org/airo/incident/ks/6244529ca373> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.3"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d45fae6a59d2> .
+
+<https://w3id.org/airo/incident/ks/66188c5acec2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> .
+
+<https://w3id.org/airo/incident/ks/67a4cff4926e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccb98fc0bdda> .
+
+<https://w3id.org/airo/incident/ks/693d6bee5ce1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/237184504c44> .
+
+<https://w3id.org/airo/incident/ks/6cfec75f9559> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> .
+
+<https://w3id.org/airo/incident/ks/6d891b22eb63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c588da5a95b9> .
+
+<https://w3id.org/airo/incident/ks/7079c1d74e54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> .
+
+<https://w3id.org/airo/incident/ks/742f5832c1f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> .
+
+<https://w3id.org/airo/incident/ks/75f7e8d3ffb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22fdc04d8cb5> .
+
+<https://w3id.org/airo/incident/ks/763dd4e162da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5e46643564b> .
+
+<https://w3id.org/airo/incident/ks/7b6d7ecbdd23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> .
+
+<https://w3id.org/airo/incident/ks/7c21f070528d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/7cf539e16f45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a4466ad9e9> .
+
+<https://w3id.org/airo/incident/ks/8013f2bad5db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.3"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d979124ce22f> .
+
+<https://w3id.org/airo/incident/ks/83734566035d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> .
+
+<https://w3id.org/airo/incident/ks/83be8509871d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/237184504c44> .
+
+<https://w3id.org/airo/incident/ks/876f514e079d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c33ea939c2eb> .
+
+<https://w3id.org/airo/incident/ks/88889b322697> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a2badf0e287> .
+
+<https://w3id.org/airo/incident/ks/8e4ed0ee0ff5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/8f80078aea37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> .
+
+<https://w3id.org/airo/incident/ks/8faf984d41e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6afa06518bb6> .
+
+<https://w3id.org/airo/incident/ks/90825f30e910> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/90b36d3179da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> .
+
+<https://w3id.org/airo/incident/ks/9a355070cf49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> .
+
+<https://w3id.org/airo/incident/ks/9b27c64fb877> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6c6774123bb> .
+
+<https://w3id.org/airo/incident/ks/9dfd8a5e7243> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a916faffce10> .
+
+<https://w3id.org/airo/incident/ks/a2e6a36485ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f297929d183> .
+
+<https://w3id.org/airo/incident/ks/a3847ea764bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fec191824b91> .
+
+<https://w3id.org/airo/incident/ks/aa419a49301a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6b160039a6a> .
+
+<https://w3id.org/airo/incident/ks/b138dfeb31c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a4c9daeb02> .
+
+<https://w3id.org/airo/incident/ks/b196021b5a21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc8076d967c> .
+
+<https://w3id.org/airo/incident/ks/b22dbcff1670> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b65c351034f1> .
+
+<https://w3id.org/airo/incident/ks/b30a688f362b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd52c786c2b9> .
+
+<https://w3id.org/airo/incident/ks/b3f994a708ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a4466ad9e9> .
+
+<https://w3id.org/airo/incident/ks/b4e26473f975> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc8076d967c> .
+
+<https://w3id.org/airo/incident/ks/b5a507552a1c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e30a6793ddfb> .
+
+<https://w3id.org/airo/incident/ks/b89c1b63a4c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e30a6793ddfb> .
+
+<https://w3id.org/airo/incident/ks/bb3a452cacb1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc43f8a49d7> .
+
+<https://w3id.org/airo/incident/ks/bd6121528f01> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f9d33e0b04e> .
+
+<https://w3id.org/airo/incident/ks/bf4b417f4610> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22fdc04d8cb5> .
+
+<https://w3id.org/airo/incident/ks/c2da75115ca8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e30a6793ddfb> .
+
+<https://w3id.org/airo/incident/ks/c40971c771b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63f628505ec2> .
+
+<https://w3id.org/airo/incident/ks/c5662533e7b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.3"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d979124ce22f> .
+
+<https://w3id.org/airo/incident/ks/c5717953a9bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a4466ad9e9> .
+
+<https://w3id.org/airo/incident/ks/c614b9640856> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5b5554704c> .
+
+<https://w3id.org/airo/incident/ks/c7cf41843f5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> .
+
+<https://w3id.org/airo/incident/ks/cc074ed53819> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc8076d967c> .
+
+<https://w3id.org/airo/incident/ks/cdc0056f0623> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bb260131286> .
+
+<https://w3id.org/airo/incident/ks/cdca6c021b25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a4466ad9e9> .
+
+<https://w3id.org/airo/incident/ks/ce283dffb5d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f745d04a7ad> .
+
+<https://w3id.org/airo/incident/ks/cfb3863ff0d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55db65d6d439> .
+
+<https://w3id.org/airo/incident/ks/d20adcc1ed54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a4c9daeb02> .
+
+<https://w3id.org/airo/incident/ks/d21599b64814> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/d566ff807cbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> .
+
+<https://w3id.org/airo/incident/ks/dbaabe45319f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6b160039a6a> .
+
+<https://w3id.org/airo/incident/ks/dd874a905706> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.3"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b54a6e06bb1> .
+
+<https://w3id.org/airo/incident/ks/de02b496f0be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> .
+
+<https://w3id.org/airo/incident/ks/df2d11757bd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f745d04a7ad> .
+
+<https://w3id.org/airo/incident/ks/df67f60ad30c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> .
+
+<https://w3id.org/airo/incident/ks/e4ab2e09ae2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f745d04a7ad> .
+
+<https://w3id.org/airo/incident/ks/e505193b5763> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> .
+
+<https://w3id.org/airo/incident/ks/e60d8f5d1b47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> .
+
+<https://w3id.org/airo/incident/ks/ea6b63154533> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/066c5d015792> .
+
+<https://w3id.org/airo/incident/ks/ecc26fb78b59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55db65d6d439> .
+
+<https://w3id.org/airo/incident/ks/ef1a173af61f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22fdc04d8cb5> .
+
+<https://w3id.org/airo/incident/ks/efdeb0c571e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d979124ce22f> .
+
+<https://w3id.org/airo/incident/ks/f732c04109b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6b160039a6a> .
+
+<https://w3id.org/airo/incident/ks/fa645f7cf70a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55db65d6d439> .
+
+<https://w3id.org/airo/incident/AICapability/24ad38bed0e1> a airo:AICapability ;
+    rdfs:label "generate video" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "生成视频" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/AICapability/59ff00a79fca> a airo:AICapability ;
+    rdfs:label "voice cloning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "克隆声音" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6afa06518bb6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/AICapability/6af2e8d0f096> a airo:AICapability ;
+    rdfs:label "face-swapping" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI换脸" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd52c786c2b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/AICapability/74aec582837e> a airo:AICapability ;
+    rdfs:label "mimic faces and voices" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "mimic faces and voices" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b65c351034f1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/AICapability/c3c9fb58d9b8> a airo:AICapability ;
+    rdfs:label "video call" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "video call" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/52c1c7df80c5> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0abd6a166042> ;
+    airo:hasReasoning "The AI system was actively used in a real-world fraud case, indicating it was in the deployment phase when the risk occurred." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/AITechnique/1e5a94110da3> a airo:AITechnique ;
+    rdfs:label "AI face-swapping and voice synthesis technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "智能AI换脸和拟声技术" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70ea9af458be>,
+        <https://w3id.org/airo/incident/evidence/98a4466ad9e9>,
+        <https://w3id.org/airo/incident/evidence/e4ba85d276a4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257>,
+        <https://w3id.org/airo/incident/document/8261> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/c778b93c036c> a airo:AITechnique ;
+    rdfs:label "AI deepfake technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "smart AI technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c33ea939c2eb>,
+        <https://w3id.org/airo/incident/evidence/d2ac7a537f04> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/AITechnique/f6ad4939df63> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b65c351034f1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/AffectedActor/d4fc557b46d1> a airo:AffectedActor ;
+    rdfs:label "individuals and companies conducting remote communication" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/066c5d015792> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/Domain/6adf4fd2ea23> a airo:Domain ;
+    rdfs:label "fraud and security" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bb260131286> ;
+    airo:hasReasoning "The primary impact was financial fraud targeting individuals, falling under the security domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/Purpose/5c7ece2b9507> a airo:Purpose ;
+    rdfs:label "mimic faces and voices for video calls to deceive targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43753ca7045e> ;
+    airo:hasReasoning "The evidence explicitly states the AI technology was used to mimic faces and voices in a video call to impersonate a friend and commit fraud." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/RiskSource/43defbd5b5b8> a airo:RiskSource ;
+    rdfs:label "AI deepfake and voice synthesis technology" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/b6d4eb24356f> ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b67dcf09f137> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/Vulnerability/6e78cd146780> a airo:Vulnerability ;
+    rdfs:label "lack of robust verification for identity in remote communication" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6c6774123bb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/evidence/0564a180be70> a airo:Evidence ;
+    airo:evidenceText "[8255] With assistance from the bank, Baotou police successfully stop a transfer of about 3.37 million yuan from going into the fraudster's account. [8255] Police are looking to educate the public about a new type of fraud that uses artificial intelligence to mimic faces and voices." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/1d57560e0481> a airo:Evidence ;
+    airo:evidenceText "[8261] 近日，包头警方发布一起利用人工智能（AI）实施电信诈骗的典型案例。 [8255] The public security bureau of Baotou, Inner Mongolia autonomous region, is striving to raise awareness after recently handling such a case..." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/1e06efa0ea9c> a airo:Evidence ;
+    airo:evidenceText "[8255] After discovering that the fake friend's account was with Mengshang Bank in Baotou, Fuzhou police soon contacted Baotou police to stop the payment." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/27da472acc1e> a airo:Evidence ;
+    airo:evidenceText "China scammer uses AI to impersonate victim’s friend, steal $823,000" ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/284af0f69511> a airo:Evidence ;
+    airo:evidenceText "[8261] 福州市某科技公司法人代表郭先生10分钟内被骗430万元。 [8255] On April 20, a man surnamed Guo, a legal representative of a technology company in Fuzhou, Fujian province, received a video call via WeChat from a friend asking him for help." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/2c33bc9f0d63> a airo:Evidence ;
+    airo:evidenceText "[8261] 接到报警后，福州、包头两地警银迅速启动止付机制，成功止付拦截336.84万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/31972506574e> a airo:Evidence ;
+    airo:evidenceText "[4749] The potential pitfalls of groundbreaking AI technology have received heightened attention since United States-based company OpenAI in November launched ChatGPT, a chatbot that mimics human speech." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/3b54a6e06bb1> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/3d52ae007059> a airo:Evidence ;
+    airo:evidenceText "AI诈骗正在全国爆发" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/3f297929d183> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/549b26d29959> a airo:Evidence ;
+    airo:evidenceText "[8255] The public security bureau of Baotou, Inner Mongolia autonomous region, is striving to raise awareness after recently handling such a case... [8261] 近日，包头警方发布一起利用人工智能（AI）实施电信诈骗的典型案例。" ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/5fb2f3ffd28b> a airo:Evidence ;
+    airo:evidenceText "[4749] A law regulating deepfakes, which came into effect in January, bans the use of the technology to produce, publish or transmit false news. [4749] And a draft law proposed in April by Beijing’s Internet regulator would require all new AI products to undergo a “security assessment” before being released to the public." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/8dc43f8a49d7> a airo:Evidence ;
+    airo:evidenceText "[4749] The potential pitfalls of groundbreaking AI technology have received heightened attention since United States-based company OpenAI in November launched ChatGPT, a chatbot that mimics human speech." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/9214c1b8f277> a airo:Evidence ;
+    airo:evidenceText "AI诈骗背后：用照片生成你“露脸说话”的视频仅需30元左右" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/ac5b5554704c> a airo:Evidence ;
+    airo:evidenceText "[4749] The potential pitfalls of groundbreaking AI technology have received heightened attention since United States-based company OpenAI in November launched ChatGPT, a chatbot that mimics human speech." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/b29f2419d2b7> a airo:Evidence ;
+    airo:evidenceText "Police warn of AI fraud after man duped by 'friend'" ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/c1cc9f2de9f6> a airo:Evidence ;
+    airo:evidenceText "[8261] 福州市某科技公司法人代表郭先生10分钟内被骗430万元。 [8255] On April 20, a man surnamed Guo, a legal representative of a technology company in Fuzhou, Fujian province, received a video call via WeChat from a friend asking him for help." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/c3187d5ef48d> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/ccb98fc0bdda> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/d45fae6a59d2> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/db17f3e9c156> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/e330ed8338d9> a airo:Evidence ;
+    airo:evidenceText "[4749] Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/e90cc7c0e8cd> a airo:Evidence ;
+    airo:evidenceText "[4749] And a draft law proposed in April by Beijing’s Internet regulator would require all new AI products to undergo a “security assessment” before being released to the public." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/f4b3079ec1b6> a airo:Evidence ;
+    airo:evidenceText "[4749] A law regulating deepfakes, which came into effect in January, bans the use of the technology to produce, publish or transmit false news." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/fdc79fbdba53> a airo:Evidence ;
+    airo:evidenceText "[8261] 接到报警后，福州、包头两地警银迅速启动止付机制，成功止付拦截336.84万元。 [8255] After discovering that the fake friend's account was with Mengshang Bank in Baotou, Fuzhou police soon contacted Baotou police to stop the payment." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/Consequence/45d8753095bd> a airo:Consequence ;
+    rdfs:label "financial loss through fraudulent transfer of funds" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c588da5a95b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/ce6161f59ea0> .
+
+<https://w3id.org/airo/incident/Impact/ce6161f59ea0> a airo:Impact ;
+    rdfs:label "significant monetary loss and erosion of trust in digital communication" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/d4fc557b46d1> ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44775a77f606> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/NewsReport/4749> a airo:NewsReport ;
+    rdfs:label "China scammer uses AI to impersonate victim’s friend, steal $823,000" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """BEIJING – A scammer in China used artificial intelligence (AI) to pose as a businessman’s trusted friend and convince him to hand over millions of yuan, the authorities said.
+
+The victim, whose surnam""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b615c496d10> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/NewsReport/8255> a airo:NewsReport ;
+    rdfs:label "Police warn of AI fraud after man duped by 'friend'" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """NEWSPAPER
+            
+              China Daily PDF
+              China Daily E-paper
+China Daily PDF
+China Daily E-paper
+Cross-Strait
+Cover Story
+Environment
+Police warn of AI fraud after man duped """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c7788ace5b1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/NewsReport/8257> a airo:NewsReport ;
+    rdfs:label "AI诈骗背后：用照片生成你“露脸说话”的视频仅需30元左右" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """AI诈骗背后：用照片生成你“露脸说话”的视频仅需30元左右
+某天，你的一位熟人发来借钱的请求，随后对方打来了视频。视频接通后你确认长相和声音就是熟人“本人”，你没有怀疑把钱转了过去。没过多久，你发现自己被骗了，刚才视频里那位“熟人”并不是真的他。
+这可不是鬼故事，而是已经发生在多位受害者身上的真实案例。
+只需一张照片、10分钟声音素材
+近日，一则10分钟被AI骗走430万元的新闻刷屏。据警方通报，""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63f628505ec2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/NewsReport/8261> a airo:NewsReport ;
+    rdfs:label "AI诈骗正在全国爆发" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "近日，包头警方发布一起利用人工智能（AI）实施电信诈骗的典型案例，福州市某科技公司法人代表郭先生10分钟内被骗430万元。4月20日中午，郭先生的好友突然通过微信视频联系他，自己的朋友在外地竞标，需要430万保证金，且需要公对公账户过账，想要借郭先生公司的账户走账。基于对好友的信任，加上已经视频聊天核实了身份，郭先生没有核实钱款是否到账，就分两笔把430万转到了好友朋友的银行卡上。郭先生拨打好友电" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fec191824b91> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/Regulation/4b10c27e0bd9> a airo:Regulation ;
+    rdfs:label "Copyright Law" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "著作权法" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a916faffce10> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/Regulation/7cf9001f498b> a airo:Regulation ;
+    rdfs:label "AI Security Assessment Regulation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "security assessment" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f9d33e0b04e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> .
+
+<https://w3id.org/airo/incident/Stakeholder/0dd4f8daaab5> a airo:Stakeholder ;
+    rdfs:label "Beijing Anti-Fraud Center" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "北京反诈" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55db65d6d439> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/Stakeholder/2a2b4426f576> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7396912e609c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/9418897888b4>,
+        <https://w3id.org/airo/incident/AISystem/e8cc759a1ad0> .
+
+<https://w3id.org/airo/incident/Stakeholder/2dec27c43a4f> a airo:Stakeholder ;
+    rdfs:label "Fu Liang" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "付亮" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f745d04a7ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/Stakeholder/49238974665d> a airo:Stakeholder ;
+    rdfs:label "Fuzhou Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Fuzhou police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22fdc04d8cb5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/Stakeholder/4e4c163cf3e4> a airo:Stakeholder ;
+    rdfs:label "online vendor" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "商家" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d979124ce22f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/9418897888b4>,
+        <https://w3id.org/airo/incident/AISystem/e8cc759a1ad0> .
+
+<https://w3id.org/airo/incident/Stakeholder/6757504f2171> a airo:Stakeholder ;
+    rdfs:label "Mr. Guo" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "郭先生" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205c395fe93a>,
+        <https://w3id.org/airo/incident/evidence/98a4466ad9e9>,
+        <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255>,
+        <https://w3id.org/airo/incident/document/8257>,
+        <https://w3id.org/airo/incident/document/8261> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/84fa5cb402ef> a airo:Stakeholder ;
+    rdfs:label "Baotou Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "包头警方" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a4c9daeb02>,
+        <https://w3id.org/airo/incident/evidence/f6b160039a6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255>,
+        <https://w3id.org/airo/incident/document/8261> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/8c8252499dae> a airo:Stakeholder ;
+    rdfs:label "Mengshang Bank" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mengshang Bank" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/237184504c44> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/Stakeholder/9d57de737aa9> a airo:Stakeholder ;
+    rdfs:label "Zhao Zhanling" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "赵占领" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e30a6793ddfb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/Stakeholder/bcb93ea27420> a airo:Stakeholder ;
+    rdfs:label "a technology company in Fuzhou" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "福州市某科技公司" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/Stakeholder/bd9ef6e92866> a airo:Stakeholder ;
+    rdfs:label "police and banks in Fuzhou and Baotou" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "福州、包头两地警银" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc8076d967c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> .
+
+<https://w3id.org/airo/incident/Stakeholder/c5ee48c7e5fd> a airo:Stakeholder ;
+    rdfs:label "Qi Qi (alias)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "七七" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4750286d5705> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/9418897888b4>,
+        <https://w3id.org/airo/incident/AISystem/e8cc759a1ad0> .
+
+<https://w3id.org/airo/incident/Stakeholder/cada8a3be111> a airo:Stakeholder ;
+    rdfs:label "Baotou Public Security Bureau" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "public security bureau of Baotou" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44d47ce6f27b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8255> .
+
+<https://w3id.org/airo/incident/evidence/066c5d015792> a airo:Evidence ;
+    airo:evidenceText "福州市某科技公司法人代表郭先生10分钟内被骗430万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/0abd6a166042> a airo:Evidence ;
+    airo:evidenceText "[8261] 福州市某科技公司法人代表郭先生10分钟内被骗430万元。 [8255] On April 20, a man surnamed Guo, a legal representative of a technology company in Fuzhou, Fujian province, received a video call via WeChat from a friend asking him for help." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/1a2badf0e287> a airo:Evidence ;
+    airo:evidenceText "接到报警后，福州、包头两地警银迅速启动止付机制，成功止付拦截336.84万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/2b615c496d10> a airo:Evidence ;
+    airo:evidenceText "China scammer uses AI to impersonate victim’s friend, steal $823,000" ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/43753ca7045e> a airo:Evidence ;
+    airo:evidenceText "[8261] 骗子通过智能AI换脸和拟声技术，佯装好友对他实施了诈骗。 [4749] But the caller was actually a con artist “using smart AI technology to change (his) face” and voice, according to an article published on Monday by a media portal associated with the government in the southern city of Fuzhou." ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/4c7788ace5b1> a airo:Evidence ;
+    airo:evidenceText "Police warn of AI fraud after man duped by 'friend'" ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/63f628505ec2> a airo:Evidence ;
+    airo:evidenceText "AI诈骗背后：用照片生成你“露脸说话”的视频仅需30元左右" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/6afa06518bb6> a airo:Evidence ;
+    airo:evidenceText "除了快速AI换脸，用AI手段合成或克隆声音也越来越常见。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/6f373268f00d> a airo:Evidence ;
+    airo:evidenceText "Earlier in May, police in the north-western province of Gansu said “coercive measures” had been taken against a man who used ChatGPT to create a fake news article about a deadly bus crash that was spread widely on social media." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/70ea9af458be> a airo:Evidence ;
+    airo:evidenceText "而这些案件背后，均涉及了AI换脸以及声音合成技术。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/9bb260131286> a airo:Evidence ;
+    airo:evidenceText "[8255] Police are looking to educate the public about a new type of fraud that uses artificial intelligence to mimic faces and voices." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/b67dcf09f137> a airo:Evidence ;
+    airo:evidenceText "骗子通过智能AI换脸和拟声技术，佯装好友对他实施了诈骗。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/c33ea939c2eb> a airo:Evidence ;
+    airo:evidenceText "But the caller was actually a con artist “using smart AI technology to change (his) face” and voice, according to an article published on Monday by a media portal associated with the government in the southern city of Fuzhou." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/c6c6774123bb> a airo:Evidence ;
+    airo:evidenceText "On April 20, a man surnamed Guo, a legal representative of a technology company in Fuzhou, Fujian province, received a video call via WeChat from a friend asking him for help." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/cd52c786c2b9> a airo:Evidence ;
+    airo:evidenceText "只需提供一张照片，就可以让你变成视频中人，或直接生成会眨眼、张嘴的视频。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/d2ac7a537f04> a airo:Evidence ;
+    airo:evidenceText "A law regulating deepfakes, which came into effect in January, bans the use of the technology to produce, publish or transmit false news." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/d5e46643564b> a airo:Evidence ;
+    airo:evidenceText "据中新经纬了解，目前虚拟摄像头就可以做到这一点。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/e4ba85d276a4> a airo:Evidence ;
+    airo:evidenceText "骗子通过智能AI换脸和拟声技术，佯装好友对他实施了诈骗。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/fec191824b91> a airo:Evidence ;
+    airo:evidenceText "AI诈骗正在全国爆发" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/Risk/b6d4eb24356f> a airo:Risk ;
+    rdfs:label "risk of AI-powered fraud through identity spoofing" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/148ac978ad6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8261> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/45d8753095bd> .
+
+<https://w3id.org/airo/incident/evidence/148ac978ad6a> a airo:Evidence ;
+    airo:evidenceText "近日，包头警方发布一起利用人工智能（AI）实施电信诈骗的典型案例。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/44775a77f606> a airo:Evidence ;
+    airo:evidenceText "The public security bureau of Baotou, Inner Mongolia autonomous region, is striving to raise awareness after recently handling such a case in which the victim was tricked into transferring a total of 4.3 million yuan ($612,000) via a company account after having a video chat with someone pretending to be his friend." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/8f9d33e0b04e> a airo:Evidence ;
+    airo:evidenceText "And a draft law proposed in April by Beijing’s Internet regulator would require all new AI products to undergo a “security assessment” before being released to the public." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/a916faffce10> a airo:Evidence ;
+    airo:evidenceText "但对于声音来说，目前则不受著作权法保护。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/c588da5a95b9> a airo:Evidence ;
+    airo:evidenceText "福州市某科技公司法人代表郭先生10分钟内被骗430万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/AISystem/e8cc759a1ad0> a airo:AISystem ;
+    rdfs:label "virtual camera" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "虚拟摄像头" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5e46643564b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8257> .
+
+<https://w3id.org/airo/incident/evidence/b65c351034f1> a airo:Evidence ;
+    airo:evidenceText "Police are looking to educate the public about a new type of fraud that uses artificial intelligence to mimic faces and voices." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/1f745d04a7ad> a airo:Evidence ;
+    airo:evidenceText "电信分析师付亮对中新经纬表示，假冒某人声音、图像实施诈骗在十多年前就已经出现，" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/22fdc04d8cb5> a airo:Evidence ;
+    airo:evidenceText "Guo then transferred 4.3 million yuan to the provided account in two separate payments." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/237184504c44> a airo:Evidence ;
+    airo:evidenceText "After discovering that the fake friend's account was with Mengshang Bank in Baotou, Fuzhou police soon contacted Baotou police to stop the payment." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/44d47ce6f27b> a airo:Evidence ;
+    airo:evidenceText "The public security bureau of Baotou, Inner Mongolia autonomous region, is striving to raise awareness after recently handling such a case in which the victim was tricked into transferring a total of 4.3 million yuan ($612,000) via a company account after having a video chat with someone pretending to be his friend." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/55db65d6d439> a airo:Evidence ;
+    airo:evidenceText "目前，针对AI诈骗，包括北京反诈在内的各类平台已向公众发出提醒，" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/8bc8076d967c> a airo:Evidence ;
+    airo:evidenceText "接到报警后，福州、包头两地警银迅速启动止付机制，成功止付拦截336.84万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/c0a4c9daeb02> a airo:Evidence ;
+    airo:evidenceText "近日，包头警方发布一起利用人工智能（AI）实施电信诈骗的典型案例。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/evidence/d979124ce22f> a airo:Evidence ;
+    airo:evidenceText "一位商家向中新经纬介绍，只需要提供某人一段10分钟至30分钟的声音素材，" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/e30a6793ddfb> a airo:Evidence ;
+    airo:evidenceText "北京嘉维律师事务所律师赵占领对中新经纬表示，目前未经他人许可使用其肖像，即使不以营利为目的，也侵犯肖像权。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/f6b160039a6a> a airo:Evidence ;
+    airo:evidenceText "With assistance from the bank, Baotou police successfully stop a transfer of about 3.37 million yuan from going into the fraudster's account." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/205c395fe93a> a airo:Evidence ;
+    airo:evidenceText "On April 20, a man surnamed Guo, a legal representative of a technology company in Fuzhou, Fujian province, received a video call via WeChat from a friend asking him for help." ;
+    airo:sourceDocId "8255" .
+
+<https://w3id.org/airo/incident/evidence/4750286d5705> a airo:Evidence ;
+    airo:evidenceText "七七(化名)专门在网上接单用AI帮别人生成视频，" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/7396912e609c> a airo:Evidence ;
+    airo:evidenceText "The potential pitfalls of groundbreaking AI technology have received heightened attention since United States-based company OpenAI in November launched ChatGPT, a chatbot that mimics human speech." ;
+    airo:sourceDocId "4749" .
+
+<https://w3id.org/airo/incident/evidence/98a4466ad9e9> a airo:Evidence ;
+    airo:evidenceText "据警方通报，受害人郭先生遇到的就是上述情形，骗子通过智能AI换脸技术，佯装成好友对他实施了诈骗。" ;
+    airo:sourceDocId "8257" .
+
+<https://w3id.org/airo/incident/evidence/cfac7d6b5f2a> a airo:Evidence ;
+    airo:evidenceText "福州市某科技公司法人代表郭先生10分钟内被骗430万元。" ;
+    airo:sourceDocId "8261" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_462> a airo:AIRiskIncident ;
+    rdfs:label "China scammer uses AI to impersonate victim’s friend, steal $823,000" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/4b10c27e0bd9>,
+        <https://w3id.org/airo/incident/Regulation/7cf9001f498b> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/45d8753095bd> ;
+    airo:hasDescription "pred_462" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/52c1c7df80c5>,
+        <https://w3id.org/airo/incident/Domain/6adf4fd2ea23>,
+        <https://w3id.org/airo/incident/evidence/27da472acc1e>,
+        <https://w3id.org/airo/incident/evidence/3d52ae007059>,
+        <https://w3id.org/airo/incident/evidence/9214c1b8f277>,
+        <https://w3id.org/airo/incident/evidence/b29f2419d2b7> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/ce6161f59ea0> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/4749>,
+        <https://w3id.org/airo/incident/NewsReport/8255>,
+        <https://w3id.org/airo/incident/NewsReport/8257>,
+        <https://w3id.org/airo/incident/NewsReport/8261> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/b6d4eb24356f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749>,
+        <https://w3id.org/airo/incident/document/8255>,
+        <https://w3id.org/airo/incident/document/8257>,
+        <https://w3id.org/airo/incident/document/8261> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/9418897888b4>,
+        <https://w3id.org/airo/incident/AISystem/e8cc759a1ad0> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0dd4f8daaab5>,
+        <https://w3id.org/airo/incident/Stakeholder/2a2b4426f576>,
+        <https://w3id.org/airo/incident/Stakeholder/2dec27c43a4f>,
+        <https://w3id.org/airo/incident/Stakeholder/49238974665d>,
+        <https://w3id.org/airo/incident/Stakeholder/4e4c163cf3e4>,
+        <https://w3id.org/airo/incident/Stakeholder/6757504f2171>,
+        <https://w3id.org/airo/incident/Stakeholder/84fa5cb402ef>,
+        <https://w3id.org/airo/incident/Stakeholder/8c8252499dae>,
+        <https://w3id.org/airo/incident/Stakeholder/9d57de737aa9>,
+        <https://w3id.org/airo/incident/Stakeholder/bcb93ea27420>,
+        <https://w3id.org/airo/incident/Stakeholder/bd9ef6e92866>,
+        <https://w3id.org/airo/incident/Stakeholder/c5ee48c7e5fd>,
+        <https://w3id.org/airo/incident/Stakeholder/cada8a3be111> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/43defbd5b5b8> .
+
+<https://w3id.org/airo/incident/AISystem/9418897888b4> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/4b10c27e0bd9>,
+        <https://w3id.org/airo/incident/Regulation/7cf9001f498b> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/24ad38bed0e1>,
+        <https://w3id.org/airo/incident/AICapability/59ff00a79fca>,
+        <https://w3id.org/airo/incident/AICapability/6af2e8d0f096>,
+        <https://w3id.org/airo/incident/AICapability/74aec582837e>,
+        <https://w3id.org/airo/incident/AICapability/c3c9fb58d9b8>,
+        <https://w3id.org/airo/incident/Purpose/5c7ece2b9507> ;
+    airo:hasDescription "ChatGPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f373268f00d>,
+        <https://w3id.org/airo/incident/evidence/7396912e609c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4749> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/6e78cd146780> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/1e5a94110da3>,
+        <https://w3id.org/airo/incident/AITechnique/c778b93c036c>,
+        <https://w3id.org/airo/incident/AITechnique/f6ad4939df63> .
+

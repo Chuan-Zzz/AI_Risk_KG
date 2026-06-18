@@ -1,0 +1,4627 @@
+{
+  "event_id": "pred_367",
+  "incident_node": {
+    "id": "pred_367",
+    "name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_367",
+    "evidence": [
+      {
+        "evidence_id": "bc631dcb55e1",
+        "evidence_sentence": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "871ba3e6197d",
+        "evidence_sentence": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+        "source_doc_id": "407",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "e18a81eed9c5",
+        "evidence_sentence": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "5395ce24202c",
+        "evidence_sentence": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "406",
+      "407",
+      "408",
+      "410"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_367",
+      "name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_367",
+      "evidence": [
+        {
+          "evidence_id": "bc631dcb55e1",
+          "evidence_sentence": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "871ba3e6197d",
+          "evidence_sentence": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+          "source_doc_id": "407",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "e18a81eed9c5",
+          "evidence_sentence": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "5395ce24202c",
+          "evidence_sentence": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "407",
+        "408",
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4dc364e56214",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "407",
+        "408",
+        "410"
+      ],
+      "attributes": {
+        "report_count": 4
+      },
+      "reasoning": null
+    },
+    {
+      "id": "406",
+      "name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "entity_type": "NewsReport",
+      "description": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wa",
+      "evidence": [
+        {
+          "evidence_id": "7c2dec767a80",
+          "evidence_sentence": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {
+        "url": "https://www.dailyo.in/variety/delhi-metro-metro-accident-metro-safety-public-transport-magenta-line/story/1/21255.html",
+        "publish_time": "2017-12-20T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "407",
+      "name": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+      "entity_type": "NewsReport",
+      "description": "A Metro train on a new line, to be inaugurated by Prime Minister next week, hit a wall here on Tuesday evening during trials as its brakes failed, a official said. No one was injured.\n\nThe incident, o",
+      "evidence": [
+        {
+          "evidence_id": "5333a18a7b87",
+          "evidence_sentence": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+          "source_doc_id": "407",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "407"
+      ],
+      "attributes": {
+        "url": "https://www.business-standard.com/article/current-affairs/driverless-delhi-metro-s-magenta-line-train-crashes-a-week-before-launch-117121901059_1.html",
+        "publish_time": "2017-12-19T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "408",
+      "name": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+      "entity_type": "NewsReport",
+      "description": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Met",
+      "evidence": [
+        {
+          "evidence_id": "c5fe52da8b89",
+          "evidence_sentence": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {
+        "url": "https://www.news18.com/news/india/delhi-metro-magenta-line-train-crashes-into-wall-6-days-before-pm-narendra-modi-was-to-inaugurate-it-1608925.html",
+        "publish_time": "2019-04-11T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "410",
+      "name": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+      "entity_type": "NewsReport",
+      "description": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.\n\nThe mishap comes just days before Prime Minister Naren",
+      "evidence": [
+        {
+          "evidence_id": "cac6563fb440",
+          "evidence_sentence": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {
+        "url": "https://scroll.in/latest/862035/unmanned-delhi-metro-train-on-trial-run-crashes-through-the-wall-of-a-depot",
+        "publish_time": "2017-12-20T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "d5d705798367",
+      "name": "Delhi Metro Rail Corporation",
+      "entity_type": "Stakeholder",
+      "description": "Delhi Metro Rail Corporation",
+      "evidence": [
+        {
+          "evidence_id": "11a8ca8f187e",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation",
+            "start": 664,
+            "end": 692
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d15fb5f6589",
+          "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation (DMRC)",
+            "start": 2125,
+            "end": 2160
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eba6f8dbbfc1",
+          "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "DMRC",
+            "start": 215,
+            "end": 219
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 3,
+      "source_doc_ids": [
+        "406",
+        "408",
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c930531c19a3",
+      "name": "NDTV",
+      "entity_type": "Stakeholder",
+      "description": "NDTV",
+      "evidence": [
+        {
+          "evidence_id": "e2e02a6e989f",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "NDTV",
+            "start": 376,
+            "end": 380
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "fab09b6ec4f9",
+      "name": "ANI",
+      "entity_type": "Stakeholder",
+      "description": "ANI",
+      "evidence": [
+        {
+          "evidence_id": "6de01f413840",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "ANI",
+            "start": 131,
+            "end": 134
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f82256387d36",
+      "name": "Delhi Metro Driverless Train",
+      "entity_type": "AISystem",
+      "description": "Delhi Metro train",
+      "evidence": [
+        {
+          "evidence_id": "a7a86313a6ba",
+          "evidence_sentence": "an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro train",
+            "start": 112,
+            "end": 129
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "8bc5f85f8f29",
+          "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "driverless Delhi Metro train",
+            "start": 2,
+            "end": 30
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 2,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "3253cf2cb860",
+      "name": "Communication Based Train Control (CBTC) signalling technology",
+      "entity_type": "AITechnique",
+      "description": "Communication Based Train Control signalling technology",
+      "evidence": [
+        {
+          "evidence_id": "9bb9df0f973b",
+          "evidence_sentence": "DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Communication Based Train Control signalling technology",
+            "start": 1757,
+            "end": 1812
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3ce829930fd0",
+          "evidence_sentence": "Metro's new generation trains, which can run without drivers, will operate on this section where an advanced Communication Based Train Control (CBTC) signalling technology that will facilitate movement of trains with a frequency of 90 to 100 seconds will also be pressed into service.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Communication Based Train Control (CBTC) signalling technology",
+            "start": 2739,
+            "end": 2801
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d60e6c49622f",
+      "name": "Commissioner for Metro Rail Safety (CMRS)",
+      "entity_type": "Stakeholder",
+      "description": "commissioner for Metro Rail Safety (CMRS)",
+      "evidence": [
+        {
+          "evidence_id": "e76a53541868",
+          "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "commissioner for Metro Rail Safety (CMRS)",
+            "start": 57,
+            "end": 98
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "922bf222230a",
+          "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Commissioner for Metro Rail Safety (CMRS)",
+            "start": 2577,
+            "end": 2618
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "40258f8c8340",
+      "name": "Hyundai Rotem",
+      "entity_type": "Stakeholder",
+      "description": "Hyundai Rotem",
+      "evidence": [
+        {
+          "evidence_id": "1a8605d65575",
+          "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Hyundai Rotem",
+            "start": 1591,
+            "end": 1604
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f7dbde5ca563",
+      "name": "Narendra Modi",
+      "entity_type": "Stakeholder",
+      "description": "Prime Minister Narendra Modi",
+      "evidence": [
+        {
+          "evidence_id": "907edc9daf1c",
+          "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Prime Minister Narendra Modi",
+            "start": 351,
+            "end": 379
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e2c69a716822",
+      "name": "Mangu Singh",
+      "entity_type": "Stakeholder",
+      "description": "Mangu Singh",
+      "evidence": [
+        {
+          "evidence_id": "eda4febc9db1",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Mangu Singh",
+            "start": 679,
+            "end": 690
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "8158febdfb00",
+      "name": "Delhi Government",
+      "entity_type": "Stakeholder",
+      "description": "Delhi government",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Delhi government",
+            "start": 1341,
+            "end": 1357
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4cda9d9104e7",
+      "name": "Kailash Gahlot",
+      "entity_type": "Stakeholder",
+      "description": "Kailash Gahlot",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Kailash Gahlot",
+            "start": 1445,
+            "end": 1459
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f66798d561d6",
+      "name": "Japan International Cooperation Agency",
+      "entity_type": "Stakeholder",
+      "description": "Japan International Cooperation Agency (JICA)",
+      "evidence": [
+        {
+          "evidence_id": "19db819fabbb",
+          "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Japan International Cooperation Agency (JICA)",
+            "start": 2134,
+            "end": 2179
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "598605b84fe9",
+      "name": "Delhi Metro Rail Corporation_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "c9daacbd7292",
+          "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "DMRC is the organization operating and deploying the driverless train system."
+    },
+    {
+      "id": "31c5f3d1fba0",
+      "name": "NDTV_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8a2548b764e3",
+          "evidence_sentence": "[410] Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": "NDTV is a news organization reporting on the event; it does not have a direct role as developer, provider, deployer, user, regulator, or affected actor in the AI system's lifecycle."
+    },
+    {
+      "id": "38f8eb9b0fa0",
+      "name": "ANI_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "7029fbaf6263",
+          "evidence_sentence": "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": "ANI is a news agency reporting on the event; it does not have a direct role in the AI system's lifecycle."
+    },
+    {
+      "id": "82e3000d5896",
+      "name": "Commissioner for Metro Rail Safety (CMRS)_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "e8726d6ba96a",
+          "evidence_sentence": "[408] The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "CMRS is a safety regulatory authority that granted approval for the line, indicating a regulatory role."
+    },
+    {
+      "id": "d6cf04c4b3ab",
+      "name": "Hyundai Rotem_AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d69e5b3aa895",
+          "evidence_sentence": "[406] By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {},
+      "reasoning": "Hyundai Rotem manufactured (provided) the train sets, making them the AI provider for this physical system."
+    },
+    {
+      "id": "9b3d00b9a6f7",
+      "name": "Narendra Modi_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "36d867f00e37",
+          "evidence_sentence": "[408] The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "Narendra Modi is mentioned as the inaugurator of the line; this is a ceremonial role, not a direct role in the AI system's lifecycle."
+    },
+    {
+      "id": "6156e27e4a73",
+      "name": "Mangu Singh_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "09d5c0fc4b5f",
+          "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "As Managing Director of DMRC, Mangu Singh is a key figure in the organization deploying the AI system."
+    },
+    {
+      "id": "bb4b488252d7",
+      "name": "Delhi Government_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bb23fad533de",
+          "evidence_sentence": "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "The Delhi government is seeking a report and commenting on safety, indicating a regulatory oversight role over the DMRC."
+    },
+    {
+      "id": "f0e530706cd3",
+      "name": "Kailash Gahlot_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ab1936d74090",
+          "evidence_sentence": "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "As Transport Minister, Kailash Gahlot is a government official exercising regulatory oversight and demanding accountability."
+    },
+    {
+      "id": "7d60e2af3202",
+      "name": "Japan International Cooperation Agency_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bd8f25314c2a",
+          "evidence_sentence": "[408] The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "JICA is mentioned as a potential funding agency; this is a financial stakeholder, not directly involved in AI development, provision, deployment, use, or regulation."
+    },
+    {
+      "id": "b2e583c5941a",
+      "name": "Inadequate pre-trial maintenance procedures",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "3c61a941f94b",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c3b0badf0229",
+      "name": "Risk of autonomous train operation failure",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "fb37b7e1f410",
+          "evidence_sentence": "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c46289b199dc",
+      "name": "Unmonitored trial run of an autonomous train system",
+      "entity_type": "Hazard",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "42bf88d791e6",
+          "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "62ed705ce35b",
+      "name": "Lack of robust pre-operation safety checks for autonomous systems",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "fc595ff544b5",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "5f30a44666ae",
+      "name": "Physical derailment and collision of the autonomous train",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "dd529074a5ad",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "05e496cee451",
+      "name": "Potential compromise to passenger safety and operational launch delays",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "9611f5920991",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "4e229c475f90",
+      "name": "Future metro passengers and the public",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "dfed3813d8d2",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1b02e03c0f83",
+      "name": "Initiation of a high-level formal inquiry",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "a9f1e8cae0c6",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a20efa0a01cc",
+      "name": "transportation passenger service",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "fbd6b786a8d0",
+          "evidence_sentence": "[406] DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence states the driverless trains will run on a metro line, indicating the purpose is public transportation."
+    },
+    {
+      "id": "1c711fbebbb5",
+      "name": "testing",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "60d2b8f8e5fc",
+          "evidence_sentence": "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": "The incident occurred during a 'trial run', which is a testing phase before full deployment."
+    },
+    {
+      "id": "3fbf95084cd4",
+      "name": "transportation",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "e5c045e152f6",
+          "evidence_sentence": "[406] an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "attributes": {},
+      "reasoning": "The AI system is a metro train, placing it squarely in the transportation domain."
+    },
+    {
+      "id": "3cd429d6b3a4",
+      "name": "conduct safety enquiry after incident",
+      "entity_type": "Obligation",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "6387bb7defc8",
+          "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "The DMRC is conducting an internal enquiry following the accident, which is a governance obligation to investigate failures."
+    },
+    {
+      "id": "617e9f3351c7",
+      "name": "obtain safety approval from Commissioner for Metro Rail Safety",
+      "entity_type": "ComplianceRequirement",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "9e505bce9b6c",
+          "evidence_sentence": "[408] The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence shows a compliance requirement to get safety approval from CMRS before operating the line."
+    },
+    {
+      "id": "d6ea685acdd4",
+      "name": "government report request",
+      "entity_type": "EnforcementAction",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "54c520807d17",
+          "evidence_sentence": "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "attributes": {},
+      "reasoning": "The Delhi government is taking an enforcement action by formally requesting a report on the incident."
+    },
+    {
+      "id": "3cd7a515ccfd",
+      "name": "increasing deployment of autonomous transportation systems",
+      "entity_type": "Trend",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0363010a81d5",
+          "evidence_sentence": "[410] Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence points to a trend of deploying driverless/unmanned trains in public transportation."
+    }
+  ],
+  "edges": [
+    {
+      "id": "6216cc3bcab7",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasReport",
+      "object_id": "406",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "7c2dec767a80",
+          "evidence_sentence": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7229299808eb",
+      "subject_id": "4dc364e56214",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "406",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5e34765446bc",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasReport",
+      "object_id": "407",
+      "object_name": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+      "evidence": [
+        {
+          "evidence_id": "5333a18a7b87",
+          "evidence_sentence": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+          "source_doc_id": "407",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "407"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "80476124de7e",
+      "subject_id": "4dc364e56214",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "407",
+      "object_name": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "407"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5569445c4caf",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasReport",
+      "object_id": "408",
+      "object_name": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+      "evidence": [
+        {
+          "evidence_id": "c5fe52da8b89",
+          "evidence_sentence": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5b919e7bb938",
+      "subject_id": "4dc364e56214",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "408",
+      "object_name": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4088cb69782f",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasReport",
+      "object_id": "410",
+      "object_name": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+      "evidence": [
+        {
+          "evidence_id": "cac6563fb440",
+          "evidence_sentence": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "242df82eb9f3",
+      "subject_id": "4dc364e56214",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "410",
+      "object_name": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4682f661b3af",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "d5d705798367",
+      "object_name": "Delhi Metro Rail Corporation",
+      "evidence": [
+        {
+          "evidence_id": "11a8ca8f187e",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation",
+            "start": 664,
+            "end": 692
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d15fb5f6589",
+          "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation (DMRC)",
+            "start": 2125,
+            "end": 2160
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eba6f8dbbfc1",
+          "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "DMRC",
+            "start": 215,
+            "end": 219
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7cb65aab4068",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "c930531c19a3",
+      "object_name": "NDTV",
+      "evidence": [
+        {
+          "evidence_id": "e2e02a6e989f",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "NDTV",
+            "start": 376,
+            "end": 380
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8697f90fc704",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "fab09b6ec4f9",
+      "object_name": "ANI",
+      "evidence": [
+        {
+          "evidence_id": "6de01f413840",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "ANI",
+            "start": 131,
+            "end": 134
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ac15e15c430",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesAISystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "a7a86313a6ba",
+          "evidence_sentence": "an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro train",
+            "start": 112,
+            "end": 129
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "8bc5f85f8f29",
+          "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "driverless Delhi Metro train",
+            "start": 2,
+            "end": 30
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d4e3c9fe36a8",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "d60e6c49622f",
+      "object_name": "Commissioner for Metro Rail Safety (CMRS)",
+      "evidence": [
+        {
+          "evidence_id": "e76a53541868",
+          "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "commissioner for Metro Rail Safety (CMRS)",
+            "start": 57,
+            "end": 98
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "922bf222230a",
+          "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Commissioner for Metro Rail Safety (CMRS)",
+            "start": 2577,
+            "end": 2618
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "290db93887d1",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "40258f8c8340",
+      "object_name": "Hyundai Rotem",
+      "evidence": [
+        {
+          "evidence_id": "1a8605d65575",
+          "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Hyundai Rotem",
+            "start": 1591,
+            "end": 1604
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5a22f1babf7d",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "f7dbde5ca563",
+      "object_name": "Narendra Modi",
+      "evidence": [
+        {
+          "evidence_id": "907edc9daf1c",
+          "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Prime Minister Narendra Modi",
+            "start": 351,
+            "end": 379
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fa7f00f5f4f9",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2c69a716822",
+      "object_name": "Mangu Singh",
+      "evidence": [
+        {
+          "evidence_id": "eda4febc9db1",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Mangu Singh",
+            "start": 679,
+            "end": 690
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d8972ec77ceb",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "8158febdfb00",
+      "object_name": "Delhi Government",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Delhi government",
+            "start": 1341,
+            "end": 1357
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8d657648a273",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "4cda9d9104e7",
+      "object_name": "Kailash Gahlot",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Kailash Gahlot",
+            "start": 1445,
+            "end": 1459
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "09a8a818f305",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "involvesStakeholder",
+      "object_id": "f66798d561d6",
+      "object_name": "Japan International Cooperation Agency",
+      "evidence": [
+        {
+          "evidence_id": "19db819fabbb",
+          "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Japan International Cooperation Agency (JICA)",
+            "start": 2134,
+            "end": 2179
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6505c6f57283",
+      "subject_id": "f82256387d36",
+      "subject_name": "Delhi Metro Driverless Train",
+      "predicate": "usesTechnique",
+      "object_id": "3253cf2cb860",
+      "object_name": "Communication Based Train Control (CBTC) signalling technology",
+      "evidence": [
+        {
+          "evidence_id": "9bb9df0f973b",
+          "evidence_sentence": "DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Communication Based Train Control signalling technology",
+            "start": 1757,
+            "end": 1812
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3ce829930fd0",
+          "evidence_sentence": "Metro's new generation trains, which can run without drivers, will operate on this section where an advanced Communication Based Train Control (CBTC) signalling technology that will facilitate movement of trains with a frequency of 90 to 100 seconds will also be pressed into service.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Communication Based Train Control (CBTC) signalling technology",
+            "start": 2739,
+            "end": 2801
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "704a56454516",
+      "subject_id": "598605b84fe9",
+      "subject_name": "Delhi Metro Rail Corporation_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "d5d705798367",
+      "object_name": "Delhi Metro Rail Corporation",
+      "evidence": [
+        {
+          "evidence_id": "11a8ca8f187e",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation",
+            "start": 664,
+            "end": 692
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d15fb5f6589",
+          "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation (DMRC)",
+            "start": 2125,
+            "end": 2160
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eba6f8dbbfc1",
+          "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "DMRC",
+            "start": 215,
+            "end": 219
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f728718feac4",
+      "subject_id": "598605b84fe9",
+      "subject_name": "Delhi Metro Rail Corporation_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "11a8ca8f187e",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation",
+            "start": 664,
+            "end": 692
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d15fb5f6589",
+          "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation (DMRC)",
+            "start": 2125,
+            "end": 2160
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eba6f8dbbfc1",
+          "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "DMRC",
+            "start": 215,
+            "end": 219
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "31cb8534df62",
+      "subject_id": "598605b84fe9",
+      "subject_name": "Delhi Metro Rail Corporation_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "11a8ca8f187e",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation",
+            "start": 664,
+            "end": 692
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "1d15fb5f6589",
+          "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Delhi Metro Rail Corporation (DMRC)",
+            "start": 2125,
+            "end": 2160
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eba6f8dbbfc1",
+          "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "DMRC",
+            "start": 215,
+            "end": 219
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "da1ad65a3d1e",
+      "subject_id": "31c5f3d1fba0",
+      "subject_name": "NDTV_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "c930531c19a3",
+      "object_name": "NDTV",
+      "evidence": [
+        {
+          "evidence_id": "e2e02a6e989f",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "NDTV",
+            "start": 376,
+            "end": 380
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a05c9809f650",
+      "subject_id": "31c5f3d1fba0",
+      "subject_name": "NDTV_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "e2e02a6e989f",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "NDTV",
+            "start": 376,
+            "end": 380
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c844af08b4db",
+      "subject_id": "31c5f3d1fba0",
+      "subject_name": "NDTV_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "e2e02a6e989f",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "NDTV",
+            "start": 376,
+            "end": 380
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4f454c78c493",
+      "subject_id": "38f8eb9b0fa0",
+      "subject_name": "ANI_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "fab09b6ec4f9",
+      "object_name": "ANI",
+      "evidence": [
+        {
+          "evidence_id": "6de01f413840",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "ANI",
+            "start": 131,
+            "end": 134
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "48862e92d705",
+      "subject_id": "38f8eb9b0fa0",
+      "subject_name": "ANI_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "6de01f413840",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "ANI",
+            "start": 131,
+            "end": 134
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bf3dd1b3b1fb",
+      "subject_id": "38f8eb9b0fa0",
+      "subject_name": "ANI_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "6de01f413840",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": {
+            "text": "ANI",
+            "start": 131,
+            "end": 134
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "634c3db18968",
+      "subject_id": "82e3000d5896",
+      "subject_name": "Commissioner for Metro Rail Safety (CMRS)_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "d60e6c49622f",
+      "object_name": "Commissioner for Metro Rail Safety (CMRS)",
+      "evidence": [
+        {
+          "evidence_id": "e76a53541868",
+          "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "commissioner for Metro Rail Safety (CMRS)",
+            "start": 57,
+            "end": 98
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "922bf222230a",
+          "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Commissioner for Metro Rail Safety (CMRS)",
+            "start": 2577,
+            "end": 2618
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "90c26f04d91a",
+      "subject_id": "82e3000d5896",
+      "subject_name": "Commissioner for Metro Rail Safety (CMRS)_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "e76a53541868",
+          "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "commissioner for Metro Rail Safety (CMRS)",
+            "start": 57,
+            "end": 98
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "922bf222230a",
+          "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Commissioner for Metro Rail Safety (CMRS)",
+            "start": 2577,
+            "end": 2618
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9f952e13912a",
+      "subject_id": "82e3000d5896",
+      "subject_name": "Commissioner for Metro Rail Safety (CMRS)_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "e76a53541868",
+          "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "commissioner for Metro Rail Safety (CMRS)",
+            "start": 57,
+            "end": 98
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "922bf222230a",
+          "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Commissioner for Metro Rail Safety (CMRS)",
+            "start": 2577,
+            "end": 2618
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "222db2680006",
+      "subject_id": "d6cf04c4b3ab",
+      "subject_name": "Hyundai Rotem_AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "40258f8c8340",
+      "object_name": "Hyundai Rotem",
+      "evidence": [
+        {
+          "evidence_id": "1a8605d65575",
+          "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Hyundai Rotem",
+            "start": 1591,
+            "end": 1604
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6ab5e36237b0",
+      "subject_id": "d6cf04c4b3ab",
+      "subject_name": "Hyundai Rotem_AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "1a8605d65575",
+          "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Hyundai Rotem",
+            "start": 1591,
+            "end": 1604
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1d7b57e3fc36",
+      "subject_id": "d6cf04c4b3ab",
+      "subject_name": "Hyundai Rotem_AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "1a8605d65575",
+          "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": {
+            "text": "Hyundai Rotem",
+            "start": 1591,
+            "end": 1604
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bc0f6aa6b364",
+      "subject_id": "9b3d00b9a6f7",
+      "subject_name": "Narendra Modi_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "f7dbde5ca563",
+      "object_name": "Narendra Modi",
+      "evidence": [
+        {
+          "evidence_id": "907edc9daf1c",
+          "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Prime Minister Narendra Modi",
+            "start": 351,
+            "end": 379
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f471914c5e07",
+      "subject_id": "9b3d00b9a6f7",
+      "subject_name": "Narendra Modi_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "907edc9daf1c",
+          "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Prime Minister Narendra Modi",
+            "start": 351,
+            "end": 379
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "27c35faa6a58",
+      "subject_id": "9b3d00b9a6f7",
+      "subject_name": "Narendra Modi_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "907edc9daf1c",
+          "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Prime Minister Narendra Modi",
+            "start": 351,
+            "end": 379
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "342dd5fe2484",
+      "subject_id": "6156e27e4a73",
+      "subject_name": "Mangu Singh_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "e2c69a716822",
+      "object_name": "Mangu Singh",
+      "evidence": [
+        {
+          "evidence_id": "eda4febc9db1",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Mangu Singh",
+            "start": 679,
+            "end": 690
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "882b74e2f763",
+      "subject_id": "6156e27e4a73",
+      "subject_name": "Mangu Singh_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "eda4febc9db1",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Mangu Singh",
+            "start": 679,
+            "end": 690
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "dfb779552853",
+      "subject_id": "6156e27e4a73",
+      "subject_name": "Mangu Singh_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "eda4febc9db1",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Mangu Singh",
+            "start": 679,
+            "end": 690
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7d613baeb889",
+      "subject_id": "bb4b488252d7",
+      "subject_name": "Delhi Government_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "8158febdfb00",
+      "object_name": "Delhi Government",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Delhi government",
+            "start": 1341,
+            "end": 1357
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "92c13e0b3b37",
+      "subject_id": "bb4b488252d7",
+      "subject_name": "Delhi Government_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Delhi government",
+            "start": 1341,
+            "end": 1357
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "262851f42157",
+      "subject_id": "bb4b488252d7",
+      "subject_name": "Delhi Government_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Delhi government",
+            "start": 1341,
+            "end": 1357
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bac65742f19a",
+      "subject_id": "f0e530706cd3",
+      "subject_name": "Kailash Gahlot_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "4cda9d9104e7",
+      "object_name": "Kailash Gahlot",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Kailash Gahlot",
+            "start": 1445,
+            "end": 1459
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2c4abb4f1c59",
+      "subject_id": "f0e530706cd3",
+      "subject_name": "Kailash Gahlot_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Kailash Gahlot",
+            "start": 1445,
+            "end": 1459
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3fda373ed3e6",
+      "subject_id": "f0e530706cd3",
+      "subject_name": "Kailash Gahlot_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "99d47ba4019d",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Kailash Gahlot",
+            "start": 1445,
+            "end": 1459
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b14699d7b5fd",
+      "subject_id": "7d60e2af3202",
+      "subject_name": "Japan International Cooperation Agency_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "f66798d561d6",
+      "object_name": "Japan International Cooperation Agency",
+      "evidence": [
+        {
+          "evidence_id": "19db819fabbb",
+          "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Japan International Cooperation Agency (JICA)",
+            "start": 2134,
+            "end": 2179
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d1e367e77649",
+      "subject_id": "7d60e2af3202",
+      "subject_name": "Japan International Cooperation Agency_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "19db819fabbb",
+          "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Japan International Cooperation Agency (JICA)",
+            "start": 2134,
+            "end": 2179
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6cd1262712ae",
+      "subject_id": "7d60e2af3202",
+      "subject_name": "Japan International Cooperation Agency_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "19db819fabbb",
+          "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+          "source_doc_id": "408",
+          "mention_span": {
+            "text": "Japan International Cooperation Agency (JICA)",
+            "start": 2134,
+            "end": 2179
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2703dad9aadc",
+      "subject_id": "d5d705798367",
+      "subject_name": "Delhi Metro Rail Corporation",
+      "predicate": "deploys",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "fd58d35c83c1",
+          "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "13072d19986f",
+      "subject_id": "40258f8c8340",
+      "subject_name": "Hyundai Rotem",
+      "predicate": "provides",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "bba285a49b8a",
+          "evidence_sentence": "[406] By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b9499937f96f",
+      "subject_id": "e2c69a716822",
+      "subject_name": "Mangu Singh",
+      "predicate": "deploys",
+      "object_id": "f82256387d36",
+      "object_name": "Delhi Metro Driverless Train",
+      "evidence": [
+        {
+          "evidence_id": "dbf230349c00",
+          "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fc80db4c265b",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "isRiskSourceFor",
+      "object_id": "b2e583c5941a",
+      "object_name": "Inadequate pre-trial maintenance procedures",
+      "evidence": [
+        {
+          "evidence_id": "3c61a941f94b",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "036cc99411e5",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasRisk",
+      "object_id": "c3b0badf0229",
+      "object_name": "Risk of autonomous train operation failure",
+      "evidence": [
+        {
+          "evidence_id": "fb37b7e1f410",
+          "evidence_sentence": "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0f34a86100a3",
+      "subject_id": "b2e583c5941a",
+      "subject_name": "Inadequate pre-trial maintenance procedures",
+      "predicate": "causes",
+      "object_id": "c3b0badf0229",
+      "object_name": "Risk of autonomous train operation failure",
+      "evidence": [
+        {
+          "evidence_id": "fb37b7e1f410",
+          "evidence_sentence": "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "052ee1e1ab3a",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasConsequence",
+      "object_id": "5f30a44666ae",
+      "object_name": "Physical derailment and collision of the autonomous train",
+      "evidence": [
+        {
+          "evidence_id": "dd529074a5ad",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "55c1f0067705",
+      "subject_id": "c3b0badf0229",
+      "subject_name": "Risk of autonomous train operation failure",
+      "predicate": "leadsTo",
+      "object_id": "5f30a44666ae",
+      "object_name": "Physical derailment and collision of the autonomous train",
+      "evidence": [
+        {
+          "evidence_id": "dd529074a5ad",
+          "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "900fc6315b4e",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasImpact",
+      "object_id": "05e496cee451",
+      "object_name": "Potential compromise to passenger safety and operational launch delays",
+      "evidence": [
+        {
+          "evidence_id": "9611f5920991",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ad0d4d233def",
+      "subject_id": "5f30a44666ae",
+      "subject_name": "Physical derailment and collision of the autonomous train",
+      "predicate": "impacts",
+      "object_id": "05e496cee451",
+      "object_name": "Potential compromise to passenger safety and operational launch delays",
+      "evidence": [
+        {
+          "evidence_id": "9611f5920991",
+          "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a9409e7b34d6",
+      "subject_id": "05e496cee451",
+      "subject_name": "Potential compromise to passenger safety and operational launch delays",
+      "predicate": "affects",
+      "object_id": "4e229c475f90",
+      "object_name": "Future metro passengers and the public",
+      "evidence": [
+        {
+          "evidence_id": "dfed3813d8d2",
+          "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f13fdc683f99",
+      "subject_id": "b2e583c5941a",
+      "subject_name": "Inadequate pre-trial maintenance procedures",
+      "predicate": "hasHazard",
+      "object_id": "c46289b199dc",
+      "object_name": "Unmonitored trial run of an autonomous train system",
+      "evidence": [
+        {
+          "evidence_id": "42bf88d791e6",
+          "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408",
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e065cfe49f28",
+      "subject_id": "f82256387d36",
+      "subject_name": "Delhi Metro Driverless Train",
+      "predicate": "hasVulnerability",
+      "object_id": "62ed705ce35b",
+      "object_name": "Lack of robust pre-operation safety checks for autonomous systems",
+      "evidence": [
+        {
+          "evidence_id": "fc595ff544b5",
+          "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "410",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2c252590954e",
+      "subject_id": "1b02e03c0f83",
+      "subject_name": "Initiation of a high-level formal inquiry",
+      "predicate": "mitigates",
+      "object_id": "c3b0badf0229",
+      "object_name": "Risk of autonomous train operation failure",
+      "evidence": [
+        {
+          "evidence_id": "a9f1e8cae0c6",
+          "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406",
+        "408"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "025ebeaa9f3b",
+      "subject_id": "f82256387d36",
+      "subject_name": "Delhi Metro Driverless Train",
+      "predicate": "hasCapability",
+      "object_id": "a20efa0a01cc",
+      "object_name": "transportation passenger service",
+      "evidence": [
+        {
+          "evidence_id": "fbd6b786a8d0",
+          "evidence_sentence": "[406] DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "42054dac1368",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasEvidence",
+      "object_id": "1c711fbebbb5",
+      "object_name": "testing",
+      "evidence": [
+        {
+          "evidence_id": "60d2b8f8e5fc",
+          "evidence_sentence": "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+          "source_doc_id": "410",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "410"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6af75ab73e1a",
+      "subject_id": "pred_367",
+      "subject_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "predicate": "hasEvidence",
+      "object_id": "3fbf95084cd4",
+      "object_name": "transportation",
+      "evidence": [
+        {
+          "evidence_id": "e5c045e152f6",
+          "evidence_sentence": "[406] an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+          "source_doc_id": "406",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "406"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "85d46e795a63",
+      "subject_id": "d6ea685acdd4",
+      "subject_name": "government report request",
+      "predicate": "respondsToIncident",
+      "object_id": "pred_367",
+      "object_name": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+      "evidence": [
+        {
+          "evidence_id": "54c520807d17",
+          "evidence_sentence": "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+          "source_doc_id": "408",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "408"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "e9c40eef9ccd",
+      "subject_id": "pred_367",
+      "predicate": "hasReport",
+      "object_id": "406",
+      "evidence": {
+        "evidence_id": "7c2dec767a80",
+        "evidence_sentence": "Why driverless Delhi Metro train crashing into a wall is worrisome",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "78814790cb13",
+      "subject_id": "pred_367",
+      "predicate": "hasReport",
+      "object_id": "407",
+      "evidence": {
+        "evidence_id": "5333a18a7b87",
+        "evidence_sentence": "Driverless Delhi Metro's magenta line train crashes a week before launch",
+        "source_doc_id": "407",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0e39695d8559",
+      "subject_id": "pred_367",
+      "predicate": "hasReport",
+      "object_id": "408",
+      "evidence": {
+        "evidence_id": "c5fe52da8b89",
+        "evidence_sentence": "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d5d1b6afcdcc",
+      "subject_id": "pred_367",
+      "predicate": "hasReport",
+      "object_id": "410",
+      "evidence": {
+        "evidence_id": "cac6563fb440",
+        "evidence_sentence": "Unmanned Delhi Metro train on trial run crashes through the wall of a depot",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "352ac32e484c",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "11a8ca8f187e",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation",
+          "start": 664,
+          "end": 692
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "3baa307d7ec0",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "1d15fb5f6589",
+        "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation (DMRC)",
+          "start": 2125,
+          "end": 2160
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "b780bb6ceded",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "eba6f8dbbfc1",
+        "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "DMRC",
+          "start": 215,
+          "end": 219
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "56995b100874",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "c930531c19a3",
+      "evidence": {
+        "evidence_id": "e2e02a6e989f",
+        "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "NDTV",
+          "start": 376,
+          "end": 380
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "dbccf8b1c1f9",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "fab09b6ec4f9",
+      "evidence": {
+        "evidence_id": "6de01f413840",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "ANI",
+          "start": 131,
+          "end": 134
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "0dbd2bac7733",
+      "subject_id": "pred_367",
+      "predicate": "involvesAISystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "a7a86313a6ba",
+        "evidence_sentence": "an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Delhi Metro train",
+          "start": 112,
+          "end": 129
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3590f015e970",
+      "subject_id": "pred_367",
+      "predicate": "involvesAISystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "8bc5f85f8f29",
+        "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "driverless Delhi Metro train",
+          "start": 2,
+          "end": 30
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "430c7d1c0feb",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "d60e6c49622f",
+      "evidence": {
+        "evidence_id": "e76a53541868",
+        "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "commissioner for Metro Rail Safety (CMRS)",
+          "start": 57,
+          "end": 98
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "952c673d5509",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "d60e6c49622f",
+      "evidence": {
+        "evidence_id": "922bf222230a",
+        "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Commissioner for Metro Rail Safety (CMRS)",
+          "start": 2577,
+          "end": 2618
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ca4733f45bb6",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "40258f8c8340",
+      "evidence": {
+        "evidence_id": "1a8605d65575",
+        "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Hyundai Rotem",
+          "start": 1591,
+          "end": 1604
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f6d5656a15c7",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "f7dbde5ca563",
+      "evidence": {
+        "evidence_id": "907edc9daf1c",
+        "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Prime Minister Narendra Modi",
+          "start": 351,
+          "end": 379
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2b6400a2dde8",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "e2c69a716822",
+      "evidence": {
+        "evidence_id": "eda4febc9db1",
+        "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Mangu Singh",
+          "start": 679,
+          "end": 690
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.98,
+      "support_count": 1
+    },
+    {
+      "id": "cc2675554ac1",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "8158febdfb00",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Delhi government",
+          "start": 1341,
+          "end": 1357
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8308ef8baaa1",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "4cda9d9104e7",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Kailash Gahlot",
+          "start": 1445,
+          "end": 1459
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c2c4a399b82a",
+      "subject_id": "pred_367",
+      "predicate": "involvesStakeholder",
+      "object_id": "f66798d561d6",
+      "evidence": {
+        "evidence_id": "19db819fabbb",
+        "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Japan International Cooperation Agency (JICA)",
+          "start": 2134,
+          "end": 2179
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "8cc2e7214451",
+      "subject_id": "f82256387d36",
+      "predicate": "usesTechnique",
+      "object_id": "3253cf2cb860",
+      "evidence": {
+        "evidence_id": "9bb9df0f973b",
+        "evidence_sentence": "DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Communication Based Train Control signalling technology",
+          "start": 1757,
+          "end": 1812
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "9c8658eb36fa",
+      "subject_id": "f82256387d36",
+      "predicate": "usesTechnique",
+      "object_id": "3253cf2cb860",
+      "evidence": {
+        "evidence_id": "3ce829930fd0",
+        "evidence_sentence": "Metro's new generation trains, which can run without drivers, will operate on this section where an advanced Communication Based Train Control (CBTC) signalling technology that will facilitate movement of trains with a frequency of 90 to 100 seconds will also be pressed into service.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Communication Based Train Control (CBTC) signalling technology",
+          "start": 2739,
+          "end": 2801
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "da8bbddf5041",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleHeldBy",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "11a8ca8f187e",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation",
+          "start": 664,
+          "end": 692
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c6964953d5e8",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleHeldBy",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "1d15fb5f6589",
+        "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation (DMRC)",
+          "start": 2125,
+          "end": 2160
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1944b6ce69be",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleHeldBy",
+      "object_id": "d5d705798367",
+      "evidence": {
+        "evidence_id": "eba6f8dbbfc1",
+        "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "DMRC",
+          "start": 215,
+          "end": 219
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "9fedbfbda439",
+      "subject_id": "598605b84fe9",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "11a8ca8f187e",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation",
+          "start": 664,
+          "end": 692
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "031f8ba4ebdd",
+      "subject_id": "598605b84fe9",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "1d15fb5f6589",
+        "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation (DMRC)",
+          "start": 2125,
+          "end": 2160
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "576562ab9b19",
+      "subject_id": "598605b84fe9",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "eba6f8dbbfc1",
+        "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "DMRC",
+          "start": 215,
+          "end": 219
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4c3cd6206108",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "11a8ca8f187e",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation",
+          "start": 664,
+          "end": 692
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "bf50640a700f",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "1d15fb5f6589",
+        "evidence_sentence": "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Delhi Metro Rail Corporation (DMRC)",
+          "start": 2125,
+          "end": 2160
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d343f080622d",
+      "subject_id": "598605b84fe9",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "eba6f8dbbfc1",
+        "evidence_sentence": "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "DMRC",
+          "start": 215,
+          "end": 219
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "808d5ba9821d",
+      "subject_id": "31c5f3d1fba0",
+      "predicate": "roleHeldBy",
+      "object_id": "c930531c19a3",
+      "evidence": {
+        "evidence_id": "e2e02a6e989f",
+        "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "NDTV",
+          "start": 376,
+          "end": 380
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e66aef9f8c2d",
+      "subject_id": "31c5f3d1fba0",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "e2e02a6e989f",
+        "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "NDTV",
+          "start": 376,
+          "end": 380
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "33afb578610b",
+      "subject_id": "31c5f3d1fba0",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "e2e02a6e989f",
+        "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "NDTV",
+          "start": 376,
+          "end": 380
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "2c71fb92db5a",
+      "subject_id": "38f8eb9b0fa0",
+      "predicate": "roleHeldBy",
+      "object_id": "fab09b6ec4f9",
+      "evidence": {
+        "evidence_id": "6de01f413840",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "ANI",
+          "start": 131,
+          "end": 134
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "581c8eceb3f0",
+      "subject_id": "38f8eb9b0fa0",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "6de01f413840",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "ANI",
+          "start": 131,
+          "end": 134
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "ee5051bbc205",
+      "subject_id": "38f8eb9b0fa0",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "6de01f413840",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": {
+          "text": "ANI",
+          "start": 131,
+          "end": 134
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "e59581e1ce24",
+      "subject_id": "82e3000d5896",
+      "predicate": "roleHeldBy",
+      "object_id": "d60e6c49622f",
+      "evidence": {
+        "evidence_id": "e76a53541868",
+        "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "commissioner for Metro Rail Safety (CMRS)",
+          "start": 57,
+          "end": 98
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "77349a18daee",
+      "subject_id": "82e3000d5896",
+      "predicate": "roleHeldBy",
+      "object_id": "d60e6c49622f",
+      "evidence": {
+        "evidence_id": "922bf222230a",
+        "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Commissioner for Metro Rail Safety (CMRS)",
+          "start": 2577,
+          "end": 2618
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e86ebfcc1bf9",
+      "subject_id": "82e3000d5896",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "e76a53541868",
+        "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "commissioner for Metro Rail Safety (CMRS)",
+          "start": 57,
+          "end": 98
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "efebd7e54ac4",
+      "subject_id": "82e3000d5896",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "922bf222230a",
+        "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Commissioner for Metro Rail Safety (CMRS)",
+          "start": 2577,
+          "end": 2618
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "21012bf9ccd0",
+      "subject_id": "82e3000d5896",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "e76a53541868",
+        "evidence_sentence": "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "commissioner for Metro Rail Safety (CMRS)",
+          "start": 57,
+          "end": 98
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "3a347b206a25",
+      "subject_id": "82e3000d5896",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "922bf222230a",
+        "evidence_sentence": "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Commissioner for Metro Rail Safety (CMRS)",
+          "start": 2577,
+          "end": 2618
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "083a6001157d",
+      "subject_id": "d6cf04c4b3ab",
+      "predicate": "roleHeldBy",
+      "object_id": "40258f8c8340",
+      "evidence": {
+        "evidence_id": "1a8605d65575",
+        "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Hyundai Rotem",
+          "start": 1591,
+          "end": 1604
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "28045ae36ad2",
+      "subject_id": "d6cf04c4b3ab",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "1a8605d65575",
+        "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Hyundai Rotem",
+          "start": 1591,
+          "end": 1604
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "cae2d70bc652",
+      "subject_id": "d6cf04c4b3ab",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "1a8605d65575",
+        "evidence_sentence": "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+        "source_doc_id": "406",
+        "mention_span": {
+          "text": "Hyundai Rotem",
+          "start": 1591,
+          "end": 1604
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "55e63c8b2576",
+      "subject_id": "9b3d00b9a6f7",
+      "predicate": "roleHeldBy",
+      "object_id": "f7dbde5ca563",
+      "evidence": {
+        "evidence_id": "907edc9daf1c",
+        "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Prime Minister Narendra Modi",
+          "start": 351,
+          "end": 379
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "bc9eae5aa050",
+      "subject_id": "9b3d00b9a6f7",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "907edc9daf1c",
+        "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Prime Minister Narendra Modi",
+          "start": 351,
+          "end": 379
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "92d4dd770a92",
+      "subject_id": "9b3d00b9a6f7",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "907edc9daf1c",
+        "evidence_sentence": "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Prime Minister Narendra Modi",
+          "start": 351,
+          "end": 379
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "842bebfb2edd",
+      "subject_id": "6156e27e4a73",
+      "predicate": "roleHeldBy",
+      "object_id": "e2c69a716822",
+      "evidence": {
+        "evidence_id": "eda4febc9db1",
+        "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Mangu Singh",
+          "start": 679,
+          "end": 690
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "56a138301a2d",
+      "subject_id": "6156e27e4a73",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "eda4febc9db1",
+        "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Mangu Singh",
+          "start": 679,
+          "end": 690
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "56ca2b0e9950",
+      "subject_id": "6156e27e4a73",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "eda4febc9db1",
+        "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Mangu Singh",
+          "start": 679,
+          "end": 690
+        },
+        "confidence": 0.98
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "07f9d79149bb",
+      "subject_id": "bb4b488252d7",
+      "predicate": "roleHeldBy",
+      "object_id": "8158febdfb00",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Delhi government",
+          "start": 1341,
+          "end": 1357
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "16b212f34dcb",
+      "subject_id": "bb4b488252d7",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Delhi government",
+          "start": 1341,
+          "end": 1357
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "f69d3b470d4a",
+      "subject_id": "bb4b488252d7",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Delhi government",
+          "start": 1341,
+          "end": 1357
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "db419919b41f",
+      "subject_id": "f0e530706cd3",
+      "predicate": "roleHeldBy",
+      "object_id": "4cda9d9104e7",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Kailash Gahlot",
+          "start": 1445,
+          "end": 1459
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "7869d5de6820",
+      "subject_id": "f0e530706cd3",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Kailash Gahlot",
+          "start": 1445,
+          "end": 1459
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "293810eb10ab",
+      "subject_id": "f0e530706cd3",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "99d47ba4019d",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Kailash Gahlot",
+          "start": 1445,
+          "end": 1459
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "027009cf95a3",
+      "subject_id": "7d60e2af3202",
+      "predicate": "roleHeldBy",
+      "object_id": "f66798d561d6",
+      "evidence": {
+        "evidence_id": "19db819fabbb",
+        "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Japan International Cooperation Agency (JICA)",
+          "start": 2134,
+          "end": 2179
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "8afe8a0e5377",
+      "subject_id": "7d60e2af3202",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "19db819fabbb",
+        "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Japan International Cooperation Agency (JICA)",
+          "start": 2134,
+          "end": 2179
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "652f0ab0ef27",
+      "subject_id": "7d60e2af3202",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "19db819fabbb",
+        "evidence_sentence": "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not.",
+        "source_doc_id": "408",
+        "mention_span": {
+          "text": "Japan International Cooperation Agency (JICA)",
+          "start": 2134,
+          "end": 2179
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "79ebe00df2ea",
+      "subject_id": "d5d705798367",
+      "predicate": "deploys",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "fd58d35c83c1",
+        "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "eb24aef38183",
+      "subject_id": "40258f8c8340",
+      "predicate": "provides",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "bba285a49b8a",
+        "evidence_sentence": "[406] By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company.",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "08e6b6c73e05",
+      "subject_id": "e2c69a716822",
+      "predicate": "deploys",
+      "object_id": "f82256387d36",
+      "evidence": {
+        "evidence_id": "dbf230349c00",
+        "evidence_sentence": "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "f7e849111cbe",
+      "subject_id": "pred_367",
+      "predicate": "isRiskSourceFor",
+      "object_id": "b2e583c5941a",
+      "evidence": {
+        "evidence_id": "3c61a941f94b",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "5a36008e59d9",
+      "subject_id": "pred_367",
+      "predicate": "hasRisk",
+      "object_id": "c3b0badf0229",
+      "evidence": {
+        "evidence_id": "fb37b7e1f410",
+        "evidence_sentence": "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b8616e5edb45",
+      "subject_id": "b2e583c5941a",
+      "predicate": "causes",
+      "object_id": "c3b0badf0229",
+      "evidence": {
+        "evidence_id": "fb37b7e1f410",
+        "evidence_sentence": "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "10b2b9ec1470",
+      "subject_id": "pred_367",
+      "predicate": "hasConsequence",
+      "object_id": "5f30a44666ae",
+      "evidence": {
+        "evidence_id": "dd529074a5ad",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f5e57bdb73d7",
+      "subject_id": "c3b0badf0229",
+      "predicate": "leadsTo",
+      "object_id": "5f30a44666ae",
+      "evidence": {
+        "evidence_id": "dd529074a5ad",
+        "evidence_sentence": "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "30d629ae54d1",
+      "subject_id": "pred_367",
+      "predicate": "hasImpact",
+      "object_id": "05e496cee451",
+      "evidence": {
+        "evidence_id": "9611f5920991",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "dcc520c1727a",
+      "subject_id": "5f30a44666ae",
+      "predicate": "impacts",
+      "object_id": "05e496cee451",
+      "evidence": {
+        "evidence_id": "9611f5920991",
+        "evidence_sentence": "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3aae2d7be812",
+      "subject_id": "05e496cee451",
+      "predicate": "affects",
+      "object_id": "4e229c475f90",
+      "evidence": {
+        "evidence_id": "dfed3813d8d2",
+        "evidence_sentence": "Unmanned trains will ply on the route in about two to three years, NDTV reported.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "e78d499027a9",
+      "subject_id": "b2e583c5941a",
+      "predicate": "hasHazard",
+      "object_id": "c46289b199dc",
+      "evidence": {
+        "evidence_id": "42bf88d791e6",
+        "evidence_sentence": "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b195f091e248",
+      "subject_id": "f82256387d36",
+      "predicate": "hasVulnerability",
+      "object_id": "62ed705ce35b",
+      "evidence": {
+        "evidence_id": "fc595ff544b5",
+        "evidence_sentence": "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "3b060d62c62e",
+      "subject_id": "1b02e03c0f83",
+      "predicate": "mitigates",
+      "object_id": "c3b0badf0229",
+      "evidence": {
+        "evidence_id": "a9f1e8cae0c6",
+        "evidence_sentence": "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors.",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b8bf0a15d826",
+      "subject_id": "f82256387d36",
+      "predicate": "hasCapability",
+      "object_id": "a20efa0a01cc",
+      "evidence": {
+        "evidence_id": "fbd6b786a8d0",
+        "evidence_sentence": "[406] DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service.",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "13064bdbc611",
+      "subject_id": "pred_367",
+      "predicate": "hasEvidence",
+      "object_id": "1c711fbebbb5",
+      "evidence": {
+        "evidence_id": "60d2b8f8e5fc",
+        "evidence_sentence": "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.",
+        "source_doc_id": "410",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1c334429966a",
+      "subject_id": "pred_367",
+      "predicate": "hasEvidence",
+      "object_id": "3fbf95084cd4",
+      "evidence": {
+        "evidence_id": "e5c045e152f6",
+        "evidence_sentence": "[406] an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall.",
+        "source_doc_id": "406",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "5fbcac435622",
+      "subject_id": "d6ea685acdd4",
+      "predicate": "respondsToIncident",
+      "object_id": "pred_367",
+      "evidence": {
+        "evidence_id": "54c520807d17",
+        "evidence_sentence": "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"",
+        "source_doc_id": "408",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "Delhi Metro Rail Corporation": 2,
+    "NDTV": 1,
+    "ANI": 1,
+    "Delhi Metro train": 1,
+    "Communication-Based Train Control (CBTC)": 1,
+    "Commissioner for Metro Rail Safety (CMRS)": 1,
+    "Delhi Metro Rail Corporation (DMRC)": 1,
+    "Hyundai Rotem": 1,
+    "Delhi Metro Driverless Train": 1,
+    "Communication Based Train Control (CBTC) signalling technology": 1,
+    "Narendra Modi": 1,
+    "Mangu Singh": 1,
+    "Delhi Government": 1,
+    "Kailash Gahlot": 1,
+    "Commissioner for Metro Rail Safety": 1,
+    "Japan International Cooperation Agency": 1
+  },
+  "report_count": 4,
+  "first_seen": "2017-12-19T00:00:00Z",
+  "last_seen": "2019-04-11T00:00:00Z"
+}

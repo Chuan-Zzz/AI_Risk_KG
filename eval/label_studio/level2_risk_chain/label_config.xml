@@ -1,0 +1,87 @@
+<!--
+  AI Risk Knowledge Graph - Level 2 Risk Chain Verification Template
+  Slots: RiskSource, Risk, Consequence, Impact, AffectedActor, RiskControl
+  Each slot shows pre-extracted value + evidence with a 3-star rating + correction box.
+-->
+
+<View style="display: grid; grid-template: auto/1fr 1fr; column-gap: 1em">
+    <style>
+        .left, .right {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+
+    <!-- LEFT COLUMN: Text Reference -->
+    <view className="left">
+        <Header value="Event Meta Info" />
+        <Text name="meta" value="$meta_info" style="font-size: 14px; color: #666; padding: 10px; background: #f0f2f5; border-radius: 8px;"/>
+
+        <Header value="Evidence Source Text (only docs with evidence)" />
+        <HyperText name="text" value="$text" style="font-size: 15px; line-height: 1.8; padding: 14px; background: #fff; border: 2px solid #4dabf7; border-radius: 8px;"/>
+    </view>
+
+    <!-- RIGHT COLUMN: Pre-extracted Results + Rating + Correction -->
+    <view className="right">
+        <Header value="Pre-extracted Risk Chain (Verify and Rate)" />
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #fff3cd;">
+            <Header value="1. RiskSource" style="color: #856404; font-size: 14px;"/>
+            <HyperText name="rs_pre" value="$risk_source_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="rs_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="risk_source_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="rs_hint" value="3=correct  2=partially correct  1=incorrect" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #f8d7da;">
+            <Header value="2. Risk" style="color: #721c24; font-size: 14px;"/>
+            <HyperText name="r_pre" value="$risk_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="r_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="risk_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="r_hint" value="3=correct  2=partially correct  1=incorrect" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #d4edda;">
+            <Header value="3. Consequence" style="color: #155724; font-size: 14px;"/>
+            <HyperText name="c_pre" value="$consequence_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="c_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="consequence_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="c_hint" value="3=correct  2=partially correct  1=incorrect" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #cce5ff;">
+            <Header value="4. Impact" style="color: #004085; font-size: 14px;"/>
+            <HyperText name="i_pre" value="$impact_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="i_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="impact_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="i_hint" value="3=correct  2=partially correct  1=incorrect" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #e2e3e5;">
+            <Header value="5. AffectedActor (optional)" style="color: #383d41; font-size: 14px;"/>
+            <HyperText name="aa_pre" value="$affected_actor_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="aa_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="affected_actor_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="aa_hint" value="3=correct  2=partially correct  1=incorrect  skip if not extracted" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #d1ecf1;">
+            <Header value="6. RiskControl (optional)" style="color: #0c5460; font-size: 14px;"/>
+            <HyperText name="rc_pre" value="$risk_control_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="rc_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="risk_control_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="rc_hint" value="3=correct  2=partially correct  1=incorrect  skip if not extracted" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <!-- Guidelines -->
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #f8f9fa;">
+            <Header value="Verification Guidelines" style="color: #495057; font-size: 14px;"/>
+            <View style="padding:10px;background:#fff;border-left:3px solid #495057;border-radius:4px;font-size:12px;line-height:1.8;">
+                <Text name="guide" value="Steps:&#10;1. Left side shows documents with evidence sentences (highlighted with colored backgrounds)&#10;   Yellow=RiskSource, Red=Risk, Green=Consequence, Blue=Impact, Gray=AffectedActor, Cyan=RiskControl&#10;2. Review each slot pre-extracted value and evidence&#10;3. Rate with stars&#10;&#10;If the pre-extracted value is incorrect:&#10;- Enter the corrected value in the text box below&#10;- Leave blank if the pre-extraction is correct&#10;&#10;Rating:&#10;3 stars = Correct: value is accurate, evidence supports it&#10;2 stars = Partially correct: right direction but not precise&#10;1 star = Incorrect: completely wrong or no evidence&#10;&#10;Note: This level evaluates precision, not recall. Unextracted slots can be skipped."/>
+            </View>
+        </View>
+
+    </view>
+
+</View>

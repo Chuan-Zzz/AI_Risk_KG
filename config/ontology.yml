@@ -1,0 +1,291 @@
+# AIRO Extended Ontology - Domain/Range Constraints
+# Each relation defines valid subject (domain) and object (range) entity types.
+
+# === Entity Definitions ===
+entities:
+  # Technical Classes
+  AISystem:
+    definition: "A NAMED, SPECIFIC, BOUNDED software product, platform, or service that uses AI. Must be a commercial or named application available to users."
+    examples: ["Tesla Autopilot", "Clearview AI", "Google Photos", "COMPAS", "ChatGPT", "YouTube Kids", "Bing Chat", "Google Bard"]
+    not_examples: ["facial recognition technology", "machine learning system", "AI algorithm", "AI tool", "AI software"]
+    rule: "MUST have a specific name. Generic terms like 'AI tool' or 'AI system' without a name are NOT extracted."
+
+  AIModel:
+    definition: "A NAMED machine learning model (the underlying model, not the product that uses it)."
+    examples: ["GPT-4", "BERT", "Stable Diffusion", "ResNet", "YOLO", "LLaMA", "Gemini", "Claude"]
+    not_examples: ["a deep learning model", "an ML algorithm", "language model"]
+    rule: "Must be a specific model name, not a generic description."
+
+  GPAIModel:
+    definition: "General-Purpose AI Model as defined by the EU AI Act. Large-scale models that can be adapted to a wide range of tasks."
+    examples: ["GPT-4", "LLaMA", "Gemini", "Claude", "PaLM"]
+    rule: "Only use when the text explicitly identifies it as 'general-purpose' or it is widely known as such."
+
+  AITechnique:
+    definition: "A named AI method, approach, algorithm, or technology — NOT a specific product, NOT software, NOT a database."
+    examples: ["facial recognition", "machine learning", "deep learning", "NLP", "natural language processing", "computer vision", "reinforcement learning", "neural network", "generative AI"]
+    not_examples: ["facial recognition software", "facial recognition database", "face matching", "facial identification"]
+    rule: "Must be a technique/method, not a product, database, or capability."
+
+  AICapability:
+    definition: "A functional capability or task that an AI system can perform. Usually expressed as a verb phrase or gerund."
+    examples: ["face matching", "image recognition", "text generation", "content recommendation", "speech recognition", "object detection", "facial identification", "biometric identification", "case search", "legal research"]
+    not_examples: ["facial recognition", "machine learning"]
+    rule: "Must be something the AI can DO, not a technique it uses."
+
+  AIComponent:
+    definition: "A named functional component or module within an AI system."
+    examples: ["facial recognition module", "object detection pipeline", "speech-to-text engine", "recommendation engine"]
+    rule: "Only extract when a specific named component is mentioned."
+
+  Data:
+    definition: "A named dataset, training data source, data repository, or database used by an AI system."
+    examples: ["ImageNet", "Common Crawl", "LAION-5B", "training data from social media", "LFW dataset", "facial recognition database", "photo database", "face database", "training dataset", "legal databases", "Westlaw", "LexisNexis"]
+    not_examples: ["user data", "the data"]
+    rule: "Must be a specific named dataset or database."
+
+  # Stakeholder Classes
+  AIDeveloper:
+    definition: "Organizations or people that develop, train, build, or research AI systems."
+    trigger_words: ["develop", "train", "build", "create", "research", "design", "manufacture", "engineer"]
+    examples: ["OpenAI developed GPT-4", "DeepMind researchers built AlphaFold"]
+
+  AIProvider:
+    definition: "Organizations that provide, offer, release, sell, or distribute AI systems to others."
+    trigger_words: ["provide", "release", "offer", "launch", "publish", "sell", "market", "distribute"]
+    examples: ["OpenAI provides ChatGPT", "Google offers Gemini API"]
+
+  AIDeployer:
+    definition: "Organizations or people that deploy, adopt, implement, or operate AI systems in their operations."
+    trigger_words: ["deploy", "adopt", "implement", "use", "operate", "install", "roll out", "integrate"]
+    examples: ["NYPD deployed facial recognition", "the hospital adopted AI diagnostics"]
+
+  AIUser:
+    definition: "Individuals who directly interact with AI systems as end users."
+    examples: ["consumers using ChatGPT", "drivers using autopilot", "police officers using facial recognition"]
+    rule: "NOT organizations — these are individuals who use the system day-to-day."
+
+  Regulator:
+    definition: "Government agencies, authorities, courts, or bodies that regulate, investigate, fine, or enforce AI-related rules."
+    examples: ["FTC", "EU Commission", "NIST", "state Attorney General", "court", "judge", "bar association"]
+    trigger_words: ["regulate", "investigate", "fine", "ban", "restrict", "enforce", "rule", "judge"]
+    rule: "A judge or court IS a Regulator when making rulings about AI. Fictional court cases are NOT extracted."
+
+  AffectedActor:
+    definition: "Individuals or groups that are directly harmed, negatively affected, or impacted by the AI system's failure or risk."
+    examples: ["wrongly arrested individuals", "patients misdiagnosed", "discriminated applicants"]
+    rule: "NOT general public — must be specifically affected."
+
+  Stakeholder:
+    definition: "Use ONLY when none of the above specific roles fit, but the entity is clearly relevant to the incident."
+    rule: "Fallback type — prefer specific roles when possible. MUST NOT be geographic locations, celebrities as background, or generic organizations."
+
+  # Governance Classes
+  Regulation:
+    definition: "Named laws, regulations, legal acts, or legal frameworks enacted by a legislative or regulatory body."
+    examples: ["EU AI Act", "GDPR", "FTC regulations", "Commercial Facial Recognition Privacy Act", "Federal Rules of Civil Procedure"]
+    not_examples: ["Petersen v. Iran Air", "Varghese v. China Southern Airlines"]
+    rule: "Fictional or case-made-up court cases are NOT Regulations. If the text says the case was 'made up', 'hallucinated', 'bogus', or 'nonexistent', it is NOT a Regulation."
+
+  Standard:
+    definition: "Named technical or industry standards, guidelines, or frameworks."
+    examples: ["ISO/IEC 22989", "NIST AI RMF", "IEEE 7000"]
+
+# === Entity Type Rules ===
+entity_rules:
+  disambiguation:
+    - condition: "facial recognition / face recognition (standalone)"
+      type: "AITechnique"
+    - condition: "facial recognition technology (generic description)"
+      type: "AITechnique"
+    - condition: "facial recognition software (a product)"
+      type: "AISystem"
+    - condition: "facial recognition database / face database (a dataset)"
+      type: "Data"
+    - condition: "face matching / facial identification (a capability)"
+      type: "AICapability"
+    - condition: "NYPD facial recognition system / Clearview AI / FaceNet (named product)"
+      type: "AISystem"
+    - condition: "Google / NYPD / Clearview AI (as organization)"
+      type: "Stakeholder"
+    - condition: "OpenAI (the company)"
+      type: "Stakeholder"
+    - condition: "GPT-4 (the model)"
+      type: "AIModel"
+    - condition: "ChatGPT (the product)"
+      type: "AISystem"
+    - condition: "AI models (generic plural)"
+      type: "DO NOT EXTRACT"
+    - condition: "AI chatbots (generic plural)"
+      type: "DO NOT EXTRACT"
+    - condition: "AI tools / AI software (generic)"
+      type: "DO NOT EXTRACT"
+    - condition: "Fabricated court cases (made up, hallucinated, bogus)"
+      type: "DO NOT EXTRACT"
+
+# === Stage 2 Explicit Extraction Targets ===
+explicit_extraction_types:
+  - AISystem
+  - AIModel
+  - GPAIModel
+  - AITechnique
+  - AICapability
+  - AIComponent
+  - Data
+  - AIDeveloper
+  - AIProvider
+  - AIDeployer
+  - AIUser
+  - Regulator
+  - AffectedActor
+  - Stakeholder
+  - Regulation
+  - Standard
+
+# === Stage 4 Layer 2 Risk Chain Slots ===
+risk_chain_slots:
+  - RiskSource
+  - Risk
+  - Misuse
+  - Hazard
+  - Threat
+  - Vulnerability
+  - Consequence
+  - Impact
+  - AffectedActor
+  - RiskControl
+
+# === Stage 4 Layer 3 Inference Fields ===
+inference_fields:
+  - Purpose
+  - AILifecyclePhase
+  - Domain
+
+# === Relations ===
+relations:
+  # Technical Relations
+  develops:
+    domain: [AIDeveloper]
+    range: [AISystem, AIModel, GPAIModel]
+  provides:
+    domain: [AIProvider]
+    range: [AISystem, AIModel, GPAIModel]
+  deploys:
+    domain: [AIDeployer]
+    range: [AISystem]
+  uses:
+    domain: [AIUser]
+    range: [AISystem]
+  hasModel:
+    domain: [AISystem]
+    range: [AIModel]
+  usesTechnique:
+    domain: [AISystem]
+    range: [AITechnique]
+  hasCapability:
+    domain: [AISystem]
+    range: [AICapability]
+
+  # Event Core Relations
+  involvesAISystem:
+    domain: [AIRiskIncident]
+    range: [AISystem]
+  involvesStakeholder:
+    domain: [AIRiskIncident]
+    range: [Stakeholder]
+  hasRisk:
+    domain: [AIRiskIncident, AISystem]
+    range: [Risk]
+  hasConsequence:
+    domain: [AIRiskIncident, Risk]
+    range: [Consequence]
+  hasImpact:
+    domain: [AIRiskIncident, Consequence]
+    range: [Impact]
+  hasReport:
+    domain: [AIRiskIncident]
+    range: [NewsReport]
+
+  # Role Relations
+  roleHeldBy:
+    domain: [RoleAssignment]
+    range: [Stakeholder]
+  hasRoleInIncident:
+    domain: [RoleAssignment]
+    range: [AIRiskIncident]
+  roleInvolvesSystem:
+    domain: [RoleAssignment]
+    range: [AISystem]
+
+  # Risk Propagation Chain
+  causes:
+    domain: [RiskSource]
+    range: [Risk]
+  leadsTo:
+    domain: [Risk]
+    range: [Consequence]
+  impacts:
+    domain: [Consequence]
+    range: [Impact]
+  affects:
+    domain: [Impact]
+    range: [AffectedActor]
+  mitigates:
+    domain: [RiskControl]
+    range: [Risk]
+
+  # Governance Relations
+  governs:
+    domain: [Regulation, Standard]
+    range: [AISystem, Stakeholder]
+  imposesRequirement:
+    domain: [Regulation]
+    range: [ComplianceRequirement]
+  enforces:
+    domain: [Regulator]
+    range: [Regulation]
+  investigates:
+    domain: [Regulator]
+    range: [AIRiskIncident]
+  specifies:
+    domain: [Standard]
+    range: [RiskControl]
+  respondsToIncident:
+    domain: [EnforcementAction]
+    range: [AIRiskIncident]
+
+  # Evidence Relations
+  hasEvidence:
+    domain: [KnowledgeStatement]
+    range: [Evidence]
+  hasSourceDocument:
+    domain: [Evidence]
+    range: [NewsReport]
+
+  # Multi-document Relations
+  conflictsWith:
+    domain: [KnowledgeStatement]
+    range: [KnowledgeStatement]
+
+  # Original AIRO Relations
+  isRiskSourceFor:
+    domain: [RiskSource]
+    range: [Risk]
+  hasHazard:
+    domain: [AISystem, RiskSource]
+    range: [Hazard]
+  hasThreat:
+    domain: [AISystem, RiskSource]
+    range: [Threat]
+  hasVulnerability:
+    domain: [AISystem]
+    range: [Vulnerability]
+  hasInformationSource:
+    domain: [AIRiskIncident]
+    range: [InformationSource]
+  compliesWithRegulation:
+    domain: [AISystem]
+    range: [Regulation]
+  conformsToStandard:
+    domain: [AISystem]
+    range: [Standard]

@@ -1,0 +1,1903 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/EnforcementAction/d236b8a13d31> a airo:EnforcementAction ;
+    rdfs:label "investigation initiated by Technology Crime Suppression Division and Crime Technology Division of the Royal Thai Police" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3b179796bc8> ;
+    airo:hasReasoning "Law enforcement divisions explicitly started collecting evidence for an investigation, which is a regulatory enforcement action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> .
+
+<https://w3id.org/airo/incident/InformationSource/12a2216a96f5> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2118>,
+        <https://w3id.org/airo/incident/NewsReport/2119>,
+        <https://w3id.org/airo/incident/NewsReport/2203>,
+        <https://w3id.org/airo/incident/NewsReport/2204>,
+        <https://w3id.org/airo/incident/NewsReport/2205> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118>,
+        <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204>,
+        <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/RiskControl/df2f2ad67307> a airo:RiskControl ;
+    rdfs:label "Deactivation of auto-translation feature pending quality upgrades" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85442df5d611> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/ce314aaea33e> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0998b4791353> a airo:RoleAssignment ;
+    rdfs:label "Thai PBS_AIUser" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fea286845245> ;
+    airo:hasReasoning "Thai PBS is a media outlet that used Facebook's platform (and its auto-translate feature) to post content, making it an end-user of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c219f88ad571> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0dc1cfeadd50> a airo:RoleAssignment ;
+    rdfs:label "Technology Crime Suppression Division_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/388af4e44a8c> ;
+    airo:hasReasoning "The TCSD is initiating an investigation, which is a regulatory enforcement action." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/323e190672ff> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/333d0e6e0eaa> a airo:RoleAssignment ;
+    rdfs:label "Thai PBS_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd936ca7a34c> ;
+    airo:hasReasoning "Thai PBS received complaints from citizens due to the AI translation error, indicating it was negatively affected by the risk." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c219f88ad571> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/42f4eb7543d4> a airo:RoleAssignment ;
+    rdfs:label "Facebook Inc._AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c09097daa04> ;
+    airo:hasReasoning "Facebook Inc. operates the platform ('its platform') where the AI translation service is provided to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6922cd08258f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/434446d02ad0> a airo:RoleAssignment ;
+    rdfs:label "Royal Thai Police Crime Technology Division_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a445c1f07426> ;
+    airo:hasReasoning "This division is conducting an investigation into the AI system's failure, a clear regulatory action." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0b3269d97ce8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5079b7deb680> a airo:RoleAssignment ;
+    rdfs:label "Aung San Suu Kyi_AffectedActor" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b22fb3d584f> ;
+    airo:hasReasoning "Aung San Suu Kyi's official page published the erroneously translated content, making her an associated party affected by the reputational risk." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/047426939aea> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/56cedc96215f> a airo:RoleAssignment ;
+    rdfs:label "National Broadcasting and Telecommunications Commission_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/102322d35b67> ;
+    airo:hasReasoning "As a national broadcasting and telecommunications regulator, it is a relevant regulatory body in the context of a social media platform failure affecting a broadcaster." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8eea1b907b55> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/744626a5f041> a airo:RoleAssignment ;
+    rdfs:label "Xi Jinping_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f5fbd309850> ;
+    airo:hasReasoning "Xi Jinping was directly and negatively affected by the translation error, which produced a highly offensive misrepresentation of his name." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9ee7d50101c9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/884e52747de2> a airo:RoleAssignment ;
+    rdfs:label "Facebook Inc._AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/649c8492ef92> ;
+    airo:hasReasoning "Facebook Inc. is the entity blamed for the technical error, implying responsibility for developing the AI translation system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6922cd08258f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/92b7d7c027f7> a airo:RoleAssignment ;
+    rdfs:label "Ministry of Digital Economy and Society_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bebdac5ab50> ;
+    airo:hasReasoning "The ministry is named as part of the government apparatus responding to the incident, implying a regulatory or governance role in the digital economy sector." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/27b6bc84a6b4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cf4fdb44332d> a airo:RoleAssignment ;
+    rdfs:label "China's Ministry of Foreign Affairs_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e3071b0d3e3> ;
+    airo:hasReasoning "The ministry was contacted for comment regarding the offensive translation of its leader's name, indicating it was affected by the incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/179b4e39e8de> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ecbb0a43087f> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf3a8afaf1ed> ;
+    airo:hasReasoning "OpenAI is listed in core entities, but the evidence does not link it to developing, providing, deploying, or being harmed by this specific Facebook translation AI. It is a general stakeholder in the AI field." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_241> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/476df22b856c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/Trend/43cfd0b88987> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny and investigation of AI system failures by national authorities" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cfd303e0399> ;
+    airo:hasReasoning "The evidence shows multiple government bodies (TCSD, Crime Technology Division) launching investigations into an AI translation failure, indicating a trend of official scrutiny." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/event/pred_241> a airo:AIRiskIncident ;
+    airo:firstSeen "2020-01-18T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2021-04-05T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/008376b2cbf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/476263629ea9> .
+
+<https://w3id.org/airo/incident/ks/058be6d0c0ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/06480d274938> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb0248376854> .
+
+<https://w3id.org/airo/incident/ks/0b7e1870cf27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/0f47dff32728> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90b4c429d9f8> .
+
+<https://w3id.org/airo/incident/ks/104bd4caaa08> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbd011a45e93> .
+
+<https://w3id.org/airo/incident/ks/1106d579802d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f12214d3> .
+
+<https://w3id.org/airo/incident/ks/11b01d197bc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51115b8dfcf8> .
+
+<https://w3id.org/airo/incident/ks/12d4bfe89d07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/13a191d63ea5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f12214d3> .
+
+<https://w3id.org/airo/incident/ks/13dd45298d96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37bced7bd5e1> .
+
+<https://w3id.org/airo/incident/ks/150c0373e49e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda> .
+
+<https://w3id.org/airo/incident/ks/165f9ab8e631> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7616d2ea0d0> .
+
+<https://w3id.org/airo/incident/ks/18ab619d596b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/19064d66686e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/1c49ac318fa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/1cce9fa58e1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91aa41637363> .
+
+<https://w3id.org/airo/incident/ks/1ce80273fa4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f12214d3> .
+
+<https://w3id.org/airo/incident/ks/1dc3e59553a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e272fb7a9b> .
+
+<https://w3id.org/airo/incident/ks/2074ad8ad778> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21> .
+
+<https://w3id.org/airo/incident/ks/21f851bbc876> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/240b20dd52f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ee91a3a5c89> .
+
+<https://w3id.org/airo/incident/ks/246821bc2b5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/248821c575c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/259b6f5b1d4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/25d3f8652e0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/285694141a5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7616d2ea0d0> .
+
+<https://w3id.org/airo/incident/ks/2aab4aeca685> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3fb0f37bc0> .
+
+<https://w3id.org/airo/incident/ks/2af08a2bd2dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f12214d3> .
+
+<https://w3id.org/airo/incident/ks/2bed0836366d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/2d94a7813230> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf62d749e718> .
+
+<https://w3id.org/airo/incident/ks/2ed57d30c5b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/2f4825a7730f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/2f92eef647c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/30661d533349> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf62d749e718> .
+
+<https://w3id.org/airo/incident/ks/35c9e15c3dbc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fef97780396> .
+
+<https://w3id.org/airo/incident/ks/38852d78ea4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53955994e017> .
+
+<https://w3id.org/airo/incident/ks/38bf3b010cdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e8f3e7de18> .
+
+<https://w3id.org/airo/incident/ks/3a619c551f5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/3accd6cd32cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51115b8dfcf8> .
+
+<https://w3id.org/airo/incident/ks/3afe76af59c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda> .
+
+<https://w3id.org/airo/incident/ks/3c06644193f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/3ccd7fc8d8a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda> .
+
+<https://w3id.org/airo/incident/ks/3d4bf41a9103> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/3fd470cb84a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/4366057ce5c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21> .
+
+<https://w3id.org/airo/incident/ks/44e9c7aa8c1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/459cdba1985a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/46889e741ff5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/468a54c4b961> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/47d72e361189> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/47f252270168> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21> .
+
+<https://w3id.org/airo/incident/ks/4924e60a5000> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/4b4cbca5c326> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f58ca74934b0> .
+
+<https://w3id.org/airo/incident/ks/5101605d6c32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/521546d6b470> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/5533b317b0d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/58e4985957c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0001b7ea2377> .
+
+<https://w3id.org/airo/incident/ks/596764d351c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e536eb28a45> .
+
+<https://w3id.org/airo/incident/ks/5a1d470cfd1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/5d8eac498cb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6d676403b1f> .
+
+<https://w3id.org/airo/incident/ks/5ea71a603fac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51115b8dfcf8> .
+
+<https://w3id.org/airo/incident/ks/62506d0ccb6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0249c04d6e5d> .
+
+<https://w3id.org/airo/incident/ks/66ca0cd01d44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/66d045b45918> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda> .
+
+<https://w3id.org/airo/incident/ks/69e6c853076e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63ccd59db079> .
+
+<https://w3id.org/airo/incident/ks/6adb0372c828> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a463aa6def42> .
+
+<https://w3id.org/airo/incident/ks/6b59ce2d932e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/6b63d41cbbb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90b4c429d9f8> .
+
+<https://w3id.org/airo/incident/ks/72269a7a2cd4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ee91a3a5c89> .
+
+<https://w3id.org/airo/incident/ks/7307633667e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcc2160b0bf> .
+
+<https://w3id.org/airo/incident/ks/7506f46b55c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/969d52bf29e4> .
+
+<https://w3id.org/airo/incident/ks/7629b8caa280> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ee91a3a5c89> .
+
+<https://w3id.org/airo/incident/ks/78fd7c324647> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9657bf728c2> .
+
+<https://w3id.org/airo/incident/ks/794dc1053987> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/7b2fa79f3fbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0defebd952c4> .
+
+<https://w3id.org/airo/incident/ks/7bd20a16b8c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8e8c0826ec83> .
+
+<https://w3id.org/airo/incident/ks/7cb958e6a578> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/387e73cc0d34> .
+
+<https://w3id.org/airo/incident/ks/7de87bf6069b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21> .
+
+<https://w3id.org/airo/incident/ks/80daa0a11dfd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe89a76b910> .
+
+<https://w3id.org/airo/incident/ks/811a6cae1a63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0001b7ea2377> .
+
+<https://w3id.org/airo/incident/ks/81537211df88> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89496eae4454> .
+
+<https://w3id.org/airo/incident/ks/81a95388f54f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/831f6b066c55> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de9b820c14ae> .
+
+<https://w3id.org/airo/incident/ks/8380b43ffe44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/83ac69096b70> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/860f1a43dbec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/8c44d9356bca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/8d9c9638a0d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/90cbefc0a655> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/90ef03274034> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2877a0c804e1> .
+
+<https://w3id.org/airo/incident/ks/93c05a615452> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/631b0c222e3d> .
+
+<https://w3id.org/airo/incident/ks/944b20972ada> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0001b7ea2377> .
+
+<https://w3id.org/airo/incident/ks/94ec2538b5eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/9ebe9154cd2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90b4c429d9f8> .
+
+<https://w3id.org/airo/incident/ks/9ed1a07534fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a253438198bd> .
+
+<https://w3id.org/airo/incident/ks/9ed3453b416a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/a163d7546de3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ef9994d542> .
+
+<https://w3id.org/airo/incident/ks/a195a1c5e5cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/a1b2c5cb51f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb0248376854> .
+
+<https://w3id.org/airo/incident/ks/a1c787eace74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5bbd9e51f58> .
+
+<https://w3id.org/airo/incident/ks/a298b9021b19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f354ce58742> .
+
+<https://w3id.org/airo/incident/ks/a52d7c410217> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/a7161982bb9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/a9dc78e40a3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a1f519426a89> .
+
+<https://w3id.org/airo/incident/ks/ac06aec19ba3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21> .
+
+<https://w3id.org/airo/incident/ks/af54c1e6212f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf62d749e718> .
+
+<https://w3id.org/airo/incident/ks/b3474a16e25a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a332e24ff4> .
+
+<https://w3id.org/airo/incident/ks/b4c3a9b9490c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/b5894cbef0e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fef97780396> .
+
+<https://w3id.org/airo/incident/ks/b5b280dcad2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4b7948a9dc3> .
+
+<https://w3id.org/airo/incident/ks/b8b45d5096e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/bbf9665933ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/bc037b58fc2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/bdb23ed2171b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/002f9d67beac> .
+
+<https://w3id.org/airo/incident/ks/c2c085082175> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/c4e4332e55ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/c65f78a488aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/c736f860a788> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf62d749e718> .
+
+<https://w3id.org/airo/incident/ks/c78686324419> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90b4c429d9f8> .
+
+<https://w3id.org/airo/incident/ks/c817dd2818e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/c9716bdaef38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebee2b76be18> .
+
+<https://w3id.org/airo/incident/ks/c972c2bfb1a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/c9df836a961d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/c9f5196a90d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/ca6495206ce2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eab557c16fcf> .
+
+<https://w3id.org/airo/incident/ks/cbbdd68f4041> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/cdce40712c31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e16f615670ee> .
+
+<https://w3id.org/airo/incident/ks/cf4ac3d6ffe8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7616d2ea0d0> .
+
+<https://w3id.org/airo/incident/ks/d14581679dd5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/d27c83809b6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b19c721d5b19> .
+
+<https://w3id.org/airo/incident/ks/d3b981a39cd1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91aa41637363> .
+
+<https://w3id.org/airo/incident/ks/d54c6ad3653a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e723efa2a4f3> .
+
+<https://w3id.org/airo/incident/ks/d714004c8433> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/969d52bf29e4> .
+
+<https://w3id.org/airo/incident/ks/d7fea3cb017b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdd85059e66> .
+
+<https://w3id.org/airo/incident/ks/dac9491fda2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eab557c16fcf> .
+
+<https://w3id.org/airo/incident/ks/db5d978e0bcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5097f85174c7> .
+
+<https://w3id.org/airo/incident/ks/dbb42a832ed8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/dcdf18f6a45f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256> .
+
+<https://w3id.org/airo/incident/ks/de11f7a44018> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/ks/e1e9c589a518> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/e3c1343c7988> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37bced7bd5e1> .
+
+<https://w3id.org/airo/incident/ks/e4bc27b180ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/e5828af77061> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4ccb37c086b> .
+
+<https://w3id.org/airo/incident/ks/e655079786ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> .
+
+<https://w3id.org/airo/incident/ks/ea751b2b474d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/473b0dc34bfd> .
+
+<https://w3id.org/airo/incident/ks/ec36940cac21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa94927ca3ff> .
+
+<https://w3id.org/airo/incident/ks/ec749421e553> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d41b517df196> .
+
+<https://w3id.org/airo/incident/ks/eccf3092f80c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0b997840a89> .
+
+<https://w3id.org/airo/incident/ks/edf391a50b63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/ee6156e1e233> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eddad367a2d6> .
+
+<https://w3id.org/airo/incident/ks/ee62e7df06dd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d6d676403b1f> .
+
+<https://w3id.org/airo/incident/ks/ef19342fcd12> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> .
+
+<https://w3id.org/airo/incident/ks/ef68ae08a630> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e723efa2a4f3> .
+
+<https://w3id.org/airo/incident/ks/f048676e13f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f172425d578> .
+
+<https://w3id.org/airo/incident/ks/f16f3a18f702> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> .
+
+<https://w3id.org/airo/incident/ks/f1bd99b549d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3b179796bc8> .
+
+<https://w3id.org/airo/incident/ks/f39fa00b118c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0b997840a89> .
+
+<https://w3id.org/airo/incident/ks/f3e2f5e1c23e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d5797468eda> .
+
+<https://w3id.org/airo/incident/ks/f42a49117c4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51115b8dfcf8> .
+
+<https://w3id.org/airo/incident/ks/f4a443d917c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda> .
+
+<https://w3id.org/airo/incident/ks/f4c0219d5c43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca3a61a059d2> .
+
+<https://w3id.org/airo/incident/ks/f56ff82810b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ee91a3a5c89> .
+
+<https://w3id.org/airo/incident/ks/f79177805c34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d41b517df196> .
+
+<https://w3id.org/airo/incident/ks/f9e90e0d7b36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85442df5d611> .
+
+<https://w3id.org/airo/incident/ks/fd40bf0589e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/223ca105a76e> .
+
+<https://w3id.org/airo/incident/ks/fdc8cd46865b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f93c34228b7a> .
+
+<https://w3id.org/airo/incident/ks/ffc17918a92d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232> .
+
+<https://w3id.org/airo/incident/AICapability/46ea9c9ddb7e> a airo:AICapability ;
+    rdfs:label "translation service" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "translation service" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fef97780396> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/AICapability/6990a042095b> a airo:AICapability ;
+    rdfs:label "auto translate" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto translated" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eab557c16fcf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> .
+
+<https://w3id.org/airo/incident/AICapability/78a554552a83> a airo:AICapability ;
+    rdfs:label "translate text" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "incorrect translations from Burmese to English" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37bced7bd5e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/AICapability/dc06e229cdfa> a airo:AICapability ;
+    rdfs:label "text translation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ระบบแปลข้อความ" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f58ca74934b0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119> .
+
+<https://w3id.org/airo/incident/AICapability/fe062aa0ef30> a airo:AICapability ;
+    rdfs:label "auto-translation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "แปลอัตโนมัติ" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7616d2ea0d0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/c537fcec63da> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcc2160b0bf> ;
+    airo:hasReasoning "The AI system was active and being used by end-users when the error occurred, and the response was to deactivate a live feature, placing the incident in the deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> .
+
+<https://w3id.org/airo/incident/AITechnique/110301a43969> a airo:AITechnique ;
+    rdfs:label "Long Short-Term Memory (LSTM) Neural Networks" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "long short-term memory neural networks" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e8f3e7de18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/AITechnique/3c8137f20efa> a airo:AITechnique ;
+    rdfs:label "Natural Language Processing (NLP)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "natural language processing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebee2b76be18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/AITechnique/95042461afdf> a airo:AITechnique ;
+    rdfs:label "automatic translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto-translation feature" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91aa41637363>,
+        <https://w3id.org/airo/incident/evidence/aa94927ca3ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/AITechnique/964bd15f3300> a airo:AITechnique ;
+    rdfs:label "machine translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "translation from Burmese to English" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37bced7bd5e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/AITechnique/ca4b1004b5d8> a airo:AITechnique ;
+    rdfs:label "auto-translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto-translate feature" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7616d2ea0d0>,
+        <https://w3id.org/airo/incident/evidence/eab557c16fcf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/d7e2590ebd2e> a airo:AffectedActor ;
+    rdfs:label "National broadcasters and the general public in Thailand" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e16f615670ee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> .
+
+<https://w3id.org/airo/incident/Documentation/9b750101b94d> a airo:Documentation ;
+    rdfs:label "public apology and statement of fault from the AI provider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0249c04d6e5d> ;
+    airo:hasReasoning "Facebook issued a formal apology and statement acknowledging the fault, which is a form of documentation in response to the incident." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/Domain/10e6b2d22b04> a airo:Domain ;
+    rdfs:label "social media" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3fb0f37bc0> ;
+    airo:hasReasoning "The AI system (Facebook Translation Tool) was applied within Facebook and Instagram, which are social media platforms." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Hazard/91c3d82c3c2c> a airo:Hazard ;
+    rdfs:label "Unmonitored automatic translation of culturally sensitive content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4b7948a9dc3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Purpose/a868ae36df49> a airo:Purpose ;
+    rdfs:label "automatic translation of text between languages on social media posts" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e272fb7a9b> ;
+    airo:hasReasoning "The evidence describes Facebook's 'translation service' and 'auto-translate feature' that automatically translates text on its social networks, indicating its purpose is automated text translation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/RiskSource/fb9f85869d2b> a airo:RiskSource ;
+    rdfs:label "Technical error in machine translation model" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/ce314aaea33e> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89496eae4454> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/91c3d82c3c2c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/Stakeholder/32bc6ca426dd> a airo:Stakeholder ;
+    rdfs:label "Alex Fenby" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "นาย Alex Fenby, News Partnerships Lead, South East Asia สำนักงานเฟซบุ๊ก ณ ประเทศสิงคโปร์" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e536eb28a45> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119> .
+
+<https://w3id.org/airo/incident/Stakeholder/3ce32cbf04c5> a airo:Stakeholder ;
+    rdfs:label "King Vajiralongkorn" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Thai King Vajiralongkorn or Rama X" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a463aa6def42> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Stakeholder/5f38a114490b> a airo:Stakeholder ;
+    rdfs:label "Prayut Chan ocha" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Thailand’s Prime Minister, Prayut Chan ocha" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0001b7ea2377> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Stakeholder/71b141a217ca> a airo:Stakeholder ;
+    rdfs:label "Buddhipongse Punnakanta" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Minister for Digital Economy and Society, Buddhipongse Punnakanta" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91aa41637363> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Stakeholder/7c0233a17c71> a airo:Stakeholder ;
+    rdfs:label "Bureau of the Royal Household" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Royal Household Bureau" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda>,
+        <https://w3id.org/airo/incident/evidence/a253438198bd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Vulnerability/9bc6ecd86723> a airo:Vulnerability ;
+    rdfs:label "Translation model lacks robustness to culturally sensitive terms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53955994e017> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/evidence/002f9d67beac> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/0defebd952c4> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/102322d35b67> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/16d8c31929ec> a airo:Evidence ;
+    airo:evidenceText "Last month, the results of a new generation of AI called GPT-3 started to surface." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/1b22fb3d584f> a airo:Evidence ;
+    airo:evidenceText "[2118] A statement about the visit published on Suu Kyi’s official Facebook page was littered with references to “Mr Shithole” when translated to English." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/2877a0c804e1> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/2f5fbd309850> a airo:Evidence ;
+    airo:evidenceText "[2118] Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/388af4e44a8c> a airo:Evidence ;
+    airo:evidenceText "[2203] Meanwhile, the Technology Crime Suppression Division (TCSD) has started the process of collecting evidence for an investigation into the matter following a complaint made by Thai PBS TV station on Wednesday." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/3ca5ad4f5162> a airo:Evidence ;
+    airo:evidenceText "Thai PBS แจงข้อความไม่เหมาะสม อ้างระบบแปลอัตโนมัติเฟซบุ๊กมีปัญหา" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/473b0dc34bfd> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/4bdd85059e66> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/53a332e24ff4> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/5a5c23b14b82> a airo:Evidence ;
+    airo:evidenceText "Facebook says technical error caused vulgar translation of Chinese leader's name" ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/5bebdac5ab50> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/631b0c222e3d> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/649c8492ef92> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/6c09097daa04> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/6d5797468eda> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/7cfd303e0399> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/8e8c0826ec83> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/8f172425d578> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/976e07203e47> a airo:Evidence ;
+    airo:evidenceText "FB told to apologise for 'mistranslation'" ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/9d45ab673a7a> a airo:Evidence ;
+    airo:evidenceText "Lost in translation: Facebook’s royal translation error" ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/9e3071b0d3e3> a airo:Evidence ;
+    airo:evidenceText "[2118] China’s foreign ministry declined comment." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/a1f519426a89> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/a445c1f07426> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police..." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/a5c4c2fcf69f> a airo:Evidence ;
+    airo:evidenceText "เมื่อ ส.ส.ท. ได้รับทราบข้อมูลการแปลที่ไม่เหมาะสม ซึ่งถูกนำไปเผยแพร่ จนทำให้เกิดผลกระทบในวงกว้าง" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/bbe89a76b910> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/bf3a8afaf1ed> a airo:Evidence ;
+    airo:evidenceText "[2205] It is the third iteration of the machine learning model specialized in natural language processing." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/ca3a61a059d2> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/cbd011a45e93> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/ced02659e8f7> a airo:Evidence ;
+    airo:evidenceText "Facebook under investigation over translation blunder as minister criticises the social network" ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/d4ccb37c086b> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/e5bbd9e51f58> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/f93c34228b7a> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/fd936ca7a34c> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/fea286845245> a airo:Evidence ;
+    airo:evidenceText "[2205] On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/AIModel/7337373f117c> a airo:AIModel ;
+    rdfs:label "GPT-3" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GPT-3" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16d8c31929ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/Consequence/643708904495> a airo:Consequence ;
+    rdfs:label "Mistranslated messages causing public outrage and official investigations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/969d52bf29e4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/c1dc8cf7c6d9> .
+
+<https://w3id.org/airo/incident/Impact/c1dc8cf7c6d9> a airo:Impact ;
+    rdfs:label "Reputational harm and legal/regulatory scrutiny for AI platform" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/d7e2590ebd2e> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e723efa2a4f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/NewsReport/2118> a airo:NewsReport ;
+    rdfs:label "Facebook says technical error caused vulgar translation of Chinese leader's name" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "YANGON (Reuters) - Facebook Inc [FB.O](https://www.reuters.com/companies/FB.O) on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its plat" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de9b820c14ae> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/NewsReport/2119> a airo:NewsReport ;
+    rdfs:label "Thai PBS แจงข้อความไม่เหมาะสม อ้างระบบแปลอัตโนมัติเฟซบุ๊กมีปัญหา" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Thai PBS ได้เผยแพร่คำชี้แจงกรณี ข้อความไม่เหมาะสมที่ปรากฏในเฟซบุ๊ก ช่วงถ่ายทอดสด พิธีจุดเทียนถวายพระพรชัยมงคล ยืนยันเป็นปัญหาของระบบแปลข้อความจากทางเฟซบุ๊กเอง
+
+เมื่อวันที่ 9 ก.ค ในเฟซบุ๊กของ Thai PBS """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f354ce58742> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119> .
+
+<https://w3id.org/airo/incident/NewsReport/2203> a airo:NewsReport ;
+    rdfs:label "FB told to apologise for 'mistranslation'" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Digital Economy and Society (DES) Ministry has sent an urgent letter to Facebook in Singapore and Thailand, demanding the social media giant take responsibility over a mistranslated headline from " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5097f85174c7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203> .
+
+<https://w3id.org/airo/incident/NewsReport/2204> a airo:NewsReport ;
+    rdfs:label "Facebook under investigation over translation blunder as minister criticises the social network" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "**Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s bir" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ef9994d542> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/NewsReport/2205> a airo:NewsReport ;
+    rdfs:label "Lost in translation: Facebook’s royal translation error" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page.
+
+The caption of the live""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/476263629ea9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/Regulation/91556cb8bac2> a airo:Regulation ;
+    rdfs:label "Criminal Code Article 112" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Article 112 of the Criminal Code" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0001b7ea2377> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Regulation/9198d37cdbea> a airo:Regulation ;
+    rdfs:label "Computer Crime Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Computer Crime Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/800946594256>,
+        <https://w3id.org/airo/incident/evidence/a0b997840a89>,
+        <https://w3id.org/airo/incident/evidence/d6d676403b1f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/047426939aea> a airo:Stakeholder ;
+    rdfs:label "Aung San Suu Kyi" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Aung San Suu Kyi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf62d749e718> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/Stakeholder/0b3269d97ce8> a airo:Stakeholder ;
+    rdfs:label "Royal Thai Police Crime Technology Division" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Crime Technology Division of the Royal Thai Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41c8386e88b7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2204> .
+
+<https://w3id.org/airo/incident/Stakeholder/179b4e39e8de> a airo:Stakeholder ;
+    rdfs:label "China's Ministry of Foreign Affairs" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "China’s foreign ministry" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ee91a3a5c89> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/Stakeholder/27b6bc84a6b4> a airo:Stakeholder ;
+    rdfs:label "Ministry of Digital Economy and Society" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Digital Economy and Society (DES) Ministry" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d2a99197eda>,
+        <https://w3id.org/airo/incident/evidence/90b4c429d9f8>,
+        <https://w3id.org/airo/incident/evidence/aa94927ca3ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/323e190672ff> a airo:Stakeholder ;
+    rdfs:label "Technology Crime Suppression Division" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Technology Crime Suppression Division (TCSD)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9d50d1a3232>,
+        <https://w3id.org/airo/incident/evidence/aa94927ca3ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/476df22b856c> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51115b8dfcf8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2205> .
+
+<https://w3id.org/airo/incident/Stakeholder/8eea1b907b55> a airo:Stakeholder ;
+    rdfs:label "National Broadcasting and Telecommunications Commission" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Broadcasting and Telecommunications Commission (NBTC)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21>,
+        <https://w3id.org/airo/incident/evidence/800946594256> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/9ee7d50101c9> a airo:Stakeholder ;
+    rdfs:label "Xi Jinping" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Xi Jinping" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c52f12214d3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/evidence/0249c04d6e5d> a airo:Evidence ;
+    airo:evidenceText "[2205] Facebook swiftly admitted fault, issued a “profound apology” to the Thai people, and temporarily turned off auto-translation from English to Thai while the tool was fixed." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/1fcc2160b0bf> a airo:Evidence ;
+    airo:evidenceText "[2203] Facebook Thailand said it has temporarily deactivated the auto-translate feature on Facebook and Instagram while offering its apologies." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/21ef9994d542> a airo:Evidence ;
+    airo:evidenceText "Facebook under investigation over translation blunder as minister criticises the social network" ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/2e536eb28a45> a airo:Evidence ;
+    airo:evidenceText "ทีมงานได้แจ้งปัญหาและติดต่อขอคำชี้แจงถึงความผิดพลาดที่เกิดขึ้นกับทางเฟซบุ๊กในทันที โดยนาย Alex Fenby, News Partnerships Lead, South East Asia สำนักงานเฟซบุ๊ก ณ ประเทศสิงคโปร์" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/387e73cc0d34> a airo:Evidence ;
+    airo:evidenceText "Following the court orders, YouTube removed 1,507 out of 1,616 URLs on the court orders from its platform." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/476263629ea9> a airo:Evidence ;
+    airo:evidenceText "Lost in translation: Facebook’s royal translation error" ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/5097f85174c7> a airo:Evidence ;
+    airo:evidenceText "FB told to apologise for 'mistranslation'" ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/53955994e017> a airo:Evidence ;
+    airo:evidenceText "[2205] However, a glitch with Facebook’s translation tool changed the words “King’s birthday” to “King’s Memorial Day.,” in the Thai translation." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/5f3fb0f37bc0> a airo:Evidence ;
+    airo:evidenceText "[2204] Facebook has announced that it has suspended the translation service in Thailand on its main social network and on Instagram promising to upgrade and enhance the quality of translation." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/63ccd59db079> a airo:Evidence ;
+    airo:evidenceText "Google’s translation function did not show the same error." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/6f354ce58742> a airo:Evidence ;
+    airo:evidenceText "Thai PBS แจงข้อความไม่เหมาะสม อ้างระบบแปลอัตโนมัติเฟซบุ๊กมีปัญหา" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/85442df5d611> a airo:Evidence ;
+    airo:evidenceText "[2203] Facebook Thailand said it has temporarily deactivated the auto-translate feature on Facebook and Instagram while offering its apologies." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/89496eae4454> a airo:Evidence ;
+    airo:evidenceText "[2118] Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/90e272fb7a9b> a airo:Evidence ;
+    airo:evidenceText "[2204] Facebook has announced that it has suspended the translation service in Thailand on its main social network and on Instagram promising to upgrade and enhance the quality of translation." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/a253438198bd> a airo:Evidence ;
+    airo:evidenceText "The channel also informed the Royal Household Bureau, the DES Ministry and various agencies about the incident." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/a463aa6def42> a airo:Evidence ;
+    airo:evidenceText "The PM cited an explicit request from Thai King Vajiralongkorn or Rama X who has asked that this specific legal charge is not applied to suspected offenders." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/a9657bf728c2> a airo:Evidence ;
+    airo:evidenceText "However, a glitch with Facebook’s translation tool changed the words “King’s birthday” to “King’s Memorial Day.,” in the Thai translation." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/d3b179796bc8> a airo:Evidence ;
+    airo:evidenceText "[2203] Meanwhile, the Technology Crime Suppression Division (TCSD) has started the process of collecting evidence for an investigation into the matter following a complaint made by Thai PBS TV station on Wednesday." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/d4b7948a9dc3> a airo:Evidence ;
+    airo:evidenceText "[2204] A letter from the Digital Economy and Society Ministry has been sent to Facebook and a criminal enquiry launched by the Technology Crime Suppression Division of the Royal Thai Police following a blunder on Tuesday in which a message announcing a candlelight ceremony for the Thai King’s birthday got lost in the automatic translation system the social network platform uses, leading to a flood of complaints by irate viewers to national broadcaster Thai PBS who had aired the Facebook material on its social channels." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/de9b820c14ae> a airo:Evidence ;
+    airo:evidenceText "Facebook says technical error caused vulgar translation of Chinese leader's name" ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/e16f615670ee> a airo:Evidence ;
+    airo:evidenceText "[2203] Thai PBS on Wednesday said the Thai message was auto translated from the English version on its Facebook page." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/ebee2b76be18> a airo:Evidence ;
+    airo:evidenceText "It is the third iteration of the machine learning model specialized in natural language processing." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/eddad367a2d6> a airo:Evidence ;
+    airo:evidenceText "Facebook said in a statement." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/f2e8f3e7de18> a airo:Evidence ;
+    airo:evidenceText "The AI utilizes what’s known as “long short-term memory neural networks”, which aim to partially replicate the mechanism of the human brain’s short term memory function, albeit with the advantage of being a machine." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/f58ca74934b0> a airo:Evidence ;
+    airo:evidenceText "ยืนยันเป็นปัญหาของระบบแปลข้อความจากทางเฟซบุ๊กเอง" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/Risk/ce314aaea33e> a airo:Risk ;
+    rdfs:label "Risk of AI-generated culturally offensive mistranslations" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d41b517df196> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/643708904495> .
+
+<https://w3id.org/airo/incident/Stakeholder/6922cd08258f> a airo:Stakeholder ;
+    rdfs:label "Facebook Inc." ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AIModel/7337373f117c>,
+        <https://w3id.org/airo/incident/AISystem/1ae0cc41e327>,
+        <https://w3id.org/airo/incident/AISystem/2b1b997c08bd>,
+        <https://w3id.org/airo/incident/AISystem/5d8d1a3bce40>,
+        <https://w3id.org/airo/incident/AISystem/ba78b9aea415>,
+        <https://w3id.org/airo/incident/AISystem/fc1badbfb087> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook Inc" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde>,
+        <https://w3id.org/airo/incident/evidence/223ca105a76e>,
+        <https://w3id.org/airo/incident/evidence/b19c721d5b19> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118>,
+        <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2205> ;
+    airo:hasSupportCount 3 ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/7337373f117c>,
+        <https://w3id.org/airo/incident/AISystem/1ae0cc41e327>,
+        <https://w3id.org/airo/incident/AISystem/2b1b997c08bd>,
+        <https://w3id.org/airo/incident/AISystem/5d8d1a3bce40>,
+        <https://w3id.org/airo/incident/AISystem/ba78b9aea415>,
+        <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/Stakeholder/c219f88ad571> a airo:Stakeholder ;
+    rdfs:label "Thai PBS" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Thai PBS" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde>,
+        <https://w3id.org/airo/incident/evidence/41c8386e88b7>,
+        <https://w3id.org/airo/incident/evidence/a5c4c2fcf69f>,
+        <https://w3id.org/airo/incident/evidence/a9d50d1a3232>,
+        <https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204>,
+        <https://w3id.org/airo/incident/document/2205> ;
+    airo:hasSupportCount 4 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/1ae0cc41e327>,
+        <https://w3id.org/airo/incident/AISystem/2b1b997c08bd>,
+        <https://w3id.org/airo/incident/AISystem/5d8d1a3bce40>,
+        <https://w3id.org/airo/incident/AISystem/ba78b9aea415>,
+        <https://w3id.org/airo/incident/AISystem/fc1badbfb087> .
+
+<https://w3id.org/airo/incident/evidence/969d52bf29e4> a airo:Evidence ;
+    airo:evidenceText "[2203] The Digital Economy and Society (DES) Ministry has sent an urgent letter to Facebook in Singapore and Thailand, demanding the social media giant take responsibility over a mistranslated headline from English into Thai about the live broadcasting ceremony to celebrate the King's birthday seen on several media Facebook pages on Tuesday." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/a0b997840a89> a airo:Evidence ;
+    airo:evidenceText "He called on all internet firms to cooperate with the government under Thailand’s draconian and wide-ranging Computer Crime Act which is increasingly used by security services and designated officials to regulate online content and prosecute egregious offenders." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/d41b517df196> a airo:Evidence ;
+    airo:evidenceText "[2118] Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/d6d676403b1f> a airo:Evidence ;
+    airo:evidenceText "Although the basis for the complaint is a technical malfunction, many onerous legal provisions in Thailand are ones of strict liability including many offences under the Computer Crime Act of 2017." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/e723efa2a4f3> a airo:Evidence ;
+    airo:evidenceText "[2204] Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/AISystem/1ae0cc41e327> a airo:AISystem ;
+    rdfs:label "Facebook Auto Translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ระบบแปลอัตโนมัติเฟซบุ๊ก" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c885084efde> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2119> .
+
+<https://w3id.org/airo/incident/AISystem/2b1b997c08bd> a airo:AISystem ;
+    rdfs:label "Google Translate" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63ccd59db079> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118> .
+
+<https://w3id.org/airo/incident/AISystem/5d8d1a3bce40> a airo:AISystem ;
+    rdfs:label "Instagram" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fef97780396>,
+        <https://w3id.org/airo/incident/evidence/cb0248376854> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/ba78b9aea415> a airo:AISystem ;
+    rdfs:label "YouTube" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "YouTube" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/366d69452f21>,
+        <https://w3id.org/airo/incident/evidence/387e73cc0d34> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/37bced7bd5e1> a airo:Evidence ;
+    airo:evidenceText "We fixed a technical issue that caused incorrect translations from Burmese to English on Facebook." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/91aa41637363> a airo:Evidence ;
+    airo:evidenceText "Minister for Digital Economy and Society, Buddhipongse Punnakanta, criticised Thailand’s most popular social network just days after a blunder in an auto-translation feature led to a criminal investigation following a complaint to the Technology Crime Suppression Division by public broadcaster Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/cb0248376854> a airo:Evidence ;
+    airo:evidenceText "Facebook Thailand said it has temporarily deactivated the auto-translate feature on Facebook and Instagram while offering its apologies." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/eab557c16fcf> a airo:Evidence ;
+    airo:evidenceText "Thai PBS on Wednesday said the Thai message was auto translated from the English version on its Facebook page." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/0001b7ea2377> a airo:Evidence ;
+    airo:evidenceText "It follows a recent pronouncement by Thailand’s Prime Minister, Prayut Chan ocha, that the government was refraining from prosecuting individuals under Thailand’s severe Lèse-majesté provision contained in Article 112 of the Criminal Code which can lead to up to 15 years imprisonment for any act that criticises the monarchy or even brings it into question." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/4fef97780396> a airo:Evidence ;
+    airo:evidenceText "Facebook has announced that it has suspended the translation service in Thailand on its main social network and on Instagram promising to upgrade and enhance the quality of translation." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/51115b8dfcf8> a airo:Evidence ;
+    airo:evidenceText "The software is being developed by OpenAI, a research lab co-founded by Elon Musk." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/6ee91a3a5c89> a airo:Evidence ;
+    airo:evidenceText "China’s foreign ministry declined comment." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/90b4c429d9f8> a airo:Evidence ;
+    airo:evidenceText "The Digital Economy and Society (DES) Ministry has sent an urgent letter to Facebook in Singapore and Thailand, demanding the social media giant take responsibility over a mistranslated headline from English into Thai about the live broadcasting ceremony to celebrate the King's birthday seen on several media Facebook pages on Tuesday." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/9c52f12214d3> a airo:Evidence ;
+    airo:evidenceText "Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/b7616d2ea0d0> a airo:Evidence ;
+    airo:evidenceText "ซึ่งเป็นข้อความที่เกิดจากบริการแปลอัตโนมัติ (Auto Translation) ของเฟซบุ๊กที่แปลจากข้อความภาษาอังกฤษข้างต้น" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/bf62d749e718> a airo:Evidence ;
+    airo:evidenceText "A statement about the visit published on Suu Kyi’s official Facebook page was littered with references to “Mr Shithole” when translated to English." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/366d69452f21> a airo:Evidence ;
+    airo:evidenceText "Minster Buddhipongse Punnakanta was speaking at a meeting on Thursday with the National Broadcasting and Telecommunications Commission and a range of internet service providers in Thailand." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/5d2a99197eda> a airo:Evidence ;
+    airo:evidenceText "ส.ส.ท. ได้ออกคำชี้แจงถึงเหตุการณ์ดังกล่าว และได้ดำเนินการสอบหาข้อเท็จจริงทันที พร้อมแจ้งไปยังสำนักพระราชวัง",
+        "ส.ส.ท. ได้ออกคำชี้แจงถึงเหตุการณ์ดังกล่าว และได้ดำเนินการสอบหาข้อเท็จจริงทันที พร้อมแจ้งไปยังสำนักพระราชวัง กระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม (DE)" ;
+    airo:sourceDocId "2119" .
+
+<https://w3id.org/airo/incident/evidence/223ca105a76e> a airo:Evidence ;
+    airo:evidenceText "Facebook Inc [FB.O] on Saturday blamed a technical error for Chinese leader Xi Jinping’s name appearing as “Mr Shithole” in posts on its platform when translated into English from Burmese." ;
+    airo:sourceDocId "2118" .
+
+<https://w3id.org/airo/incident/evidence/800946594256> a airo:Evidence ;
+    airo:evidenceText "He was speaking at a meeting with National Broadcasting and Telecommunications Commission (NBTC) together with internet service providers (ISPs) about efforts to deal with the violations of the Computer Crime Act." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/evidence/b19c721d5b19> a airo:Evidence ;
+    airo:evidenceText "Facebook swiftly admitted fault, issued a “profound apology” to the Thai people, and temporarily turned off auto-translation from English to Thai while the tool was fixed." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/c6bb4c6e96b3> a airo:Evidence ;
+    airo:evidenceText "On 28 July 2020, widely-followed media outlet, Thai PBS, posted a live stream of the candle-lighting ceremony celebrating His Majesty the King’s birthday on its Facebook page." ;
+    airo:sourceDocId "2205" .
+
+<https://w3id.org/airo/incident/evidence/41c8386e88b7> a airo:Evidence ;
+    airo:evidenceText "Social media giant Facebook found itself under investigation this week by the Crime Technology Division of the Royal Thai Police following an inadvertent blunder during a ceremony for the King’s birthday on Tuesday which led to a message being badly translated into Thai which generated floods of complaints from citizens to popular National TV broadcaster, Thai PBS." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/evidence/aa94927ca3ff> a airo:Evidence ;
+    airo:evidenceText "A letter from the Digital Economy and Society Ministry has been sent to Facebook and a criminal enquiry launched by the Technology Crime Suppression Division of the Royal Thai Police following a blunder on Tuesday in which a message announcing a candlelight ceremony for the Thai King’s birthday got lost in the automatic translation system the social network platform uses, leading to a flood of complaints by irate viewers to national broadcaster Thai PBS who had aired the Facebook material on its social channels." ;
+    airo:sourceDocId "2204" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_241> a airo:AIRiskIncident ;
+    rdfs:label "Thai PBS แจงข้อความไม่เหมาะสม อ้างระบบแปลอัตโนมัติเฟซบุ๊กมีปัญหา" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/91556cb8bac2>,
+        <https://w3id.org/airo/incident/Regulation/9198d37cdbea> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/643708904495> ;
+    airo:hasDescription "pred_241" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/c537fcec63da>,
+        <https://w3id.org/airo/incident/Domain/10e6b2d22b04>,
+        <https://w3id.org/airo/incident/evidence/3ca5ad4f5162>,
+        <https://w3id.org/airo/incident/evidence/5a5c23b14b82>,
+        <https://w3id.org/airo/incident/evidence/976e07203e47>,
+        <https://w3id.org/airo/incident/evidence/9d45ab673a7a>,
+        <https://w3id.org/airo/incident/evidence/ced02659e8f7> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/c1dc8cf7c6d9> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2118>,
+        <https://w3id.org/airo/incident/NewsReport/2119>,
+        <https://w3id.org/airo/incident/NewsReport/2203>,
+        <https://w3id.org/airo/incident/NewsReport/2204>,
+        <https://w3id.org/airo/incident/NewsReport/2205> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/ce314aaea33e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118>,
+        <https://w3id.org/airo/incident/document/2119>,
+        <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204>,
+        <https://w3id.org/airo/incident/document/2205> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/1ae0cc41e327>,
+        <https://w3id.org/airo/incident/AISystem/2b1b997c08bd>,
+        <https://w3id.org/airo/incident/AISystem/5d8d1a3bce40>,
+        <https://w3id.org/airo/incident/AISystem/ba78b9aea415>,
+        <https://w3id.org/airo/incident/AISystem/fc1badbfb087> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/047426939aea>,
+        <https://w3id.org/airo/incident/Stakeholder/0b3269d97ce8>,
+        <https://w3id.org/airo/incident/Stakeholder/179b4e39e8de>,
+        <https://w3id.org/airo/incident/Stakeholder/27b6bc84a6b4>,
+        <https://w3id.org/airo/incident/Stakeholder/323e190672ff>,
+        <https://w3id.org/airo/incident/Stakeholder/32bc6ca426dd>,
+        <https://w3id.org/airo/incident/Stakeholder/3ce32cbf04c5>,
+        <https://w3id.org/airo/incident/Stakeholder/476df22b856c>,
+        <https://w3id.org/airo/incident/Stakeholder/5f38a114490b>,
+        <https://w3id.org/airo/incident/Stakeholder/6922cd08258f>,
+        <https://w3id.org/airo/incident/Stakeholder/71b141a217ca>,
+        <https://w3id.org/airo/incident/Stakeholder/7c0233a17c71>,
+        <https://w3id.org/airo/incident/Stakeholder/8eea1b907b55>,
+        <https://w3id.org/airo/incident/Stakeholder/9ee7d50101c9>,
+        <https://w3id.org/airo/incident/Stakeholder/c219f88ad571> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/fb9f85869d2b> .
+
+<https://w3id.org/airo/incident/evidence/a9d50d1a3232> a airo:Evidence ;
+    airo:evidenceText "Meanwhile, the Technology Crime Suppression Division (TCSD) has started the process of collecting evidence for an investigation into the matter following a complaint made by Thai PBS TV station on Wednesday." ;
+    airo:sourceDocId "2203" .
+
+<https://w3id.org/airo/incident/AISystem/fc1badbfb087> a airo:AISystem ;
+    rdfs:label "Facebook" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/91556cb8bac2>,
+        <https://w3id.org/airo/incident/Regulation/9198d37cdbea> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/46ea9c9ddb7e>,
+        <https://w3id.org/airo/incident/AICapability/6990a042095b>,
+        <https://w3id.org/airo/incident/AICapability/78a554552a83>,
+        <https://w3id.org/airo/incident/AICapability/dc06e229cdfa>,
+        <https://w3id.org/airo/incident/AICapability/fe062aa0ef30>,
+        <https://w3id.org/airo/incident/Purpose/a868ae36df49> ;
+    airo:hasDescription "Facebook" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/9b750101b94d>,
+        <https://w3id.org/airo/incident/evidence/4fef97780396>,
+        <https://w3id.org/airo/incident/evidence/a9657bf728c2>,
+        <https://w3id.org/airo/incident/evidence/cb0248376854>,
+        <https://w3id.org/airo/incident/evidence/eddad367a2d6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2118>,
+        <https://w3id.org/airo/incident/document/2203>,
+        <https://w3id.org/airo/incident/document/2204>,
+        <https://w3id.org/airo/incident/document/2205> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/9bc6ecd86723> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/110301a43969>,
+        <https://w3id.org/airo/incident/AITechnique/3c8137f20efa>,
+        <https://w3id.org/airo/incident/AITechnique/95042461afdf>,
+        <https://w3id.org/airo/incident/AITechnique/964bd15f3300>,
+        <https://w3id.org/airo/incident/AITechnique/ca4b1004b5d8> .
+
+<https://w3id.org/airo/incident/evidence/1c885084efde> a airo:Evidence ;
+    airo:evidenceText "Thai PBS ได้เผยแพร่คำชี้แจงกรณี ข้อความไม่เหมาะสมที่ปรากฏในเฟซบุ๊ก",
+        "Thai PBS ได้เผยแพร่คำชี้แจงกรณี ข้อความไม่เหมาะสมที่ปรากฏในเฟซบุ๊ก ช่วงถ่ายทอดสด พิธีจุดเทียนถวายพระพรชัยมงคล ยืนยันเป็นปัญหาของระบบแปลข้อความจากทางเฟซบุ๊กเอง" ;
+    airo:sourceDocId "2119" .
+

@@ -1,0 +1,5007 @@
+{
+  "description": "AI Risk KG 评测数据集 - 筛选条件: case数>=2, 平均正文长度和字段完整度最优",
+  "total_events": 500,
+  "total_cases": 1000,
+  "events": [
+    {
+      "incident_id": "pred_928",
+      "total_cases_in_event": 2,
+      "avg_text_length": 67712.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5690",
+        "5875"
+      ]
+    },
+    {
+      "incident_id": "pred_1103",
+      "total_cases_in_event": 2,
+      "avg_text_length": 43440.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6470",
+        "8110"
+      ]
+    },
+    {
+      "incident_id": "pred_936",
+      "total_cases_in_event": 2,
+      "avg_text_length": 35653.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6002",
+        "6054"
+      ]
+    },
+    {
+      "incident_id": "pred_450",
+      "total_cases_in_event": 4,
+      "avg_text_length": 34430.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6370",
+        "6382"
+      ]
+    },
+    {
+      "incident_id": "pred_1165",
+      "total_cases_in_event": 2,
+      "avg_text_length": 33626.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1336",
+        "9020"
+      ]
+    },
+    {
+      "incident_id": "pred_1130",
+      "total_cases_in_event": 2,
+      "avg_text_length": 33594.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8388",
+        "8415"
+      ]
+    },
+    {
+      "incident_id": "pred_639",
+      "total_cases_in_event": 3,
+      "avg_text_length": 33240.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5923",
+        "7352"
+      ]
+    },
+    {
+      "incident_id": "pred_614",
+      "total_cases_in_event": 3,
+      "avg_text_length": 32658.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2707",
+        "2708"
+      ]
+    },
+    {
+      "incident_id": "pred_1023",
+      "total_cases_in_event": 2,
+      "avg_text_length": 31241.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5965",
+        "7238"
+      ]
+    },
+    {
+      "incident_id": "pred_625",
+      "total_cases_in_event": 3,
+      "avg_text_length": 30175.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5599",
+        "5759"
+      ]
+    },
+    {
+      "incident_id": "pred_929",
+      "total_cases_in_event": 2,
+      "avg_text_length": 29680.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5552",
+        "5887"
+      ]
+    },
+    {
+      "incident_id": "pred_324",
+      "total_cases_in_event": 5,
+      "avg_text_length": 26594.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6520",
+        "6525"
+      ]
+    },
+    {
+      "incident_id": "pred_287",
+      "total_cases_in_event": 5,
+      "avg_text_length": 25869.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6704",
+        "6705"
+      ]
+    },
+    {
+      "incident_id": "pred_76",
+      "total_cases_in_event": 10,
+      "avg_text_length": 25844.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3620",
+        "3621"
+      ]
+    },
+    {
+      "incident_id": "pred_674",
+      "total_cases_in_event": 3,
+      "avg_text_length": 24644.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6281",
+        "6290"
+      ]
+    },
+    {
+      "incident_id": "pred_758",
+      "total_cases_in_event": 2,
+      "avg_text_length": 24408.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1436",
+        "1439"
+      ]
+    },
+    {
+      "incident_id": "pred_867",
+      "total_cases_in_event": 2,
+      "avg_text_length": 24250.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3661",
+        "4684"
+      ]
+    },
+    {
+      "incident_id": "pred_626",
+      "total_cases_in_event": 3,
+      "avg_text_length": 23602.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5651",
+        "7190"
+      ]
+    },
+    {
+      "incident_id": "pred_856",
+      "total_cases_in_event": 2,
+      "avg_text_length": 23467.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4274",
+        "4275"
+      ]
+    },
+    {
+      "incident_id": "pred_552",
+      "total_cases_in_event": 3,
+      "avg_text_length": 23023.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4113",
+        "4701"
+      ]
+    },
+    {
+      "incident_id": "pred_942",
+      "total_cases_in_event": 2,
+      "avg_text_length": 21372.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5259",
+        "616"
+      ]
+    },
+    {
+      "incident_id": "pred_783",
+      "total_cases_in_event": 2,
+      "avg_text_length": 21274.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1870",
+        "1900"
+      ]
+    },
+    {
+      "incident_id": "pred_943",
+      "total_cases_in_event": 2,
+      "avg_text_length": 21114.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4040",
+        "6163"
+      ]
+    },
+    {
+      "incident_id": "pred_811",
+      "total_cases_in_event": 2,
+      "avg_text_length": 20896.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2972",
+        "2984"
+      ]
+    },
+    {
+      "incident_id": "pred_892",
+      "total_cases_in_event": 2,
+      "avg_text_length": 20289.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5162",
+        "5174"
+      ]
+    },
+    {
+      "incident_id": "pred_1039",
+      "total_cases_in_event": 2,
+      "avg_text_length": 19376.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5763",
+        "7343"
+      ]
+    },
+    {
+      "incident_id": "pred_1186",
+      "total_cases_in_event": 2,
+      "avg_text_length": 19115.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9356",
+        "9363"
+      ]
+    },
+    {
+      "incident_id": "pred_40",
+      "total_cases_in_event": 14,
+      "avg_text_length": 19016.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3743",
+        "4623"
+      ]
+    },
+    {
+      "incident_id": "pred_223",
+      "total_cases_in_event": 6,
+      "avg_text_length": 18520.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2716",
+        "6777"
+      ]
+    },
+    {
+      "incident_id": "pred_968",
+      "total_cases_in_event": 2,
+      "avg_text_length": 18130.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3644",
+        "6723"
+      ]
+    },
+    {
+      "incident_id": "pred_756",
+      "total_cases_in_event": 2,
+      "avg_text_length": 17962.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1248",
+        "1337"
+      ]
+    },
+    {
+      "incident_id": "pred_465",
+      "total_cases_in_event": 4,
+      "avg_text_length": 17955.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2601",
+        "2641"
+      ]
+    },
+    {
+      "incident_id": "pred_691",
+      "total_cases_in_event": 3,
+      "avg_text_length": 17572.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2638",
+        "3140"
+      ]
+    },
+    {
+      "incident_id": "pred_733",
+      "total_cases_in_event": 3,
+      "avg_text_length": 17442.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9294",
+        "9299"
+      ]
+    },
+    {
+      "incident_id": "pred_145",
+      "total_cases_in_event": 7,
+      "avg_text_length": 16464.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3974",
+        "4020"
+      ]
+    },
+    {
+      "incident_id": "pred_692",
+      "total_cases_in_event": 3,
+      "avg_text_length": 16266.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5636",
+        "7646"
+      ]
+    },
+    {
+      "incident_id": "pred_188",
+      "total_cases_in_event": 6,
+      "avg_text_length": 15767.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1163",
+        "25"
+      ]
+    },
+    {
+      "incident_id": "pred_472",
+      "total_cases_in_event": 4,
+      "avg_text_length": 15732.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1401",
+        "3766"
+      ]
+    },
+    {
+      "incident_id": "pred_484",
+      "total_cases_in_event": 4,
+      "avg_text_length": 14922.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9407",
+        "9408"
+      ]
+    },
+    {
+      "incident_id": "pred_807",
+      "total_cases_in_event": 2,
+      "avg_text_length": 14838.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2665",
+        "2689"
+      ]
+    },
+    {
+      "incident_id": "pred_103",
+      "total_cases_in_event": 8,
+      "avg_text_length": 14828.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1244",
+        "1245"
+      ]
+    },
+    {
+      "incident_id": "pred_1107",
+      "total_cases_in_event": 2,
+      "avg_text_length": 14752.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2544",
+        "8162"
+      ]
+    },
+    {
+      "incident_id": "pred_843",
+      "total_cases_in_event": 2,
+      "avg_text_length": 14574.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3939",
+        "3940"
+      ]
+    },
+    {
+      "incident_id": "pred_1067",
+      "total_cases_in_event": 2,
+      "avg_text_length": 14153.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6036",
+        "7627"
+      ]
+    },
+    {
+      "incident_id": "pred_628",
+      "total_cases_in_event": 3,
+      "avg_text_length": 13986.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5654",
+        "5670"
+      ]
+    },
+    {
+      "incident_id": "pred_1180",
+      "total_cases_in_event": 2,
+      "avg_text_length": 13969.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9265",
+        "9271"
+      ]
+    },
+    {
+      "incident_id": "pred_5",
+      "total_cases_in_event": 32,
+      "avg_text_length": 13896.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3987",
+        "3988"
+      ]
+    },
+    {
+      "incident_id": "pred_205",
+      "total_cases_in_event": 6,
+      "avg_text_length": 13796.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6149",
+        "7731"
+      ]
+    },
+    {
+      "incident_id": "pred_777",
+      "total_cases_in_event": 2,
+      "avg_text_length": 13777.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1354",
+        "1834"
+      ]
+    },
+    {
+      "incident_id": "pred_177",
+      "total_cases_in_event": 6,
+      "avg_text_length": 13736.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3371",
+        "3372"
+      ]
+    },
+    {
+      "incident_id": "pred_149",
+      "total_cases_in_event": 7,
+      "avg_text_length": 13579.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1161",
+        "5144"
+      ]
+    },
+    {
+      "incident_id": "pred_377",
+      "total_cases_in_event": 4,
+      "avg_text_length": 13546.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "5003",
+        "5004"
+      ]
+    },
+    {
+      "incident_id": "pred_56",
+      "total_cases_in_event": 12,
+      "avg_text_length": 13458.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4951",
+        "4952"
+      ]
+    },
+    {
+      "incident_id": "pred_435",
+      "total_cases_in_event": 4,
+      "avg_text_length": 13378.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6030",
+        "6032"
+      ]
+    },
+    {
+      "incident_id": "pred_818",
+      "total_cases_in_event": 2,
+      "avg_text_length": 13366.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3050",
+        "3214"
+      ]
+    },
+    {
+      "incident_id": "pred_782",
+      "total_cases_in_event": 2,
+      "avg_text_length": 13156.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1889",
+        "1890"
+      ]
+    },
+    {
+      "incident_id": "pred_1194",
+      "total_cases_in_event": 2,
+      "avg_text_length": 13030.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5772",
+        "9465"
+      ]
+    },
+    {
+      "incident_id": "pred_705",
+      "total_cases_in_event": 3,
+      "avg_text_length": 12748.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5734",
+        "7326"
+      ]
+    },
+    {
+      "incident_id": "pred_1028",
+      "total_cases_in_event": 2,
+      "avg_text_length": 12572.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5709",
+        "7269"
+      ]
+    },
+    {
+      "incident_id": "pred_1054",
+      "total_cases_in_event": 2,
+      "avg_text_length": 12320.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7493",
+        "7498"
+      ]
+    },
+    {
+      "incident_id": "pred_500",
+      "total_cases_in_event": 3,
+      "avg_text_length": 12281.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1433",
+        "1434"
+      ]
+    },
+    {
+      "incident_id": "pred_78",
+      "total_cases_in_event": 10,
+      "avg_text_length": 12275.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2307",
+        "2343"
+      ]
+    },
+    {
+      "incident_id": "pred_925",
+      "total_cases_in_event": 2,
+      "avg_text_length": 12212.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3781",
+        "5819"
+      ]
+    },
+    {
+      "incident_id": "pred_764",
+      "total_cases_in_event": 2,
+      "avg_text_length": 12200.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1599",
+        "1600"
+      ]
+    },
+    {
+      "incident_id": "pred_568",
+      "total_cases_in_event": 3,
+      "avg_text_length": 12172.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1752",
+        "185"
+      ]
+    },
+    {
+      "incident_id": "pred_1126",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11920.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8375",
+        "8379"
+      ]
+    },
+    {
+      "incident_id": "pred_1017",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11893.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7178",
+        "7189"
+      ]
+    },
+    {
+      "incident_id": "pred_310",
+      "total_cases_in_event": 5,
+      "avg_text_length": 11877.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6206",
+        "6208"
+      ]
+    },
+    {
+      "incident_id": "pred_888",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11864.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5099",
+        "5103"
+      ]
+    },
+    {
+      "incident_id": "pred_421",
+      "total_cases_in_event": 4,
+      "avg_text_length": 11624.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5835",
+        "6638"
+      ]
+    },
+    {
+      "incident_id": "pred_882",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11612.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4946",
+        "4947"
+      ]
+    },
+    {
+      "incident_id": "pred_167",
+      "total_cases_in_event": 7,
+      "avg_text_length": 11588.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4252",
+        "4254"
+      ]
+    },
+    {
+      "incident_id": "pred_556",
+      "total_cases_in_event": 3,
+      "avg_text_length": 11542.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4859",
+        "4860"
+      ]
+    },
+    {
+      "incident_id": "pred_1091",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11530.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7951",
+        "7958"
+      ]
+    },
+    {
+      "incident_id": "pred_596",
+      "total_cases_in_event": 3,
+      "avg_text_length": 11451.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3616",
+        "3894"
+      ]
+    },
+    {
+      "incident_id": "pred_686",
+      "total_cases_in_event": 3,
+      "avg_text_length": 11447.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8117",
+        "8118"
+      ]
+    },
+    {
+      "incident_id": "pred_597",
+      "total_cases_in_event": 3,
+      "avg_text_length": 11447.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3386",
+        "4798"
+      ]
+    },
+    {
+      "incident_id": "pred_723",
+      "total_cases_in_event": 3,
+      "avg_text_length": 11402.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1254",
+        "1611"
+      ]
+    },
+    {
+      "incident_id": "pred_293",
+      "total_cases_in_event": 5,
+      "avg_text_length": 11258.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "7267",
+        "7332"
+      ]
+    },
+    {
+      "incident_id": "pred_315",
+      "total_cases_in_event": 5,
+      "avg_text_length": 11250.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3013",
+        "6345"
+      ]
+    },
+    {
+      "incident_id": "pred_1166",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11180.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1210",
+        "9028"
+      ]
+    },
+    {
+      "incident_id": "pred_1170",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11102.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1217",
+        "9077"
+      ]
+    },
+    {
+      "incident_id": "pred_1042",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11027.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3774",
+        "7407"
+      ]
+    },
+    {
+      "incident_id": "pred_1161",
+      "total_cases_in_event": 2,
+      "avg_text_length": 11012.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8993",
+        "8994"
+      ]
+    },
+    {
+      "incident_id": "pred_481",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10986.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1150",
+        "1213"
+      ]
+    },
+    {
+      "incident_id": "pred_389",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10862.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3037",
+        "5388"
+      ]
+    },
+    {
+      "incident_id": "pred_217",
+      "total_cases_in_event": 6,
+      "avg_text_length": 10806.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1747",
+        "1751"
+      ]
+    },
+    {
+      "incident_id": "pred_1082",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10745.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6160",
+        "7805"
+      ]
+    },
+    {
+      "incident_id": "pred_439",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10690.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6118",
+        "6121"
+      ]
+    },
+    {
+      "incident_id": "pred_131",
+      "total_cases_in_event": 7,
+      "avg_text_length": 10664.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2320",
+        "2402"
+      ]
+    },
+    {
+      "incident_id": "pred_751",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10565.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1239",
+        "1240"
+      ]
+    },
+    {
+      "incident_id": "pred_385",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10538.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2771",
+        "5728"
+      ]
+    },
+    {
+      "incident_id": "pred_992",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10328.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4927",
+        "6945"
+      ]
+    },
+    {
+      "incident_id": "pred_142",
+      "total_cases_in_event": 7,
+      "avg_text_length": 10286.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4766",
+        "4767"
+      ]
+    },
+    {
+      "incident_id": "pred_378",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10262.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1549",
+        "1550"
+      ]
+    },
+    {
+      "incident_id": "pred_181",
+      "total_cases_in_event": 6,
+      "avg_text_length": 10258.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4366",
+        "4373"
+      ]
+    },
+    {
+      "incident_id": "pred_1064",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10184.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6049",
+        "7612"
+      ]
+    },
+    {
+      "incident_id": "pred_653",
+      "total_cases_in_event": 3,
+      "avg_text_length": 10150.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6004",
+        "6005"
+      ]
+    },
+    {
+      "incident_id": "pred_1157",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10142.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6816",
+        "8923"
+      ]
+    },
+    {
+      "incident_id": "pred_861",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10102.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4389",
+        "4390"
+      ]
+    },
+    {
+      "incident_id": "pred_584",
+      "total_cases_in_event": 3,
+      "avg_text_length": 10084.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3018",
+        "4765"
+      ]
+    },
+    {
+      "incident_id": "pred_252",
+      "total_cases_in_event": 5,
+      "avg_text_length": 10082.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4270",
+        "4271"
+      ]
+    },
+    {
+      "incident_id": "pred_638",
+      "total_cases_in_event": 3,
+      "avg_text_length": 10074.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5762",
+        "7275"
+      ]
+    },
+    {
+      "incident_id": "pred_1036",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10060.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7316",
+        "7320"
+      ]
+    },
+    {
+      "incident_id": "pred_425",
+      "total_cases_in_event": 4,
+      "avg_text_length": 10056.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1164",
+        "7421"
+      ]
+    },
+    {
+      "incident_id": "pred_952",
+      "total_cases_in_event": 2,
+      "avg_text_length": 10039.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6404",
+        "6405"
+      ]
+    },
+    {
+      "incident_id": "pred_801",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9959.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2321",
+        "2357"
+      ]
+    },
+    {
+      "incident_id": "pred_1048",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9861.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4792",
+        "7467"
+      ]
+    },
+    {
+      "incident_id": "pred_498",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9798.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1363",
+        "1396"
+      ]
+    },
+    {
+      "incident_id": "pred_471",
+      "total_cases_in_event": 4,
+      "avg_text_length": 9717.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4028",
+        "6372"
+      ]
+    },
+    {
+      "incident_id": "pred_16",
+      "total_cases_in_event": 21,
+      "avg_text_length": 9714.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3447",
+        "3448"
+      ]
+    },
+    {
+      "incident_id": "pred_904",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9704.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4415",
+        "5368"
+      ]
+    },
+    {
+      "incident_id": "pred_934",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9637.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6033",
+        "6035"
+      ]
+    },
+    {
+      "incident_id": "pred_215",
+      "total_cases_in_event": 6,
+      "avg_text_length": 9634.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2759",
+        "6424"
+      ]
+    },
+    {
+      "incident_id": "pred_598",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9632.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2272",
+        "2959"
+      ]
+    },
+    {
+      "incident_id": "pred_815",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9592.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3009",
+        "3063"
+      ]
+    },
+    {
+      "incident_id": "pred_886",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9570.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5030",
+        "5047"
+      ]
+    },
+    {
+      "incident_id": "pred_790",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9474.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1623",
+        "2050"
+      ]
+    },
+    {
+      "incident_id": "pred_210",
+      "total_cases_in_event": 6,
+      "avg_text_length": 9458.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6203",
+        "7841"
+      ]
+    },
+    {
+      "incident_id": "pred_727",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9449.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9233",
+        "9235"
+      ]
+    },
+    {
+      "incident_id": "pred_262",
+      "total_cases_in_event": 5,
+      "avg_text_length": 9398.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4853",
+        "4854"
+      ]
+    },
+    {
+      "incident_id": "pred_536",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9351.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1173",
+        "1624"
+      ]
+    },
+    {
+      "incident_id": "pred_689",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9286.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5558",
+        "6624"
+      ]
+    },
+    {
+      "incident_id": "pred_1038",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9228.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1348",
+        "7342"
+      ]
+    },
+    {
+      "incident_id": "pred_635",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9206.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5727",
+        "7279"
+      ]
+    },
+    {
+      "incident_id": "pred_926",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9180.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5836",
+        "5837"
+      ]
+    },
+    {
+      "incident_id": "pred_1138",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9154.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8622",
+        "8625"
+      ]
+    },
+    {
+      "incident_id": "pred_607",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9128.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5359",
+        "5366"
+      ]
+    },
+    {
+      "incident_id": "pred_242",
+      "total_cases_in_event": 5,
+      "avg_text_length": 9120.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2294",
+        "2296"
+      ]
+    },
+    {
+      "incident_id": "pred_2",
+      "total_cases_in_event": 43,
+      "avg_text_length": 9108.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3239",
+        "3243"
+      ]
+    },
+    {
+      "incident_id": "pred_120",
+      "total_cases_in_event": 8,
+      "avg_text_length": 9100.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6593",
+        "6599"
+      ]
+    },
+    {
+      "incident_id": "pred_946",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9059.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3737",
+        "6279"
+      ]
+    },
+    {
+      "incident_id": "pred_1061",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9048.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6482",
+        "7556"
+      ]
+    },
+    {
+      "incident_id": "pred_812",
+      "total_cases_in_event": 2,
+      "avg_text_length": 9032.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2536",
+        "3002"
+      ]
+    },
+    {
+      "incident_id": "pred_613",
+      "total_cases_in_event": 3,
+      "avg_text_length": 9005.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6893",
+        "6913"
+      ]
+    },
+    {
+      "incident_id": "pred_610",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8940.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5371",
+        "5372"
+      ]
+    },
+    {
+      "incident_id": "pred_88",
+      "total_cases_in_event": 9,
+      "avg_text_length": 8916.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3979",
+        "3980"
+      ]
+    },
+    {
+      "incident_id": "pred_841",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8900.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3803",
+        "3805"
+      ]
+    },
+    {
+      "incident_id": "pred_1088",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8893.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2315",
+        "7902"
+      ]
+    },
+    {
+      "incident_id": "pred_1076",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8876.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3310",
+        "7761"
+      ]
+    },
+    {
+      "incident_id": "pred_312",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8844.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2322",
+        "2323"
+      ]
+    },
+    {
+      "incident_id": "pred_200",
+      "total_cases_in_event": 6,
+      "avg_text_length": 8828.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3785",
+        "3811"
+      ]
+    },
+    {
+      "incident_id": "pred_921",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8796.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5733",
+        "5735"
+      ]
+    },
+    {
+      "incident_id": "pred_1074",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8792.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7757",
+        "7758"
+      ]
+    },
+    {
+      "incident_id": "pred_492",
+      "total_cases_in_event": 4,
+      "avg_text_length": 8762.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7203",
+        "8869"
+      ]
+    },
+    {
+      "incident_id": "pred_1033",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8712.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6636",
+        "7297"
+      ]
+    },
+    {
+      "incident_id": "pred_294",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8662.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2108",
+        "2211"
+      ]
+    },
+    {
+      "incident_id": "pred_874",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8639.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4795",
+        "4796"
+      ]
+    },
+    {
+      "incident_id": "pred_192",
+      "total_cases_in_event": 6,
+      "avg_text_length": 8566.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2484",
+        "2686"
+      ]
+    },
+    {
+      "incident_id": "pred_555",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8556.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4907",
+        "4908"
+      ]
+    },
+    {
+      "incident_id": "pred_219",
+      "total_cases_in_event": 6,
+      "avg_text_length": 8547.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2787",
+        "2788"
+      ]
+    },
+    {
+      "incident_id": "pred_563",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8544.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5180",
+        "5185"
+      ]
+    },
+    {
+      "incident_id": "pred_797",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8501.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2246",
+        "2250"
+      ]
+    },
+    {
+      "incident_id": "pred_146",
+      "total_cases_in_event": 7,
+      "avg_text_length": 8492.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5510",
+        "5782"
+      ]
+    },
+    {
+      "incident_id": "pred_528",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8476.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3304",
+        "3306"
+      ]
+    },
+    {
+      "incident_id": "pred_331",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8447.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1604",
+        "1605"
+      ]
+    },
+    {
+      "incident_id": "pred_70",
+      "total_cases_in_event": 11,
+      "avg_text_length": 8430.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1956",
+        "1957"
+      ]
+    },
+    {
+      "incident_id": "pred_272",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8430.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3443",
+        "3493"
+      ]
+    },
+    {
+      "incident_id": "pred_125",
+      "total_cases_in_event": 8,
+      "avg_text_length": 8412.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1836",
+        "2247"
+      ]
+    },
+    {
+      "incident_id": "pred_581",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8312.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2621",
+        "2622"
+      ]
+    },
+    {
+      "incident_id": "pred_1185",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8287.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5125",
+        "9361"
+      ]
+    },
+    {
+      "incident_id": "pred_250",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8280.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4063",
+        "4072"
+      ]
+    },
+    {
+      "incident_id": "pred_898",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8254.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2212",
+        "522"
+      ]
+    },
+    {
+      "incident_id": "pred_1145",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8248.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6796",
+        "8749"
+      ]
+    },
+    {
+      "incident_id": "pred_933",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8204.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5879",
+        "5990"
+      ]
+    },
+    {
+      "incident_id": "pred_350",
+      "total_cases_in_event": 4,
+      "avg_text_length": 8186.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1167",
+        "1168"
+      ]
+    },
+    {
+      "incident_id": "pred_275",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8177.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5746",
+        "5747"
+      ]
+    },
+    {
+      "incident_id": "pred_973",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8162.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6780",
+        "6781"
+      ]
+    },
+    {
+      "incident_id": "pred_849",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8136.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4156",
+        "4157"
+      ]
+    },
+    {
+      "incident_id": "pred_768",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8131.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1386",
+        "1670"
+      ]
+    },
+    {
+      "incident_id": "pred_268",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8123.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2076",
+        "5263"
+      ]
+    },
+    {
+      "incident_id": "pred_813",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8104.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3003",
+        "3004"
+      ]
+    },
+    {
+      "incident_id": "pred_1174",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8093.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2056",
+        "9169"
+      ]
+    },
+    {
+      "incident_id": "pred_728",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8075.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1155",
+        "9242"
+      ]
+    },
+    {
+      "incident_id": "pred_787",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8066.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1975",
+        "1976"
+      ]
+    },
+    {
+      "incident_id": "pred_624",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8034.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5594",
+        "5597"
+      ]
+    },
+    {
+      "incident_id": "pred_616",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8030.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2795",
+        "4279"
+      ]
+    },
+    {
+      "incident_id": "pred_1119",
+      "total_cases_in_event": 2,
+      "avg_text_length": 8020.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "8291",
+        "8293"
+      ]
+    },
+    {
+      "incident_id": "pred_561",
+      "total_cases_in_event": 3,
+      "avg_text_length": 8009.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5116",
+        "5118"
+      ]
+    },
+    {
+      "incident_id": "pred_258",
+      "total_cases_in_event": 5,
+      "avg_text_length": 8002.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4575",
+        "4705"
+      ]
+    },
+    {
+      "incident_id": "pred_79",
+      "total_cases_in_event": 10,
+      "avg_text_length": 7974.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1895",
+        "1896"
+      ]
+    },
+    {
+      "incident_id": "pred_759",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7946.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1472",
+        "1475"
+      ]
+    },
+    {
+      "incident_id": "pred_776",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7930.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1829",
+        "1830"
+      ]
+    },
+    {
+      "incident_id": "pred_402",
+      "total_cases_in_event": 4,
+      "avg_text_length": 7925.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3720",
+        "3870"
+      ]
+    },
+    {
+      "incident_id": "pred_834",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7920.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3692",
+        "3726"
+      ]
+    },
+    {
+      "incident_id": "pred_1029",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7918.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7281",
+        "7284"
+      ]
+    },
+    {
+      "incident_id": "pred_1136",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7867.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3596",
+        "8544"
+      ]
+    },
+    {
+      "incident_id": "pred_909",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7858.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3700",
+        "5438"
+      ]
+    },
+    {
+      "incident_id": "pred_1179",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7818.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4094",
+        "9237"
+      ]
+    },
+    {
+      "incident_id": "pred_668",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7809.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7181",
+        "7182"
+      ]
+    },
+    {
+      "incident_id": "pred_155",
+      "total_cases_in_event": 7,
+      "avg_text_length": 7796.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2993",
+        "2994"
+      ]
+    },
+    {
+      "incident_id": "pred_1004",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7768.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7029",
+        "7031"
+      ]
+    },
+    {
+      "incident_id": "pred_618",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7750.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4363",
+        "4364"
+      ]
+    },
+    {
+      "incident_id": "pred_304",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7746.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5978",
+        "5979"
+      ]
+    },
+    {
+      "incident_id": "pred_937",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7746.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6061",
+        "6077"
+      ]
+    },
+    {
+      "incident_id": "pred_743",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7702.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9386",
+        "9387"
+      ]
+    },
+    {
+      "incident_id": "pred_515",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7699.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2063",
+        "2123"
+      ]
+    },
+    {
+      "incident_id": "pred_634",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7682.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3972",
+        "3973"
+      ]
+    },
+    {
+      "incident_id": "pred_296",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7672.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3682",
+        "5816"
+      ]
+    },
+    {
+      "incident_id": "pred_1118",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7638.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3392",
+        "8292"
+      ]
+    },
+    {
+      "incident_id": "pred_307",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7634.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3330",
+        "3336"
+      ]
+    },
+    {
+      "incident_id": "pred_939",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7602.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6105",
+        "6113"
+      ]
+    },
+    {
+      "incident_id": "pred_302",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7586.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3724",
+        "3760"
+      ]
+    },
+    {
+      "incident_id": "pred_1131",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7558.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8428",
+        "8430"
+      ]
+    },
+    {
+      "incident_id": "pred_915",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7549.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4148",
+        "5561"
+      ]
+    },
+    {
+      "incident_id": "pred_883",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7525.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4945",
+        "4948"
+      ]
+    },
+    {
+      "incident_id": "pred_792",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7508.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2087",
+        "2089"
+      ]
+    },
+    {
+      "incident_id": "pred_1197",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7504.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9539",
+        "9551"
+      ]
+    },
+    {
+      "incident_id": "pred_760",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7477.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1202",
+        "1556"
+      ]
+    },
+    {
+      "incident_id": "pred_532",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7468.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3591",
+        "3592"
+      ]
+    },
+    {
+      "incident_id": "pred_86",
+      "total_cases_in_event": 9,
+      "avg_text_length": 7442.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4447",
+        "4448"
+      ]
+    },
+    {
+      "incident_id": "pred_589",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7438.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6111",
+        "6115"
+      ]
+    },
+    {
+      "incident_id": "pred_451",
+      "total_cases_in_event": 4,
+      "avg_text_length": 7424.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6373",
+        "6375"
+      ]
+    },
+    {
+      "incident_id": "pred_135",
+      "total_cases_in_event": 7,
+      "avg_text_length": 7418.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4938",
+        "4939"
+      ]
+    },
+    {
+      "incident_id": "pred_1000",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7412.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5446",
+        "6988"
+      ]
+    },
+    {
+      "incident_id": "pred_827",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7406.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3693",
+        "3694"
+      ]
+    },
+    {
+      "incident_id": "pred_267",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7398.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1981",
+        "2058"
+      ]
+    },
+    {
+      "incident_id": "pred_143",
+      "total_cases_in_event": 7,
+      "avg_text_length": 7386.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4194",
+        "4195"
+      ]
+    },
+    {
+      "incident_id": "pred_977",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7367.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5336",
+        "6857"
+      ]
+    },
+    {
+      "incident_id": "pred_822",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7363.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "34",
+        "35"
+      ]
+    },
+    {
+      "incident_id": "pred_766",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7360.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1271",
+        "1626"
+      ]
+    },
+    {
+      "incident_id": "pred_238",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7352.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1859",
+        "1860"
+      ]
+    },
+    {
+      "incident_id": "pred_348",
+      "total_cases_in_event": 4,
+      "avg_text_length": 7350.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1421",
+        "1422"
+      ]
+    },
+    {
+      "incident_id": "pred_903",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7346.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2656",
+        "5340"
+      ]
+    },
+    {
+      "incident_id": "pred_369",
+      "total_cases_in_event": 4,
+      "avg_text_length": 7340.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4355",
+        "4356"
+      ]
+    },
+    {
+      "incident_id": "pred_902",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7332.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5303",
+        "5304"
+      ]
+    },
+    {
+      "incident_id": "pred_300",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7331.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3293",
+        "4764"
+      ]
+    },
+    {
+      "incident_id": "pred_554",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7318.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4868",
+        "4872"
+      ]
+    },
+    {
+      "incident_id": "pred_572",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7280.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4137",
+        "4704"
+      ]
+    },
+    {
+      "incident_id": "pred_970",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7276.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6467",
+        "6745"
+      ]
+    },
+    {
+      "incident_id": "pred_1115",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7262.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2948",
+        "8245"
+      ]
+    },
+    {
+      "incident_id": "pred_1084",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7240.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7832",
+        "7835"
+      ]
+    },
+    {
+      "incident_id": "pred_752",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7230.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1286",
+        "1289"
+      ]
+    },
+    {
+      "incident_id": "pred_101",
+      "total_cases_in_event": 8,
+      "avg_text_length": 7194.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2145",
+        "2154"
+      ]
+    },
+    {
+      "incident_id": "pred_558",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7179.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5045",
+        "5051"
+      ]
+    },
+    {
+      "incident_id": "pred_941",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7175.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6145",
+        "6157"
+      ]
+    },
+    {
+      "incident_id": "pred_868",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7166.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4683",
+        "4685"
+      ]
+    },
+    {
+      "incident_id": "pred_408",
+      "total_cases_in_event": 4,
+      "avg_text_length": 7156.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3770",
+        "3976"
+      ]
+    },
+    {
+      "incident_id": "pred_283",
+      "total_cases_in_event": 5,
+      "avg_text_length": 7148.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4411",
+        "4412"
+      ]
+    },
+    {
+      "incident_id": "pred_526",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7148.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3132",
+        "3133"
+      ]
+    },
+    {
+      "incident_id": "pred_81",
+      "total_cases_in_event": 10,
+      "avg_text_length": 7136.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2338",
+        "2340"
+      ]
+    },
+    {
+      "incident_id": "pred_654",
+      "total_cases_in_event": 3,
+      "avg_text_length": 7093.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3547",
+        "6038"
+      ]
+    },
+    {
+      "incident_id": "pred_1035",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7091.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6990",
+        "7309"
+      ]
+    },
+    {
+      "incident_id": "pred_924",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7085.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3780",
+        "5798"
+      ]
+    },
+    {
+      "incident_id": "pred_806",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7085.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2628",
+        "2629"
+      ]
+    },
+    {
+      "incident_id": "pred_802",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7075.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2369",
+        "2370"
+      ]
+    },
+    {
+      "incident_id": "pred_763",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7066.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1597",
+        "1598"
+      ]
+    },
+    {
+      "incident_id": "pred_966",
+      "total_cases_in_event": 2,
+      "avg_text_length": 7006.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3935",
+        "6711"
+      ]
+    },
+    {
+      "incident_id": "pred_368",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6996.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3777",
+        "3778"
+      ]
+    },
+    {
+      "incident_id": "pred_608",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6982.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5363",
+        "5377"
+      ]
+    },
+    {
+      "incident_id": "pred_257",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6978.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1991",
+        "2013"
+      ]
+    },
+    {
+      "incident_id": "pred_518",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6938.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2308",
+        "2336"
+      ]
+    },
+    {
+      "incident_id": "pred_990",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6929.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5401",
+        "6925"
+      ]
+    },
+    {
+      "incident_id": "pred_673",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6927.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6259",
+        "7903"
+      ]
+    },
+    {
+      "incident_id": "pred_981",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6912.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6869",
+        "6874"
+      ]
+    },
+    {
+      "incident_id": "pred_1070",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6904.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7699",
+        "7700"
+      ]
+    },
+    {
+      "incident_id": "pred_745",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6899.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9504",
+        "9507"
+      ]
+    },
+    {
+      "incident_id": "pred_1172",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6887.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9129",
+        "9130"
+      ]
+    },
+    {
+      "incident_id": "pred_996",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6876.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5423",
+        "6961"
+      ]
+    },
+    {
+      "incident_id": "pred_577",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6874.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2677",
+        "2738"
+      ]
+    },
+    {
+      "incident_id": "pred_489",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6810.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1932",
+        "1933"
+      ]
+    },
+    {
+      "incident_id": "pred_522",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6809.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2489",
+        "2562"
+      ]
+    },
+    {
+      "incident_id": "pred_725",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6807.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1678",
+        "9215"
+      ]
+    },
+    {
+      "incident_id": "pred_62",
+      "total_cases_in_event": 11,
+      "avg_text_length": 6804.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4206",
+        "4207"
+      ]
+    },
+    {
+      "incident_id": "pred_110",
+      "total_cases_in_event": 8,
+      "avg_text_length": 6778.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3019",
+        "3059"
+      ]
+    },
+    {
+      "incident_id": "pred_922",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6774.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3758",
+        "5737"
+      ]
+    },
+    {
+      "incident_id": "pred_0",
+      "total_cases_in_event": 54,
+      "avg_text_length": 6758.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3065",
+        "3068"
+      ]
+    },
+    {
+      "incident_id": "pred_486",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6750.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5061",
+        "8761"
+      ]
+    },
+    {
+      "incident_id": "pred_69",
+      "total_cases_in_event": 11,
+      "avg_text_length": 6740.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1493",
+        "1494"
+      ]
+    },
+    {
+      "incident_id": "pred_742",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6726.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1532",
+        "9468"
+      ]
+    },
+    {
+      "incident_id": "pred_658",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6714.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6094",
+        "7681"
+      ]
+    },
+    {
+      "incident_id": "pred_833",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6710.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1567",
+        "3722"
+      ]
+    },
+    {
+      "incident_id": "pred_641",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6690.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7386",
+        "7388"
+      ]
+    },
+    {
+      "incident_id": "pred_912",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6690.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4146",
+        "5457"
+      ]
+    },
+    {
+      "incident_id": "pred_80",
+      "total_cases_in_event": 10,
+      "avg_text_length": 6688.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2660",
+        "2661"
+      ]
+    },
+    {
+      "incident_id": "pred_1043",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6682.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3815",
+        "7409"
+      ]
+    },
+    {
+      "incident_id": "pred_1146",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6672.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8685",
+        "8759"
+      ]
+    },
+    {
+      "incident_id": "pred_201",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6646.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5758",
+        "5797"
+      ]
+    },
+    {
+      "incident_id": "pred_825",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6636.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3586",
+        "3589"
+      ]
+    },
+    {
+      "incident_id": "pred_160",
+      "total_cases_in_event": 7,
+      "avg_text_length": 6632.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2552",
+        "2618"
+      ]
+    },
+    {
+      "incident_id": "pred_314",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6629.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6307",
+        "6739"
+      ]
+    },
+    {
+      "incident_id": "pred_41",
+      "total_cases_in_event": 14,
+      "avg_text_length": 6628.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4942",
+        "4943"
+      ]
+    },
+    {
+      "incident_id": "pred_855",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6621.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4186",
+        "4268"
+      ]
+    },
+    {
+      "incident_id": "pred_1137",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6615.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8617",
+        "8618"
+      ]
+    },
+    {
+      "incident_id": "pred_186",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6606.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3787",
+        "3793"
+      ]
+    },
+    {
+      "incident_id": "pred_684",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6590.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5993",
+        "6384"
+      ]
+    },
+    {
+      "incident_id": "pred_1055",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6572.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5928",
+        "7499"
+      ]
+    },
+    {
+      "incident_id": "pred_780",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6564.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1877",
+        "1879"
+      ]
+    },
+    {
+      "incident_id": "pred_695",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6546.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2180",
+        "8304"
+      ]
+    },
+    {
+      "incident_id": "pred_1063",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6540.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6646",
+        "7589"
+      ]
+    },
+    {
+      "incident_id": "pred_430",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6530.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3608",
+        "5917"
+      ]
+    },
+    {
+      "incident_id": "pred_330",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6527.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1630",
+        "8566"
+      ]
+    },
+    {
+      "incident_id": "pred_520",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6514.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2579",
+        "2580"
+      ]
+    },
+    {
+      "incident_id": "pred_887",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6504.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5056",
+        "5057"
+      ]
+    },
+    {
+      "incident_id": "pred_1030",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6499.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3129",
+        "7289"
+      ]
+    },
+    {
+      "incident_id": "pred_718",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6496.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "8052",
+        "8921"
+      ]
+    },
+    {
+      "incident_id": "pred_183",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6487.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4507",
+        "4509"
+      ]
+    },
+    {
+      "incident_id": "pred_206",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6486.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4347",
+        "4352"
+      ]
+    },
+    {
+      "incident_id": "pred_199",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6479.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1387",
+        "1388"
+      ]
+    },
+    {
+      "incident_id": "pred_313",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6470.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6277",
+        "7918"
+      ]
+    },
+    {
+      "incident_id": "pred_1182",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6468.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6964",
+        "9298"
+      ]
+    },
+    {
+      "incident_id": "pred_341",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6462.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6843",
+        "9267"
+      ]
+    },
+    {
+      "incident_id": "pred_318",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6455.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2191",
+        "6456"
+      ]
+    },
+    {
+      "incident_id": "pred_516",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6442.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1875",
+        "1898"
+      ]
+    },
+    {
+      "incident_id": "pred_1086",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6438.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6274",
+        "7854"
+      ]
+    },
+    {
+      "incident_id": "pred_1199",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6436.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9570",
+        "9574"
+      ]
+    },
+    {
+      "incident_id": "pred_817",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6420.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3162",
+        "3163"
+      ]
+    },
+    {
+      "incident_id": "pred_1002",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6418.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7003",
+        "7004"
+      ]
+    },
+    {
+      "incident_id": "pred_1149",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6418.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6797",
+        "8794"
+      ]
+    },
+    {
+      "incident_id": "pred_113",
+      "total_cases_in_event": 8,
+      "avg_text_length": 6394.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3718",
+        "3719"
+      ]
+    },
+    {
+      "incident_id": "pred_128",
+      "total_cases_in_event": 8,
+      "avg_text_length": 6392.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1154",
+        "1203"
+      ]
+    },
+    {
+      "incident_id": "pred_3",
+      "total_cases_in_event": 42,
+      "avg_text_length": 6382.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2898",
+        "2899"
+      ]
+    },
+    {
+      "incident_id": "pred_1006",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6366.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2743",
+        "7036"
+      ]
+    },
+    {
+      "incident_id": "pred_757",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6361.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1349",
+        "1374"
+      ]
+    },
+    {
+      "incident_id": "pred_1",
+      "total_cases_in_event": 52,
+      "avg_text_length": 6357.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2800",
+        "2801"
+      ]
+    },
+    {
+      "incident_id": "pred_697",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6344.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8362",
+        "8364"
+      ]
+    },
+    {
+      "incident_id": "pred_582",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6328.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5881",
+        "5882"
+      ]
+    },
+    {
+      "incident_id": "pred_835",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6319.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1410",
+        "3749"
+      ]
+    },
+    {
+      "incident_id": "pred_543",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6292.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4095",
+        "4276"
+      ]
+    },
+    {
+      "incident_id": "pred_225",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6284.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1311",
+        "1312"
+      ]
+    },
+    {
+      "incident_id": "pred_643",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6260.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "7438",
+        "7440"
+      ]
+    },
+    {
+      "incident_id": "pred_33",
+      "total_cases_in_event": 16,
+      "avg_text_length": 6248.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1318",
+        "1319"
+      ]
+    },
+    {
+      "incident_id": "pred_1049",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6239.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7475",
+        "7479"
+      ]
+    },
+    {
+      "incident_id": "pred_463",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6227.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1627",
+        "1628"
+      ]
+    },
+    {
+      "incident_id": "pred_211",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6226.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2659",
+        "6304"
+      ]
+    },
+    {
+      "incident_id": "pred_1003",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6222.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7014",
+        "7024"
+      ]
+    },
+    {
+      "incident_id": "pred_55",
+      "total_cases_in_event": 12,
+      "avg_text_length": 6205.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3494",
+        "3495"
+      ]
+    },
+    {
+      "incident_id": "pred_477",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6198.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1909",
+        "1910"
+      ]
+    },
+    {
+      "incident_id": "pred_1164",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6198.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9016",
+        "9018"
+      ]
+    },
+    {
+      "incident_id": "pred_138",
+      "total_cases_in_event": 7,
+      "avg_text_length": 6196.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2525",
+        "2526"
+      ]
+    },
+    {
+      "incident_id": "pred_980",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6187.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6864",
+        "6872"
+      ]
+    },
+    {
+      "incident_id": "pred_263",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6180.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3626",
+        "3628"
+      ]
+    },
+    {
+      "incident_id": "pred_277",
+      "total_cases_in_event": 5,
+      "avg_text_length": 6168.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3933",
+        "3934"
+      ]
+    },
+    {
+      "incident_id": "pred_445",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6166.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2192",
+        "2286"
+      ]
+    },
+    {
+      "incident_id": "pred_1141",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6133.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8682",
+        "8684"
+      ]
+    },
+    {
+      "incident_id": "pred_576",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6133.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4520",
+        "4540"
+      ]
+    },
+    {
+      "incident_id": "pred_762",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6124.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1593",
+        "1594"
+      ]
+    },
+    {
+      "incident_id": "pred_1144",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6114.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1305",
+        "8748"
+      ]
+    },
+    {
+      "incident_id": "pred_548",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6111.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4526",
+        "4528"
+      ]
+    },
+    {
+      "incident_id": "pred_1121",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6108.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2726",
+        "8318"
+      ]
+    },
+    {
+      "incident_id": "pred_458",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6096.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2039",
+        "2040"
+      ]
+    },
+    {
+      "incident_id": "pred_901",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6092.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5278",
+        "5280"
+      ]
+    },
+    {
+      "incident_id": "pred_1068",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6092.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7648",
+        "7653"
+      ]
+    },
+    {
+      "incident_id": "pred_553",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6090.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3739",
+        "4830"
+      ]
+    },
+    {
+      "incident_id": "pred_1181",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6088.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9292",
+        "9295"
+      ]
+    },
+    {
+      "incident_id": "pred_479",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6082.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2054",
+        "9164"
+      ]
+    },
+    {
+      "incident_id": "pred_411",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6068.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5390",
+        "5391"
+      ]
+    },
+    {
+      "incident_id": "pred_853",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6062.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3747",
+        "4183"
+      ]
+    },
+    {
+      "incident_id": "pred_704",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6058.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "8526",
+        "8528"
+      ]
+    },
+    {
+      "incident_id": "pred_362",
+      "total_cases_in_event": 4,
+      "avg_text_length": 6054.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2603",
+        "2611"
+      ]
+    },
+    {
+      "incident_id": "pred_800",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6048.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2125",
+        "2351"
+      ]
+    },
+    {
+      "incident_id": "pred_1037",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6047.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "7303",
+        "7321"
+      ]
+    },
+    {
+      "incident_id": "pred_1132",
+      "total_cases_in_event": 2,
+      "avg_text_length": 6022.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2523",
+        "8441"
+      ]
+    },
+    {
+      "incident_id": "pred_198",
+      "total_cases_in_event": 6,
+      "avg_text_length": 6014.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2070",
+        "2072"
+      ]
+    },
+    {
+      "incident_id": "pred_54",
+      "total_cases_in_event": 12,
+      "avg_text_length": 6014.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2491",
+        "2492"
+      ]
+    },
+    {
+      "incident_id": "pred_713",
+      "total_cases_in_event": 3,
+      "avg_text_length": 6012.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "8773",
+        "8774"
+      ]
+    },
+    {
+      "incident_id": "pred_774",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5995.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1784",
+        "1785"
+      ]
+    },
+    {
+      "incident_id": "pred_1111",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5990.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8202",
+        "8209"
+      ]
+    },
+    {
+      "incident_id": "pred_586",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5982.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1775",
+        "5968"
+      ]
+    },
+    {
+      "incident_id": "pred_388",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5980.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5803",
+        "5804"
+      ]
+    },
+    {
+      "incident_id": "pred_527",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5976.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3145",
+        "3151"
+      ]
+    },
+    {
+      "incident_id": "pred_94",
+      "total_cases_in_event": 9,
+      "avg_text_length": 5966.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3359",
+        "3360"
+      ]
+    },
+    {
+      "incident_id": "pred_810",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5964.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2965",
+        "2966"
+      ]
+    },
+    {
+      "incident_id": "pred_354",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5963.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1561",
+        "1562"
+      ]
+    },
+    {
+      "incident_id": "pred_1133",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5961.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8445",
+        "8448"
+      ]
+    },
+    {
+      "incident_id": "pred_676",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5949.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6267",
+        "6268"
+      ]
+    },
+    {
+      "incident_id": "pred_124",
+      "total_cases_in_event": 8,
+      "avg_text_length": 5935.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1458",
+        "1459"
+      ]
+    },
+    {
+      "incident_id": "pred_323",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5929.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2395",
+        "6505"
+      ]
+    },
+    {
+      "incident_id": "pred_1059",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5914.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7529",
+        "7534"
+      ]
+    },
+    {
+      "incident_id": "pred_721",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5910.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1944",
+        "9121"
+      ]
+    },
+    {
+      "incident_id": "pred_432",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5908.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3688",
+        "3859"
+      ]
+    },
+    {
+      "incident_id": "pred_529",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5906.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3509",
+        "3517"
+      ]
+    },
+    {
+      "incident_id": "pred_337",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5904.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2978",
+        "2982"
+      ]
+    },
+    {
+      "incident_id": "pred_417",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5902.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3783",
+        "3866"
+      ]
+    },
+    {
+      "incident_id": "pred_239",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5888.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1987",
+        "1988"
+      ]
+    },
+    {
+      "incident_id": "pred_979",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5870.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5338",
+        "6867"
+      ]
+    },
+    {
+      "incident_id": "pred_488",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5864.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1767",
+        "9497"
+      ]
+    },
+    {
+      "incident_id": "pred_284",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5849.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1397",
+        "1398"
+      ]
+    },
+    {
+      "incident_id": "pred_717",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5839.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8821",
+        "8823"
+      ]
+    },
+    {
+      "incident_id": "pred_420",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5836.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5779",
+        "5826"
+      ]
+    },
+    {
+      "incident_id": "pred_633",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5834.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3638",
+        "5545"
+      ]
+    },
+    {
+      "incident_id": "pred_594",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5834.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2987",
+        "3061"
+      ]
+    },
+    {
+      "incident_id": "pred_828",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5832.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3702",
+        "3704"
+      ]
+    },
+    {
+      "incident_id": "pred_448",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5820.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2608",
+        "2623"
+      ]
+    },
+    {
+      "incident_id": "pred_911",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5799.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3927",
+        "5454"
+      ]
+    },
+    {
+      "incident_id": "pred_195",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5798.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1906",
+        "3831"
+      ]
+    },
+    {
+      "incident_id": "pred_588",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5787.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2953",
+        "2955"
+      ]
+    },
+    {
+      "incident_id": "pred_1134",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5767.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8523",
+        "8527"
+      ]
+    },
+    {
+      "incident_id": "pred_1100",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5766.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6561",
+        "8063"
+      ]
+    },
+    {
+      "incident_id": "pred_824",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5750.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3135",
+        "3545"
+      ]
+    },
+    {
+      "incident_id": "pred_419",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5748.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5703",
+        "5704"
+      ]
+    },
+    {
+      "incident_id": "pred_969",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5739.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3957",
+        "6740"
+      ]
+    },
+    {
+      "incident_id": "pred_72",
+      "total_cases_in_event": 10,
+      "avg_text_length": 5724.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "345",
+        "346"
+      ]
+    },
+    {
+      "incident_id": "pred_1114",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5710.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8231",
+        "8233"
+      ]
+    },
+    {
+      "incident_id": "pred_202",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5680.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3678",
+        "3679"
+      ]
+    },
+    {
+      "incident_id": "pred_1010",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5676.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7092",
+        "7093"
+      ]
+    },
+    {
+      "incident_id": "pred_959",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5672.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5528",
+        "6616"
+      ]
+    },
+    {
+      "incident_id": "pred_1127",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5662.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8386",
+        "8387"
+      ]
+    },
+    {
+      "incident_id": "pred_422",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5632.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3689",
+        "3959"
+      ]
+    },
+    {
+      "incident_id": "pred_647",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5624.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4022",
+        "6048"
+      ]
+    },
+    {
+      "incident_id": "pred_461",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5620.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6585",
+        "7458"
+      ]
+    },
+    {
+      "incident_id": "pred_923",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5612.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5743",
+        "5744"
+      ]
+    },
+    {
+      "incident_id": "pred_919",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5610.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5695",
+        "5699"
+      ]
+    },
+    {
+      "incident_id": "pred_899",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5609.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5228",
+        "5231"
+      ]
+    },
+    {
+      "incident_id": "pred_399",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5607.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3055",
+        "3067"
+      ]
+    },
+    {
+      "incident_id": "pred_798",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5607.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2305",
+        "2306"
+      ]
+    },
+    {
+      "incident_id": "pred_1195",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5602.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9388",
+        "9480"
+      ]
+    },
+    {
+      "incident_id": "pred_152",
+      "total_cases_in_event": 7,
+      "avg_text_length": 5592.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3395",
+        "3402"
+      ]
+    },
+    {
+      "incident_id": "pred_1096",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5586.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8007",
+        "8010"
+      ]
+    },
+    {
+      "incident_id": "pred_437",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5584.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6055",
+        "6059"
+      ]
+    },
+    {
+      "incident_id": "pred_688",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5578.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3056",
+        "8171"
+      ]
+    },
+    {
+      "incident_id": "pred_1016",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5578.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3799",
+        "7179"
+      ]
+    },
+    {
+      "incident_id": "pred_844",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5577.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4033",
+        "4034"
+      ]
+    },
+    {
+      "incident_id": "pred_935",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5576.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3198",
+        "6044"
+      ]
+    },
+    {
+      "incident_id": "pred_1081",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5571.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6569",
+        "7804"
+      ]
+    },
+    {
+      "incident_id": "pred_661",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5568.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6106",
+        "7705"
+      ]
+    },
+    {
+      "incident_id": "pred_499",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5568.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1407",
+        "1408"
+      ]
+    },
+    {
+      "incident_id": "pred_245",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5564.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1192",
+        "1262"
+      ]
+    },
+    {
+      "incident_id": "pred_612",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5563.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3740",
+        "5416"
+      ]
+    },
+    {
+      "incident_id": "pred_876",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5555.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4823",
+        "4824"
+      ]
+    },
+    {
+      "incident_id": "pred_525",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5541.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2921",
+        "2924"
+      ]
+    },
+    {
+      "incident_id": "pred_809",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5541.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2962",
+        "2964"
+      ]
+    },
+    {
+      "incident_id": "pred_204",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5540.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3340",
+        "3640"
+      ]
+    },
+    {
+      "incident_id": "pred_496",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5532.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1179",
+        "1180"
+      ]
+    },
+    {
+      "incident_id": "pred_144",
+      "total_cases_in_event": 7,
+      "avg_text_length": 5514.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3971",
+        "5462"
+      ]
+    },
+    {
+      "incident_id": "pred_393",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5502.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3430",
+        "6182"
+      ]
+    },
+    {
+      "incident_id": "pred_656",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5494.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6196",
+        "7635"
+      ]
+    },
+    {
+      "incident_id": "pred_920",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5494.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5697",
+        "5719"
+      ]
+    },
+    {
+      "incident_id": "pred_1095",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5480.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "7972",
+        "7980"
+      ]
+    },
+    {
+      "incident_id": "pred_662",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5472.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7724",
+        "7728"
+      ]
+    },
+    {
+      "incident_id": "pred_1102",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5462.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8070",
+        "8073"
+      ]
+    },
+    {
+      "incident_id": "pred_932",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5460.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5957",
+        "5959"
+      ]
+    },
+    {
+      "incident_id": "pred_617",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5457.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5472",
+        "5474"
+      ]
+    },
+    {
+      "incident_id": "pred_978",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5456.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6862",
+        "6863"
+      ]
+    },
+    {
+      "incident_id": "pred_1158",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5451.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8943",
+        "8944"
+      ]
+    },
+    {
+      "incident_id": "pred_846",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5448.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4081",
+        "4093"
+      ]
+    },
+    {
+      "incident_id": "pred_164",
+      "total_cases_in_event": 7,
+      "avg_text_length": 5442.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1659",
+        "1669"
+      ]
+    },
+    {
+      "incident_id": "pred_414",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5422.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "6710",
+        "7102"
+      ]
+    },
+    {
+      "incident_id": "pred_434",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5418.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3581",
+        "7585"
+      ]
+    },
+    {
+      "incident_id": "pred_657",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5413.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6072",
+        "7664"
+      ]
+    },
+    {
+      "incident_id": "pred_30",
+      "total_cases_in_event": 16,
+      "avg_text_length": 5396.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4045",
+        "4046"
+      ]
+    },
+    {
+      "incident_id": "pred_47",
+      "total_cases_in_event": 13,
+      "avg_text_length": 5394.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4320",
+        "4321"
+      ]
+    },
+    {
+      "incident_id": "pred_1072",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5386.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7735",
+        "7743"
+      ]
+    },
+    {
+      "incident_id": "pred_714",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5385.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2437",
+        "2774"
+      ]
+    },
+    {
+      "incident_id": "pred_413",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5376.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "7077",
+        "7078"
+      ]
+    },
+    {
+      "incident_id": "pred_203",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5368.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3801",
+        "6042"
+      ]
+    },
+    {
+      "incident_id": "pred_68",
+      "total_cases_in_event": 11,
+      "avg_text_length": 5368.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3937",
+        "3938"
+      ]
+    },
+    {
+      "incident_id": "pred_309",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5354.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6198",
+        "6199"
+      ]
+    },
+    {
+      "incident_id": "pred_648",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5351.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5964",
+        "5970"
+      ]
+    },
+    {
+      "incident_id": "pred_1097",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5348.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8009",
+        "8012"
+      ]
+    },
+    {
+      "incident_id": "pred_290",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5346.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4399",
+        "4400"
+      ]
+    },
+    {
+      "incident_id": "pred_1019",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5342.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2709",
+        "7209"
+      ]
+    },
+    {
+      "incident_id": "pred_382",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5330.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4596",
+        "4598"
+      ]
+    },
+    {
+      "incident_id": "pred_651",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5329.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5995",
+        "5998"
+      ]
+    },
+    {
+      "incident_id": "pred_820",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5328.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3333",
+        "3335"
+      ]
+    },
+    {
+      "incident_id": "pred_299",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5314.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "3736",
+        "7428"
+      ]
+    },
+    {
+      "incident_id": "pred_1178",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5312.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9223",
+        "9225"
+      ]
+    },
+    {
+      "incident_id": "pred_111",
+      "total_cases_in_event": 8,
+      "avg_text_length": 5296.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4217",
+        "4218"
+      ]
+    },
+    {
+      "incident_id": "pred_1188",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5291.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6841",
+        "9385"
+      ]
+    },
+    {
+      "incident_id": "pred_1123",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5280.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8351",
+        "8353"
+      ]
+    },
+    {
+      "incident_id": "pred_11",
+      "total_cases_in_event": 23,
+      "avg_text_length": 5276.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5120",
+        "523"
+      ]
+    },
+    {
+      "incident_id": "pred_390",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5271.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5860",
+        "5861"
+      ]
+    },
+    {
+      "incident_id": "pred_724",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5270.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9190",
+        "9191"
+      ]
+    },
+    {
+      "incident_id": "pred_464",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5270.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6598",
+        "6764"
+      ]
+    },
+    {
+      "incident_id": "pred_534",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5249.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3670",
+        "3674"
+      ]
+    },
+    {
+      "incident_id": "pred_517",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5239.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2301",
+        "2353"
+      ]
+    },
+    {
+      "incident_id": "pred_220",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5234.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1278",
+        "1295"
+      ]
+    },
+    {
+      "incident_id": "pred_1128",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5230.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8398",
+        "8399"
+      ]
+    },
+    {
+      "incident_id": "pred_190",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5226.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3932",
+        "3954"
+      ]
+    },
+    {
+      "incident_id": "pred_569",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5224.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4713",
+        "5325"
+      ]
+    },
+    {
+      "incident_id": "pred_1013",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5224.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "7157",
+        "7162"
+      ]
+    },
+    {
+      "incident_id": "pred_931",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5222.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "4182",
+        "5931"
+      ]
+    },
+    {
+      "incident_id": "pred_1117",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5220.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8283",
+        "8284"
+      ]
+    },
+    {
+      "incident_id": "pred_1159",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5214.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8967",
+        "8970"
+      ]
+    },
+    {
+      "incident_id": "pred_166",
+      "total_cases_in_event": 7,
+      "avg_text_length": 5208.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2405",
+        "2407"
+      ]
+    },
+    {
+      "incident_id": "pred_67",
+      "total_cases_in_event": 11,
+      "avg_text_length": 5207.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4499",
+        "4500"
+      ]
+    },
+    {
+      "incident_id": "pred_545",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5206.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4080",
+        "4383"
+      ]
+    },
+    {
+      "incident_id": "pred_963",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5204.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "1966",
+        "6674"
+      ]
+    },
+    {
+      "incident_id": "pred_214",
+      "total_cases_in_event": 6,
+      "avg_text_length": 5192.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3826",
+        "3827"
+      ]
+    },
+    {
+      "incident_id": "pred_519",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5170.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2270",
+        "2317"
+      ]
+    },
+    {
+      "incident_id": "pred_864",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5166.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4477",
+        "4478"
+      ]
+    },
+    {
+      "incident_id": "pred_681",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5154.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2565",
+        "6368"
+      ]
+    },
+    {
+      "incident_id": "pred_237",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5150.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1537",
+        "1538"
+      ]
+    },
+    {
+      "incident_id": "pred_276",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5131.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2522",
+        "2692"
+      ]
+    },
+    {
+      "incident_id": "pred_570",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5126.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4222",
+        "4278"
+      ]
+    },
+    {
+      "incident_id": "pred_789",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5118.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "2045",
+        "2049"
+      ]
+    },
+    {
+      "incident_id": "pred_873",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5118.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4777",
+        "4778"
+      ]
+    },
+    {
+      "incident_id": "pred_747",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5114.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "9557",
+        "9559"
+      ]
+    },
+    {
+      "incident_id": "pred_814",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5114.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "3001",
+        "3014"
+      ]
+    },
+    {
+      "incident_id": "pred_944",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5107.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5203",
+        "6189"
+      ]
+    },
+    {
+      "incident_id": "pred_130",
+      "total_cases_in_event": 7,
+      "avg_text_length": 5106.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "1970",
+        "2006"
+      ]
+    },
+    {
+      "incident_id": "pred_316",
+      "total_cases_in_event": 5,
+      "avg_text_length": 5104.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6397",
+        "6398"
+      ]
+    },
+    {
+      "incident_id": "pred_700",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5086.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "2365",
+        "8381"
+      ]
+    },
+    {
+      "incident_id": "pred_985",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5081.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "5375",
+        "6901"
+      ]
+    },
+    {
+      "incident_id": "pred_1109",
+      "total_cases_in_event": 2,
+      "avg_text_length": 5066.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "8192",
+        "8194"
+      ]
+    },
+    {
+      "incident_id": "pred_672",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5057.0,
+      "avg_field_completeness": 5.5,
+      "labeling_cases": [
+        "7888",
+        "7889"
+      ]
+    },
+    {
+      "incident_id": "pred_447",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5050.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6316",
+        "6317"
+      ]
+    },
+    {
+      "incident_id": "pred_455",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5048.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "6473",
+        "6476"
+      ]
+    },
+    {
+      "incident_id": "pred_457",
+      "total_cases_in_event": 4,
+      "avg_text_length": 5043.0,
+      "avg_field_completeness": 5.0,
+      "labeling_cases": [
+        "4786",
+        "4896"
+      ]
+    },
+    {
+      "incident_id": "pred_632",
+      "total_cases_in_event": 3,
+      "avg_text_length": 5030.0,
+      "avg_field_completeness": 6.0,
+      "labeling_cases": [
+        "5680",
+        "7245"
+      ]
+    }
+  ]
+}

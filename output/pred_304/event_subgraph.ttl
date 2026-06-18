@@ -1,0 +1,1899 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/3647a5892f1a> a airo:ComplianceRequirement ;
+    rdfs:label "Argentina's Personal Data Protection Act 25.326" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88052f5e911b> ;
+    airo:hasReasoning "The evidence specifically mentions compliance with Argentina's Personal Data Protection Act as a regulatory requirement." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/EnforcementAction/97700f2d7beb> a airo:EnforcementAction ;
+    rdfs:label "regulatory investigations launched in multiple countries including Argentina, South Korea, Kenya, Germany, France, and the United Kingdom" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af5ea445d4b8> ;
+    airo:hasReasoning "Multiple countries have launched regulatory investigations, and Kenya suspended the project and raided offices, demonstrating enforcement actions." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> .
+
+<https://w3id.org/airo/incident/InformationSource/c6f9093e5bc7> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5978>,
+        <https://w3id.org/airo/incident/NewsReport/5979>,
+        <https://w3id.org/airo/incident/NewsReport/7564>,
+        <https://w3id.org/airo/incident/NewsReport/7565>,
+        <https://w3id.org/airo/incident/NewsReport/7567> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7565>,
+        <https://w3id.org/airo/incident/document/7567> .
+
+<https://w3id.org/airo/incident/RiskControl/664d341a3d98> a airo:RiskControl ;
+    rdfs:label "Regulatory investigations, audits, fines, and enforcement actions by government data protection authorities" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6a8f993c3a5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/2721364226d0> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0678cc659ed6> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6c6ccd61277> ;
+    airo:hasReasoning "OpenAI was fined for a data breach involving its AI application ChatGPT, indicating it provides the AI system to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c09a226fb7c6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/08bf13ae9757> a airo:RoleAssignment ;
+    rdfs:label "Kenya_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2acd0202532f> ;
+    airo:hasReasoning "Kenya suspended the project and raided offices, which are regulatory enforcement actions against the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b475e77aeabc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0e69238bbd21> a airo:RoleAssignment ;
+    rdfs:label "Tools for Humanity_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b08dd9f72462> ;
+    airo:hasReasoning "Tools for Humanity is the company building Worldcoin (mentioned in broader context as the developer), indicating its role as the AI developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/19ce6896cbee> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/61d18a3f06e3> a airo:RoleAssignment ;
+    rdfs:label "Argentina_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0d48c1dcf17> ;
+    airo:hasReasoning "Argentina is launching a government investigation into Worldcoin, which is a regulatory enforcement action." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/250538946ec3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6f5c86deebc8> a airo:RoleAssignment ;
+    rdfs:label "France_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73a3ea3d189e> ;
+    airo:hasReasoning "France is listed among countries that have launched regulatory investigations into Worldcoin." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c46aa22bb442> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/84011afc9bf6> a airo:RoleAssignment ;
+    rdfs:label "South Korea Personal Information Protection Committee_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfae7d4d708a> ;
+    airo:hasReasoning "The PIPC is a regulatory body launching an investigation into Worldcoin's data practices, which is a regulatory action." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9e86c92d8c8a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8af96ae03fa9> a airo:RoleAssignment ;
+    rdfs:label "Hong Kong Privacy Commissioner_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3f413518e70> ;
+    airo:hasReasoning "The Hong Kong Privacy Commissioner is a regulatory body that fined OpenAI, demonstrating its role as a regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5057d6669b98> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8f79baa6d2e8> a airo:RoleAssignment ;
+    rdfs:label "Worldcoin Foundation_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d241f1e131c9> ;
+    airo:hasReasoning "The Worldcoin Foundation is the organization responsible for the Worldcoin project and its compliance statements, indicating it provides the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4f1b3f1fe6f7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a595958331b9> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3e96c2c8674> ;
+    airo:hasReasoning "OpenAI developed the ChatGPT application, as it is their product being regulated, making them the developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c09a226fb7c6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c804c6e8864b> a airo:RoleAssignment ;
+    rdfs:label "Sam Altman_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/134cdab678fd> ;
+    airo:hasReasoning "The evidence states Sam Altman co-founded Worldcoin, indicating he was involved in developing the project and its associated technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7567> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fc0d855fc380> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d34c0b5a86d7> a airo:RoleAssignment ;
+    rdfs:label "Germany_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12474ff69afd> ;
+    airo:hasReasoning "Germany is listed among countries that have launched regulatory investigations into Worldcoin." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6d3753da8578> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d8c84802546e> a airo:RoleAssignment ;
+    rdfs:label "United Kingdom_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a8d1d135109> ;
+    airo:hasReasoning "The United Kingdom is listed among countries that have launched regulatory investigations into Worldcoin." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c851a687d068> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/dc8c0f138453> a airo:RoleAssignment ;
+    rdfs:label "Kenya's Ministry of the Interior_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07cffc5bd698> ;
+    airo:hasReasoning "The Ministry of the Interior would be involved in suspending the project and raiding offices, indicating a regulatory enforcement role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fbb4caba4854> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f05ebd2381b0> a airo:RoleAssignment ;
+    rdfs:label "Agency for Access to Public Information_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b614a25af15c> ;
+    airo:hasReasoning "This agency is analyzing Worldcoin's data practices as part of a government investigation, indicating a regulatory role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_304> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a143b82dea67> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/Trend/49254c9ab570> a airo:Trend ;
+    rdfs:label "increasing global regulatory scrutiny of biometric data collection and AI systems" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df1aaabfc61> ;
+    airo:hasReasoning "Multiple countries are investigating Worldcoin simultaneously, indicating a trend of increasing regulatory scrutiny of AI systems collecting biometric data." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/event/pred_304> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-08-10T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2024-03-05T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/000db5957750> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa62f8a6b3dd> .
+
+<https://w3id.org/airo/incident/ks/01257b945a53> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea6f936d3570> .
+
+<https://w3id.org/airo/incident/ks/0342eaacff6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af5ea445d4b8> .
+
+<https://w3id.org/airo/incident/ks/036557455a8f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/074781a924fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/0790493d7bba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4e9f800a38e> .
+
+<https://w3id.org/airo/incident/ks/08140ce76c85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/0d53998aa5e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74a9d296b133> .
+
+<https://w3id.org/airo/incident/ks/0f51f3cd8377> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/10c7c718654e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/1180955eb091> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09b467908c63> .
+
+<https://w3id.org/airo/incident/ks/118b7bc03a25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1acc07a7ce64> .
+
+<https://w3id.org/airo/incident/ks/15621eb8afff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/1706f21f5f37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6a8f993c3a5> .
+
+<https://w3id.org/airo/incident/ks/1736aa0619b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/1763f3f40688> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8baa8672724e> .
+
+<https://w3id.org/airo/incident/ks/1a38b1304e55> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/1abf0c1fc197> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54d567bc0689> .
+
+<https://w3id.org/airo/incident/ks/1c6636ba1726> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96a4c829d6ff> .
+
+<https://w3id.org/airo/incident/ks/1d4131753b26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/1e6ad5bd3626> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/1f359a0278c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/21acf8748883> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f58fd14064ac> .
+
+<https://w3id.org/airo/incident/ks/246ce77c764b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a313772772de> .
+
+<https://w3id.org/airo/incident/ks/26a8a75691eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcef645b2647> .
+
+<https://w3id.org/airo/incident/ks/285eae3d772c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/2a19dbb594fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> .
+
+<https://w3id.org/airo/incident/ks/2a8ccaea4d8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/2bed4037b275> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7d20f48ca83> .
+
+<https://w3id.org/airo/incident/ks/2d50724c6f4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/30a10992d477> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be59e7c0c13c> .
+
+<https://w3id.org/airo/incident/ks/32b85ccc1d91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df872d36170> .
+
+<https://w3id.org/airo/incident/ks/331e6e27b226> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54d567bc0689> .
+
+<https://w3id.org/airo/incident/ks/3a4f0386c013> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e95b08272947> .
+
+<https://w3id.org/airo/incident/ks/3ba7e3032a08> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ce0005d4d7> .
+
+<https://w3id.org/airo/incident/ks/3c4e52c5f1e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54d567bc0689> .
+
+<https://w3id.org/airo/incident/ks/3da1dc87fe11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19dffc1c2940> .
+
+<https://w3id.org/airo/incident/ks/41ca415c9772> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/371a075cc201> .
+
+<https://w3id.org/airo/incident/ks/427d2ee6211c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/43119e4a3d27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38a2ff80d89c> .
+
+<https://w3id.org/airo/incident/ks/44d5d9c9ff86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcef645b2647> .
+
+<https://w3id.org/airo/incident/ks/46d46efdd3b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b678fef144f> .
+
+<https://w3id.org/airo/incident/ks/47690128b6ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/4a07118dc3d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7d20f48ca83> .
+
+<https://w3id.org/airo/incident/ks/4af7a3b845ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/4ee62166ab66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/4fe30fa16fe8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> .
+
+<https://w3id.org/airo/incident/ks/51e55ceb7bd6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df872d36170> .
+
+<https://w3id.org/airo/incident/ks/52dde63b72bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/544bea23cbdf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/5479cfde7f14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0ecd1bb2868> .
+
+<https://w3id.org/airo/incident/ks/55926cc40330> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/5611e48fe88e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a313772772de> .
+
+<https://w3id.org/airo/incident/ks/5856296a5e7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88ea6fb78807> .
+
+<https://w3id.org/airo/incident/ks/596ebc21dc36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/5a4eb331e9f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1acc07a7ce64> .
+
+<https://w3id.org/airo/incident/ks/5b41c983e5d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea6f936d3570> .
+
+<https://w3id.org/airo/incident/ks/5cb4d2f15307> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c286d15dcd00> .
+
+<https://w3id.org/airo/incident/ks/5dc3264bc174> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/5f38d81436fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5517cb2c26e8> .
+
+<https://w3id.org/airo/incident/ks/6002305761f6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1acc07a7ce64> .
+
+<https://w3id.org/airo/incident/ks/607acb47d3ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3899fd8a745e> .
+
+<https://w3id.org/airo/incident/ks/63222c127b85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/65f5e7b44444> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df872d36170> .
+
+<https://w3id.org/airo/incident/ks/67e1a5e96836> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/6915660b8ad3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/35206dbb13e8> .
+
+<https://w3id.org/airo/incident/ks/6bd52a2a2dc4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcef645b2647> .
+
+<https://w3id.org/airo/incident/ks/6c91cec28584> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/6ce0cd02c0d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a3803b1ccfa> .
+
+<https://w3id.org/airo/incident/ks/73aee03a9b32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd5808d2b7e1> .
+
+<https://w3id.org/airo/incident/ks/73ff7d8dae7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/745c08256865> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e09dbeb816dd> .
+
+<https://w3id.org/airo/incident/ks/74f57aa57bdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56bf199630d6> .
+
+<https://w3id.org/airo/incident/ks/7774445b6104> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e95b08272947> .
+
+<https://w3id.org/airo/incident/ks/78fd9c66dd80> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/7a5d92df8a26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/7b44074860b4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/7d3c5f45a9fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> .
+
+<https://w3id.org/airo/incident/ks/82260f2a18f6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57bb8c99e716> .
+
+<https://w3id.org/airo/incident/ks/885d1ea9f08e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/89836a1f54d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e95b08272947> .
+
+<https://w3id.org/airo/incident/ks/8a1278e453b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0ecd1bb2868> .
+
+<https://w3id.org/airo/incident/ks/8a20839de69f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0ecd1bb2868> .
+
+<https://w3id.org/airo/incident/ks/8a6c4b65c61b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/230b2378157b> .
+
+<https://w3id.org/airo/incident/ks/8a78d84e0131> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/8e1710f9f9ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/8ffa25677bcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a3803b1ccfa> .
+
+<https://w3id.org/airo/incident/ks/903e0164d079> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/930f4364aa00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b91a609f23e> .
+
+<https://w3id.org/airo/incident/ks/94f027aa017a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b12a3550edac> .
+
+<https://w3id.org/airo/incident/ks/9581e79926d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/95bed5863625> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/96c459d5efc1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/97de7a482e73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7d20f48ca83> .
+
+<https://w3id.org/airo/incident/ks/990c25807e85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/9924ab5a4485> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6209c591fdb0> .
+
+<https://w3id.org/airo/incident/ks/9941d16c8f1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/99de8943588f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a53df49238f4> .
+
+<https://w3id.org/airo/incident/ks/9dc01489bdf2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a3803b1ccfa> .
+
+<https://w3id.org/airo/incident/ks/9ddda371e47e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4ce0005d4d7> .
+
+<https://w3id.org/airo/incident/ks/9e86286f13d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc2f90286a38> .
+
+<https://w3id.org/airo/incident/ks/9fa7a3e1732c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccbef5884c28> .
+
+<https://w3id.org/airo/incident/ks/a0f654b018cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38a2ff80d89c> .
+
+<https://w3id.org/airo/incident/ks/a346d8b6068f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/a441449472b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/a4efa5ab3879> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5cf7913d984e> .
+
+<https://w3id.org/airo/incident/ks/a5632e1d78d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ca3426ad5ea> .
+
+<https://w3id.org/airo/incident/ks/a74cc134c552> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6dd18d9b92f3> .
+
+<https://w3id.org/airo/incident/ks/a89cb80213eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/a8db232750d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54d567bc0689> .
+
+<https://w3id.org/airo/incident/ks/ac37748fafa9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/ac6aceab0d66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/ae6979b5ceb3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7d20f48ca83> .
+
+<https://w3id.org/airo/incident/ks/af85810d98ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/371a075cc201> .
+
+<https://w3id.org/airo/incident/ks/afb3d3b42f9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2eea0111fdae> .
+
+<https://w3id.org/airo/incident/ks/afe44d7de445> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/334df4c3e0a5> .
+
+<https://w3id.org/airo/incident/ks/b17dec96bb45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d03f3c8c21a> .
+
+<https://w3id.org/airo/incident/ks/b27e5843de7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/b39f380173d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/943b547005b9> .
+
+<https://w3id.org/airo/incident/ks/b66c94d3464a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/b6b19ca31657> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ce61ff3789f> .
+
+<https://w3id.org/airo/incident/ks/b7aa758957f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a313772772de> .
+
+<https://w3id.org/airo/incident/ks/b7ed6daa20cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6209c591fdb0> .
+
+<https://w3id.org/airo/incident/ks/bb3819cba0ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2724e832eaa1> .
+
+<https://w3id.org/airo/incident/ks/bd09729b3c19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/bd2e386f39b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74a9d296b133> .
+
+<https://w3id.org/airo/incident/ks/c14e42f01a4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/c44cbf125746> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/c5780dfdd665> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/c59c897c46b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0c640468300> .
+
+<https://w3id.org/airo/incident/ks/cfbe9313b108> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/d0b7843c86a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/d17cdd897f4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcef645b2647> .
+
+<https://w3id.org/airo/incident/ks/d5b7039181ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5f7f3a3061d> .
+
+<https://w3id.org/airo/incident/ks/d5c6da18c4c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/da771524880d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> .
+
+<https://w3id.org/airo/incident/ks/dab11f482cf7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e95b08272947> .
+
+<https://w3id.org/airo/incident/ks/dadda81d2381> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/dc7ec3bc775d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dad7bd26f7aa> .
+
+<https://w3id.org/airo/incident/ks/e0d4ea1c08f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/e274e85687cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/371a075cc201> .
+
+<https://w3id.org/airo/incident/ks/e3afe51fcb9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7dd3a733dfcd> .
+
+<https://w3id.org/airo/incident/ks/e4065a1dc17f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/e652794acccf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/e66b93439114> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/e70ea6ef56f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/e77429350308> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/eac953630044> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/993c315a1ff6> .
+
+<https://w3id.org/airo/incident/ks/eedb829a8dfc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39f2a5cb34d9> .
+
+<https://w3id.org/airo/incident/ks/f113b8395b21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/f1219a6bdba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71f6d6ffeb6a> .
+
+<https://w3id.org/airo/incident/ks/f121fc53faa3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0ecd1bb2868> .
+
+<https://w3id.org/airo/incident/ks/f1f3eb7f11db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> .
+
+<https://w3id.org/airo/incident/ks/f27dc1437f2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada> .
+
+<https://w3id.org/airo/incident/ks/f3ca3583401c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> .
+
+<https://w3id.org/airo/incident/ks/f4cfb2ccb3c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> .
+
+<https://w3id.org/airo/incident/ks/f5a6f6d46202> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> .
+
+<https://w3id.org/airo/incident/ks/f5c5621df1f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a3803b1ccfa> .
+
+<https://w3id.org/airo/incident/ks/f5e43d4b0983> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a313772772de> .
+
+<https://w3id.org/airo/incident/ks/f7141f64748a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e95b08272947> .
+
+<https://w3id.org/airo/incident/ks/f76696f405b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5671d17f65c9> .
+
+<https://w3id.org/airo/incident/ks/fc10a1634d50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/371a075cc201> .
+
+<https://w3id.org/airo/incident/ks/fc8be7792b06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> .
+
+<https://w3id.org/airo/incident/ks/fd0e408d1e14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/738bf4127973> .
+
+<https://w3id.org/airo/incident/ks/fd9cb5bfe726> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75fa645ad0ab> .
+
+<https://w3id.org/airo/incident/ks/ff91ec2658fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1acc07a7ce64> .
+
+<https://w3id.org/airo/incident/AICapability/2c7ea20a4c55> a airo:AICapability ;
+    rdfs:label "biometric verification" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "biometric verification" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd5808d2b7e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7567> .
+
+<https://w3id.org/airo/incident/AICapability/3184f8fedb44> a airo:AICapability ;
+    rdfs:label "eye scan" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "eye scan" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5f7f3a3061d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7567> .
+
+<https://w3id.org/airo/incident/AICapability/42af143b2081> a airo:AICapability ;
+    rdfs:label "face and iris scanning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "scanning the face and iris" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6dd18d9b92f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/70caa1221759> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/35206dbb13e8> ;
+    airo:hasReasoning "The system is actively collecting biometric data from users and facing regulatory investigations, indicating it is in the deployment phase of the lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/AITechnique/375727c5f2b8> a airo:AITechnique ;
+    rdfs:label "iris biometrics" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "iris biometrics" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ca3426ad5ea>,
+        <https://w3id.org/airo/incident/evidence/c4ce0005d4d7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/a3ccd745636f> a airo:AITechnique ;
+    rdfs:label "iris scanning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "iris scanning technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96a4c829d6ff>,
+        <https://w3id.org/airo/incident/evidence/dad7bd26f7aa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7564> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/c3088c698f27> a airo:AITechnique ;
+    rdfs:label "data collection" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "data collection operations" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74a9d296b133> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/AITechnique/cbdef8d5176a> a airo:AITechnique ;
+    rdfs:label "facial and iris recognition" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial and iris information" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df872d36170>,
+        <https://w3id.org/airo/incident/evidence/71f6d6ffeb6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/7564> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/1a361482b4dc> a airo:AffectedActor ;
+    rdfs:label "Individuals whose biometric data (iris, facial) is collected; users and potential users of the Worldcoin system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e09dbeb816dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/Documentation/2fc5cf098ba0> a airo:Documentation ;
+    rdfs:label "privacy program documentation and compliance statements" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccbef5884c28> ;
+    airo:hasReasoning "The Worldcoin Foundation references building a robust privacy program, which implies documentation of privacy and compliance practices." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/Domain/b6467988f4b8> a airo:Domain ;
+    rdfs:label "cryptocurrency and digital identity" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75fa645ad0ab> ;
+    airo:hasReasoning "The evidence consistently describes Worldcoin as a cryptocurrency project focused on digital identity, placing it in that domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> .
+
+<https://w3id.org/airo/incident/Hazard/e4583e239ab8> a airo:Hazard ;
+    rdfs:label "Unlawful or non-compliant data handling practices, including overseas transfer of sensitive information without adequate legal basis or safeguards" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/230b2378157b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/Obligation/45b03cf1c24c> a airo:Obligation ;
+    rdfs:label "comply with all laws and regulations governing the processing of personal data" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2724e832eaa1> ;
+    airo:hasReasoning "The Worldcoin Foundation explicitly states compliance with personal data protection laws, indicating this is an obligation they acknowledge." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/Purpose/c381291ee241> a airo:Purpose ;
+    rdfs:label "create a global system for digital identification using iris scanning technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88ea6fb78807> ;
+    airo:hasReasoning "The evidence explicitly states Worldcoin's goal is to create a global digital identity through iris scanning technology, which defines its intended purpose." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7567> .
+
+<https://w3id.org/airo/incident/RiskSource/45261eb210c6> a airo:RiskSource ;
+    rdfs:label "Collection and processing of sensitive biometric data (iris scans, facial recognition) through an AI-driven system" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/2721364226d0> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d03f3c8c21a> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/e4583e239ab8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/Stakeholder/2563b2668e51> a airo:Stakeholder ;
+    rdfs:label "Ottr Finance" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ottr Finance" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/Stakeholder/69b433f7070a> a airo:Stakeholder ;
+    rdfs:label "Hong Kong Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hong Kong regulator" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09b467908c63> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/Vulnerability/fdcd027057d1> a airo:Vulnerability ;
+    rdfs:label "Lack of transparency or adequacy in privacy programs and compliance with local data protection laws despite claims of robust privacy measures" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56bf199630d6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/evidence/07cffc5bd698> a airo:Evidence ;
+    airo:evidenceText "[7565] Kenya had previously suspended the project. [5978] Kenya was among the first nations to raise flags about the collection of iris biometrics in exchange for free crypto tokens; authorities there raided local Worldcoin offices in August 2023." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/0880b19322f8> a airo:Evidence ;
+    airo:evidenceText "The supposed raid was executed after authorities conducted an investigation and discovered that Worldcoin failed to disclose its true intentions when it registered in Kenya, said Immaculate Kassait, the country's Office of the Data Protection Commissioner." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/10740908b853> a airo:Evidence ;
+    airo:evidenceText "South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns" ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/12474ff69afd> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/134cdab678fd> a airo:Evidence ;
+    airo:evidenceText "[7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/19dffc1c2940> a airo:Evidence ;
+    airo:evidenceText "[7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/2a1ff19ed316> a airo:Evidence ;
+    airo:evidenceText "Worldcoin Regulatory Scrutiny Grows: Argentina Launches Investigation Over Data Privacy" ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/2acd0202532f> a airo:Evidence ;
+    airo:evidenceText "[7565] Kenya had previously suspended the project. [5978] Kenya was among the first nations to raise flags about the collection of iris biometrics in exchange for free crypto tokens; authorities there raided local Worldcoin offices in August 2023." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/2b91a609f23e> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations...\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/2df1aaabfc61> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August. [5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/334df4c3e0a5> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/3899fd8a745e> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations...\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/39f2a5cb34d9> a airo:Evidence ;
+    airo:evidenceText "[5979] Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/3b678fef144f> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/4ef550781d33> a airo:Evidence ;
+    airo:evidenceText "Argentina says it's investigating Worldcoin over data privacy" ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/5671d17f65c9> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/57bb8c99e716> a airo:Evidence ;
+    airo:evidenceText "[5979] Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/5a8d1d135109> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/5cf7913d984e> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/738bf4127973> a airo:Evidence ;
+    airo:evidenceText "[5979] Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/73a3ea3d189e> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/7dd3a733dfcd> a airo:Evidence ;
+    airo:evidenceText "[7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/88052f5e911b> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations governing the processing of personal data in the markets where Worldcoin is available, including but not limited to Argentina's Personal Data Protection Act 25.326 (Ley de Protección de los Datos Personales),\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/8baa8672724e> a airo:Evidence ;
+    airo:evidenceText "[5979] Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/8df35a1144b6> a airo:Evidence ;
+    airo:evidenceText "Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure" ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/a0c640468300> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/a0d48c1dcf17> a airo:Evidence ;
+    airo:evidenceText "[7565] Argentina said earlier this week that a government information agency is launching an investigation into the Worldcoin Foundation, the identity-focused crypto project co-created by Sam Altman." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/a53df49238f4> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations...\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/aa62f8a6b3dd> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/b08dd9f72462> a airo:Evidence ;
+    airo:evidenceText "[5979] Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/b12a3550edac> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/b614a25af15c> a airo:Evidence ;
+    airo:evidenceText "[7565] The Public Information Access Agency will \"thoroughly analyze\" the processes and practices used in relation to the collection, storage and use of personal data, the government said in a statement." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/be59e7c0c13c> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations...\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/c286d15dcd00> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/c3e96c2c8674> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/c68bd48729ad> a airo:Evidence ;
+    airo:evidenceText "Worldcoin (WLD), the iris-biometric cryptocurrency project, is currently under investigation by Argentinian authorities, just days after its warehouse in Nairobi was raided by authorities." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/c6c6ccd61277> a airo:Evidence ;
+    airo:evidenceText "[7564] the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/cfae7d4d708a> a airo:Evidence ;
+    airo:evidenceText "[5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/d241f1e131c9> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations...\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/e4e9f800a38e> a airo:Evidence ;
+    airo:evidenceText "[7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/f3f413518e70> a airo:Evidence ;
+    airo:evidenceText "[7564] Hong Kong Regulator has also fined OpenAI for a data breach, indicating regulatory action." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/f58fd14064ac> a airo:Evidence ;
+    airo:evidenceText "[7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/ffdfe9c8e138> a airo:Evidence ;
+    airo:evidenceText "South Korea privacy regulator to investigate Worldcoin’s biometrics handling" ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/Consequence/4bae3eabb3b5> a airo:Consequence ;
+    rdfs:label "Multiple regulatory investigations and enforcement actions (fines, raids, suspensions) across various countries" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea6f936d3570> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/1793c4c5c113> .
+
+<https://w3id.org/airo/incident/Impact/1793c4c5c113> a airo:Impact ;
+    rdfs:label "Potential harm to individual privacy rights, erosion of public trust in the project, and significant financial and operational disruptions for the involved companies" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/1a361482b4dc> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38a2ff80d89c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/NewsReport/5978> a airo:NewsReport ;
+    rdfs:label "South Korea privacy regulator to investigate Worldcoin’s biometrics handling" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """South Korea privacy regulator to investigate Worldcoin’s biometrics handling
+Another government is raising an eyebrow at Worldcoin’s iris biometrics bonanza. The Republic of Korea’s Personal Informati""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ce61ff3789f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/NewsReport/5979> a airo:NewsReport ;
+    rdfs:label "Worldcoin Regulatory Scrutiny Grows: Argentina Launches Investigation Over Data Privacy" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Last week, Kenya suspended Worldcoin's operations in the country
+Kenyan authorities also raided Worldcoin's Nairobi warehouse this month
+As of 5:05 a.m. ET on Friday, WLD, the cryptocurrency of Worldc""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2eea0111fdae> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/NewsReport/7564> a airo:NewsReport ;
+    rdfs:label "South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns
+Photo by Remon Geo / Unsplash
+In a recent development that highlights the growing concerns around data privacy in th""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc2f90286a38> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/NewsReport/7565> a airo:NewsReport ;
+    rdfs:label "Argentina says it's investigating Worldcoin over data privacy" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Hiring in crypto is hard – Campus makes it easy. Try The Block’s hiring tool for free today.
+Latest Crypto News
+Argentinian President Milei skips civil hearing as Libra case judge orders bank records """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5517cb2c26e8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7565> .
+
+<https://w3id.org/airo/incident/NewsReport/7567> a airo:NewsReport ;
+    rdfs:label "Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Home » Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure
+Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure
+Worldcoin faces mounting regulatory pressure as Argentina d""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/943b547005b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7567> .
+
+<https://w3id.org/airo/incident/Regulation/57642ff69031> a airo:Regulation ;
+    rdfs:label "Personal Information Protection Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Personal Information Protection Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2df872d36170> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/45b03cf1c24c> .
+
+<https://w3id.org/airo/incident/Regulation/cb0b9ffebcef> a airo:Regulation ;
+    rdfs:label "Argentina's Personal Data Protection Act 25.326" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Personal Data Protection Act 25.326" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cab318ba6994> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/Stakeholder/19ce6896cbee> a airo:Stakeholder ;
+    rdfs:label "Tools for Humanity" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tools for Humanity" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/Stakeholder/250538946ec3> a airo:Stakeholder ;
+    rdfs:label "Argentina" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Argentina" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f>,
+        <https://w3id.org/airo/incident/evidence/54d567bc0689> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7565> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/4f1b3f1fe6f7> a airo:Stakeholder ;
+    rdfs:label "Worldcoin Foundation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Worldcoin Foundation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcef645b2647>,
+        <https://w3id.org/airo/incident/evidence/cab318ba6994>,
+        <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7565> ;
+    airo:hasSupportCount 3 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/Stakeholder/5057d6669b98> a airo:Stakeholder ;
+    rdfs:label "Hong Kong Privacy Commissioner" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hong Kong’s privacy commissioner" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1acc07a7ce64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/Stakeholder/6d3753da8578> a airo:Stakeholder ;
+    rdfs:label "Germany" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Germany" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/Stakeholder/9e86c92d8c8a> a airo:Stakeholder ;
+    rdfs:label "South Korea Personal Information Protection Committee" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Korea's Personal Information Protection Committee" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6640a5262ada>,
+        <https://w3id.org/airo/incident/evidence/e95b08272947> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/7564> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a143b82dea67> a airo:Stakeholder ;
+    rdfs:label "Agency for Access to Public Information" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Public Information Access Agency" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/371a075cc201>,
+        <https://w3id.org/airo/incident/evidence/a0ecd1bb2868>,
+        <https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7565>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/b475e77aeabc> a airo:Stakeholder ;
+    rdfs:label "Kenya" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kenya" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0880b19322f8>,
+        <https://w3id.org/airo/incident/evidence/0e338545c61f>,
+        <https://w3id.org/airo/incident/evidence/a313772772de>,
+        <https://w3id.org/airo/incident/evidence/c7d20f48ca83> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7565> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/c46aa22bb442> a airo:Stakeholder ;
+    rdfs:label "France" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "France" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/Stakeholder/c851a687d068> a airo:Stakeholder ;
+    rdfs:label "United Kingdom" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the United Kingdom" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e338545c61f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/Stakeholder/fbb4caba4854> a airo:Stakeholder ;
+    rdfs:label "Kenya's Ministry of the Interior" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kenya's Ministry of the Interior" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a3803b1ccfa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5979> .
+
+<https://w3id.org/airo/incident/Stakeholder/fc0d855fc380> a airo:Stakeholder ;
+    rdfs:label "Sam Altman" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sam Altman" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2>,
+        <https://w3id.org/airo/incident/evidence/6640a5262ada>,
+        <https://w3id.org/airo/incident/evidence/993c315a1ff6>,
+        <https://w3id.org/airo/incident/evidence/e0d1c1fbe013> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7565>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/evidence/09b467908c63> a airo:Evidence ;
+    airo:evidenceText "the Hong Kong regulator conducted raids on the company's offices at the end of January 2024." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/1d03f3c8c21a> a airo:Evidence ;
+    airo:evidenceText "[5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/230b2378157b> a airo:Evidence ;
+    airo:evidenceText "[5978] The PIPC says its investigations will cover “the overall collection and processing of sensitive information and overseas transfer of personal information under the Personal Information Protection Act.”" ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/2724e832eaa1> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations governing the processing of personal data in the markets where Worldcoin is available, including but not limited to Argentina's Personal Data Protection Act 25.326 (Ley de Protección de los Datos Personales),\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/2eea0111fdae> a airo:Evidence ;
+    airo:evidenceText "Worldcoin Regulatory Scrutiny Grows: Argentina Launches Investigation Over Data Privacy" ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/35206dbb13e8> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August. [5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/4ca3426ad5ea> a airo:Evidence ;
+    airo:evidenceText "Another government is raising an eyebrow at Worldcoin’s iris biometrics bonanza." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/5517cb2c26e8> a airo:Evidence ;
+    airo:evidenceText "Argentina says it's investigating Worldcoin over data privacy" ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/56bf199630d6> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations governing the processing of personal data in the markets where Worldcoin is available, including but not limited to Argentina's Personal Data Protection Act 25.326 (Ley de Protección de los Datos Personales),\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/6dd18d9b92f3> a airo:Evidence ;
+    airo:evidenceText "\"The case reached public notoriety in recent weeks due to the procedure of scanning the face and iris of numerous people in exchange for economic compensation in different parts of the Autonomous City of Buenos Aires and the provinces of Buenos Aires, Córdoba, Mendoza and Black river,\" the agency added." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/71f6d6ffeb6a> a airo:Evidence ;
+    airo:evidenceText "the collection of facial and iris information from individuals at ten locations across South Korea." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/75fa645ad0ab> a airo:Evidence ;
+    airo:evidenceText "[7565] Argentina is launching an investigation into the Worldcoin Foundation, the identity-focused crypto project co-created by Sam Altman. [7567] Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/7ce61ff3789f> a airo:Evidence ;
+    airo:evidenceText "South Korea privacy regulator to investigate Worldcoin’s biometrics handling" ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/88ea6fb78807> a airo:Evidence ;
+    airo:evidenceText "[7567] Worldcoin, known for its iris-biometric cryptocurrency project, has recently been spotlighted in Argentina. [7564] Worldcoin, known for its ambitious goal of creating a global digital identity through iris scanning technology, has come under scrutiny in several countries for the legality of its operations." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/943b547005b9> a airo:Evidence ;
+    airo:evidenceText "Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure" ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/96a4c829d6ff> a airo:Evidence ;
+    airo:evidenceText "On paper, the really interesting part of Worldcoin's concept is that the iris scan is discarded after reading, avoiding the storage of that highly sensitive data." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/a5f7f3a3061d> a airo:Evidence ;
+    airo:evidenceText "Unlike traditional cryptocurrencies, Worldcoin offers users free tokens, but there’s a catch: participants must undergo an eye scan upon registration." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/af5ea445d4b8> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August. [5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/ccbef5884c28> a airo:Evidence ;
+    airo:evidenceText "[5979] \"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations governing the processing of personal data in the markets where Worldcoin is available, including but not limited to Argentina's Personal Data Protection Act 25.326 (Ley de Protección de los Datos Personales),\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/dad7bd26f7aa> a airo:Evidence ;
+    airo:evidenceText "Worldcoin, known for its ambitious goal of creating a global digital identity through iris scanning technology, has come under scrutiny in several countries for the legality of its operations." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/dd5808d2b7e1> a airo:Evidence ;
+    airo:evidenceText "This biometric verification ensures that each participant is a genuine human, preventing bots or AI algorithms from exploiting the system." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/e09dbeb816dd> a airo:Evidence ;
+    airo:evidenceText "[7564] the collection of facial and iris information from individuals at ten locations across South Korea." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/f6a8f993c3a5> a airo:Evidence ;
+    airo:evidenceText "[7565] The Public Information Access Agency will \"thoroughly analyze\" the processes and practices used in relation to the collection, storage and use of personal data, the government said in a statement." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/fc2f90286a38> a airo:Evidence ;
+    airo:evidenceText "South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns" ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/Risk/2721364226d0> a airo:Risk ;
+    rdfs:label "Risk of non-compliance with data protection laws and regulations governing personal biometric data collection, storage, and transfer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6209c591fdb0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/4bae3eabb3b5> .
+
+<https://w3id.org/airo/incident/Stakeholder/c09a226fb7c6> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2>,
+        <https://w3id.org/airo/incident/evidence/993c315a1ff6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:hasSupportCount 2 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> .
+
+<https://w3id.org/airo/incident/evidence/38a2ff80d89c> a airo:Evidence ;
+    airo:evidenceText "[5978] The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/6209c591fdb0> a airo:Evidence ;
+    airo:evidenceText "[5978] The PIPC says its investigations will cover “the overall collection and processing of sensitive information and overseas transfer of personal information under the Personal Information Protection Act.”" ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/ea6f936d3570> a airo:Evidence ;
+    airo:evidenceText "[7564] Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/74a9d296b133> a airo:Evidence ;
+    airo:evidenceText "In other words, if regulators find Worldcoin is breaking South Korea’s data protection laws, it could face the same hostility it encountered in several other countries where it set up data collection operations with its mobile iris scanner, the Orb." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/c4ce0005d4d7> a airo:Evidence ;
+    airo:evidenceText "Worldcoin, known for its iris-biometric cryptocurrency project, has recently been spotlighted in Argentina." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/1acc07a7ce64> a airo:Evidence ;
+    airo:evidenceText "In January, Hong Kong’s privacy commissioner staged raids on Worldcoin’s offices, citing similar concerns about data privacy laws." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/2df872d36170> a airo:Evidence ;
+    airo:evidenceText "The PIPC says its investigations will cover “the overall collection and processing of sensitive information and overseas transfer of personal information under the Personal Information Protection Act.”" ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/371a075cc201> a airo:Evidence ;
+    airo:evidenceText "The Public Information Access Agency will \"thoroughly analyze\" the processes and practices used in relation to the collection, storage and use of personal data, the government said in a statement." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/54d567bc0689> a airo:Evidence ;
+    airo:evidenceText "Argentina said earlier this week that a government information agency is launching an investigation into the Worldcoin Foundation, the identity-focused crypto project co-created by Sam Altman." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/8a3803b1ccfa> a airo:Evidence ;
+    airo:evidenceText "The raid came on the heels of the announcement from Kenya's Ministry of the Interior that it has suspended Worldcoin's operations over concerns about the company's ongoing \"registration of citizens through the collection of eyeball/iris data.\"" ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/a0ecd1bb2868> a airo:Evidence ;
+    airo:evidenceText "The Argentine Agency for Access to Public Information (AAIP) commenced its investigation into Worldcoin over the legality of its data collection." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/a313772772de> a airo:Evidence ;
+    airo:evidenceText "Kenya had previously suspended the project." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/b08bd9e4fe6a> a airo:Evidence ;
+    airo:evidenceText "Argentina’s Agency for Access to Public Information (AAIP) investigates Worldcoin." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/bcef645b2647> a airo:Evidence ;
+    airo:evidenceText "And the Worldcoin Foundation, a non-profit arm incorporated in the Cayman Islands with the goal of stewarding the growth of the Worldcoin protocol and its associated ecosystem, recently awarded the first grants through its Worldcoin Community Grants Program." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/c7d20f48ca83> a airo:Evidence ;
+    airo:evidenceText "Kenya was among the first nations to raise flags about the collection of iris biometrics in exchange for free crypto tokens; authorities there raided local Worldcoin offices in August 2023." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/AISystem/0b6bf346cfd9> a airo:AISystem ;
+    rdfs:label "World App" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "World App" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77a7624c930b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/AISystem/2e812bc196c7> a airo:AISystem ;
+    rdfs:label "Orb" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Worldcoin’s mobile iris scanner, the Orb" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74a9d296b133> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978> .
+
+<https://w3id.org/airo/incident/AISystem/3b0d131dcce7> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ChatGPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fcd796106f2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7564> .
+
+<https://w3id.org/airo/incident/evidence/e95b08272947> a airo:Evidence ;
+    airo:evidenceText "South Korea's Personal Information Protection Committee has initiated an investigation into Worldcoin, a project that has raised eyebrows globally for its data collection practices." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/evidence/cab318ba6994> a airo:Evidence ;
+    airo:evidenceText "\"Worldcoin was designed to protect individual privacy and has built a robust privacy program. The project complies with all laws and regulations governing the processing of personal data in the markets where Worldcoin is available, including but not limited to Argentina's Personal Data Protection Act 25.326 (Ley de Protección de los Datos Personales),\" the Worldcoin Foundation said in an email sent to International Business Times." ;
+    airo:sourceDocId "5979" .
+
+<https://w3id.org/airo/incident/evidence/77a7624c930b> a airo:Evidence ;
+    airo:evidenceText "This week, Tools for Humanity acquired the digital wallet startup Ottr Finance, for inclusion on its World App." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/evidence/993c315a1ff6> a airo:Evidence ;
+    airo:evidenceText "Cofounded by Open AI CEO Sam Altman, Worldcoin is a cryptocurrency project that aims to create a global system for digital identification." ;
+    airo:sourceDocId "7567" .
+
+<https://w3id.org/airo/incident/evidence/e0d1c1fbe013> a airo:Evidence ;
+    airo:evidenceText "Argentina is launching an investigation into the Worldcoin Foundation, the identity-focused crypto project co-created by Sam Altman." ;
+    airo:sourceDocId "7565" .
+
+<https://w3id.org/airo/incident/evidence/6640a5262ada> a airo:Evidence ;
+    airo:evidenceText "The Republic of Korea’s Personal Information Protection Committee (PIPC) has launched an investigation to follow up on allegations about the collection and processing of personal biometric data by Sam Altman’s digital ID and crypto side project potentially falling afoul of local laws." ;
+    airo:sourceDocId "5978" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_304> a airo:AIRiskIncident ;
+    rdfs:label "Argentina Investigates Worldcoin Amid Mounting Regulatory Pressure" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/57642ff69031>,
+        <https://w3id.org/airo/incident/Regulation/cb0b9ffebcef> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/4bae3eabb3b5> ;
+    airo:hasDescription "pred_304" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/70caa1221759>,
+        <https://w3id.org/airo/incident/Domain/b6467988f4b8>,
+        <https://w3id.org/airo/incident/evidence/10740908b853>,
+        <https://w3id.org/airo/incident/evidence/2a1ff19ed316>,
+        <https://w3id.org/airo/incident/evidence/4ef550781d33>,
+        <https://w3id.org/airo/incident/evidence/8df35a1144b6>,
+        <https://w3id.org/airo/incident/evidence/ffdfe9c8e138> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/1793c4c5c113> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/5978>,
+        <https://w3id.org/airo/incident/NewsReport/5979>,
+        <https://w3id.org/airo/incident/NewsReport/7564>,
+        <https://w3id.org/airo/incident/NewsReport/7565>,
+        <https://w3id.org/airo/incident/NewsReport/7567> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/2721364226d0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7565>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/0b6bf346cfd9>,
+        <https://w3id.org/airo/incident/AISystem/2e812bc196c7>,
+        <https://w3id.org/airo/incident/AISystem/3b0d131dcce7>,
+        <https://w3id.org/airo/incident/AISystem/eb0ece85a545> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/19ce6896cbee>,
+        <https://w3id.org/airo/incident/Stakeholder/250538946ec3>,
+        <https://w3id.org/airo/incident/Stakeholder/2563b2668e51>,
+        <https://w3id.org/airo/incident/Stakeholder/4f1b3f1fe6f7>,
+        <https://w3id.org/airo/incident/Stakeholder/5057d6669b98>,
+        <https://w3id.org/airo/incident/Stakeholder/69b433f7070a>,
+        <https://w3id.org/airo/incident/Stakeholder/6d3753da8578>,
+        <https://w3id.org/airo/incident/Stakeholder/9e86c92d8c8a>,
+        <https://w3id.org/airo/incident/Stakeholder/a143b82dea67>,
+        <https://w3id.org/airo/incident/Stakeholder/b475e77aeabc>,
+        <https://w3id.org/airo/incident/Stakeholder/c09a226fb7c6>,
+        <https://w3id.org/airo/incident/Stakeholder/c46aa22bb442>,
+        <https://w3id.org/airo/incident/Stakeholder/c851a687d068>,
+        <https://w3id.org/airo/incident/Stakeholder/fbb4caba4854>,
+        <https://w3id.org/airo/incident/Stakeholder/fc0d855fc380> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/45261eb210c6> .
+
+<https://w3id.org/airo/incident/evidence/1fcd796106f2> a airo:Evidence ;
+    airo:evidenceText "the same regulatory body fined OpenAI, a company closely associated with Worldcoin's founder Sam Altman, 3.6 million Korean won (approximately $2700) for a data breach that exposed information about 687 citizens through the AI application ChatGPT." ;
+    airo:sourceDocId "7564" .
+
+<https://w3id.org/airo/incident/AISystem/eb0ece85a545> a airo:AISystem ;
+    rdfs:label "Worldcoin" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/57642ff69031>,
+        <https://w3id.org/airo/incident/Regulation/cb0b9ffebcef> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/2c7ea20a4c55>,
+        <https://w3id.org/airo/incident/AICapability/3184f8fedb44>,
+        <https://w3id.org/airo/incident/AICapability/42af143b2081>,
+        <https://w3id.org/airo/incident/Purpose/c381291ee241> ;
+    airo:hasDescription "Worldcoin" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/2fc5cf098ba0>,
+        <https://w3id.org/airo/incident/evidence/6640a5262ada>,
+        <https://w3id.org/airo/incident/evidence/c4ce0005d4d7>,
+        <https://w3id.org/airo/incident/evidence/c68bd48729ad>,
+        <https://w3id.org/airo/incident/evidence/e95b08272947> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5978>,
+        <https://w3id.org/airo/incident/document/5979>,
+        <https://w3id.org/airo/incident/document/7564>,
+        <https://w3id.org/airo/incident/document/7567> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/fdcd027057d1> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/375727c5f2b8>,
+        <https://w3id.org/airo/incident/AITechnique/a3ccd745636f>,
+        <https://w3id.org/airo/incident/AITechnique/c3088c698f27>,
+        <https://w3id.org/airo/incident/AITechnique/cbdef8d5176a> .
+
+<https://w3id.org/airo/incident/evidence/0e338545c61f> a airo:Evidence ;
+    airo:evidenceText "Since its launch in July 2023, Worldcoin has faced regulatory investigations in countries such as Germany, France, the United Kingdom, and Kenya, with Argentina initiating an investigation in August." ;
+    airo:sourceDocId "7564" .
+

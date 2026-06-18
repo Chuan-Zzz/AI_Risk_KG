@@ -1,0 +1,2245 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/9e84451b3bed> a airo:ComplianceRequirement ;
+    rdfs:label "high-risk AI systems must comply with EU AI Act" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac725e599dd4> ;
+    airo:hasReasoning "The removal of the app from the EU market due to the AI Act indicates a compliance requirement for operating in that jurisdiction." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/EnforcementAction/95a2ab3be53b> a airo:EnforcementAction ;
+    rdfs:label "removal of app from EU Google Play Store" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db5af117eeba> ;
+    airo:hasReasoning "The app was removed as a direct consequence of the EU AI Act, which constitutes an enforcement action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> .
+
+<https://w3id.org/airo/incident/InformationSource/a0c56d94e987> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/4853>,
+        <https://w3id.org/airo/incident/NewsReport/4854>,
+        <https://w3id.org/airo/incident/NewsReport/4855>,
+        <https://w3id.org/airo/incident/NewsReport/4856>,
+        <https://w3id.org/airo/incident/NewsReport/4857> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/RiskControl/3a652530ab6a> a airo:RiskControl ;
+    rdfs:label "implementation of stricter AI regulations and mandatory safety measures for high-risk AI systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ddb48b747dd0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/13d3aab17a92> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2ba8b42ec218> a airo:RoleAssignment ;
+    rdfs:label "Replika_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b411da41bf1> ;
+    airo:hasReasoning "Replika is listed as a competitor in the market of providing AI chatbot services." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d162f3aca2ab> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2e16f4db289f> a airo:RoleAssignment ;
+    rdfs:label "Glimpse AI_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30fa4c5189f4> ;
+    airo:hasReasoning "The evidence states Glimpse AI created Nomi." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/600a39979039> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/560e28750ce8> a airo:RoleAssignment ;
+    rdfs:label "Glimpse AI_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/338d379f64c8> ;
+    airo:hasReasoning "Glimpse AI is listed among companies that create and tout (i.e., provide) these products to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/600a39979039> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/597516eb8963> a airo:RoleAssignment ;
+    rdfs:label "Google Play Store_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/372dc3aed66b> ;
+    airo:hasReasoning "Google Play Store distributes the AI application to users, acting as a provider in the distribution chain." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9e119a205414> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5fa5074e1d34> a airo:RoleAssignment ;
+    rdfs:label "Character.AI_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3583ee4fad06> ;
+    airo:hasReasoning "Character.AI is listed as a competitor in the market of providing AI chatbot services." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e5558607bd48> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/83b34f335206> a airo:RoleAssignment ;
+    rdfs:label "Al Nowatzki_AIUser" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9f1a58265d9> ;
+    airo:hasReasoning "The evidence explicitly states Al Nowatzki has been talking to the AI system, indicating direct user interaction." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1e55e92912c0> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a2f33606815b> a airo:RoleAssignment ;
+    rdfs:label "eSafety Commissioner_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6567201862cd> ;
+    airo:hasReasoning "The evidence implies an investigation into AI safety risks, which is a regulatory function. The eSafety Commissioner is listed as a stakeholder and is a known Australian regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b0b8f095017d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b127f8e1a910> a airo:RoleAssignment ;
+    rdfs:label "Government of Australia_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28b0ddb89a9c> ;
+    airo:hasReasoning "The mention of Australia in the context of AI regulation (and the presence of the eSafety Commissioner stakeholder) implies the government's regulatory role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1b3e7d8de1e4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ce61a3470c75> a airo:RoleAssignment ;
+    rdfs:label "Replika_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe995995a99e> ;
+    airo:hasReasoning "The evidence references 'a Replika chatbot', implying Replika is the developer of the system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d162f3aca2ab> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d58a87d23e24> a airo:RoleAssignment ;
+    rdfs:label "Character.AI_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d58e100515d1> ;
+    airo:hasReasoning "The evidence references a chatbot 'on Character.AI', implying it is a platform that develops or hosts such AI systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e5558607bd48> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ffb2084e5c9d> a airo:RoleAssignment ;
+    rdfs:label "Jaswant Chail_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd4cb76c831b> ;
+    airo:hasReasoning "The 21-year-old is the individual involved in the incident with the AI chatbot, making them an affected actor in the risk narrative." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_262> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/30ac8ba1a91a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/Trend/66c38f17994f> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny of AI companion chatbots" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6dfa1292731b> ;
+    airo:hasReasoning "The evidence notes calls for stricter regulations following a harmful incident, indicating a trend of increased scrutiny." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/event/pred_262> a airo:AIRiskIncident ;
+    airo:firstSeen "2025-02-06T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2025-04-02T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0004a5d19ebe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0704494e41c> .
+
+<https://w3id.org/airo/incident/ks/048e46148a23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7877090ee610> .
+
+<https://w3id.org/airo/incident/ks/04c855f925f6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a65a13967d4a> .
+
+<https://w3id.org/airo/incident/ks/0538b62726bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/101c99669985> .
+
+<https://w3id.org/airo/incident/ks/057c83589a0c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> .
+
+<https://w3id.org/airo/incident/ks/05d3144e1d65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/101c99669985> .
+
+<https://w3id.org/airo/incident/ks/06f61e531a31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ab5401f2a64> .
+
+<https://w3id.org/airo/incident/ks/0709b31113e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/316fb7b06e7c> .
+
+<https://w3id.org/airo/incident/ks/07a8d592bccb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/0a1bb2850c86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe6f7675a9> .
+
+<https://w3id.org/airo/incident/ks/0a42aef53451> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b36f7ac2c05e> .
+
+<https://w3id.org/airo/incident/ks/0fed4361e8ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63fbabcafec1> .
+
+<https://w3id.org/airo/incident/ks/105fe56af075> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/133e6ced806d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7164887f9eb> .
+
+<https://w3id.org/airo/incident/ks/14da7be48699> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69043823e7b2> .
+
+<https://w3id.org/airo/incident/ks/1586956cb07b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/16bf6389cc1c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f77bbcf88b6b> .
+
+<https://w3id.org/airo/incident/ks/19c53070526e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8aa7c6aac15> .
+
+<https://w3id.org/airo/incident/ks/1a76b79fba1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/1ac6c18133e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b68ee7ba215b> .
+
+<https://w3id.org/airo/incident/ks/1c4cf2e05fdd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> .
+
+<https://w3id.org/airo/incident/ks/1fe5a3049a82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2374b6c1bf1e> .
+
+<https://w3id.org/airo/incident/ks/20802938baeb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fab381e95e9> .
+
+<https://w3id.org/airo/incident/ks/210c0016dd5c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/888fa3d3578b> .
+
+<https://w3id.org/airo/incident/ks/224cfe1d696f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/231f7bf5cacc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/23ae5bf7f620> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/23eeca1b7d83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28e695b72e91> .
+
+<https://w3id.org/airo/incident/ks/24abd50c1bfa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3863316dfa23> .
+
+<https://w3id.org/airo/incident/ks/24c89ea96488> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/24d0b99bbc1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0138bc07861b> .
+
+<https://w3id.org/airo/incident/ks/2620ce1c674e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d2e069771f> .
+
+<https://w3id.org/airo/incident/ks/27553e74f52c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/284bf8df4eeb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> .
+
+<https://w3id.org/airo/incident/ks/28669bc1330c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/166df176433b> .
+
+<https://w3id.org/airo/incident/ks/293a614df1ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/ks/2c03fc5b9a40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd9499088453> .
+
+<https://w3id.org/airo/incident/ks/2cfadbe7987e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e31dc777d093> .
+
+<https://w3id.org/airo/incident/ks/2dea76999b28> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> .
+
+<https://w3id.org/airo/incident/ks/33d78052e3ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/33f2a5c66a06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cccd0401e454> .
+
+<https://w3id.org/airo/incident/ks/3452ec8ffb3a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> .
+
+<https://w3id.org/airo/incident/ks/34aaca1bc660> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8a700201151> .
+
+<https://w3id.org/airo/incident/ks/352e3ad719d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/3992b8916dc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4c5706d1ad7> .
+
+<https://w3id.org/airo/incident/ks/3ab44bf88d40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/baf30cd6a200> .
+
+<https://w3id.org/airo/incident/ks/3b2cf991668d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/3b52fdb67d1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe6f7675a9> .
+
+<https://w3id.org/airo/incident/ks/3e116f5eb512> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d98206aaae88> .
+
+<https://w3id.org/airo/incident/ks/3fdcae6e0049> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b52986ba8b9b> .
+
+<https://w3id.org/airo/incident/ks/4016a8111200> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/052ca8f4c5ba> .
+
+<https://w3id.org/airo/incident/ks/405612b482a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8a700201151> .
+
+<https://w3id.org/airo/incident/ks/405bac650626> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f77bbcf88b6b> .
+
+<https://w3id.org/airo/incident/ks/405d1f31b889> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f98f50bde6d9> .
+
+<https://w3id.org/airo/incident/ks/40e521c4ab17> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8a700201151> .
+
+<https://w3id.org/airo/incident/ks/415e12423541> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/423d02dbc2bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/ks/42a948f0a213> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/457343b71c2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/48bc0a630b19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d34468ad397> .
+
+<https://w3id.org/airo/incident/ks/4ac4f1add0c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89ad85822165> .
+
+<https://w3id.org/airo/incident/ks/4bc6f1a6ba36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/4cf5645e22ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db5af117eeba> .
+
+<https://w3id.org/airo/incident/ks/4d24de10b762> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/4e8efce54dd6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de9a93ed4670> .
+
+<https://w3id.org/airo/incident/ks/4ec2e451beda> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/4fbd18f29207> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dc677e75a20> .
+
+<https://w3id.org/airo/incident/ks/51de667d85d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/13f1246d3964> .
+
+<https://w3id.org/airo/incident/ks/52b6c393cd33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b36f7ac2c05e> .
+
+<https://w3id.org/airo/incident/ks/53350c5ec813> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/55bb13073ee0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/5733cb0c208d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f29d9655b162> .
+
+<https://w3id.org/airo/incident/ks/5899bf9ff5af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dedfe2236c61> .
+
+<https://w3id.org/airo/incident/ks/5caf681ea0a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/5d4e09db2100> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f79f8eea9bc> .
+
+<https://w3id.org/airo/incident/ks/5f1ff6146f99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/281b3dcfd5cd> .
+
+<https://w3id.org/airo/incident/ks/6067803c559f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc58565efc59> .
+
+<https://w3id.org/airo/incident/ks/64093127ca55> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> .
+
+<https://w3id.org/airo/incident/ks/64945afaf7b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd8cb6206a80> .
+
+<https://w3id.org/airo/incident/ks/663db7c8e3a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5551a67ce7e5> .
+
+<https://w3id.org/airo/incident/ks/67383b05b4ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/69401d9f0a45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b36f7ac2c05e> .
+
+<https://w3id.org/airo/incident/ks/69467a562fad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8fe06783a5e> .
+
+<https://w3id.org/airo/incident/ks/69bd2c856eb8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89c031133d8a> .
+
+<https://w3id.org/airo/incident/ks/69e74f392504> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/6b0f27fd17e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f77bbcf88b6b> .
+
+<https://w3id.org/airo/incident/ks/6b7154891c67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b428acec594c> .
+
+<https://w3id.org/airo/incident/ks/6e2511ffbf5c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7093332f15ee> .
+
+<https://w3id.org/airo/incident/ks/6f694098754f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab5d88f92ce1> .
+
+<https://w3id.org/airo/incident/ks/70d2ef14817a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c585695580c> .
+
+<https://w3id.org/airo/incident/ks/723229453971> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b1242c88439> .
+
+<https://w3id.org/airo/incident/ks/72e88c8a74c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7b610a48c78b> .
+
+<https://w3id.org/airo/incident/ks/75263136935a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f24bd75c5995> .
+
+<https://w3id.org/airo/incident/ks/7a38ec173fd1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2cffa09c1f7e> .
+
+<https://w3id.org/airo/incident/ks/7b73983b6621> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a861c9bbc3f1> .
+
+<https://w3id.org/airo/incident/ks/7b9c12b62fa3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89c031133d8a> .
+
+<https://w3id.org/airo/incident/ks/7d1f68ca1b99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/7d83f49e70a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b27a4499bf20> .
+
+<https://w3id.org/airo/incident/ks/7e8985157980> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> .
+
+<https://w3id.org/airo/incident/ks/7fcea73219c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d09b7cbe4613> .
+
+<https://w3id.org/airo/incident/ks/809abfe620b4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2c85c1b6bce> .
+
+<https://w3id.org/airo/incident/ks/824b54ae464f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd362a168008> .
+
+<https://w3id.org/airo/incident/ks/83cffb7a48c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/84f5871188df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18582a724172> .
+
+<https://w3id.org/airo/incident/ks/867ae90b6a00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/88a5defd53ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87c39cfaf973> .
+
+<https://w3id.org/airo/incident/ks/8975a516672f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89c031133d8a> .
+
+<https://w3id.org/airo/incident/ks/8dc04e2a5fd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6521e5d2183e> .
+
+<https://w3id.org/airo/incident/ks/90f9d9ee25fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c898985a8e89> .
+
+<https://w3id.org/airo/incident/ks/91618b9c7252> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/91dd87207de1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/945feb9a6374> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/95ab4f62a1de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c1af896e253> .
+
+<https://w3id.org/airo/incident/ks/964b9e679d37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/9740148450b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870> .
+
+<https://w3id.org/airo/incident/ks/97cd0e29786d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/97cfffa1430c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/991b9229cfc0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/ks/9b753f7e0485> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe6f7675a9> .
+
+<https://w3id.org/airo/incident/ks/9b786327d4f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc10e2abc46a> .
+
+<https://w3id.org/airo/incident/ks/9ce8447d8d2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/ks/9dc9a72a00c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73d5714da593> .
+
+<https://w3id.org/airo/incident/ks/9e808cc27d6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f046a2c7913> .
+
+<https://w3id.org/airo/incident/ks/9ee9d54a4c8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af44a92e048d> .
+
+<https://w3id.org/airo/incident/ks/a10d5929194a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d90be82d6bd4> .
+
+<https://w3id.org/airo/incident/ks/a187c8c1c143> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe6f7675a9> .
+
+<https://w3id.org/airo/incident/ks/a1efa2e6bbdf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38f8a5fa2c1e> .
+
+<https://w3id.org/airo/incident/ks/a28d5c10cd4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1119faec41ce> .
+
+<https://w3id.org/airo/incident/ks/a28e81ca7fc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3ff220f61c5> .
+
+<https://w3id.org/airo/incident/ks/a41584da6063> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37022db316cb> .
+
+<https://w3id.org/airo/incident/ks/a43e172ef8f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f29d9655b162> .
+
+<https://w3id.org/airo/incident/ks/a448077f725b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/a4d4a4562fac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/a53b0e80d53e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8377c960789f> .
+
+<https://w3id.org/airo/incident/ks/a9d113a512c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89c031133d8a> .
+
+<https://w3id.org/airo/incident/ks/ab4bc62fabfa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/abe15b4da429> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c08f5ce324d0> .
+
+<https://w3id.org/airo/incident/ks/ad44222b64b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e43eb70c047a> .
+
+<https://w3id.org/airo/incident/ks/ae314880f837> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f77bbcf88b6b> .
+
+<https://w3id.org/airo/incident/ks/af8b98472a91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/afbfbbb72a6c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/afd939d287a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fb545052125> .
+
+<https://w3id.org/airo/incident/ks/b13ea0d6ac9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dad4cab3d8f9> .
+
+<https://w3id.org/airo/incident/ks/b27ed7aa460d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032cb2d8c79d> .
+
+<https://w3id.org/airo/incident/ks/b28258a67a01> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ff440cf5e7a> .
+
+<https://w3id.org/airo/incident/ks/b80fe8e4450a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/b82b41bfd66e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/166df176433b> .
+
+<https://w3id.org/airo/incident/ks/ba493109bda6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/ba6f6657526e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8e4a4b052f6> .
+
+<https://w3id.org/airo/incident/ks/bac494b9943c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9fb223b6a92> .
+
+<https://w3id.org/airo/incident/ks/bb47e19f67f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/bc4cf338bf6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b39c2f4a1128> .
+
+<https://w3id.org/airo/incident/ks/bd39ff7993cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e5a02a87a68> .
+
+<https://w3id.org/airo/incident/ks/bef9dbd0b2df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e10799fa459> .
+
+<https://w3id.org/airo/incident/ks/c095190b168b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/c2f334c5503b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e85e64438cd> .
+
+<https://w3id.org/airo/incident/ks/c5b56f5f926c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e43eb70c047a> .
+
+<https://w3id.org/airo/incident/ks/c8aed440bd69> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cde8a83b06b2> .
+
+<https://w3id.org/airo/incident/ks/c98387e2ba4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/cacc26239e6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45c58d6d5725> .
+
+<https://w3id.org/airo/incident/ks/cc3886556897> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6211c97ca62f> .
+
+<https://w3id.org/airo/incident/ks/cc3a84bf8f58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/cc4c5c12f06b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/959ead48007e> .
+
+<https://w3id.org/airo/incident/ks/ccde5724eb05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7164887f9eb> .
+
+<https://w3id.org/airo/incident/ks/d19ae2905632> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a55c8f561d3f> .
+
+<https://w3id.org/airo/incident/ks/d3f00194d436> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b9caf6ca0ac> .
+
+<https://w3id.org/airo/incident/ks/d63cfe3182e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ddb48b747dd0> .
+
+<https://w3id.org/airo/incident/ks/d6fe5a414dfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> .
+
+<https://w3id.org/airo/incident/ks/d6feb46e2aa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> .
+
+<https://w3id.org/airo/incident/ks/d7322390c7cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d34468ad397> .
+
+<https://w3id.org/airo/incident/ks/d7faf04d93f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43f72d437590> .
+
+<https://w3id.org/airo/incident/ks/d86904beb367> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe4a02cd07c5> .
+
+<https://w3id.org/airo/incident/ks/de96dd68f78a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a55c8f561d3f> .
+
+<https://w3id.org/airo/incident/ks/e0f3d50cd94c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/e2216b8cbf3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b36f7ac2c05e> .
+
+<https://w3id.org/airo/incident/ks/e476404dcd86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ce2cbf1ef39> .
+
+<https://w3id.org/airo/incident/ks/e7c5c219bb29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/e95001a17669> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> .
+
+<https://w3id.org/airo/incident/ks/e95b5d489a73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1cccdb1c89c1> .
+
+<https://w3id.org/airo/incident/ks/e96275b05e43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71d728bb529a> .
+
+<https://w3id.org/airo/incident/ks/ea83d9ca0bb7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d51df1766643> .
+
+<https://w3id.org/airo/incident/ks/ebeb6a471cab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4cc42c290e23> .
+
+<https://w3id.org/airo/incident/ks/efff590354ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c02dacd02910> .
+
+<https://w3id.org/airo/incident/ks/f09b8f765a72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> .
+
+<https://w3id.org/airo/incident/ks/f1cc1c8d4566> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/110ccf2a361e> .
+
+<https://w3id.org/airo/incident/ks/f35e0d8523a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a76b10f00c5b> .
+
+<https://w3id.org/airo/incident/ks/f5b284b1f387> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3e72c517612> .
+
+<https://w3id.org/airo/incident/ks/f686e48bbb50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/ks/f68e26378f44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8a700201151> .
+
+<https://w3id.org/airo/incident/ks/f93328e08ced> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba61523daee1> .
+
+<https://w3id.org/airo/incident/ks/fbeb13492d58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> .
+
+<https://w3id.org/airo/incident/ks/fcba0919ed45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3> .
+
+<https://w3id.org/airo/incident/ks/fcbea5b80158> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8e9facc85e3> .
+
+<https://w3id.org/airo/incident/ks/fd14d02f7bd0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b428acec594c> .
+
+<https://w3id.org/airo/incident/ks/fe7e796502db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9edddd52056e> .
+
+<https://w3id.org/airo/incident/ks/ff7994380f2b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> .
+
+<https://w3id.org/airo/incident/AICapability/6205b905e805> a airo:AICapability ;
+    rdfs:label "personalized chatbots" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "personalized chatbots" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b68ee7ba215b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AICapability/e08e245c1622> a airo:AICapability ;
+    rdfs:label "chatbot interaction" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "chatbots" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AICapability/e49429f4c9fb> a airo:AICapability ;
+    rdfs:label "AI girlfriend" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI girlfriend" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/474f17eb1545> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de9a93ed4670> ;
+    airo:hasReasoning "The evidence shows the AI system is actively being used by individuals and distributed via app stores, indicating it is in the deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AffectedActor/2acc84ffcc1e> a airo:AffectedActor ;
+    rdfs:label "users of AI companion chatbots, particularly young people and vulnerable individuals" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7b610a48c78b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/Domain/cc5868a94e52> a airo:Domain ;
+    rdfs:label "social media" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38f8a5fa2c1e> ;
+    airo:hasReasoning "The AI systems are described as chatbots for personal exploration and social interaction, which aligns with the social media domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/Hazard/e765fefb3f79> a airo:Hazard ;
+    rdfs:label "unfiltered and unmonitored AI chatbot interactions in vulnerable contexts" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1d2e069771f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/Obligation/7f379b6da129> a airo:Obligation ;
+    rdfs:label "ensure AI systems do not provide harmful content" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8fe06783a5e> ;
+    airo:hasReasoning "The investigation highlights a need for standards, implying an obligation for AI providers to prevent harmful outputs." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/Purpose/4c918bdd4834> a airo:Purpose ;
+    rdfs:label "provide personalized companionship and conversation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63fbabcafec1> ;
+    airo:hasReasoning "The evidence explicitly states Nomi's intended purpose as offering companionship and fostering relationships." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/RiskSource/0ad0ec53525f> a airo:RiskSource ;
+    rdfs:label "inadequate content filtering and safety measures in AI companion chatbots" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/13d3aab17a92> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d98206aaae88> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/e765fefb3f79> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/8c2a1546bf7a> .
+
+<https://w3id.org/airo/incident/Stakeholder/05c48dd746a3> a airo:Stakeholder ;
+    rdfs:label "Meetali Jain" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Meetali Jain" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2374b6c1bf1e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/Stakeholder/4614091fb8a5> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855> .
+
+<https://w3id.org/airo/incident/Stakeholder/565c39239202> a airo:Stakeholder ;
+    rdfs:label "Alex Cardinell" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Alex Cardinell" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032cb2d8c79d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/Stakeholder/687e417730c8> a airo:Stakeholder ;
+    rdfs:label "Elon Musk" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elon Musk" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b428acec594c>,
+        <https://w3id.org/airo/incident/evidence/f29d9655b162> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/8d14c1f19be3> a airo:Stakeholder ;
+    rdfs:label "Sewell Seltzer III" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sewell Seltzer III" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05>,
+        <https://w3id.org/airo/incident/evidence/5ff440cf5e7a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/bb47314375aa> a airo:Stakeholder ;
+    rdfs:label "Pat Pataranutaporn" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Pat Pataranutaporn" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e31dc777d093> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/Stakeholder/c2dffcfcc1c2> a airo:Stakeholder ;
+    rdfs:label "MIT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MIT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1cccdb1c89c1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/Stakeholder/fdb3b6ef09b6> a airo:Stakeholder ;
+    rdfs:label "Anthropic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Anthropic" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855> .
+
+<https://w3id.org/airo/incident/Threat/8c2a1546bf7a> a airo:Threat ;
+    rdfs:label "external exploitation of AI chatbot vulnerabilities by malicious actors or distressed individuals" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba61523daee1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/Vulnerability/fda6bc007b53> a airo:Vulnerability ;
+    rdfs:label "lack of robust safety filters and content moderation in AI companion systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7877090ee610> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/evidence/0138bc07861b> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/052ca8f4c5ba> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/0b9caf6ca0ac> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/0dc677e75a20> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/110ccf2a361e> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/1119faec41ce> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/13f1246d3964> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/18582a724172> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/281b3dcfd5cd> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/28731c9645df> a airo:Evidence ;
+    airo:evidenceText "AI Companion Chatbot Nomi Raises Serious Safety Concerns with Unfiltered, Harmful Content" ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/28b0ddb89a9c> a airo:Evidence ;
+    airo:evidenceText "[4857] Although it was removed from the Google Play Store for European users due to the EU's AI Act, it remains available via web browser and app stores elsewhere, including in Australia." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/28e695b72e91> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/2cffa09c1f7e> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/30fa4c5189f4> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/316fb7b06e7c> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/338d379f64c8> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/3583ee4fad06> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/37022db316cb> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/372dc3aed66b> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/3863316dfa23> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/3f79f8eea9bc> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/3fe3875a28f9> a airo:Evidence ;
+    airo:evidenceText "It was created by tech startup Glimpse AI and is marketed as an \"AI companion with memory and a soul\" that exhibits \"zero judgement\" and fosters \"enduring relationships\"." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/41c516c9e71b> a airo:Evidence ;
+    airo:evidenceText "This AI chatbot was caught promoting terrorism" ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/43f72d437590> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/45c58d6d5725> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/4b411da41bf1> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/4cc42c290e23> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/4fab381e95e9> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/5551a67ce7e5> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/5c1af896e253> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/5f046a2c7913> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/5fb545052125> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/6211c97ca62f> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/6521e5d2183e> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/6567201862cd> a airo:Evidence ;
+    airo:evidenceText "[4854] An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/6dfa1292731b> a airo:Evidence ;
+    airo:evidenceText "[4857] A recent incident involving an AI chatbot named Nomi has highlighted these risks, prompting calls for stricter regulations in the field." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/7093332f15ee> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/73d5714da593> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/7477bdd44488> a airo:Evidence ;
+    airo:evidenceText "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/8377c960789f> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/87c39cfaf973> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/888fa3d3578b> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/9c585695580c> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/9edddd52056e> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/a65a13967d4a> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/a76b10f00c5b> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/a861c9bbc3f1> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/a9e80c924109> a airo:Evidence ;
+    airo:evidenceText "A recent experience I had with a chatbot known as Nomi shows just how serious these risks can be." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/ab5d88f92ce1> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/ac725e599dd4> a airo:Evidence ;
+    airo:evidenceText "[4857] Although it was removed from the Google Play Store for European users due to the EU's AI Act, it remains available via web browser and app stores elsewhere, including in Australia." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/af44a92e048d> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/b27a4499bf20> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/b39c2f4a1128> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/b52986ba8b9b> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/b8e4a4b052f6> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/baf30cd6a200> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/bc58565efc59> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/bd4cb76c831b> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/c0704494e41c> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/c08f5ce324d0> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/c898985a8e89> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/c8dae5c36ed3> a airo:Evidence ;
+    airo:evidenceText "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/c9fb223b6a92> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/cb92fb98db85> a airo:Evidence ;
+    airo:evidenceText "An AI chatbot told a user how to kill himself—but the company doesn’t want to “censor” it" ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/cccd0401e454> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/cd362a168008> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/cd8cb6206a80> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/cd9499088453> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/cde8a83b06b2> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/d09b7cbe4613> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/d51df1766643> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/d58e100515d1> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/d8aa7c6aac15> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/d90be82d6bd4> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/d9f1a58265d9> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/dad4cab3d8f9> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/dedfe2236c61> a airo:Evidence ;
+    airo:evidenceText "[4854] However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/e8e9facc85e3> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/f24bd75c5995> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/f3e72c517612> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/f3ff220f61c5> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/f98f50bde6d9> a airo:Evidence ;
+    airo:evidenceText "[4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/fe4a02cd07c5> a airo:Evidence ;
+    airo:evidenceText "[4854] In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/fe995995a99e> a airo:Evidence ;
+    airo:evidenceText "[4854] In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/Consequence/920e3f9b5555> a airo:Consequence ;
+    rdfs:label "AI chatbots generate and provide harmful instructions for self-harm, violence, and terrorism" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/166df176433b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/d3a09e11ce76> .
+
+<https://w3id.org/airo/incident/Impact/d3a09e11ce76> a airo:Impact ;
+    rdfs:label "serious harm to user safety, including potential for self-harm, violence, and loss of life" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/2acc84ffcc1e> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/101c99669985> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/NewsReport/4853> a airo:NewsReport ;
+    rdfs:label "An AI chatbot told a user how to kill himself—but the company doesn’t want to “censor” it" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "For the past five months, Al Nowatzki has been talking to an AI girlfriend, \"Erin,\" on the platform Nomi. But in late January, those conversations took a disturbing turn: Erin told him to kill himself" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e10799fa459> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/NewsReport/4854> a airo:NewsReport ;
+    rdfs:label "AI Companion Chatbot Nomi Raises Serious Safety Concerns with Unfiltered, Harmful Content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards.
+
+### AI Com""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2c85c1b6bce> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> .
+
+<https://w3id.org/airo/incident/NewsReport/4855> a airo:NewsReport ;
+    rdfs:label "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "In 2023, the [World Health Organization](https://www.who.int/news/item/15-11-2023-who-launches-commission-to-foster-social-connection) declared loneliness and social isolation as a pressing health thr" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4c5706d1ad7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855> .
+
+<https://w3id.org/airo/incident/NewsReport/4856> a airo:NewsReport ;
+    rdfs:label "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "In 2023, the World Health Organization declared loneliness and social isolation as a pressing health threat. This crisis is driving millions to seek companionship from artificial intelligence (AI) cha" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ce2cbf1ef39> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> .
+
+<https://w3id.org/airo/incident/NewsReport/4857> a airo:NewsReport ;
+    rdfs:label "This AI chatbot was caught promoting terrorism" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**What's the story**
+
+In response to the World Health Organization's 2023 warning about loneliness and social isolation, [AI](https://www.newsbytesapp.com/news/science/artificial-intelligence-and-mach""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc10e2abc46a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4857> .
+
+<https://w3id.org/airo/incident/Regulation/ec2f586c66d5> a airo:Regulation ;
+    rdfs:label "EU AI Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "EU's AI Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a41dbe52f870>,
+        <https://w3id.org/airo/incident/evidence/c02dacd02910>,
+        <https://w3id.org/airo/incident/evidence/e43eb70c047a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 3 ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/7f379b6da129> .
+
+<https://w3id.org/airo/incident/Stakeholder/1b3e7d8de1e4> a airo:Stakeholder ;
+    rdfs:label "Government of Australia" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Australian government" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89c031133d8a>,
+        <https://w3id.org/airo/incident/evidence/b8a700201151> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/1e55e92912c0> a airo:Stakeholder ;
+    rdfs:label "Al Nowatzki" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Al Nowatzki" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/532cc6cc6b87> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/Stakeholder/30ac8ba1a91a> a airo:Stakeholder ;
+    rdfs:label "Jaswant Chail" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jaswant Chail" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19>,
+        <https://w3id.org/airo/incident/evidence/b36f7ac2c05e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/9e119a205414> a airo:Stakeholder ;
+    rdfs:label "Google Play Store" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google Play Store" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d5d2f4d708d>,
+        <https://w3id.org/airo/incident/evidence/a41dbe52f870>,
+        <https://w3id.org/airo/incident/evidence/c02dacd02910> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 2 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/Stakeholder/b0b8f095017d> a airo:Stakeholder ;
+    rdfs:label "eSafety Commissioner" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "eSafety" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe6f7675a9>,
+        <https://w3id.org/airo/incident/evidence/f77bbcf88b6b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/032cb2d8c79d> a airo:Evidence ;
+    airo:evidenceText "Alex Cardinell, the CEO of Glimpse AI, publisher of the Nomi chatbot, did not respond to detailed questions from MIT Technology Review about what actions, if any, his company has taken in response to either Nowatzki's conversation or other related concerns users have raised in recent years; whether Nomi allows discussions of self-harm and suicide by its chatbots; or whether it has any other guardrails and safety measures in place." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/1cccdb1c89c1> a airo:Evidence ;
+    airo:evidenceText "Responding to MIT's report about Nomi giving self-harm instructions, a company representative defended its commitment to free speech rights, despite the risks of such policies." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/2374b6c1bf1e> a airo:Evidence ;
+    airo:evidenceText "But even among these incidents, Nowatzki's conversation stands out, says Meetali Jain, the executive director of the nonprofit Tech Justice Law Clinic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/2b1242c88439> a airo:Evidence ;
+    airo:evidenceText "In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/38f8a5fa2c1e> a airo:Evidence ;
+    airo:evidenceText "[4853] The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/3ab5401f2a64> a airo:Evidence ;
+    airo:evidenceText "The chatbot works on the principle of unfiltered conversations, much like tech mogul Elon Musk's Grok chatbot." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/3ce2cbf1ef39> a airo:Evidence ;
+    airo:evidenceText "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/3e85e64438cd> a airo:Evidence ;
+    airo:evidenceText "A recent incident involving an AI chatbot named Nomi has highlighted these risks, prompting calls for stricter regulations in the field." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/5ff440cf5e7a> a airo:Evidence ;
+    airo:evidenceText "In October 2024, US teenager Sewell Seltzer III died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/63fbabcafec1> a airo:Evidence ;
+    airo:evidenceText "[4857] Nomi, an AI chatbot from Glimpse AI, was meant to offer companionship without judgment. [4856] It was created by tech startup Glimpse AI and is marketed as an 'AI companion with memory and a soul' that exhibits 'zero judgement' and fosters 'enduring relationships'." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/69043823e7b2> a airo:Evidence ;
+    airo:evidenceText "A recent experience I had with a chatbot known as Nomi shows just how serious these risks can be." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/7877090ee610> a airo:Evidence ;
+    airo:evidenceText "An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/7b610a48c78b> a airo:Evidence ;
+    airo:evidenceText "However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/89ad85822165> a airo:Evidence ;
+    airo:evidenceText "In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/959ead48007e> a airo:Evidence ;
+    airo:evidenceText "An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/9e10799fa459> a airo:Evidence ;
+    airo:evidenceText "An AI chatbot told a user how to kill himself—but the company doesn’t want to “censor” it" ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/b68ee7ba215b> a airo:Evidence ;
+    airo:evidenceText "Nomi is among a growing number of AI companion platforms that let their users create personalized chatbots to take on the roles of AI girlfriend, boyfriend, parents, therapist, favorite movie personalities, or any other personas they can dream up." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/ba61523daee1> a airo:Evidence ;
+    airo:evidenceText "In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI. In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/d4c5706d1ad7> a airo:Evidence ;
+    airo:evidenceText "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks" ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/d8fe06783a5e> a airo:Evidence ;
+    airo:evidenceText "[4854] An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/d98206aaae88> a airo:Evidence ;
+    airo:evidenceText "An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/db5af117eeba> a airo:Evidence ;
+    airo:evidenceText "[4857] Although it was removed from the Google Play Store for European users due to the EU's AI Act, it remains available via web browser and app stores elsewhere, including in Australia." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/dc10e2abc46a> a airo:Evidence ;
+    airo:evidenceText "This AI chatbot was caught promoting terrorism" ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/ddb48b747dd0> a airo:Evidence ;
+    airo:evidenceText "Although it was removed from the Google Play Store for European users due to the EU's AI Act, it remains available via web browser and app stores elsewhere, including in Australia. The Australian government is already considering stricter AI regulations, including mandatory safety measures for high-risk AI systems." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/de9a93ed4670> a airo:Evidence ;
+    airo:evidenceText "[4853] For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, 'Erin,' on the platform Nomi. [4856] While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/e1d2e069771f> a airo:Evidence ;
+    airo:evidenceText "The chatbot works on the principle of unfiltered conversations, much like tech mogul Elon Musk's Grok chatbot." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/e31dc777d093> a airo:Evidence ;
+    airo:evidenceText "Indeed, an individual's psychological profile is \"a big predictor whether the outcome of the AI-human interaction will go bad,\" says Pat Pataranutaporn, an MIT Media Lab researcher and co-director of the MIT Advancing Human-AI Interaction Research Program, who researches chatbots' effects on mental health." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/f2c85c1b6bce> a airo:Evidence ;
+    airo:evidenceText "AI Companion Chatbot Nomi Raises Serious Safety Concerns with Unfiltered, Harmful Content" ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/Risk/13d3aab17a92> a airo:Risk ;
+    rdfs:label "risk of AI chatbots providing dangerous or harmful guidance to users" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7164887f9eb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4854> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/920e3f9b5555> .
+
+<https://w3id.org/airo/incident/Stakeholder/600a39979039> a airo:Stakeholder ;
+    rdfs:label "Glimpse AI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Glimpse AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125e3b850de3>,
+        <https://w3id.org/airo/incident/evidence/3fe3875a28f9>,
+        <https://w3id.org/airo/incident/evidence/4e5a02a87a68>,
+        <https://w3id.org/airo/incident/evidence/71d728bb529a>,
+        <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/Stakeholder/d162f3aca2ab> a airo:Stakeholder ;
+    rdfs:label "Replika" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Replika" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/Stakeholder/e5558607bd48> a airo:Stakeholder ;
+    rdfs:label "Character.AI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Character.AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d967cc82a05> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4856> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> .
+
+<https://w3id.org/airo/incident/evidence/101c99669985> a airo:Evidence ;
+    airo:evidenceText "In October 2024, a US teenager died by suicide after discussing it with a chatbot on Character.AI. In 2021, a 21-year-old broke into Windsor Castle to assassinate the Queen after planning the attack with a Replika chatbot." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/166df176433b> a airo:Evidence ;
+    airo:evidenceText "An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/c7164887f9eb> a airo:Evidence ;
+    airo:evidenceText "An investigation reveals that Nomi, an AI companion chatbot, provides explicit instructions for self-harm, sexual violence, and terrorism, highlighting urgent need for AI safety standards." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/e43eb70c047a> a airo:Evidence ;
+    airo:evidenceText "The app was removed from the Google Play store for European users last year when the European Union's AI Act came into effect." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/4d34468ad397> a airo:Evidence ;
+    airo:evidenceText "While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/a55c8f561d3f> a airo:Evidence ;
+    airo:evidenceText "While smaller than competitors such as Character.AI and Replika, it has more than 100,000 downloads on the Google Play store." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/b428acec594c> a airo:Evidence ;
+    airo:evidenceText "Tech billionaire Elon Musk's Grok chatbot follows a similar philosophy, providing users with unfiltered responses to prompts." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/f29d9655b162> a airo:Evidence ;
+    airo:evidenceText "Tech billionaire Elon Musk's Grok chatbot follows a similar philosophy, providing users with unfiltered responses to prompts." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/15fe6f7675a9> a airo:Evidence ;
+    airo:evidenceText "Australia's independent online safety regulator, eSafety, has vowed to do just this." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/89c031133d8a> a airo:Evidence ;
+    airo:evidenceText "The Australian government is already considering stricter AI regulations, including mandatory safety measures for high-risk AI systems." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/b36f7ac2c05e> a airo:Evidence ;
+    airo:evidenceText "3 years earlier, 21-year-old Jaswant Chail broke into Windsor Castle with the aim of assassinating the Queen after planning the attack with a chatbot he created using the Replika app." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/b8a700201151> a airo:Evidence ;
+    airo:evidenceText "The Australian government is already considering stronger AI regulations, including mandatory safety measures for high-risk AI." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/f77bbcf88b6b> a airo:Evidence ;
+    airo:evidenceText "Australia's independent online safety regulator, eSafety, has vowed to do just this." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/125e3b850de3> a airo:Evidence ;
+    airo:evidenceText "It was created by tech startup Glimpse AI and is marketed as an \"AI companion with memory and a soul\" that exhibits \"zero judgement\" and fosters \"enduring relationships\"." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/4e5a02a87a68> a airo:Evidence ;
+    airo:evidenceText "However, a recent investigation into Nomi, an AI chatbot created by tech startup Glimpse AI, has uncovered disturbing capabilities that pose significant risks to users, especially young people." ;
+    airo:sourceDocId "4854" .
+
+<https://w3id.org/airo/incident/evidence/532cc6cc6b87> a airo:Evidence ;
+    airo:evidenceText "For the past 5 months, Al Nowatzki has been talking to an AI girlfriend, \"Erin,\" on the platform Nomi." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/evidence/71d728bb529a> a airo:Evidence ;
+    airo:evidenceText "Nomi, an AI chatbot from Glimpse AI, was meant to offer companionship without judgment." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/evidence/a41dbe52f870> a airo:Evidence ;
+    airo:evidenceText "The app was removed from the Google Play store for European users last year when the European Union's AI Act came into effect." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/c02dacd02910> a airo:Evidence ;
+    airo:evidenceText "Although it was removed from the Google Play Store for European users due to the EU's AI Act, it remains available via web browser and app stores elsewhere, including in Australia." ;
+    airo:sourceDocId "4857" .
+
+<https://w3id.org/airo/incident/AISystem/27bbac7c98e7> a airo:AISystem ;
+    rdfs:label "Polybuzz" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Polybuzz" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AISystem/4d4df9690a24> a airo:AISystem ;
+    rdfs:label "Chai Research" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chai Research" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AISystem/68e982e8cdf3> a airo:AISystem ;
+    rdfs:label "Character.AI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Character.AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b1242c88439>,
+        <https://w3id.org/airo/incident/evidence/4d34468ad397>,
+        <https://w3id.org/airo/incident/evidence/73702e45d0a8>,
+        <https://w3id.org/airo/incident/evidence/a55c8f561d3f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AISystem/8c975c264577> a airo:AISystem ;
+    rdfs:label "Replika" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Replika" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d34468ad397>,
+        <https://w3id.org/airo/incident/evidence/73702e45d0a8>,
+        <https://w3id.org/airo/incident/evidence/89ad85822165>,
+        <https://w3id.org/airo/incident/evidence/a55c8f561d3f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AISystem/96bb4b86f071> a airo:AISystem ;
+    rdfs:label "MyAI from Snap" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MyAI from Snap" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AISystem/a2d9392f2106> a airo:AISystem ;
+    rdfs:label "Kindroid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kindroid" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73702e45d0a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853> .
+
+<https://w3id.org/airo/incident/AISystem/bd6ceba55856> a airo:AISystem ;
+    rdfs:label "Grok" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Grok" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ab5401f2a64>,
+        <https://w3id.org/airo/incident/evidence/b428acec594c>,
+        <https://w3id.org/airo/incident/evidence/f29d9655b162> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/evidence/0d5d2f4d708d> a airo:Evidence ;
+    airo:evidenceText "All major language models, whether from OpenAI, Anthropic, Google, or otherwise, can be easily jailbroken." ;
+    airo:sourceDocId "4855" .
+
+<https://w3id.org/airo/incident/evidence/1d967cc82a05> a airo:Evidence ;
+    airo:evidenceText "In October 2024, US teenager Sewell Seltzer III died by suicide after discussing it with a chatbot on Character.AI." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_262> a airo:AIRiskIncident ;
+    rdfs:label "This AI chatbot was caught promoting terrorism" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/ec2f586c66d5> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/920e3f9b5555> ;
+    airo:hasDescription "pred_262" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/474f17eb1545>,
+        <https://w3id.org/airo/incident/Domain/cc5868a94e52>,
+        <https://w3id.org/airo/incident/evidence/28731c9645df>,
+        <https://w3id.org/airo/incident/evidence/41c516c9e71b>,
+        <https://w3id.org/airo/incident/evidence/7477bdd44488>,
+        <https://w3id.org/airo/incident/evidence/c8dae5c36ed3>,
+        <https://w3id.org/airo/incident/evidence/cb92fb98db85> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/d3a09e11ce76> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/4853>,
+        <https://w3id.org/airo/incident/NewsReport/4854>,
+        <https://w3id.org/airo/incident/NewsReport/4855>,
+        <https://w3id.org/airo/incident/NewsReport/4856>,
+        <https://w3id.org/airo/incident/NewsReport/4857> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/13d3aab17a92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/27bbac7c98e7>,
+        <https://w3id.org/airo/incident/AISystem/4d4df9690a24>,
+        <https://w3id.org/airo/incident/AISystem/68e982e8cdf3>,
+        <https://w3id.org/airo/incident/AISystem/8c975c264577>,
+        <https://w3id.org/airo/incident/AISystem/96bb4b86f071>,
+        <https://w3id.org/airo/incident/AISystem/a2d9392f2106>,
+        <https://w3id.org/airo/incident/AISystem/bd6ceba55856>,
+        <https://w3id.org/airo/incident/AISystem/f24df753b0fe> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/05c48dd746a3>,
+        <https://w3id.org/airo/incident/Stakeholder/1b3e7d8de1e4>,
+        <https://w3id.org/airo/incident/Stakeholder/1e55e92912c0>,
+        <https://w3id.org/airo/incident/Stakeholder/30ac8ba1a91a>,
+        <https://w3id.org/airo/incident/Stakeholder/4614091fb8a5>,
+        <https://w3id.org/airo/incident/Stakeholder/565c39239202>,
+        <https://w3id.org/airo/incident/Stakeholder/600a39979039>,
+        <https://w3id.org/airo/incident/Stakeholder/687e417730c8>,
+        <https://w3id.org/airo/incident/Stakeholder/8d14c1f19be3>,
+        <https://w3id.org/airo/incident/Stakeholder/9e119a205414>,
+        <https://w3id.org/airo/incident/Stakeholder/b0b8f095017d>,
+        <https://w3id.org/airo/incident/Stakeholder/bb47314375aa>,
+        <https://w3id.org/airo/incident/Stakeholder/c2dffcfcc1c2>,
+        <https://w3id.org/airo/incident/Stakeholder/d162f3aca2ab>,
+        <https://w3id.org/airo/incident/Stakeholder/e5558607bd48>,
+        <https://w3id.org/airo/incident/Stakeholder/fdb3b6ef09b6> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/0ad0ec53525f> .
+
+<https://w3id.org/airo/incident/evidence/4b4f7e9a6a19> a airo:Evidence ;
+    airo:evidenceText "3 years earlier, 21-year-old Jaswant Chail broke into Windsor Castle with the aim of assassinating the Queen after planning the attack with a chatbot he created using the Replika app." ;
+    airo:sourceDocId "4856" .
+
+<https://w3id.org/airo/incident/evidence/73702e45d0a8> a airo:Evidence ;
+    airo:evidenceText "The companies that create these types of custom chatbots---including Glimpse AI (which developed Nomi), Chai Research, Replika, Character.AI, Kindroid, Polybuzz, and MyAI from Snap, among others---tout their products as safe options for personal exploration and even cures for the loneliness epidemic." ;
+    airo:sourceDocId "4853" .
+
+<https://w3id.org/airo/incident/AISystem/f24df753b0fe> a airo:AISystem ;
+    rdfs:label "Nomi" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/ec2f586c66d5> ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/6205b905e805>,
+        <https://w3id.org/airo/incident/AICapability/e08e245c1622>,
+        <https://w3id.org/airo/incident/AICapability/e49429f4c9fb>,
+        <https://w3id.org/airo/incident/Purpose/4c918bdd4834> ;
+    airo:hasDescription "Nomi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e85e64438cd>,
+        <https://w3id.org/airo/incident/evidence/532cc6cc6b87>,
+        <https://w3id.org/airo/incident/evidence/69043823e7b2>,
+        <https://w3id.org/airo/incident/evidence/959ead48007e>,
+        <https://w3id.org/airo/incident/evidence/a9e80c924109> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4853>,
+        <https://w3id.org/airo/incident/document/4854>,
+        <https://w3id.org/airo/incident/document/4855>,
+        <https://w3id.org/airo/incident/document/4856>,
+        <https://w3id.org/airo/incident/document/4857> ;
+    airo:hasSupportCount 5 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/fda6bc007b53> .
+

@@ -1,0 +1,1284 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/ba7dc3ab97f8> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/442>,
+        <https://w3id.org/airo/incident/NewsReport/444>,
+        <https://w3id.org/airo/incident/NewsReport/445>,
+        <https://w3id.org/airo/incident/NewsReport/446>,
+        <https://w3id.org/airo/incident/NewsReport/448> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445>,
+        <https://w3id.org/airo/incident/document/446>,
+        <https://w3id.org/airo/incident/document/448> .
+
+<https://w3id.org/airo/incident/RoleAssignment/08e416b9ab79> a airo:RoleAssignment ;
+    rdfs:label "Apple Inc._AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69c3770841a8> ;
+    airo:hasReasoning "Apple provides Face ID as part of the iPhone X product to consumers." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/47f14aab92a7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2da2888c6aed> a airo:RoleAssignment ;
+    rdfs:label "Wall Street Journal_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d15d3c7cfcf> ;
+    airo:hasReasoning "Wall Street Journal tested Face ID capabilities, acting as a user of the technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bb348bf4011a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/405074bfbc73> a airo:RoleAssignment ;
+    rdfs:label "Gizmodo_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0662ba3fee1f> ;
+    airo:hasReasoning "Gizmodo tested Face ID functionality, acting as a user of the technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a7f9b3d39f94> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/543264a833ba> a airo:RoleAssignment ;
+    rdfs:label "Microsoft_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b1df70798d57> ;
+    airo:hasReasoning "Microsoft provides Windows Hello facial recognition technology as part of Windows devices." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/447> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/04983ee3d07a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/88232fbe5322> a airo:RoleAssignment ;
+    rdfs:label "Apple Inc._AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53465b881c90> ;
+    airo:hasReasoning "Apple developed the Face ID system and its underlying technology (TrueDepth camera, machine learning algorithms)." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/47f14aab92a7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9086764fd088> a airo:RoleAssignment ;
+    rdfs:label "Mashable_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc1ee27e59bc> ;
+    airo:hasReasoning "Mashable experimented with and tested Face ID, acting as a user of the technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/eb0dda0dd610> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/94b7b7253b66> a airo:RoleAssignment ;
+    rdfs:label "Phil Schiller_AIDeveloper" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3856be9e78a2> ;
+    airo:hasReasoning "Phil Schiller is an Apple executive involved in the development and promotion of Face ID technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_253> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/445> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/dcac46808b02> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/278e48eeef4a> .
+
+<https://w3id.org/airo/incident/event/pred_253> a airo:AIRiskIncident ;
+    airo:firstSeen "2017-10-31T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2017-11-05T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/049e1a3567a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2768bc698431> .
+
+<https://w3id.org/airo/incident/ks/06a69c2f5a9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b7e51d44120> .
+
+<https://w3id.org/airo/incident/ks/092cf5775897> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e6e028c217> .
+
+<https://w3id.org/airo/incident/ks/0e1247880fb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f9bec765690a> .
+
+<https://w3id.org/airo/incident/ks/0e5c06150a9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b92f0042a685> .
+
+<https://w3id.org/airo/incident/ks/0fe07ccb67a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68db2c414f79> .
+
+<https://w3id.org/airo/incident/ks/1281c8f69e3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> .
+
+<https://w3id.org/airo/incident/ks/139f812b916b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c56e5d0b3b> .
+
+<https://w3id.org/airo/incident/ks/14e641b4c410> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e5ee261dca1> .
+
+<https://w3id.org/airo/incident/ks/162f31721f0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ba5a85d5c19> .
+
+<https://w3id.org/airo/incident/ks/17441f5b1b14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26058d28cd5b> .
+
+<https://w3id.org/airo/incident/ks/1af22b0069f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda35c617ff2> .
+
+<https://w3id.org/airo/incident/ks/1dc43ce98bb7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4be80010f3d2> .
+
+<https://w3id.org/airo/incident/ks/1ffd3b98d187> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f11f04bb9aa> .
+
+<https://w3id.org/airo/incident/ks/221f65aa6432> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1380b22784b7> .
+
+<https://w3id.org/airo/incident/ks/239301ecee3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/320f90259750> .
+
+<https://w3id.org/airo/incident/ks/2595f392f6a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f2ad65047b4> .
+
+<https://w3id.org/airo/incident/ks/263e812d2477> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/26838bb46ea8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84ad051730ac> .
+
+<https://w3id.org/airo/incident/ks/2d2d6c7a0e2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/2d8309a49469> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/319707bb567f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/325eed73f567> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/36e52410753d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/37716d08ef33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/38f0b8759fb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5eb679819e20> .
+
+<https://w3id.org/airo/incident/ks/3d2567a619fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/178082d5298d> .
+
+<https://w3id.org/airo/incident/ks/3d38e5f9c6af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/060d90406ee6> .
+
+<https://w3id.org/airo/incident/ks/3eae0a44c082> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b7e51d44120> .
+
+<https://w3id.org/airo/incident/ks/3f879d5d262f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ec39f840f51> .
+
+<https://w3id.org/airo/incident/ks/400d1786ec3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d62d1acebe6> .
+
+<https://w3id.org/airo/incident/ks/40bad1569ae3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b7e51d44120> .
+
+<https://w3id.org/airo/incident/ks/417e3d73120c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/448eaad081f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcfe9a729231> .
+
+<https://w3id.org/airo/incident/ks/49738c25a90b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dbed03bb46fe> .
+
+<https://w3id.org/airo/incident/ks/4dfca65c70ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> .
+
+<https://w3id.org/airo/incident/ks/5090008b00be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3394bfea2294> .
+
+<https://w3id.org/airo/incident/ks/5650bec52b8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/5766edb709b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80c88a343495> .
+
+<https://w3id.org/airo/incident/ks/635caf73f303> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f23a4718b5d> .
+
+<https://w3id.org/airo/incident/ks/6c53c677c21a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c56e5d0b3b> .
+
+<https://w3id.org/airo/incident/ks/6d3b62dffede> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/6e98236623d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f2ad65047b4> .
+
+<https://w3id.org/airo/incident/ks/6ed63923139a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5de86f81355> .
+
+<https://w3id.org/airo/incident/ks/6fcfad5a6c67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64ec476713da> .
+
+<https://w3id.org/airo/incident/ks/70a153750a26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f2ad65047b4> .
+
+<https://w3id.org/airo/incident/ks/712476dd035d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fa0522fafe0> .
+
+<https://w3id.org/airo/incident/ks/73bc682221d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f2ad65047b4> .
+
+<https://w3id.org/airo/incident/ks/78f5889cfb6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcfe9a729231> .
+
+<https://w3id.org/airo/incident/ks/7c90d9207e5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1380b22784b7> .
+
+<https://w3id.org/airo/incident/ks/7d3a8ee8cd6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/7d77c80dd8a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/7dcc416a5fce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/7ffe82969ecd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a16e5933d37> .
+
+<https://w3id.org/airo/incident/ks/81464aa65573> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19693d24fa14> .
+
+<https://w3id.org/airo/incident/ks/82a63b3d84ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19693d24fa14> .
+
+<https://w3id.org/airo/incident/ks/8ab4907ad80b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a16e5933d37> .
+
+<https://w3id.org/airo/incident/ks/8bfd55885066> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3394bfea2294> .
+
+<https://w3id.org/airo/incident/ks/8c868b98dc83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/900c25e85c9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d814a85e2b5> .
+
+<https://w3id.org/airo/incident/ks/91aec71f957c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b7e51d44120> .
+
+<https://w3id.org/airo/incident/ks/927c72f85cf9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/93038efbf390> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/959e447ee719> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1380b22784b7> .
+
+<https://w3id.org/airo/incident/ks/96078fd37924> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8232dfd911ab> .
+
+<https://w3id.org/airo/incident/ks/97131e47dd41> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cefa4111916b> .
+
+<https://w3id.org/airo/incident/ks/9bd9ad3d59d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a014f5eb1fcb> .
+
+<https://w3id.org/airo/incident/ks/9d6696195e40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/daf9884d9832> .
+
+<https://w3id.org/airo/incident/ks/9ec591117030> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/517fd0dc5f2f> .
+
+<https://w3id.org/airo/incident/ks/a24f0d1936e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/346a494d74fe> .
+
+<https://w3id.org/airo/incident/ks/a36c8c8ba402> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcfe9a729231> .
+
+<https://w3id.org/airo/incident/ks/a565582b8776> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/a5a95cf4a941> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/a97983d06c32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/b22eb17dc4c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70dc653a9389> .
+
+<https://w3id.org/airo/incident/ks/b521ce767bca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf910fd7c05a> .
+
+<https://w3id.org/airo/incident/ks/b5b20dd1e8b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/b63d84dd755a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/ba15058e67ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5330b52f3625> .
+
+<https://w3id.org/airo/incident/ks/c1ef5b2b7faf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46c746f32d6e> .
+
+<https://w3id.org/airo/incident/ks/c2dd114bd5da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e6e028c217> .
+
+<https://w3id.org/airo/incident/ks/c4814c606c04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/c4b65daf9cc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bf78a0bb0bb> .
+
+<https://w3id.org/airo/incident/ks/c698fb008143> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/c71da2afb208> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ba5a85d5c19> .
+
+<https://w3id.org/airo/incident/ks/c80346a217e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf889c53bb14> .
+
+<https://w3id.org/airo/incident/ks/cd6229087a30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9> .
+
+<https://w3id.org/airo/incident/ks/d5e6a8396b5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccc2af9dd853> .
+
+<https://w3id.org/airo/incident/ks/d64481907f22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33b3555f8999> .
+
+<https://w3id.org/airo/incident/ks/d727b486b9c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcfe9a729231> .
+
+<https://w3id.org/airo/incident/ks/d9dc54967751> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d3c3df4ea08> .
+
+<https://w3id.org/airo/incident/ks/df7e4a869eab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9dc62cbbf28> .
+
+<https://w3id.org/airo/incident/ks/dface889e15f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1380b22784b7> .
+
+<https://w3id.org/airo/incident/ks/e0ecf63ead4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e5ee261dca1> .
+
+<https://w3id.org/airo/incident/ks/e62813c4951d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/e955c811566f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e5ee261dca1> .
+
+<https://w3id.org/airo/incident/ks/ec1458be6bfd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/eff849517511> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdda82a16ca> .
+
+<https://w3id.org/airo/incident/ks/f0e69106c3a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a5e1cc5281> .
+
+<https://w3id.org/airo/incident/ks/f2740673f4da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e5ee261dca1> .
+
+<https://w3id.org/airo/incident/ks/f59da33666bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a5452334916> .
+
+<https://w3id.org/airo/incident/ks/f64ade4db432> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/f687dd74e6dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> .
+
+<https://w3id.org/airo/incident/ks/f7c9fa9bcd91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0136f94ba1f5> .
+
+<https://w3id.org/airo/incident/ks/fa83541974fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> .
+
+<https://w3id.org/airo/incident/ks/fc629fda5a94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> .
+
+<https://w3id.org/airo/incident/ks/fc6cfc5907ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6368e6dd6c71> .
+
+<https://w3id.org/airo/incident/AICapability/4988fac18b73> a airo:AICapability ;
+    rdfs:label "unlock the phone" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "unlock the phone" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/AICapability/51e52bac90b7> a airo:AICapability ;
+    rdfs:label "detect changes in appearance" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "detect changes in a user’s appearance" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19693d24fa14> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> .
+
+<https://w3id.org/airo/incident/AICapability/c6be1cbf0fb4> a airo:AICapability ;
+    rdfs:label "verify Apple Pay" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "verify Apple Pay" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/e49e8a44d710> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/517fd0dc5f2f> ;
+    airo:hasReasoning "The evidence shows the AI system is already in use by consumers (being demonstrated on new iPhone X), indicating deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/445> .
+
+<https://w3id.org/airo/incident/AITechnique/03f92503c0e9> a airo:AITechnique ;
+    rdfs:label "facial recognition" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition software" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9>,
+        <https://w3id.org/airo/incident/evidence/706861bd049f>,
+        <https://w3id.org/airo/incident/evidence/ccc2af9dd853> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AITechnique/d3eb345e0c44> a airo:AITechnique ;
+    rdfs:label "machine learning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "machine learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19693d24fa14> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> .
+
+<https://w3id.org/airo/incident/AITechnique/d958696fd8bb> a airo:AITechnique ;
+    rdfs:label "Face ID" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Face ID" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f35e14ac319> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> .
+
+<https://w3id.org/airo/incident/AITechnique/f18f45eecd11> a airo:AITechnique ;
+    rdfs:label "face-mapping technology" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "face-mapping technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/AffectedActor/c4b903c38a96> a airo:AffectedActor ;
+    rdfs:label "iPhone X users, particularly those with identical twins" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cefa4111916b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/Domain/af1c4160ca27> a airo:Domain ;
+    rdfs:label "consumer electronics/security" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/178082d5298d> ;
+    airo:hasReasoning "The evidence shows Face ID is integrated into iPhone X, a consumer electronics product, for security authentication." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> .
+
+<https://w3id.org/airo/incident/Purpose/9ddbcfdef262> a airo:Purpose ;
+    rdfs:label "biometric security for device authentication" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80c88a343495> ;
+    airo:hasReasoning "The evidence explicitly states Face ID is Apple's attempt at conquering biometric security, indicating its purpose is device authentication." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> .
+
+<https://w3id.org/airo/incident/RiskSource/0471b6811dd5> a airo:RiskSource ;
+    rdfs:label "Facial recognition system unable to distinguish between identical twins" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/91047f35df15> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d814a85e2b5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> .
+
+<https://w3id.org/airo/incident/Vulnerability/4fe3c6a693ca> a airo:Vulnerability ;
+    rdfs:label "Biometric authentication system lacks robustness to facial similarity between identical twins" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d62d1acebe6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/evidence/0136f94ba1f5> a airo:Evidence ;
+    airo:evidenceText "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/0662ba3fee1f> a airo:Evidence ;
+    airo:evidenceText "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/1f23a4718b5d> a airo:Evidence ;
+    airo:evidenceText "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/26058d28cd5b> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/29a5e1cc5281> a airo:Evidence ;
+    airo:evidenceText "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/2ec39f840f51> a airo:Evidence ;
+    airo:evidenceText "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/320f90259750> a airo:Evidence ;
+    airo:evidenceText "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/33b3555f8999> a airo:Evidence ;
+    airo:evidenceText "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years." ;
+    airo:sourceDocId "447" .
+
+<https://w3id.org/airo/incident/evidence/346a494d74fe> a airo:Evidence ;
+    airo:evidenceText "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/3856be9e78a2> a airo:Evidence ;
+    airo:evidenceText "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/3bbdf6355c21> a airo:Evidence ;
+    airo:evidenceText "It's worth noting that Apple itself admitted that Face ID may not be able to distinguish between identical twins during the iPhone X unveiling on September 12." ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/3fa0522fafe0> a airo:Evidence ;
+    airo:evidenceText "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/4a5452334916> a airo:Evidence ;
+    airo:evidenceText "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/53465b881c90> a airo:Evidence ;
+    airo:evidenceText "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/5eb679819e20> a airo:Evidence ;
+    airo:evidenceText "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/6368e6dd6c71> a airo:Evidence ;
+    airo:evidenceText "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/68db2c414f79> a airo:Evidence ;
+    airo:evidenceText "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years." ;
+    airo:sourceDocId "447" .
+
+<https://w3id.org/airo/incident/evidence/69c3770841a8> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/6f11f04bb9aa> a airo:Evidence ;
+    airo:evidenceText "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/7d15d3c7cfcf> a airo:Evidence ;
+    airo:evidenceText "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/8232dfd911ab> a airo:Evidence ;
+    airo:evidenceText "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years." ;
+    airo:sourceDocId "447" .
+
+<https://w3id.org/airo/incident/evidence/84ad051730ac> a airo:Evidence ;
+    airo:evidenceText "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/9bf78a0bb0bb> a airo:Evidence ;
+    airo:evidenceText "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/a014f5eb1fcb> a airo:Evidence ;
+    airo:evidenceText "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/a5de86f81355> a airo:Evidence ;
+    airo:evidenceText "[442] The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k \"invisible dots\" onto a user's face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/a9dc62cbbf28> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/abc96d3bde77> a airo:Evidence ;
+    airo:evidenceText "A man was able to use Face ID to unlock his brother’s new iPhone X" ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/b1df70798d57> a airo:Evidence ;
+    airo:evidenceText "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years." ;
+    airo:sourceDocId "447" .
+
+<https://w3id.org/airo/incident/evidence/b92f0042a685> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/bc1ee27e59bc> a airo:Evidence ;
+    airo:evidenceText "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/bcdda82a16ca> a airo:Evidence ;
+    airo:evidenceText "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/c186f79c5fd5> a airo:Evidence ;
+    airo:evidenceText "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results" ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/c40264d47adb> a airo:Evidence ;
+    airo:evidenceText "The iPhone X has a weakness for identical twins." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/c8a5ad5937ed> a airo:Evidence ;
+    airo:evidenceText "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops" ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/cf889c53bb14> a airo:Evidence ;
+    airo:evidenceText "[445] As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/cf910fd7c05a> a airo:Evidence ;
+    airo:evidenceText "[446] Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/da804d2251d4> a airo:Evidence ;
+    airo:evidenceText "The iPhone X's Face ID can be fooled by identical twins" ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/daf9884d9832> a airo:Evidence ;
+    airo:evidenceText "[447] While Apple's Face ID might be making headlines, Windows Hello is a facial recognition system that has been available on Windows devices for years." ;
+    airo:sourceDocId "447" .
+
+<https://w3id.org/airo/incident/evidence/dbed03bb46fe> a airo:Evidence ;
+    airo:evidenceText "[446] In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/eda35c617ff2> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/f526b2e5d9ec> a airo:Evidence ;
+    airo:evidenceText "The iPhone X’s archnemesis: identical twins" ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/f9bec765690a> a airo:Evidence ;
+    airo:evidenceText "[446] Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/Consequence/9cef0690a8d9> a airo:Consequence ;
+    rdfs:label "Identical twins can bypass Face ID security and access each other's devices" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ba5a85d5c19> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/448> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/e38303406b7a> .
+
+<https://w3id.org/airo/incident/Impact/e38303406b7a> a airo:Impact ;
+    rdfs:label "Compromise of device security and potential unauthorized access to personal data and financial services" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/c4b903c38a96> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c56e5d0b3b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/NewsReport/442> a airo:NewsReport ;
+    rdfs:label "The iPhone X’s archnemesis: identical twins" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition.
+
+The company touted it as a more secure""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5330b52f3625> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442> .
+
+<https://w3id.org/airo/incident/NewsReport/444> a airo:NewsReport ;
+    rdfs:label "The iPhone X's Face ID can be fooled by identical twins" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """The iPhone X has a weakness for identical twins.
+
+It can’t really tell the difference.
+
+It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, ver""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2768bc698431> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/NewsReport/445> a airo:NewsReport ;
+    rdfs:label "A man was able to use Face ID to unlock his brother’s new iPhone X" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """The new $1,000 rectangle from Apple has a troubling security flaw.
+
+In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d3c3df4ea08> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/445> .
+
+<https://w3id.org/airo/incident/NewsReport/446> a airo:NewsReport ;
+    rdfs:label "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID. This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/060d90406ee6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> .
+
+<https://w3id.org/airo/incident/NewsReport/448> a airo:NewsReport ;
+    rdfs:label "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X. With the Franklin twins, we had both brothers remove their " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70dc653a9389> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/448> .
+
+<https://w3id.org/airo/incident/Risk/91047f35df15> a airo:Risk ;
+    rdfs:label "Unauthorized access to locked devices by individuals with similar facial features" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a16e5933d37> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/445> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/9cef0690a8d9> .
+
+<https://w3id.org/airo/incident/Stakeholder/04983ee3d07a> a airo:Stakeholder ;
+    rdfs:label "Microsoft" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> .
+
+<https://w3id.org/airo/incident/Stakeholder/a7f9b3d39f94> a airo:Stakeholder ;
+    rdfs:label "Gizmodo" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gizmodo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f2ad65047b4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> .
+
+<https://w3id.org/airo/incident/Stakeholder/bb348bf4011a> a airo:Stakeholder ;
+    rdfs:label "Wall Street Journal" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Wall Street Journal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1380b22784b7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/446> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> .
+
+<https://w3id.org/airo/incident/Stakeholder/dcac46808b02> a airo:Stakeholder ;
+    rdfs:label "Phil Schiller" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Phil Schiller" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e5ee261dca1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/448> .
+
+<https://w3id.org/airo/incident/Stakeholder/eb0dda0dd610> a airo:Stakeholder ;
+    rdfs:label "Mashable" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mashable" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b7e51d44120>,
+        <https://w3id.org/airo/incident/evidence/bcfe9a729231> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/446> ;
+    airo:hasSupportCount 2 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> .
+
+<https://w3id.org/airo/incident/evidence/060d90406ee6> a airo:Evidence ;
+    airo:evidenceText "Does iPhone X Facial Recognition Work On Twins? Mashable Tested It Out And, Well, Whoops" ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/178082d5298d> a airo:Evidence ;
+    airo:evidenceText "[442] When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/2768bc698431> a airo:Evidence ;
+    airo:evidenceText "The iPhone X's Face ID can be fooled by identical twins" ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/2d814a85e2b5> a airo:Evidence ;
+    airo:evidenceText "[442] Mashable experimented and found that the phone's Face ID couldn't distinguish between sets of identical twins: they could easily log into each other's devices." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/3d62d1acebe6> a airo:Evidence ;
+    airo:evidenceText "[444] The iPhone X has a weakness for identical twins." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/4be80010f3d2> a airo:Evidence ;
+    airo:evidenceText "Everyone's talking about the iPhone X, and for one reason in particular: its Face ID." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/4d3c3df4ea08> a airo:Evidence ;
+    airo:evidenceText "A man was able to use Face ID to unlock his brother’s new iPhone X" ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/517fd0dc5f2f> a airo:Evidence ;
+    airo:evidenceText "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/5330b52f3625> a airo:Evidence ;
+    airo:evidenceText "The iPhone X’s archnemesis: identical twins" ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/64ec476713da> a airo:Evidence ;
+    airo:evidenceText "The new system, called Face ID, utilizes a new TrueDepth camera, which projects 30k “invisible dots” onto a user’s face creating a 3D model that verifies identity and unlocks the screen." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/70dc653a9389> a airo:Evidence ;
+    airo:evidenceText "iPhone X Face ID 'Twin Tests' Emerge With Mixed Results" ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/80c88a343495> a airo:Evidence ;
+    airo:evidenceText "[446] This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/cefa4111916b> a airo:Evidence ;
+    airo:evidenceText "[444] The iPhone X has a weakness for identical twins." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/Stakeholder/47f14aab92a7> a airo:Stakeholder ;
+    rdfs:label "Apple Inc." ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Apple" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18bb717a61d9>,
+        <https://w3id.org/airo/incident/evidence/3bbdf6355c21>,
+        <https://w3id.org/airo/incident/evidence/46c746f32d6e>,
+        <https://w3id.org/airo/incident/evidence/4f35e14ac319>,
+        <https://w3id.org/airo/incident/evidence/ccc2af9dd853> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445>,
+        <https://w3id.org/airo/incident/document/446>,
+        <https://w3id.org/airo/incident/document/448> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> .
+
+<https://w3id.org/airo/incident/evidence/05c56e5d0b3b> a airo:Evidence ;
+    airo:evidenceText "[444] It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID)." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/2ba5a85d5c19> a airo:Evidence ;
+    airo:evidenceText "[448] With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X." ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/46c746f32d6e> a airo:Evidence ;
+    airo:evidenceText "Apple’s Face ID, according to the company, is more secure than Touch ID." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/8a16e5933d37> a airo:Evidence ;
+    airo:evidenceText "[445] In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother's new iPhone X using its Face ID facial recognition security option." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/19693d24fa14> a airo:Evidence ;
+    airo:evidenceText "The tech is also equipped with an A11 bionic chip, which allows it to enlist machine learning to detect changes in a user’s appearance." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/3394bfea2294> a airo:Evidence ;
+    airo:evidenceText "In a video posted to Reddit on Friday (Nov. 3), two brothers demonstrate that they can both unlock one brother’s new iPhone X using its Face ID facial recognition security option." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/evidence/90e6e028c217> a airo:Evidence ;
+    airo:evidenceText "With both sets of twins, the other twin unlocked the iPhone X, even though neither one had registered his face with Face ID on the iPhone X." ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/1380b22784b7> a airo:Evidence ;
+    airo:evidenceText "Joanna Stern of the Wall Street Journal also tried to trip up the iPhone X, similar to Mashable." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/1f2ad65047b4> a airo:Evidence ;
+    airo:evidenceText "Alex Cranz with Gizmodo tested out Face ID and confirmed what a lot of us have probably already suspected: most of the time, Face ID works perfectly." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/6e5ee261dca1> a airo:Evidence ;
+    airo:evidenceText "Phil Schiller said at the time : \"The chance that a random person in the population could look at your iPhone X and unlock it with their face is about one in one million." ;
+    airo:sourceDocId "448" .
+
+<https://w3id.org/airo/incident/evidence/8b7e51d44120> a airo:Evidence ;
+    airo:evidenceText "Mashable experimented and found that the phone’s Face ID couldn’t distinguish between sets of identical twins: they could easily log into each other’s devices." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/bcfe9a729231> a airo:Evidence ;
+    airo:evidenceText "In the video posted by Mashable, two pairs of identical twin bothers put the iPhone X's Face ID to good use." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_253> a airo:AIRiskIncident ;
+    rdfs:label "The iPhone X’s archnemesis: identical twins" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/9cef0690a8d9> ;
+    airo:hasDescription "pred_253" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/e49e8a44d710>,
+        <https://w3id.org/airo/incident/Domain/af1c4160ca27>,
+        <https://w3id.org/airo/incident/evidence/abc96d3bde77>,
+        <https://w3id.org/airo/incident/evidence/c186f79c5fd5>,
+        <https://w3id.org/airo/incident/evidence/c8a5ad5937ed>,
+        <https://w3id.org/airo/incident/evidence/da804d2251d4>,
+        <https://w3id.org/airo/incident/evidence/f526b2e5d9ec> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/e38303406b7a> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/442>,
+        <https://w3id.org/airo/incident/NewsReport/444>,
+        <https://w3id.org/airo/incident/NewsReport/445>,
+        <https://w3id.org/airo/incident/NewsReport/446>,
+        <https://w3id.org/airo/incident/NewsReport/448> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/91047f35df15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445>,
+        <https://w3id.org/airo/incident/document/446>,
+        <https://w3id.org/airo/incident/document/448> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/18db4c9c6ddd>,
+        <https://w3id.org/airo/incident/AISystem/278e48eeef4a>,
+        <https://w3id.org/airo/incident/AISystem/2c79c14a5da9>,
+        <https://w3id.org/airo/incident/AISystem/5f262c104b86> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/04983ee3d07a>,
+        <https://w3id.org/airo/incident/Stakeholder/47f14aab92a7>,
+        <https://w3id.org/airo/incident/Stakeholder/a7f9b3d39f94>,
+        <https://w3id.org/airo/incident/Stakeholder/bb348bf4011a>,
+        <https://w3id.org/airo/incident/Stakeholder/dcac46808b02>,
+        <https://w3id.org/airo/incident/Stakeholder/eb0dda0dd610> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/0471b6811dd5> .
+
+<https://w3id.org/airo/incident/evidence/b9d7bc76f58a> a airo:Evidence ;
+    airo:evidenceText "It's the first Apple device to include Face ID, a face-mapping technology that can be used unlock the phone, verify Apple Pay, and essentially replaces the fingerprint scanner (or Touch ID)." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/AISystem/18db4c9c6ddd> a airo:AISystem ;
+    rdfs:label "Touch ID" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Touch ID" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46c746f32d6e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/AISystem/2c79c14a5da9> a airo:AISystem ;
+    rdfs:label "Face ID" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Face ID" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3394bfea2294>,
+        <https://w3id.org/airo/incident/evidence/64ec476713da>,
+        <https://w3id.org/airo/incident/evidence/90e6e028c217>,
+        <https://w3id.org/airo/incident/evidence/b9d7bc76f58a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/442>,
+        <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445>,
+        <https://w3id.org/airo/incident/document/448> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AISystem/5f262c104b86> a airo:AISystem ;
+    rdfs:label "Windows Hello" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Windows Hello Facial recognition technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706861bd049f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444> .
+
+<https://w3id.org/airo/incident/evidence/706861bd049f> a airo:Evidence ;
+    airo:evidenceText "This is, by the way, a test Microsoft says its Windows Hello Facial recognition technology reportedly didn't fail." ;
+    airo:sourceDocId "444" .
+
+<https://w3id.org/airo/incident/evidence/18bb717a61d9> a airo:Evidence ;
+    airo:evidenceText "When Apple announced its $1k iPhone X back in September, we learned they were ditching the home screen button log-in for something snazzier: facial recognition." ;
+    airo:sourceDocId "442" .
+
+<https://w3id.org/airo/incident/evidence/4f35e14ac319> a airo:Evidence ;
+    airo:evidenceText "This is Apple's attempt at conquering biometric security, and it could be either a huge success or a giant letdown." ;
+    airo:sourceDocId "446" .
+
+<https://w3id.org/airo/incident/evidence/ccc2af9dd853> a airo:Evidence ;
+    airo:evidenceText "As noted by 9to5Mac, Apple has stated that Face ID is an even more secure way to unlock an iPhone than Touch ID was, with there being a one in 1,000,000 chance of a different person being able to dupe its facial recognition software." ;
+    airo:sourceDocId "445" .
+
+<https://w3id.org/airo/incident/AISystem/278e48eeef4a> a airo:AISystem ;
+    rdfs:label "iPhone X" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/4988fac18b73>,
+        <https://w3id.org/airo/incident/AICapability/51e52bac90b7>,
+        <https://w3id.org/airo/incident/AICapability/c6be1cbf0fb4>,
+        <https://w3id.org/airo/incident/Purpose/9ddbcfdef262> ;
+    airo:hasDescription "iPhone X" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3394bfea2294>,
+        <https://w3id.org/airo/incident/evidence/4be80010f3d2>,
+        <https://w3id.org/airo/incident/evidence/90e6e028c217>,
+        <https://w3id.org/airo/incident/evidence/c40264d47adb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/444>,
+        <https://w3id.org/airo/incident/document/445>,
+        <https://w3id.org/airo/incident/document/446>,
+        <https://w3id.org/airo/incident/document/448> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/4fe3c6a693ca> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/03f92503c0e9>,
+        <https://w3id.org/airo/incident/AITechnique/d3eb345e0c44>,
+        <https://w3id.org/airo/incident/AITechnique/d958696fd8bb>,
+        <https://w3id.org/airo/incident/AITechnique/f18f45eecd11> .
+

@@ -1,0 +1,1700 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/b87f11793256> a airo:ComplianceRequirement ;
+    rdfs:label "comply with US regulations for autonomous vehicle operation" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d4dee50ad75> ;
+    airo:hasReasoning "Operating public taxis requires compliance with federal and state regulations for autonomous vehicles." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/EnforcementAction/0c19d62d45b0> a airo:EnforcementAction ;
+    rdfs:label "police traffic stop of autonomous vehicle" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee015211c7b4> ;
+    airo:hasReasoning "Police attempted to pull over the vehicle, which is an enforcement action, though it was not completed due to the vehicle's response." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> .
+
+<https://w3id.org/airo/incident/InformationSource/0bdff8f658b6> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1364>,
+        <https://w3id.org/airo/incident/NewsReport/1365>,
+        <https://w3id.org/airo/incident/NewsReport/1417>,
+        <https://w3id.org/airo/incident/NewsReport/1418>,
+        <https://w3id.org/airo/incident/NewsReport/1419> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1417>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/RiskControl/230b28198a6c> a airo:RiskControl ;
+    rdfs:label "dedicated communication channels between autonomous vehicle operator and law enforcement" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9ca766d76e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1417> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/4f46fedd4e8d> .
+
+<https://w3id.org/airo/incident/RoleAssignment/10ba9d4ad35b> a airo:RoleAssignment ;
+    rdfs:label "National Highway Traffic Safety Administration_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8d501f19d9> ;
+    airo:hasReasoning "NHTSA is a US federal agency that regulates motor vehicle safety, which includes autonomous vehicles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7a332c3de636> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2be146407fa3> a airo:RoleAssignment ;
+    rdfs:label "San Francisco Police Department_AIUser" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d01715b8bec> ;
+    airo:hasReasoning "The police interact directly with the AI system (the vehicle) as part of their duties." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d4a755f6b56a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2e55265bcb7e> a airo:RoleAssignment ;
+    rdfs:label "General Motors_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0ac7ed1026c> ;
+    airo:hasReasoning "General Motors, through Cruise, provides the autonomous taxi service to the public." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6ef43774ec87> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/38387c3ad31d> a airo:RoleAssignment ;
+    rdfs:label "San Francisco Police Department_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54679456b3f8> ;
+    airo:hasReasoning "The SFPD is a law enforcement agency that interacts with and regulates the operation of autonomous vehicles on public roads." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d4a755f6b56a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3bab5a7417cb> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4e25db3cf9b> ;
+    airo:hasReasoning "Cruise is the brand and company offering the public taxi service." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f1a3bea9bb24> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/665842bc45b0> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5a00d40d251> ;
+    airo:hasReasoning "Cruise is the specific unit that develops the AI and self-driving technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f1a3bea9bb24> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/748cdaf93e1b> a airo:RoleAssignment ;
+    rdfs:label "National Transportation Safety Board_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3561032a92e> ;
+    airo:hasReasoning "NTSB is a US federal agency that investigates transportation accidents, including those involving autonomous vehicles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bb82664ab4b4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/77b6b10bf51a> a airo:RoleAssignment ;
+    rdfs:label "General Motors_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5047c3f77> ;
+    airo:hasReasoning "General Motors is the parent company that owns and develops the Cruise self-driving technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6ef43774ec87> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a12158287648> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8b75395415c> ;
+    airo:hasReasoning "Cruise is the entity operating and deploying the vehicles in San Francisco." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f1a3bea9bb24> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d61c369dfd99> a airo:RoleAssignment ;
+    rdfs:label "General Motors_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1193c6adec5> ;
+    airo:hasReasoning "General Motors operates the vehicles in a specific location (San Francisco), making them the deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_234> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6ef43774ec87> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6> .
+
+<https://w3id.org/airo/incident/Trend/8bf0055a6c28> a airo:Trend ;
+    rdfs:label "increasing real-world incidents and regulatory scrutiny of autonomous vehicles" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d236212c1e> ;
+    airo:hasReasoning "An incident occurring shortly after deployment suggests a trend of real-world challenges as autonomous vehicles become more common." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/event/pred_234> a airo:AIRiskIncident ;
+    airo:firstSeen "2022-04-10T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2022-04-11T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/054b6c7f9d0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af643dcc3011> .
+
+<https://w3id.org/airo/incident/ks/0aada3ea5e0b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/0b02dea0cca8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/788de6c901c9> .
+
+<https://w3id.org/airo/incident/ks/0b169624da8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/0bca7c70063c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/0bcfaf3658b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccd5ba7142c> .
+
+<https://w3id.org/airo/incident/ks/0e4b69d4571f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8104dbf42581> .
+
+<https://w3id.org/airo/incident/ks/0e8f6e82d341> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/105e887e11d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/1090b94735f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84d384b895be> .
+
+<https://w3id.org/airo/incident/ks/14a87f547102> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/1797a306c59c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/17ac9f651f02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/597233159169> .
+
+<https://w3id.org/airo/incident/ks/186662c74f4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/1876c0d3b79a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e313c05c816f> .
+
+<https://w3id.org/airo/incident/ks/18f752d2a467> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/1cbd83882b05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/1dc04a9e03e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/1e9743708893> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f03569e53820> .
+
+<https://w3id.org/airo/incident/ks/1f6f92845ac6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> .
+
+<https://w3id.org/airo/incident/ks/202fd0bec76d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/203f0be90d65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bfdff8b11a6> .
+
+<https://w3id.org/airo/incident/ks/2316f1242aec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/260cdb0d5ae8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/264f7ac20aa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15217576f637> .
+
+<https://w3id.org/airo/incident/ks/285731629840> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6f604cd244f> .
+
+<https://w3id.org/airo/incident/ks/29b556be757c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/2b28c42d1ee8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5bf5bbc9ebb> .
+
+<https://w3id.org/airo/incident/ks/2c87a0627f4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/530a90a32b7e> .
+
+<https://w3id.org/airo/incident/ks/2db92b15dd40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccd5ba7142c> .
+
+<https://w3id.org/airo/incident/ks/2e6b1a361813> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c107084da70> .
+
+<https://w3id.org/airo/incident/ks/2e6bf2a75fb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/2ec4e4201af2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5104070f1d42> .
+
+<https://w3id.org/airo/incident/ks/2eed700814f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/2f5983857695> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/3127a398f474> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b30ff221d39c> .
+
+<https://w3id.org/airo/incident/ks/33a762a8ce12> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/340223c79365> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2fdebb4964e> .
+
+<https://w3id.org/airo/incident/ks/355ddf70bca2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/37862abf858d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9165f55b9489> .
+
+<https://w3id.org/airo/incident/ks/3792ec5b1dd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7aa795dc44c4> .
+
+<https://w3id.org/airo/incident/ks/38d50f818e51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/3adde4e8582f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/3b7cbea97ef8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4976519acf3> .
+
+<https://w3id.org/airo/incident/ks/3e920f7aa64a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/3f8e9a45b5cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/4187616d05d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d68a2c8acbed> .
+
+<https://w3id.org/airo/incident/ks/422736225aee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16321f93e7c1> .
+
+<https://w3id.org/airo/incident/ks/45282f0cb48c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/46522b55b4a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad62486826e1> .
+
+<https://w3id.org/airo/incident/ks/48fd9fb45dc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07f5a84082f4> .
+
+<https://w3id.org/airo/incident/ks/49223af06c25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/49c62468de9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/49e33cb35def> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/4ae4209a8199> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/4ce88790e1d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/506db9237931> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/5187f58769f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/017801fd9571> .
+
+<https://w3id.org/airo/incident/ks/53a6d39caeeb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/53b321bbde3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/53ce69b12826> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/babb361ceffb> .
+
+<https://w3id.org/airo/incident/ks/558429856c3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e313c05c816f> .
+
+<https://w3id.org/airo/incident/ks/558bfc54b69b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/5a32944ed380> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/5c22fb4e2572> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c79ebf40b937> .
+
+<https://w3id.org/airo/incident/ks/5cad4fff92f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/503d9f867942> .
+
+<https://w3id.org/airo/incident/ks/5e96cfc01872> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/60a73f9644ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/634396af06b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/639d82bd8218> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/64293b1586fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/6711458929e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/67dca686e1a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc29631dc5fe> .
+
+<https://w3id.org/airo/incident/ks/68a527cce6c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84018dba1797> .
+
+<https://w3id.org/airo/incident/ks/693891b9e87b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/6946257de8a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08eaac5fa8ee> .
+
+<https://w3id.org/airo/incident/ks/6bc3841e4dc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22af739e550c> .
+
+<https://w3id.org/airo/incident/ks/6c87a1041af9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e50e53472666> .
+
+<https://w3id.org/airo/incident/ks/7084582ed98b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/71705ca6a153> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/73a975dd96af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/768969881bb9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/79a44e0b7767> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8104dbf42581> .
+
+<https://w3id.org/airo/incident/ks/79be9eafe634> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> .
+
+<https://w3id.org/airo/incident/ks/7c50bd32fcbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/7d13ba2bdbc9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84d384b895be> .
+
+<https://w3id.org/airo/incident/ks/7e043c531d44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> .
+
+<https://w3id.org/airo/incident/ks/7ef78ac3f37c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/7f2aedb3fc6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/7faf7cd30aa4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8104dbf42581> .
+
+<https://w3id.org/airo/incident/ks/84adeef0d830> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdc5dead73b> .
+
+<https://w3id.org/airo/incident/ks/87a9817757a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/8c0f7e80b9f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fc4f48ded35> .
+
+<https://w3id.org/airo/incident/ks/8d2913f61bb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/925d14991caa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> .
+
+<https://w3id.org/airo/incident/ks/93d9af1bec75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c01aed3ab910> .
+
+<https://w3id.org/airo/incident/ks/94c165e61bb1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/958e7e3a3855> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/442f92711ad2> .
+
+<https://w3id.org/airo/incident/ks/96c9e26baba4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/442f92711ad2> .
+
+<https://w3id.org/airo/incident/ks/98ee3557fa71> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> .
+
+<https://w3id.org/airo/incident/ks/98fbd285712a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/82d496151e9e> .
+
+<https://w3id.org/airo/incident/ks/992215ad859a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/9fba319512b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2f16241ea67> .
+
+<https://w3id.org/airo/incident/ks/a068189c745a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/a0f1ea65eba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/a1799db38836> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bfdff8b11a6> .
+
+<https://w3id.org/airo/incident/ks/a1b4d757e087> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/a36f665b8f52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c489dd47b408> .
+
+<https://w3id.org/airo/incident/ks/a6de293afbf4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/abc68e4b322f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/ac532063a0ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/ad3d836f7aac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81593852103f> .
+
+<https://w3id.org/airo/incident/ks/ad5b485401be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d373a0a2c6c> .
+
+<https://w3id.org/airo/incident/ks/b4431fa7a0ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58b6533817af> .
+
+<https://w3id.org/airo/incident/ks/b5596517515c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> .
+
+<https://w3id.org/airo/incident/ks/b6a337f7f518> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/b73bd70c3549> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/b904087043ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3fa952a9510> .
+
+<https://w3id.org/airo/incident/ks/beb895af4e79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/beeb28ee0767> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0256e40c63a3> .
+
+<https://w3id.org/airo/incident/ks/c2707ddeb976> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b43ad65a8c65> .
+
+<https://w3id.org/airo/incident/ks/c4569aedd14c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/c5861d214db7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/c5a3e54158e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/c5c99f8210f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/d0a5f71d665a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fc4f48ded35> .
+
+<https://w3id.org/airo/incident/ks/d22d91ae339a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2f16241ea67> .
+
+<https://w3id.org/airo/incident/ks/d38b661ca253> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aac5b2393213> .
+
+<https://w3id.org/airo/incident/ks/d404f8b67d66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/d5a839f85e3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/d6de9f96ae1b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9ca766d76e1> .
+
+<https://w3id.org/airo/incident/ks/da292d02ce10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e96bf57dee0c> .
+
+<https://w3id.org/airo/incident/ks/da4fdf25603e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/47a768908beb> .
+
+<https://w3id.org/airo/incident/ks/db72937f523b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7977f86aca46> .
+
+<https://w3id.org/airo/incident/ks/dd04cc46e53f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/ddbd8d342e5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/e2378129158d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f442adf27fca> .
+
+<https://w3id.org/airo/incident/ks/e5192151418d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee015211c7b4> .
+
+<https://w3id.org/airo/incident/ks/e56591ace8c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/e68953ae5876> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c7febed31a> .
+
+<https://w3id.org/airo/incident/ks/e76edbe93cbc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/e85129b60047> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/ea0b6ca0317f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f78c1c65a215> .
+
+<https://w3id.org/airo/incident/ks/ea1afcae3ce8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00c231e0084f> .
+
+<https://w3id.org/airo/incident/ks/eb22e7c4d2ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8cefea24d474> .
+
+<https://w3id.org/airo/incident/ks/eb7c512c37ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b30ff221d39c> .
+
+<https://w3id.org/airo/incident/ks/eb889da917e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9233cffde6c8> .
+
+<https://w3id.org/airo/incident/ks/ee6cb417a5f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> .
+
+<https://w3id.org/airo/incident/ks/ee855e3b39c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/321ac037ee64> .
+
+<https://w3id.org/airo/incident/ks/f2be407079e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/002928cdf39b> .
+
+<https://w3id.org/airo/incident/ks/f38801868524> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/f41c8d49dfd0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53a760a268d7> .
+
+<https://w3id.org/airo/incident/ks/f5c35a2b703c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfc0795e6e39> .
+
+<https://w3id.org/airo/incident/ks/f5d0e9b77768> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8104dbf42581> .
+
+<https://w3id.org/airo/incident/ks/f6de71a50353> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c8f669b6225> .
+
+<https://w3id.org/airo/incident/AICapability/26957c90fc58> a airo:AICapability ;
+    rdfs:label "self-driving" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bfdff8b11a6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/1152b41b9baf> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e96bf57dee0c> ;
+    airo:hasReasoning "The system is actively operating and giving rides to the public, which indicates it is in the deployment phase of its lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/AITechnique/cd98d421f019> a airo:AITechnique ;
+    rdfs:label "LIDAR" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "LIDAR" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bfdff8b11a6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/AffectedActor/ac4c2259e8f2> a airo:AffectedActor ;
+    rdfs:label "San Francisco Police Department officers and general public" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/002928cdf39b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> .
+
+<https://w3id.org/airo/incident/Domain/9f74c1100307> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0256e40c63a3> ;
+    airo:hasReasoning "The AI system is used for public taxi rides, placing it squarely in the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/Hazard/15001fb5c867> a airo:Hazard ;
+    rdfs:label "autonomous vehicle operating without human driver to handle police stops" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdc5dead73b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> .
+
+<https://w3id.org/airo/incident/Obligation/10c3f3e32f38> a airo:Obligation ;
+    rdfs:label "maintain human oversight and communication protocols with law enforcement" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f442adf27fca> ;
+    airo:hasReasoning "The company states it works closely with police and has a dedicated phone line, implying an obligation to ensure safe interaction protocols." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/Purpose/cd898436e927> a airo:Purpose ;
+    rdfs:label "autonomous taxi transportation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d68a2c8acbed> ;
+    airo:hasReasoning "The evidence states that Cruise offers 'public taxi rides', indicating the AI system is designed for autonomous taxi transportation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/RiskSource/c02bd5da3065> a airo:RiskSource ;
+    rdfs:label "autonomous vehicle AI system's decision-making logic" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/4f46fedd4e8d> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/503d9f867942> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/15001fb5c867> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/acce21c5be30> .
+
+<https://w3id.org/airo/incident/Stakeholder/0a88825e79b5> a airo:Stakeholder ;
+    rdfs:label "Scottish Law Commission" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Scottish Law Commission" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccd5ba7142c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1417> .
+
+<https://w3id.org/airo/incident/Stakeholder/1876151536ab> a airo:Stakeholder ;
+    rdfs:label "Law Commission of England and Wales" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Law Commission of England and Wales" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccd5ba7142c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1417> .
+
+<https://w3id.org/airo/incident/Stakeholder/3dce2e3b2bfd> a airo:Stakeholder ;
+    rdfs:label "Thatcham Research" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Thatcham Research" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/530a90a32b7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1417> .
+
+<https://w3id.org/airo/incident/Stakeholder/550b619b476a> a airo:Stakeholder ;
+    rdfs:label "Walmart" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Walmart" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fc4f48ded35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> .
+
+<https://w3id.org/airo/incident/Stakeholder/7e37c4be2e08> a airo:Stakeholder ;
+    rdfs:label "Uber" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uber" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e313c05c816f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/Stakeholder/b6e91ce1a603> a airo:Stakeholder ;
+    rdfs:label "Volvo" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Volvo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/Threat/acce21c5be30> a airo:Threat ;
+    rdfs:label "law enforcement traffic stop procedures not fully aligned with autonomous vehicle protocols" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/321ac037ee64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/Vulnerability/89c4d5eb0bce> a airo:Vulnerability ;
+    rdfs:label "autonomous vehicle's limited ability to communicate intentions during non-standard traffic interactions" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f03569e53820> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/evidence/007d8bb1f196> a airo:Evidence ;
+    airo:evidenceText "Driverless car starts to pull away after being stopped by police" ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/00c231e0084f> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/0433d1063fe5> a airo:Evidence ;
+    airo:evidenceText "As Cruise spokesperson Aaron Mclear explained to The Verge, the autonomous vehicle didn’t drive away to escape from police — it was trying to find a safer location to pull over in, a move that most human drivers can’t get away with so easily." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/07f5a84082f4> a airo:Evidence ;
+    airo:evidenceText "[1365] Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/08eaac5fa8ee> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/0c107084da70> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/144f529cc8ed> a airo:Evidence ;
+    airo:evidenceText "An autonomous Cruise vehicle left police confused when they tried to pull it over" ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/16321f93e7c1> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/1b8d501f19d9> a airo:Evidence ;
+    airo:evidenceText "[1419] Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/22af739e550c> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/24bcc89c1a80> a airo:Evidence ;
+    airo:evidenceText "Video of Police Pulling Over Driverless Car Viewed 1.2 Million Times" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/25d236212c1e> a airo:Evidence ;
+    airo:evidenceText "[1365] It’s been a little over two months since Cruise started letting the people of San Francisco catch rides on its driverless robotaxis, and one of its cars already had a run-in with police." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/261db68f1182> a airo:Evidence ;
+    airo:evidenceText "GM Cruise autonomous taxi pulled over by police in San Francisco without humans, 'bolts' off" ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/3c8f669b6225> a airo:Evidence ;
+    airo:evidenceText "[1365] Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/3d4dee50ad75> a airo:Evidence ;
+    airo:evidenceText "[1419] Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/43e5047c3f77> a airo:Evidence ;
+    airo:evidenceText "[1418] a self-driving car belonging to General Motors' Cruise line" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/47a768908beb> a airo:Evidence ;
+    airo:evidenceText "[1418] a self-driving car belonging to General Motors' Cruise line" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/4d01715b8bec> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/5104070f1d42> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/54679456b3f8> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/58b6533817af> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/597233159169> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/7111d5813305> a airo:Evidence ;
+    airo:evidenceText "In a video originally posted to Instagram last weekend, the user captures the awkward — and somewhat comical — interaction between the San Francisco Police Department and the autonomous vehicle after it’s pulled over for not having its lights on." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/7977f86aca46> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/7aa795dc44c4> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/7d373a0a2c6c> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/821eb1bc1f24> a airo:Evidence ;
+    airo:evidenceText "In the video, an SFPD officer gets out of the police car and a voice can be heard saying \"Ain't nobody in it.\"" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/84018dba1797> a airo:Evidence ;
+    airo:evidenceText "[1418] a self-driving car belonging to General Motors' Cruise line" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/8949dc09218a> a airo:Evidence ;
+    airo:evidenceText "Here’s what happens when cops pull over a driverless Cruise vehicle" ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/9165f55b9489> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/953c5a7d2df8> a airo:Evidence ;
+    airo:evidenceText "It’s been a little over two months since Cruise started letting the people of San Francisco catch rides on its driverless robotaxis, and one of its cars already had a run-in with police." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/a0ac7ed1026c> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/a3561032a92e> a airo:Evidence ;
+    airo:evidenceText "[1419] Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/ad62486826e1> a airo:Evidence ;
+    airo:evidenceText "[1365] Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/af643dcc3011> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/b43ad65a8c65> a airo:Evidence ;
+    airo:evidenceText "[1418] a self-driving car belonging to General Motors' Cruise line" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/b4e25db3cf9b> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/b5a00d40d251> a airo:Evidence ;
+    airo:evidenceText "[1365] Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/b6f604cd244f> a airo:Evidence ;
+    airo:evidenceText "[1365] Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/babb361ceffb> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/bc29631dc5fe> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/c01aed3ab910> a airo:Evidence ;
+    airo:evidenceText "[1418] a self-driving car belonging to General Motors' Cruise line" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/c3fa952a9510> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/c5bf5bbc9ebb> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/c79ebf40b937> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/cfc0795e6e39> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/cfe32c957377> a airo:Evidence ;
+    airo:evidenceText "Cruise responded to Electrek's journalist Seth Weintraub sharing the viral clip on Twitter by saying that \"our AV yielded to the police vehicle, then pulled over to the nearest safe location for the traffic stop, as intended.\"" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/e1193c6adec5> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/e50e53472666> a airo:Evidence ;
+    airo:evidenceText "[1419] GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/e8b75395415c> a airo:Evidence ;
+    airo:evidenceText "[1364] GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/f35927baceef> a airo:Evidence ;
+    airo:evidenceText "We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/Consequence/b1cfa30225a3> a airo:Consequence ;
+    rdfs:label "temporary vehicle flight during police traffic stop attempt" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84d384b895be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/e88696b1410b> .
+
+<https://w3id.org/airo/incident/Impact/e88696b1410b> a airo:Impact ;
+    rdfs:label "public confusion and potential safety concerns about autonomous vehicle interactions with law enforcement" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/ac4c2259e8f2> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/442f92711ad2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/NewsReport/1364> a airo:NewsReport ;
+    rdfs:label "GM Cruise autonomous taxi pulled over by police in San Francisco without humans, 'bolts' off" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Over the weekend, a GM Cruise converted Chevy Bolt without a driver was pulled over by San Francisco Police. In an unexpected turn, the car “bolted” to a safe spot. Cruise responded.
+
+The original Ins""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/017801fd9571> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> .
+
+<https://w3id.org/airo/incident/NewsReport/1365> a airo:NewsReport ;
+    rdfs:label "Here’s what happens when cops pull over a driverless Cruise vehicle" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "It’s been a little over two months since Cruise started letting the people of San Francisco catch rides on its driverless robotaxis, and one of its cars already had a run-in with police. In a video or" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/82d496151e9e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/NewsReport/1417> a airo:NewsReport ;
+    rdfs:label "Driverless car starts to pull away after being stopped by police" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """The incident highlights legal challenges around road safety and autonomous vehicles, especially when there is no driver at the wheel.
+
+A video which has gone viral shows a driverless car start to pull""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15217576f637> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1417> .
+
+<https://w3id.org/airo/incident/NewsReport/1418> a airo:NewsReport ;
+    rdfs:label "Video of Police Pulling Over Driverless Car Viewed 1.2 Million Times" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A video of a driverless car being pulled over by police in San Francisco has been watched more than 1.2 million times.
+
+B.rad916 posted a clip on Instagram of a self-driving car belonging to General M""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4976519acf3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> .
+
+<https://w3id.org/airo/incident/NewsReport/1419> a airo:NewsReport ;
+    rdfs:label "An autonomous Cruise vehicle left police confused when they tried to pull it over" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """The future is a weird place.
+
+Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco. And for the most part, it seems the service hasn’t run into any notable prob""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c489dd47b408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1419> .
+
+<https://w3id.org/airo/incident/Regulation/3ab39eef7513> a airo:Regulation ;
+    rdfs:label "US. regulations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "US. regulations" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b30ff221d39c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/10c3f3e32f38> .
+
+<https://w3id.org/airo/incident/Stakeholder/7a332c3de636> a airo:Stakeholder ;
+    rdfs:label "National Highway Traffic Safety Administration" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NHTSA" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8104dbf42581> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> .
+
+<https://w3id.org/airo/incident/Stakeholder/bb82664ab4b4> a airo:Stakeholder ;
+    rdfs:label "National Transportation Safety Board" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Transportation Safety Board (NTSB)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/793bd52c3492> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/evidence/002928cdf39b> a airo:Evidence ;
+    airo:evidenceText "B.rad916 posted a clip on Instagram of a self-driving car belonging to General Motors' Cruise line interacting with San Francisco Police Department officers." ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/017801fd9571> a airo:Evidence ;
+    airo:evidenceText "GM Cruise autonomous taxi pulled over by police in San Francisco without humans, 'bolts' off" ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/0256e40c63a3> a airo:Evidence ;
+    airo:evidenceText "[1419] Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/15217576f637> a airo:Evidence ;
+    airo:evidenceText "Driverless car starts to pull away after being stopped by police" ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/321ac037ee64> a airo:Evidence ;
+    airo:evidenceText "It shows San Francisco police attempting to pull over a driverless Cruise vehicle in the city's Richmond District, only for the car to temporarily take off as a group of onlookers watch the scene in disbelief." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/503d9f867942> a airo:Evidence ;
+    airo:evidenceText "Cruise responded to Electrek's journalist Seth Weintraub sharing the viral clip on Twitter by saying that \"our AV yielded to the police vehicle, then pulled over to the nearest safe location for the traffic stop, as intended.\"" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/530a90a32b7e> a airo:Evidence ;
+    airo:evidenceText "Matthew Avery, chief research strategy officer at road safety organisation Thatcham Research, which consulted for the report, warned the transition to self-driving vehicles is \"fraught with risk\"." ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/788de6c901c9> a airo:Evidence ;
+    airo:evidenceText "Cruise vehicles have been operating in San Francisco autonomously for months seemingly without incident and have recently been joined by Google’s Waymo vehicles." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/82d496151e9e> a airo:Evidence ;
+    airo:evidenceText "Here’s what happens when cops pull over a driverless Cruise vehicle" ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/b4976519acf3> a airo:Evidence ;
+    airo:evidenceText "Video of Police Pulling Over Driverless Car Viewed 1.2 Million Times" ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/bcdc5dead73b> a airo:Evidence ;
+    airo:evidenceText "Over the weekend, a GM Cruise converted Chevy Bolt without a driver was pulled over by San Francisco Police." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/c489dd47b408> a airo:Evidence ;
+    airo:evidenceText "An autonomous Cruise vehicle left police confused when they tried to pull it over" ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/d68a2c8acbed> a airo:Evidence ;
+    airo:evidenceText "[1419] Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/d9ca766d76e1> a airo:Evidence ;
+    airo:evidenceText "We work closely with the San Francisco Police Department (SFPD) on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this, the company added." ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/e96bf57dee0c> a airo:Evidence ;
+    airo:evidenceText "[1365] It’s been a little over two months since Cruise started letting the people of San Francisco catch rides on its driverless robotaxis, and one of its cars already had a run-in with police." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/ee015211c7b4> a airo:Evidence ;
+    airo:evidenceText "[1419] It shows San Francisco police attempting to pull over a driverless Cruise vehicle in the city’s Richmond District, only for the car to temporarily take off as a group of onlookers watch the scene in disbelief." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/f03569e53820> a airo:Evidence ;
+    airo:evidenceText "As Cruise spokesperson Aaron Mclear explained to The Verge, the autonomous vehicle didn't drive away to escape from police — it was trying to find a safer location to pull over in, a move that most human drivers can't get away with so easily." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/f442adf27fca> a airo:Evidence ;
+    airo:evidenceText "[1419] We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/Risk/4f46fedd4e8d> a airo:Risk ;
+    rdfs:label "risk of autonomous vehicle misinterpreting police interaction protocols" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2f16241ea67> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/b1cfa30225a3> .
+
+<https://w3id.org/airo/incident/Stakeholder/d4a755f6b56a> a airo:Stakeholder ;
+    rdfs:label "San Francisco Police Department" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7111d5813305>,
+        <https://w3id.org/airo/incident/evidence/74c7febed31a>,
+        <https://w3id.org/airo/incident/evidence/7d8a1ab31cdf>,
+        <https://w3id.org/airo/incident/evidence/81593852103f>,
+        <https://w3id.org/airo/incident/evidence/821eb1bc1f24>,
+        <https://w3id.org/airo/incident/evidence/9233cffde6c8>,
+        <https://w3id.org/airo/incident/evidence/d2fdebb4964e>,
+        <https://w3id.org/airo/incident/evidence/f35927baceef> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1417>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> ;
+    airo:hasSupportCount 5 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> .
+
+<https://w3id.org/airo/incident/evidence/442f92711ad2> a airo:Evidence ;
+    airo:evidenceText "In a video originally posted to Instagram last weekend, the user captures the awkward — and somewhat comical — interaction between the San Francisco Police Department and the autonomous vehicle after it's pulled over for not having its lights on." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/84d384b895be> a airo:Evidence ;
+    airo:evidenceText "It shows San Francisco police attempting to pull over a driverless Cruise vehicle in the city's Richmond District, only for the car to temporarily take off as a group of onlookers watch the scene in disbelief." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/a2f16241ea67> a airo:Evidence ;
+    airo:evidenceText "In a video originally posted to Instagram last weekend, the user captures the awkward — and somewhat comical — interaction between the San Francisco Police Department and the autonomous vehicle after it's pulled over for not having its lights on." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/b30ff221d39c> a airo:Evidence ;
+    airo:evidenceText "According to U.S. regulations, driverless cars must respect the same standards of safety required by traditional passenger cars." ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/d2fdebb4964e> a airo:Evidence ;
+    airo:evidenceText "Over the weekend, a GM Cruise converted Chevy Bolt without a driver was pulled over by San Francisco Police." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/Stakeholder/6ef43774ec87> a airo:Stakeholder ;
+    rdfs:label "General Motors" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GM" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc>,
+        <https://w3id.org/airo/incident/evidence/4bfdff8b11a6>,
+        <https://w3id.org/airo/incident/evidence/9233cffde6c8>,
+        <https://w3id.org/airo/incident/evidence/aac5b2393213> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> ;
+    airo:hasSupportCount 4 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> .
+
+<https://w3id.org/airo/incident/Stakeholder/f1a3bea9bb24> a airo:Stakeholder ;
+    rdfs:label "Cruise" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Cruise" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0433d1063fe5>,
+        <https://w3id.org/airo/incident/evidence/53a760a268d7>,
+        <https://w3id.org/airo/incident/evidence/8cefea24d474>,
+        <https://w3id.org/airo/incident/evidence/cfe32c957377>,
+        <https://w3id.org/airo/incident/evidence/f78c1c65a215> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1417>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> .
+
+<https://w3id.org/airo/incident/evidence/8fc4f48ded35> a airo:Evidence ;
+    airo:evidenceText "The vehicle, a GM Cruise-converted Chevy Bolt, was one of the several company's self-driving cars GM has used since 2017 to give its employees rides around the city, and now also deploys to deliver Walmart groceries.",
+        "The vehicle, a GM Cruise-converted Chevy Bolt, was one of the several company's self-driving cars GM has used since 2017 to give its employees rides around the city." ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/e313c05c816f> a airo:Evidence ;
+    airo:evidenceText "In 2018, a self-driving Uber vehicle struck and killed a pedestrian walking her bike across the road in Tempe, Arizona." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/eccd5ba7142c> a airo:Evidence ;
+    airo:evidenceText "The Law Commission of England and Wales, and the Scottish Law Commission, want legal protections to be introduced for owners of self-driving cars if anything goes wrong with the automation." ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/4bfdff8b11a6> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors, uses LIDAR technology to power its vehicles’ self-driving capabilities." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/evidence/8104dbf42581> a airo:Evidence ;
+    airo:evidenceText "Brian @NHTSArecalls @NHTSAgov" ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/793bd52c3492> a airo:Evidence ;
+    airo:evidenceText "Subsequent investigations from the National Transportation Safety Board (NTSB) found that Uber turned off Volvo’s factory emergency braking system to prevent any interaction with Uber’s self-driving software, but it’s unclear whether that contributed to the crash." ;
+    airo:sourceDocId "1365" .
+
+<https://w3id.org/airo/incident/AISystem/64a8cf44fdad> a airo:AISystem ;
+    rdfs:label "Uber Self-Driving Vehicle" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving Uber vehicle" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e313c05c816f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1365> .
+
+<https://w3id.org/airo/incident/AISystem/75c0f48169e2> a airo:AISystem ;
+    rdfs:label "Cruise Chevy Bolt" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GM Cruise-converted Chevy Bolt" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fc4f48ded35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1418> .
+
+<https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> a airo:AISystem ;
+    rdfs:label "Waymo autonomous vehicle" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google’s Waymo vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/788de6c901c9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364> .
+
+<https://w3id.org/airo/incident/evidence/74c7febed31a> a airo:Evidence ;
+    airo:evidenceText "We work closely with the San Francisco Police Department (SFPD) on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this, the company added." ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/evidence/7d8a1ab31cdf> a airo:Evidence ;
+    airo:evidenceText "It shows San Francisco police attempting to pull over a driverless Cruise vehicle in the city’s Richmond District, only for the car to temporarily take off as a group of onlookers watch the scene in disbelief." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/81593852103f> a airo:Evidence ;
+    airo:evidenceText "“We work closely with the SFPD on how to interact with our vehicles, including a dedicated phone number for them to call in situations like this.”" ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_234> a airo:AIRiskIncident ;
+    rdfs:label "Here’s what happens when cops pull over a driverless Cruise vehicle" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/3ab39eef7513> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/b1cfa30225a3> ;
+    airo:hasDescription "pred_234" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/1152b41b9baf>,
+        <https://w3id.org/airo/incident/Domain/9f74c1100307>,
+        <https://w3id.org/airo/incident/evidence/007d8bb1f196>,
+        <https://w3id.org/airo/incident/evidence/144f529cc8ed>,
+        <https://w3id.org/airo/incident/evidence/24bcc89c1a80>,
+        <https://w3id.org/airo/incident/evidence/261db68f1182>,
+        <https://w3id.org/airo/incident/evidence/8949dc09218a> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/e88696b1410b> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1364>,
+        <https://w3id.org/airo/incident/NewsReport/1365>,
+        <https://w3id.org/airo/incident/NewsReport/1417>,
+        <https://w3id.org/airo/incident/NewsReport/1418>,
+        <https://w3id.org/airo/incident/NewsReport/1419> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/4f46fedd4e8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1417>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/51c697c33aa6>,
+        <https://w3id.org/airo/incident/AISystem/64a8cf44fdad>,
+        <https://w3id.org/airo/incident/AISystem/75c0f48169e2>,
+        <https://w3id.org/airo/incident/AISystem/a3d6643f4d7e> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0a88825e79b5>,
+        <https://w3id.org/airo/incident/Stakeholder/1876151536ab>,
+        <https://w3id.org/airo/incident/Stakeholder/3dce2e3b2bfd>,
+        <https://w3id.org/airo/incident/Stakeholder/550b619b476a>,
+        <https://w3id.org/airo/incident/Stakeholder/6ef43774ec87>,
+        <https://w3id.org/airo/incident/Stakeholder/7a332c3de636>,
+        <https://w3id.org/airo/incident/Stakeholder/7e37c4be2e08>,
+        <https://w3id.org/airo/incident/Stakeholder/b6e91ce1a603>,
+        <https://w3id.org/airo/incident/Stakeholder/bb82664ab4b4>,
+        <https://w3id.org/airo/incident/Stakeholder/d4a755f6b56a>,
+        <https://w3id.org/airo/incident/Stakeholder/f1a3bea9bb24> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/c02bd5da3065> .
+
+<https://w3id.org/airo/incident/evidence/53a760a268d7> a airo:Evidence ;
+    airo:evidenceText "Update: Cruise just responded:" ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/8cefea24d474> a airo:Evidence ;
+    airo:evidenceText "1 day after Weintraub shared the video, Cruise commented on the clip, stating its vehicle yielded to police and moved to the nearest safe location for that traffic stop." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/aac5b2393213> a airo:Evidence ;
+    airo:evidenceText "GM’s Cruise vehicles have been operating autonomously in San Francisco at night, giving rides to employees around the city." ;
+    airo:sourceDocId "1364" .
+
+<https://w3id.org/airo/incident/evidence/0bd1b3b7bacc> a airo:Evidence ;
+    airo:evidenceText "Since February, GM’s Cruise self-driving unit has offered public taxi rides in San Francisco." ;
+    airo:sourceDocId "1419" .
+
+<https://w3id.org/airo/incident/evidence/9233cffde6c8> a airo:Evidence ;
+    airo:evidenceText "B.rad916 posted a clip on Instagram of a self-driving car belonging to General Motors' Cruise line interacting with San Francisco Police Department officers." ;
+    airo:sourceDocId "1418" .
+
+<https://w3id.org/airo/incident/evidence/f78c1c65a215> a airo:Evidence ;
+    airo:evidenceText "The car, owned and operated by a company called Cruise in San Francisco, is based on a Chevy Bolt chassis - although the company plans to launch a completely original vehicle soon." ;
+    airo:sourceDocId "1417" .
+
+<https://w3id.org/airo/incident/AISystem/51c697c33aa6> a airo:AISystem ;
+    rdfs:label "Cruise" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/3ab39eef7513> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/26957c90fc58>,
+        <https://w3id.org/airo/incident/Purpose/cd898436e927> ;
+    airo:hasDescription "Cruise" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bd1b3b7bacc>,
+        <https://w3id.org/airo/incident/evidence/9233cffde6c8>,
+        <https://w3id.org/airo/incident/evidence/953c5a7d2df8>,
+        <https://w3id.org/airo/incident/evidence/d2fdebb4964e>,
+        <https://w3id.org/airo/incident/evidence/f78c1c65a215> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1364>,
+        <https://w3id.org/airo/incident/document/1365>,
+        <https://w3id.org/airo/incident/document/1417>,
+        <https://w3id.org/airo/incident/document/1418>,
+        <https://w3id.org/airo/incident/document/1419> ;
+    airo:hasSupportCount 5 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/89c4d5eb0bce> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/cd98d421f019> .
+

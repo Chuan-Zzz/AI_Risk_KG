@@ -1,0 +1,1037 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/617e9f3351c7> a airo:ComplianceRequirement ;
+    rdfs:label "obtain safety approval from Commissioner for Metro Rail Safety" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e505bce9b6c> ;
+    airo:hasReasoning "The evidence shows a compliance requirement to get safety approval from CMRS before operating the line." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/EnforcementAction/d6ea685acdd4> a airo:EnforcementAction ;
+    rdfs:label "government report request" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54c520807d17> ;
+    airo:hasReasoning "The Delhi government is taking an enforcement action by formally requesting a report on the incident." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> .
+
+<https://w3id.org/airo/incident/InformationSource/4dc364e56214> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/406>,
+        <https://w3id.org/airo/incident/NewsReport/407>,
+        <https://w3id.org/airo/incident/NewsReport/408>,
+        <https://w3id.org/airo/incident/NewsReport/410> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/407>,
+        <https://w3id.org/airo/incident/document/408>,
+        <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/Obligation/3cd429d6b3a4> a airo:Obligation ;
+    rdfs:label "conduct safety enquiry after incident" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6387bb7defc8> ;
+    airo:hasReasoning "The DMRC is conducting an internal enquiry following the accident, which is a governance obligation to investigate failures." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/RiskControl/1b02e03c0f83> a airo:RiskControl ;
+    rdfs:label "Initiation of a high-level formal inquiry" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9f1e8cae0c6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/c3b0badf0229> .
+
+<https://w3id.org/airo/incident/RoleAssignment/31c5f3d1fba0> a airo:RoleAssignment ;
+    rdfs:label "NDTV_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a2548b764e3> ;
+    airo:hasReasoning "NDTV is a news organization reporting on the event; it does not have a direct role as developer, provider, deployer, user, regulator, or affected actor in the AI system's lifecycle." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c930531c19a3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/38f8eb9b0fa0> a airo:RoleAssignment ;
+    rdfs:label "ANI_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7029fbaf6263> ;
+    airo:hasReasoning "ANI is a news agency reporting on the event; it does not have a direct role in the AI system's lifecycle." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fab09b6ec4f9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/598605b84fe9> a airo:RoleAssignment ;
+    rdfs:label "Delhi Metro Rail Corporation_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9daacbd7292> ;
+    airo:hasReasoning "DMRC is the organization operating and deploying the driverless train system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d5d705798367> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6156e27e4a73> a airo:RoleAssignment ;
+    rdfs:label "Mangu Singh_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09d5c0fc4b5f> ;
+    airo:hasReasoning "As Managing Director of DMRC, Mangu Singh is a key figure in the organization deploying the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e2c69a716822> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d60e2af3202> a airo:RoleAssignment ;
+    rdfs:label "Japan International Cooperation Agency_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd8f25314c2a> ;
+    airo:hasReasoning "JICA is mentioned as a potential funding agency; this is a financial stakeholder, not directly involved in AI development, provision, deployment, use, or regulation." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f66798d561d6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/82e3000d5896> a airo:RoleAssignment ;
+    rdfs:label "Commissioner for Metro Rail Safety (CMRS)_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8726d6ba96a> ;
+    airo:hasReasoning "CMRS is a safety regulatory authority that granted approval for the line, indicating a regulatory role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d60e6c49622f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9b3d00b9a6f7> a airo:RoleAssignment ;
+    rdfs:label "Narendra Modi_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36d867f00e37> ;
+    airo:hasReasoning "Narendra Modi is mentioned as the inaugurator of the line; this is a ceremonial role, not a direct role in the AI system's lifecycle." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f7dbde5ca563> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bb4b488252d7> a airo:RoleAssignment ;
+    rdfs:label "Delhi Government_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb23fad533de> ;
+    airo:hasReasoning "The Delhi government is seeking a report and commenting on safety, indicating a regulatory oversight role over the DMRC." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8158febdfb00> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d6cf04c4b3ab> a airo:RoleAssignment ;
+    rdfs:label "Hyundai Rotem_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d69e5b3aa895> ;
+    airo:hasReasoning "Hyundai Rotem manufactured (provided) the train sets, making them the AI provider for this physical system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/40258f8c8340> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f0e530706cd3> a airo:RoleAssignment ;
+    rdfs:label "Kailash Gahlot_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab1936d74090> ;
+    airo:hasReasoning "As Transport Minister, Kailash Gahlot is a government official exercising regulatory oversight and demanding accountability." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_367> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4cda9d9104e7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/Trend/3cd7a515ccfd> a airo:Trend ;
+    rdfs:label "increasing deployment of autonomous transportation systems" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0363010a81d5> ;
+    airo:hasReasoning "The evidence points to a trend of deploying driverless/unmanned trains in public transportation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/event/pred_367> a airo:AIRiskIncident ;
+    airo:firstSeen "2017-12-19T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2019-04-11T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/027009cf95a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19db819fabbb> .
+
+<https://w3id.org/airo/incident/ks/031f8ba4ebdd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d15fb5f6589> .
+
+<https://w3id.org/airo/incident/ks/07f9d79149bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/083a6001157d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8605d65575> .
+
+<https://w3id.org/airo/incident/ks/08e6b6c73e05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dbf230349c00> .
+
+<https://w3id.org/airo/incident/ks/0dbd2bac7733> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7a86313a6ba> .
+
+<https://w3id.org/airo/incident/ks/0e39695d8559> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5fe52da8b89> .
+
+<https://w3id.org/airo/incident/ks/10b2b9ec1470> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd529074a5ad> .
+
+<https://w3id.org/airo/incident/ks/13064bdbc611> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60d2b8f8e5fc> .
+
+<https://w3id.org/airo/incident/ks/16b212f34dcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/1944b6ce69be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> .
+
+<https://w3id.org/airo/incident/ks/1c334429966a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c045e152f6> .
+
+<https://w3id.org/airo/incident/ks/21012bf9ccd0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e76a53541868> .
+
+<https://w3id.org/airo/incident/ks/28045ae36ad2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8605d65575> .
+
+<https://w3id.org/airo/incident/ks/293810eb10ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/2b6400a2dde8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda4febc9db1> .
+
+<https://w3id.org/airo/incident/ks/2c71fb92db5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6de01f413840> .
+
+<https://w3id.org/airo/incident/ks/30d629ae54d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9611f5920991> .
+
+<https://w3id.org/airo/incident/ks/33afb578610b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2e02a6e989f> .
+
+<https://w3id.org/airo/incident/ks/352ac32e484c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11a8ca8f187e> .
+
+<https://w3id.org/airo/incident/ks/3590f015e970> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc5f85f8f29> .
+
+<https://w3id.org/airo/incident/ks/3a347b206a25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/922bf222230a> .
+
+<https://w3id.org/airo/incident/ks/3aae2d7be812> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dfed3813d8d2> .
+
+<https://w3id.org/airo/incident/ks/3b060d62c62e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9f1e8cae0c6> .
+
+<https://w3id.org/airo/incident/ks/3baa307d7ec0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d15fb5f6589> .
+
+<https://w3id.org/airo/incident/ks/430c7d1c0feb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e76a53541868> .
+
+<https://w3id.org/airo/incident/ks/4c3cd6206108> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11a8ca8f187e> .
+
+<https://w3id.org/airo/incident/ks/55e63c8b2576> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/907edc9daf1c> .
+
+<https://w3id.org/airo/incident/ks/56995b100874> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2e02a6e989f> .
+
+<https://w3id.org/airo/incident/ks/56a138301a2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda4febc9db1> .
+
+<https://w3id.org/airo/incident/ks/56ca2b0e9950> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda4febc9db1> .
+
+<https://w3id.org/airo/incident/ks/576562ab9b19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> .
+
+<https://w3id.org/airo/incident/ks/581c8eceb3f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6de01f413840> .
+
+<https://w3id.org/airo/incident/ks/5a36008e59d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb37b7e1f410> .
+
+<https://w3id.org/airo/incident/ks/5fbcac435622> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54c520807d17> .
+
+<https://w3id.org/airo/incident/ks/652f0ab0ef27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19db819fabbb> .
+
+<https://w3id.org/airo/incident/ks/77349a18daee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/922bf222230a> .
+
+<https://w3id.org/airo/incident/ks/7869d5de6820> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/78814790cb13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5333a18a7b87> .
+
+<https://w3id.org/airo/incident/ks/79ebe00df2ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd58d35c83c1> .
+
+<https://w3id.org/airo/incident/ks/808d5ba9821d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2e02a6e989f> .
+
+<https://w3id.org/airo/incident/ks/8308ef8baaa1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/842bebfb2edd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda4febc9db1> .
+
+<https://w3id.org/airo/incident/ks/8afe8a0e5377> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19db819fabbb> .
+
+<https://w3id.org/airo/incident/ks/8cc2e7214451> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bb9df0f973b> .
+
+<https://w3id.org/airo/incident/ks/92d4dd770a92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/907edc9daf1c> .
+
+<https://w3id.org/airo/incident/ks/952c673d5509> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/922bf222230a> .
+
+<https://w3id.org/airo/incident/ks/9c8658eb36fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ce829930fd0> .
+
+<https://w3id.org/airo/incident/ks/9fedbfbda439> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11a8ca8f187e> .
+
+<https://w3id.org/airo/incident/ks/b195f091e248> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc595ff544b5> .
+
+<https://w3id.org/airo/incident/ks/b780bb6ceded> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> .
+
+<https://w3id.org/airo/incident/ks/b8616e5edb45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb37b7e1f410> .
+
+<https://w3id.org/airo/incident/ks/b8bf0a15d826> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fbd6b786a8d0> .
+
+<https://w3id.org/airo/incident/ks/bc9eae5aa050> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/907edc9daf1c> .
+
+<https://w3id.org/airo/incident/ks/bf50640a700f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d15fb5f6589> .
+
+<https://w3id.org/airo/incident/ks/c2c4a399b82a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19db819fabbb> .
+
+<https://w3id.org/airo/incident/ks/c6964953d5e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d15fb5f6589> .
+
+<https://w3id.org/airo/incident/ks/ca4733f45bb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8605d65575> .
+
+<https://w3id.org/airo/incident/ks/cae2d70bc652> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8605d65575> .
+
+<https://w3id.org/airo/incident/ks/cc2675554ac1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/d343f080622d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> .
+
+<https://w3id.org/airo/incident/ks/d5d1b6afcdcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cac6563fb440> .
+
+<https://w3id.org/airo/incident/ks/da8bbddf5041> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11a8ca8f187e> .
+
+<https://w3id.org/airo/incident/ks/db419919b41f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/dbccf8b1c1f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6de01f413840> .
+
+<https://w3id.org/airo/incident/ks/dcc520c1727a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9611f5920991> .
+
+<https://w3id.org/airo/incident/ks/e59581e1ce24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e76a53541868> .
+
+<https://w3id.org/airo/incident/ks/e66aef9f8c2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2e02a6e989f> .
+
+<https://w3id.org/airo/incident/ks/e78d499027a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42bf88d791e6> .
+
+<https://w3id.org/airo/incident/ks/e86ebfcc1bf9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e76a53541868> .
+
+<https://w3id.org/airo/incident/ks/e9c40eef9ccd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c2dec767a80> .
+
+<https://w3id.org/airo/incident/ks/eb24aef38183> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bba285a49b8a> .
+
+<https://w3id.org/airo/incident/ks/ee5051bbc205> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6de01f413840> .
+
+<https://w3id.org/airo/incident/ks/efebd7e54ac4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/922bf222230a> .
+
+<https://w3id.org/airo/incident/ks/f5e57bdb73d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd529074a5ad> .
+
+<https://w3id.org/airo/incident/ks/f69d3b470d4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> .
+
+<https://w3id.org/airo/incident/ks/f6d5656a15c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/907edc9daf1c> .
+
+<https://w3id.org/airo/incident/ks/f7e849111cbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c61a941f94b> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/1c711fbebbb5> a airo:AILifecyclePhase ;
+    rdfs:label "testing" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60d2b8f8e5fc> ;
+    airo:hasReasoning "The incident occurred during a 'trial run', which is a testing phase before full deployment." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/AITechnique/3253cf2cb860> a airo:AITechnique ;
+    rdfs:label "Communication Based Train Control (CBTC) signalling technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Communication Based Train Control signalling technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ce829930fd0>,
+        <https://w3id.org/airo/incident/evidence/9bb9df0f973b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/408> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/4e229c475f90> a airo:AffectedActor ;
+    rdfs:label "Future metro passengers and the public" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dfed3813d8d2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/Domain/3fbf95084cd4> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c045e152f6> ;
+    airo:hasReasoning "The AI system is a metro train, placing it squarely in the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> .
+
+<https://w3id.org/airo/incident/Hazard/c46289b199dc> a airo:Hazard ;
+    rdfs:label "Unmonitored trial run of an autonomous train system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42bf88d791e6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Purpose/a20efa0a01cc> a airo:Purpose ;
+    rdfs:label "transportation passenger service" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fbd6b786a8d0> ;
+    airo:hasReasoning "The evidence states the driverless trains will run on a metro line, indicating the purpose is public transportation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> .
+
+<https://w3id.org/airo/incident/RiskSource/b2e583c5941a> a airo:RiskSource ;
+    rdfs:label "Inadequate pre-trial maintenance procedures" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/c3b0badf0229> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c61a941f94b> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/c46289b199dc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/Vulnerability/62ed705ce35b> a airo:Vulnerability ;
+    rdfs:label "Lack of robust pre-operation safety checks for autonomous systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc595ff544b5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/evidence/0363010a81d5> a airo:Evidence ;
+    airo:evidenceText "[410] Unmanned trains will ply on the route in about two to three years, NDTV reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/09d5c0fc4b5f> a airo:Evidence ;
+    airo:evidenceText "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/36d867f00e37> a airo:Evidence ;
+    airo:evidenceText "[408] The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/5395ce24202c> a airo:Evidence ;
+    airo:evidenceText "Unmanned Delhi Metro train on trial run crashes through the wall of a depot" ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/6387bb7defc8> a airo:Evidence ;
+    airo:evidenceText "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/7029fbaf6263> a airo:Evidence ;
+    airo:evidenceText "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/871ba3e6197d> a airo:Evidence ;
+    airo:evidenceText "Driverless Delhi Metro's magenta line train crashes a week before launch" ;
+    airo:sourceDocId "407" .
+
+<https://w3id.org/airo/incident/evidence/8a2548b764e3> a airo:Evidence ;
+    airo:evidenceText "[410] Unmanned trains will ply on the route in about two to three years, NDTV reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/9e505bce9b6c> a airo:Evidence ;
+    airo:evidenceText "[408] The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/ab1936d74090> a airo:Evidence ;
+    airo:evidenceText "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/bb23fad533de> a airo:Evidence ;
+    airo:evidenceText "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/bba285a49b8a> a airo:Evidence ;
+    airo:evidenceText "[406] By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/bc631dcb55e1> a airo:Evidence ;
+    airo:evidenceText "Why driverless Delhi Metro train crashing into a wall is worrisome" ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/bd8f25314c2a> a airo:Evidence ;
+    airo:evidenceText "[408] The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/c9daacbd7292> a airo:Evidence ;
+    airo:evidenceText "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/d69e5b3aa895> a airo:Evidence ;
+    airo:evidenceText "[406] By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/dbf230349c00> a airo:Evidence ;
+    airo:evidenceText "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/e18a81eed9c5> a airo:Evidence ;
+    airo:evidenceText "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/e8726d6ba96a> a airo:Evidence ;
+    airo:evidenceText "[408] The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/fd58d35c83c1> a airo:Evidence ;
+    airo:evidenceText "[408] The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/Consequence/5f30a44666ae> a airo:Consequence ;
+    rdfs:label "Physical derailment and collision of the autonomous train" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd529074a5ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/05e496cee451> .
+
+<https://w3id.org/airo/incident/Impact/05e496cee451> a airo:Impact ;
+    rdfs:label "Potential compromise to passenger safety and operational launch delays" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/4e229c475f90> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9611f5920991> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/NewsReport/406> a airo:NewsReport ;
+    rdfs:label "Why driverless Delhi Metro train crashing into a wall is worrisome" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wa" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c2dec767a80> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> .
+
+<https://w3id.org/airo/incident/NewsReport/407> a airo:NewsReport ;
+    rdfs:label "Driverless Delhi Metro's magenta line train crashes a week before launch" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A Metro train on a new line, to be inaugurated by Prime Minister next week, hit a wall here on Tuesday evening during trials as its brakes failed, a official said. No one was injured.
+
+The incident, o""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5333a18a7b87> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/407> .
+
+<https://w3id.org/airo/incident/NewsReport/408> a airo:NewsReport ;
+    rdfs:label "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city.The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Met" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5fe52da8b89> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/NewsReport/410> a airo:NewsReport ;
+    rdfs:label "Unmanned Delhi Metro train on trial run crashes through the wall of a depot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported.
+
+The mishap comes just days before Prime Minister Naren""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cac6563fb440> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/Stakeholder/40258f8c8340> a airo:Stakeholder ;
+    rdfs:label "Hyundai Rotem" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hyundai Rotem" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8605d65575> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/f82256387d36> .
+
+<https://w3id.org/airo/incident/Stakeholder/4cda9d9104e7> a airo:Stakeholder ;
+    rdfs:label "Kailash Gahlot" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kailash Gahlot" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Stakeholder/8158febdfb00> a airo:Stakeholder ;
+    rdfs:label "Delhi Government" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delhi government" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d47ba4019d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Stakeholder/c930531c19a3> a airo:Stakeholder ;
+    rdfs:label "NDTV" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NDTV" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2e02a6e989f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/Stakeholder/d5d705798367> a airo:Stakeholder ;
+    rdfs:label "Delhi Metro Rail Corporation" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/f82256387d36> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delhi Metro Rail Corporation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11a8ca8f187e>,
+        <https://w3id.org/airo/incident/evidence/1d15fb5f6589>,
+        <https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/408>,
+        <https://w3id.org/airo/incident/document/410> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/d60e6c49622f> a airo:Stakeholder ;
+    rdfs:label "Commissioner for Metro Rail Safety (CMRS)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "commissioner for Metro Rail Safety (CMRS)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/922bf222230a>,
+        <https://w3id.org/airo/incident/evidence/e76a53541868> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/408> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/e2c69a716822> a airo:Stakeholder ;
+    rdfs:label "Mangu Singh" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/f82256387d36> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mangu Singh" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eda4febc9db1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Stakeholder/f66798d561d6> a airo:Stakeholder ;
+    rdfs:label "Japan International Cooperation Agency" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Japan International Cooperation Agency (JICA)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19db819fabbb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Stakeholder/f7dbde5ca563> a airo:Stakeholder ;
+    rdfs:label "Narendra Modi" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Prime Minister Narendra Modi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/907edc9daf1c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/408> .
+
+<https://w3id.org/airo/incident/Stakeholder/fab09b6ec4f9> a airo:Stakeholder ;
+    rdfs:label "ANI" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ANI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6de01f413840> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/410> .
+
+<https://w3id.org/airo/incident/evidence/3c61a941f94b> a airo:Evidence ;
+    airo:evidenceText "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/3ce829930fd0> a airo:Evidence ;
+    airo:evidenceText "Metro's new generation trains, which can run without drivers, will operate on this section where an advanced Communication Based Train Control (CBTC) signalling technology that will facilitate movement of trains with a frequency of 90 to 100 seconds will also be pressed into service." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/42bf88d791e6> a airo:Evidence ;
+    airo:evidenceText "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/5333a18a7b87> a airo:Evidence ;
+    airo:evidenceText "Driverless Delhi Metro's magenta line train crashes a week before launch" ;
+    airo:sourceDocId "407" .
+
+<https://w3id.org/airo/incident/evidence/54c520807d17> a airo:Evidence ;
+    airo:evidenceText "[408] The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/60d2b8f8e5fc> a airo:Evidence ;
+    airo:evidenceText "[410] A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/7c2dec767a80> a airo:Evidence ;
+    airo:evidenceText "Why driverless Delhi Metro train crashing into a wall is worrisome" ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/8bc5f85f8f29> a airo:Evidence ;
+    airo:evidenceText "A driverless Delhi Metro train on the Magenta line on Monday crashed into a wall during a trial run at Kalindi Kunj depot in the city." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/9bb9df0f973b> a airo:Evidence ;
+    airo:evidenceText "DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/a7a86313a6ba> a airo:Evidence ;
+    airo:evidenceText "an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/a9f1e8cae0c6> a airo:Evidence ;
+    airo:evidenceText "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/c5fe52da8b89> a airo:Evidence ;
+    airo:evidenceText "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/cac6563fb440> a airo:Evidence ;
+    airo:evidenceText "Unmanned Delhi Metro train on trial run crashes through the wall of a depot" ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/dfed3813d8d2> a airo:Evidence ;
+    airo:evidenceText "Unmanned trains will ply on the route in about two to three years, NDTV reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/e5c045e152f6> a airo:Evidence ;
+    airo:evidenceText "[406] an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/fbd6b786a8d0> a airo:Evidence ;
+    airo:evidenceText "[406] DMRC's new generation driverless trains, to begin with, will run between Botanical Garden and Kalkaji, where an advanced Communication Based Train Control signalling technology, facilitating movement of trains with a frequency of 90-100 seconds, will be pressed into service." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/fc595ff544b5> a airo:Evidence ;
+    airo:evidenceText "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/Risk/c3b0badf0229> a airo:Risk ;
+    rdfs:label "Risk of autonomous train operation failure" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb37b7e1f410> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/5f30a44666ae> .
+
+<https://w3id.org/airo/incident/evidence/9611f5920991> a airo:Evidence ;
+    airo:evidenceText "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/dd529074a5ad> a airo:Evidence ;
+    airo:evidenceText "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/fb37b7e1f410> a airo:Evidence ;
+    airo:evidenceText "An unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/11a8ca8f187e> a airo:Evidence ;
+    airo:evidenceText "The Delhi Metro Rail Corporation said the accident occurred because the maintenance team did not check the train’s brakes before the trial run." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/19db819fabbb> a airo:Evidence ;
+    airo:evidenceText "The cost required is likely to increase by Rs 6,000 crore as the Centre and the Delhi government are yet to decide whether Japan International Cooperation Agency (JICA) will be the funding agency or not." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/1a8605d65575> a airo:Evidence ;
+    airo:evidenceText "By the end of 2015, 20 such six-coach train sets were manufactured by Hyundai Rotem, a South Korea-based company." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/1d15fb5f6589> a airo:Evidence ;
+    airo:evidenceText "While the Delhi Metro Rail Corporation (DMRC) has confirmed the incident, it has clarified there is no need to panic." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/6de01f413840> a airo:Evidence ;
+    airo:evidenceText "A driverless metro train on a trial run in New Delhi crashed through the wall of the Kalindi Kunj depot in South Delhi on Tuesday, ANI reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/907edc9daf1c> a airo:Evidence ;
+    airo:evidenceText "The DMRC asserted it will have no bearing on December 25 launch, which is to be inaugurated by Prime Minister Narendra Modi." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/922bf222230a> a airo:Evidence ;
+    airo:evidenceText "The 12.64-km section, part of metro's upcoming Botanical Garden-Janakpuri West (Magenta) Line, was granted safety approval by the Commissioner for Metro Rail Safety (CMRS) last month." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/e2e02a6e989f> a airo:Evidence ;
+    airo:evidenceText "Unmanned trains will ply on the route in about two to three years, NDTV reported." ;
+    airo:sourceDocId "410" .
+
+<https://w3id.org/airo/incident/evidence/e76a53541868> a airo:Evidence ;
+    airo:evidenceText "About a month after being granted safety approval by the commissioner for Metro Rail Safety (CMRS), an unmanned Delhi Metro train on the yet-to-be-inaugurated Magenta Line derailed, crashing into a wall." ;
+    airo:sourceDocId "406" .
+
+<https://w3id.org/airo/incident/evidence/eba6f8dbbfc1> a airo:Evidence ;
+    airo:evidenceText "The accident occurred at 3.40 PM (1540hrs) at the Kalindi Kunj Metro depot, said DMRC." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/eda4febc9db1> a airo:Evidence ;
+    airo:evidenceText "The Managing Director of DMRC, Mangu Singh, has ordered a high level enquiry into this incident by a committee of three officers of the rank of Executive Directors." ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/evidence/99d47ba4019d> a airo:Evidence ;
+    airo:evidenceText "The Delhi government, meanwhile, also sought a report from the DMRC on the incident with Transport Minister Kailash Gahlot tweeting: \"Shocking lapse! There can be no compromise on passenger safety.\"" ;
+    airo:sourceDocId "408" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_367> a airo:AIRiskIncident ;
+    rdfs:label "Why driverless Delhi Metro train crashing into a wall is worrisome" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/5f30a44666ae> ;
+    airo:hasDescription "pred_367" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/1c711fbebbb5>,
+        <https://w3id.org/airo/incident/Domain/3fbf95084cd4>,
+        <https://w3id.org/airo/incident/evidence/5395ce24202c>,
+        <https://w3id.org/airo/incident/evidence/871ba3e6197d>,
+        <https://w3id.org/airo/incident/evidence/bc631dcb55e1>,
+        <https://w3id.org/airo/incident/evidence/e18a81eed9c5> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/05e496cee451> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/406>,
+        <https://w3id.org/airo/incident/NewsReport/407>,
+        <https://w3id.org/airo/incident/NewsReport/408>,
+        <https://w3id.org/airo/incident/NewsReport/410> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/c3b0badf0229> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/407>,
+        <https://w3id.org/airo/incident/document/408>,
+        <https://w3id.org/airo/incident/document/410> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/f82256387d36> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/40258f8c8340>,
+        <https://w3id.org/airo/incident/Stakeholder/4cda9d9104e7>,
+        <https://w3id.org/airo/incident/Stakeholder/8158febdfb00>,
+        <https://w3id.org/airo/incident/Stakeholder/c930531c19a3>,
+        <https://w3id.org/airo/incident/Stakeholder/d5d705798367>,
+        <https://w3id.org/airo/incident/Stakeholder/d60e6c49622f>,
+        <https://w3id.org/airo/incident/Stakeholder/e2c69a716822>,
+        <https://w3id.org/airo/incident/Stakeholder/f66798d561d6>,
+        <https://w3id.org/airo/incident/Stakeholder/f7dbde5ca563>,
+        <https://w3id.org/airo/incident/Stakeholder/fab09b6ec4f9> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/b2e583c5941a> .
+
+<https://w3id.org/airo/incident/AISystem/f82256387d36> a airo:AISystem ;
+    rdfs:label "Delhi Metro Driverless Train" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/a20efa0a01cc> ;
+    airo:hasDescription "Delhi Metro train" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bc5f85f8f29>,
+        <https://w3id.org/airo/incident/evidence/a7a86313a6ba> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/406>,
+        <https://w3id.org/airo/incident/document/408> ;
+    airo:hasSupportCount 2 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/62ed705ce35b> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/3253cf2cb860> .
+

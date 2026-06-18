@@ -1,0 +1,1762 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/9aa67214e624> a airo:ComplianceRequirement ;
+    rdfs:label "follow CDPH vaccine allocation guidelines" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b57f7f6581c7> ;
+    airo:hasReasoning "The evidence shows compliance with CDPH guidelines was a requirement incorporated into the algorithm." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/InformationSource/cc5f7844fb8f> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1204>,
+        <https://w3id.org/airo/incident/NewsReport/1205>,
+        <https://w3id.org/airo/incident/NewsReport/1275>,
+        <https://w3id.org/airo/incident/NewsReport/1530>,
+        <https://w3id.org/airo/incident/NewsReport/1588> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1204>,
+        <https://w3id.org/airo/incident/document/1205>,
+        <https://w3id.org/airo/incident/document/1275>,
+        <https://w3id.org/airo/incident/document/1530>,
+        <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/RiskControl/d863b89a84f3> a airo:RiskControl ;
+    rdfs:label "apology and re-evaluation of the distribution plan" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f334910571e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1530> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/cfb7f3946724> .
+
+<https://w3id.org/airo/incident/RoleAssignment/07fd745296d8> a airo:RoleAssignment ;
+    rdfs:label "MIT Technology Review_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfda30241227> ;
+    airo:hasReasoning "MIT Technology Review reviewed documentation about the algorithm but doesn't fit other specific AI roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b499dab41cc8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1e5827a5595b> a airo:RoleAssignment ;
+    rdfs:label "Veena Dubal_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4fc04666002> ;
+    airo:hasReasoning "While mentioned as a stakeholder, there is no specific evidence in the provided sentences about Veena Dubal's actions or role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4a8e016d6e70> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/29c5d9580288> a airo:RoleAssignment ;
+    rdfs:label "ProPublica_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cb1f76e2fde> ;
+    airo:hasReasoning "ProPublica reported on the issue but doesn't fit other specific AI roles like developer, deployer, or user." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/eba9498a164b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/4e2c1e4d7908> a airo:RoleAssignment ;
+    rdfs:label "Santa Clara County_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3886273ded1e> ;
+    airo:hasReasoning "While mentioned as a stakeholder, there is no specific evidence in the provided sentences about Santa Clara County's actions or role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cb7101ddcc76> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5903ec0cce9e> a airo:RoleAssignment ;
+    rdfs:label "Tim Morrison_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/022eb68f6977> ;
+    airo:hasReasoning "As director of ambulatory care team, he is a stakeholder acknowledging algorithm problems but doesn't fit other specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ad3b9252e1ec> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5fed2dfaeaeb> a airo:RoleAssignment ;
+    rdfs:label "Jeffrey Kahn_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b9f310402fc> ;
+    airo:hasReasoning "Kahn served on a committee that influenced vaccine allocation but doesn't fit other specific AI roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b8a8cc9ec9bb> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6af7ea70b21f> a airo:RoleAssignment ;
+    rdfs:label "Nuriel Moghavem_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b7b0a99fcd8> ;
+    airo:hasReasoning "While mentioned as a stakeholder, there is no specific evidence in the provided sentences about Nuriel Moghavem's actions or role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b16af7e38368> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7dd80e232b06> a airo:RoleAssignment ;
+    rdfs:label "Mary Hawn_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/264303d23908> ;
+    airo:hasReasoning "As department chair, she is a stakeholder expressing concern about the algorithm's outcomes but doesn't fit other specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/380e4da3cf9e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7e646705bece> a airo:RoleAssignment ;
+    rdfs:label "Stanford Medical Center_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a0596b0c143> ;
+    airo:hasReasoning "Stanford Medical Center is where the algorithm was deployed for vaccine allocation to employees." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9a3ba72a3e4a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/81f73b4a5701> a airo:RoleAssignment ;
+    rdfs:label "Mass General Brigham_AIDeployer" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c1df66b8702d> ;
+    airo:hasReasoning "Mass General Brigham deployed a categorization system for vaccine allocation, indicating they are an AI deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/665f4b5da56a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8229991fcd95> a airo:RoleAssignment ;
+    rdfs:label "Irene Chen_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a95767dc2d1e> ;
+    airo:hasReasoning "While mentioned as a stakeholder, there is no specific evidence in the provided sentences about Irene Chen's actions or role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/175d1ef8632c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9b6148ac5912> a airo:RoleAssignment ;
+    rdfs:label "Niraj Sehgal_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d466b0e707d> ;
+    airo:hasReasoning "As chief medical officer, he is a senior executive at the institution but doesn't fit other specific roles in the AI context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/59308ab91217> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9cdd7152a5b2> a airo:RoleAssignment ;
+    rdfs:label "Stanford Medicine_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c44c61eda88> ;
+    airo:hasReasoning "Stanford Medicine deployed the algorithm for vaccine allocation within their organization and took responsibility for its outcomes." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c0abdd012a11> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a4ae6a961627> a airo:RoleAssignment ;
+    rdfs:label "Sarah Johnson_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/551a5889f754> ;
+    airo:hasReasoning "As a frontline resident who delivered babies from COVID-positive patients, she was directly affected by being excluded from vaccine prioritization." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6c240cf3678a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a4e02eeab3da> a airo:RoleAssignment ;
+    rdfs:label "Roger McNamee_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b87e131c5fb8> ;
+    airo:hasReasoning "McNamee is a critic commenting on algorithmic accountability but doesn't fit other specific AI roles in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7f210f93f925> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ac8c0f001f6a> a airo:RoleAssignment ;
+    rdfs:label "Lisa Kim_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2908acb793bc> ;
+    airo:hasReasoning "As a spokesperson, she represents the organization but doesn't fit other specific roles like developer, deployer, or user." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a468d0d8f378> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ca15d5858a49> a airo:RoleAssignment ;
+    rdfs:label "Johns Hopkins University_AIDeployer" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd3fcb4111b4> ;
+    airo:hasReasoning "Johns Hopkins allocated vaccines using a committee-based process, indicating they deployed their own allocation system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/82c6d321f6f3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/db9ad139cb1b> a airo:RoleAssignment ;
+    rdfs:label "Stanford Medicine_AIDeveloper" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8d4159b1c10> ;
+    airo:hasReasoning "Stanford Medicine's experts (ethicists, infectious disease experts) worked on developing the algorithm, making them developers." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c0abdd012a11> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e36ed334f86f> a airo:RoleAssignment ;
+    rdfs:label "California Department of Public Health_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/009ad2717b92> ;
+    airo:hasReasoning "The CDPH provided guidelines that influenced the algorithm's design, indicating a regulatory role in setting standards." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/98d78cb08af3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e6f954cef98d> a airo:RoleAssignment ;
+    rdfs:label "University of California San Francisco_AIDeployer" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dfbd6c259a2b> ;
+    airo:hasReasoning "UCSF deployed their own vaccine allocation plan based on risk assessment, making them an AI deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_235> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a0b8241e953f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/dd5b724f4faf> .
+
+<https://w3id.org/airo/incident/Trend/6948bbd74b29> a airo:Trend ;
+    rdfs:label "increasing scrutiny of algorithmic decision-making in healthcare" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/201b8847bf2b> ;
+    airo:hasReasoning "The evidence shows growing criticism and scrutiny of algorithmic decision-making, particularly regarding accountability." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/event/pred_235> a airo:AIRiskIncident ;
+    airo:firstSeen "2020-12-18T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2020-12-21T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/02df388f922e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/615362d9ab0f> .
+
+<https://w3id.org/airo/incident/ks/04ce4979ea26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41d23c5fe38f> .
+
+<https://w3id.org/airo/incident/ks/08a2e1f7ac08> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eef728b69409> .
+
+<https://w3id.org/airo/incident/ks/08f79a7c89f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57269c331d75> .
+
+<https://w3id.org/airo/incident/ks/09c43dbb2b1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/615362d9ab0f> .
+
+<https://w3id.org/airo/incident/ks/0c66cdcae0d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36df3a966c11> .
+
+<https://w3id.org/airo/incident/ks/0e1fec301943> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1247b71b80e9> .
+
+<https://w3id.org/airo/incident/ks/0e2d1c912804> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e37e2a86a900> .
+
+<https://w3id.org/airo/incident/ks/0f277b6048f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987ee4c75cc7> .
+
+<https://w3id.org/airo/incident/ks/108f53052f02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a23b4adc159> .
+
+<https://w3id.org/airo/incident/ks/109cbbe434d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6cc02da42db> .
+
+<https://w3id.org/airo/incident/ks/127f1e34296a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/153759b201d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987ee4c75cc7> .
+
+<https://w3id.org/airo/incident/ks/169c6695035a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74ccdc1e2e19> .
+
+<https://w3id.org/airo/incident/ks/1a550597f797> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73c3b63d46e0> .
+
+<https://w3id.org/airo/incident/ks/1c4391dda3cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/1c8505a1f118> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/1ca5bd736ace> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abc1b7c4d68> .
+
+<https://w3id.org/airo/incident/ks/1e0657ed0713> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9f74540f3df> .
+
+<https://w3id.org/airo/incident/ks/20d225f6ac8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/25f36a0b409f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b80ae9b2194> .
+
+<https://w3id.org/airo/incident/ks/277b2253078e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/28e5f770f355> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/298bc3af92d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5eea0d527dbb> .
+
+<https://w3id.org/airo/incident/ks/2a87a3cb0fdb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791ff2749c8e> .
+
+<https://w3id.org/airo/incident/ks/2d850802bd3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd0fe45a1d49> .
+
+<https://w3id.org/airo/incident/ks/2e685638659b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/2eaeb1c625e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/2fa8683409f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153b66910473> .
+
+<https://w3id.org/airo/incident/ks/305da99bab2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4800e592f2> .
+
+<https://w3id.org/airo/incident/ks/30b78a7ed58e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eef728b69409> .
+
+<https://w3id.org/airo/incident/ks/33ec883c7a9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2072ce140724> .
+
+<https://w3id.org/airo/incident/ks/3768b8cca305> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/3772c9c76680> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6cc02da42db> .
+
+<https://w3id.org/airo/incident/ks/37f88f8fc772> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a23b4adc159> .
+
+<https://w3id.org/airo/incident/ks/3b386a672346> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/3c81cf6565ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc63746d8b6a> .
+
+<https://w3id.org/airo/incident/ks/40dc4e6f73bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ed2e2c14b37> .
+
+<https://w3id.org/airo/incident/ks/41ef6a968ca4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cad1d987c86> .
+
+<https://w3id.org/airo/incident/ks/42194db06112> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eef728b69409> .
+
+<https://w3id.org/airo/incident/ks/470e3224fca7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987ee4c75cc7> .
+
+<https://w3id.org/airo/incident/ks/4abd90318a53> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/4d11c731bfa7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f991c4439c6> .
+
+<https://w3id.org/airo/incident/ks/4dd4babf1bb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57269c331d75> .
+
+<https://w3id.org/airo/incident/ks/524836e8fbb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/52d7f3484ac9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/54537dc64a6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/5645fbeb29f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4800e592f2> .
+
+<https://w3id.org/airo/incident/ks/57863b9123db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5eceaa84781> .
+
+<https://w3id.org/airo/incident/ks/583dba9ea2c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/586e5d7fcf1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2f4985719aa> .
+
+<https://w3id.org/airo/incident/ks/5b103c3013c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcca65d492eb> .
+
+<https://w3id.org/airo/incident/ks/5be8e1740406> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/5ce3d073f694> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/5ee3f448dfe6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abc1b7c4d68> .
+
+<https://w3id.org/airo/incident/ks/628215127b8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/63b33764563d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/480e4087b028> .
+
+<https://w3id.org/airo/incident/ks/67bfd8c5a598> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d8ec755caff> .
+
+<https://w3id.org/airo/incident/ks/684fb85177c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b80ae9b2194> .
+
+<https://w3id.org/airo/incident/ks/6adc34759590> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/6d36711dd2ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/6da2e9351843> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e73874aa429c> .
+
+<https://w3id.org/airo/incident/ks/6e1901170ecd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9e82df4f2b2> .
+
+<https://w3id.org/airo/incident/ks/6e5bd59007bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/6f91bdba964b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/718be7dd41a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363dec8bec53> .
+
+<https://w3id.org/airo/incident/ks/71b4a5bc9be7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/725da6a393af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62a5dc9febff> .
+
+<https://w3id.org/airo/incident/ks/741bfdc44b02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abc1b7c4d68> .
+
+<https://w3id.org/airo/incident/ks/796b6a6459a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90898b287150> .
+
+<https://w3id.org/airo/incident/ks/79d3279945c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/7a0211b19985> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f334910571e> .
+
+<https://w3id.org/airo/incident/ks/7c356bb49e0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c414e30304a> .
+
+<https://w3id.org/airo/incident/ks/7c43c92ffca8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b80ae9b2194> .
+
+<https://w3id.org/airo/incident/ks/832cbaec4861> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/8724dcd24439> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbe98dca024f> .
+
+<https://w3id.org/airo/incident/ks/87662953bfb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0df1d6ce94c> .
+
+<https://w3id.org/airo/incident/ks/881f9ed15730> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/8869649750ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153b66910473> .
+
+<https://w3id.org/airo/incident/ks/8d2bd128d3d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3aa922d3627d> .
+
+<https://w3id.org/airo/incident/ks/8f38512dbfff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57269c331d75> .
+
+<https://w3id.org/airo/incident/ks/900b3c755fdb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eef728b69409> .
+
+<https://w3id.org/airo/incident/ks/9065c6035652> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/480e4087b028> .
+
+<https://w3id.org/airo/incident/ks/906ccc249a97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cad1d987c86> .
+
+<https://w3id.org/airo/incident/ks/981c16570e22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/988c8ade252c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/820d7aae987e> .
+
+<https://w3id.org/airo/incident/ks/997cd52acbcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57269c331d75> .
+
+<https://w3id.org/airo/incident/ks/9a75f851ac02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/9b8cf8aebcac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36df3a966c11> .
+
+<https://w3id.org/airo/incident/ks/9cc7b71f9c58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c805948af22e> .
+
+<https://w3id.org/airo/incident/ks/9da1112410ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153b66910473> .
+
+<https://w3id.org/airo/incident/ks/9de4c84953be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f66184376de> .
+
+<https://w3id.org/airo/incident/ks/a017103784f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/a25cd319a510> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/a3d3a4a90497> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/798929e4944b> .
+
+<https://w3id.org/airo/incident/ks/a464b2bff440> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363dec8bec53> .
+
+<https://w3id.org/airo/incident/ks/ad0f71f95146> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/ad411b96aed0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9698319959e> .
+
+<https://w3id.org/airo/incident/ks/aea8b808184b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/afd30a616686> .
+
+<https://w3id.org/airo/incident/ks/b04146620979> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153b66910473> .
+
+<https://w3id.org/airo/incident/ks/b1b849b6c1bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2072ce140724> .
+
+<https://w3id.org/airo/incident/ks/b529bd42c636> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> .
+
+<https://w3id.org/airo/incident/ks/b5474bd3845b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3f642efa202> .
+
+<https://w3id.org/airo/incident/ks/b6b848f6cabb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b80ae9b2194> .
+
+<https://w3id.org/airo/incident/ks/b9df22608162> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11240c3f68b2> .
+
+<https://w3id.org/airo/incident/ks/bc41760f53b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/bdbf46ba2117> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74ccdc1e2e19> .
+
+<https://w3id.org/airo/incident/ks/bfb57b341eec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/480e4087b028> .
+
+<https://w3id.org/airo/incident/ks/c10cc61ab6a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9de1d41afb53> .
+
+<https://w3id.org/airo/incident/ks/c15534503c5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abc1b7c4d68> .
+
+<https://w3id.org/airo/incident/ks/c356a885038e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b809ba15380d> .
+
+<https://w3id.org/airo/incident/ks/c40ffe97befd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74ccdc1e2e19> .
+
+<https://w3id.org/airo/incident/ks/c5db186d8453> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6cc02da42db> .
+
+<https://w3id.org/airo/incident/ks/c6e7ba796f59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/c8a27eadeb09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/c9b0e056e8d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/c9f741d4cd38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc9222e89e35> .
+
+<https://w3id.org/airo/incident/ks/cdff04a5ad96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cad1d987c86> .
+
+<https://w3id.org/airo/incident/ks/cf95503ff30c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363dec8bec53> .
+
+<https://w3id.org/airo/incident/ks/d2933d1bde48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ceec3ac3206> .
+
+<https://w3id.org/airo/incident/ks/d29ea2a54244> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/d55f62354265> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/d8fbf800b681> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6cc02da42db> .
+
+<https://w3id.org/airo/incident/ks/d9c8d51aff16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74ccdc1e2e19> .
+
+<https://w3id.org/airo/incident/ks/db54ff359a2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> .
+
+<https://w3id.org/airo/incident/ks/dc39b3ca68ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987ee4c75cc7> .
+
+<https://w3id.org/airo/incident/ks/e17dddf8499b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2072ce140724> .
+
+<https://w3id.org/airo/incident/ks/e32247e30fc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb53a56ccc6a> .
+
+<https://w3id.org/airo/incident/ks/e3eea97e2f0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faa4b6cd71f5> .
+
+<https://w3id.org/airo/incident/ks/e40785590a20> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/180d20692ecb> .
+
+<https://w3id.org/airo/incident/ks/e66e779ce0a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/e82cbff9039f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/209ba1110bc4> .
+
+<https://w3id.org/airo/incident/ks/ec37820c41a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> .
+
+<https://w3id.org/airo/incident/ks/eeb4723c4cdb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/f13e65de1872> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4800e592f2> .
+
+<https://w3id.org/airo/incident/ks/f1463ec04ca5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2072ce140724> .
+
+<https://w3id.org/airo/incident/ks/f42077f073f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cad1d987c86> .
+
+<https://w3id.org/airo/incident/ks/f4bb6d5197c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> .
+
+<https://w3id.org/airo/incident/ks/f4ceb9caf41f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4800e592f2> .
+
+<https://w3id.org/airo/incident/ks/f4f9b45a3bf0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e7253772587> .
+
+<https://w3id.org/airo/incident/ks/f4fffa56991f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e81aea739130> .
+
+<https://w3id.org/airo/incident/ks/f5e8012bd165> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> .
+
+<https://w3id.org/airo/incident/ks/f67318190702> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/480e4087b028> .
+
+<https://w3id.org/airo/incident/ks/fd79a0231cb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363dec8bec53> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/21e9a8b8ab0b> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b809ba15380d> ;
+    airo:hasReasoning "The algorithm was actively being used to make allocation decisions during the vaccine distribution process, indicating it was in the deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/AITechnique/54b2cc8fdf03> a airo:AITechnique ;
+    rdfs:label "rules-based algorithm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "a very complex algorithm" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0df1d6ce94c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/AffectedActor/f2117b429d06> a airo:AffectedActor ;
+    rdfs:label "medical residents and fellows" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e7253772587> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/Domain/ba5cf40bce60> a airo:Domain ;
+    rdfs:label "healthcare" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3f642efa202> ;
+    airo:hasReasoning "The algorithm was used for vaccine allocation in a medical setting with healthcare workers, placing it firmly in the healthcare domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Hazard/b9b5cf757ec8> a airo:Hazard ;
+    rdfs:label "overcomplicated algorithmic decision-making for critical resource distribution" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c805948af22e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Obligation/44305962db13> a airo:Obligation ;
+    rdfs:label "conduct vaccine allocation according to CDPH guidelines" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f991c4439c6> ;
+    airo:hasReasoning "The algorithm incorporated CDPH guidelines, indicating an obligation to follow these regulatory standards." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Purpose/8e698c9ddf17> a airo:Purpose ;
+    rdfs:label "vaccine allocation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791ff2749c8e> ;
+    airo:hasReasoning "The evidence explicitly states the algorithm determined which employees would receive the vaccine doses, indicating its purpose was allocation/distribution." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1530> .
+
+<https://w3id.org/airo/incident/RiskSource/896048b4571a> a airo:RiskSource ;
+    rdfs:label "flawed algorithm design using poor proxy variables for risk" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/cfb7f3946724> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/180d20692ecb> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/b9b5cf757ec8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Vulnerability/26c8aede0886> a airo:Vulnerability ;
+    rdfs:label "algorithm fails to account for job rotation and dynamic frontline exposure" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ceec3ac3206> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/evidence/009ad2717b92> a airo:Evidence ;
+    airo:evidenceText "[1588] The algorithm’s third category refers to the California Department of Public Health’s vaccine allocation guidelines." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/022eb68f6977> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/0a0596b0c143> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/11240c3f68b2> a airo:Evidence ;
+    airo:evidenceText "[1588] Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/201b8847bf2b> a airo:Evidence ;
+    airo:evidenceText "[1588] “1 of the core attractions of algorithms is that they allow the powerful to blame a black box for politically unattractive outcomes for which they would otherwise be responsible,” Roger McNamee, a prominent Silicon Valley insider turned critic, wrote on Twitter." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/209ba1110bc4> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/264303d23908> a airo:Evidence ;
+    airo:evidenceText "[1205] Dr. Mary Hawn, chair of the department of surgery, confessed to being \"disturbed and puzzled\" by the vaccination roster that \"included many of the medical staff list that aren't our physicians on the front line.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/2908acb793bc> a airo:Evidence ;
+    airo:evidenceText "[1205] \"We take complete responsibility for the errors in the execution of our vaccine distribution plan,\" said Lisa Kim, a Stanford Medicine spokesperson." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/2c088a6d8fc1> a airo:Evidence ;
+    airo:evidenceText "Stanford algorithm decided to vaccinate only seven of its frontline COVID-19 workers, out of 5,000 doses" ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/35e37f7a57d2> a airo:Evidence ;
+    airo:evidenceText "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors" ;
+    airo:sourceDocId "1275" .
+
+<https://w3id.org/airo/incident/evidence/3886273ded1e> a airo:Evidence ;
+    airo:evidenceText "No specific evidence provided in the sentences about Santa Clara County's role." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/3aa922d3627d> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/3c44c61eda88> a airo:Evidence ;
+    airo:evidenceText "[1205] Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/44301743885c> a airo:Evidence ;
+    airo:evidenceText "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/4ed2e2c14b37> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/551a5889f754> a airo:Evidence ;
+    airo:evidenceText "[1205] said Dr. Sarah Johnson, a third-year OB-GYN resident who has delivered babies from COVID-positive patients during the pandemic." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/5c414e30304a> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/5eea0d527dbb> a airo:Evidence ;
+    airo:evidenceText "[1205] Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/6b9f310402fc> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/6f66184376de> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/73c3b63d46e0> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/798929e4944b> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/7cb1f76e2fde> a airo:Evidence ;
+    airo:evidenceText "[1588] And, as first reported by ProPublica, residents were told that because they rotate between departments rather than maintain a single assignment, they lost out on points associated with the departments where they worked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/820d7aae987e> a airo:Evidence ;
+    airo:evidenceText "[1588] Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/8d466b0e707d> a airo:Evidence ;
+    airo:evidenceText "[1205] In response to the residents' protests, Dr. Niraj Sehgal, chief medical officer, sent an email saying, \"Please know that the perceived lack of priority for residents and fellows was not the intent at all.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/8d8ec755caff> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/90898b287150> a airo:Evidence ;
+    airo:evidenceText "[1205] Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/91d6e899c59b> a airo:Evidence ;
+    airo:evidenceText "Frontline workers protest at Stanford after hospital distributed vaccine to administrators" ;
+    airo:sourceDocId "1204" .
+
+<https://w3id.org/airo/incident/evidence/9b7b0a99fcd8> a airo:Evidence ;
+    airo:evidenceText "No specific evidence provided in the sentences about Nuriel Moghavem's role." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/9de1d41afb53> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/a95767dc2d1e> a airo:Evidence ;
+    airo:evidenceText "No specific evidence provided in the sentences about Irene Chen's role." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/a9ee2892d917> a airo:Evidence ;
+    airo:evidenceText "This is the Stanford vaccine algorithm that left out frontline doctors" ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/afd30a616686> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/b2f4985719aa> a airo:Evidence ;
+    airo:evidenceText "[1588] Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/b57f7f6581c7> a airo:Evidence ;
+    airo:evidenceText "[1588] The algorithm’s third category refers to the California Department of Public Health’s vaccine allocation guidelines." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/b87e131c5fb8> a airo:Evidence ;
+    airo:evidenceText "[1588] “1 of the core attractions of algorithms is that they allow the powerful to blame a black box for politically unattractive outcomes for which they would otherwise be responsible,” Roger McNamee, a prominent Silicon Valley insider turned critic, wrote on Twitter." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/bbe98dca024f> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/bc63746d8b6a> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/c1df66b8702d> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/c4fc04666002> a airo:Evidence ;
+    airo:evidenceText "No specific evidence provided in the sentences about Veena Dubal's role." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/c9f74540f3df> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/cfda30241227> a airo:Evidence ;
+    airo:evidenceText "[1588] Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/d5eceaa84781> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/dfbd6c259a2b> a airo:Evidence ;
+    airo:evidenceText "[1588] Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/e37e2a86a900> a airo:Evidence ;
+    airo:evidenceText "[1205] Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/e81aea739130> a airo:Evidence ;
+    airo:evidenceText "[1205] Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/e8d4159b1c10> a airo:Evidence ;
+    airo:evidenceText "[1588] “Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/e9e82df4f2b2> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/faa4b6cd71f5> a airo:Evidence ;
+    airo:evidenceText "[1588] Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/fcca65d492eb> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/fd3fcb4111b4> a airo:Evidence ;
+    airo:evidenceText "[1588] Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/Consequence/6aef7ac56861> a airo:Consequence ;
+    rdfs:label "frontline medical workers were excluded from initial vaccine prioritization" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36df3a966c11> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/f2643299b9db> .
+
+<https://w3id.org/airo/incident/Impact/f2643299b9db> a airo:Impact ;
+    rdfs:label "operational harm and loss of trust in institutional leadership among essential healthcare workers" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/f2117b429d06> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/615362d9ab0f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/NewsReport/1204> a airo:NewsReport ;
+    rdfs:label "Frontline workers protest at Stanford after hospital distributed vaccine to administrators" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Medical residents and nurses from Stanford Medical Center held a protest on Friday following the hospital choosing to vaccinate some staff members who don’t interact with coronavirus patients over oth" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e73874aa429c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1204> .
+
+<https://w3id.org/airo/incident/NewsReport/1205> a airo:NewsReport ;
+    rdfs:label "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**Update, Dec. 18, 2020:** This story has been updated to add comments from Stanford Medicine.
+
+Stanford Medicine residents who work in close contact with COVID-19 patients were left out of the first """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62a5dc9febff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/NewsReport/1275> a airo:NewsReport ;
+    rdfs:label "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stanford Health Care apologized Friday for a plan that left nearly all of its young front-line doctors out of the first round of coronavirus vaccinations. The Palo Alto, Calif., medical center promise" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41d23c5fe38f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1275> .
+
+<https://w3id.org/airo/incident/NewsReport/1530> a airo:NewsReport ;
+    rdfs:label "Stanford algorithm decided to vaccinate only seven of its frontline COVID-19 workers, out of 5,000 doses" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "An algorithm determining which Stanford Medicine employees would receive its 5,000 initial doses of the COVID-19 vaccine included just seven medical residents / fellows on the list, according to a Dec" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc9222e89e35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1530> .
+
+<https://w3id.org/airo/incident/NewsReport/1588> a airo:NewsReport ;
+    rdfs:label "This is the Stanford vaccine algorithm that left out frontline doctors" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd0fe45a1d49> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Regulation/47521d95b0c0> a airo:Regulation ;
+    rdfs:label "CDPH vaccine allocation guidelines" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California Department of Public Health’s vaccine allocation guidelines" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/44305962db13> .
+
+<https://w3id.org/airo/incident/Stakeholder/175d1ef8632c> a airo:Stakeholder ;
+    rdfs:label "Irene Chen" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Irene Chen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57269c331d75> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/380e4da3cf9e> a airo:Stakeholder ;
+    rdfs:label "Mary Hawn" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Dr. Mary Hawn" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363dec8bec53> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/Stakeholder/4a8e016d6e70> a airo:Stakeholder ;
+    rdfs:label "Veena Dubal" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Veena Dubal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3abc1b7c4d68> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/59308ab91217> a airo:Stakeholder ;
+    rdfs:label "Niraj Sehgal" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Dr. Niraj Sehgal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/480e4087b028> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/Stakeholder/665f4b5da56a> a airo:Stakeholder ;
+    rdfs:label "Mass General Brigham" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mass General Brigham" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/6c240cf3678a> a airo:Stakeholder ;
+    rdfs:label "Sarah Johnson" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Dr. Sarah Johnson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4800e592f2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/Stakeholder/7f210f93f925> a airo:Stakeholder ;
+    rdfs:label "Roger McNamee" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Roger McNamee" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153b66910473> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/82c6d321f6f3> a airo:Stakeholder ;
+    rdfs:label "Johns Hopkins University" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Johns Hopkins" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cad1d987c86> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/98d78cb08af3> a airo:Stakeholder ;
+    rdfs:label "California Department of Public Health" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the California Department of Public Health" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f119c8b07091> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/9a3ba72a3e4a> a airo:Stakeholder ;
+    rdfs:label "Stanford Medical Center" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stanford Medical Center" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2072ce140724> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/a0b8241e953f> a airo:Stakeholder ;
+    rdfs:label "University of California San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "University of California San Francisco" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74ccdc1e2e19> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/a468d0d8f378> a airo:Stakeholder ;
+    rdfs:label "Lisa Kim" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lisa Kim" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eef728b69409> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/Stakeholder/ad3b9252e1ec> a airo:Stakeholder ;
+    rdfs:label "Tim Morrison" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tim Morrison" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/987ee4c75cc7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/b16af7e38368> a airo:Stakeholder ;
+    rdfs:label "Nuriel Moghavem" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nuriel Moghavem" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/b499dab41cc8> a airo:Stakeholder ;
+    rdfs:label "MIT Technology Review" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MIT Technology Review" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69baea65a0ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/b8a8cc9ec9bb> a airo:Stakeholder ;
+    rdfs:label "Jeffrey Kahn" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jeffrey Kahn" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6cc02da42db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/cb7101ddcc76> a airo:Stakeholder ;
+    rdfs:label "Santa Clara County" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Santa Clara County" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e543c395c55> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/Stakeholder/eba9498a164b> a airo:Stakeholder ;
+    rdfs:label "ProPublica" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ProPublica" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b80ae9b2194> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1588> .
+
+<https://w3id.org/airo/incident/evidence/0e7253772587> a airo:Evidence ;
+    airo:evidenceText "Stanford Medicine residents who work in close contact with COVID-19 patients were left out of the first wave of staff members for the new Pfizer vaccine." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/1247b71b80e9> a airo:Evidence ;
+    airo:evidenceText "An algorithm chose who would be the first 5,000 in line." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/180d20692ecb> a airo:Evidence ;
+    airo:evidenceText "Irene Chen, an MIT doctoral candidate who studies the use of fair algorithms in health care, suspects this is what happened at Stanford: the formula’s designers chose variables that they believed would serve as good proxies for a given staffer’s level of covid risk." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/3ceec3ac3206> a airo:Evidence ;
+    airo:evidenceText "And, as first reported by ProPublica, residents were told that because they rotate between departments rather than maintain a single assignment, they lost out on points associated with the departments where they worked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/41d23c5fe38f> a airo:Evidence ;
+    airo:evidenceText "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors" ;
+    airo:sourceDocId "1275" .
+
+<https://w3id.org/airo/incident/evidence/62a5dc9febff> a airo:Evidence ;
+    airo:evidenceText "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/791ff2749c8e> a airo:Evidence ;
+    airo:evidenceText "[1530] An algorithm determining which Stanford Medicine employees would receive its 5,000 initial doses of the COVID-19 vaccine included just seven medical residents / fellows on the list." ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/8f991c4439c6> a airo:Evidence ;
+    airo:evidenceText "[1588] The algorithm’s third category refers to the California Department of Public Health’s vaccine allocation guidelines." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/9f334910571e> a airo:Evidence ;
+    airo:evidenceText "Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/a0df1d6ce94c> a airo:Evidence ;
+    airo:evidenceText "Hospital leadership apologized for not prioritizing them, and blamed the errors on “a very complex algorithm.”" ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/a3f642efa202> a airo:Evidence ;
+    airo:evidenceText "[1588] When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/a9698319959e> a airo:Evidence ;
+    airo:evidenceText "He added that with the anticipated authorization of Moderna's vaccine, \"we're increasingly confident in getting everyone vaccinated, including all of you.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/b809ba15380d> a airo:Evidence ;
+    airo:evidenceText "[1205] An algorithm chose who would be the first 5,000 in line." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/c805948af22e> a airo:Evidence ;
+    airo:evidenceText "Jeffrey Kahn, the director of the Johns Hopkins Berkman Institute of Bioethics, says the approach was overcomplicated." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/cd0fe45a1d49> a airo:Evidence ;
+    airo:evidenceText "This is the Stanford vaccine algorithm that left out frontline doctors" ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/dc9222e89e35> a airo:Evidence ;
+    airo:evidenceText "Stanford algorithm decided to vaccinate only seven of its frontline COVID-19 workers, out of 5,000 doses" ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/e73874aa429c> a airo:Evidence ;
+    airo:evidenceText "Frontline workers protest at Stanford after hospital distributed vaccine to administrators" ;
+    airo:sourceDocId "1204" .
+
+<https://w3id.org/airo/incident/Risk/cfb7f3946724> a airo:Risk ;
+    rdfs:label "risk of inequitable allocation of scarce medical resources" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a23b4adc159> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1530> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/6aef7ac56861> .
+
+<https://w3id.org/airo/incident/Stakeholder/c0abdd012a11> a airo:Stakeholder ;
+    rdfs:label "Stanford Medicine" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stanford Medicine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448>,
+        <https://w3id.org/airo/incident/evidence/cb53a56ccc6a>,
+        <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205>,
+        <https://w3id.org/airo/incident/document/1530> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/0a23b4adc159> a airo:Evidence ;
+    airo:evidenceText "An algorithm determining which Stanford Medicine employees would receive its 5,000 initial doses of the COVID-19 vaccine included just seven medical residents / fellows on the list." ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/36df3a966c11> a airo:Evidence ;
+    airo:evidenceText "When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/615362d9ab0f> a airo:Evidence ;
+    airo:evidenceText "In response to the residents' protests, Dr. Niraj Sehgal, chief medical officer, sent an email saying, \"Please know that the perceived lack of priority for residents and fellows was not the intent at all.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/153b66910473> a airo:Evidence ;
+    airo:evidenceText "“1 of the core attractions of algorithms is that they allow the powerful to blame a black box for politically unattractive outcomes for which they would otherwise be responsible,” Roger McNamee, a prominent Silicon Valley insider turned critic, wrote on Twitter." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/2072ce140724> a airo:Evidence ;
+    airo:evidenceText "When resident physicians at Stanford Medical Center—many of whom work on the front lines of the covid-19 pandemic—found out that only seven out of over 1,300 of them had been prioritized for the first 5,000 doses of the covid vaccine, they were shocked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/363dec8bec53> a airo:Evidence ;
+    airo:evidenceText "Dr. Mary Hawn, chair of the department of surgery, confessed to being \"disturbed and puzzled\" by the vaccination roster that \"included many of the medical staff list that aren't our physicians on the front line.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/3abc1b7c4d68> a airo:Evidence ;
+    airo:evidenceText "“But *people* decided who would get the vaccine,” tweeted Veena Dubal, a professor of law at the University of California, Hastings, who researches technology and society." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/480e4087b028> a airo:Evidence ;
+    airo:evidenceText "In response to the residents' protests, Dr. Niraj Sehgal, chief medical officer, sent an email saying, \"Please know that the perceived lack of priority for residents and fellows was not the intent at all.\"" ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/4b80ae9b2194> a airo:Evidence ;
+    airo:evidenceText "And, as first reported by ProPublica, residents were told that because they rotate between departments rather than maintain a single assignment, they lost out on points associated with the departments where they worked." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/57269c331d75> a airo:Evidence ;
+    airo:evidenceText "Irene Chen, an MIT doctoral candidate who studies the use of fair algorithms in health care, suspects this is what happened at Stanford: the formula’s designers chose variables that they believed would serve as good proxies for a given staffer’s level of covid risk." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/74ccdc1e2e19> a airo:Evidence ;
+    airo:evidenceText "Elsewhere, the University of California San Francisco’s plan is based on a similar assessment of risk of exposure to the virus." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/7cad1d987c86> a airo:Evidence ;
+    airo:evidenceText "Kahn, who sat on Johns Hopkins’ 20-member committee on vaccine allocation, says his university allocated vaccines based simply on job and risk of exposure to covid-19." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/987ee4c75cc7> a airo:Evidence ;
+    airo:evidenceText "“Our algorithm, that the ethicists, infectious disease experts worked on for weeks … clearly didn’t work right,” Tim Morrison, the director of the ambulatory care team, told residents at the event in a video posted online." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/9d4800e592f2> a airo:Evidence ;
+    airo:evidenceText "said Dr. Sarah Johnson, a third-year OB-GYN resident who has delivered babies from COVID-positive patients during the pandemic." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/eef728b69409> a airo:Evidence ;
+    airo:evidenceText "\"We take complete responsibility for the errors in the execution of our vaccine distribution plan,\" said Lisa Kim, a Stanford Medicine spokesperson." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/evidence/f6cc02da42db> a airo:Evidence ;
+    airo:evidenceText "Jeffrey Kahn, the director of the Johns Hopkins Berkman Institute of Bioethics, says the approach was overcomplicated." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/AISystem/850896e0a611> a airo:AISystem ;
+    rdfs:label "Moderna vaccine" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Moderna's vaccine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9698319959e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/AISystem/cfc893cb06ae> a airo:AISystem ;
+    rdfs:label "Pfizer vaccine" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Pfizer vaccine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9e02a4d62f2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/AISystem/f6e8800b36c8> a airo:AISystem ;
+    rdfs:label "vaccine allocation algorithm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "algorithm" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1247b71b80e9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1205> .
+
+<https://w3id.org/airo/incident/evidence/cb53a56ccc6a> a airo:Evidence ;
+    airo:evidenceText "Stanford Medicine leadership has since apologized and promised to re-evaluate the plan." ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/f119c8b07091> a airo:Evidence ;
+    airo:evidenceText "The algorithm’s third category refers to the California Department of Public Health’s vaccine allocation guidelines." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/69baea65a0ad> a airo:Evidence ;
+    airo:evidenceText "Mass General Brigham in Boston categorizes employees into four groups based on department and job location, according to an internal email reviewed by MIT Technology Review." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/9a09d8361448> a airo:Evidence ;
+    airo:evidenceText "An algorithm determining which Stanford Medicine employees would receive its 5,000 initial doses of the COVID-19 vaccine included just seven medical residents / fellows on the list, according to a December 17th letter sent from Stanford Medicine’s chief resident council.",
+        "An algorithm determining which Stanford Medicine employees would receive its 5,000 initial doses of the COVID-19 vaccine included just seven medical residents / fellows on the list." ;
+    airo:sourceDocId "1530" .
+
+<https://w3id.org/airo/incident/evidence/9e543c395c55> a airo:Evidence ;
+    airo:evidenceText "Nuriel Moghavem, a neurology resident who was the first to publicize the problems at Stanford, tweeted on Friday afternoon that he had finally received his vaccine—not at Stanford, but at a public county hospital in Santa Clara County." ;
+    airo:sourceDocId "1588" .
+
+<https://w3id.org/airo/incident/evidence/d9e02a4d62f2> a airo:Evidence ;
+    airo:evidenceText "Stanford Medicine residents who work in close contact with COVID-19 patients were left out of the first wave of staff members for the new Pfizer vaccine." ;
+    airo:sourceDocId "1205" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_235> a airo:AIRiskIncident ;
+    rdfs:label "Frontline workers protest at Stanford after hospital distributed vaccine to administrators" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/47521d95b0c0> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/6aef7ac56861> ;
+    airo:hasDescription "pred_235" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/21e9a8b8ab0b>,
+        <https://w3id.org/airo/incident/Domain/ba5cf40bce60>,
+        <https://w3id.org/airo/incident/evidence/2c088a6d8fc1>,
+        <https://w3id.org/airo/incident/evidence/35e37f7a57d2>,
+        <https://w3id.org/airo/incident/evidence/44301743885c>,
+        <https://w3id.org/airo/incident/evidence/91d6e899c59b>,
+        <https://w3id.org/airo/incident/evidence/a9ee2892d917> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/f2643299b9db> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1204>,
+        <https://w3id.org/airo/incident/NewsReport/1205>,
+        <https://w3id.org/airo/incident/NewsReport/1275>,
+        <https://w3id.org/airo/incident/NewsReport/1530>,
+        <https://w3id.org/airo/incident/NewsReport/1588> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/cfb7f3946724> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1204>,
+        <https://w3id.org/airo/incident/document/1205>,
+        <https://w3id.org/airo/incident/document/1275>,
+        <https://w3id.org/airo/incident/document/1530>,
+        <https://w3id.org/airo/incident/document/1588> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/850896e0a611>,
+        <https://w3id.org/airo/incident/AISystem/cfc893cb06ae>,
+        <https://w3id.org/airo/incident/AISystem/dd5b724f4faf>,
+        <https://w3id.org/airo/incident/AISystem/f6e8800b36c8> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/175d1ef8632c>,
+        <https://w3id.org/airo/incident/Stakeholder/380e4da3cf9e>,
+        <https://w3id.org/airo/incident/Stakeholder/4a8e016d6e70>,
+        <https://w3id.org/airo/incident/Stakeholder/59308ab91217>,
+        <https://w3id.org/airo/incident/Stakeholder/665f4b5da56a>,
+        <https://w3id.org/airo/incident/Stakeholder/6c240cf3678a>,
+        <https://w3id.org/airo/incident/Stakeholder/7f210f93f925>,
+        <https://w3id.org/airo/incident/Stakeholder/82c6d321f6f3>,
+        <https://w3id.org/airo/incident/Stakeholder/98d78cb08af3>,
+        <https://w3id.org/airo/incident/Stakeholder/9a3ba72a3e4a>,
+        <https://w3id.org/airo/incident/Stakeholder/a0b8241e953f>,
+        <https://w3id.org/airo/incident/Stakeholder/a468d0d8f378>,
+        <https://w3id.org/airo/incident/Stakeholder/ad3b9252e1ec>,
+        <https://w3id.org/airo/incident/Stakeholder/b16af7e38368>,
+        <https://w3id.org/airo/incident/Stakeholder/b499dab41cc8>,
+        <https://w3id.org/airo/incident/Stakeholder/b8a8cc9ec9bb>,
+        <https://w3id.org/airo/incident/Stakeholder/c0abdd012a11>,
+        <https://w3id.org/airo/incident/Stakeholder/cb7101ddcc76>,
+        <https://w3id.org/airo/incident/Stakeholder/eba9498a164b> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/896048b4571a> .
+
+<https://w3id.org/airo/incident/AISystem/dd5b724f4faf> a airo:AISystem ;
+    rdfs:label "Stanford vaccine distribution algorithm" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/47521d95b0c0> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/8e698c9ddf17> ;
+    airo:hasDescription "an algorithm" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a09d8361448> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1530> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/26c8aede0886> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/54b2cc8fdf03> .
+

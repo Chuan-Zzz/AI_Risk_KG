@@ -1,0 +1,2276 @@
+{
+  "gold_standard": [
+    {
+      "event_id": "pred_351",
+      "doc_count": 4,
+      "ids": [
+        "1103",
+        "1711",
+        "1712",
+        "1713"
+      ],
+      "language": "en",
+      "avg_text_length": 3801.0,
+      "titles": [
+        "Apple Lexus RX 450h self-driving test car rear-ended during road testing in Silicon Valley",
+        "Apple’s self-driving cars ‘smacked into curbs, veered out of lanes’",
+        "Inside Apple’s Eight-Year Struggle to Build a Self-Driving Car"
+      ]
+    },
+    {
+      "event_id": "pred_352",
+      "doc_count": 4,
+      "ids": [
+        "1558",
+        "1559",
+        "1560",
+        "173"
+      ],
+      "language": "en",
+      "avg_text_length": 3116.0,
+      "titles": [
+        "Tesla’s Autopilot was engaged when Model 3 crashed into truck, report states",
+        "Autopilot Cited in Death of Chinese Tesla Driver",
+        "Tesla confirms 'Autopilot' engaged in fatal crash in China"
+      ]
+    },
+    {
+      "event_id": "pred_353",
+      "doc_count": 4,
+      "ids": [
+        "1718",
+        "1719",
+        "1720",
+        "1757"
+      ],
+      "language": "en",
+      "avg_text_length": 2228.0,
+      "titles": [
+        "Another Tesla Autopilot Crash Has Wrecked A Model 3 In Greece",
+        "Facebook Post: @tsla3",
+        "Greece: Driver claims autopilot malfunction in Tesla crash"
+      ]
+    },
+    {
+      "event_id": "pred_354",
+      "doc_count": 4,
+      "ids": [
+        "1561",
+        "1562",
+        "1796",
+        "1825"
+      ],
+      "language": "en",
+      "avg_text_length": 4242.0,
+      "titles": [
+        "Tesla sued after motorcyclist's death",
+        "Tesla is sued by family of man who was killed by car using Autopilot",
+        "Driver in Fatal Tesla Model X Crash Had Complained about Autopilot"
+      ]
+    },
+    {
+      "event_id": "pred_355",
+      "doc_count": 4,
+      "ids": [
+        "1867",
+        "1913",
+        "1914",
+        "1915"
+      ],
+      "language": "en",
+      "avg_text_length": 3776.0,
+      "titles": [
+        "Robots Ruin Robot Hotel",
+        "Japan’s robot hotel lays off half the robots after they created more work for humans",
+        "Japan’s Henn na Hotel fires half its robot workforce"
+      ]
+    },
+    {
+      "event_id": "pred_356",
+      "doc_count": 4,
+      "ids": [
+        "1795",
+        "186",
+        "189",
+        "192"
+      ],
+      "language": "en",
+      "avg_text_length": 2597.0,
+      "titles": [
+        "Report: Model X In Latest Tesla Autopilot Death Accelerated And Steered Into Barrier",
+        "Tesla Model X driver dies in Mountain View crash",
+        "Tesla in fatal California crash was on Autopilot"
+      ]
+    },
+    {
+      "event_id": "pred_360",
+      "doc_count": 4,
+      "ids": [
+        "2121",
+        "2198",
+        "2199",
+        "2200"
+      ],
+      "language": "en",
+      "avg_text_length": 7640.0,
+      "titles": [
+        "Facebook’s Latest Scandal: Exposing Low Digitally Skilled Users to More Violent and Adult Content",
+        "Facebook Exposed Its Less Digital Conversant Audience To Graphic Content",
+        "Why Some People See More Disturbing Content on Facebook Than Others, According to Leaked Documents"
+      ]
+    },
+    {
+      "event_id": "pred_363",
+      "doc_count": 4,
+      "ids": [
+        "271",
+        "272",
+        "273",
+        "275"
+      ],
+      "language": "en",
+      "avg_text_length": 2927.0,
+      "titles": [
+        "Google's self-driving Lexus cuts off self-driving Audi",
+        "Google and Delphi Self Driving Cars Clash In Near Miss Accident",
+        "Near-miss between self-driving cars shows computers are smarter than us"
+      ]
+    },
+    {
+      "event_id": "pred_364",
+      "doc_count": 4,
+      "ids": [
+        "3156",
+        "3157",
+        "3158",
+        "3160"
+      ],
+      "language": "en",
+      "avg_text_length": 3616.0,
+      "titles": [
+        "UnitedHealth Faces Lawsuit, Media Scrutiny Over AI’s Role in Medicare Advantage Denials of Nursing Home Care",
+        "UnitedHealthcare sued over AI-denied medical claims",
+        "America's Largest Health Insurer Denying Care With AI That's Wrong 90 Percent of the Time, Lawsuit Alleges"
+      ]
+    },
+    {
+      "event_id": "pred_365",
+      "doc_count": 4,
+      "ids": [
+        "3381",
+        "3382",
+        "3383",
+        "3384"
+      ],
+      "language": "en",
+      "avg_text_length": 8526.0,
+      "titles": [
+        "Le Creuset giveaway scam tricks “Swifties” and “Selenators”",
+        "Taylor Swift fans scammed by AI-generated Le Creuset endorsements",
+        "Pioneer Woman Ree Drummond Warns of Artificial Intelligence Scam"
+      ]
+    },
+    {
+      "event_id": "pred_366",
+      "doc_count": 4,
+      "ids": [
+        "1865",
+        "1903",
+        "1904",
+        "4099"
+      ],
+      "language": "en",
+      "avg_text_length": 4064.0,
+      "titles": [
+        "Confused self-driving taxi drives away from its support crew",
+        "Waymo self-driving taxi confused by traffic cones flees help",
+        "Waymo Self Driving Taxi Goes Rogue: Blocks Traffic, Evades Capture | JJRicks Rides With Waymo #54"
+      ]
+    },
+    {
+      "event_id": "pred_367",
+      "doc_count": 4,
+      "ids": [
+        "406",
+        "407",
+        "408",
+        "410"
+      ],
+      "language": "en",
+      "avg_text_length": 2714.0,
+      "titles": [
+        "Why driverless Delhi Metro train crashing into a wall is worrisome",
+        "Driverless Delhi Metro's magenta line train crashes a week before launch",
+        "Delhi Metro's Driverless Magenta Line Train Crashes Into Wall, DMRC Calls it Human Error"
+      ]
+    },
+    {
+      "event_id": "pred_380",
+      "doc_count": 4,
+      "ids": [
+        "1174",
+        "503",
+        "5069",
+        "521"
+      ],
+      "language": "en",
+      "avg_text_length": 1292.0,
+      "titles": [
+        "Chinese AI caught out by face in bus ad",
+        "China's AI Camera Mistakes CEO's Photo On Moving Bus For Real Person, Shames Her For Jaywalking",
+        "Chinese facial recognition confuses bus ad with jaywalker"
+      ]
+    },
+    {
+      "event_id": "pred_408",
+      "doc_count": 4,
+      "ids": [
+        "3770",
+        "3976",
+        "3977",
+        "6966"
+      ],
+      "language": "en",
+      "avg_text_length": 5605.0,
+      "titles": [
+        "A national network of local news sites is publishing AI-written articles under fake bylines. Experts are raising alarm",
+        "AI-Powered News Site Accidentally Accuses District Attorney of Murder",
+        "AI Sludge Local News Site Hoodline Falsely Accuses San Mateo DA Of Murder"
+      ]
+    },
+    {
+      "event_id": "pred_434",
+      "doc_count": 4,
+      "ids": [
+        "3581",
+        "7585",
+        "7592",
+        "7596"
+      ],
+      "language": "zh",
+      "avg_text_length": 7138.0,
+      "titles": [
+        "SEC Charges Two Investment Advisers with Making False and Misleading Statements About Their Use of Artificial Intelligence",
+        "Delphia, Global Predictions fined by SEC in ‘AI washing’ cases",
+        "SEC Charges Two Investment Advisers With Making False, Misleading AI Claims"
+      ]
+    },
+    {
+      "event_id": "pred_443",
+      "doc_count": 4,
+      "ids": [
+        "6254",
+        "6263",
+        "6264",
+        "7901"
+      ],
+      "language": "zh",
+      "avg_text_length": 2630.0,
+      "titles": [
+        "Canada to launch probe into OpenAI over privacy concerns",
+        "FTC investigates OpenAI over data leak and ChatGPT’s inaccuracy",
+        "More Canadian privacy authorities investigating ChatGPT's use of personal information"
+      ]
+    },
+    {
+      "event_id": "pred_448",
+      "doc_count": 4,
+      "ids": [
+        "2608",
+        "2623",
+        "7970",
+        "7981"
+      ],
+      "language": "zh",
+      "avg_text_length": 6026.0,
+      "titles": [
+        "High Schoolers Made a Racist Deepfake of a Principal Threatening Black Students",
+        "Students Who Made Racist Deepfake Video of Principal 'Broke No Law'",
+        "Students Who Made Racist Deepfake Video of Principal ‘Broke No Law’"
+      ]
+    },
+    {
+      "event_id": "pred_451",
+      "doc_count": 4,
+      "ids": [
+        "6373",
+        "6375",
+        "8034",
+        "8045"
+      ],
+      "language": "zh",
+      "avg_text_length": 15050.0,
+      "titles": [
+        "Un hombre estuvo seis días preso por un error del sistema de reconocimiento facial",
+        "Seis días arrestado por un error del sistema de reconocimiento facial",
+        "The Twisted Eye in the Sky Over Buenos Aires"
+      ]
+    },
+    {
+      "event_id": "pred_452",
+      "doc_count": 4,
+      "ids": [
+        "1574",
+        "1632",
+        "1633",
+        "806"
+      ],
+      "language": "en",
+      "avg_text_length": 3778.0,
+      "titles": [
+        "Knightscope Issues Field Incident Report",
+        "Robots are being used to shoo away homeless people in San Francisco",
+        "Animal shelter faces backlash after using robot to scare off homeless people"
+      ]
+    },
+    {
+      "event_id": "pred_453",
+      "doc_count": 4,
+      "ids": [
+        "6454",
+        "6577",
+        "6690",
+        "8095"
+      ],
+      "language": "zh",
+      "avg_text_length": 3361.0,
+      "titles": [
+        "Feds probe NY Tesla crash that killed man changing flat tire",
+        "Tesla crash driver posted videos of himself riding without hands on wheel",
+        "Man killed in California Tesla crash previously posted videos in autopilot mode"
+      ]
+    },
+    {
+      "event_id": "pred_462",
+      "doc_count": 4,
+      "ids": [
+        "4749",
+        "8255",
+        "8257",
+        "8261"
+      ],
+      "language": "zh",
+      "avg_text_length": 2250.0,
+      "titles": [
+        "China scammer uses AI to impersonate victim’s friend, steal $823,000",
+        "Police warn of AI fraud after man duped by 'friend'",
+        "AI诈骗背后：用照片生成你“露脸说话”的视频仅需30元左右"
+      ]
+    },
+    {
+      "event_id": "pred_471",
+      "doc_count": 4,
+      "ids": [
+        "4028",
+        "6372",
+        "6374",
+        "8538"
+      ],
+      "language": "zh",
+      "avg_text_length": 9362.0,
+      "titles": [
+        "How We Investigated Mass Surveillance in Argentina",
+        "Problems in Argentina’s justice system exacerbated by public facial recognition: report",
+        "La policía argentina arresta a personas inocentes basándose en el reconocimiento facial"
+      ]
+    },
+    {
+      "event_id": "pred_472",
+      "doc_count": 4,
+      "ids": [
+        "1401",
+        "3766",
+        "5347",
+        "8630"
+      ],
+      "language": "zh",
+      "avg_text_length": 15315.0,
+      "titles": [
+        "In Spain, the VioGén algorithm attempts to forecast gender violence",
+        "An Algorithm Told Police She Was Safe. Then Her Husband Killed Her.",
+        "Se llama VioGén y es el algoritmo que predice el riesgo de que una mujer pueda volver a sufrir violencia machista"
+      ]
+    },
+    {
+      "event_id": "pred_475",
+      "doc_count": 4,
+      "ids": [
+        "1742",
+        "8754",
+        "8757",
+        "8758"
+      ],
+      "language": "zh",
+      "avg_text_length": 2416.0,
+      "titles": [
+        "Man Arrested for Uncensoring Japanese Porn With AI in First Deepfake Case",
+        "Japan arrests man who de-pixelated porn using deepfake tech",
+        "Japanese man arrested for using DeepFake to de-pixelate porn content"
+      ]
+    },
+    {
+      "event_id": "pred_477",
+      "doc_count": 4,
+      "ids": [
+        "1909",
+        "1910",
+        "1911",
+        "8963"
+      ],
+      "language": "en",
+      "avg_text_length": 4567.0,
+      "titles": [
+        "A.I. Drone May Have Acted on Its Own in Attacking Fighters, U.N. Says",
+        "A Military Drone With A Mind Of Its Own Was Used In Combat, U.N. Says",
+        "AI-powered drone deployed in Libya has possibly killed people without any human interference"
+      ]
+    },
+    {
+      "event_id": "pred_488",
+      "doc_count": 4,
+      "ids": [
+        "1767",
+        "9497",
+        "9499",
+        "9502"
+      ],
+      "language": "zh",
+      "avg_text_length": 7297.0,
+      "titles": [
+        "Zero arrests, 2 correct matches, no criminals: London cops' facial recog tech slammed",
+        "Who's watching you from an unmarked van while you shop in London? Cops with facial recog tech",
+        "The Met Police's facial recognition tests are fatally flawed"
+      ]
+    },
+    {
+      "event_id": "pred_494",
+      "doc_count": 4,
+      "ids": [
+        "987",
+        "988",
+        "989",
+        "990"
+      ],
+      "language": "en",
+      "avg_text_length": 2389.0,
+      "titles": [
+        "Uber’s Self-Driving Cars Missed Six Red Lights In San Francisco",
+        "Uber's Self-Driving Car Runs Red Light in San Francisco",
+        "Uber’s Self Driving Cars Are Running Red Lights, Uber’s Blaming “Human Error”"
+      ]
+    },
+    {
+      "event_id": "pred_234",
+      "doc_count": 5,
+      "ids": [
+        "1364",
+        "1365",
+        "1417",
+        "1418",
+        "1419"
+      ],
+      "language": "en",
+      "avg_text_length": 2533.0,
+      "titles": [
+        "GM Cruise autonomous taxi pulled over by police in San Francisco without humans, 'bolts' off",
+        "Here’s what happens when cops pull over a driverless Cruise vehicle",
+        "Driverless car starts to pull away after being stopped by police"
+      ]
+    },
+    {
+      "event_id": "pred_235",
+      "doc_count": 5,
+      "ids": [
+        "1204",
+        "1205",
+        "1275",
+        "1530",
+        "1588"
+      ],
+      "language": "en",
+      "avg_text_length": 4904.0,
+      "titles": [
+        "Frontline workers protest at Stanford after hospital distributed vaccine to administrators",
+        "Only Seven of Stanford’s First 5,000 Vaccines Were Designated for Medical Residents",
+        "Stanford apologizes for coronavirus vaccine plan that left out many front-line doctors"
+      ]
+    },
+    {
+      "event_id": "pred_236",
+      "doc_count": 5,
+      "ids": [
+        "1534",
+        "1731",
+        "1732",
+        "1733",
+        "1734"
+      ],
+      "language": "en",
+      "avg_text_length": 3027.0,
+      "titles": [
+        "WeChat Apologizes for Translating ‘Black Foreigner’ as N-Word",
+        "China's WeChat app translates 'black foreigner' to N-word",
+        "WeChat translates 'black foreigner' into racial slur"
+      ]
+    },
+    {
+      "event_id": "pred_237",
+      "doc_count": 5,
+      "ids": [
+        "1537",
+        "1538",
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "language": "en",
+      "avg_text_length": 3748.0,
+      "titles": [
+        "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+        "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+        "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot"
+      ]
+    },
+    {
+      "event_id": "pred_241",
+      "doc_count": 5,
+      "ids": [
+        "2118",
+        "2119",
+        "2203",
+        "2204",
+        "2205"
+      ],
+      "language": "en",
+      "avg_text_length": 4524.0,
+      "titles": [
+        "Facebook says technical error caused vulgar translation of Chinese leader's name",
+        "Thai PBS แจงข้อความไม่เหมาะสม อ้างระบบแปลอัตโนมัติเฟซบุ๊กมีปัญหา",
+        "FB told to apologise for 'mistranslation'"
+      ]
+    },
+    {
+      "event_id": "pred_242",
+      "doc_count": 5,
+      "ids": [
+        "2294",
+        "2296",
+        "2298",
+        "2299",
+        "2300"
+      ],
+      "language": "en",
+      "avg_text_length": 8765.0,
+      "titles": [
+        "Understanding the errors introduced by military AI applications",
+        "Woman Sues Raytheon Over Iraq Friendly Fire Death",
+        " Investigation Finds U.S. Missiles Downed Navy Jet"
+      ]
+    },
+    {
+      "event_id": "pred_245",
+      "doc_count": 5,
+      "ids": [
+        "1192",
+        "1262",
+        "2062",
+        "2500",
+        "3040"
+      ],
+      "language": "en",
+      "avg_text_length": 6313.0,
+      "titles": [
+        "How an Algorithm Blocked Kidney Transplants to Black Patients",
+        "A Health Care Algorithm Offered Less Care to Black Patients",
+        "Racial bias in a medical algorithm favors white patients over sicker black patients"
+      ]
+    },
+    {
+      "event_id": "pred_247",
+      "doc_count": 5,
+      "ids": [
+        "3181",
+        "3182",
+        "3183",
+        "3184",
+        "3185"
+      ],
+      "language": "en",
+      "avg_text_length": 4222.0,
+      "titles": [
+        "Gayle King fumes over manipulated AI video of her endorsing weight loss company: 'Don’t be fooled’",
+        "Gayle King slams AI advert that uses manipulated video of her",
+        "Celebrities warn followers not to be duped by AI deepfakes"
+      ]
+    },
+    {
+      "event_id": "pred_251",
+      "doc_count": 5,
+      "ids": [
+        "4141",
+        "4142",
+        "4143",
+        "4144",
+        "4145"
+      ],
+      "language": "en",
+      "avg_text_length": 4862.0,
+      "titles": [
+        "Russian Hackers Are Using Fake AI \"Nudify\" Sites to Steal Data",
+        "Tracking FIN7 malware honeypots, new AI deepfake lures",
+        "FIN7 Gang Hides Malware in AI “Deepnude” Sites"
+      ]
+    },
+    {
+      "event_id": "pred_253",
+      "doc_count": 5,
+      "ids": [
+        "442",
+        "444",
+        "445",
+        "446",
+        "448"
+      ],
+      "language": "en",
+      "avg_text_length": 2460.0,
+      "titles": [
+        "The iPhone X’s archnemesis: identical twins",
+        "The iPhone X's Face ID can be fooled by identical twins",
+        "A man was able to use Face ID to unlock his brother’s new iPhone X"
+      ]
+    },
+    {
+      "event_id": "pred_259",
+      "doc_count": 5,
+      "ids": [
+        "466",
+        "467",
+        "473",
+        "474",
+        "475"
+      ],
+      "language": "en",
+      "avg_text_length": 2012.0,
+      "titles": [
+        "Amazon Echo Dot ad cleared over cat food order",
+        "Newsreader says, ‘Alexa, buy a doll’s house’ on air - and Amazon Echos buy them",
+        "Amazon’s Alexa started ordering people dollhouses after hearing its name on TV"
+      ]
+    },
+    {
+      "event_id": "pred_261",
+      "doc_count": 5,
+      "ids": [
+        "4758",
+        "4760",
+        "4761",
+        "4762",
+        "4763"
+      ],
+      "language": "en",
+      "avg_text_length": 2399.0,
+      "titles": [
+        "Europol warns of AI-driven crime threats",
+        "Europol warns of AI-powered organized crime",
+        "Europol Warns of AI-Driven Crime Threats"
+      ]
+    },
+    {
+      "event_id": "pred_262",
+      "doc_count": 5,
+      "ids": [
+        "4853",
+        "4854",
+        "4855",
+        "4856",
+        "4857"
+      ],
+      "language": "en",
+      "avg_text_length": 8220.0,
+      "titles": [
+        "An AI chatbot told a user how to kill himself—but the company doesn’t want to “censor” it",
+        "AI Companion Chatbot Nomi Raises Serious Safety Concerns with Unfiltered, Harmful Content",
+        "An AI companion chatbot is inciting self-harm, sexual violence and terror attacks"
+      ]
+    },
+    {
+      "event_id": "pred_270",
+      "doc_count": 5,
+      "ids": [
+        "4289",
+        "4290",
+        "4291",
+        "5345",
+        "5350"
+      ],
+      "language": "en",
+      "avg_text_length": 5003.0,
+      "titles": [
+        "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+        "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+        "Even I was almost fooled, says Paetongtarn on AI scam encounter"
+      ]
+    },
+    {
+      "event_id": "pred_283",
+      "doc_count": 5,
+      "ids": [
+        "4411",
+        "4412",
+        "4818",
+        "4836",
+        "6516"
+      ],
+      "language": "en",
+      "avg_text_length": 7610.0,
+      "titles": [
+        "AI is used in half of bank scams. Here’s what you need to watch out for",
+        "Deepfake scams escalate, hitting 53% of businesses",
+        "Next-Gen AI Scam Clones Broker Exante, Opens JPMorgan Account to Dupe U.S. Victim"
+      ]
+    },
+    {
+      "event_id": "pred_298",
+      "doc_count": 5,
+      "ids": [
+        "3701",
+        "5853",
+        "5858",
+        "7100",
+        "7425"
+      ],
+      "language": "zh",
+      "avg_text_length": 5708.0,
+      "titles": [
+        "Google Rolls Back A.I. Search Feature After Flubs and Flaws",
+        "Google's new AI summaries tool causes concern after producing misleading responses",
+        "Google's AI Overview can give false, misleading, and dangerous answers"
+      ]
+    },
+    {
+      "event_id": "pred_304",
+      "doc_count": 5,
+      "ids": [
+        "5978",
+        "5979",
+        "7564",
+        "7565",
+        "7567"
+      ],
+      "language": "zh",
+      "avg_text_length": 6743.0,
+      "titles": [
+        "South Korea privacy regulator to investigate Worldcoin’s biometrics handling",
+        "Worldcoin Regulatory Scrutiny Grows: Argentina Launches Investigation Over Data Privacy",
+        "South Korea's Regulator Launches Investigation into Worldcoin Amid Privacy Concerns"
+      ]
+    },
+    {
+      "event_id": "pred_317",
+      "doc_count": 5,
+      "ids": [
+        "6444",
+        "6445",
+        "6446",
+        "8088",
+        "8091"
+      ],
+      "language": "zh",
+      "avg_text_length": 3823.0,
+      "titles": [
+        "Microsoft pulls article recommending Ottawa Food Bank to tourists",
+        "Microsoft AI suggests food bank as a “cannot miss” tourist spot in Canada",
+        "Microsoft lists Ottawa Food Bank as tourist destination, says ‘human’, not AI error"
+      ]
+    },
+    {
+      "event_id": "pred_321",
+      "doc_count": 5,
+      "ids": [
+        "1151",
+        "1169",
+        "1170",
+        "5319",
+        "8124"
+      ],
+      "language": "en",
+      "avg_text_length": 2358.0,
+      "titles": [
+        "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France",
+        "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France",
+        "Google ordered to change autocomplete function in Japan"
+      ]
+    },
+    {
+      "event_id": "pred_331",
+      "doc_count": 5,
+      "ids": [
+        "1604",
+        "1605",
+        "3060",
+        "8605",
+        "8610"
+      ],
+      "language": "en",
+      "avg_text_length": 5161.0,
+      "titles": [
+        "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew, One Night ‘Nearly 60’ Cars Stopped",
+        "Cruise’s Robot Car Outages Are Jamming Up San Francisco",
+        "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco"
+      ]
+    },
+    {
+      "event_id": "pred_337",
+      "doc_count": 5,
+      "ids": [
+        "2978",
+        "2982",
+        "2983",
+        "9270",
+        "9272"
+      ],
+      "language": "en",
+      "avg_text_length": 5765.0,
+      "titles": [
+        "NYPD used facial recognition to track down Black Lives Matter activist",
+        "NYPD Used Facial Recognition Technology In Siege Of Black Lives Matter Activist’s Apartment",
+        "NYPD used facial recognition software during investigation targeting Black Lives Matter activist"
+      ]
+    },
+    {
+      "event_id": "pred_343",
+      "doc_count": 5,
+      "ids": [
+        "1322",
+        "1539",
+        "9435",
+        "9436",
+        "9552"
+      ],
+      "language": "zh",
+      "avg_text_length": 4203.0,
+      "titles": [
+        "Felony charges are 1st in a fatal crash involving Autopilot",
+        "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges, report says",
+        "California Prosecutors File Felony Charges Against Tesla Autopilot Driver"
+      ]
+    },
+    {
+      "event_id": "pred_344",
+      "doc_count": 5,
+      "ids": [
+        "9563",
+        "9564",
+        "9566",
+        "9568",
+        "9569"
+      ],
+      "language": "zh",
+      "avg_text_length": 4224.0,
+      "titles": [
+        "ZAO致歉：称不会存个人面部生物识别特征信息，无支付风险",
+        "Chinese ‘Deepfake’ App Censured Over Privacy Concerns",
+        "Another convincing deepfake app goes viral prompting immediate privacy backlash"
+      ]
+    },
+    {
+      "event_id": "pred_178",
+      "doc_count": 6,
+      "ids": [
+        "1247",
+        "2309",
+        "2473",
+        "2626",
+        "3843",
+        "3844"
+      ],
+      "language": "en",
+      "avg_text_length": 11247.0,
+      "titles": [
+        "Troy will turn off ShotSpotter",
+        "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?",
+        "Durham Police did not receive ShotSpotter alerts in recent deadly shootings, officers say"
+      ]
+    },
+    {
+      "event_id": "pred_181",
+      "doc_count": 6,
+      "ids": [
+        "4366",
+        "4373",
+        "4374",
+        "4375",
+        "4376",
+        "4379"
+      ],
+      "language": "en",
+      "avg_text_length": 7198.0,
+      "titles": [
+        "Teacher’s shock discovery: Close friend responsible for sharing her deepfake porn images",
+        "Hannah found deepfake porn of herself online. But the most disturbing revelation was still to come",
+        "Justice for Hannah Grundy – A Landmark Victory Against Online Abuse For Our Client"
+      ]
+    },
+    {
+      "event_id": "pred_183",
+      "doc_count": 6,
+      "ids": [
+        "4507",
+        "4509",
+        "4516",
+        "4517",
+        "4519",
+        "4530"
+      ],
+      "language": "en",
+      "avg_text_length": 4987.0,
+      "titles": [
+        "Woman loses $375k and moves to New Zealand for love in fake Martin Henderson romance scam",
+        "Heartbreak and Fraud: Woman Loses $375,000 in Fake Martin Henderson Romance Scam",
+        "Virgin River fan claims she was scammed $375k during romance with Martin Henderson imposter"
+      ]
+    },
+    {
+      "event_id": "pred_187",
+      "doc_count": 6,
+      "ids": [
+        "3676",
+        "3677",
+        "5839",
+        "5841",
+        "5927",
+        "5938"
+      ],
+      "language": "zh",
+      "avg_text_length": 6984.0,
+      "titles": [
+        "'I was misidentified as shoplifter by facial recognition tech'",
+        "Innocent woman branded a shoplifter by facial recognition software",
+        "I was misidentified as shoplifter by facial recognition tech"
+      ]
+    },
+    {
+      "event_id": "pred_189",
+      "doc_count": 6,
+      "ids": [
+        "5058",
+        "5059",
+        "5060",
+        "653",
+        "654",
+        "655"
+      ],
+      "language": "zh",
+      "avg_text_length": 3244.0,
+      "titles": [
+        "MIT fed an AI data from Reddit, and now it only thinks about murder",
+        "Meet Norman - the world's first 'psychopathic artificial intelligence' unveiled by MIT",
+        "MIT scientists created an AI-powered 'psychopath' named Norman"
+      ]
+    },
+    {
+      "event_id": "pred_194",
+      "doc_count": 6,
+      "ids": [
+        "3966",
+        "3967",
+        "3968",
+        "3969",
+        "3970",
+        "7007"
+      ],
+      "language": "en",
+      "avg_text_length": 3116.0,
+      "titles": [
+        "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+        "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+        "'Made up a bra': Ex Google techie claims her photo was edited for AI conference"
+      ]
+    },
+    {
+      "event_id": "pred_208",
+      "doc_count": 6,
+      "ids": [
+        "3311",
+        "3325",
+        "3326",
+        "3327",
+        "3329",
+        "7767"
+      ],
+      "language": "en",
+      "avg_text_length": 3066.0,
+      "titles": [
+        "GM Dealer Chat Bot Agrees To Sell 2024 Chevy Tahoe For $1",
+        "Prankster tricks a GM chatbot into agreeing to sell him a $76,000 Chevy Tahoe for $1",
+        "Dealership AI Chatbot Sells Car for $1"
+      ]
+    },
+    {
+      "event_id": "pred_212",
+      "doc_count": 6,
+      "ids": [
+        "6376",
+        "6377",
+        "6378",
+        "8037",
+        "8038",
+        "8040"
+      ],
+      "language": "zh",
+      "avg_text_length": 3132.0,
+      "titles": [
+        "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters",
+        "Meta apologises after auto-translate added ‘terrorist’ to biographies of Palestine supporters on Instagram",
+        "Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles"
+      ]
+    },
+    {
+      "event_id": "pred_141",
+      "doc_count": 7,
+      "ids": [
+        "6487",
+        "674",
+        "676",
+        "679",
+        "683",
+        "684",
+        "685"
+      ],
+      "language": "en",
+      "avg_text_length": 2774.0,
+      "titles": [
+        "Google search reveals names of rape victims",
+        "Algorithmic Defamation: The Case of the Shameless Autocomplete",
+        "Google loses autocomplete defamation case in Italy"
+      ]
+    },
+    {
+      "event_id": "pred_160",
+      "doc_count": 7,
+      "ids": [
+        "2552",
+        "2618",
+        "2668",
+        "8027",
+        "8028",
+        "8030",
+        "8031"
+      ],
+      "language": "zh",
+      "avg_text_length": 4360.0,
+      "titles": [
+        "AI-Generated Voice Firm Clamps Down After 4chan Makes Celebrity Voices for Abuse",
+        "Making Deepfakes Gets Cheaper and Easier Thanks to A.I.",
+        "Emma Watson reads Mein Kampf on 4Chan in deepfake audio trick"
+      ]
+    },
+    {
+      "event_id": "pred_100",
+      "doc_count": 8,
+      "ids": [
+        "1035",
+        "1036",
+        "1037",
+        "1038",
+        "1041",
+        "1044",
+        "1052",
+        "1061"
+      ],
+      "language": "en",
+      "avg_text_length": 1657.0,
+      "titles": [
+        "DC security robot quits job by drowning itself in a fountain",
+        "Security robot falls into pond after failing to spot stairs or water",
+        "Security robot 'in critical condition' after nearly drowning on the job"
+      ]
+    },
+    {
+      "event_id": "pred_112",
+      "doc_count": 8,
+      "ids": [
+        "3819",
+        "3820",
+        "3821",
+        "3822",
+        "3837",
+        "3838",
+        "3872",
+        "7133"
+      ],
+      "language": "en",
+      "avg_text_length": 6988.0,
+      "titles": [
+        "South Korean Teenagers Detained Over Deepfake Sexual Images",
+        "(Yonhap Feature) S. Korean women scurrying to take down selfies amid deepfake porn crimes",
+        "Inside the deepfake porn crisis engulfing Korean schools"
+      ]
+    },
+    {
+      "event_id": "pred_122",
+      "doc_count": 8,
+      "ids": [
+        "1581",
+        "1582",
+        "1583",
+        "1585",
+        "1590",
+        "6778",
+        "8481",
+        "8482"
+      ],
+      "language": "en",
+      "avg_text_length": 2588.0,
+      "titles": [
+        "A chess robot in Moscow has broken the finger of its human opponent",
+        "Chess robot goes rogue, breaks seven-year-old player's finger",
+        "Chess robot grabs and breaks finger of seven-year-old opponent"
+      ]
+    },
+    {
+      "event_id": "pred_124",
+      "doc_count": 8,
+      "ids": [
+        "1458",
+        "1459",
+        "1460",
+        "1461",
+        "5064",
+        "8645",
+        "8646",
+        "8647"
+      ],
+      "language": "zh",
+      "avg_text_length": 5720.0,
+      "titles": [
+        "Ever, once accused of building facial recognition tech using customer data, shuts down consumer app",
+        "Column: Millions of faces scanned without approval. We need rules for facial recognition",
+        "California Company Settles FTC Allegations It Deceived Consumers about use of Facial Recognition in Photo Storage App"
+      ]
+    },
+    {
+      "event_id": "pred_127",
+      "doc_count": 8,
+      "ids": [
+        "1762",
+        "1764",
+        "1765",
+        "1766",
+        "9503",
+        "9506",
+        "9508",
+        "9510"
+      ],
+      "language": "zh",
+      "avg_text_length": 5087.0,
+      "titles": [
+        "2,000 wrongly matched with possible criminals at Champions League",
+        "UK police say 92% false positive facial recognition is no big deal",
+        "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff"
+      ]
+    },
+    {
+      "event_id": "pred_128",
+      "doc_count": 8,
+      "ids": [
+        "1154",
+        "1203",
+        "1685",
+        "2001",
+        "2002",
+        "9511",
+        "9513",
+        "9514"
+      ],
+      "language": "en",
+      "avg_text_length": 4517.0,
+      "titles": [
+        "A RoboCop, a park and a fight: How expectations about robots are clashing with reality",
+        "Police robot told woman to go away after she tried to report crime – then sang a song",
+        "California’s First Robotic Police Officer Ignored a Woman Reporting a Crime, Then 'Sang her a Song'"
+      ]
+    },
+    {
+      "event_id": "pred_86",
+      "doc_count": 9,
+      "ids": [
+        "4447",
+        "4448",
+        "4452",
+        "4453",
+        "4454",
+        "4455",
+        "4456",
+        "4457",
+        "4459"
+      ],
+      "language": "en",
+      "avg_text_length": 6396.0,
+      "titles": [
+        "Between Russia and Elon Musk, German Voters Face a ‘Dual Front’ of Disinformation",
+        "AI-driven Russian disinformation campaign targets German elections",
+        "How are web platforms protecting the German electorate from fake news?"
+      ]
+    },
+    {
+      "event_id": "pred_87",
+      "doc_count": 9,
+      "ids": [
+        "4466",
+        "4467",
+        "4468",
+        "4469",
+        "4470",
+        "4471",
+        "4472",
+        "4473",
+        "4474"
+      ],
+      "language": "en",
+      "avg_text_length": 2560.0,
+      "titles": [
+        "Detenido un menor por crear con IA imágenes de desnudos de cinco compañeras de colegio y difundirlas",
+        "Detenido un menor en Palma por crear desnudos de compañeras de clase con inteligencia artificial",
+        "Detenido en Palma un menor por crear imágenes con IA de desnudos de sus compañeras de colegio"
+      ]
+    },
+    {
+      "event_id": "pred_92",
+      "doc_count": 9,
+      "ids": [
+        "5268",
+        "571",
+        "572",
+        "575",
+        "576",
+        "577",
+        "578",
+        "579",
+        "580"
+      ],
+      "language": "en",
+      "avg_text_length": 2346.0,
+      "titles": [
+        "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons",
+        "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here",
+        "Elite Dangerous patch stops AI developing WMDs"
+      ]
+    },
+    {
+      "event_id": "pred_94",
+      "doc_count": 9,
+      "ids": [
+        "3359",
+        "3360",
+        "3364",
+        "3366",
+        "3367",
+        "3368",
+        "3369",
+        "3370",
+        "7751"
+      ],
+      "language": "en",
+      "avg_text_length": 4082.0,
+      "titles": [
+        "No, That’s Not Taylor Swift Peddling Le Creuset Cookware",
+        "Taylor Swift fans swindled by AI-generated Le Creuset ad scam",
+        "Taylor Swift fans scammed by fake Le Creuset endorsement"
+      ]
+    },
+    {
+      "event_id": "pred_97",
+      "doc_count": 9,
+      "ids": [
+        "2262",
+        "2263",
+        "2264",
+        "2265",
+        "8728",
+        "8729",
+        "8730",
+        "8731",
+        "8733"
+      ],
+      "language": "zh",
+      "avg_text_length": 4916.0,
+      "titles": [
+        "South Korea Is Giving Millions of Photos to Facial Recognition Researchers",
+        "Rights groups demand halt to South Korea facial recognition surveillance project",
+        "Seoul shares face biometrics of 170M travelers with private firms"
+      ]
+    },
+    {
+      "event_id": "pred_72",
+      "doc_count": 10,
+      "ids": [
+        "345",
+        "346",
+        "348",
+        "350",
+        "363",
+        "364",
+        "365",
+        "366",
+        "369",
+        "370"
+      ],
+      "language": "en",
+      "avg_text_length": 4058.0,
+      "titles": [
+        "2010 Flash Crash",
+        "Guy Trading at Home Caused the Flash Crash",
+        "Why the Cause of the 2010 Stock Market Flash Crash Really Matters"
+      ]
+    },
+    {
+      "event_id": "pred_76",
+      "doc_count": 10,
+      "ids": [
+        "3620",
+        "3621",
+        "3641",
+        "3651",
+        "3656",
+        "5945",
+        "5946",
+        "5948",
+        "7536",
+        "7570"
+      ],
+      "language": "zh",
+      "avg_text_length": 17821.0,
+      "titles": [
+        "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza",
+        "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report",
+        "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets"
+      ]
+    },
+    {
+      "event_id": "pred_64",
+      "doc_count": 11,
+      "ids": [
+        "1973",
+        "266",
+        "267",
+        "268",
+        "269",
+        "270",
+        "274",
+        "5286",
+        "5288",
+        "5290",
+        "5292"
+      ],
+      "language": "en",
+      "avg_text_length": 3427.0,
+      "titles": [
+        "Two rival self-driving cars have close call in California",
+        "Driverless Car Maker Denies Claim of Near-Miss With Google Car",
+        "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!"
+      ]
+    },
+    {
+      "event_id": "pred_53",
+      "doc_count": 12,
+      "ids": [
+        "196",
+        "197",
+        "198",
+        "199",
+        "200",
+        "201",
+        "203",
+        "204",
+        "205",
+        "206",
+        "207",
+        "208"
+      ],
+      "language": "en",
+      "avg_text_length": 2452.0,
+      "titles": [
+        "California fires: Navigation apps like Waze sent commuters into flames, drivers say",
+        "Waze Navigation App Directing Drivers Into Cali Wild Fires",
+        "Waze is sending California drivers toward fires"
+      ]
+    },
+    {
+      "event_id": "pred_57",
+      "doc_count": 12,
+      "ids": [
+        "1082",
+        "1083",
+        "1087",
+        "1088",
+        "1095",
+        "1097",
+        "1098",
+        "1100",
+        "1106",
+        "5246",
+        "5249",
+        "5250"
+      ],
+      "language": "en",
+      "avg_text_length": 3635.0,
+      "titles": [
+        "Google admits its self driving car got it wrong: Bus crash was caused by software",
+        "Google self-driving car hits a bus",
+        "Google accepts blame for its self-driving car causing crash"
+      ]
+    },
+    {
+      "event_id": "pred_59",
+      "doc_count": 12,
+      "ids": [
+        "3121",
+        "3215",
+        "3216",
+        "3217",
+        "3218",
+        "3219",
+        "3220",
+        "6291",
+        "6292",
+        "6295",
+        "7939",
+        "7945"
+      ],
+      "language": "zh",
+      "avg_text_length": 4005.0,
+      "titles": [
+        "Quebec man who created synthetic, AI-generated child pornography sentenced to prison",
+        "Quebec man sentenced to prison for creating AI-generated, synthetic child pornography",
+        "Man Who Produced AI-Generated Child Pornography Sentenced to 8 Years in Prison"
+      ]
+    },
+    {
+      "event_id": "pred_46",
+      "doc_count": 13,
+      "ids": [
+        "405",
+        "411",
+        "412",
+        "413",
+        "414",
+        "415",
+        "426",
+        "427",
+        "428",
+        "429",
+        "430",
+        "431",
+        "432"
+      ],
+      "language": "en",
+      "avg_text_length": 2565.0,
+      "titles": [
+        "Delhi Metro's Driverless Magenta Line Train Crashes Days Before Launch By PM Modi",
+        "Driverless Delhi metro breaks through the wall, Twitterati erupt with hilarious memes!",
+        "‘Human error’: Indian driverless metro train plows through depot wall (VIDEO)"
+      ]
+    },
+    {
+      "event_id": "pred_41",
+      "doc_count": 14,
+      "ids": [
+        "4942",
+        "4943",
+        "4991",
+        "4992",
+        "4993",
+        "4994",
+        "4995",
+        "4996",
+        "4997",
+        "4998",
+        "4999",
+        "5000",
+        "5001",
+        "5002"
+      ],
+      "language": "en",
+      "avg_text_length": 3517.0,
+      "titles": [
+        "Agentic AI Tech Firm Says Health Data Leak Affects 483,000",
+        "SERVICEAIDE, INC Notice of Data Security Event May 5, 2025",
+        "Unsecured Serviceaide Database Exposed Data of 483,000 Catholic Health Patients"
+      ]
+    },
+    {
+      "event_id": "pred_39",
+      "doc_count": 15,
+      "ids": [
+        "5610",
+        "5617",
+        "7188",
+        "951",
+        "953",
+        "954",
+        "955",
+        "956",
+        "957",
+        "958",
+        "959",
+        "960",
+        "961",
+        "963",
+        "965"
+      ],
+      "language": "en",
+      "avg_text_length": 2590.0,
+      "titles": [
+        "FaceApp forced to pull 'racist' filters that allow 'digital blackface'",
+        "FaceApp: Selfie app accused of racism for whitening users’ skin",
+        "FaceApp’s creator apologizes for the app’s skin-lightening ‘hot’ filter"
+      ]
+    },
+    {
+      "event_id": "pred_29",
+      "doc_count": 16,
+      "ids": [
+        "3324",
+        "3341",
+        "3343",
+        "3345",
+        "3346",
+        "3347",
+        "3348",
+        "3349",
+        "3350",
+        "3351",
+        "3352",
+        "3353",
+        "3354",
+        "3355",
+        "3874",
+        "3875"
+      ],
+      "language": "en",
+      "avg_text_length": 7243.0,
+      "titles": [
+        "Investigation Finds AI Image Generation Models Trained on Child Abuse",
+        "AI image training dataset found to include child sexual abuse imagery",
+        "Large AI training data set removed after study finds child abuse material"
+      ]
+    },
+    {
+      "event_id": "pred_33",
+      "doc_count": 16,
+      "ids": [
+        "1318",
+        "1319",
+        "1513",
+        "1514",
+        "1515",
+        "1516",
+        "1517",
+        "1518",
+        "1519",
+        "1520",
+        "8704",
+        "8705",
+        "8706",
+        "8707",
+        "8708",
+        "8709"
+      ],
+      "language": "en",
+      "avg_text_length": 3464.0,
+      "titles": [
+        "California suspends Pony.ai's driverless testing after accident",
+        "At-Fault Robotaxi Accidents For Waymo, Pony.AI, Olli And What They Mean For The Future",
+        "Report of Traffic Collision Involving an Autonomous Vehicle"
+      ]
+    },
+    {
+      "event_id": "pred_27",
+      "doc_count": 17,
+      "ids": [
+        "3659",
+        "3660",
+        "3662",
+        "3663",
+        "3664",
+        "3665",
+        "3668",
+        "3671",
+        "3695",
+        "3696",
+        "3697",
+        "3698",
+        "5851",
+        "5852",
+        "5854",
+        "7432",
+        "7434"
+      ],
+      "language": "en",
+      "avg_text_length": 7085.0,
+      "titles": [
+        "Scarlett Johansson Said No, but OpenAI’s Virtual Assistant Sounds Just Like Her",
+        "Scarlett Johansson’s Statement About Her Interactions With Sam Altman",
+        "Exactly how stupid was what OpenAI did to Scarlett Johansson?"
+      ]
+    },
+    {
+      "event_id": "pred_28",
+      "doc_count": 17,
+      "ids": [
+        "1222",
+        "1229",
+        "1230",
+        "1231",
+        "1232",
+        "1233",
+        "1234",
+        "1235",
+        "1236",
+        "1237",
+        "1238",
+        "1841",
+        "2155",
+        "9153",
+        "9155",
+        "9157",
+        "9159"
+      ],
+      "language": "en",
+      "avg_text_length": 4718.0,
+      "titles": [
+        "AI chatbot mired in legal dispute over data collection",
+        "AI Chatbot Shut Down After Learning to Talk Like a Racist Asshole",
+        "(2nd LD) Developer of AI chatbot service fined for massive personal data breach"
+      ]
+    },
+    {
+      "event_id": "pred_23",
+      "doc_count": 18,
+      "ids": [
+        "1010",
+        "1011",
+        "1012",
+        "1013",
+        "1014",
+        "1015",
+        "1016",
+        "1019",
+        "1022",
+        "1023",
+        "1024",
+        "1025",
+        "1026",
+        "1028",
+        "1029",
+        "1030",
+        "1033",
+        "1034"
+      ],
+      "language": "en",
+      "avg_text_length": 2762.0,
+      "titles": [
+        "CHP: Drunk driver slept while Tesla appeared to drive Hwy 101 on autopilot",
+        "A Sleeping Tesla Driver Highlights Autopilot's Biggest Flaw",
+        "Police in the San Francisco Bay Area took an unusual approach to stop a Tesla operating on Autopilot as a drunk driver slept behind the wheel"
+      ]
+    },
+    {
+      "event_id": "pred_19",
+      "doc_count": 19,
+      "ids": [
+        "479",
+        "480",
+        "481",
+        "482",
+        "483",
+        "484",
+        "485",
+        "486",
+        "487",
+        "488",
+        "489",
+        "490",
+        "492",
+        "494",
+        "495",
+        "496",
+        "497",
+        "498",
+        "5112"
+      ],
+      "language": "en",
+      "avg_text_length": 3767.0,
+      "titles": [
+        "The man who was fired by a machine",
+        "The Machine Fired Me",
+        "This Man Was Fired By a Machine. The Humans Were Powerless to Do Anything. Here's Why the Machine Should Be Admired"
+      ]
+    },
+    {
+      "event_id": "pred_20",
+      "doc_count": 19,
+      "ids": [
+        "499",
+        "500",
+        "501",
+        "505",
+        "506",
+        "5067",
+        "507",
+        "5070",
+        "508",
+        "509",
+        "511",
+        "512",
+        "513",
+        "514",
+        "515",
+        "516",
+        "517",
+        "519",
+        "520"
+      ],
+      "language": "en",
+      "avg_text_length": 1599.0,
+      "titles": [
+        "AI snaps business titan jaywalking",
+        "Businesswoman in China caught ‘jaywalking’ because her face was on a bus",
+        "Facial Recognition Flags Woman On Bus Ad For 'Jaywalking' In China"
+      ]
+    },
+    {
+      "event_id": "pred_22",
+      "doc_count": 19,
+      "ids": [
+        "1160",
+        "2168",
+        "912",
+        "913",
+        "914",
+        "915",
+        "916",
+        "917",
+        "918",
+        "919",
+        "921",
+        "922",
+        "923",
+        "924",
+        "925",
+        "931",
+        "932",
+        "934",
+        "935"
+      ],
+      "language": "en",
+      "avg_text_length": 4460.0,
+      "titles": [
+        "Robodebt removed humans from Human Services, and the Government is facing the consequences",
+        "Government to pay back $721m as it scraps Robodebt for Centrelink welfare recipients",
+        "A union claims almost every Centrelink debt letter is wrong and will bring a 'perfect storm' of complaints"
+      ]
+    },
+    {
+      "event_id": "pred_18",
+      "doc_count": 20,
+      "ids": [
+        "2502",
+        "2503",
+        "2504",
+        "2505",
+        "2506",
+        "2507",
+        "2508",
+        "2509",
+        "2510",
+        "2511",
+        "2512",
+        "2513",
+        "2514",
+        "2515",
+        "2516",
+        "2517",
+        "2518",
+        "2531",
+        "2532",
+        "2533"
+      ],
+      "language": "en",
+      "avg_text_length": 3375.0,
+      "titles": [
+        "Vanderbilt University uses ChatGPT to address MSU shooting: ‘Sick’",
+        "A college apologized for using ChatGPT to write an email to students about the Michigan State University shooting",
+        "Vanderbilt staff used ChatGPT to write email to students about MSU shooting"
+      ]
+    },
+    {
+      "event_id": "pred_15",
+      "doc_count": 21,
+      "ids": [
+        "241",
+        "242",
+        "244",
+        "245",
+        "246",
+        "247",
+        "248",
+        "249",
+        "250",
+        "251",
+        "252",
+        "253",
+        "254",
+        "256",
+        "257",
+        "258",
+        "259",
+        "260",
+        "261",
+        "263",
+        "265"
+      ],
+      "language": "en",
+      "avg_text_length": 1315.0,
+      "titles": [
+        "Robot Kills Man at Volkswagen Plant",
+        "Robot kills man at Volkswagen plant in Germany",
+        "Worker killed by robot at Volkswagen car factory"
+      ]
+    },
+    {
+      "event_id": "pred_16",
+      "doc_count": 21,
+      "ids": [
+        "3447",
+        "3448",
+        "3449",
+        "3450",
+        "3451",
+        "3452",
+        "3453",
+        "3454",
+        "3455",
+        "3456",
+        "3457",
+        "3458",
+        "3459",
+        "3460",
+        "3461",
+        "3462",
+        "3463",
+        "6076",
+        "6131",
+        "7673",
+        "7727"
+      ],
+      "language": "en",
+      "avg_text_length": 7695.0,
+      "titles": [
+        "Tesla worker killed in fiery crash may be first ‘Full Self-Driving’ fatality",
+        "Tesla Employee Who Loved Elon Musk Reportedly Killed by Full Self-Driving",
+        "Tesla worker died in horrible crash on Full Self-Driving beta, but he was also drunk"
+      ]
+    },
+    {
+      "event_id": "pred_17",
+      "doc_count": 21,
+      "ids": [
+        "1183",
+        "1184",
+        "2799",
+        "5298",
+        "5301",
+        "73",
+        "74",
+        "75",
+        "78",
+        "79",
+        "81",
+        "82",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92"
+      ],
+      "language": "en",
+      "avg_text_length": 4086.0,
+      "titles": [
+        "Google Photos identified two black people as 'gorillas'",
+        "Google says sorry for racist auto-tag in photo app",
+        "Google’s Photo App Still Can’t Find Gorillas. And Neither Can Apple’s."
+      ]
+    },
+    {
+      "event_id": "pred_13",
+      "doc_count": 22,
+      "ids": [
+        "217",
+        "218",
+        "2188",
+        "219",
+        "220",
+        "222",
+        "223",
+        "224",
+        "225",
+        "226",
+        "227",
+        "228",
+        "229",
+        "230",
+        "231",
+        "232",
+        "233",
+        "234",
+        "235",
+        "236",
+        "237",
+        "238"
+      ],
+      "language": "en",
+      "avg_text_length": 2470.0,
+      "titles": [
+        "Self-driving bus involved in crash less than two hours after Las Vegas launch",
+        "Las Vegas self-driving bus crashed into on its first day",
+        "Self-driving shuttle bus in crash on first day"
+      ]
+    },
+    {
+      "event_id": "pred_12",
+      "doc_count": 23,
+      "ids": [
+        "1079",
+        "1188",
+        "1190",
+        "1191",
+        "1353",
+        "183",
+        "452",
+        "5042",
+        "5046",
+        "552",
+        "553",
+        "554",
+        "555",
+        "556",
+        "558",
+        "559",
+        "560",
+        "561",
+        "562",
+        "563",
+        "564",
+        "565",
+        "568"
+      ],
+      "language": "en",
+      "avg_text_length": 9078.0,
+      "titles": [
+        "Uber crash shows 'catastrophic failure' of self-driving technology, experts say",
+        "A self-driving Uber just killed a pedestrian",
+        "Remember the Uber self-driving car that killed a woman crossing the street? The AI had no clue about jaywalkers"
+      ]
+    },
+    {
+      "event_id": "pred_10",
+      "doc_count": 24,
+      "ids": [
+        "4426",
+        "4427",
+        "4428",
+        "4429",
+        "4430",
+        "4431",
+        "4432",
+        "4433",
+        "4434",
+        "4435",
+        "4436",
+        "4437",
+        "4438",
+        "4439",
+        "4440",
+        "4441",
+        "4443",
+        "4444",
+        "4445",
+        "4446",
+        "5983",
+        "5986",
+        "6678",
+        "7583"
+      ],
+      "language": "en",
+      "avg_text_length": 2782.0,
+      "titles": [
+        "Italian Prime Minister Giorgia Meloni seeking damages of $108,200 in deepfake porn trial",
+        "Italy PM Giorgia Meloni to testify today in deepfake pornography trial",
+        "Italy’s Giorgia Meloni called to testify in deepfake porn case"
+      ]
+    },
+    {
+      "event_id": "pred_8",
+      "doc_count": 25,
+      "ids": [
+        "1187",
+        "1589",
+        "2197",
+        "2452",
+        "5279",
+        "5291",
+        "782",
+        "783",
+        "784",
+        "785",
+        "786",
+        "787",
+        "789",
+        "791",
+        "792",
+        "793",
+        "796",
+        "797",
+        "798",
+        "799",
+        "800",
+        "801",
+        "803",
+        "804",
+        "9580"
+      ],
+      "language": "en",
+      "avg_text_length": 3641.0,
+      "titles": [
+        "Tay (bot)",
+        "Microsoft shuts down AI chatbot after it turned into a Nazi",
+        "Learning from Tay’s introduction"
+      ]
+    },
+    {
+      "event_id": "pred_5",
+      "doc_count": 32,
+      "ids": [
+        "3987",
+        "3988",
+        "3989",
+        "3990",
+        "3991",
+        "3992",
+        "3993",
+        "3994",
+        "3995",
+        "3996",
+        "3997",
+        "3998",
+        "3999",
+        "4000",
+        "4001",
+        "4003",
+        "4004",
+        "4005",
+        "4006",
+        "4010",
+        "4011",
+        "4012",
+        "4013",
+        "4014",
+        "4015",
+        "4016",
+        "4017",
+        "4018",
+        "4019",
+        "4023",
+        "5478",
+        "7038"
+      ],
+      "language": "en",
+      "avg_text_length": 6401.0,
+      "titles": [
+        "Her teenage son killed himself after talking to a chatbot. Now she’s suing.",
+        "Can A.I. Be Blamed for a Teen’s Suicide?",
+        "Lawsuit claims Character.AI is responsible for teen's suicide"
+      ]
+    },
+    {
+      "event_id": "pred_4",
+      "doc_count": 33,
+      "ids": [
+        "3510",
+        "3511",
+        "3513",
+        "3514",
+        "3515",
+        "3516",
+        "3552",
+        "3553",
+        "3554",
+        "3556",
+        "3557",
+        "3558",
+        "3559",
+        "3560",
+        "3561",
+        "3562",
+        "3563",
+        "3564",
+        "3565",
+        "3566",
+        "3567",
+        "3568",
+        "3569",
+        "3570",
+        "3571",
+        "3572",
+        "3573",
+        "3574",
+        "3575",
+        "3576",
+        "3577",
+        "3578",
+        "3579"
+      ],
+      "language": "en",
+      "avg_text_length": 3958.0,
+      "titles": [
+        "Google suspends Gemini AI chatbot's ability to generate pictures of people",
+        "Google pauses Gemini’s ability to generate AI images of people after diversity errors",
+        "Google Mired in Controversy Over AI Chatbot Push"
+      ]
+    },
+    {
+      "event_id": "pred_3",
+      "doc_count": 42,
+      "ids": [
+        "2898",
+        "2899",
+        "2900",
+        "2901",
+        "2902",
+        "2903",
+        "2904",
+        "2905",
+        "2906",
+        "2907",
+        "2908",
+        "2909",
+        "2910",
+        "2913",
+        "2914",
+        "2915",
+        "2916",
+        "2917",
+        "2918",
+        "2919",
+        "2920",
+        "2922",
+        "2923",
+        "2925",
+        "2926",
+        "2927",
+        "2928",
+        "2929",
+        "2930",
+        "2931",
+        "2932",
+        "2933",
+        "2934",
+        "2935",
+        "2936",
+        "2937",
+        "2938",
+        "2939",
+        "2941",
+        "2942",
+        "2943",
+        "8242"
+      ],
+      "language": "en",
+      "avg_text_length": 4428.0,
+      "titles": [
+        "A Chatbot Was Designed to Help Prevent Eating Disorders. Then It Gave Dieting Tips.",
+        "How a Chatbot Went Rogue",
+        "A Wellness Chatbot Is Offline After Its ‘Harmful’ Focus on Weight Loss"
+      ]
+    },
+    {
+      "event_id": "pred_1",
+      "doc_count": 52,
+      "ids": [
+        "2800",
+        "2801",
+        "2802",
+        "2803",
+        "2804",
+        "2805",
+        "2806",
+        "2809",
+        "2810",
+        "2811",
+        "2812",
+        "2813",
+        "2815",
+        "2816",
+        "2817",
+        "2818",
+        "2819",
+        "2820",
+        "2821",
+        "2822",
+        "2823",
+        "2824",
+        "2825",
+        "2826",
+        "2827",
+        "2829",
+        "2831",
+        "2832",
+        "2833",
+        "2834",
+        "2835",
+        "2836",
+        "2837",
+        "2838",
+        "2839",
+        "2840",
+        "2841",
+        "2843",
+        "2845",
+        "2846",
+        "2847",
+        "2848",
+        "2849",
+        "2851",
+        "2852",
+        "2945",
+        "2946",
+        "2949",
+        "2977",
+        "3315",
+        "8248",
+        "8250"
+      ],
+      "language": "en",
+      "avg_text_length": 3732.0,
+      "titles": [
+        "Here’s What Happens When Your Lawyer Uses ChatGPT",
+        "Lawyer Uses ChatGPT In Federal Court And It Goes Horribly Wrong",
+        "Lawyer apologizes for fake court citations from ChatGPT"
+      ]
+    }
+  ],
+  "statistics": {
+    "total": 100,
+    "small_4_5_docs": 50,
+    "medium_6_15_docs": 30,
+    "large_16_plus_docs": 20,
+    "english": 76,
+    "chinese": 24
+  }
+}

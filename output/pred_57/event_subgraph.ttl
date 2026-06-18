@@ -1,0 +1,1714 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/165d84b168cd> a airo:ComplianceRequirement ;
+    rdfs:label "AI system classified as driver under vehicle-safety standards" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4b59d9ab849> ;
+    airo:hasReasoning "The regulator's classification of the AI as a 'driver' implies specific compliance obligations under existing vehicle-safety regulations." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> .
+
+<https://w3id.org/airo/incident/InformationSource/903a861a61e1> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1082>,
+        <https://w3id.org/airo/incident/NewsReport/1083>,
+        <https://w3id.org/airo/incident/NewsReport/1087>,
+        <https://w3id.org/airo/incident/NewsReport/1088>,
+        <https://w3id.org/airo/incident/NewsReport/1095>,
+        <https://w3id.org/airo/incident/NewsReport/1097>,
+        <https://w3id.org/airo/incident/NewsReport/1098>,
+        <https://w3id.org/airo/incident/NewsReport/1100>,
+        <https://w3id.org/airo/incident/NewsReport/1106> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1088>,
+        <https://w3id.org/airo/incident/document/1095>,
+        <https://w3id.org/airo/incident/document/1097>,
+        <https://w3id.org/airo/incident/document/1098>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/1106> .
+
+<https://w3id.org/airo/incident/InformationSource/c08db7e6cc69> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5246>,
+        <https://w3id.org/airo/incident/NewsReport/5249>,
+        <https://w3id.org/airo/incident/NewsReport/5250> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5246>,
+        <https://w3id.org/airo/incident/document/5249>,
+        <https://w3id.org/airo/incident/document/5250> .
+
+<https://w3id.org/airo/incident/RiskControl/21102855616b> a airo:RiskControl ;
+    rdfs:label "regulatory investigation and internal algorithm review" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e689cbfe214> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1083> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/3e3a35d6beb6> .
+
+<https://w3id.org/airo/incident/RoleAssignment/613b7a90195b> a airo:RoleAssignment ;
+    rdfs:label "California Department of Motor Vehicles_Regulator" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed19550a78b9> ;
+    airo:hasReasoning "The California DMV documented the incident publicly, indicating its role in overseeing and regulating autonomous vehicle operations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1087> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0c2094342710> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7f719073d895> a airo:RoleAssignment ;
+    rdfs:label "Santa Clara Valley Transportation Authority_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a32aa25b8dbb> ;
+    airo:hasReasoning "The Santa Clara Valley Transportation Authority likely operates the municipal bus involved in the crash, making it a stakeholder affected by the incident, but not fitting other specific roles based on evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1095> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d75c6cf3376e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/970ffa50bf5e> a airo:RoleAssignment ;
+    rdfs:label "Mark Rosekind_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e4a0c008a91> ;
+    airo:hasReasoning "As NHTSA chief, Mark Rosekind represents the regulatory agency and is directly involved in its oversight actions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/88a27821163e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c49c214a6aab> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeveloper" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a30c75fe0667> ;
+    airo:hasReasoning "The evidence identifies Google as having a 'self-driving project' and its head explaining the car's decision-making, indicating Google developed the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9b1615131725> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/db415734c411> a airo:RoleAssignment ;
+    rdfs:label "Alphabet_AIDeployer" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0fd5ed9af14> ;
+    airo:hasReasoning "Alphabet, as the owner of the vehicle involved in the incident, is the entity deploying the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1098> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cf05e5d80d0f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e1b08c24644a> a airo:RoleAssignment ;
+    rdfs:label "Chris Urmson_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/149d037f64b6> ;
+    airo:hasReasoning "As head of Google's self-driving project, Chris Urmson leads the development team, indicating an AIDeveloper role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a2e2c7ec86c1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e7aa40ee80f4> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeployer" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/689d2302d42d> ;
+    airo:hasReasoning "Google deployed and operated its self-driving cars on public streets, making it the deployer of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9b1615131725> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f48943f5e233> a airo:RoleAssignment ;
+    rdfs:label "Mountain View Police Department_Regulator" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2b631a4d01b> ;
+    airo:hasReasoning "While not explicitly stated, a police department investigating a vehicle accident performs a regulatory/enforcement function related to traffic safety." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1083> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3b8c9cf8732a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b325cf756d88> .
+
+<https://w3id.org/airo/incident/Trend/0ee2adf9ddf3> a airo:Trend ;
+    rdfs:label "regulatory classification of AI systems as drivers in transportation" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00ab121b1d8b> ;
+    airo:hasReasoning "The evidence shows a regulatory body proactively defining how existing safety standards apply to AI-controlled vehicles, indicating a trend of regulatory adaptation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> .
+
+<https://w3id.org/airo/incident/event/pred_57> a airo:AIRiskIncident ;
+    airo:firstSeen "2016-02-29T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 12 ;
+    airo:lastSeen "2016-03-15T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/039e483a111b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85bf3e12dfeb> .
+
+<https://w3id.org/airo/incident/ks/05fff01daa63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b07d3db59287> .
+
+<https://w3id.org/airo/incident/ks/07222a153424> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80f5b4dccc17> .
+
+<https://w3id.org/airo/incident/ks/07ecbdeeab92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/732bf894c488> .
+
+<https://w3id.org/airo/incident/ks/09c90c7b6943> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/579f3c777c8b> .
+
+<https://w3id.org/airo/incident/ks/0ae33890f10d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/0ba0f6461910> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1254cee3116b> .
+
+<https://w3id.org/airo/incident/ks/0f246b274f05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d247b495400> .
+
+<https://w3id.org/airo/incident/ks/0f2ba36d52d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/1574b44cab8c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccf1261082ee> .
+
+<https://w3id.org/airo/incident/ks/188bcc52343f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05ec22cc600b> .
+
+<https://w3id.org/airo/incident/ks/1b19eafeebcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1b441d4f438> .
+
+<https://w3id.org/airo/incident/ks/23aadd8fe291> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/384345b972b2> .
+
+<https://w3id.org/airo/incident/ks/2636d51a3be0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/151cb3a9acf1> .
+
+<https://w3id.org/airo/incident/ks/265e9ac7bf96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/28adf4b7c4d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/2cbdb0b42759> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/2cd7ce1e7b6d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/2da3d4170012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd60ff87f43d> .
+
+<https://w3id.org/airo/incident/ks/3923fab18f60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f6cac2c7940> .
+
+<https://w3id.org/airo/incident/ks/3cd96e4b34fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7782e36e443d> .
+
+<https://w3id.org/airo/incident/ks/406c42172f52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68576f279328> .
+
+<https://w3id.org/airo/incident/ks/424d855f7c3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68576f279328> .
+
+<https://w3id.org/airo/incident/ks/42b5e386ceb7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/384345b972b2> .
+
+<https://w3id.org/airo/incident/ks/454a9f6e4e18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/018829fc957d> .
+
+<https://w3id.org/airo/incident/ks/4630f392d39d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80f5b4dccc17> .
+
+<https://w3id.org/airo/incident/ks/471635b7784b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/4867f8cdce0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1285d1ea981a> .
+
+<https://w3id.org/airo/incident/ks/495239f98686> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68576f279328> .
+
+<https://w3id.org/airo/incident/ks/4e89de9f8f98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/487db9f934af> .
+
+<https://w3id.org/airo/incident/ks/4e8c56193677> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a394e80ee0a7> .
+
+<https://w3id.org/airo/incident/ks/4ed361d6fa99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08c1bb40b57d> .
+
+<https://w3id.org/airo/incident/ks/56fd16fb3164> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd60ff87f43d> .
+
+<https://w3id.org/airo/incident/ks/5889b8a7fc7e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706b903e8e81> .
+
+<https://w3id.org/airo/incident/ks/59cbc6ee802d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bafc6360d96> .
+
+<https://w3id.org/airo/incident/ks/59ecebedc948> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bafc6360d96> .
+
+<https://w3id.org/airo/incident/ks/5c9406907e9c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/615baa2d35c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a394e80ee0a7> .
+
+<https://w3id.org/airo/incident/ks/619d32acf0e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c630a0dcddac> .
+
+<https://w3id.org/airo/incident/ks/62990d5f95af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bafc6360d96> .
+
+<https://w3id.org/airo/incident/ks/643b99b2da56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3247e89492c> .
+
+<https://w3id.org/airo/incident/ks/64440d7c6c35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/650453c02346> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/65aaa47adc9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c630a0dcddac> .
+
+<https://w3id.org/airo/incident/ks/65c39c4b396a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b3b36421491f> .
+
+<https://w3id.org/airo/incident/ks/667c8e32ee44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/faf4a0a0a187> .
+
+<https://w3id.org/airo/incident/ks/6d4c719dd316> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80f5b4dccc17> .
+
+<https://w3id.org/airo/incident/ks/6e0e435ee904> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3b5b47743a0> .
+
+<https://w3id.org/airo/incident/ks/6e2f14b82d6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05ec22cc600b> .
+
+<https://w3id.org/airo/incident/ks/6f8117ae7e03> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> .
+
+<https://w3id.org/airo/incident/ks/6fc0704bb63c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/6fd4ec64400c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/384345b972b2> .
+
+<https://w3id.org/airo/incident/ks/702e6c3ccf2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba89d3f0cd10> .
+
+<https://w3id.org/airo/incident/ks/71eec4ac21e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7782e36e443d> .
+
+<https://w3id.org/airo/incident/ks/721854798ed6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7782e36e443d> .
+
+<https://w3id.org/airo/incident/ks/75b27b02bec0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/77aacc4ade5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/7847a937611c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/78c3db5932b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/79d00179421d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7dea30987534> .
+
+<https://w3id.org/airo/incident/ks/7b6c59dfec04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706b903e8e81> .
+
+<https://w3id.org/airo/incident/ks/7d2b00b5f228> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/7d35719629b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41ca75e397ad> .
+
+<https://w3id.org/airo/incident/ks/7dc5c723b3d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28195dc0019f> .
+
+<https://w3id.org/airo/incident/ks/7e6ecfe1c7cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/84a94b41aad3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706b903e8e81> .
+
+<https://w3id.org/airo/incident/ks/8968b88a993f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea84d027472c> .
+
+<https://w3id.org/airo/incident/ks/8a82f62ebf9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/9214904cd8c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d843895f4e87> .
+
+<https://w3id.org/airo/incident/ks/94e8fd4dff6d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad764b65d6da> .
+
+<https://w3id.org/airo/incident/ks/99445ee604a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/9aa65cb81dcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/492442363938> .
+
+<https://w3id.org/airo/incident/ks/9aeef80b1f30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44528450ab20> .
+
+<https://w3id.org/airo/incident/ks/9d4d9da4e5cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3bc03982f0e6> .
+
+<https://w3id.org/airo/incident/ks/9ff8d87dccc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea84d027472c> .
+
+<https://w3id.org/airo/incident/ks/a05e2397b1c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d20d045187e9> .
+
+<https://w3id.org/airo/incident/ks/a182f85d4aa3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bac841fe5fce> .
+
+<https://w3id.org/airo/incident/ks/a1ffad76f768> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/a2c5ebd1ebb1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/a383cdfe347f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea84d027472c> .
+
+<https://w3id.org/airo/incident/ks/a3a86234288b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08c1bb40b57d> .
+
+<https://w3id.org/airo/incident/ks/a62bd2e49555> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26a1b546bd06> .
+
+<https://w3id.org/airo/incident/ks/a8bc2e0df93f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68576f279328> .
+
+<https://w3id.org/airo/incident/ks/a8f678755ac2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a394e80ee0a7> .
+
+<https://w3id.org/airo/incident/ks/ab78d2c8889a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/ad559a4806c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/625809b551bc> .
+
+<https://w3id.org/airo/incident/ks/ae88fd2bf122> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/018829fc957d> .
+
+<https://w3id.org/airo/incident/ks/b05c4e603100> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1b441d4f438> .
+
+<https://w3id.org/airo/incident/ks/b1125400ad35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c754e833700> .
+
+<https://w3id.org/airo/incident/ks/b551542e9452> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> .
+
+<https://w3id.org/airo/incident/ks/b8f0affb28f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c630a0dcddac> .
+
+<https://w3id.org/airo/incident/ks/ba78edd64935> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4a9332cdab0> .
+
+<https://w3id.org/airo/incident/ks/bd5d0e439ece> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/084ac8779e8a> .
+
+<https://w3id.org/airo/incident/ks/be1121a200e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/018829fc957d> .
+
+<https://w3id.org/airo/incident/ks/bf933dbc21e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea84d027472c> .
+
+<https://w3id.org/airo/incident/ks/c4b92ae2dec5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b341c50e83b> .
+
+<https://w3id.org/airo/incident/ks/c51552233656> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7782e36e443d> .
+
+<https://w3id.org/airo/incident/ks/cc843ff12215> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> .
+
+<https://w3id.org/airo/incident/ks/cd9040e90aa0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80f5b4dccc17> .
+
+<https://w3id.org/airo/incident/ks/cfa785a7b3d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c630a0dcddac> .
+
+<https://w3id.org/airo/incident/ks/d02479b7f328> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a394e80ee0a7> .
+
+<https://w3id.org/airo/incident/ks/d08c23fdd14c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05603d1bb667> .
+
+<https://w3id.org/airo/incident/ks/d20c02ed6e0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4285f9b0b97f> .
+
+<https://w3id.org/airo/incident/ks/d314a2a9277a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/706b903e8e81> .
+
+<https://w3id.org/airo/incident/ks/d36df4a26902> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b6b2659c01c> .
+
+<https://w3id.org/airo/incident/ks/d3713421d56c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bafc6360d96> .
+
+<https://w3id.org/airo/incident/ks/d3b8aaece9e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> .
+
+<https://w3id.org/airo/incident/ks/d522fc87770a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fcd5106031ec> .
+
+<https://w3id.org/airo/incident/ks/d60072c774f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c40e28571b4> .
+
+<https://w3id.org/airo/incident/ks/d71f54569d5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e689cbfe214> .
+
+<https://w3id.org/airo/incident/ks/dad69085911a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/018829fc957d> .
+
+<https://w3id.org/airo/incident/ks/dcefdffadc54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/dec3741a17bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05603d1bb667> .
+
+<https://w3id.org/airo/incident/ks/df992d681e62> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/670962ed02cf> .
+
+<https://w3id.org/airo/incident/ks/e1ff7a10b2ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> .
+
+<https://w3id.org/airo/incident/ks/e4eab23b6326> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/daf9e9a2eab6> .
+
+<https://w3id.org/airo/incident/ks/e50ab7a494a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b99b7b927e14> .
+
+<https://w3id.org/airo/incident/ks/e57870c94449> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aae1327be3e3> .
+
+<https://w3id.org/airo/incident/ks/e728aef3b9bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/ea12813a0c31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f7cbfd00921> .
+
+<https://w3id.org/airo/incident/ks/eafdff709f1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6cf7974f4c54> .
+
+<https://w3id.org/airo/incident/ks/f13b7208f4ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> .
+
+<https://w3id.org/airo/incident/ks/f1a0aab523e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/882c4c4ddc0c> .
+
+<https://w3id.org/airo/incident/ks/f1f3aa0ce097> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ceb406239c33> .
+
+<https://w3id.org/airo/incident/ks/f5b9f685c133> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b5bc64ddb58> .
+
+<https://w3id.org/airo/incident/ks/f67ee19f2efc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/384345b972b2> .
+
+<https://w3id.org/airo/incident/ks/f86eb141fdaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/34e05b975c4d> .
+
+<https://w3id.org/airo/incident/ks/fe713ff17765> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce1e41de5799> .
+
+<https://w3id.org/airo/incident/AICapability/42357e5e088b> a airo:AICapability ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google's autonomous driving mode" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b5bc64ddb58> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1097> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/72ad4718bea9> a airo:AILifecyclePhase ;
+    rdfs:label "testing" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/151cb3a9acf1> ;
+    airo:hasReasoning "The evidence states the vehicle was in 'testing' mode during the incident, indicating it was in the testing phase of the lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1098> .
+
+<https://w3id.org/airo/incident/AITechnique/dfac533243e4> a airo:AITechnique ;
+    rdfs:label "Artificial Intelligence for Autonomous Driving" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence controlling Google’s cars" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08c1bb40b57d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5249> .
+
+<https://w3id.org/airo/incident/AffectedActor/6cb8c332644b> a airo:AffectedActor ;
+    rdfs:label "technology company (Google/Alphabet)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad764b65d6da> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1088> .
+
+<https://w3id.org/airo/incident/Domain/afe5b7749f40> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7dea30987534> ;
+    airo:hasReasoning "The incident involves a crash with a city bus, which is a core transportation scenario, indicating the AI system is applied in the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1095> .
+
+<https://w3id.org/airo/incident/Purpose/e5689676857f> a airo:Purpose ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28195dc0019f> ;
+    airo:hasReasoning "The evidence explicitly states the AI controls the car and is considered a driver by a safety regulator, confirming the system's purpose is autonomous driving." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> .
+
+<https://w3id.org/airo/incident/RiskSource/be418a86f8bb> a airo:RiskSource ;
+    rdfs:label "flawed predictive assumption in autonomous driving algorithm" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/3e3a35d6beb6> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85bf3e12dfeb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/12aca1208b53> a airo:Stakeholder ;
+    rdfs:label "CNET" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CNET" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c754e833700> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/3d6af1e22f20> a airo:Stakeholder ;
+    rdfs:label "Reuters" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Reuters" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/8271d7cabb2d> a airo:Stakeholder ;
+    rdfs:label "Gizmodo" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gizmodo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c40e28571b4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/f7bcfd2a497c> a airo:Stakeholder ;
+    rdfs:label "South by Southwest (SXSW) Festival" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "SXSW festival" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8868877adae3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/ff1e4e2d65ef> a airo:Stakeholder ;
+    rdfs:label "US National Highway Traffic Safety Administration" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Highway Traffic Safety Administration" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08c1bb40b57d>,
+        <https://w3id.org/airo/incident/evidence/34e05b975c4d>,
+        <https://w3id.org/airo/incident/evidence/a97c64288db3>,
+        <https://w3id.org/airo/incident/evidence/e5c7c258711e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/5249> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Vulnerability/26d80c73b9ef> a airo:Vulnerability ;
+    rdfs:label "inadequate understanding of behavior of large vehicles like buses" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b07d3db59287> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1095> .
+
+<https://w3id.org/airo/incident/evidence/00ab121b1d8b> a airo:Evidence ;
+    airo:evidenceText "[1100] the National Highway Traffic Safety Administration—which regulates U.S. vehicle-safety standards—said earlier this month that it counts the artificial intelligence controlling Google’s cars as a “driver.”" ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/0e4a0c008a91> a airo:Evidence ;
+    airo:evidenceText "[1082] National Highway Traffic Safety Administration (NHTSA) chief Mark Rosekind told Reuters on the sidelines of an event on highway safety that the agency is collecting more information to get a 'more detailed exploration of what exactly happened.'" ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/13c4d7268ce3> a airo:Evidence ;
+    airo:evidenceText "Google said in a statement that it shoulders “some responsibility” for the accident." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/149d037f64b6> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/1b91c0190f2b> a airo:Evidence ;
+    airo:evidenceText "Google said in a statement that it shoulders “some responsibility” for the accident." ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/evidence/1db5fed3b992> a airo:Evidence ;
+    airo:evidenceText "“We clearly bear some responsibility, because if our car hadn’t moved there wouldn’t have been a collision,” said Google in a statement." ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/2520a880b496> a airo:Evidence ;
+    airo:evidenceText "Google's self-driving car caused its first crash on February 14, when it changed lanes and put itself in the path of an oncoming bus." ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/26a1b546bd06> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/3100077cb613> a airo:Evidence ;
+    airo:evidenceText "We reached out to Google for additional comment." ;
+    airo:sourceDocId "1097" .
+
+<https://w3id.org/airo/incident/evidence/39a764c6a38a> a airo:Evidence ;
+    airo:evidenceText "Google admits its self driving car got it wrong: Bus crash was caused by software" ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/3b341c50e83b> a airo:Evidence ;
+    airo:evidenceText "[1082] A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14..." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/4285f9b0b97f> a airo:Evidence ;
+    airo:evidenceText "[1082] A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14..." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/44528450ab20> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/44ff811c37c5> a airo:Evidence ;
+    airo:evidenceText "Google self-driving car hits a bus" ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/454566ee510c> a airo:Evidence ;
+    airo:evidenceText "A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14, and the search engine firm said it bears 'some responsibility' for the incident in what may be the first crash that was the fault of the self-driving vehicle." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/487db9f934af> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/492442363938> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/4dc3d1e939f1> a airo:Evidence ;
+    airo:evidenceText "A Google self-driving car caused a crash for the first time." ;
+    airo:sourceDocId "5246" .
+
+<https://w3id.org/airo/incident/evidence/572b38c83280> a airo:Evidence ;
+    airo:evidenceText "1 of Google’s self-driving cars hit a bus, and if it is found to be at fault—which is looking probable—it will be the first time one of the company’s autonomous vehicles has been responsible for an accident on the road." ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/evidence/62c6854a24f5> a airo:Evidence ;
+    airo:evidenceText "Since Google's robot cars have been on the road, they have been involved with 17 different accidents." ;
+    airo:sourceDocId "1097" .
+
+<https://w3id.org/airo/incident/evidence/670962ed02cf> a airo:Evidence ;
+    airo:evidenceText "[1082] A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14..." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/689d2302d42d> a airo:Evidence ;
+    airo:evidenceText "[1082] A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14..." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/69fe931ca5a6> a airo:Evidence ;
+    airo:evidenceText "Watch Google’s Self-Driving Lexus Crash Into a California Bus" ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/75ce11c3ba23> a airo:Evidence ;
+    airo:evidenceText "Google accepts blame for its self-driving car causing crash" ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/7824c76ad192> a airo:Evidence ;
+    airo:evidenceText "1 of Google’s self-driving cars hit a bus, and if it is found to be at fault—which is looking probable—it will be the first time one of the company’s autonomous vehicles has been responsible for an accident on the road." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/7876174dacff> a airo:Evidence ;
+    airo:evidenceText "Google self-driving car crashes into bus and company admits it is 'partially' responsible" ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/evidence/7b2b2bb3c1c3> a airo:Evidence ;
+    airo:evidenceText "The California DMV says it \"is not responsible for determining fault,\" though its website notes that \"last minute [lane] changes may cause collisions,\" and that drivers should \"be sure there is enough room for your vehicle in the next lane\" before moving over." ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/8474aa2800be> a airo:Evidence ;
+    airo:evidenceText "Google has prided itself on the fact that its self-driving car fleet has never been responsible for any of its crashes." ;
+    airo:sourceDocId "5246" .
+
+<https://w3id.org/airo/incident/evidence/8bcef38a9bf9> a airo:Evidence ;
+    airo:evidenceText "1 of Google's self-driving cars crashed into a bus in California earlier this month." ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/a30c75fe0667> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/a32aa25b8dbb> a airo:Evidence ;
+    airo:evidenceText "[1095] On Valentine's Day, the inevitable happened to Google as one of its self-driving Lexuses was involved in a low-speed crash with a city bus." ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/a97c64288db3> a airo:Evidence ;
+    airo:evidenceText "the US National Highway Traffic Safety Administration told Google it would likely give the self-driving computer the same legal treatment as a human driver." ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/b3b36421491f> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/b4b59d9ab849> a airo:Evidence ;
+    airo:evidenceText "[1100] the National Highway Traffic Safety Administration—which regulates U.S. vehicle-safety standards—said earlier this month that it counts the artificial intelligence controlling Google’s cars as a “driver.”" ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/b99b7b927e14> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/bac841fe5fce> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/c4a0a6d063a0> a airo:Evidence ;
+    airo:evidenceText "The Associated Press reports that the DMV wants to speak with Google about the incident." ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/evidence/c79c992eb968> a airo:Evidence ;
+    airo:evidenceText "Google has already accepted some of the blame and wrote, “From now on, our cars will more deeply understand that buses (and other large vehicles) are less likely to yield to us than other types of vehicles.”" ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/ce1e41de5799> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/ceb406239c33> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/d0fd5ed9af14> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/d1e943f6abfc> a airo:Evidence ;
+    airo:evidenceText "Google has revealed that its self driving car hit a bus because it made an incorrect assumption about where it would go." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/d28751062c90> a airo:Evidence ;
+    airo:evidenceText "A Google Lexus-model autonomous vehicle (“Google AV”) was traveling in autonomous mode eastbound on El Camino Real in Mountain View in the far right-hand lane approaching the Castro St. intersection." ;
+    airo:sourceDocId "5246" .
+
+<https://w3id.org/airo/incident/evidence/d843895f4e87> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/daf9e9a2eab6> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/dbc35f965eaf> a airo:Evidence ;
+    airo:evidenceText "the DMV wants to speak with Google about the incident." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/e2b631a4d01b> a airo:Evidence ;
+    airo:evidenceText "[1083] Google is to meet with California's Department of Motor Vehicles (DMV) to discuss the incident, and determine where the blame lies." ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/e4a9332cdab0> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/ed19550a78b9> a airo:Evidence ;
+    airo:evidenceText "[1087] The incident – which California’s Department of Motor Vehicles documented publicly yesterday – is the first clear-cut case of an accident caused by the tech giant’s self-driving technology." ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/eec009fca647> a airo:Evidence ;
+    airo:evidenceText "Google wrote that its autonomous car, a Lexus SUV, was driving itself down El Camino Real in Mountain View." ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/faf4a0a0a187> a airo:Evidence ;
+    airo:evidenceText "[1082] A Google self-driving car struck a municipal bus in Mountain View in a minor crash on Feb. 14..." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/fb90124d2bf0> a airo:Evidence ;
+    airo:evidenceText "On Feb. 14, 1 of Google's self-driving Lexus SUVs struck a municipal bus in Mountain View, according to documents filed with the California DMV." ;
+    airo:sourceDocId "1097" .
+
+<https://w3id.org/airo/incident/Consequence/9d53231a271c> a airo:Consequence ;
+    rdfs:label "autonomous vehicle collided with a public bus at low speed" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd60ff87f43d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1098> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/94f638b90474> .
+
+<https://w3id.org/airo/incident/Impact/94f638b90474> a airo:Impact ;
+    rdfs:label "financial and reputational liability for the technology company" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/6cb8c332644b> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1b441d4f438> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> .
+
+<https://w3id.org/airo/incident/NewsReport/1082> a airo:NewsReport ;
+    rdfs:label "Google admits its self driving car got it wrong: Bus crash was caused by software" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Google has revealed that its self driving car hit a bus because it made an incorrect assumption about where it would go.
+
+The firm admitted the crash would not be its last - while humans were allowed """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aae1327be3e3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/NewsReport/1083> a airo:NewsReport ;
+    rdfs:label "Google self-driving car hits a bus" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Image copyright AP Image caption Google cars have clocked up over one million miles on public roads
+
+One of Google's self-driving cars crashed into a bus in California earlier this month. There were n""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ccf1261082ee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1083> .
+
+<https://w3id.org/airo/incident/NewsReport/1087> a airo:NewsReport ;
+    rdfs:label "Google accepts blame for its self-driving car causing crash" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """AP/Press Association Images/Tony Avelar
+
+On 14 February, the AI in charge of one of Google’s cars drove into the side of a bus. The incident – which California’s Department of Motor Vehicles documente""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1254cee3116b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1087> .
+
+<https://w3id.org/airo/incident/NewsReport/1088> a airo:NewsReport ;
+    rdfs:label "Google self-driving car crashes into bus and company admits it is 'partially' responsible" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A Google driverless car has been involved in an accident with a bus and Google has said it “bears some responsibility” for the first time.
+
+The company admitted that it was partially responsible for t""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3b5b47743a0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1088> .
+
+<https://w3id.org/airo/incident/NewsReport/1095> a airo:NewsReport ;
+    rdfs:label "Watch Google’s Self-Driving Lexus Crash Into a California Bus" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "On Valentine’s Day, the inevitable happened to Google as one of its self-driving Lexuses was involved in a low-speed crash with a city bus, and thanks to video obtained via a Freedom of Information Ac" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3247e89492c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1095> .
+
+<https://w3id.org/airo/incident/NewsReport/1097> a airo:NewsReport ;
+    rdfs:label "Google's Self-Driving Car Hit Another Vehicle for the First Time" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Since Google’s robot cars have been on the road, they have been involved with 17 different accidents. But in those incidents, Google’s car wasn’t to blame — another car struck Google’s or the test dri" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3bc03982f0e6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1097> .
+
+<https://w3id.org/airo/incident/NewsReport/1098> a airo:NewsReport ;
+    rdfs:label "Google car hits bus, first time at fault" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """CLOSE A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif. Wochit
+
+A Google-owned Lexus SUV packed w""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b6b2659c01c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1098> .
+
+<https://w3id.org/airo/incident/NewsReport/1100> a airo:NewsReport ;
+    rdfs:label "Google’s Self-Driving Car Probably Caused Its First Accident" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "One of Google’s self-driving cars hit a bus, and if it is found to be at fault—which is looking probable—it will be the first time one of the company’s autonomous vehicles has been responsible for an " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1285d1ea981a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> .
+
+<https://w3id.org/airo/incident/NewsReport/1106> a airo:NewsReport ;
+    rdfs:label "Google self-driving car caught on video colliding with bus" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Newly released video shows the moment a Google self-driving car learned the hard way not to tussle with a public bus.
+
+The collision happened on Valentine’s Day 2016, when a Google vehicle struck the """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6cf7974f4c54> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1106> .
+
+<https://w3id.org/airo/incident/NewsReport/5246> a airo:NewsReport ;
+    rdfs:label "A Google self-driving car caused a crash for the first time" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A Google self-driving car caused a crash for the first time
+A bad assumption led to a minor fender-bender
+A bad assumption led to a minor fender-bender
+Source California DMV | Via Mark Harris (Twitter""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f6cac2c7940> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5246> .
+
+<https://w3id.org/airo/incident/NewsReport/5249> a airo:NewsReport ;
+    rdfs:label "Google’s Self-Driving Car Probably Caused Its First Accident" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "One of Google’s self-driving cars hit a bus, and if it is found to be at fault—which is looking probable—it will be the first time one of the company’s autonomous vehicles has been responsible for an " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba89d3f0cd10> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5249> .
+
+<https://w3id.org/airo/incident/NewsReport/5250> a airo:NewsReport ;
+    rdfs:label "Google's Self-Driving Car Caused Its First Crash" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Google's self-driving car caused its first crash on February 14, when it changed lanes and put itself in the path of an oncoming bus.
+In an accident report filed with the California DMV on February 23""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/625809b551bc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5250> .
+
+<https://w3id.org/airo/incident/Regulation/ce9a46bf0353> a airo:Regulation ;
+    rdfs:label "California law" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California law" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05603d1bb667> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/0c2094342710> a airo:Stakeholder ;
+    rdfs:label "California Department of Motor Vehicles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California’s Department of Motor Vehicles (DMV)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2eac190eef15>,
+        <https://w3id.org/airo/incident/evidence/706b903e8e81>,
+        <https://w3id.org/airo/incident/evidence/7782e36e443d>,
+        <https://w3id.org/airo/incident/evidence/7b2b2bb3c1c3>,
+        <https://w3id.org/airo/incident/evidence/a394e80ee0a7>,
+        <https://w3id.org/airo/incident/evidence/aed283127ea5>,
+        <https://w3id.org/airo/incident/evidence/c4a0a6d063a0>,
+        <https://w3id.org/airo/incident/evidence/dbc35f965eaf>,
+        <https://w3id.org/airo/incident/evidence/e1e63e3f0bb6>,
+        <https://w3id.org/airo/incident/evidence/fb90124d2bf0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1088>,
+        <https://w3id.org/airo/incident/document/1097>,
+        <https://w3id.org/airo/incident/document/1098>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/1106>,
+        <https://w3id.org/airo/incident/document/5246>,
+        <https://w3id.org/airo/incident/document/5249>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:hasSupportCount 10 .
+
+<https://w3id.org/airo/incident/Stakeholder/3b8c9cf8732a> a airo:Stakeholder ;
+    rdfs:label "Mountain View Police Department" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mountain View Police Department" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/018829fc957d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1087> .
+
+<https://w3id.org/airo/incident/Stakeholder/88a27821163e> a airo:Stakeholder ;
+    rdfs:label "Mark Rosekind" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mark Rosekind" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5c7c258711e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/Stakeholder/a2e2c7ec86c1> a airo:Stakeholder ;
+    rdfs:label "Chris Urmson" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a>,
+        <https://w3id.org/airo/incident/AISystem/7c56e5942487>,
+        <https://w3id.org/airo/incident/AISystem/b325cf756d88>,
+        <https://w3id.org/airo/incident/AISystem/fb0e35fec614> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chris Urmson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bafc6360d96>,
+        <https://w3id.org/airo/incident/evidence/8868877adae3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/cf05e5d80d0f> a airo:Stakeholder ;
+    rdfs:label "Alphabet" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a>,
+        <https://w3id.org/airo/incident/AISystem/7c56e5942487>,
+        <https://w3id.org/airo/incident/AISystem/b325cf756d88>,
+        <https://w3id.org/airo/incident/AISystem/fb0e35fec614> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Alphabet" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68576f279328>,
+        <https://w3id.org/airo/incident/evidence/ea84d027472c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1098> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/d75c6cf3376e> a airo:Stakeholder ;
+    rdfs:label "Santa Clara Valley Transportation Authority" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Santa Clara Valley transportation authority" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/384345b972b2>,
+        <https://w3id.org/airo/incident/evidence/80f5b4dccc17>,
+        <https://w3id.org/airo/incident/evidence/c630a0dcddac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1106>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/evidence/084ac8779e8a> a airo:Evidence ;
+    airo:evidenceText "1 of Google’s autonomous Lexus SUVs hit a public bus on Valentine’s Day while trying to avoid sandbags on the road." ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/evidence/0b5bc64ddb58> a airo:Evidence ;
+    airo:evidenceText "Google's autonomous driving mode was active when the crash occurred (in other incidents, Google's test drivers had switched on manual mode)." ;
+    airo:sourceDocId "1097" .
+
+<https://w3id.org/airo/incident/evidence/1254cee3116b> a airo:Evidence ;
+    airo:evidenceText "Google accepts blame for its self-driving car causing crash" ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/1285d1ea981a> a airo:Evidence ;
+    airo:evidenceText "Google’s Self-Driving Car Probably Caused Its First Accident" ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/151cb3a9acf1> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/1e689cbfe214> a airo:Evidence ;
+    airo:evidenceText "[1083] Google is to meet with California's Department of Motor Vehicles (DMV) to discuss the incident, and determine where the blame lies." ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/28195dc0019f> a airo:Evidence ;
+    airo:evidenceText "[1100] the National Highway Traffic Safety Administration—which regulates U.S. vehicle-safety standards—said earlier this month that it counts the artificial intelligence controlling Google’s cars as a “driver.”" ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/2b6b2659c01c> a airo:Evidence ;
+    airo:evidenceText "Google car hits bus, first time at fault" ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/2eac190eef15> a airo:Evidence ;
+    airo:evidenceText "The incident – which California’s Department of Motor Vehicles documented publicly yesterday – is the first clear-cut case of an accident caused by the tech giant’s self-driving technology." ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/34e05b975c4d> a airo:Evidence ;
+    airo:evidenceText "the National Highway Traffic Safety Administration—which regulates U.S. vehicle-safety standards—said earlier this month that it counts the artificial intelligence controlling Google’s cars as a “driver.”" ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/3bc03982f0e6> a airo:Evidence ;
+    airo:evidenceText "Google's Self-Driving Car Hit Another Vehicle for the First Time" ;
+    airo:sourceDocId "1097" .
+
+<https://w3id.org/airo/incident/evidence/41ca75e397ad> a airo:Evidence ;
+    airo:evidenceText "A public transit bus was approaching from behind. The Google AV test driver saw the bus approaching in the left side mirror but believed the bus would stop or slow to allow the Google AV to continue." ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/4c40e28571b4> a airo:Evidence ;
+    airo:evidenceText "At SXSW, Urmson also showed an instance where a bike going the wrong way at night suddenly zoomed through an intersection, in front of a Google car, according to Gizmodo." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/579f3c777c8b> a airo:Evidence ;
+    airo:evidenceText "Newly released video shows the moment a Google self-driving car learned the hard way not to tussle with a public bus." ;
+    airo:sourceDocId "1106" .
+
+<https://w3id.org/airo/incident/evidence/625809b551bc> a airo:Evidence ;
+    airo:evidenceText "Google's Self-Driving Car Caused Its First Crash" ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/6cf7974f4c54> a airo:Evidence ;
+    airo:evidenceText "Google self-driving car caught on video colliding with bus" ;
+    airo:sourceDocId "1106" .
+
+<https://w3id.org/airo/incident/evidence/732bf894c488> a airo:Evidence ;
+    airo:evidenceText "A Google driverless car has been involved in an accident with a bus and Google has said it “bears some responsibility” for the first time." ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/evidence/7d247b495400> a airo:Evidence ;
+    airo:evidenceText "1 of Google’s autonomous Lexus SUVs hit a public bus on Valentine’s Day while trying to avoid sandbags on the road." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/7dea30987534> a airo:Evidence ;
+    airo:evidenceText "[1095] On Valentine's Day, the inevitable happened to Google as one of its self-driving Lexuses was involved in a low-speed crash with a city bus." ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/85bf3e12dfeb> a airo:Evidence ;
+    airo:evidenceText "[1082] 'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/8c754e833700> a airo:Evidence ;
+    airo:evidenceText "Urmson revealed the company had taught its cars to move next to the curb when planning a right turn, sidling by traffic stopped at a traffic light, much as human drivers do, according to CNET." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/9f6cac2c7940> a airo:Evidence ;
+    airo:evidenceText "A Google self-driving car caused a crash for the first time" ;
+    airo:sourceDocId "5246" .
+
+<https://w3id.org/airo/incident/evidence/a3247e89492c> a airo:Evidence ;
+    airo:evidenceText "Watch Google’s Self-Driving Lexus Crash Into a California Bus" ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/aae1327be3e3> a airo:Evidence ;
+    airo:evidenceText "Google admits its self driving car got it wrong: Bus crash was caused by software" ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/ad764b65d6da> a airo:Evidence ;
+    airo:evidenceText "[1088] Google has said it “bears some responsibility” for the first time." ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/evidence/aed283127ea5> a airo:Evidence ;
+    airo:evidenceText "Google's self-driving car had never been at fault in the 17 accidents the company reported to the California Department of Motor Vehicles." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/b07d3db59287> a airo:Evidence ;
+    airo:evidenceText "[1095] From now on, our cars will more deeply understand that buses (and other large vehicles) are less likely to yield to us than other types of vehicles." ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/evidence/ba89d3f0cd10> a airo:Evidence ;
+    airo:evidenceText "Google’s Self-Driving Car Probably Caused Its First Accident" ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/evidence/ccf1261082ee> a airo:Evidence ;
+    airo:evidenceText "Google self-driving car hits a bus" ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/d20d045187e9> a airo:Evidence ;
+    airo:evidenceText "Though it was a low-speed collision, the impact crumpled the Lexus' front left side, flattened the tire and tore off the radar Google installed to help the SUV perceive its surroundings." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/e1e63e3f0bb6> a airo:Evidence ;
+    airo:evidenceText "Google is to meet with California's Department of Motor Vehicles (DMV) to discuss the incident, and determine where the blame lies." ;
+    airo:sourceDocId "1083" .
+
+<https://w3id.org/airo/incident/evidence/e3b5b47743a0> a airo:Evidence ;
+    airo:evidenceText "Google self-driving car crashes into bus and company admits it is 'partially' responsible" ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/Risk/3e3a35d6beb6> a airo:Risk ;
+    rdfs:label "risk of autonomous vehicle causing a traffic collision" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05ec22cc600b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/9d53231a271c> .
+
+<https://w3id.org/airo/incident/Stakeholder/9b1615131725> a airo:Stakeholder ;
+    rdfs:label "Google" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a>,
+        <https://w3id.org/airo/incident/AISystem/7c56e5942487>,
+        <https://w3id.org/airo/incident/AISystem/b325cf756d88>,
+        <https://w3id.org/airo/incident/AISystem/fb0e35fec614> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a>,
+        <https://w3id.org/airo/incident/AISystem/7c56e5942487>,
+        <https://w3id.org/airo/incident/AISystem/b325cf756d88>,
+        <https://w3id.org/airo/incident/AISystem/fb0e35fec614> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/13c4d7268ce3>,
+        <https://w3id.org/airo/incident/evidence/1b91c0190f2b>,
+        <https://w3id.org/airo/incident/evidence/1db5fed3b992>,
+        <https://w3id.org/airo/incident/evidence/3100077cb613>,
+        <https://w3id.org/airo/incident/evidence/8474aa2800be>,
+        <https://w3id.org/airo/incident/evidence/882c4c4ddc0c>,
+        <https://w3id.org/airo/incident/evidence/8f7cbfd00921>,
+        <https://w3id.org/airo/incident/evidence/aed283127ea5>,
+        <https://w3id.org/airo/incident/evidence/c79c992eb968>,
+        <https://w3id.org/airo/incident/evidence/d1e943f6abfc>,
+        <https://w3id.org/airo/incident/evidence/e1e63e3f0bb6>,
+        <https://w3id.org/airo/incident/evidence/eec009fca647>,
+        <https://w3id.org/airo/incident/evidence/fcd5106031ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1088>,
+        <https://w3id.org/airo/incident/document/1095>,
+        <https://w3id.org/airo/incident/document/1097>,
+        <https://w3id.org/airo/incident/document/1098>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/1106>,
+        <https://w3id.org/airo/incident/document/5246>,
+        <https://w3id.org/airo/incident/document/5249>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:hasSupportCount 12 .
+
+<https://w3id.org/airo/incident/evidence/05603d1bb667> a airo:Evidence ;
+    airo:evidenceText "Neither the Google employee in the driver's seat — who must be there under California law to take the wheel in an emergency — nor the 16 people on the bus were injured." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/05ec22cc600b> a airo:Evidence ;
+    airo:evidenceText "[1100] 1 of Google’s self-driving cars hit a bus, and if it is found to be at fault—which is looking probable—it will be the first time one of the company’s autonomous vehicles has been responsible for an accident on the road." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/dd60ff87f43d> a airo:Evidence ;
+    airo:evidenceText "[1098] A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/e1b441d4f438> a airo:Evidence ;
+    airo:evidenceText "[1100] Google said in a statement that it shoulders “some responsibility” for the accident." ;
+    airo:sourceDocId "1100" .
+
+<https://w3id.org/airo/incident/evidence/08c1bb40b57d> a airo:Evidence ;
+    airo:evidenceText "the National Highway Traffic Safety Administration—which regulates U.S. vehicle-safety standards—said earlier this month that it counts the artificial intelligence controlling Google’s cars as a “driver.”" ;
+    airo:sourceDocId "5249" .
+
+<https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a> a airo:AISystem ;
+    rdfs:label "Google Autonomous Lexus SUV" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google’s autonomous Lexus SUVs" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/084ac8779e8a>,
+        <https://w3id.org/airo/incident/evidence/7d247b495400> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/5249> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/7c56e5942487> a airo:AISystem ;
+    rdfs:label "Lexus self-driving vehicle" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lexus" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d20d045187e9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082> .
+
+<https://w3id.org/airo/incident/AISystem/fb0e35fec614> a airo:AISystem ;
+    rdfs:label "Google Autonomous Vehicle" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google AV" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41ca75e397ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5250> .
+
+<https://w3id.org/airo/incident/evidence/018829fc957d> a airo:Evidence ;
+    airo:evidenceText "According to a spokesperson at the Mountain View Police Department, El Camino is not considered a hotspot for collisions." ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/384345b972b2> a airo:Evidence ;
+    airo:evidenceText "On March 9, 2016, the Santa Clara Valley Transportation Authority released raw footage of the crash:" ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/706b903e8e81> a airo:Evidence ;
+    airo:evidenceText "Google has reported that between September 2014 and November, its prototypes drove themselves about 400,000 miles on city streets near its Silicon Valley headquarters without causing a collision." ;
+    airo:sourceDocId "1106" .
+
+<https://w3id.org/airo/incident/evidence/7782e36e443d> a airo:Evidence ;
+    airo:evidenceText "The car, a Lexus SUV, was attempting to navigate around some sandbags at a speed of 2mph, when it hit the bus, which was travelling at 15 mph, according to a report filed with California’s Department of Motor Vehicles (DMV)." ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/evidence/7bafc6360d96> a airo:Evidence ;
+    airo:evidenceText "Google's goal is to make a car that drives much better than humans do, program director Chris Urmson said in January, but perfection isn't attainable." ;
+    airo:sourceDocId "5250" .
+
+<https://w3id.org/airo/incident/evidence/80f5b4dccc17> a airo:Evidence ;
+    airo:evidenceText "A spokesperson for Santa Clara Valley Transportation Authority, which runs public transit in the area, says that although the bus only sustained minor damage, its passengers were transferred and the vehicle was removed from service." ;
+    airo:sourceDocId "1087" .
+
+<https://w3id.org/airo/incident/evidence/a394e80ee0a7> a airo:Evidence ;
+    airo:evidenceText "According to a California DMV filing first reported by writer Mark Harris, one of Google’s self-driving Lexus SUVs drove into the side of a bus at low speed." ;
+    airo:sourceDocId "5246" .
+
+<https://w3id.org/airo/incident/evidence/c630a0dcddac> a airo:Evidence ;
+    airo:evidenceText "The Santa Clara Valley transportation authority released the video and post-crash photos this week to the Associated Press under a public records request." ;
+    airo:sourceDocId "1106" .
+
+<https://w3id.org/airo/incident/evidence/ea84d027472c> a airo:Evidence ;
+    airo:evidenceText "The top U.S. auto safety regulator said last week it is seeking additional details of the recent crash of an Alphabet Google self-driving car in California." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/68576f279328> a airo:Evidence ;
+    airo:evidenceText "A self-driving Lexus SUV owned by Google's parent company Alphabet struck a bus February 14 while it was testing on the streets of Mountain View, Calif." ;
+    airo:sourceDocId "1098" .
+
+<https://w3id.org/airo/incident/evidence/8868877adae3> a airo:Evidence ;
+    airo:evidenceText "'Our car was making an assumption about what the other car was going to do,' said Chris Urmson, head of Google's self-driving project, speaking at the SXSW festival in Austin." ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_57> a airo:AIRiskIncident ;
+    rdfs:label "Google self-driving car hits a bus" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/ce9a46bf0353> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/9d53231a271c> ;
+    airo:hasDescription "pred_57" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/72ad4718bea9>,
+        <https://w3id.org/airo/incident/Domain/afe5b7749f40>,
+        <https://w3id.org/airo/incident/evidence/39a764c6a38a>,
+        <https://w3id.org/airo/incident/evidence/44ff811c37c5>,
+        <https://w3id.org/airo/incident/evidence/69fe931ca5a6>,
+        <https://w3id.org/airo/incident/evidence/75ce11c3ba23>,
+        <https://w3id.org/airo/incident/evidence/7876174dacff> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/94f638b90474> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1082>,
+        <https://w3id.org/airo/incident/NewsReport/1083>,
+        <https://w3id.org/airo/incident/NewsReport/1087>,
+        <https://w3id.org/airo/incident/NewsReport/1088>,
+        <https://w3id.org/airo/incident/NewsReport/1095>,
+        <https://w3id.org/airo/incident/NewsReport/1097>,
+        <https://w3id.org/airo/incident/NewsReport/1098>,
+        <https://w3id.org/airo/incident/NewsReport/1100>,
+        <https://w3id.org/airo/incident/NewsReport/1106>,
+        <https://w3id.org/airo/incident/NewsReport/5246>,
+        <https://w3id.org/airo/incident/NewsReport/5249>,
+        <https://w3id.org/airo/incident/NewsReport/5250> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/3e3a35d6beb6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1088>,
+        <https://w3id.org/airo/incident/document/1095>,
+        <https://w3id.org/airo/incident/document/1097>,
+        <https://w3id.org/airo/incident/document/1098>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/1106>,
+        <https://w3id.org/airo/incident/document/5246>,
+        <https://w3id.org/airo/incident/document/5249>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/4dd48b3b7c2a>,
+        <https://w3id.org/airo/incident/AISystem/7c56e5942487>,
+        <https://w3id.org/airo/incident/AISystem/b325cf756d88>,
+        <https://w3id.org/airo/incident/AISystem/fb0e35fec614> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0c2094342710>,
+        <https://w3id.org/airo/incident/Stakeholder/12aca1208b53>,
+        <https://w3id.org/airo/incident/Stakeholder/3b8c9cf8732a>,
+        <https://w3id.org/airo/incident/Stakeholder/3d6af1e22f20>,
+        <https://w3id.org/airo/incident/Stakeholder/8271d7cabb2d>,
+        <https://w3id.org/airo/incident/Stakeholder/88a27821163e>,
+        <https://w3id.org/airo/incident/Stakeholder/9b1615131725>,
+        <https://w3id.org/airo/incident/Stakeholder/a2e2c7ec86c1>,
+        <https://w3id.org/airo/incident/Stakeholder/cf05e5d80d0f>,
+        <https://w3id.org/airo/incident/Stakeholder/d75c6cf3376e>,
+        <https://w3id.org/airo/incident/Stakeholder/f7bcfd2a497c>,
+        <https://w3id.org/airo/incident/Stakeholder/ff1e4e2d65ef> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/be418a86f8bb> .
+
+<https://w3id.org/airo/incident/evidence/882c4c4ddc0c> a airo:Evidence ;
+    airo:evidenceText "Google has blamed other drivers for past collisions during testing, but, in a first, accepted at least partial responsibility for this crash." ;
+    airo:sourceDocId "1106" .
+
+<https://w3id.org/airo/incident/evidence/8f7cbfd00921> a airo:Evidence ;
+    airo:evidenceText "Google has said it “bears some responsibility” for the first time." ;
+    airo:sourceDocId "1088" .
+
+<https://w3id.org/airo/incident/evidence/e5c7c258711e> a airo:Evidence ;
+    airo:evidenceText "National Highway Traffic Safety Administration (NHTSA) chief Mark Rosekind told Reuters on the sidelines of an event on highway safety that the agency is collecting more information to get a 'more detailed exploration of what exactly happened.'" ;
+    airo:sourceDocId "1082" .
+
+<https://w3id.org/airo/incident/evidence/fcd5106031ec> a airo:Evidence ;
+    airo:evidenceText "On Valentine's Day, the inevitable happened to Google as one of its self-driving Lexuses was involved in a low-speed crash with a city bus." ;
+    airo:sourceDocId "1095" .
+
+<https://w3id.org/airo/incident/AISystem/b325cf756d88> a airo:AISystem ;
+    rdfs:label "Google Self-Driving Car" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/ce9a46bf0353> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/42357e5e088b>,
+        <https://w3id.org/airo/incident/Purpose/e5689676857f> ;
+    airo:hasDescription "Google self-driving car" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2520a880b496>,
+        <https://w3id.org/airo/incident/evidence/2eac190eef15>,
+        <https://w3id.org/airo/incident/evidence/454566ee510c>,
+        <https://w3id.org/airo/incident/evidence/4dc3d1e939f1>,
+        <https://w3id.org/airo/incident/evidence/572b38c83280>,
+        <https://w3id.org/airo/incident/evidence/579f3c777c8b>,
+        <https://w3id.org/airo/incident/evidence/62c6854a24f5>,
+        <https://w3id.org/airo/incident/evidence/68576f279328>,
+        <https://w3id.org/airo/incident/evidence/732bf894c488>,
+        <https://w3id.org/airo/incident/evidence/7824c76ad192>,
+        <https://w3id.org/airo/incident/evidence/8bcef38a9bf9>,
+        <https://w3id.org/airo/incident/evidence/d28751062c90>,
+        <https://w3id.org/airo/incident/evidence/fcd5106031ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1082>,
+        <https://w3id.org/airo/incident/document/1083>,
+        <https://w3id.org/airo/incident/document/1087>,
+        <https://w3id.org/airo/incident/document/1088>,
+        <https://w3id.org/airo/incident/document/1095>,
+        <https://w3id.org/airo/incident/document/1097>,
+        <https://w3id.org/airo/incident/document/1098>,
+        <https://w3id.org/airo/incident/document/1100>,
+        <https://w3id.org/airo/incident/document/1106>,
+        <https://w3id.org/airo/incident/document/5246>,
+        <https://w3id.org/airo/incident/document/5249>,
+        <https://w3id.org/airo/incident/document/5250> ;
+    airo:hasSupportCount 12 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/26d80c73b9ef> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/dfac533243e4> .
+

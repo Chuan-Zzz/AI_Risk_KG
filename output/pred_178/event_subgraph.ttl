@@ -1,0 +1,2136 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/5d710a024248> a airo:ComplianceRequirement ;
+    rdfs:label "meet contractual obligations for gunshot detection system" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1916c4f3eada> ;
+    airo:hasReasoning "ShotSpotter must meet specified contractual obligations as per the audit findings." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/EnforcementAction/61677122d107> a airo:EnforcementAction ;
+    rdfs:label "audit released by NYC Comptroller highlighting system inaccuracies" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/279b7fdd4039> ;
+    airo:hasReasoning "The comptroller's audit is a form of regulatory oversight and enforcement action highlighting system performance issues." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> .
+
+<https://w3id.org/airo/incident/InformationSource/3f20fcedf185> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1247>,
+        <https://w3id.org/airo/incident/NewsReport/2309>,
+        <https://w3id.org/airo/incident/NewsReport/2473>,
+        <https://w3id.org/airo/incident/NewsReport/2626>,
+        <https://w3id.org/airo/incident/NewsReport/3843>,
+        <https://w3id.org/airo/incident/NewsReport/3844> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247>,
+        <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2473>,
+        <https://w3id.org/airo/incident/document/2626>,
+        <https://w3id.org/airo/incident/document/3843>,
+        <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Obligation/097fe22136c1> a airo:Obligation ;
+    rdfs:label "ensure accurate billing and contractual obligations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f619cb09b8ee> ;
+    airo:hasReasoning "The audit shows NYPD has obligation to ensure accurate billing and ShotSpotter must meet contractual obligations." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/RiskControl/fd2ba7b157c7> a airo:RiskControl ;
+    rdfs:label "Government audit, contract non-renewal consideration, and public policy review" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/960ad7a2a7ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/9d352c7babce> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1671a59a3a2e> a airo:RoleAssignment ;
+    rdfs:label "Harry Tutunjian_AIDeployer" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1450e9e5855b> ;
+    airo:hasReasoning "As former mayor, he supported the installation of the system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/dfd984de3743> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/16b96b5430b2> a airo:RoleAssignment ;
+    rdfs:label "New York City Police Department_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f48ad321f47> ;
+    airo:hasReasoning "NYPD directly uses the system for gunshot detection and location." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6b91266132af> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/28c90831682b> a airo:RoleAssignment ;
+    rdfs:label "SoundThinking_AIProvider" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71b537175af6> ;
+    airo:hasReasoning "SoundThinking is the parent company of ShotSpotter, Inc., thus involved in providing the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/492b092f260a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2c1866af24ce> a airo:RoleAssignment ;
+    rdfs:label "John Tedesco_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8f2c767466e> ;
+    airo:hasReasoning "As police chief, he made the decision to discontinue the ShotSpotter system deployment." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fe6870a6e5a6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/34db4486fb3c> a airo:RoleAssignment ;
+    rdfs:label "New York City Police Department_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc164de542d9> ;
+    airo:hasReasoning "NYPD uses the ShotSpotter system to detect gunfire in their jurisdiction." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6b91266132af> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3ad1c5a72f26> a airo:RoleAssignment ;
+    rdfs:label "Nicholas Kaiser_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8e48bcf08cad> ;
+    airo:hasReasoning "As retired police chief, he pushed for installation of the system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c1a61e850b50> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3dfd63d1b384> a airo:RoleAssignment ;
+    rdfs:label "Durham Police Department_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba139b5e4d13> ;
+    airo:hasReasoning "The Durham Police Department is piloting and using the ShotSpotter system in their operations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c327a06a8fba> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3e8f644f8d47> a airo:RoleAssignment ;
+    rdfs:label "Daniel Schwarz_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa9e9b03732> ;
+    airo:hasReasoning "As NYCU technology and privacy strategist, he is advocating for oversight of AI technology use." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e898d991b22e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5b600051e9b6> a airo:RoleAssignment ;
+    rdfs:label "Durham Police Department_AIUser" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8713ec49a84> ;
+    airo:hasReasoning "The police department directly uses the system and relies on its alerts." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c327a06a8fba> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/66439c8d2d53> a airo:RoleAssignment ;
+    rdfs:label "Satana Deberry_AIDeployer" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1252250f806f> ;
+    airo:hasReasoning "As Durham County District Attorney (implied by stakeholder list), she would be involved in public safety technology decisions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6218962a47b7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/67a969711c52> a airo:RoleAssignment ;
+    rdfs:label "New York City Comptroller_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2998fcbb46c6> ;
+    airo:hasReasoning "The comptroller conducted an audit of ShotSpotter's performance, indicating regulatory oversight role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9eddc8d4f3bb> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6f5875c05aa8> a airo:RoleAssignment ;
+    rdfs:label "Public Safety Committee_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/136f183e8215> ;
+    airo:hasReasoning "The Public Safety Committee reviews budgets and makes decisions about technology deployments." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/71e3184cc4c3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/711cb82206d7> a airo:RoleAssignment ;
+    rdfs:label "ShotSpotter, Inc._AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99dfc3a4658e> ;
+    airo:hasReasoning "As the creator and manager, they provide the system to police departments like NYPD." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d60e24bceca6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/82cf3fe22b0e> a airo:RoleAssignment ;
+    rdfs:label "Troy Police Benevolent Association_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e766de01c962> ;
+    airo:hasReasoning "Police officers who use the system are directly affected by its inaccuracies and performance issues." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/65ba6bfc02c4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/85e71fd09ce1> a airo:RoleAssignment ;
+    rdfs:label "Lou Rosamilia_AIDeployer" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bde5affdeb96> ;
+    airo:hasReasoning "As mayor (implied by stakeholder list), he would have been involved in deployment decisions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/75ff2e004f13> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8db66f3432d8> a airo:RoleAssignment ;
+    rdfs:label "NYU Policing Project_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce01c238e8fc> ;
+    airo:hasReasoning "NYU Policing Project conducted a privacy audit at ShotSpotter's request, acting as independent evaluator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/755d5fc65f09> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a8ec7d488066> a airo:RoleAssignment ;
+    rdfs:label "New York Civil Liberties Union_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eb396166e84> ;
+    airo:hasReasoning "NYCLU is advocating for discussion about technology use, representing civil liberties concerns." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/73b4892ddcfc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/acd5da79261b> a airo:RoleAssignment ;
+    rdfs:label "Mark-Anthony Middleton_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3c9396c9928> ;
+    airo:hasReasoning "As Mayor Pro-Tem, he advocated for and defended the deployment of ShotSpotter in Durham." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ef5056a07c2f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b5a361d57e18> a airo:RoleAssignment ;
+    rdfs:label "City of Chicago_AIDeployer" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545c861f7cb> ;
+    airo:hasReasoning "Chicago is mentioned as a city where ShotSpotter is deployed, though evidence is limited." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b74aab768b6f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b741384691b1> a airo:RoleAssignment ;
+    rdfs:label "City of Durham_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff7f43c48dd1> ;
+    airo:hasReasoning "The city of Durham is piloting the ShotSpotter technology through its police department." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7a057b76b095> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c2580596df83> a airo:RoleAssignment ;
+    rdfs:label "Eric Adams_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a822203b54b7> ;
+    airo:hasReasoning "As NYC Mayor, Eric Adams oversees city agencies including NYPD that use ShotSpotter." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1a1891cc1086> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cc5b05d2ef63> a airo:RoleAssignment ;
+    rdfs:label "ShotSpotter, Inc._AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fc91eafbdb8> ;
+    airo:hasReasoning "ShotSpotter, Inc. created and manages the gunshot detection system, indicating they are the developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d60e24bceca6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f391e560dc09> a airo:RoleAssignment ;
+    rdfs:label "Brad Lander_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb80f109a705> ;
+    airo:hasReasoning "As NYC Comptroller, Brad Lander oversees audits of city technology contracts." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_178> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ae6180dfad0c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/Trend/2b42d911066c> a airo:Trend ;
+    rdfs:label "increasing scrutiny of surveillance technology accuracy and effectiveness" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11e9ed8cdf92> ;
+    airo:hasReasoning "The audit and advocacy groups pushing for conversation indicates growing scrutiny of surveillance technology performance." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/event/pred_178> a airo:AIRiskIncident ;
+    airo:firstSeen "2012-10-31T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 6 ;
+    airo:lastSeen "2024-06-20T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00b1ffa20fa4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/014f67d3fb82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/0212b35d6f0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/0410399814e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd71de1cc1b0> .
+
+<https://w3id.org/airo/incident/ks/044bf63111a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bd08444735c> .
+
+<https://w3id.org/airo/incident/ks/04d2d6be99f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/0544a8c1896c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/09e69750db3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e0ee21f6f61> .
+
+<https://w3id.org/airo/incident/ks/0ba9c01e6729> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/102cc968bd5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> .
+
+<https://w3id.org/airo/incident/ks/1129444664bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/11c6e0d2970d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f578d159038d> .
+
+<https://w3id.org/airo/incident/ks/1229bcb08033> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> .
+
+<https://w3id.org/airo/incident/ks/12673e41ba73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98661bf15627> .
+
+<https://w3id.org/airo/incident/ks/13c0b223bbe6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a625baf47e63> .
+
+<https://w3id.org/airo/incident/ks/14713ef17f3c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29531c0e9b8c> .
+
+<https://w3id.org/airo/incident/ks/15d44fa2050e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/1667603a8d24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> .
+
+<https://w3id.org/airo/incident/ks/175f6844bc16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5430bf5f455> .
+
+<https://w3id.org/airo/incident/ks/1804496881f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5dc3cf9ffbb9> .
+
+<https://w3id.org/airo/incident/ks/192e0918ccc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/19fc9e5c935d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/1ab4af97807a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbb62952fe16> .
+
+<https://w3id.org/airo/incident/ks/1afd4d034da5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd71de1cc1b0> .
+
+<https://w3id.org/airo/incident/ks/1d878cce7376> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6e138440d16> .
+
+<https://w3id.org/airo/incident/ks/1dc18e49adb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/20d42e018ec4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/960ad7a2a7ec> .
+
+<https://w3id.org/airo/incident/ks/2228557d5a36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/244595b1179b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c323cd8706> .
+
+<https://w3id.org/airo/incident/ks/256f3ee19bc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791f79a9a75a> .
+
+<https://w3id.org/airo/incident/ks/2909067a00d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/2afd4ea5b9af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bd08444735c> .
+
+<https://w3id.org/airo/incident/ks/2b5835062810> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af5a0521acb> .
+
+<https://w3id.org/airo/incident/ks/2efcc3ee66c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/2f094cf4e147> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/2f7e81a699aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/3203b8400da0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e76aba4fd4e7> .
+
+<https://w3id.org/airo/incident/ks/33b105bb4bb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/377e367548e0> .
+
+<https://w3id.org/airo/incident/ks/342b439ee4d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbb62952fe16> .
+
+<https://w3id.org/airo/incident/ks/365f835a99af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/36d57388b47d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38860a2d18e9> .
+
+<https://w3id.org/airo/incident/ks/3abf4b9ae4fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/3c241c8a41d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c246a564be7> .
+
+<https://w3id.org/airo/incident/ks/3eea028ebebd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c16b578e0e1> .
+
+<https://w3id.org/airo/incident/ks/3f9969429b80> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff0219c98545> .
+
+<https://w3id.org/airo/incident/ks/405adfe02623> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/41e5514d3100> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a625baf47e63> .
+
+<https://w3id.org/airo/incident/ks/4299afbef2ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/46164f8b55e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f578d159038d> .
+
+<https://w3id.org/airo/incident/ks/4645e3947ba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/465c700c45f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2002832be1c> .
+
+<https://w3id.org/airo/incident/ks/47747bf082be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/477786192a54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> .
+
+<https://w3id.org/airo/incident/ks/47ef38bde3cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d58a8b82efc> .
+
+<https://w3id.org/airo/incident/ks/48b6dcc5df22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b257d76f7ff2> .
+
+<https://w3id.org/airo/incident/ks/49502b4c8bb9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/4a4e0e0c8d9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef009ec0b751> .
+
+<https://w3id.org/airo/incident/ks/4b52c47400af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/510f81150c58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29531c0e9b8c> .
+
+<https://w3id.org/airo/incident/ks/522f9b7b4f4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91e9a6027d4e> .
+
+<https://w3id.org/airo/incident/ks/5376103abecb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a625baf47e63> .
+
+<https://w3id.org/airo/incident/ks/54986491f868> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/5518c3609401> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/59b113c0d3ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91e9a6027d4e> .
+
+<https://w3id.org/airo/incident/ks/5a196c9ecab0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/5bf7a78755a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> .
+
+<https://w3id.org/airo/incident/ks/6188e91abd69> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af5a0521acb> .
+
+<https://w3id.org/airo/incident/ks/62513cc33028> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91e9a6027d4e> .
+
+<https://w3id.org/airo/incident/ks/648eea1b8b65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fabbc2a13495> .
+
+<https://w3id.org/airo/incident/ks/6508edf9e9da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/6538541955cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> .
+
+<https://w3id.org/airo/incident/ks/655955848c04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf2f3eeae58d> .
+
+<https://w3id.org/airo/incident/ks/6636216f3209> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/6808fefb9dcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/69a4a668431d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/6b0f9842df6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb5d2197f315> .
+
+<https://w3id.org/airo/incident/ks/6dd425ec242c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/6fc2aa8d81da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/705b5dfded19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/70d6c8898bc4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/72af8444841a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/72b76a129b4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/74d864afaae5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/75c6b7f25702> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/77202eb1bb8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d93369ba0b43> .
+
+<https://w3id.org/airo/incident/ks/7829751745d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c323cd8706> .
+
+<https://w3id.org/airo/incident/ks/78aa26e94138> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/78d9045ea046> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/79d05c936845> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5f9ab92d36f> .
+
+<https://w3id.org/airo/incident/ks/7b7e54c897ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/7bcd7a63cbe2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/47b11d2cfb95> .
+
+<https://w3id.org/airo/incident/ks/8002b1949b23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/801251e003cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e8011e35e7a3> .
+
+<https://w3id.org/airo/incident/ks/80e45e9400d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b107f379d15> .
+
+<https://w3id.org/airo/incident/ks/82089ff4869a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/843a3142241e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/854b343a8ae1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91e9a6027d4e> .
+
+<https://w3id.org/airo/incident/ks/85f1b88cc3bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c12d419e208c> .
+
+<https://w3id.org/airo/incident/ks/87e37ad97501> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/88307c45dbaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/88dab660d881> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/798650d025bf> .
+
+<https://w3id.org/airo/incident/ks/896f68f92a28> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06af6c2479be> .
+
+<https://w3id.org/airo/incident/ks/8d3c7bb99547> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e0ee21f6f61> .
+
+<https://w3id.org/airo/incident/ks/8d75cf99f506> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/8dbd544af958> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/8ff2dfcd42c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf2f3eeae58d> .
+
+<https://w3id.org/airo/incident/ks/8fffebf8d2bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf2f3eeae58d> .
+
+<https://w3id.org/airo/incident/ks/90abfde87cb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/92e2b43552d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/94406c666cc9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/96245199fd86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/9646a82efe66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/96803d5d153c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd71de1cc1b0> .
+
+<https://w3id.org/airo/incident/ks/9aa5d8c073a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> .
+
+<https://w3id.org/airo/incident/ks/9b89aeeb5026> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a625baf47e63> .
+
+<https://w3id.org/airo/incident/ks/9c9b8f460813> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45894ee52a48> .
+
+<https://w3id.org/airo/incident/ks/9d613d32f95e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/9ff4055e4b56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bd08444735c> .
+
+<https://w3id.org/airo/incident/ks/a0f7cd7c2823> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d58a8b82efc> .
+
+<https://w3id.org/airo/incident/ks/a5b609a2225f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/279b7fdd4039> .
+
+<https://w3id.org/airo/incident/ks/a69f54a89903> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/a76608808393> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> .
+
+<https://w3id.org/airo/incident/ks/a840b1ca887d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/a8d644b1c041> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/a8e631e7dbf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c65e8449444> .
+
+<https://w3id.org/airo/incident/ks/ab9287368da5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e0ee21f6f61> .
+
+<https://w3id.org/airo/incident/ks/ad8e23c8bf8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/b0048a69ae84> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/b00d76f46ea8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c383050d4063> .
+
+<https://w3id.org/airo/incident/ks/b1fdca7f4c03> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f29294fb93d1> .
+
+<https://w3id.org/airo/incident/ks/b26f8f2fd6a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a1f2d1717dc> .
+
+<https://w3id.org/airo/incident/ks/b7fd2e684cba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/b94044c4dcb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/bb8014a4959a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbb62952fe16> .
+
+<https://w3id.org/airo/incident/ks/bc8b0b0c174f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/bdec9345021a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0462caecb05> .
+
+<https://w3id.org/airo/incident/ks/be4cdaea9e13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/bec44f79f619> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/bfea6bed4a31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/c086258a2b6c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11b912c0c5db> .
+
+<https://w3id.org/airo/incident/ks/c14491216112> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/c18274771583> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6eb09c78d9ef> .
+
+<https://w3id.org/airo/incident/ks/c60314d80fde> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/c8a04e261ac1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/c911172f36b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c2d9dc8a739> .
+
+<https://w3id.org/airo/incident/ks/cb20153ebeaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/cba5c5ab5a26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3fc4c560a8e8> .
+
+<https://w3id.org/airo/incident/ks/ce075519a20d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/d10c93b83975> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> .
+
+<https://w3id.org/airo/incident/ks/d1153d922d9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbb62952fe16> .
+
+<https://w3id.org/airo/incident/ks/d1257ca881c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd71de1cc1b0> .
+
+<https://w3id.org/airo/incident/ks/d1f8da38124a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/d2a2c359bf03> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> .
+
+<https://w3id.org/airo/incident/ks/d3cf876ff3b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/d3ec0472fc3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/d43c2a5c9d08> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/d469f08180a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c640b20a06b7> .
+
+<https://w3id.org/airo/incident/ks/d4f566c8050a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> .
+
+<https://w3id.org/airo/incident/ks/d576b755fd48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/d6b1b9498c71> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bd08444735c> .
+
+<https://w3id.org/airo/incident/ks/d7627b99c64d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c0bb399712e> .
+
+<https://w3id.org/airo/incident/ks/d8c97c9487af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29531c0e9b8c> .
+
+<https://w3id.org/airo/incident/ks/dcf0bc1ccddf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/df9e3f0e86df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29531c0e9b8c> .
+
+<https://w3id.org/airo/incident/ks/e00ebac513d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/e11fae3b7afc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/e4a7f7d80ffe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf2f3eeae58d> .
+
+<https://w3id.org/airo/incident/ks/e52a20fce5a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/e5cffc0e574d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/e5fff934d1f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad> .
+
+<https://w3id.org/airo/incident/ks/e8b89aebe65d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54fbea258cbc> .
+
+<https://w3id.org/airo/incident/ks/e9da33dc41b4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> .
+
+<https://w3id.org/airo/incident/ks/eaa2e62c7bbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e0ee21f6f61> .
+
+<https://w3id.org/airo/incident/ks/ec7901a4bb59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d> .
+
+<https://w3id.org/airo/incident/ks/ee52a6b5472f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> .
+
+<https://w3id.org/airo/incident/ks/eeff73a28224> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d58a8b82efc> .
+
+<https://w3id.org/airo/incident/ks/ef20ac3747da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a375671b992> .
+
+<https://w3id.org/airo/incident/ks/ef23677d2b0c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0ad19a5e36> .
+
+<https://w3id.org/airo/incident/ks/f08d857d2dfe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77604f4a4210> .
+
+<https://w3id.org/airo/incident/ks/f5819903e4cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee7816a03eeb> .
+
+<https://w3id.org/airo/incident/ks/f6eab3e53a4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791c120b8534> .
+
+<https://w3id.org/airo/incident/ks/fcf7e2593d90> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> .
+
+<https://w3id.org/airo/incident/ks/fd253297f30b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2a9ebb79ae0> .
+
+<https://w3id.org/airo/incident/ks/ffba26b889ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d58a8b82efc> .
+
+<https://w3id.org/airo/incident/AICapability/26f9780a2923> a airo:AICapability ;
+    rdfs:label "detect gunshots" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "detect gun shots" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c0bb399712e>,
+        <https://w3id.org/airo/incident/evidence/8b21b2a2be9d>,
+        <https://w3id.org/airo/incident/evidence/bb126f9f2a35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2626>,
+        <https://w3id.org/airo/incident/document/3844> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AICapability/30f882a75608> a airo:AICapability ;
+    rdfs:label "locate gunshots" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "locate gunshots" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2002832be1c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/9f1c5ad21d59> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791f79a9a75a> ;
+    airo:hasReasoning "The evidence shows the system was deployed by police departments (Durham, NYC) for operational use in their policing activities." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2473> .
+
+<https://w3id.org/airo/incident/AITechnique/5d558dd3b0cf> a airo:AITechnique ;
+    rdfs:label "acoustic surveillance" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "acoustic surveillance system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/AITechnique/9e9ca0e0515e> a airo:AITechnique ;
+    rdfs:label "gunfire detection" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "gunfire detection technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d>,
+        <https://w3id.org/airo/incident/evidence/c5430bf5f455> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/3844> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/e861c1a72170> a airo:AITechnique ;
+    rdfs:label "gunshot detection technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ShotSpotter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/AffectedActor/633d4412a2b1> a airo:AffectedActor ;
+    rdfs:label "Police departments and the communities they serve" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b257d76f7ff2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Documentation/fcae464f7dbe> a airo:Documentation ;
+    rdfs:label "privacy audit and assessment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0ad19a5e36> ;
+    airo:hasReasoning "A privacy audit and assessment was conducted on the gunshot detection technology." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/Domain/286fede1cd90> a airo:Domain ;
+    rdfs:label "public safety and law enforcement" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c2d9dc8a739> ;
+    airo:hasReasoning "The system is explicitly used by police departments for gunshot detection, which falls under public safety and law enforcement domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/Hazard/605cba047fe0> a airo:Hazard ;
+    rdfs:label "Failure to detect and alert police to actual gunfire events" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb5d2197f315> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309> .
+
+<https://w3id.org/airo/incident/Purpose/74718f9f4f69> a airo:Purpose ;
+    rdfs:label "detect gunshots and locate gunfire to assist police response" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5f9ab92d36f> ;
+    airo:hasReasoning "The evidence explicitly describes the system as a gunshot detection and location system designed to assist police in pinpointing gunfire locations." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/RiskSource/28047109ff8e> a airo:RiskSource ;
+    rdfs:label "Inaccurate gunshot detection system" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/9d352c7babce> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c12d419e208c> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/605cba047fe0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/32f320723268> a airo:Stakeholder ;
+    rdfs:label "Durham School Board" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Durham school board" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11b912c0c5db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/Stakeholder/602a00b4265e> a airo:Stakeholder ;
+    rdfs:label "Nexstar Media Inc." ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nexstar Media Inc." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b107f379d15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2473> .
+
+<https://w3id.org/airo/incident/Stakeholder/8efddabbfc50> a airo:Stakeholder ;
+    rdfs:label "City of Boston" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Boston" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5dc3cf9ffbb9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/be02f79a7672> a airo:Stakeholder ;
+    rdfs:label "Durham County" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Durham County" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c246a564be7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/Vulnerability/8780721c9a64> a airo:Vulnerability ;
+    rdfs:label "System fails to meet specified detection performance in real-world scenarios" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fabbc2a13495> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/evidence/0a1f2d1717dc> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/0c16b578e0e1> a airo:Evidence ;
+    airo:evidenceText "[2626] A spokesperson for the Durham Police Department told CBS17 that police did not receive an alert for a Feb. 5 shooting..." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/0c65e8449444> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/11e9ed8cdf92> a airo:Evidence ;
+    airo:evidenceText "[3844] Daniel Schwarz, a technology and privacy strategist for the New York Civil Liberties Union, said that he hoped the audit would start a conversation about how the technology is used in New York." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/1252250f806f> a airo:Evidence ;
+    airo:evidenceText "[2626] Durham Mayor Pro Tempore Mark-Anthony Middleton, an early advocate for piloting the technology in Durham, defended its continued usage." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/136f183e8215> a airo:Evidence ;
+    airo:evidenceText "[1247] \"We are discontinuing Shot-Spotter,\" Chief John Tedesco said Tuesday night during the Public Safety Committee's review of the police department budget for 2013." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/1450e9e5855b> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/1916c4f3eada> a airo:Evidence ;
+    airo:evidenceText "[3843] The audit found that the New York City Police Department (NYPD) ensures that the billing, invoices, and payments to ShotSpotter are accurate, and that ShotSpotter generally meets its currently specified contractual obligations." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/1f48ad321f47> a airo:Evidence ;
+    airo:evidenceText "[3843] ...to assist the NYPD in pinpointing the location of suspected gunfire within areas covered by the system." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/28b13d44beba> a airo:Evidence ;
+    airo:evidenceText "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?" ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/293441d70b1d> a airo:Evidence ;
+    airo:evidenceText "WRAL News has reached out to ShotSpotter for comment but have not heard back." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/2998fcbb46c6> a airo:Evidence ;
+    airo:evidenceText "[3844] ...according to an audit the New York City comptroller released Thursday." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/3678c4822604> a airo:Evidence ;
+    airo:evidenceText "Audit Report on the New York City Police Department’s Oversight of Its Agreement with ShotSpotter Inc. for the Gunshot Detection and Location System" ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/377e367548e0> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire..." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/38860a2d18e9> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/4a375671b992> a airo:Evidence ;
+    airo:evidenceText "[2473] Durham Mayor Pro-Tem Mark-Anthony Middleton. [2626] Durham Mayor Pro Tempore Mark-Anthony Middleton, an early advocate for piloting the technology in Durham, defended its continued usage." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/5b416a379cd9> a airo:Evidence ;
+    airo:evidenceText "Durham Police did not receive ShotSpotter alerts in recent deadly shootings, officers say" ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/5fa9e9b03732> a airo:Evidence ;
+    airo:evidenceText "[3844] Daniel Schwarz, a technology and privacy strategist for the New York Civil Liberties Union, said that he hoped the audit would start a conversation about how the technology is used in New York." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/6eb09c78d9ef> a airo:Evidence ;
+    airo:evidenceText "[3844] ...the controversial gunshot detection technology currently being piloted by the city of Durham. (Note: Chicago not explicitly in evidence, but ShotSpotter is known to be deployed there)" ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/71929411dbf0> a airo:Evidence ;
+    airo:evidenceText "Controversial ShotSpotter gunshot detection technology failed to pick up two recent deadly shootings in Durham" ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/71b537175af6> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc. (SoundThinking is parent company of ShotSpotter)" ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/798650d025bf> a airo:Evidence ;
+    airo:evidenceText "[1247] \"We are discontinuing Shot-Spotter,\" Chief John Tedesco said Tuesday night during the Public Safety Committee's review of the police department budget for 2013." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/86b31dc853e4> a airo:Evidence ;
+    airo:evidenceText "That's why the city has decided to get rid of the ShotSpotter system at the end of the year." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/8e48bcf08cad> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/8eb396166e84> a airo:Evidence ;
+    airo:evidenceText "[3844] Daniel Schwarz, a technology and privacy strategist for the New York Civil Liberties Union, said that he hoped the audit would start a conversation about how the technology is used in New York." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/8fc91eafbdb8> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/99dfc3a4658e> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/a822203b54b7> a airo:Evidence ;
+    airo:evidenceText "[3844] ...according to an audit the New York City comptroller released Thursday." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/a8f2c767466e> a airo:Evidence ;
+    airo:evidenceText "[1247] \"We are discontinuing Shot-Spotter,\" Chief John Tedesco said Tuesday night during the Public Safety Committee's review of the police department budget for 2013." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/ba139b5e4d13> a airo:Evidence ;
+    airo:evidenceText "[2626] A pair of deadly shootings recently went undetected by ShotSpotter, the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/bc164de542d9> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire..." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/bde5affdeb96> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/c640b20a06b7> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc. (SoundThinking is parent company of ShotSpotter)" ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/c6e138440d16> a airo:Evidence ;
+    airo:evidenceText "[1247] Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/ce01c238e8fc> a airo:Evidence ;
+    airo:evidenceText "[3843] In July 2019, at the request of ShotSpotter, The Policing Project at NYU Law School conducted a Privacy Audit and Assessment of ShotSpotter, Inc.'s Gunshot Detection Technology." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/d2a9ebb79ae0> a airo:Evidence ;
+    airo:evidenceText "[2626] ...the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/d93369ba0b43> a airo:Evidence ;
+    airo:evidenceText "[3843] ...to assist the NYPD in pinpointing the location of suspected gunfire within areas covered by the system." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/e766de01c962> a airo:Evidence ;
+    airo:evidenceText "[1247] The displeasure with the acoustic surveillance system is so prevalent that Tedesco and Officer Robert Fitzgerald, the Troy Police Benevolent Association president, who usually disagree on issues, both agree that it's time is over." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/e76aba4fd4e7> a airo:Evidence ;
+    airo:evidenceText "[2626] Durham Mayor Pro Tempore Mark-Anthony Middleton, an early advocate for piloting the technology in Durham, defended its continued usage." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/e8011e35e7a3> a airo:Evidence ;
+    airo:evidenceText "[2626] A pair of deadly shootings recently went undetected by ShotSpotter, the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/e8713ec49a84> a airo:Evidence ;
+    airo:evidenceText "[2626] A spokesperson for the Durham Police Department told CBS17 that police did not receive an alert for a Feb. 5 shooting..." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/f29294fb93d1> a airo:Evidence ;
+    airo:evidenceText "[3843] The system was created and is managed by ShotSpotter, Inc." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/f3c9396c9928> a airo:Evidence ;
+    airo:evidenceText "[2473] Durham Mayor Pro-Tem Mark-Anthony Middleton. [2626] Durham Mayor Pro Tempore Mark-Anthony Middleton, an early advocate for piloting the technology in Durham, defended its continued usage." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/f545c861f7cb> a airo:Evidence ;
+    airo:evidenceText "[3844] ...the controversial gunshot detection technology currently being piloted by the city of Durham. (Note: Chicago not explicitly in evidence, but ShotSpotter is known to be deployed there)" ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/f619cb09b8ee> a airo:Evidence ;
+    airo:evidenceText "[3843] The audit found that the New York City Police Department (NYPD) ensures that the billing, invoices, and payments to ShotSpotter are accurate, and that ShotSpotter generally meets its currently specified contractual obligations." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/fa71be41e3a4> a airo:Evidence ;
+    airo:evidenceText "Troy will turn off ShotSpotter" ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/fb80f109a705> a airo:Evidence ;
+    airo:evidenceText "[3844] ...according to an audit the New York City comptroller released Thursday. (Brad Lander is NYC Comptroller)" ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/ff7f43c48dd1> a airo:Evidence ;
+    airo:evidenceText "[2626] ...the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/Consequence/efe58cc552cd> a airo:Consequence ;
+    rdfs:label "Police resources wasted on investigating false alerts and critical incidents go undetected" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05c323cd8706> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/ac7bcc55072b> .
+
+<https://w3id.org/airo/incident/Impact/ac7bcc55072b> a airo:Impact ;
+    rdfs:label "Reduced public safety due to delayed or missed police response to violent crimes" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/633d4412a2b1> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f578d159038d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2473> .
+
+<https://w3id.org/airo/incident/NewsReport/1247> a airo:NewsReport ;
+    rdfs:label "Troy will turn off ShotSpotter" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """TROY — The cops on the beat, the brass and the mayor all agree that the high-tech listening system that's supposed to identify the location of gunshots is ineffective.
+
+That's why the city has decided""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45894ee52a48> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/NewsReport/2309> a airo:NewsReport ;
+    rdfs:label "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "**DURHAM, N.C.** — ShotSpotter technology has been available for only two weeks in parts of Durham -- but didn't activate [during a mass shooting over the weekend](https://www.wral.com/durham-city-cou" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef009ec0b751> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309> .
+
+<https://w3id.org/airo/incident/NewsReport/2473> a airo:NewsReport ;
+    rdfs:label "Durham Police did not receive ShotSpotter alerts in recent deadly shootings, officers say" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """DURHAM. N.C. (WNCN) — The Durham Police Department hopes ShotSpotter will help officers quickly respond to gunfire. The sensors pick up gunshots and automatically alert officers.
+
+CBS 17 has learned p""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff0219c98545> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2473> .
+
+<https://w3id.org/airo/incident/NewsReport/2626> a airo:NewsReport ;
+    rdfs:label "Controversial ShotSpotter gunshot detection technology failed to pick up two recent deadly shootings in Durham" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A pair of deadly shootings [recently](https://www.cbs17.com/news/local-news/durham-county-news/durham-police-did-not-receive-shotspotter-alerts-in-recent-deadly-shootings-officers-say/) went undetecte" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98661bf15627> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/NewsReport/3843> a airo:NewsReport ;
+    rdfs:label "Audit Report on the New York City Police Department’s Oversight of Its Agreement with ShotSpotter Inc. for the Gunshot Detection and Location System" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Audit Impact
+------------
+
+### Summary of Findings
+
+The audit found that the New York City Police Department (NYPD) ensures that the billing, invoices, and payments to ShotSpotter are accurate, and th""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06af6c2479be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/NewsReport/3844> a airo:NewsReport ;
+    rdfs:label "Gunshot Detection System Wastes N.Y.P.D. Officers’ Time, Audit Finds" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate and leads officers to spend hundreds of hours each month investigating nonexistent shots, according to " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/791c120b8534> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/1a1891cc1086> a airo:Stakeholder ;
+    rdfs:label "Eric Adams" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Eric Adams" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29531c0e9b8c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/492b092f260a> a airo:Stakeholder ;
+    rdfs:label "SoundThinking" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "SoundThinking" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf2f3eeae58d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/Stakeholder/6218962a47b7> a airo:Stakeholder ;
+    rdfs:label "Satana Deberry" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Durham District Attorney Satana Deberry" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309> .
+
+<https://w3id.org/airo/incident/Stakeholder/65ba6bfc02c4> a airo:Stakeholder ;
+    rdfs:label "Troy Police Benevolent Association" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Troy Police Benevolent Association" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bb91ea7a0c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/Stakeholder/71e3184cc4c3> a airo:Stakeholder ;
+    rdfs:label "Public Safety Committee" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Public Safety Committee" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/Stakeholder/73b4892ddcfc> a airo:Stakeholder ;
+    rdfs:label "New York Civil Liberties Union" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "New York Civil Liberties Union" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/755d5fc65f09> a airo:Stakeholder ;
+    rdfs:label "NYU Policing Project" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Policing Project at NYU Law School" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a625baf47e63> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843> .
+
+<https://w3id.org/airo/incident/Stakeholder/75ff2e004f13> a airo:Stakeholder ;
+    rdfs:label "Lou Rosamilia" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mayor Lou Rosamilia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd71de1cc1b0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/Stakeholder/7a057b76b095> a airo:Stakeholder ;
+    rdfs:label "City of Durham" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "city of Durham" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb126f9f2a35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> .
+
+<https://w3id.org/airo/incident/Stakeholder/9eddc8d4f3bb> a airo:Stakeholder ;
+    rdfs:label "New York City Comptroller" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "New York City comptroller" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/ae6180dfad0c> a airo:Stakeholder ;
+    rdfs:label "Brad Lander" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Brad Lander" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bd08444735c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/b74aab768b6f> a airo:Stakeholder ;
+    rdfs:label "City of Chicago" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chicago" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d58a8b82efc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/c1a61e850b50> a airo:Stakeholder ;
+    rdfs:label "Nicholas Kaiser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Retired Chief Nicholas Kaiser" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/Stakeholder/dfd984de3743> a airo:Stakeholder ;
+    rdfs:label "Harry Tutunjian" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "former Mayor Harry Tutunjian" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0398d7415e74> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/Stakeholder/e898d991b22e> a airo:Stakeholder ;
+    rdfs:label "Daniel Schwarz" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Daniel Schwarz" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cca463aa97ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3844> .
+
+<https://w3id.org/airo/incident/Stakeholder/ef5056a07c2f> a airo:Stakeholder ;
+    rdfs:label "Mark-Anthony Middleton" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Mark-Anthony Middleton" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e0ee21f6f61>,
+        <https://w3id.org/airo/incident/evidence/91e9a6027d4e>,
+        <https://w3id.org/airo/incident/evidence/cbb62952fe16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2473>,
+        <https://w3id.org/airo/incident/document/2626> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/fe6870a6e5a6> a airo:Stakeholder ;
+    rdfs:label "John Tedesco" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chief John Tedesco" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fddde68b3f47> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247> .
+
+<https://w3id.org/airo/incident/evidence/06af6c2479be> a airo:Evidence ;
+    airo:evidenceText "Audit Report on the New York City Police Department’s Oversight of Its Agreement with ShotSpotter Inc. for the Gunshot Detection and Location System" ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/11b912c0c5db> a airo:Evidence ;
+    airo:evidenceText "Last September, the Durham school board voted to prohibit ShotSpotter from installing its sensors on school campuses." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/279b7fdd4039> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate and leads officers to spend hundreds of hours each month investigating nonexistent shots, according to an audit the New York City comptroller released Thursday." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/3d0ad19a5e36> a airo:Evidence ;
+    airo:evidenceText "[3843] In July 2019, at the request of ShotSpotter, The Policing Project at NYU Law School conducted a Privacy Audit and Assessment of ShotSpotter, Inc.'s Gunshot Detection Technology." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/45894ee52a48> a airo:Evidence ;
+    airo:evidenceText "Troy will turn off ShotSpotter" ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/47b11d2cfb95> a airo:Evidence ;
+    airo:evidenceText "ShotSpotter technology has been available for only two weeks in parts of Durham -- but didn't activate during a mass shooting over the weekend." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/4c0bb399712e> a airo:Evidence ;
+    airo:evidenceText "The shooting on North Miami Boulevard occurred within the area the ShotSpotter technology is supposed to detect gun shots." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/5dc3cf9ffbb9> a airo:Evidence ;
+    airo:evidenceText "In Boston, the mayor and the police department are on the defensive after three members of the state's congressional delegation signed a letter that called for a national probe into the system." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/6c2d9dc8a739> a airo:Evidence ;
+    airo:evidenceText "[3843] ...uses acoustic sensors to detect gunshot activity to assist the NYPD in pinpointing the location of suspected gunfire within areas covered by the system." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/791c120b8534> a airo:Evidence ;
+    airo:evidenceText "Gunshot Detection System Wastes N.Y.P.D. Officers’ Time, Audit Finds" ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/791f79a9a75a> a airo:Evidence ;
+    airo:evidenceText "[2473] The Durham Police Department hopes ShotSpotter will help officers quickly respond to gunfire." ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/7c246a564be7> a airo:Evidence ;
+    airo:evidenceText "Durham County began its one-year pilot of ShotSpotter last December." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/960ad7a2a7ec> a airo:Evidence ;
+    airo:evidenceText "[3844] New York must decide before December whether to renew its contract with SoundThinking, the California company that owns the system, and the audit advises officials to decline until the system can be fully evaluated." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/98661bf15627> a airo:Evidence ;
+    airo:evidenceText "Controversial ShotSpotter gunshot detection technology failed to pick up two recent deadly shootings in Durham" ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/9b107f379d15> a airo:Evidence ;
+    airo:evidenceText "Copyright 2023 Nexstar Media Inc. All rights reserved." ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/b257d76f7ff2> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate..." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/c12d419e208c> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate and leads officers to spend hundreds of hours each month investigating nonexistent shots, according to an audit the New York City comptroller released Thursday." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/c2002832be1c> a airo:Evidence ;
+    airo:evidenceText "In its contract with the city, ShotSpotter commits to detecting and locating 90% of unsuppressed outdoor gunfire when the fired rounds are above .25 caliber." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/c383050d4063> a airo:Evidence ;
+    airo:evidenceText "The ShotSpotter System (ShotSpotter) is a Gunshot Detection and Location System (GDLS) that uses acoustic sensors to detect gunshot activity to assist the NYPD in pinpointing the location of suspected gunfire within areas covered by the system." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/c5430bf5f455> a airo:Evidence ;
+    airo:evidenceText "Middleton says there may a good reason the gunfire detection technology did not notify police." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/cb5d2197f315> a airo:Evidence ;
+    airo:evidenceText "[2309] ShotSpotter technology has been available for only two weeks in parts of Durham -- but didn't activate during a mass shooting over the weekend." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/d5f9ab92d36f> a airo:Evidence ;
+    airo:evidenceText "[3843] The ShotSpotter System (ShotSpotter) is a Gunshot Detection and Location System (GDLS) that uses acoustic sensors to detect gunshot activity to assist the NYPD in pinpointing the location of suspected gunfire within areas covered by the system." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/ef009ec0b751> a airo:Evidence ;
+    airo:evidenceText "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?" ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/fabbc2a13495> a airo:Evidence ;
+    airo:evidenceText "[2626] In its contract with the city, ShotSpotter commits to detecting and locating 90% of unsuppressed outdoor gunfire when the fired rounds are above .25 caliber." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/ff0219c98545> a airo:Evidence ;
+    airo:evidenceText "Durham Police did not receive ShotSpotter alerts in recent deadly shootings, officers say" ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/Risk/9d352c7babce> a airo:Risk ;
+    rdfs:label "Risk of missed or false alerts for gunfire incidents" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9af5a0521acb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2626> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/efe58cc552cd> .
+
+<https://w3id.org/airo/incident/Stakeholder/6b91266132af> a airo:Stakeholder ;
+    rdfs:label "New York City Police Department" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NYPD" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b21b2a2be9d>,
+        <https://w3id.org/airo/incident/evidence/a0462caecb05> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3843>,
+        <https://w3id.org/airo/incident/document/3844> ;
+    airo:hasSupportCount 2 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/Stakeholder/c327a06a8fba> a airo:Stakeholder ;
+    rdfs:label "Durham Police Department" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Durham Police Department" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29a6ab44daad>,
+        <https://w3id.org/airo/incident/evidence/54fbea258cbc>,
+        <https://w3id.org/airo/incident/evidence/ee7816a03eeb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2473>,
+        <https://w3id.org/airo/incident/document/2626> ;
+    airo:hasSupportCount 3 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/Stakeholder/d60e24bceca6> a airo:Stakeholder ;
+    rdfs:label "ShotSpotter, Inc." ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ShotSpotter, Inc." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00cd8e757c6d>,
+        <https://w3id.org/airo/incident/evidence/293441d70b1d>,
+        <https://w3id.org/airo/incident/evidence/3fc4c560a8e8>,
+        <https://w3id.org/airo/incident/evidence/77604f4a4210> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247>,
+        <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2626>,
+        <https://w3id.org/airo/incident/document/3843> ;
+    airo:hasSupportCount 4 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> .
+
+<https://w3id.org/airo/incident/evidence/05c323cd8706> a airo:Evidence ;
+    airo:evidenceText "[3844] ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate and leads officers to spend hundreds of hours each month investigating nonexistent shots." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/9af5a0521acb> a airo:Evidence ;
+    airo:evidenceText "[2626] A pair of deadly shootings recently went undetected by ShotSpotter, the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/f578d159038d> a airo:Evidence ;
+    airo:evidenceText "[2473] The Durham Police Department hopes ShotSpotter will help officers quickly respond to gunfire." ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/1e0ee21f6f61> a airo:Evidence ;
+    airo:evidenceText "Durham Mayor Pro Tempore Mark-Anthony Middleton, an early advocate for piloting the technology in Durham, defended its continued usage." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/29531c0e9b8c> a airo:Evidence ;
+    airo:evidenceText "A spokeswoman for Mayor Eric Adams, Kayla Mamelak, called ShotSpotter \"one of many tools we use to help fight crime to keep our city safe.\"" ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/2d58a8b82efc> a airo:Evidence ;
+    airo:evidenceText "Chicago's mayor campaigned on a promise to jettison the technology and blamed it for the death of an unarmed 13-year old shot by officers responding to an alert in 2021." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/5bd08444735c> a airo:Evidence ;
+    airo:evidenceText "The Police Department \"is wasting precious time and money on this technology and needs to do a better job managing its resources,\" the comptroller, Brad Lander, said in a statement." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/7cdb0a8aeda0> a airo:Evidence ;
+    airo:evidenceText "After being reelected, Durham District Attorney Satana Deberry was sworn into office on Tuesday." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/91e9a6027d4e> a airo:Evidence ;
+    airo:evidenceText "\"However, my understanding is that there wasn't a corresponding ShotSpotter report,\" said Mayor Pro Tem Mark-Anthony Middleton." ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/a625baf47e63> a airo:Evidence ;
+    airo:evidenceText "In July 2019, at the request of ShotSpotter, The Policing Project at NYU Law School conducted a Privacy Audit and Assessment of ShotSpotter, Inc.'s Gunshot Detection Technology." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/bf2f3eeae58d> a airo:Evidence ;
+    airo:evidenceText "New York must decide before December whether to renew its contract with SoundThinking, the California company that owns the system, and the audit advises officials to decline until the system can be fully evaluated." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/cbb62952fe16> a airo:Evidence ;
+    airo:evidenceText "Durham Mayor Pro-Tem Mark-Anthony Middleton." ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/fd71de1cc1b0> a airo:Evidence ;
+    airo:evidenceText "Mayor Lou Rosamilia said he backed the decision to end participation in ShotSpotter." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/16bb91ea7a0c> a airo:Evidence ;
+    airo:evidenceText "The displeasure with the acoustic surveillance system is so prevalent that Tedesco and Officer Robert Fitzgerald, the Troy Police Benevolent Association president, who usually disagree on issues, both agree that it's time is over." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/00cd8e757c6d> a airo:Evidence ;
+    airo:evidenceText "A ShotSpotter spokeswoman could not be immediately reached Tuesday night for comment." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/29a6ab44daad> a airo:Evidence ;
+    airo:evidenceText "A spokesperson for the Durham Police Department told CBS17 that police did not receive an alert for a Feb. 5 shooting at Fay and Juniper Streets and a shooting last Thursday on Park Avenue." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/3fc4c560a8e8> a airo:Evidence ;
+    airo:evidenceText "According to its monthly report for January, ShotSpotter sent the Durham Police 197 alerts, detecting 998 rounds fired." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/54fbea258cbc> a airo:Evidence ;
+    airo:evidenceText "Why didn't ShotSpotter sensors notify Durham police of weekend's mass shooting?" ;
+    airo:sourceDocId "2309" .
+
+<https://w3id.org/airo/incident/evidence/77604f4a4210> a airo:Evidence ;
+    airo:evidenceText "The system was created and is managed by ShotSpotter, Inc." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/a0462caecb05> a airo:Evidence ;
+    airo:evidenceText "The audit found that the New York City Police Department (NYPD) ensures that the billing, invoices, and payments to ShotSpotter are accurate, and that ShotSpotter generally meets its currently specified contractual obligations." ;
+    airo:sourceDocId "3843" .
+
+<https://w3id.org/airo/incident/evidence/0398d7415e74> a airo:Evidence ;
+    airo:evidenceText "Retired Chief Nicholas Kaiser pushed for the installation of the system, which was supported by former Mayor Harry Tutunjian." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/bb126f9f2a35> a airo:Evidence ;
+    airo:evidenceText "A pair of deadly shootings recently went undetected by ShotSpotter, the controversial gunshot detection technology currently being piloted by the city of Durham." ;
+    airo:sourceDocId "2626" .
+
+<https://w3id.org/airo/incident/evidence/cca463aa97ac> a airo:Evidence ;
+    airo:evidenceText "Daniel Schwarz, a technology and privacy strategist for the New York Civil Liberties Union, said that he hoped the audit would start a conversation about how the technology is used in New York." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/evidence/ee7816a03eeb> a airo:Evidence ;
+    airo:evidenceText "The Durham Police Department hopes ShotSpotter will help officers quickly respond to gunfire." ;
+    airo:sourceDocId "2473" .
+
+<https://w3id.org/airo/incident/evidence/fddde68b3f47> a airo:Evidence ;
+    airo:evidenceText "\"We are discontinuing Shot-Spotter,\" Chief John Tedesco said Tuesday night during the Public Safety Committee's review of the police department budget for 2013." ;
+    airo:sourceDocId "1247" .
+
+<https://w3id.org/airo/incident/evidence/8b21b2a2be9d> a airo:Evidence ;
+    airo:evidenceText "ShotSpotter, a system the Police Department uses to detect gunfire, is overwhelmingly inaccurate and leads officers to spend hundreds of hours each month investigating nonexistent shots, according to an audit the New York City comptroller released Thursday." ;
+    airo:sourceDocId "3844" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_178> a airo:AIRiskIncident ;
+    rdfs:label "Troy will turn off ShotSpotter" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/efe58cc552cd> ;
+    airo:hasDescription "pred_178" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/9f1c5ad21d59>,
+        <https://w3id.org/airo/incident/Domain/286fede1cd90>,
+        <https://w3id.org/airo/incident/evidence/28b13d44beba>,
+        <https://w3id.org/airo/incident/evidence/3678c4822604>,
+        <https://w3id.org/airo/incident/evidence/5b416a379cd9>,
+        <https://w3id.org/airo/incident/evidence/71929411dbf0>,
+        <https://w3id.org/airo/incident/evidence/fa71be41e3a4> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/ac7bcc55072b> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1247>,
+        <https://w3id.org/airo/incident/NewsReport/2309>,
+        <https://w3id.org/airo/incident/NewsReport/2473>,
+        <https://w3id.org/airo/incident/NewsReport/2626>,
+        <https://w3id.org/airo/incident/NewsReport/3843>,
+        <https://w3id.org/airo/incident/NewsReport/3844> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/9d352c7babce> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247>,
+        <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2473>,
+        <https://w3id.org/airo/incident/document/2626>,
+        <https://w3id.org/airo/incident/document/3843>,
+        <https://w3id.org/airo/incident/document/3844> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/1a1891cc1086>,
+        <https://w3id.org/airo/incident/Stakeholder/32f320723268>,
+        <https://w3id.org/airo/incident/Stakeholder/492b092f260a>,
+        <https://w3id.org/airo/incident/Stakeholder/602a00b4265e>,
+        <https://w3id.org/airo/incident/Stakeholder/6218962a47b7>,
+        <https://w3id.org/airo/incident/Stakeholder/65ba6bfc02c4>,
+        <https://w3id.org/airo/incident/Stakeholder/6b91266132af>,
+        <https://w3id.org/airo/incident/Stakeholder/71e3184cc4c3>,
+        <https://w3id.org/airo/incident/Stakeholder/73b4892ddcfc>,
+        <https://w3id.org/airo/incident/Stakeholder/755d5fc65f09>,
+        <https://w3id.org/airo/incident/Stakeholder/75ff2e004f13>,
+        <https://w3id.org/airo/incident/Stakeholder/7a057b76b095>,
+        <https://w3id.org/airo/incident/Stakeholder/8efddabbfc50>,
+        <https://w3id.org/airo/incident/Stakeholder/9eddc8d4f3bb>,
+        <https://w3id.org/airo/incident/Stakeholder/ae6180dfad0c>,
+        <https://w3id.org/airo/incident/Stakeholder/b74aab768b6f>,
+        <https://w3id.org/airo/incident/Stakeholder/be02f79a7672>,
+        <https://w3id.org/airo/incident/Stakeholder/c1a61e850b50>,
+        <https://w3id.org/airo/incident/Stakeholder/c327a06a8fba>,
+        <https://w3id.org/airo/incident/Stakeholder/d60e24bceca6>,
+        <https://w3id.org/airo/incident/Stakeholder/dfd984de3743>,
+        <https://w3id.org/airo/incident/Stakeholder/e898d991b22e>,
+        <https://w3id.org/airo/incident/Stakeholder/ef5056a07c2f>,
+        <https://w3id.org/airo/incident/Stakeholder/fe6870a6e5a6> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/28047109ff8e> .
+
+<https://w3id.org/airo/incident/AISystem/c5e4c93af0a9> a airo:AISystem ;
+    rdfs:label "ShotSpotter" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/26f9780a2923>,
+        <https://w3id.org/airo/incident/AICapability/30f882a75608>,
+        <https://w3id.org/airo/incident/Purpose/74718f9f4f69> ;
+    airo:hasDescription "ShotSpotter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/fcae464f7dbe>,
+        <https://w3id.org/airo/incident/evidence/47b11d2cfb95>,
+        <https://w3id.org/airo/incident/evidence/86b31dc853e4>,
+        <https://w3id.org/airo/incident/evidence/8b21b2a2be9d>,
+        <https://w3id.org/airo/incident/evidence/bb126f9f2a35>,
+        <https://w3id.org/airo/incident/evidence/c383050d4063>,
+        <https://w3id.org/airo/incident/evidence/ee7816a03eeb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1247>,
+        <https://w3id.org/airo/incident/document/2309>,
+        <https://w3id.org/airo/incident/document/2473>,
+        <https://w3id.org/airo/incident/document/2626>,
+        <https://w3id.org/airo/incident/document/3843>,
+        <https://w3id.org/airo/incident/document/3844> ;
+    airo:hasSupportCount 6 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/8780721c9a64> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/5d558dd3b0cf>,
+        <https://w3id.org/airo/incident/AITechnique/9e9ca0e0515e>,
+        <https://w3id.org/airo/incident/AITechnique/e861c1a72170> .
+

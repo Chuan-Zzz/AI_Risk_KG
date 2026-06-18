@@ -1,0 +1,2560 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/e6b1f839eaf9> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2502>,
+        <https://w3id.org/airo/incident/NewsReport/2503>,
+        <https://w3id.org/airo/incident/NewsReport/2504>,
+        <https://w3id.org/airo/incident/NewsReport/2505>,
+        <https://w3id.org/airo/incident/NewsReport/2506>,
+        <https://w3id.org/airo/incident/NewsReport/2507>,
+        <https://w3id.org/airo/incident/NewsReport/2508>,
+        <https://w3id.org/airo/incident/NewsReport/2509>,
+        <https://w3id.org/airo/incident/NewsReport/2510>,
+        <https://w3id.org/airo/incident/NewsReport/2511>,
+        <https://w3id.org/airo/incident/NewsReport/2512>,
+        <https://w3id.org/airo/incident/NewsReport/2513>,
+        <https://w3id.org/airo/incident/NewsReport/2514>,
+        <https://w3id.org/airo/incident/NewsReport/2515>,
+        <https://w3id.org/airo/incident/NewsReport/2516>,
+        <https://w3id.org/airo/incident/NewsReport/2517>,
+        <https://w3id.org/airo/incident/NewsReport/2518>,
+        <https://w3id.org/airo/incident/NewsReport/2531>,
+        <https://w3id.org/airo/incident/NewsReport/2532>,
+        <https://w3id.org/airo/incident/NewsReport/2533> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2532>,
+        <https://w3id.org/airo/incident/document/2533> .
+
+<https://w3id.org/airo/incident/RiskControl/1582d9a48d13> a airo:RiskControl ;
+    rdfs:label "Review of communication procedures and temporary removal of responsible staff" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94a7176e7c1d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2508> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/679aca0e0cb5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/15eedf3c3d34> a airo:RoleAssignment ;
+    rdfs:label "Laith Kayat_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5e505d5e5871> ;
+    airo:hasReasoning "As a member of the student body expressing outrage, Laith Kayat is an individual negatively affected by the poor judgment in using the AI tool." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ed2daef9820f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/521f02ac90ba> a airo:RoleAssignment ;
+    rdfs:label "Colin Henry_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b75c111b6d9> ;
+    airo:hasReasoning "As a member of the student body expressing outrage, Colin Henry is an individual negatively affected by the poor judgment in using the AI tool." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a498aa6d4043> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5cba5e5ba4a5> a airo:RoleAssignment ;
+    rdfs:label "Vanderbilt University Office of Equity, Diversity, and Inclusion_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21802de4628a> ;
+    airo:hasReasoning "This office is identified as the entity that sent out the email generated using the AI tool, making them the deployer of the AI system's output." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/446037e067b9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/89bf0acd6034> a airo:RoleAssignment ;
+    rdfs:label "Hasina Mohyuddin_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93decf813588> ;
+    airo:hasReasoning "As assistant dean of the office that sent the email, she is part of the team responsible for deploying the AI-generated communication." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2511> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b3bbbbbf70a0> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9fc240c948bc> a airo:RoleAssignment ;
+    rdfs:label "The Vanderbilt Hustler_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f030fd234e87> ;
+    airo:hasReasoning "The student newspaper is reporting on and amplifying the controversy, acting as a public watchdog stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/90fea511c414> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b93ca6729fb7> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIProvider" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ce227787fe7> ;
+    airo:hasReasoning "The evidence explicitly states the email was written using OpenAI's ChatGPT, identifying OpenAI as the provider of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4d1a6b8389e6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c777e163d1b8> a airo:RoleAssignment ;
+    rdfs:label "Michigan State University_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/239b8adee8c0> ;
+    airo:hasReasoning "The shooting at Michigan State University was the tragic event that prompted the AI-generated message, making the university's community a primary affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2505> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3584c565c511> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cc6b77b29889> a airo:RoleAssignment ;
+    rdfs:label "Camilla P. Benbow_Regulator" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69ef5d89761c> ;
+    airo:hasReasoning "As the dean initiating an official review of the incident, she is performing an oversight/regulatory function within the institution." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2508> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4469ece752a8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d8cd8ba9b704> a airo:RoleAssignment ;
+    rdfs:label "The Washington Post_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97dfd489c761> ;
+    airo:hasReasoning "The newspaper is reporting on and criticizing the incident, acting as a media stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2507> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9aa3d89551c8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e085ff384dce> a airo:RoleAssignment ;
+    rdfs:label "Samuel Lu_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d74d673e07b6> ;
+    airo:hasReasoning "As a member of the student body expressing outrage, Samuel Lu is an individual negatively affected by the poor judgment in using the AI tool." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/56b32a071e51> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f4f323c995db> a airo:RoleAssignment ;
+    rdfs:label "Vanderbilt University_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91f764a18c2d> ;
+    airo:hasReasoning "Vanderbilt University, as the overarching institution, is responsible for the actions of its staff who used the AI tool to draft the email." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_18> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b997b444349b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/event/pred_18> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-02-17T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 20 ;
+    airo:lastSeen "2023-02-21T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/000ded697acd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a47611f28b0e> .
+
+<https://w3id.org/airo/incident/ks/01e8c7175f61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07b3cddf1c58> .
+
+<https://w3id.org/airo/incident/ks/030f259bbb34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1014a0dd1abe> .
+
+<https://w3id.org/airo/incident/ks/04984b76c39b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f492d1976da> .
+
+<https://w3id.org/airo/incident/ks/06d912e23c9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1f4f774470> .
+
+<https://w3id.org/airo/incident/ks/0906b5460494> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205745303598> .
+
+<https://w3id.org/airo/incident/ks/0bdc368593aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0db407e9b987> .
+
+<https://w3id.org/airo/incident/ks/0f959e42a93f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67bd4391c2bd> .
+
+<https://w3id.org/airo/incident/ks/0fab7b132ef4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa8082fbdf9c> .
+
+<https://w3id.org/airo/incident/ks/113531fb6258> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79e2cade6b98> .
+
+<https://w3id.org/airo/incident/ks/1372212ca287> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/15c3cffcf8b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff920c060c16> .
+
+<https://w3id.org/airo/incident/ks/16de01d5293c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.93"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf17fa04eea1> .
+
+<https://w3id.org/airo/incident/ks/175fd130a003> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7685fc662d7> .
+
+<https://w3id.org/airo/incident/ks/1c13cb20e612> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a89c1df565a> .
+
+<https://w3id.org/airo/incident/ks/1c790a806291> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/649253577712> .
+
+<https://w3id.org/airo/incident/ks/1e5a9892697d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2da487e3e5d> .
+
+<https://w3id.org/airo/incident/ks/1ec2c8b86a54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/651dc3cffc95> .
+
+<https://w3id.org/airo/incident/ks/2083db6d6751> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcd3d62aa2a2> .
+
+<https://w3id.org/airo/incident/ks/20bba55fbaf6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/20d76f22f013> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/211e938e4c64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7ae0f4701c0> .
+
+<https://w3id.org/airo/incident/ks/2444f0c024bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05f7530ea5d9> .
+
+<https://w3id.org/airo/incident/ks/24f287f0f509> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a00bfaf12b83> .
+
+<https://w3id.org/airo/incident/ks/265b19839cff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e82f2f1d023> .
+
+<https://w3id.org/airo/incident/ks/2762ae9a0468> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a89c1df565a> .
+
+<https://w3id.org/airo/incident/ks/2787060b5e8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8e03fec1e726> .
+
+<https://w3id.org/airo/incident/ks/2b5bea9d5c4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9732c174798> .
+
+<https://w3id.org/airo/incident/ks/2bd5ebfbede1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a14ec21685a> .
+
+<https://w3id.org/airo/incident/ks/2d42cd5a0326> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbbc5099b082> .
+
+<https://w3id.org/airo/incident/ks/2e4ea4c355b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46e2ab43244> .
+
+<https://w3id.org/airo/incident/ks/2e5cbc083ba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff920c060c16> .
+
+<https://w3id.org/airo/incident/ks/33cc46ac1183> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0db407e9b987> .
+
+<https://w3id.org/airo/incident/ks/36367b47faee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a00bfaf12b83> .
+
+<https://w3id.org/airo/incident/ks/364474ca5dad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a14c61fdd5e> .
+
+<https://w3id.org/airo/incident/ks/388b4d11125b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcd3d62aa2a2> .
+
+<https://w3id.org/airo/incident/ks/3a51fc8859b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9732c174798> .
+
+<https://w3id.org/airo/incident/ks/3ab541929e3c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fc55440a2c2> .
+
+<https://w3id.org/airo/incident/ks/3b59eda88a22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0f333d54a39> .
+
+<https://w3id.org/airo/incident/ks/3cfa17b973fe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/248069021428> .
+
+<https://w3id.org/airo/incident/ks/3e5980f518b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a2be2f4f7f3> .
+
+<https://w3id.org/airo/incident/ks/3ea7ee8a5261> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc3453f84bfc> .
+
+<https://w3id.org/airo/incident/ks/3f431759522b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc3453f84bfc> .
+
+<https://w3id.org/airo/incident/ks/44fdc9b15935> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68f324bf4882> .
+
+<https://w3id.org/airo/incident/ks/45af2303cd86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9732c174798> .
+
+<https://w3id.org/airo/incident/ks/4617e6bc2b88> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/4696e86c0caf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/48dcbd86fc85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/4a7b3f583ff0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a89c1df565a> .
+
+<https://w3id.org/airo/incident/ks/4a81d68538a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4ba119f9af6> .
+
+<https://w3id.org/airo/incident/ks/4ce2f308a532> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fc55440a2c2> .
+
+<https://w3id.org/airo/incident/ks/4dbb597d6faf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/651dc3cffc95> .
+
+<https://w3id.org/airo/incident/ks/4fa710490248> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdd0dd7ae102> .
+
+<https://w3id.org/airo/incident/ks/512e6f65319d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/df20cae451a1> .
+
+<https://w3id.org/airo/incident/ks/513931c6ebe0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67bd4391c2bd> .
+
+<https://w3id.org/airo/incident/ks/51d0b312fccd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbbc5099b082> .
+
+<https://w3id.org/airo/incident/ks/51d6c0f56425> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/651dc3cffc95> .
+
+<https://w3id.org/airo/incident/ks/52bb49b6b313> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07b3cddf1c58> .
+
+<https://w3id.org/airo/incident/ks/54785946e29e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fc55440a2c2> .
+
+<https://w3id.org/airo/incident/ks/54a65c470ddc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14dbaaa2b889> .
+
+<https://w3id.org/airo/incident/ks/56d1cc1aee89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d61f4207f371> .
+
+<https://w3id.org/airo/incident/ks/56dda555aef8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0d5da0a0e9a> .
+
+<https://w3id.org/airo/incident/ks/57d114a659a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9732c174798> .
+
+<https://w3id.org/airo/incident/ks/58ba3eb61a40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc3453f84bfc> .
+
+<https://w3id.org/airo/incident/ks/58c34a2cb65a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7194f42c19c6> .
+
+<https://w3id.org/airo/incident/ks/5946dfabd538> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5136b25f0c3> .
+
+<https://w3id.org/airo/incident/ks/59668b479c94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a14ec21685a> .
+
+<https://w3id.org/airo/incident/ks/5ef679d6b823> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1280aa9da> .
+
+<https://w3id.org/airo/incident/ks/5f59418cca3c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdd0dd7ae102> .
+
+<https://w3id.org/airo/incident/ks/62806ac7b065> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d609ea90c017> .
+
+<https://w3id.org/airo/incident/ks/6336f3ea562f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7ae0f4701c0> .
+
+<https://w3id.org/airo/incident/ks/63dc1fd28af4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/6593b30a6521> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1718c05a4ee> .
+
+<https://w3id.org/airo/incident/ks/68e4a6d8e862> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205745303598> .
+
+<https://w3id.org/airo/incident/ks/69ffcb91177f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d0f632b4d9e> .
+
+<https://w3id.org/airo/incident/ks/6c2ddb7f03e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1280aa9da> .
+
+<https://w3id.org/airo/incident/ks/6dd391f5cae4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1280aa9da> .
+
+<https://w3id.org/airo/incident/ks/6e9072cefe57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db1c4988b1a8> .
+
+<https://w3id.org/airo/incident/ks/7480695956a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94181b993d9f> .
+
+<https://w3id.org/airo/incident/ks/7571126c44da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f449a72e87db> .
+
+<https://w3id.org/airo/incident/ks/7696159fa02c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/519dcaf92cf8> .
+
+<https://w3id.org/airo/incident/ks/79880c26452e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/7bdb774c4aaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcd3d62aa2a2> .
+
+<https://w3id.org/airo/incident/ks/7d0940831f55> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94a7176e7c1d> .
+
+<https://w3id.org/airo/incident/ks/828dcbedfee8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7ae0f4701c0> .
+
+<https://w3id.org/airo/incident/ks/835cf79df54e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/248069021428> .
+
+<https://w3id.org/airo/incident/ks/856aebbc56f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ed455fdd042> .
+
+<https://w3id.org/airo/incident/ks/86653f6908f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a14c61fdd5e> .
+
+<https://w3id.org/airo/incident/ks/871e2a59b9bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a14c61fdd5e> .
+
+<https://w3id.org/airo/incident/ks/87650d0f207b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f39b177054f> .
+
+<https://w3id.org/airo/incident/ks/883a932747c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1436c8172465> .
+
+<https://w3id.org/airo/incident/ks/88de14bba78c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a99c4a41feb9> .
+
+<https://w3id.org/airo/incident/ks/89149019faab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f39b177054f> .
+
+<https://w3id.org/airo/incident/ks/8ae3c1573f02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dbd248be9f79> .
+
+<https://w3id.org/airo/incident/ks/8b665f4b6d76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8b243d84116> .
+
+<https://w3id.org/airo/incident/ks/8c64677755bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fec4b56c6c0> .
+
+<https://w3id.org/airo/incident/ks/908c46a7e7a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a00bfaf12b83> .
+
+<https://w3id.org/airo/incident/ks/9106ccd3581e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbbc5099b082> .
+
+<https://w3id.org/airo/incident/ks/912188aa215a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896d4bc83420> .
+
+<https://w3id.org/airo/incident/ks/9221f6555d2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/925d1c61f39e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa9d1afc0a1a> .
+
+<https://w3id.org/airo/incident/ks/92b33031ad3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fec4b56c6c0> .
+
+<https://w3id.org/airo/incident/ks/92fdfd6dad65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7ae0f4701c0> .
+
+<https://w3id.org/airo/incident/ks/93fd794f005e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff920c060c16> .
+
+<https://w3id.org/airo/incident/ks/964157638eed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0db407e9b987> .
+
+<https://w3id.org/airo/incident/ks/96545d04b731> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70d09ae1c33e> .
+
+<https://w3id.org/airo/incident/ks/99268ae8fafb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/9a8b08d6eeaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/9b96106c9e3c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3f2cc63c486> .
+
+<https://w3id.org/airo/incident/ks/9bea6ab288fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/9c0282b4f425> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/248069021428> .
+
+<https://w3id.org/airo/incident/ks/9c839eb867c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/651dc3cffc95> .
+
+<https://w3id.org/airo/incident/ks/9e7612ca54ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6904e71b27ce> .
+
+<https://w3id.org/airo/incident/ks/9f623060051d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/a1a2a57352a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/649253577712> .
+
+<https://w3id.org/airo/incident/ks/a273bb491e14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a00bfaf12b83> .
+
+<https://w3id.org/airo/incident/ks/a294b84d2501> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69a053f76f12> .
+
+<https://w3id.org/airo/incident/ks/a4655662b8bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/a4a0a4dff840> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/248069021428> .
+
+<https://w3id.org/airo/incident/ks/a54615525ce6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/a67b3e286a89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/a7daad088d33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fc55440a2c2> .
+
+<https://w3id.org/airo/incident/ks/a911f5a9e942> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eeed881ab828> .
+
+<https://w3id.org/airo/incident/ks/aa073b2374a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc890d4d4e25> .
+
+<https://w3id.org/airo/incident/ks/aac3be44c14b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a14ec21685a> .
+
+<https://w3id.org/airo/incident/ks/ab189f9cdc82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb36a3442388> .
+
+<https://w3id.org/airo/incident/ks/ab9ca6fdd5da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f39b177054f> .
+
+<https://w3id.org/airo/incident/ks/ae1da43a052b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ddf44660585> .
+
+<https://w3id.org/airo/incident/ks/aeef0ec01a9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f5cb5b49cb1> .
+
+<https://w3id.org/airo/incident/ks/b01d27d9c0fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205745303598> .
+
+<https://w3id.org/airo/incident/ks/b3b2e989582b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f6b3ce3a9e7> .
+
+<https://w3id.org/airo/incident/ks/b3f586c68f83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1280aa9da> .
+
+<https://w3id.org/airo/incident/ks/b7fa22af2622> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69c2e14fbebe> .
+
+<https://w3id.org/airo/incident/ks/b8bab2391056> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07b3cddf1c58> .
+
+<https://w3id.org/airo/incident/ks/babe008a355f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff920c060c16> .
+
+<https://w3id.org/airo/incident/ks/bb372a5747ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f39b177054f> .
+
+<https://w3id.org/airo/incident/ks/bd58651b90f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ebbec197737> .
+
+<https://w3id.org/airo/incident/ks/be6edc264d22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07b3cddf1c58> .
+
+<https://w3id.org/airo/incident/ks/c30191bc6fe6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcd3d62aa2a2> .
+
+<https://w3id.org/airo/incident/ks/c30fcae888b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/205745303598> .
+
+<https://w3id.org/airo/incident/ks/c71caa1e82cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/c737e57e3018> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ed455fdd042> .
+
+<https://w3id.org/airo/incident/ks/c920b955591e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/651dc3cffc95> .
+
+<https://w3id.org/airo/incident/ks/c9d29586d6aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a8dc49251aa> .
+
+<https://w3id.org/airo/incident/ks/cf208a795543> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0db407e9b987> .
+
+<https://w3id.org/airo/incident/ks/cf4498f006fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896d4bc83420> .
+
+<https://w3id.org/airo/incident/ks/d00e70c145d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc3453f84bfc> .
+
+<https://w3id.org/airo/incident/ks/d102b0b29b6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbbc5099b082> .
+
+<https://w3id.org/airo/incident/ks/d1acd4e4fb5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896d4bc83420> .
+
+<https://w3id.org/airo/incident/ks/d204452843cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/13b02eb0aab0> .
+
+<https://w3id.org/airo/incident/ks/d48e4aaa98ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a14c61fdd5e> .
+
+<https://w3id.org/airo/incident/ks/d65693ecfd09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/d6ca1139c07a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed101b2ee05a> .
+
+<https://w3id.org/airo/incident/ks/d746d57c8352> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/896d4bc83420> .
+
+<https://w3id.org/airo/incident/ks/db5496888aa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fec4b56c6c0> .
+
+<https://w3id.org/airo/incident/ks/db5b4338639d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0f90e350c0d> .
+
+<https://w3id.org/airo/incident/ks/ddd0201eb2e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e5a280f7fe5> .
+
+<https://w3id.org/airo/incident/ks/e0570544ae87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdd0dd7ae102> .
+
+<https://w3id.org/airo/incident/ks/e3b319d2b40a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cdcf7fa8f906> .
+
+<https://w3id.org/airo/incident/ks/eaafdb8f83ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/eacee1dcc7c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fac404f665ea> .
+
+<https://w3id.org/airo/incident/ks/ec1aa1319682> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fec4b56c6c0> .
+
+<https://w3id.org/airo/incident/ks/ec26f5854c9c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7194f42c19c6> .
+
+<https://w3id.org/airo/incident/ks/eca092df290a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d3f65dd468> .
+
+<https://w3id.org/airo/incident/ks/f1f9ff6198bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/649253577712> .
+
+<https://w3id.org/airo/incident/ks/f4dba2e1f8b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a14ec21685a> .
+
+<https://w3id.org/airo/incident/ks/f6402d064a20> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/649253577712> .
+
+<https://w3id.org/airo/incident/ks/f8b94de60664> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdd0dd7ae102> .
+
+<https://w3id.org/airo/incident/ks/f918305e2e7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a89c1df565a> .
+
+<https://w3id.org/airo/incident/ks/fb48516b1ed0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/363eaeef365d> .
+
+<https://w3id.org/airo/incident/ks/fd46ce1c290f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1f4f774470> .
+
+<https://w3id.org/airo/incident/ks/fdd238c729c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851> .
+
+<https://w3id.org/airo/incident/ks/fe980b3a4c59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a0629ca7e41> .
+
+<https://w3id.org/airo/incident/AICapability/06721e5b2539> a airo:AICapability ;
+    rdfs:label "generate communications" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate communications" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69a053f76f12>,
+        <https://w3id.org/airo/incident/evidence/9d0f632b4d9e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/3b9e7b524899> a airo:AICapability ;
+    rdfs:label "write text" ;
+    airo:confidenceScore "0.93"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "writes human-sounding but computer-generated text" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf17fa04eea1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2504> .
+
+<https://w3id.org/airo/incident/AICapability/d474b42997de> a airo:AICapability ;
+    rdfs:label "write essays" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "write essays" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1f4f774470> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> .
+
+<https://w3id.org/airo/incident/AICapability/f8c5088f0acc> a airo:AICapability ;
+    rdfs:label "answer questions" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "answer questions" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1f4f774470> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/71d2e71c15ac> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e82f2f1d023> ;
+    airo:hasReasoning "The AI system was actively used (deployed) to generate content for an external communication sent to the university community." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2517> .
+
+<https://w3id.org/airo/incident/AIModel/d3cd5f6137c1> a airo:AIModel ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI's ChatGPT AI language model" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21c818256fc6>,
+        <https://w3id.org/airo/incident/evidence/4483ee229250>,
+        <https://w3id.org/airo/incident/evidence/c66da24ffbe0>,
+        <https://w3id.org/airo/incident/evidence/e0f0f15f4780> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2532> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AITechnique/ce57975413a5> a airo:AITechnique ;
+    rdfs:label "chatbot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "chatbot" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fac404f665ea> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> .
+
+<https://w3id.org/airo/incident/AffectedActor/3c1b0d082f05> a airo:AffectedActor ;
+    rdfs:label "Students and staff at Vanderbilt University's Peabody College" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1014a0dd1abe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2533> .
+
+<https://w3id.org/airo/incident/Domain/a9e05e416c54> a airo:Domain ;
+    rdfs:label "education" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0f333d54a39> ;
+    airo:hasReasoning "The incident involves a university (an educational institution) using an AI tool for administrative communication, placing it in the education domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503> .
+
+<https://w3id.org/airo/incident/Hazard/0d0e192d19ba> a airo:Hazard ;
+    rdfs:label "Lack of appropriate human oversight and judgment for critical institutional communications" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/519dcaf92cf8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2508> .
+
+<https://w3id.org/airo/incident/Purpose/32b0651df396> a airo:Purpose ;
+    rdfs:label "generate communications" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a47611f28b0e> ;
+    airo:hasReasoning "The evidence states the AI was used to draft a condolence message, which is a form of communication generation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2505> .
+
+<https://w3id.org/airo/incident/RiskSource/568418016148> a airo:RiskSource ;
+    rdfs:label "Inappropriate use of generative AI for sensitive communications" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/679aca0e0cb5> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8e03fec1e726> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/0d0e192d19ba> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503> .
+
+<https://w3id.org/airo/incident/Stakeholder/067c7238ff14> a airo:Stakeholder ;
+    rdfs:label "Peabody College Secretariat" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peabody College Secretariat" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ebbec197737> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2518> .
+
+<https://w3id.org/airo/incident/Stakeholder/68a2db202468> a airo:Stakeholder ;
+    rdfs:label "Vanderbilt University’s Peabody College" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peabody College" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/224b619b8d2c>,
+        <https://w3id.org/airo/incident/evidence/530ee589d5c3>,
+        <https://w3id.org/airo/incident/evidence/79e2cade6b98>,
+        <https://w3id.org/airo/incident/evidence/a46e2ab43244>,
+        <https://w3id.org/airo/incident/evidence/c0ee1b30fdbc>,
+        <https://w3id.org/airo/incident/evidence/c9de869ea50e>,
+        <https://w3id.org/airo/incident/evidence/cdcf7fa8f906>,
+        <https://w3id.org/airo/incident/evidence/d7e9b8a23f83>,
+        <https://w3id.org/airo/incident/evidence/df20cae451a1>,
+        <https://w3id.org/airo/incident/evidence/f95499070dee>,
+        <https://w3id.org/airo/incident/evidence/fdd0dd7ae102> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 10 .
+
+<https://w3id.org/airo/incident/Stakeholder/72e182f8a202> a airo:Stakeholder ;
+    rdfs:label "Nicole M. Joseph" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nicole Joseph" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f7df34b4b38>,
+        <https://w3id.org/airo/incident/evidence/3496308c8527>,
+        <https://w3id.org/airo/incident/evidence/47c0b12a3bbe>,
+        <https://w3id.org/airo/incident/evidence/6c77645fd78c>,
+        <https://w3id.org/airo/incident/evidence/71ce955ac789>,
+        <https://w3id.org/airo/incident/evidence/71df59181bdd>,
+        <https://w3id.org/airo/incident/evidence/91cfb10b164e>,
+        <https://w3id.org/airo/incident/evidence/9a2be2f4f7f3>,
+        <https://w3id.org/airo/incident/evidence/9d0f632b4d9e>,
+        <https://w3id.org/airo/incident/evidence/a255e7bbbeab>,
+        <https://w3id.org/airo/incident/evidence/b50079ae3432>,
+        <https://w3id.org/airo/incident/evidence/c55e1acc496f>,
+        <https://w3id.org/airo/incident/evidence/cdcf7fa8f906>,
+        <https://w3id.org/airo/incident/evidence/d4ba119f9af6>,
+        <https://w3id.org/airo/incident/evidence/d7a8c31e9ed4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 15 .
+
+<https://w3id.org/airo/incident/Stakeholder/76cea489befa> a airo:Stakeholder ;
+    rdfs:label "G. L. Black" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "G. L. Black" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a0629ca7e41>,
+        <https://w3id.org/airo/incident/evidence/db1c4988b1a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/926f7a5dd906> a airo:Stakeholder ;
+    rdfs:label "Peabody College of Education and Human Development" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peabody College of Education and Human Development" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14dbaaa2b889>,
+        <https://w3id.org/airo/incident/evidence/7e5a280f7fe5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2531> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/92b7be958a78> a airo:Stakeholder ;
+    rdfs:label "Duane Watson" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Duane Watson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eeed881ab828> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> .
+
+<https://w3id.org/airo/incident/Stakeholder/a72eaaa9924d> a airo:Stakeholder ;
+    rdfs:label "Office of Equity, Diversity and Inclusion at Peabody College" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peabody Office of Equity, Diversity and Inclusion" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a8dc49251aa>,
+        <https://w3id.org/airo/incident/evidence/a46e2ab43244>,
+        <https://w3id.org/airo/incident/evidence/dbd248be9f79> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2531> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/b479831196f7> a airo:Stakeholder ;
+    rdfs:label "Associate Dean Joseph" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Associate Dean Joseph" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6904e71b27ce> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2513> .
+
+<https://w3id.org/airo/incident/Stakeholder/d8e22d4da07a> a airo:Stakeholder ;
+    rdfs:label "Columbia Business School" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Columbia Business School" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa9d1afc0a1a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> .
+
+<https://w3id.org/airo/incident/Vulnerability/da296ad12bd9> a airo:Vulnerability ;
+    rdfs:label "Over-reliance on AI for drafting official communications without sufficient review for tone and appropriateness" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/69c2e14fbebe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502> .
+
+<https://w3id.org/airo/incident/evidence/044c402ff987> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt staff used ChatGPT to write email to students about MSU shooting" ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/0562ac6d5685> a airo:Evidence ;
+    airo:evidenceText "Camilla P. Benbow, Patricia and Rodes Hart Dean of Education and Human Development, released a statement in response to this incident." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/09624d8c4435> a airo:Evidence ;
+    airo:evidenceText "As a result of this collegiate contretemps, both Joseph and EDI assistant dean Hasina Mohyuddin, who was also responsible for the email, will \"step back from their responsibilities,\" according to Benbow." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/0b75c111b6d9> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/0f2bede1d218> a airo:Evidence ;
+    airo:evidenceText "Thanks to its ever-growing base of knowledge input by users, the artificial intelligence chatbot known as ChatGPT can be used in a myriad of ways." ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/evidence/0f492d1976da> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff apologized after an email sent to students reflecting on the tragic Michigan State University shooting was written using Open AI's ChatGPT." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/12598398562d> a airo:Evidence ;
+    airo:evidenceText "\"There is a sick and twisted irony to making a computer write your message about community and togetherness because you can't be bothered to reflect on it yourself,\" Laith Kayat, a senior at Vanderbilt who is from Michigan and whose sister goes to Michigan State University, told The Vanderbilt Hustler." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/1a175cd1b297> a airo:Evidence ;
+    airo:evidenceText "At the bottom of the email — in much smaller type — a line reads “Paraphrase from OpenAI’s ChatGPT AI language model, personal communication, February 15, 2023.”" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/1a24a3d90b6c> a airo:Evidence ;
+    airo:evidenceText "After the recent shooting at the University of Michigan, staff at Vanderbilt University in Nashville sent an email offering support and comfort to students." ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/1f1b127b87d8> a airo:Evidence ;
+    airo:evidenceText "A college apologized for using ChatGPT to write an email to students about the Michigan State University shooting" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/1f7df34b4b38> a airo:Evidence ;
+    airo:evidenceText "Nicole M. Joseph, the Associate Dean for Equity, Diversity and Inclusion, sent a follow-up email apologizing for using ChatGPT for this type of email on Friday, Feb. 17." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/21802de4628a> a airo:Evidence ;
+    airo:evidenceText "The bizarre email, sent out Thursday by the Nashville institution’s Peabody Office of Equity, Diversity and Inclusion, made no mention of Vanderbilt-specific resources students could contact for support." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/239b8adee8c0> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University's education school has apologized after sending a condolence message to staff and students regarding a recent shooting at Michigan State University." ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/24cc299b98d1> a airo:Evidence ;
+    airo:evidenceText "OpenAI, the company that created ChatGPT, launched a free, online tool to distinguish human-generated and AI-generated text on Jan. 31." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/28d7bf633893> a airo:Evidence ;
+    airo:evidenceText "Benbow claimed the 'development and distribution' of the email 'did not follow Peabody's normal processes,' nor was she or other university administrators aware of the email 'before it was sent.'" ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/2a0086c7e0a2> a airo:Evidence ;
+    airo:evidenceText "During the review, Associate Dean Joseph and Assistant Dean Hasina Mohyuddin will step back from their responsibilities with the EDI office, said Benbow." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/344abf7fc412> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University uses ChatGPT to address MSU shooting: ‘Sick’" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/3496308c8527> a airo:Evidence ;
+    airo:evidenceText "Associate Dean for Equity, Diversity and Inclusion Nicole Joseph sent a follow-up, apology email to the Peabody community on Feb. 17 at 6:30 p.m. CST." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/3ce227787fe7> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff apologized after an email sent to students reflecting on the tragic Michigan State University shooting was written using Open AI's ChatGPT." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/47c0b12a3bbe> a airo:Evidence ;
+    airo:evidenceText "Nicole Joseph, the associate dean for the Office of Equity, Diversity and Inclusion, said the decision to use ChatGPT to write the email was made in “poor judgment.”" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/502d2793d6c8> a airo:Evidence ;
+    airo:evidenceText "The ChatGPT-paraphrased email sounds like a boilerplate response that’s been scrapped together and doesn’t include any language specific to Vanderbilt, as noted by the Hustler." ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/5cb7272d0023> a airo:Evidence ;
+    airo:evidenceText "\"Paraphrase from OpenAI’s ChatGPT AI language model, personal communication, February 15, 2023,\" it read, the _Vanderbilt Hustler_ reported." ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/5e505d5e5871> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/68a209c0deae> a airo:Evidence ;
+    airo:evidenceText "Students at Vanderbilt were outraged when they received the ChatGPT-generated email. Laith Kayat, a Vanderbilt senior from Michigan whose sister attends Michigan State, told the Hustler that the use of ChatGPT was “disgusting.”" ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/69ef5d89761c> a airo:Evidence ;
+    airo:evidenceText "In a statement, Peabody College’s dean of education and human development, Camilla P. Benbow, said her office would be reviewing what happened before the email was sent." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/6bb6a8a610be> a airo:Evidence ;
+    airo:evidenceText "There are some uses that seem like common sense to avoid, but the Peabody Office of Equity, Diversity, and Inclusion (EDI) at Vanderbilt University missed that memo when its office sent out a letter on Feb. 15 to students about an on-campus shooting." ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/evidence/6c77645fd78c> a airo:Evidence ;
+    airo:evidenceText "Associate Dean for Equity, Diversity and Inclusion Nicole Joseph described as \"poor judgment,\" The Vanderbilt Hustler reported." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/6ca0e38e7f73> a airo:Evidence ;
+    airo:evidenceText "But it turns out the letter itself came from the AI program ChatGPT." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/6d20fd15d329> a airo:Evidence ;
+    airo:evidenceText "Camilla Benbow, Peabody College's dean, said in a statement Saturday that the message was a paraphrased version of a ChatGPT-written draft and that Vanderbilt would investigate the decision to write and send the message." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/71ce955ac789> a airo:Evidence ;
+    airo:evidenceText "The letter contains the byline of an associate dean named Nicole Joseph, who will now step back from her role over the decision to use ChatGPT." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/71df59181bdd> a airo:Evidence ;
+    airo:evidenceText "\"While we believe in the message of inclusivity expressed in the email, using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College,\" said Nicole Joseph, an associate dean at Peabody's EDI office responsible for the AI-email, in an apology email." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/7469f6fb342c> a airo:Evidence ;
+    airo:evidenceText "But at the bottom of the email, in small text, there was a footnote: \"Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023.\"" ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/7936f001b7ea> a airo:Evidence ;
+    airo:evidenceText "Last week, staff at Vanderbilt University in Tennessee wrote a thoughtful and heartfelt letter about coming together as a community in response to the mass shooting at Michigan State University." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/8815fe66ed75> a airo:Evidence ;
+    airo:evidenceText "At the bottom, a line reads “Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023.”" ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/8dae487415cb> a airo:Evidence ;
+    airo:evidenceText "In Vanderbilt's case, it was used to construct a mass message regarding the Michigan State University shooting — a decision that Associate Dean for Equity, Diversity and Inclusion Nicole Joseph described as \"poor judgment,\" The Vanderbilt Hustler reported." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/8e4952d75702> a airo:Evidence ;
+    airo:evidenceText "Peabody EDI Office responds to MSU shooting with email written using ChatGPT" ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/91f764a18c2d> a airo:Evidence ;
+    airo:evidenceText "Staff at Vanderbilt University have apologised for 'poor judgement' after using ChatGPT to write a condolence email." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/93decf813588> a airo:Evidence ;
+    airo:evidenceText "Hasina Mohyuddin, assistant dean of the office, will temporarily step back from their positions, according to a Feb. 18 email to the Peabody community." ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/97dfd489c761> a airo:Evidence ;
+    airo:evidenceText "The prize for the most disgusting use of ChatGPT yet goes to Vanderbilt University, which used the chatbot to generate an email to students about the Feb. 13 mass shooting at Michigan State University." ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/9f9af87cbe7a> a airo:Evidence ;
+    airo:evidenceText "A note at the bottom of the email said: \"Paraphrase from OpenAI's ChatGPT.\"" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/a255e7bbbeab> a airo:Evidence ;
+    airo:evidenceText "Nicole Joseph, the associate dean for the Office of Equity, Diversity, and Inclusion, apologized for using ChatGPT to write the email, calling it “poor judgment,” the Hustler reported." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/b3e36474e8a8> a airo:Evidence ;
+    airo:evidenceText "The email, which was sent by the Peabody Office of Equity, Diversity, and Inclusion at the Nashville university’s Peabody College, was first reported by student newspaper [the Vanderbilt Hustler on Friday]." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/bb1e9e33e5d3> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt College DEI Office Sends Michigan Shooting Condolence Message Drafted by AI Bot" ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/bc890d4d4e25> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff apologized after an email sent to students reflecting on the tragic Michigan State University shooting was written using Open AI's ChatGPT." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/c0ee1b30fdbc> a airo:Evidence ;
+    airo:evidenceText "The Thursday email from Peabody College's Office of Equity, Diversity and Inclusion addressed the shooting in Michigan but didn't refer to any Vanderbilt organizations or resources that students could contact for support." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/c55e1acc496f> a airo:Evidence ;
+    airo:evidenceText "Nicole Joseph, an associate dean at Peabody's EDI office who was one of the letter's three signatories, apologized the next day and said that using ChatGPT was \"poor judgment,\" the Hustler reported." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/cf7d48a71064> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University has apologized for using artificial intelligence to write a 297-word email to students after the Michigan State University mass shooting, causing two deans to temporarily step down." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/d3f2cc63c486> a airo:Evidence ;
+    airo:evidenceText "The bizarre email, sent out Thursday by the Nashville institution’s Peabody Office of Equity, Diversity and Inclusion, made no mention of Vanderbilt-specific resources students could contact for support." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/d4058708b72b> a airo:Evidence ;
+    airo:evidenceText "In the Feb. 18 email, Peabody Dean Camilla Benbow stated that her office would be conducting a review of what led to the initial message being sent." ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/d609ea90c017> a airo:Evidence ;
+    airo:evidenceText "Hasina Mohyuddin, assistant dean of the office, will temporarily step back from their positions, according to a Feb. 18 email to the Peabody community." ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/d6b5e814894e> a airo:Evidence ;
+    airo:evidenceText "Tennessee’s Vanderbilt University apologized after it used ChatGPT to write a nonsensical email addressing the deadly Michigan State University shooting — which students have blasted as “twisted.”" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/d74d673e07b6> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/d7a8c31e9ed4> a airo:Evidence ;
+    airo:evidenceText "Associate Dean Nicole Joseph sent another email on Friday and said using ChatGPT to write the email was \"poor judgment,\" according to the Hustler." ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/d7e9b8a23f83> a airo:Evidence ;
+    airo:evidenceText "“While we believe in the message of inclusivity expressed in the email, using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College,” the school reportedly told students in a follow-up email." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/ddffe2f75628> a airo:Evidence ;
+    airo:evidenceText "Joseph and Assistant Dean Hasina Mohyuddin will be stepping back from their responsibilities at the college's EDI office while the dean's office conducts a review of what lead to them sending the original email." ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/de10a403b9fe> a airo:Evidence ;
+    airo:evidenceText "“I am also deeply troubled that a communication from my administration so missed the crucial need for personal connection and empathy during a time of tragedy,” wrote Camilla Benbow, dean of education at Peabody College." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/dfa67e8b8cc3> a airo:Evidence ;
+    airo:evidenceText "At the end, it includes the sentence: “Paraphrase from OpenAI’s ChatGPT AI language model, personal communication, February 15, 2023.”" ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/e0f0f15f4780> a airo:Evidence ;
+    airo:evidenceText "Using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/e0f90e350c0d> a airo:Evidence ;
+    airo:evidenceText "Staff at Vanderbilt University have apologised for 'poor judgement' after using ChatGPT to write a condolence email." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/e73894831157> a airo:Evidence ;
+    airo:evidenceText "Peabody College's dean of education and human development Camilla P. Benbow said in a statement that her office was unaware of the email before it was sent." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/e8835490e633> a airo:Evidence ;
+    airo:evidenceText "The email, which was first shared with the public by the university's paper The Vanderbilt Hustler, sparked outrage among students." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/e968a9707f8e> a airo:Evidence ;
+    airo:evidenceText "The university did not yet respond to The Hustler’s request for comment about whether ChatGPT has been used to generate other university statements." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/ec1862d9257c> a airo:Evidence ;
+    airo:evidenceText "The email was sent on Thursday by the Peabody Office of Equity, Diversity, and Inclusion (EDI) at the university’s Peabody College and included a note at the bottom that indicated the email had been written using ChatGPT." ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/f030fd234e87> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter addressing the recent mass shooting at Michigan State University." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/f04ad456cfbe> a airo:Evidence ;
+    airo:evidenceText "Both Joseph and assistant dean Hasina Mohyuddin will step back from their work in the meantime." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/f2b462848b84> a airo:Evidence ;
+    airo:evidenceText "The body of the initial email mentions “Peabody” once and does not use any other Vanderbilt-specific terms." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/f81470931181> a airo:Evidence ;
+    airo:evidenceText "\"As dean of the college, I remain personally saddened by the loss of life and injuries at Michigan State, which I know have affected members of our own community,\" Dean Camilla P. Benbow said in the statement." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/ff6f150c127b> a airo:Evidence ;
+    airo:evidenceText "After the email's dry tone came under scrutiny, the Dean of Vanderbilt University's Peabody College of Education and Human Development Camilla Benbow issued a \"heartfelt apology\" and claimed that \"the university's administrators, including myself, were unaware of the email before it was sent.\"" ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/Consequence/452113a01aff> a airo:Consequence ;
+    rdfs:label "Public apology and resignation of responsible officials" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7194f42c19c6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2515> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/60ff210e13bf> .
+
+<https://w3id.org/airo/incident/Impact/60ff210e13bf> a airo:Impact ;
+    rdfs:label "Damage to institutional trust and reputation, and harm to the community's sense of care" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/3c1b0d082f05> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67bd4391c2bd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> .
+
+<https://w3id.org/airo/incident/NewsReport/2502> a airo:NewsReport ;
+    rdfs:label "Vanderbilt University uses ChatGPT to address MSU shooting: ‘Sick’" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Tennessee’s Vanderbilt University apologized after it used ChatGPT to write a nonsensical email addressing the deadly Michigan State University shooting — which students have blasted as “twisted.”
+
+Th""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb36a3442388> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502> .
+
+<https://w3id.org/airo/incident/NewsReport/2503> a airo:NewsReport ;
+    rdfs:label "A college apologized for using ChatGPT to write an email to students about the Michigan State University shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Staff at Vanderbilt University have apologised for \"poor judgement\" after using ChatGPT to write a condolence email in the wake of Monday's shooting at Michigan State University that left three studen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1436c8172465> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503> .
+
+<https://w3id.org/airo/incident/NewsReport/2504> a airo:NewsReport ;
+    rdfs:label "Vanderbilt staff used ChatGPT to write email to students about MSU shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "[Vanderbilt University](/topic/vanderbilt-university) staff have apologized for using [ChatGPT](/topic/chatgpt) to write a condolence email in the wake of the [Michigan State University](/topic/michig" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2da487e3e5d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2504> .
+
+<https://w3id.org/airo/incident/NewsReport/2505> a airo:NewsReport ;
+    rdfs:label "Vanderbilt College DEI Office Sends Michigan Shooting Condolence Message Drafted by AI Bot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University's education school has apologized after sending a condolence message to staff and students regarding a recent shooting at Michigan State University that was drafted by [ChatGPT](" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a99c4a41feb9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2505> .
+
+<https://w3id.org/airo/incident/NewsReport/2506> a airo:NewsReport ;
+    rdfs:label "Peabody EDI Office responds to MSU shooting with email written using ChatGPT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "_UPDATED__: This piece was updated on Feb. 17, 2023, at 7:30 p.m. CST to include an apology from the EDI Office. It was further updated on Feb. 17, 2023, at 9:05 p.m. CST to include a statement from t" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0d3f65dd468> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2506> .
+
+<https://w3id.org/airo/incident/NewsReport/2507> a airo:NewsReport ;
+    rdfs:label "A Vanderbilt Dean Used ChatGPT to Write Email About MSU Shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The prize for the most disgusting use of ChatGPT yet goes to Vanderbilt University, which used the chatbot to generate an email to students about the Feb. 13 mass shooting at Michigan State University" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68f324bf4882> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2507> .
+
+<https://w3id.org/airo/incident/NewsReport/2508> a airo:NewsReport ;
+    rdfs:label "Vanderbilt University Staff Used ChatGPT To Write Email On MSU Shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Staff members at Vanderbilt University sent an email to students using text generated by artificial intelligence to respond to the shooting at Michigan State University that killed three students.
+
+Th""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94181b993d9f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2508> .
+
+<https://w3id.org/airo/incident/NewsReport/2509> a airo:NewsReport ;
+    rdfs:label "Vanderbilt Staff Used AI to Email Students About the Michigan State Shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "After the recent shooting at the University of Michigan, staff at Vanderbilt University in Nashville sent [an email](https://t.e2ma.net/message/ul182h/m74zooz) offering support and comfort to students" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7685fc662d7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2509> .
+
+<https://w3id.org/airo/incident/NewsReport/2510> a airo:NewsReport ;
+    rdfs:label "Vanderbilt University staff apologizes after ChatGPT was used to write email about MSU shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**(CBS DETROIT)** - Vanderbilt University staff apologized after an email sent to students reflecting on the tragic Michigan State University shooting was written using Open AI's ChatGPT. 
+
+The origin""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d61f4207f371> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2510> .
+
+<https://w3id.org/airo/incident/NewsReport/2511> a airo:NewsReport ;
+    rdfs:label "Peabody EDI deans to temporarily step back following ChatGPT-crafted message about MSU shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nicole Joseph, associate dean of Peabody College’s Office of Equity, Diversity and Inclusion, and Hasina Mohyuddin, assistant dean of the office, will temporarily step back from their positions, accor" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa8082fbdf9c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2511> .
+
+<https://w3id.org/airo/incident/NewsReport/2512> a airo:NewsReport ;
+    rdfs:label "University Apologizes for Sending Email About Mass Shooting Written With ChatGPT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "If you're going to send an official email on a sensitive and grim topic, you probably shouldn't generate it using AI. That's the lesson that two deans at Vanderbilt University learned the hard way las" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70d09ae1c33e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2512> .
+
+<https://w3id.org/airo/incident/NewsReport/2513> a airo:NewsReport ;
+    rdfs:label "This University Used ChatGPT to Tell Students About a Mass Shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Thanks to its ever-growing base of knowledge input by users, the artificial intelligence chatbot known as ChatGPT can be used in a myriad of ways.
+
+There are some uses that seem like common sense to a""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5136b25f0c3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2513> .
+
+<https://w3id.org/airo/incident/NewsReport/2514> a airo:NewsReport ;
+    rdfs:label "University Apologizes for Using AI to Write Letter to Students About Shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Last week, staff at Vanderbilt University in Tennessee wrote a thoughtful and heartfelt letter about coming together as a community in response to the mass shooting at Michigan State University. But i" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05f7530ea5d9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2514> .
+
+<https://w3id.org/airo/incident/NewsReport/2515> a airo:NewsReport ;
+    rdfs:label "Vanderbilt apologizes for using ChatGPT in email about MSU shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University has apologized for using artificial intelligence to write a 297-word email to students after the [Michigan State University mass shooting](/news/article-11749051/Watch-MSU-gunman" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed101b2ee05a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2515> .
+
+<https://w3id.org/airo/incident/NewsReport/2516> a airo:NewsReport ;
+    rdfs:label "Vanderbilt Responds to MSU Shooting Using ChatGPT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Staff at Vanderbilt University's office of equity, diversity, and inclusion took an unconventional approach to their letter to students following the [deadly shooting](https://www.newser.com/story/331" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1718c05a4ee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2516> .
+
+<https://w3id.org/airo/incident/NewsReport/2517> a airo:NewsReport ;
+    rdfs:label "Vanderbilt staff apologizes after using AI to send campus email about Michigan State shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Members of the Vanderbilt staff apologized on Friday for using ChatGPT, an artificial intelligence (AI) generator, to send an email to students calling for the community to come together following [th" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/13b02eb0aab0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2517> .
+
+<https://w3id.org/airo/incident/NewsReport/2518> a airo:NewsReport ;
+    rdfs:label "Vanderbilt University writes a condolence letter with ChatGPT" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University, which wrote a statement of condolence for the recent shooting spree at Michigan State University, the U.S. with interactive artificial intelligence (AI) ‘ChatGPT,’ has officiall" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8b243d84116> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2518> .
+
+<https://w3id.org/airo/incident/NewsReport/2531> a airo:NewsReport ;
+    rdfs:label "Vanderbilt slammed for AI bot message on Michigan State shooting. ‘Sick and twisted’ " ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Days after the deadly shooting at Michigan State University on Feb. 13, students at a university in Tennessee got an email of solidarity from their own administration.
+
+"Let us come together as a comm""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ddf44660585> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2531> .
+
+<https://w3id.org/airo/incident/NewsReport/2532> a airo:NewsReport ;
+    rdfs:label "Vanderbilt apologizes for ChatGPT-generated letter on Michigan State shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University is drawing heat from its student body for [using ChatGPT](https://www.cbsnews.com/news/chatgpt-artificial-intelligence-chatbot-jobs-most-likely-to-be-replaced/) to generate a com" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f449a72e87db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2532> .
+
+<https://w3id.org/airo/incident/NewsReport/2533> a airo:NewsReport ;
+    rdfs:label "Vanderbilt apologizes for using ChatGPT to write message on MSU shooting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "As students at Vanderbilt University's Peabody College grappled with the news of a deadly shooting at Michigan State University last week, those in the education college received an odd message from t" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0d5da0a0e9a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2533> .
+
+<https://w3id.org/airo/incident/Stakeholder/3584c565c511> a airo:Stakeholder ;
+    rdfs:label "Michigan State University" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Michigan State University" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05506f7b9c02>,
+        <https://w3id.org/airo/incident/evidence/0a6e62433851>,
+        <https://w3id.org/airo/incident/evidence/238e76a76f17>,
+        <https://w3id.org/airo/incident/evidence/363eaeef365d>,
+        <https://w3id.org/airo/incident/evidence/40985ccd4439>,
+        <https://w3id.org/airo/incident/evidence/69d5e91c7fce>,
+        <https://w3id.org/airo/incident/evidence/6ce47539c244>,
+        <https://w3id.org/airo/incident/evidence/7315d87ba110>,
+        <https://w3id.org/airo/incident/evidence/7e5a280f7fe5>,
+        <https://w3id.org/airo/incident/evidence/b0b1db1f4a15>,
+        <https://w3id.org/airo/incident/evidence/b6373ac511fd>,
+        <https://w3id.org/airo/incident/evidence/c9de869ea50e>,
+        <https://w3id.org/airo/incident/evidence/cbbc5099b082>,
+        <https://w3id.org/airo/incident/evidence/dbd248be9f79>,
+        <https://w3id.org/airo/incident/evidence/ff6fcdc9a22d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2532>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 14 .
+
+<https://w3id.org/airo/incident/Stakeholder/446037e067b9> a airo:Stakeholder ;
+    rdfs:label "Vanderbilt University Office of Equity, Diversity, and Inclusion" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/881932b2654f> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University's office of equity, diversity, and inclusion" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f39b177054f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2516> .
+
+<https://w3id.org/airo/incident/Stakeholder/4469ece752a8> a airo:Stakeholder ;
+    rdfs:label "Camilla P. Benbow" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Peabody College's dean of education and human development, Camilla P. Benbow" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0562ac6d5685>,
+        <https://w3id.org/airo/incident/evidence/28d7bf633893>,
+        <https://w3id.org/airo/incident/evidence/530ee589d5c3>,
+        <https://w3id.org/airo/incident/evidence/649253577712>,
+        <https://w3id.org/airo/incident/evidence/6d20fd15d329>,
+        <https://w3id.org/airo/incident/evidence/7e5a280f7fe5>,
+        <https://w3id.org/airo/incident/evidence/d4058708b72b>,
+        <https://w3id.org/airo/incident/evidence/dc3453f84bfc>,
+        <https://w3id.org/airo/incident/evidence/de10a403b9fe>,
+        <https://w3id.org/airo/incident/evidence/e73894831157>,
+        <https://w3id.org/airo/incident/evidence/f81470931181>,
+        <https://w3id.org/airo/incident/evidence/f95499070dee>,
+        <https://w3id.org/airo/incident/evidence/fdd0dd7ae102>,
+        <https://w3id.org/airo/incident/evidence/ff6f150c127b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 14 .
+
+<https://w3id.org/airo/incident/Stakeholder/4d1a6b8389e6> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a175cd1b297>,
+        <https://w3id.org/airo/incident/evidence/21c818256fc6>,
+        <https://w3id.org/airo/incident/evidence/24cc299b98d1>,
+        <https://w3id.org/airo/incident/evidence/4483ee229250>,
+        <https://w3id.org/airo/incident/evidence/4fec4b56c6c0>,
+        <https://w3id.org/airo/incident/evidence/896d4bc83420>,
+        <https://w3id.org/airo/incident/evidence/9f9af87cbe7a>,
+        <https://w3id.org/airo/incident/evidence/a00bfaf12b83>,
+        <https://w3id.org/airo/incident/evidence/a037500642dc>,
+        <https://w3id.org/airo/incident/evidence/a03d47b75186>,
+        <https://w3id.org/airo/incident/evidence/c66da24ffbe0>,
+        <https://w3id.org/airo/incident/evidence/ef7ef84232d3>,
+        <https://w3id.org/airo/incident/evidence/f9f9875de5d8>,
+        <https://w3id.org/airo/incident/evidence/fac404f665ea> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2532> ;
+    airo:hasSupportCount 14 ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/d3cd5f6137c1>,
+        <https://w3id.org/airo/incident/AISystem/881932b2654f> .
+
+<https://w3id.org/airo/incident/Stakeholder/56b32a071e51> a airo:Stakeholder ;
+    rdfs:label "Samuel Lu" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Samuel Lu" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0db407e9b987>,
+        <https://w3id.org/airo/incident/evidence/7a14c61fdd5e>,
+        <https://w3id.org/airo/incident/evidence/b9732c174798> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/90fea511c414> a airo:Stakeholder ;
+    rdfs:label "The Vanderbilt Hustler" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Vanderbilt Hustler" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/502d2793d6c8>,
+        <https://w3id.org/airo/incident/evidence/5ea5b44f2cce>,
+        <https://w3id.org/airo/incident/evidence/bcd3d62aa2a2>,
+        <https://w3id.org/airo/incident/evidence/e8835490e633>,
+        <https://w3id.org/airo/incident/evidence/e968a9707f8e>,
+        <https://w3id.org/airo/incident/evidence/f7b1280aa9da>,
+        <https://w3id.org/airo/incident/evidence/ff920c060c16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 7 .
+
+<https://w3id.org/airo/incident/Stakeholder/9aa3d89551c8> a airo:Stakeholder ;
+    rdfs:label "The Washington Post" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Washington Post" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a89c1df565a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2533> .
+
+<https://w3id.org/airo/incident/Stakeholder/a498aa6d4043> a airo:Stakeholder ;
+    rdfs:label "Colin Henry" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Colin Henry" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a14ec21685a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2533> .
+
+<https://w3id.org/airo/incident/Stakeholder/b3bbbbbf70a0> a airo:Stakeholder ;
+    rdfs:label "Hasina Mohyuddin" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/881932b2654f> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hasina Mohyuddin" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09624d8c4435>,
+        <https://w3id.org/airo/incident/evidence/205745303598>,
+        <https://w3id.org/airo/incident/evidence/248069021428>,
+        <https://w3id.org/airo/incident/evidence/2a0086c7e0a2>,
+        <https://w3id.org/airo/incident/evidence/6904e71b27ce>,
+        <https://w3id.org/airo/incident/evidence/91cfb10b164e>,
+        <https://w3id.org/airo/incident/evidence/cdcf7fa8f906>,
+        <https://w3id.org/airo/incident/evidence/ddffe2f75628>,
+        <https://w3id.org/airo/incident/evidence/f04ad456cfbe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517> ;
+    airo:hasSupportCount 9 .
+
+<https://w3id.org/airo/incident/Stakeholder/b997b444349b> a airo:Stakeholder ;
+    rdfs:label "Vanderbilt University" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/881932b2654f> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vanderbilt University" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05506f7b9c02>,
+        <https://w3id.org/airo/incident/evidence/0a6e62433851>,
+        <https://w3id.org/airo/incident/evidence/1a24a3d90b6c>,
+        <https://w3id.org/airo/incident/evidence/363eaeef365d>,
+        <https://w3id.org/airo/incident/evidence/651dc3cffc95>,
+        <https://w3id.org/airo/incident/evidence/69d5e91c7fce>,
+        <https://w3id.org/airo/incident/evidence/6bb6a8a610be>,
+        <https://w3id.org/airo/incident/evidence/6ce47539c244>,
+        <https://w3id.org/airo/incident/evidence/7315d87ba110>,
+        <https://w3id.org/airo/incident/evidence/7936f001b7ea>,
+        <https://w3id.org/airo/incident/evidence/b0b1db1f4a15>,
+        <https://w3id.org/airo/incident/evidence/b3e36474e8a8>,
+        <https://w3id.org/airo/incident/evidence/b50079ae3432>,
+        <https://w3id.org/airo/incident/evidence/b6373ac511fd>,
+        <https://w3id.org/airo/incident/evidence/c9de869ea50e>,
+        <https://w3id.org/airo/incident/evidence/cf7d48a71064>,
+        <https://w3id.org/airo/incident/evidence/d6b5e814894e>,
+        <https://w3id.org/airo/incident/evidence/ec1862d9257c>,
+        <https://w3id.org/airo/incident/evidence/f2b462848b84>,
+        <https://w3id.org/airo/incident/evidence/ff6fcdc9a22d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2532>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 18 .
+
+<https://w3id.org/airo/incident/Stakeholder/ed2daef9820f> a airo:Stakeholder ;
+    rdfs:label "Laith Kayat" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Laith Kayat" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07b3cddf1c58>,
+        <https://w3id.org/airo/incident/evidence/12598398562d>,
+        <https://w3id.org/airo/incident/evidence/68a209c0deae>,
+        <https://w3id.org/airo/incident/evidence/9fc55440a2c2>,
+        <https://w3id.org/airo/incident/evidence/a7ae0f4701c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2531> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/evidence/05506f7b9c02> a airo:Evidence ;
+    airo:evidenceText "Days after the deadly shooting at Michigan State University on Feb. 13, students at a university in Tennessee got an email of solidarity from their own administration." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/05f7530ea5d9> a airo:Evidence ;
+    airo:evidenceText "University Apologizes for Using AI to Write Letter to Students About Shooting" ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/0a0629ca7e41> a airo:Evidence ;
+    airo:evidenceText "Vice Provost and Dean of Students G. L. Black also sent an email to students on Feb. 14 regarding the shooting." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/1014a0dd1abe> a airo:Evidence ;
+    airo:evidenceText "[2533] As students at Vanderbilt University's Peabody College grappled with the news of a deadly shooting at Michigan State University last week, those in the education college received an odd message from the administration." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/13b02eb0aab0> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt staff apologizes after using AI to send campus email about Michigan State shooting" ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/1436c8172465> a airo:Evidence ;
+    airo:evidenceText "A college apologized for using ChatGPT to write an email to students about the Michigan State University shooting" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/14dbaaa2b889> a airo:Evidence ;
+    airo:evidenceText "After questions and backlash from the community, the Vanderbilt University's Peabody College of Education and Human Development released a statement apologizing for the email sent on Feb. 16." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/21c818256fc6> a airo:Evidence ;
+    airo:evidenceText "In small font, just above the signature line, a disclaimer appeared, indicating that the entire statement was a 'paraphrase from OpenAI's ChatGPT AI language model.'" ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/224b619b8d2c> a airo:Evidence ;
+    airo:evidenceText "The unfortunate email was sent out on Thursday from the Peabody Office of Equity, Diversity, and Inclusion (EDI) at Vanderbilt's Peabody College, and is about as vague and platitudinous as you'd expect from text composed by an AI that isn't even up to date with current events of the past two years.",
+        "The unfortunate email was sent out on Thursday from the Peabody Office of Equity, Diversity, and Inclusion (EDI) at Vanderbilt's Peabody College." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/238e76a76f17> a airo:Evidence ;
+    airo:evidenceText "The bizarre email, sent out Thursday by the Nashville institution’s Peabody Office of Equity, Diversity and Inclusion, made no mention of Vanderbilt-specific resources students could contact for support — and instead included several repetitive paragraphs offering vague thoughts about “creating a safe and inclusive environment.”" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/2a8dc49251aa> a airo:Evidence ;
+    airo:evidenceText "the email from the Peabody Office of Equity, Diversity and Inclusion at Vanderbilt University said." ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/2ebbec197737> a airo:Evidence ;
+    airo:evidenceText "Bloomberg News reported on Saturday (local time) that the Peabody College Secretariat at Vanderbilt University in Tennessee sent an email to students to express condolences for the victims of the indiscriminate shooting at Michigan State University." ;
+    airo:sourceDocId "2518" .
+
+<https://w3id.org/airo/incident/evidence/3e82f2f1d023> a airo:Evidence ;
+    airo:evidenceText "The note at the bottom of the original email read, \"Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023.\"" ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/3f5cb5b49cb1> a airo:Evidence ;
+    airo:evidenceText "The pair responded to the Michigan State University shooting in a Feb. 16 email to the Peabody community written using ChatGPT." ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/40985ccd4439> a airo:Evidence ;
+    airo:evidenceText "The Peabody Office of Equity, Diversity, and Inclusion sent students an email on February 16 reminding them to 'take care of each other' after the MSU shooting, although the email came off as kind and caring and offered students ways to help promote a caring environment with their peers, at the very bottom, it revealed it wasn't written by a human.",
+        "The Peabody Office of Equity, Diversity, and Inclusion sent students an email on February 16 reminding them to 'take care of each other' after the MSU shooting." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/4483ee229250> a airo:Evidence ;
+    airo:evidenceText "Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/519dcaf92cf8> a airo:Evidence ;
+    airo:evidenceText "[2508] Staff members at Vanderbilt University sent an email to students using text generated by artificial intelligence to respond to the shooting at Michigan State University that killed three students." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/530ee589d5c3> a airo:Evidence ;
+    airo:evidenceText "Peabody College’s dean of education and human development, Camilla P. Benbow, said her office is reviewing what happened." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/5ddf44660585> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt slammed for AI bot message on Michigan State shooting. ‘Sick and twisted’ " ;
+    airo:sourceDocId "2531" .
+
+<https://w3id.org/airo/incident/evidence/5ea5b44f2cce> a airo:Evidence ;
+    airo:evidenceText "A smaller line of text in parentheses at the bottom of the message revealed that it had been written using the generative artificial intelligence program ChatGPT, as first reported by the Vanderbilt Hustler student newspaper.",
+        "A smaller line of text in parentheses at the bottom of the message revealed that it had been written using the generative artificial intelligence program ChatGPT." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/68f324bf4882> a airo:Evidence ;
+    airo:evidenceText "A Vanderbilt Dean Used ChatGPT to Write Email About MSU Shooting" ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/69a053f76f12> a airo:Evidence ;
+    airo:evidenceText "“While we believe in the message of inclusivity expressed in the email, using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College,” stated Nicole Joseph." ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/69c2e14fbebe> a airo:Evidence ;
+    airo:evidenceText "[2502] The bizarre email... made no mention of Vanderbilt-specific resources students could contact for support — and instead included several repetitive paragraphs offering vague thoughts about \"creating a safe and inclusive environment.\"" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/6ce47539c244> a airo:Evidence ;
+    airo:evidenceText "That's the lesson that two deans at Vanderbilt University learned the hard way last week when they thought (for some reason) it was a good idea to send a ChatGPT-generated email to students concerning the recent mass shooting at Michigan State University." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/70d09ae1c33e> a airo:Evidence ;
+    airo:evidenceText "University Apologizes for Sending Email About Mass Shooting Written With ChatGPT" ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/79e2cade6b98> a airo:Evidence ;
+    airo:evidenceText "Officials at the Office of Equity, Diversity and Inclusion at Peabody College admitted “poor judgement” in using the OpenAI chatbot for the email." ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/7f6b3ce3a9e7> a airo:Evidence ;
+    airo:evidenceText "They used ChatGPT to write it." ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/8e03fec1e726> a airo:Evidence ;
+    airo:evidenceText "[2503] Vanderbilt University staff have apologised for \"poor judgement\" after using ChatGPT to write a condolence email in the wake of Monday's shooting at Michigan State University that left three students dead." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/91cfb10b164e> a airo:Evidence ;
+    airo:evidenceText "Since the outrage begun, two deans who signed off on the email - Nicole Joseph and Hasina Mohyuddin - have temporarily stepped down while the Peabody EDI office 'reviews' the situation." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/94181b993d9f> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University Staff Used ChatGPT To Write Email On MSU Shooting" ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/94a7176e7c1d> a airo:Evidence ;
+    airo:evidenceText "[2508] In a statement, Peabody College’s dean of education and human development, Camilla P. Benbow, said her office would be reviewing what happened before the email was sent." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/9a2be2f4f7f3> a airo:Evidence ;
+    airo:evidenceText "Associate Dean Nicole Joseph told the Vanderbilt Hustler that it was \"poor judgment\" to use ChatGPT \"to generate communications on behalf of our community in a time of sorrow and in response to a tragedy.\"" ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/a037500642dc> a airo:Evidence ;
+    airo:evidenceText "The problem was that a line at the bottom of the email said, “Paraphrase from OpenAI’s ChatGPT.”" ;
+    airo:sourceDocId "2518" .
+
+<https://w3id.org/airo/incident/evidence/a03d47b75186> a airo:Evidence ;
+    airo:evidenceText "The note at the bottom of the original email read, \"Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023.\"" ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/a47611f28b0e> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University's education school has apologized after sending a condolence message to staff and students regarding a recent shooting at Michigan State University that was drafted by ChatGPT, the artificial intelligence-powered chat bot." ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/a5136b25f0c3> a airo:Evidence ;
+    airo:evidenceText "This University Used ChatGPT to Tell Students About a Mass Shooting" ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/evidence/a8b243d84116> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University writes a condolence letter with ChatGPT" ;
+    airo:sourceDocId "2518" .
+
+<https://w3id.org/airo/incident/evidence/a99c4a41feb9> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt College DEI Office Sends Michigan Shooting Condolence Message Drafted by AI Bot" ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/aa8082fbdf9c> a airo:Evidence ;
+    airo:evidenceText "Peabody EDI deans to temporarily step back following ChatGPT-crafted message about MSU shooting" ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/aa9d1afc0a1a> a airo:Evidence ;
+    airo:evidenceText "ChatGPT can summarize data and generate text, but doesn't possess the emotional intelligence of humans, according to Columbia Business School professor Oded Netzer." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/b0d5da0a0e9a> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt apologizes for using ChatGPT to write message on MSU shooting" ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/b50079ae3432> a airo:Evidence ;
+    airo:evidenceText "The email was signed by three affiliates of the Office of Equity, Diversity, and Inclusion in Vanderbilt’s Peabody College of Education and Human Development, including Associate Dean Nicole Joseph." ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/b6373ac511fd> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University, which wrote a statement of condolence for the recent shooting spree at Michigan State University, the U.S. with interactive artificial intelligence (AI) ‘ChatGPT,’ has officially apologized for the strong criticism it received from the public." ;
+    airo:sourceDocId "2518" .
+
+<https://w3id.org/airo/incident/evidence/b7685fc662d7> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt Staff Used AI to Email Students About the Michigan State Shooting" ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/bb36a3442388> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University uses ChatGPT to address MSU shooting: ‘Sick’" ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/bf17fa04eea1> a airo:Evidence ;
+    airo:evidenceText "ChatGPT is an AI language model that writes human-sounding but computer-generated text." ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/c0f333d54a39> a airo:Evidence ;
+    airo:evidenceText "Staff at Vanderbilt University have apologised for 'poor judgement' after using ChatGPT to write a condolence email in the wake of Monday's shooting at Michigan State University." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/c66da24ffbe0> a airo:Evidence ;
+    airo:evidenceText "The letter concluded with a small disclaimer reading \"Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023\"." ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/evidence/d4ba119f9af6> a airo:Evidence ;
+    airo:evidenceText "Associate Dean for Equity, Diversity and Inclusion Nicole Joseph issued an apology to the Peabody community on February 17, noting that relying on ChatGPT was \"poor judgment.\"" ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/d61f4207f371> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff apologizes after ChatGPT was used to write email about MSU shooting" ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/db1c4988b1a8> a airo:Evidence ;
+    airo:evidenceText "Peabody College's letter followed an earlier statement from Vanderbilt Vice Provost and Dean of Students G. L. Black on Feb. 14, one day after the shooting at Michigan State, the Hustler reported." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/df20cae451a1> a airo:Evidence ;
+    airo:evidenceText "The letter from the Peabody College's office of diversity, equity, and inclusion expressed regret about the Michigan tragedy, in which a gunman killed three students and left five others in critical condition last week." ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/e0d3f65dd468> a airo:Evidence ;
+    airo:evidenceText "Peabody EDI Office responds to MSU shooting with email written using ChatGPT" ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/ed101b2ee05a> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt apologizes for using ChatGPT in email about MSU shooting" ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/eeed881ab828> a airo:Evidence ;
+    airo:evidenceText "In the interim, please contact Professor Duane Watson for assistance." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/ef7ef84232d3> a airo:Evidence ;
+    airo:evidenceText "'Paraphrase from OpenAI's ChatGPT [AI] language model, personal communication, February 15, 2023,' it read." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/f1718c05a4ee> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt Responds to MSU Shooting Using ChatGPT" ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/f2da487e3e5d> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt staff used ChatGPT to write email to students about MSU shooting" ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/f449a72e87db> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt apologizes for ChatGPT-generated letter on Michigan State shooting" ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/f95499070dee> a airo:Evidence ;
+    airo:evidenceText "...according to a statement from Camilla P. Benbow, the dean of education and human development at Vanderbilt University’s Peabody College of education and human development." ;
+    airo:sourceDocId "2517" .
+
+<https://w3id.org/airo/incident/evidence/f9f9875de5d8> a airo:Evidence ;
+    airo:evidenceText "Since its internet debut, OpenAI’s ChatGPT has been used in a slew of extremely questionable ways, from creating dating prompts for OkCupid to writing a paper for an AI ethics class." ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/Risk/679aca0e0cb5> a airo:Risk ;
+    rdfs:label "Risk of using AI-generated content for emotionally sensitive community communications" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6ed455fdd042> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2503> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/452113a01aff> .
+
+<https://w3id.org/airo/incident/evidence/67bd4391c2bd> a airo:Evidence ;
+    airo:evidenceText "[2532] Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter addressing the recent mass shooting at Michigan State University." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/6904e71b27ce> a airo:Evidence ;
+    airo:evidenceText "The letter also says that Associate Dean Joseph and Assistant Dean Hasina Mohyuddin will step back from their responsibilities in the EDI department as a result." ;
+    airo:sourceDocId "2513" .
+
+<https://w3id.org/airo/incident/evidence/69d5e91c7fce> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University is drawing heat from its student body for using ChatGPT to generate a communitywide letter addressing the recent mass shooting at Michigan State University." ;
+    airo:sourceDocId "2532" .
+
+<https://w3id.org/airo/incident/evidence/6ed455fdd042> a airo:Evidence ;
+    airo:evidenceText "[2503] Nicole Joseph wrote: \"While we believe in the message of inclusivity expressed in the email, using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College.\"" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/7194f42c19c6> a airo:Evidence ;
+    airo:evidenceText "[2515] Since the outrage begun, two deans who signed off on the email - Nicole Joseph and Hasina Mohyuddin - have temporarily stepped down while the Peabody EDI office 'reviews' the situation." ;
+    airo:sourceDocId "2515" .
+
+<https://w3id.org/airo/incident/evidence/7315d87ba110> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff apologized after an email sent to students reflecting on the tragic Michigan State University shooting was written using Open AI's ChatGPT." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/9d0f632b4d9e> a airo:Evidence ;
+    airo:evidenceText "Nicole Joseph wrote: \"While we believe in the message of inclusivity expressed in the email, using ChatGPT to generate communications on behalf of our community in a time of sorrow and in response to a tragedy contradicts the values that characterize Peabody College.\"" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/a46e2ab43244> a airo:Evidence ;
+    airo:evidenceText "The email was sent on Thursday by the Office of Equity, Diversity and Inclusion at Peabody College, Vanderbilt University's school of education, in Nashville, Tennessee." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/b0b1db1f4a15> a airo:Evidence ;
+    airo:evidenceText "The prize for the most disgusting use of ChatGPT yet goes to Vanderbilt University, which used the chatbot to generate an email to students about the Feb. 13 mass shooting at Michigan State University." ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/c9de869ea50e> a airo:Evidence ;
+    airo:evidenceText "As students at Vanderbilt University's Peabody College grappled with the news of a deadly shooting at Michigan State University last week, those in the education college received an odd message from the administration." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/fac404f665ea> a airo:Evidence ;
+    airo:evidenceText "ChatGPT, or Chat Generative Pre-trained Transformer, is a chatbot developed by OpenAI." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/ff6fcdc9a22d> a airo:Evidence ;
+    airo:evidenceText "Staff at Vanderbilt University have apologised for \"poor judgement\" after using ChatGPT to write a condolence email in the wake of Monday's shooting at Michigan State University that left three students dead." ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/1b1f4f774470> a airo:Evidence ;
+    airo:evidenceText "It can write essays, poetry, computer programs and answer questions, among a variety of other things." ;
+    airo:sourceDocId "2510" .
+
+<https://w3id.org/airo/incident/evidence/7e5a280f7fe5> a airo:Evidence ;
+    airo:evidenceText "Camilla Benbow, dean of Vanderbilt University’s Peabody College of Education and Human Development, offered students her “heartfelt apologies” after they received a sterile and unfeeling email about the Michigan State tragedy, which left three students dead and five others injured.",
+        "Camilla Benbow, dean of Vanderbilt University’s Peabody College of Education and Human Development, offered students her “heartfelt apologies” after they received a sterile and unfeeling email about the Michigan State tragedy." ;
+    airo:sourceDocId "2507" .
+
+<https://w3id.org/airo/incident/evidence/dbd248be9f79> a airo:Evidence ;
+    airo:evidenceText "A note at the bottom of a Feb. 16 email from the Peabody Office of Equity, Diversity and Inclusion regarding the recent shooting at Michigan State University stated that the message had been written using ChatGPT, an AI text generator." ;
+    airo:sourceDocId "2506" .
+
+<https://w3id.org/airo/incident/evidence/07b3cddf1c58> a airo:Evidence ;
+    airo:evidenceText "Laith Kayat, a senior at Vanderbilt University whose sister attends Michigan State University, told The Vanderbilt Hustler: \"There is a sick and twisted irony to making a computer write your message about community and togetherness because you can't be bothered to reflect on it yourself.\"" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/0db407e9b987> a airo:Evidence ;
+    airo:evidenceText "As 1 Vanderbilt student, sophomore Samuel Lu, told the Hustler, \"It’s hard to take a message seriously when I know that the sender didn’t even take the time to put their genuine thoughts and feelings into words.\"" ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/205745303598> a airo:Evidence ;
+    airo:evidenceText "Joseph and Assistant Dean Hasina Mohyuddin \"will step back from their responsibilities with the EDI office.\"" ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/248069021428> a airo:Evidence ;
+    airo:evidenceText "In the meantime, Joseph and Assistant Dean Hasina Mohyuddin would be stepping back from their work at the EDI office, she said." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/4fec4b56c6c0> a airo:Evidence ;
+    airo:evidenceText "The note, signed by associate and assistant deans of the college, included an attribution attached to the bottom that read, \"Paraphrase from OpenAI's ChatGPT AI language model, personal communication, February 15, 2023.\"" ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/649253577712> a airo:Evidence ;
+    airo:evidenceText "Camilla P. Benbow, Peabody’s dean of education and human development apologized further with a statement noting that her office would conduct \"a complete review\" of how the email was generated and sent." ;
+    airo:sourceDocId "2509" .
+
+<https://w3id.org/airo/incident/evidence/6a14ec21685a> a airo:Evidence ;
+    airo:evidenceText "Colin Henry, a Ph.D. student at Vanderbilt, told The Post via Twitter message that he believed an equity and inclusion office should discuss criticisms of ChatGPT and other generative programs, like their alleged reliance on underpaid workers to moderate content." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/7a14c61fdd5e> a airo:Evidence ;
+    airo:evidenceText "\"It's hard to take a message seriously when I know that the sender didn't even take the time to put their genuine thoughts and feelings into words,\" Samuel Lu, a Vanderbilt sophomore, told the Hustler." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/7f39b177054f> a airo:Evidence ;
+    airo:evidenceText "Staff at Vanderbilt University's office of equity, diversity, and inclusion took an unconventional approach to their letter to students following the deadly shooting at Michigan State." ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/896d4bc83420> a airo:Evidence ;
+    airo:evidenceText "The end of the letter mentions “Paraphrase from OpenAI's ChatGPT AI language model.”" ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/8a89c1df565a> a airo:Evidence ;
+    airo:evidenceText "A Vanderbilt spokesperson directed The Washington Post to Benbow's statement, which added that Joseph and another assistant dean would step back from positions at Peabody's EDI office during the investigation." ;
+    airo:sourceDocId "2533" .
+
+<https://w3id.org/airo/incident/evidence/9fc55440a2c2> a airo:Evidence ;
+    airo:evidenceText "Laith Kayat, whose sibling attends MSU, told the Vanderbilt Hustler: \"There is a sick and twisted irony to making a computer write your message about community and togetherness because you can't be bothered to reflect on it yourself.\"" ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/evidence/a7ae0f4701c0> a airo:Evidence ;
+    airo:evidenceText "Laith Kayat, a senior at Vanderbilt who is from Michigan and has a younger sister who attends MSU, told the student newspaper it was impersonal and lacked empathy." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/b9732c174798> a airo:Evidence ;
+    airo:evidenceText "Samuel Lu, a sophomore, told the paper he felt that using ChatGPT was disrespectful to gun violence victims." ;
+    airo:sourceDocId "2502" .
+
+<https://w3id.org/airo/incident/evidence/bcd3d62aa2a2> a airo:Evidence ;
+    airo:evidenceText "Credit to the student newspaper, though, whose reporting forced the university to respond." ;
+    airo:sourceDocId "2512" .
+
+<https://w3id.org/airo/incident/evidence/cbbc5099b082> a airo:Evidence ;
+    airo:evidenceText "The 43-year-old man accused of killing three and wounding five in a shooting at Michigan State University before turning the gun on himself was found with a note detailing threats to two other schools, authorities say." ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/dc3453f84bfc> a airo:Evidence ;
+    airo:evidenceText "In the statement announcing Joseph and Mohyuddin would step back, Peabody College's dean of education and human development, Camilla P. Benbow, said she was \"deeply troubled that a communication from my administration so missed the crucial need for personal connection and empathy during a time of tragedy.\"" ;
+    airo:sourceDocId "2516" .
+
+<https://w3id.org/airo/incident/evidence/f7b1280aa9da> a airo:Evidence ;
+    airo:evidenceText "The university is now apologizing for the AI-written letter, calling it “poor judgment,” according to The Vanderbilt Hustler, the student newspaper." ;
+    airo:sourceDocId "2514" .
+
+<https://w3id.org/airo/incident/evidence/ff920c060c16> a airo:Evidence ;
+    airo:evidenceText "In a follow-up email, cited by student newspaper The Vanderbilt Hustler, an associate dean at Peabody apologized for \"poor judgement.\"" ;
+    airo:sourceDocId "2503" .
+
+<https://w3id.org/airo/incident/evidence/a00bfaf12b83> a airo:Evidence ;
+    airo:evidenceText "At the bottom of the email was a note stating, “Paraphrase from OpenAI’s ChatGPT.”" ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/fdd0dd7ae102> a airo:Evidence ;
+    airo:evidenceText "In a statement, Peabody College’s dean of education and human development, Camilla P. Benbow, said her office would be reviewing what happened before the email was sent." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/evidence/651dc3cffc95> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University staff have apologized for using ChatGPT to write a condolence email in the wake of the Michigan State University shooting that saw three students murdered." ;
+    airo:sourceDocId "2504" .
+
+<https://w3id.org/airo/incident/evidence/cdcf7fa8f906> a airo:Evidence ;
+    airo:evidenceText "Nicole Joseph, associate dean of Peabody College’s Office of Equity, Diversity and Inclusion, and Hasina Mohyuddin, assistant dean of the office, will temporarily step back from their positions, according to a Feb. 18 email to the Peabody community." ;
+    airo:sourceDocId "2511" .
+
+<https://w3id.org/airo/incident/evidence/363eaeef365d> a airo:Evidence ;
+    airo:evidenceText "Staff members at Vanderbilt University sent an email to students using text generated by artificial intelligence to respond to the shooting at Michigan State University that killed three students." ;
+    airo:sourceDocId "2508" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_18> a airo:AIRiskIncident ;
+    rdfs:label "Vanderbilt Responds to MSU Shooting Using ChatGPT" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/452113a01aff> ;
+    airo:hasDescription "pred_18" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/71d2e71c15ac>,
+        <https://w3id.org/airo/incident/Domain/a9e05e416c54>,
+        <https://w3id.org/airo/incident/evidence/044c402ff987>,
+        <https://w3id.org/airo/incident/evidence/1f1b127b87d8>,
+        <https://w3id.org/airo/incident/evidence/344abf7fc412>,
+        <https://w3id.org/airo/incident/evidence/8e4952d75702>,
+        <https://w3id.org/airo/incident/evidence/bb1e9e33e5d3> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/60ff210e13bf> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2502>,
+        <https://w3id.org/airo/incident/NewsReport/2503>,
+        <https://w3id.org/airo/incident/NewsReport/2504>,
+        <https://w3id.org/airo/incident/NewsReport/2505>,
+        <https://w3id.org/airo/incident/NewsReport/2506>,
+        <https://w3id.org/airo/incident/NewsReport/2507>,
+        <https://w3id.org/airo/incident/NewsReport/2508>,
+        <https://w3id.org/airo/incident/NewsReport/2509>,
+        <https://w3id.org/airo/incident/NewsReport/2510>,
+        <https://w3id.org/airo/incident/NewsReport/2511>,
+        <https://w3id.org/airo/incident/NewsReport/2512>,
+        <https://w3id.org/airo/incident/NewsReport/2513>,
+        <https://w3id.org/airo/incident/NewsReport/2514>,
+        <https://w3id.org/airo/incident/NewsReport/2515>,
+        <https://w3id.org/airo/incident/NewsReport/2516>,
+        <https://w3id.org/airo/incident/NewsReport/2517>,
+        <https://w3id.org/airo/incident/NewsReport/2518>,
+        <https://w3id.org/airo/incident/NewsReport/2531>,
+        <https://w3id.org/airo/incident/NewsReport/2532>,
+        <https://w3id.org/airo/incident/NewsReport/2533> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/679aca0e0cb5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2532>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/881932b2654f> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/067c7238ff14>,
+        <https://w3id.org/airo/incident/Stakeholder/3584c565c511>,
+        <https://w3id.org/airo/incident/Stakeholder/446037e067b9>,
+        <https://w3id.org/airo/incident/Stakeholder/4469ece752a8>,
+        <https://w3id.org/airo/incident/Stakeholder/4d1a6b8389e6>,
+        <https://w3id.org/airo/incident/Stakeholder/56b32a071e51>,
+        <https://w3id.org/airo/incident/Stakeholder/68a2db202468>,
+        <https://w3id.org/airo/incident/Stakeholder/72e182f8a202>,
+        <https://w3id.org/airo/incident/Stakeholder/76cea489befa>,
+        <https://w3id.org/airo/incident/Stakeholder/90fea511c414>,
+        <https://w3id.org/airo/incident/Stakeholder/926f7a5dd906>,
+        <https://w3id.org/airo/incident/Stakeholder/92b7be958a78>,
+        <https://w3id.org/airo/incident/Stakeholder/9aa3d89551c8>,
+        <https://w3id.org/airo/incident/Stakeholder/a498aa6d4043>,
+        <https://w3id.org/airo/incident/Stakeholder/a72eaaa9924d>,
+        <https://w3id.org/airo/incident/Stakeholder/b3bbbbbf70a0>,
+        <https://w3id.org/airo/incident/Stakeholder/b479831196f7>,
+        <https://w3id.org/airo/incident/Stakeholder/b997b444349b>,
+        <https://w3id.org/airo/incident/Stakeholder/d8e22d4da07a>,
+        <https://w3id.org/airo/incident/Stakeholder/ed2daef9820f> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/568418016148> .
+
+<https://w3id.org/airo/incident/evidence/0a6e62433851> a airo:Evidence ;
+    airo:evidenceText "Vanderbilt University's education school has apologized after sending a condolence message to staff and students regarding a recent shooting at Michigan State University that was drafted by ChatGPT, the artificial intelligence-powered chat bot." ;
+    airo:sourceDocId "2505" .
+
+<https://w3id.org/airo/incident/AISystem/881932b2654f> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/06721e5b2539>,
+        <https://w3id.org/airo/incident/AICapability/3b9e7b524899>,
+        <https://w3id.org/airo/incident/AICapability/d474b42997de>,
+        <https://w3id.org/airo/incident/AICapability/f8c5088f0acc>,
+        <https://w3id.org/airo/incident/Purpose/32b0651df396> ;
+    airo:hasDescription "ChatGPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a6e62433851>,
+        <https://w3id.org/airo/incident/evidence/0f2bede1d218>,
+        <https://w3id.org/airo/incident/evidence/224b619b8d2c>,
+        <https://w3id.org/airo/incident/evidence/238e76a76f17>,
+        <https://w3id.org/airo/incident/evidence/3f5cb5b49cb1>,
+        <https://w3id.org/airo/incident/evidence/40985ccd4439>,
+        <https://w3id.org/airo/incident/evidence/5cb7272d0023>,
+        <https://w3id.org/airo/incident/evidence/5ea5b44f2cce>,
+        <https://w3id.org/airo/incident/evidence/651dc3cffc95>,
+        <https://w3id.org/airo/incident/evidence/69d5e91c7fce>,
+        <https://w3id.org/airo/incident/evidence/6ca0e38e7f73>,
+        <https://w3id.org/airo/incident/evidence/7315d87ba110>,
+        <https://w3id.org/airo/incident/evidence/7469f6fb342c>,
+        <https://w3id.org/airo/incident/evidence/7f6b3ce3a9e7>,
+        <https://w3id.org/airo/incident/evidence/8815fe66ed75>,
+        <https://w3id.org/airo/incident/evidence/8dae487415cb>,
+        <https://w3id.org/airo/incident/evidence/a00bfaf12b83>,
+        <https://w3id.org/airo/incident/evidence/a037500642dc>,
+        <https://w3id.org/airo/incident/evidence/a03d47b75186>,
+        <https://w3id.org/airo/incident/evidence/b0b1db1f4a15>,
+        <https://w3id.org/airo/incident/evidence/dbd248be9f79>,
+        <https://w3id.org/airo/incident/evidence/dfa67e8b8cc3>,
+        <https://w3id.org/airo/incident/evidence/ef7ef84232d3>,
+        <https://w3id.org/airo/incident/evidence/f9f9875de5d8>,
+        <https://w3id.org/airo/incident/evidence/ff6fcdc9a22d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2502>,
+        <https://w3id.org/airo/incident/document/2503>,
+        <https://w3id.org/airo/incident/document/2504>,
+        <https://w3id.org/airo/incident/document/2505>,
+        <https://w3id.org/airo/incident/document/2506>,
+        <https://w3id.org/airo/incident/document/2507>,
+        <https://w3id.org/airo/incident/document/2508>,
+        <https://w3id.org/airo/incident/document/2509>,
+        <https://w3id.org/airo/incident/document/2510>,
+        <https://w3id.org/airo/incident/document/2511>,
+        <https://w3id.org/airo/incident/document/2512>,
+        <https://w3id.org/airo/incident/document/2513>,
+        <https://w3id.org/airo/incident/document/2514>,
+        <https://w3id.org/airo/incident/document/2515>,
+        <https://w3id.org/airo/incident/document/2516>,
+        <https://w3id.org/airo/incident/document/2517>,
+        <https://w3id.org/airo/incident/document/2518>,
+        <https://w3id.org/airo/incident/document/2531>,
+        <https://w3id.org/airo/incident/document/2532>,
+        <https://w3id.org/airo/incident/document/2533> ;
+    airo:hasSupportCount 20 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/da296ad12bd9> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/ce57975413a5> .
+

@@ -1,0 +1,2730 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/9ddcff2355d3> a airo:ComplianceRequirement ;
+    rdfs:label "targets must comply with international law" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/456d5e492cc5> ;
+    airo:hasReasoning "The evidence indicates a compliance requirement for target identification to adhere to international law." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> .
+
+<https://w3id.org/airo/incident/InformationSource/3453ad1de677> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5945>,
+        <https://w3id.org/airo/incident/NewsReport/5946>,
+        <https://w3id.org/airo/incident/NewsReport/5948>,
+        <https://w3id.org/airo/incident/NewsReport/7536>,
+        <https://w3id.org/airo/incident/NewsReport/7570> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7536>,
+        <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/InformationSource/9d5992720143> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/3620>,
+        <https://w3id.org/airo/incident/NewsReport/3621>,
+        <https://w3id.org/airo/incident/NewsReport/3641>,
+        <https://w3id.org/airo/incident/NewsReport/3651>,
+        <https://w3id.org/airo/incident/NewsReport/3656> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656> .
+
+<https://w3id.org/airo/incident/RiskControl/fac096c8021d> a airo:RiskControl ;
+    rdfs:label "International legal scrutiny and political pressure for operational changes" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/827d86d7737f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/f8e51c5ca0cd> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1555f21535f7> a airo:RoleAssignment ;
+    rdfs:label "International Criminal Court_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d2b435e9329> ;
+    airo:hasReasoning "The International Criminal Court prosecutes individuals for international crimes and is listed as a stakeholder, implying a regulatory/legal oversight role in potential war crimes investigations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/523b9d3c1141> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2bf85e8edfb1> a airo:RoleAssignment ;
+    rdfs:label "Yuval Abraham_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b34dc8b740d0> ;
+    airo:hasReasoning "The evidence shows Yuval Abraham is a journalist who received testimony and published the report, making him an investigative stakeholder in the story." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0c3320820d42> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3dd530fb171d> a airo:RoleAssignment ;
+    rdfs:label "International Court of Justice_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/292fc90ec713> ;
+    airo:hasReasoning "The International Court of Justice is the principal judicial organ of the UN and is listed as a stakeholder, implying a regulatory/legal oversight role in matters of international law." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/16fbf4fb9bb0> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/4713d0cc8753> a airo:RoleAssignment ;
+    rdfs:label "International Crisis Group_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f515f6f4cb3> ;
+    airo:hasReasoning "The International Crisis Group is listed as a stakeholder, likely as an analytical organization commenting on the conflict, but the provided evidence does not specify its actions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/28e8b5f4a6a8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/4a140b06de50> a airo:RoleAssignment ;
+    rdfs:label "Unit 8200_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/34e122d61a4c> ;
+    airo:hasReasoning "The evidence explicitly states Unit 8200 developed the Lavender system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61163b54fec6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/4caede8f8110> a airo:RoleAssignment ;
+    rdfs:label "Palestinian Islamic Jihad_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90448fbcaacb> ;
+    airo:hasReasoning "The evidence shows Palestinian Islamic Jihad operatives are the primary targets identified by the system for bombing, making them directly affected." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9a361b31cace> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/4cb4407cc8c1> a airo:RoleAssignment ;
+    rdfs:label "Local Call_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21901afe09be> ;
+    airo:hasReasoning "The evidence shows Local Call conducted the joint investigation and revealed the use of the AI system, making them an investigative stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/85c563d3f96d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/537a668f5ab5> a airo:RoleAssignment ;
+    rdfs:label "+972 Magazine_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bee426a5b7d> ;
+    airo:hasReasoning "The evidence shows +972 Magazine conducted the joint investigation and revealed the use of the AI system, making them an investigative stakeholder." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0ee4ea1e4450> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/696aeea1ef0c> a airo:RoleAssignment ;
+    rdfs:label "Israel Defense Forces_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/346ffd5fbdd3> ;
+    airo:hasReasoning "The evidence explicitly states Lavender was 'developed by' the Israel Defense Forces' elite intelligence division, making the IDF the developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/178953143007> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d7c5cdfad16> a airo:RoleAssignment ;
+    rdfs:label "Amnesty International_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19be349ca398> ;
+    airo:hasReasoning "Amnesty International is listed as a stakeholder, likely commenting on the human rights implications of the AI targeting system, but the provided evidence does not specify its actions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2746b22f8e40> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7f9b90fc103f> a airo:RoleAssignment ;
+    rdfs:label "Israel Defense Forces_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c5f76d2397e> ;
+    airo:hasReasoning "The evidence shows the IDF 'made use of' the Lavender program, indicating they deployed and operated it." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/178953143007> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9b4df40b20d4> a airo:RoleAssignment ;
+    rdfs:label "Palestinian Health Ministry in Gaza_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a9f39a59329> ;
+    airo:hasReasoning "The Palestinian Health Ministry is a stakeholder that reports on casualties, which would be impacted by the use of the targeting system, but the evidence does not show it performing a more specific role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3656> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0c8724bc9eac> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cc4804639075> a airo:RoleAssignment ;
+    rdfs:label "Hamas_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/646202e66815> ;
+    airo:hasReasoning "The evidence shows Hamas operatives are the primary targets identified by the system for bombing, making them directly affected." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1ae90dbdbf98> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cc99528037af> a airo:RoleAssignment ;
+    rdfs:label "United Nations_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3bfce0f02fa> ;
+    airo:hasReasoning "The mention of 'international law' and the listing of the UN as a stakeholder implies a regulatory oversight role regarding compliance with such laws." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/604e73a21c4a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f48b28d24285> a airo:RoleAssignment ;
+    rdfs:label "World Central Kitchen_AffectedActor" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/730e745ea445> ;
+    airo:hasReasoning "World Central Kitchen is listed as a stakeholder, and the evidence describes the system being used to target civilian homes. As an organization operating in Gaza, it is inferred to be among those potentially affected by such targeting." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5948> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2626e017c810> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b> .
+
+<https://w3id.org/airo/incident/Trend/d629f072b8bb> a airo:Trend ;
+    rdfs:label "increasing use of AI in military targeting operations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03f11ab44a90> ;
+    airo:hasReasoning "The evidence describes a real-world case of a military using AI to identify bombing targets, indicating a trend of AI adoption in military targeting." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> .
+
+<https://w3id.org/airo/incident/event/pred_76> a airo:AIRiskIncident ;
+    airo:firstSeen "2024-04-03T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 10 ;
+    airo:lastSeen "2024-04-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/01d4adc239d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eaa1f7bfd0d> .
+
+<https://w3id.org/airo/incident/ks/02762e33e035> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/04966dd9cc3b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84c7d1daf1bc> .
+
+<https://w3id.org/airo/incident/ks/05bde2579852> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/07d5659e75b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61374490b43b> .
+
+<https://w3id.org/airo/incident/ks/07e915ac6455> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6240bd7c0a00> .
+
+<https://w3id.org/airo/incident/ks/081bcd9511b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0d654ac974> .
+
+<https://w3id.org/airo/incident/ks/0a71a45d6c83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62b242cb8268> .
+
+<https://w3id.org/airo/incident/ks/0b16bfebd4cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/0f215468926a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/123f2b9e2dcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2dc58298d26b> .
+
+<https://w3id.org/airo/incident/ks/1244fc8c8cd6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b6622ddee40> .
+
+<https://w3id.org/airo/incident/ks/14913b1ef352> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3430497a15> .
+
+<https://w3id.org/airo/incident/ks/1709350c9311> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab8a34261a1d> .
+
+<https://w3id.org/airo/incident/ks/1840a098e879> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ac6c5aa560> .
+
+<https://w3id.org/airo/incident/ks/1a5680937626> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42> .
+
+<https://w3id.org/airo/incident/ks/1b580ddb7dad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/1e2616522e30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/1e5d60c46c49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a87d3d3a0692> .
+
+<https://w3id.org/airo/incident/ks/1e942fa75056> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/1f17ecc54b5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/1f2546306b17> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68c498cde124> .
+
+<https://w3id.org/airo/incident/ks/1ff41e64028d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ac6c5aa560> .
+
+<https://w3id.org/airo/incident/ks/20b970f2e2f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c6adec5aca2> .
+
+<https://w3id.org/airo/incident/ks/20dae1467f7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d143280e6e> .
+
+<https://w3id.org/airo/incident/ks/21be019b2077> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc41049c1186> .
+
+<https://w3id.org/airo/incident/ks/22f9ead6f77e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/23b0b81c72c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/24c0035c2fc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c7baf00756b> .
+
+<https://w3id.org/airo/incident/ks/260e7ff3c8d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/26fc2f806ce5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/27f2ec6a0a95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58de96daa0ee> .
+
+<https://w3id.org/airo/incident/ks/285ea342e5fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/642c1d4a325a> .
+
+<https://w3id.org/airo/incident/ks/287435a1e2a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/288f3f4548bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59898837a4e4> .
+
+<https://w3id.org/airo/incident/ks/2a7d88d49903> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/2b587fbeaa58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46bb1ca6995b> .
+
+<https://w3id.org/airo/incident/ks/2b6872f1b950> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/2c73d4ec0410> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a119b60f1941> .
+
+<https://w3id.org/airo/incident/ks/2e41fbafe635> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07081fdc56c5> .
+
+<https://w3id.org/airo/incident/ks/32058fd83d00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b86ac6495274> .
+
+<https://w3id.org/airo/incident/ks/331af64fb463> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/3337a6ecf0d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/339d6e473e37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b294ed07cbca> .
+
+<https://w3id.org/airo/incident/ks/33c1d44c1786> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42> .
+
+<https://w3id.org/airo/incident/ks/36dcd5d3ebfd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc41049c1186> .
+
+<https://w3id.org/airo/incident/ks/36eaaba50ec5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc47593062ee> .
+
+<https://w3id.org/airo/incident/ks/378801127396> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> .
+
+<https://w3id.org/airo/incident/ks/38b69e45c994> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0b1dd1232b3> .
+
+<https://w3id.org/airo/incident/ks/39053e9b62e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/3948e5a5f32d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e868c4c958e4> .
+
+<https://w3id.org/airo/incident/ks/3ddd82e47243> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58de96daa0ee> .
+
+<https://w3id.org/airo/incident/ks/40963e6004f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ded05c5647ec> .
+
+<https://w3id.org/airo/incident/ks/409a4dc2bd86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/40ee9f8c79ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/423bfd5992c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/deb7dc879aa7> .
+
+<https://w3id.org/airo/incident/ks/438b3228c60a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b42ef005f4db> .
+
+<https://w3id.org/airo/incident/ks/4421a88f0b49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/44bf3273fcbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b1a3525c07e> .
+
+<https://w3id.org/airo/incident/ks/45d18326032f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/46075cb43d7e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/4965165b8c75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07081fdc56c5> .
+
+<https://w3id.org/airo/incident/ks/4a2eb9f15ff0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/4a7106b354eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/4c69f80dddea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/4e90c5712745> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/827d86d7737f> .
+
+<https://w3id.org/airo/incident/ks/4ebee69773bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3430497a15> .
+
+<https://w3id.org/airo/incident/ks/4fc9439863ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/51450c41c522> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e868c4c958e4> .
+
+<https://w3id.org/airo/incident/ks/514f48eed7ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b1e425fbde2> .
+
+<https://w3id.org/airo/incident/ks/52b0d39766d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f93337c7d333> .
+
+<https://w3id.org/airo/incident/ks/5467d7e244e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> .
+
+<https://w3id.org/airo/incident/ks/551d6342a0ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/555dbeb51c0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/55b54d6dd5cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/55ed9dbe726e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58de96daa0ee> .
+
+<https://w3id.org/airo/incident/ks/5673bd3f8d61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/57f42d9c9a0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f051f020431a> .
+
+<https://w3id.org/airo/incident/ks/586e85272d3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/587950b49ade> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e868c4c958e4> .
+
+<https://w3id.org/airo/incident/ks/59eecbf33989> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46bb1ca6995b> .
+
+<https://w3id.org/airo/incident/ks/5b49a053eb84> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> .
+
+<https://w3id.org/airo/incident/ks/5be3f82c5eae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76da46dc41ff> .
+
+<https://w3id.org/airo/incident/ks/5ce4fc6531c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/5cf008ab72d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84c7d1daf1bc> .
+
+<https://w3id.org/airo/incident/ks/5e6ac63754ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de7bfdb26d01> .
+
+<https://w3id.org/airo/incident/ks/5e958a470fa6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59898837a4e4> .
+
+<https://w3id.org/airo/incident/ks/5f24f416c1a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b294ed07cbca> .
+
+<https://w3id.org/airo/incident/ks/6071d568f724> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ac6c5aa560> .
+
+<https://w3id.org/airo/incident/ks/65a30bde0f2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/83b09cb1510d> .
+
+<https://w3id.org/airo/incident/ks/6914e61537fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b42ef005f4db> .
+
+<https://w3id.org/airo/incident/ks/69b49edefa48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ded05c5647ec> .
+
+<https://w3id.org/airo/incident/ks/6a9dff1212b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fb158135bca> .
+
+<https://w3id.org/airo/incident/ks/6b10dec3cbc1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e88f3954e4> .
+
+<https://w3id.org/airo/incident/ks/6b5732d969fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e5686661e3> .
+
+<https://w3id.org/airo/incident/ks/6c48098f5a6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc47593062ee> .
+
+<https://w3id.org/airo/incident/ks/6e8f02547f36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/6ec2a00ac295> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ddfbe00430d0> .
+
+<https://w3id.org/airo/incident/ks/6fa058452462> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a0de57d7a0e> .
+
+<https://w3id.org/airo/incident/ks/6ff471f04910> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42> .
+
+<https://w3id.org/airo/incident/ks/7150b223f89c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/71d956af2744> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b1e425fbde2> .
+
+<https://w3id.org/airo/incident/ks/7341feeaec32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ba8821fbf49> .
+
+<https://w3id.org/airo/incident/ks/737e689aadc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e6f91b97ef4> .
+
+<https://w3id.org/airo/incident/ks/74ee5dc6145f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20eb8711ec18> .
+
+<https://w3id.org/airo/incident/ks/760abd175b42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/76ea02e86d51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e473785b9eb5> .
+
+<https://w3id.org/airo/incident/ks/7785a07bfb00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d347d70e12cf> .
+
+<https://w3id.org/airo/incident/ks/7812e1f93c4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b00e9f57267> .
+
+<https://w3id.org/airo/incident/ks/78274ea972f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/7994e252d694> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/642c1d4a325a> .
+
+<https://w3id.org/airo/incident/ks/7aaa51e93959> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/7e754adaa3d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/82359058a398> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> .
+
+<https://w3id.org/airo/incident/ks/82f43d61af16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fbe5bf7e84b8> .
+
+<https://w3id.org/airo/incident/ks/831eadfd114c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ba8821fbf49> .
+
+<https://w3id.org/airo/incident/ks/840596453778> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/842943eacbf4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68e0e1083299> .
+
+<https://w3id.org/airo/incident/ks/8525454c4ae4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/87b517f54973> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/557f3093a886> .
+
+<https://w3id.org/airo/incident/ks/8acb0056bea0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/8b26fc5ca707> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2a62e5af7f1> .
+
+<https://w3id.org/airo/incident/ks/8dc36f20f43b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e5686661e3> .
+
+<https://w3id.org/airo/incident/ks/8e492e88d533> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5753a72716a7> .
+
+<https://w3id.org/airo/incident/ks/8ec52bfca8db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de7bfdb26d01> .
+
+<https://w3id.org/airo/incident/ks/8f794f23dc45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/90cc14e5c2b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b42ef005f4db> .
+
+<https://w3id.org/airo/incident/ks/91d1055c5ca0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc41049c1186> .
+
+<https://w3id.org/airo/incident/ks/934c88a6fa60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/94a0aeb565ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/642c1d4a325a> .
+
+<https://w3id.org/airo/incident/ks/96c92cfb5c79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1ca035456e> .
+
+<https://w3id.org/airo/incident/ks/9729e6244498> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/97c681b14523> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b1e425fbde2> .
+
+<https://w3id.org/airo/incident/ks/98371abb2dc2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/9920730af080> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0b875c0cd04> .
+
+<https://w3id.org/airo/incident/ks/9a4859dd8f14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/9a7b1007bfcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/9c217faa5bbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/9d4b89485ba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/95426bdb15dc> .
+
+<https://w3id.org/airo/incident/ks/9d626be113ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> .
+
+<https://w3id.org/airo/incident/ks/9e21e278cb74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e990973f3d82> .
+
+<https://w3id.org/airo/incident/ks/9e76f4af5845> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84c7d1daf1bc> .
+
+<https://w3id.org/airo/incident/ks/9efef9c3e542> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3b7ab0f9a16> .
+
+<https://w3id.org/airo/incident/ks/a1630b9a0c6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/a56483c46153> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> .
+
+<https://w3id.org/airo/incident/ks/a934742d6c1b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3430497a15> .
+
+<https://w3id.org/airo/incident/ks/a952d1ca6327> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b13b83c2d9b> .
+
+<https://w3id.org/airo/incident/ks/aaa91ee1b48e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59898837a4e4> .
+
+<https://w3id.org/airo/incident/ks/aab9b07dd5d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdf6e9ec38c> .
+
+<https://w3id.org/airo/incident/ks/ac50d800acc6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d143280e6e> .
+
+<https://w3id.org/airo/incident/ks/ac77b259a069> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6908f1265038> .
+
+<https://w3id.org/airo/incident/ks/acad816198ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b2b9bb39a90> .
+
+<https://w3id.org/airo/incident/ks/ad4a20a6a162> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec3b0b6dab74> .
+
+<https://w3id.org/airo/incident/ks/ae5e26cc8113> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7ef3816706f> .
+
+<https://w3id.org/airo/incident/ks/ae82d0e49593> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0899da3f819> .
+
+<https://w3id.org/airo/incident/ks/af874600c3c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/af98273c1090> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5135c49200c1> .
+
+<https://w3id.org/airo/incident/ks/af9e5cd24f29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1ca035456e> .
+
+<https://w3id.org/airo/incident/ks/b02eb285f48b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/b30c45daf5f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/b3294b977c54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3430497a15> .
+
+<https://w3id.org/airo/incident/ks/b999a7c71312> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726d0d42207f> .
+
+<https://w3id.org/airo/incident/ks/bb334b37f16b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84c7d1daf1bc> .
+
+<https://w3id.org/airo/incident/ks/bc2b168eab35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/bd4d9f4d57f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42> .
+
+<https://w3id.org/airo/incident/ks/bdf70e554a68> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e5686661e3> .
+
+<https://w3id.org/airo/incident/ks/be4e741342fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/202ddec8a74c> .
+
+<https://w3id.org/airo/incident/ks/c009e0e56d3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58de96daa0ee> .
+
+<https://w3id.org/airo/incident/ks/c04af6e0372f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e868c4c958e4> .
+
+<https://w3id.org/airo/incident/ks/c2403fb31ed0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/c33501b9b688> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/c64908414ef7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b4561d8aade> .
+
+<https://w3id.org/airo/incident/ks/c798088eb29b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59898837a4e4> .
+
+<https://w3id.org/airo/incident/ks/c88ccfdc3205> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4dd7e9b65f57> .
+
+<https://w3id.org/airo/incident/ks/ca623c5b7aa4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29f18a45ab2c> .
+
+<https://w3id.org/airo/incident/ks/cac5c79a33fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/712ee0db76a2> .
+
+<https://w3id.org/airo/incident/ks/cacde8a4fa07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7910e65c0a58> .
+
+<https://w3id.org/airo/incident/ks/cb2f735b66de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> .
+
+<https://w3id.org/airo/incident/ks/cc3cf3a024aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f3430497a15> .
+
+<https://w3id.org/airo/incident/ks/cd4914f3932c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/557f3093a886> .
+
+<https://w3id.org/airo/incident/ks/cdc959f17624> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e5233895354d> .
+
+<https://w3id.org/airo/incident/ks/ce005dd4a9f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/557f3093a886> .
+
+<https://w3id.org/airo/incident/ks/cf3063c2f589> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0d654ac974> .
+
+<https://w3id.org/airo/incident/ks/cf5140e24e8f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d24290f4b4dd> .
+
+<https://w3id.org/airo/incident/ks/cf7356fcdde3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8f1b9082255> .
+
+<https://w3id.org/airo/incident/ks/d02bae2bf0e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/d42ffff2b714> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/642c1d4a325a> .
+
+<https://w3id.org/airo/incident/ks/d5af3fcb9127> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1ca035456e> .
+
+<https://w3id.org/airo/incident/ks/d646124859a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e473785b9eb5> .
+
+<https://w3id.org/airo/incident/ks/d9449dbd5c29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/da209e8af00e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/da8526c47b99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc47593062ee> .
+
+<https://w3id.org/airo/incident/ks/db8f08a6481d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ac6c5aa560> .
+
+<https://w3id.org/airo/incident/ks/dd45a929dc00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1ca035456e> .
+
+<https://w3id.org/airo/incident/ks/de7d8df1735d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc41049c1186> .
+
+<https://w3id.org/airo/incident/ks/e05c94a58b73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> .
+
+<https://w3id.org/airo/incident/ks/e06140b0a33d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc47593062ee> .
+
+<https://w3id.org/airo/incident/ks/e1d95892dfa6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b645caf4527> .
+
+<https://w3id.org/airo/incident/ks/e51d53724545> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08b9690445eb> .
+
+<https://w3id.org/airo/incident/ks/e585608aa9cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/e6f5b4adf0ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76da46dc41ff> .
+
+<https://w3id.org/airo/incident/ks/e7fd9a6212c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/e8904adc64e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e5686661e3> .
+
+<https://w3id.org/airo/incident/ks/e9711005da06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/e9a7072cc1ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59b2c4efd0f7> .
+
+<https://w3id.org/airo/incident/ks/eb78789e6645> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/768f1a552f05> .
+
+<https://w3id.org/airo/incident/ks/ebad1fdf9dc0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/ec53d8928231> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/ee0a787ef4de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> .
+
+<https://w3id.org/airo/incident/ks/f0b0cd3c45c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b1e425fbde2> .
+
+<https://w3id.org/airo/incident/ks/f2447dab17b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0899da3f819> .
+
+<https://w3id.org/airo/incident/ks/f266a4402516> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b24e09085c> .
+
+<https://w3id.org/airo/incident/ks/f2cefa3bff65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a> .
+
+<https://w3id.org/airo/incident/ks/f40888336593> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b42ef005f4db> .
+
+<https://w3id.org/airo/incident/ks/f5cc06763db4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59a5fc430877> .
+
+<https://w3id.org/airo/incident/ks/f650c3840c6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc4c2a2aca7b> .
+
+<https://w3id.org/airo/incident/ks/faad261eb9d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8f1b9082255> .
+
+<https://w3id.org/airo/incident/ks/faae56c60d19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd9b7982134b> .
+
+<https://w3id.org/airo/incident/ks/fb49858add25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cf0ed06775b> .
+
+<https://w3id.org/airo/incident/ks/fc2e71ff8f8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80d1afa3df4d> .
+
+<https://w3id.org/airo/incident/ks/fd359ddb2435> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c6fe64ac67a6> .
+
+<https://w3id.org/airo/incident/ks/fe1aa670ed8a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/557f3093a886> .
+
+<https://w3id.org/airo/incident/ks/ff03ac253faa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da1438c94f2d> .
+
+<https://w3id.org/airo/incident/AICapability/0824b32171c3> a airo:AICapability ;
+    rdfs:label "track targeted individuals" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "track the targeted individuals" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8f1b9082255> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/AICapability/17447bf16a44> a airo:AICapability ;
+    rdfs:label "ranking" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ranking of 1 to 100" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e990973f3d82> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/AICapability/1b0aa9612009> a airo:AICapability ;
+    rdfs:label "select suspected Hamas and other militant targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "select suspected Hamas and other militant targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0d654ac974> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/AICapability/30d80277ef6c> a airo:AICapability ;
+    rdfs:label "identify characteristics" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identify characteristics" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76da46dc41ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/AICapability/57a90b02fc49> a airo:AICapability ;
+    rdfs:label "predict whether a person is a terrorist" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "predict whether a person is a terrorist" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d143280e6e>,
+        <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3651> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/7356a5f54753> a airo:AICapability ;
+    rdfs:label "mark suspected operatives as targets" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab8a34261a1d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/AICapability/7e0ed285f577> a airo:AICapability ;
+    rdfs:label "identifies terrorist operatives" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identifies terrorist operatives" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23d143280e6e>,
+        <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3651> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/90f58893586b> a airo:AICapability ;
+    rdfs:label "identify junior operatives to target" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "processing huge troves of data to quickly identify “junior” operatives to target" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da1438c94f2d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/AICapability/9383f680f0e8> a airo:AICapability ;
+    rdfs:label "generate database of individuals with militant characteristics" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generated a database of individuals believed to have ‘militant’ characteristics" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/202ddec8a74c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/AICapability/958f650647d3> a airo:AICapability ;
+    rdfs:label "assess and rank likelihood of militant activity" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "assesses and ranks the likelihood that each particular person is active in the military wing of Hamas or PIJ" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ded05c5647ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/AICapability/9c18822ad6e4> a airo:AICapability ;
+    rdfs:label "identify potential targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identify 37,000 potential targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62b242cb8268> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641> .
+
+<https://w3id.org/airo/incident/AICapability/a20e8ac1995f> a airo:AICapability ;
+    rdfs:label "mark buildings and structures" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "marks buildings and structures that the army claims militants operate from" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46bb1ca6995b>,
+        <https://w3id.org/airo/incident/evidence/e473785b9eb5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/ad3c6aa193e6> a airo:AICapability ;
+    rdfs:label "generate a database of individuals" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate a database of individuals" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f051f020431a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641> .
+
+<https://w3id.org/airo/incident/AICapability/b98c4635b030> a airo:AICapability ;
+    rdfs:label "identify Hamas and PIJ targets" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identify Hamas and Palestinian Islamic Jihad (PIJ) targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a490fdb8821> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641> .
+
+<https://w3id.org/airo/incident/AICapability/bea633f819df> a airo:AICapability ;
+    rdfs:label "identify potential Hamas militants" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identify potential Hamas militants" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b2b9bb39a90> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/AICapability/c80a1cb400f0> a airo:AICapability ;
+    rdfs:label "mark people and create kill list" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "marks people — and puts them on a kill list" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/46bb1ca6995b>,
+        <https://w3id.org/airo/incident/evidence/e473785b9eb5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/d31b1861e81b> a airo:AICapability ;
+    rdfs:label "generate targets" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate thousands of potential “targets”" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ba8821fbf49>,
+        <https://w3id.org/airo/incident/evidence/f0b875c0cd04> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/d5f842147795> a airo:AICapability ;
+    rdfs:label "cross-referencing intelligence sources" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "cross-reference intelligence sources, in order to produce up-to-date layers of information on the military operatives of terrorist organisations" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b6622ddee40>,
+        <https://w3id.org/airo/incident/evidence/c6fe64ac67a6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/5946> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/e1098a2a843b> a airo:AICapability ;
+    rdfs:label "target identification" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "target identification process" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/AICapability/f8eb552bb20a> a airo:AICapability ;
+    rdfs:label "locate characteristics" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "locate these same characteristics" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76da46dc41ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/26c4dbb429cd> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68c498cde124> ;
+    airo:hasReasoning "The evidence describes the IDF 'made use of' the program in an operational context ('in the aftermath of the attacks'), indicating it was deployed and in active use." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/AITechnique/8a4ffc8d3872> a airo:AITechnique ;
+    rdfs:label "mass surveillance" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "mass surveillance" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20eb8711ec18>,
+        <https://w3id.org/airo/incident/evidence/ded05c5647ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/9a0a3111906a> a airo:AITechnique ;
+    rdfs:label "AI-powered database" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-powered database" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d0d654ac974> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/AITechnique/9a555edfd2d0> a airo:AITechnique ;
+    rdfs:label "machine learning" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "machine-learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7910e65c0a58>,
+        <https://w3id.org/airo/incident/evidence/bd9b7982134b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/5946> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/dc79e27d8c65> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e88f3954e4>,
+        <https://w3id.org/airo/incident/evidence/83b09cb1510d>,
+        <https://w3id.org/airo/incident/evidence/d3b7ab0f9a16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AffectedActor/aef6cc04e8ea> a airo:AffectedActor ;
+    rdfs:label "Palestinian civilians in Gaza" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6908f1265038> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/Documentation/87904f340605> a airo:Documentation ;
+    rdfs:label "investigative report" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a119b60f1941> ;
+    airo:hasReasoning "The evidence refers to a joint investigation that revealed the use of the AI system, which is a form of investigative documentation or reporting." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/Domain/3de5f8043a10> a airo:Domain ;
+    rdfs:label "military" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726d0d42207f> ;
+    airo:hasReasoning "The evidence explicitly mentions the system was used to identify targets 'in the war', placing its application in the military domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> .
+
+<https://w3id.org/airo/incident/Hazard/113f56f0b5ac> a airo:Hazard ;
+    rdfs:label "Lack of human oversight in AI-assisted target selection and bombing decisions" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b24e09085c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3656> .
+
+<https://w3id.org/airo/incident/Obligation/46bb88bcd28c> a airo:Obligation ;
+    rdfs:label "verify targets meet international law and IDF directives" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6240bd7c0a00> ;
+    airo:hasReasoning "The evidence describes an internal obligation imposed by the IDF on its analysts to verify targets against legal and directive standards." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> .
+
+<https://w3id.org/airo/incident/Purpose/8b76b0baf0ff> a airo:Purpose ;
+    rdfs:label "identify and generate potential military targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eaa1f7bfd0d> ;
+    airo:hasReasoning "The evidence directly states the system's formal design purpose is to mark suspected operatives as potential bombing targets." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/RiskSource/b8d884fec858> a airo:RiskSource ;
+    rdfs:label "AI system trained on biased or limited data to identify militant characteristics" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/f8e51c5ca0cd> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/68e0e1083299> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/113f56f0b5ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/22724e27c2c0> .
+
+<https://w3id.org/airo/incident/Stakeholder/021b370e18e3> a airo:Stakeholder ;
+    rdfs:label "Joe Biden" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Joe Biden" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0899da3f819> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/Stakeholder/195d7f1966bf> a airo:Stakeholder ;
+    rdfs:label "Haaretz" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Haaretz" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5753a72716a7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/Stakeholder/1c9859ce3472> a airo:Stakeholder ;
+    rdfs:label "Israel" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Israel" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ba8821fbf49>,
+        <https://w3id.org/airo/incident/evidence/768f1a552f05>,
+        <https://w3id.org/airo/incident/evidence/f93337c7d333> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/5945> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/1dcac15c0ddb> a airo:Stakeholder ;
+    rdfs:label "Benjamin Netanyahu" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Benjamin Netanyahu" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0899da3f819> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/Stakeholder/5379c19c3120> a airo:Stakeholder ;
+    rdfs:label "John Kirby" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "John Kirby" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b1a3525c07e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/Stakeholder/747174e0ea0c> a airo:Stakeholder ;
+    rdfs:label "The Guardian" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Guardian" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ddfbe00430d0>,
+        <https://w3id.org/airo/incident/evidence/deb7dc879aa7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/b8f108e0fbdd> a airo:Stakeholder ;
+    rdfs:label "Israeli Army (IDF)" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Israeli army" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdf6e9ec38c>,
+        <https://w3id.org/airo/incident/evidence/b7ef3816706f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Threat/22724e27c2c0> a airo:Threat ;
+    rdfs:label "Mass surveillance data collection on a large population used for AI training and targeting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fb158135bca> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/Vulnerability/a36f2342d237> a airo:Vulnerability ;
+    rdfs:label "AI system's known inaccuracy in distinguishing militants from civilians, yet relied upon for targeting" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2dc58298d26b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/evidence/03f11ab44a90> a airo:Evidence ;
+    airo:evidenceText "[7536] The Israeli military has been using artificial intelligence to help identify bombing targets in Gaza, according to an investigation by +972 Magazine and Local Call, citing six Israeli intelligence officials involved in the alleged program." ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/19be349ca398> a airo:Evidence ;
+    airo:evidenceText "[7536] The Israeli military has been using artificial intelligence to help identify bombing targets in Gaza, according to an investigation by +972 Magazine and Local Call, citing six Israeli intelligence officials involved in the alleged program." ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/1b00e9f57267> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/21901afe09be> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender..." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/292fc90ec713> a airo:Evidence ;
+    airo:evidenceText "[7536] The IDF said 'analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.'" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/346ffd5fbdd3> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/34e122d61a4c> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/3b13b83c2d9b> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/3bfc4d66f897> a airo:Evidence ;
+    airo:evidenceText "The AI tool's name? \"Lavender.\"" ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/3c5f76d2397e> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/44a84e28f18d> a airo:Evidence ;
+    airo:evidenceText "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza" ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/456d5e492cc5> a airo:Evidence ;
+    airo:evidenceText "[7536] The IDF said 'analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.'" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/4f2ad746b4c3> a airo:Evidence ;
+    airo:evidenceText "The program was developed, as per the joint investigation, by Israel Defense Forces’ elite intelligence division, Unit 8200." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/4f529dbc4150> a airo:Evidence ;
+    airo:evidenceText "The Lavender machine joins another AI system, “The Gospel,” about which information was revealed in a previous investigation by +972 and Local Call in November 2023, as well as in the Israeli military’s own publications." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/5931f6842f0a> a airo:Evidence ;
+    airo:evidenceText "In November, +972, along with the Hebrew publication Local Call, found that the I.D.F. had expanded the number of \"legitimate\" military targets." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/5bee426a5b7d> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender..." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/646202e66815> a airo:Evidence ;
+    airo:evidenceText "[7570] Formally, the Lavender system is designed to mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/6b4561d8aade> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/6f515f6f4cb3> a airo:Evidence ;
+    airo:evidenceText "[5945] The testimony from the six intelligence officers, all who have been involved in using AI systems to identify Hamas and Palestinian Islamic Jihad (PIJ) targets in the war, was given to the journalist Yuval Abraham for a report published by the Israeli-Palestinian publication +972 Magazine and the Hebrew-language outlet Local Call." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/72b60f0288c0> a airo:Evidence ;
+    airo:evidenceText "When asked about +972 Magazine’s report, Israel Defence Forces (IDF) did not dispute the existence of the tool but denied AI was being used to identify suspected terrorists." ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/730e745ea445> a airo:Evidence ;
+    airo:evidenceText "[5948] the Israel Defense Forces allegedly intentionally targeted civilian homes and allegedly used an AI-based programme called Lavender to generate targets for assassination" ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/7d2b435e9329> a airo:Evidence ;
+    airo:evidenceText "[7536] The IDF said 'analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.'" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/81a3e1a799fe> a airo:Evidence ;
+    airo:evidenceText "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report" ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/866c139c79c9> a airo:Evidence ;
+    airo:evidenceText "Lavender is the second AI system revealed after the existence of Israel’s The Gospel was first reported on last year." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/8a9f39a59329> a airo:Evidence ;
+    airo:evidenceText "[3656] The story revealed how the Israeli military had used the program to identify suspected militants, which in practice meant that tens of thousands of Palestinians had their homes marked as legitimate targets for bombing, with minimal human oversight." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/90448fbcaacb> a airo:Evidence ;
+    airo:evidenceText "[7570] Formally, the Lavender system is designed to mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/95426bdb15dc> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/9c6adec5aca2> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/9d206433cba8> a airo:Evidence ;
+    airo:evidenceText "\"We were not interested in killing [Hamas] operatives only when they were in a military building or engaged in a military activity,\" A., an intelligence officer, told +972 and Local Call. \"On the contrary, the IDF bombed them in homes without hesitation, as a first option.\"" ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/9e6f91b97ef4> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/ab53f38c6cec> a airo:Evidence ;
+    airo:evidenceText "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets" ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/b34dc8b740d0> a airo:Evidence ;
+    airo:evidenceText "[5945] The testimony from the six intelligence officers... was given to the journalist Yuval Abraham for a report published by the Israeli-Palestinian publication +972 Magazine and the Hebrew-language outlet Local Call." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/b86ac6495274> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/bc4c2a2aca7b> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/c7bede110887> a airo:Evidence ;
+    airo:evidenceText "Since the war began in Gaza, more than six months ago, the Israeli magazine +972 has published some of the most penetrating reporting on the Israel Defense Forces' conduct." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/cc0fd56b3db5> a airo:Evidence ;
+    airo:evidenceText "Israel offers a glimpse into the terrifying world of military AI" ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/d347d70e12cf> a airo:Evidence ;
+    airo:evidenceText "[5945] Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/d3bfce0f02fa> a airo:Evidence ;
+    airo:evidenceText "[7536] The IDF said 'analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.'" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/e39282b7c6e0> a airo:Evidence ;
+    airo:evidenceText "The Lavender machine joins another AI system, \"The Gospel,\" about which information was revealed in a previous investigation by +972 and Local Call in November 2023, as well as in the Israeli military's own publications." ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/ed0ef7b455f7> a airo:Evidence ;
+    airo:evidenceText "Inside Israel’s Bombing Campaign in Gaza" ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/Consequence/2977bb500aa6> a airo:Consequence ;
+    rdfs:label "Generation of a large-scale kill list of individuals for bombing, including those in their family homes" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b294ed07cbca> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/7358d4f0ce85> .
+
+<https://w3id.org/airo/incident/Impact/7358d4f0ce85> a airo:Impact ;
+    rdfs:label "High number of civilian casualties in bombing campaigns" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/aef6cc04e8ea> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07081fdc56c5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641> .
+
+<https://w3id.org/airo/incident/NewsReport/3620> a airo:NewsReport ;
+    rdfs:label "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "In 2021, a [book](https://books.google.co.il/books/about/The_Human_Machine_Team_How_to_Create_Syn.html?id=hjl1zgEACAAJ&redir_esc=y) titled \"The Human-Machine Team: How to Create Synergy Between Human " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c7baf00756b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620> .
+
+<https://w3id.org/airo/incident/NewsReport/3621> a airo:NewsReport ;
+    rdfs:label "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Israel has been using an artificial intelligence system called Lavender to create a “kill list” of at least 37,000 people in Gaza, according to a new report from Israel’s [+972](https://www.972mag.com" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08b9690445eb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/NewsReport/3641> a airo:NewsReport ;
+    rdfs:label "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Israeli military's bombing campaign in [Gaza](https://www.theguardian.com/world/gaza) used a previously undisclosed AI-powered database that at one stage identified 37,000 potential targets based " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59b2c4efd0f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641> .
+
+<https://w3id.org/airo/incident/NewsReport/3651> a airo:NewsReport ;
+    rdfs:label "Israel offers a glimpse into the terrifying world of military AI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "It's hard to concoct a more airy sobriquet than this one. A new report published by [+972 magazine and Local Call ](https://www.972mag.com/lavender-ai-israeli-army-gaza/)indicates that Israel has alle" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29f18a45ab2c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/NewsReport/3656> a airo:NewsReport ;
+    rdfs:label "Inside Israel’s Bombing Campaign in Gaza" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Since the war began in Gaza, more than six months ago, the Israeli magazine +972 has published some of the most penetrating reporting on the Israel Defense Forces' conduct. In November, +972, along wi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec3b0b6dab74> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3656> .
+
+<https://w3id.org/airo/incident/NewsReport/5945> a airo:NewsReport ;
+    rdfs:label "Israel used AI to identify bombing targets in Gaza, sources say" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets
+Israeli intelligence sources reveal use of ‘Lavender’ system in Gaza war and claim permission given to kill civilians in pu""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2a62e5af7f1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5945> .
+
+<https://w3id.org/airo/incident/NewsReport/5946> a airo:NewsReport ;
+    rdfs:label "Lavender AI program Israel kill lists Gaza Hamas war" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """What is ‘Lavender’, the AI program that Israel ‘used’ to create kill lists in Gaza?
+What is ‘Lavender’, the AI program that Israel ‘used’ to create kill lists in Gaza?
+A joint investigation by +972 Ma""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cf0ed06775b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/NewsReport/5948> a airo:NewsReport ;
+    rdfs:label "Israel reportedly used ‘Lavender’ AI system to ID thousands of dubious targets in Gaza war" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Stay up to date with notifications from The Independent
+Notifications can be managed in browser preferences.
+In the weeks immediately after Hamas’s 7 October surprise attack on Israel, the Israel Defe""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4dd7e9b65f57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5948> .
+
+<https://w3id.org/airo/incident/NewsReport/7536> a airo:NewsReport ;
+    rdfs:label "Israel is using artificial intelligence to help pick bombing targets in Gaza, report says" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Israeli military has been using artificial intelligence to help identify bombing targets in Gaza, according to an investigation by +972 Magazine and Local Call, citing six Israeli intelligence off" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0b1dd1232b3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> .
+
+<https://w3id.org/airo/incident/NewsReport/7570> a airo:NewsReport ;
+    rdfs:label "Lavender AI: Israeli Army's Use of Artificial Intelligence in Gaza" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """In partnership with
+In 2021, a book titled “The Human-Machine Team: How to Create Synergy Between Human and Artificial Intelligence That Will Revolutionize Our World” was released in English under the""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fbe5bf7e84b8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7570> .
+
+<https://w3id.org/airo/incident/Regulation/0146e925f33e> a airo:Regulation ;
+    rdfs:label "international law" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "international law" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/46bb88bcd28c> .
+
+<https://w3id.org/airo/incident/Regulation/58ef1bb54cca> a airo:Regulation ;
+    rdfs:label "IDF directives" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "IDF directives" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ea525a906ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/7536> .
+
+<https://w3id.org/airo/incident/Stakeholder/0c3320820d42> a airo:Stakeholder ;
+    rdfs:label "Yuval Abraham" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Yuval Abraham" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/557f3093a886>,
+        <https://w3id.org/airo/incident/evidence/59898837a4e4>,
+        <https://w3id.org/airo/incident/evidence/b42ef005f4db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/7536> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/0c8724bc9eac> a airo:Stakeholder ;
+    rdfs:label "Palestinian Health Ministry in Gaza" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Palestinian Health Ministry in Gaza" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b1ca035456e>,
+        <https://w3id.org/airo/incident/evidence/58de96daa0ee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/0ee4ea1e4450> a airo:Stakeholder ;
+    rdfs:label "+972 Magazine" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "+972 Magazine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a>,
+        <https://w3id.org/airo/incident/evidence/3b2b9bb39a90>,
+        <https://w3id.org/airo/incident/evidence/3d0d654ac974>,
+        <https://w3id.org/airo/incident/evidence/4bdf6e9ec38c>,
+        <https://w3id.org/airo/incident/evidence/59a5fc430877>,
+        <https://w3id.org/airo/incident/evidence/9a490fdb8821>,
+        <https://w3id.org/airo/incident/evidence/b7ef3816706f>,
+        <https://w3id.org/airo/incident/evidence/c7bede110887>,
+        <https://w3id.org/airo/incident/evidence/f93337c7d333> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7536>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 9 .
+
+<https://w3id.org/airo/incident/Stakeholder/16fbf4fb9bb0> a airo:Stakeholder ;
+    rdfs:label "International Court of Justice" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "I.C.J." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3656> .
+
+<https://w3id.org/airo/incident/Stakeholder/1ae90dbdbf98> a airo:Stakeholder ;
+    rdfs:label "Hamas" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hamas" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b2b9bb39a90>,
+        <https://w3id.org/airo/incident/evidence/3d0d654ac974>,
+        <https://w3id.org/airo/incident/evidence/5f3430497a15>,
+        <https://w3id.org/airo/incident/evidence/76da46dc41ff>,
+        <https://w3id.org/airo/incident/evidence/77cf19787de3>,
+        <https://w3id.org/airo/incident/evidence/813935e5b772>,
+        <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42>,
+        <https://w3id.org/airo/incident/evidence/ab8a34261a1d>,
+        <https://w3id.org/airo/incident/evidence/b9e5686661e3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 9 .
+
+<https://w3id.org/airo/incident/Stakeholder/2626e017c810> a airo:Stakeholder ;
+    rdfs:label "World Central Kitchen" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "World Central Kitchen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6b1e425fbde2>,
+        <https://w3id.org/airo/incident/evidence/dc41049c1186> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/5948> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/2746b22f8e40> a airo:Stakeholder ;
+    rdfs:label "Amnesty International" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Amnesty International" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e868c4c958e4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3651> .
+
+<https://w3id.org/airo/incident/Stakeholder/28e8b5f4a6a8> a airo:Stakeholder ;
+    rdfs:label "International Crisis Group" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Crisis Group" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/642c1d4a325a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5946> .
+
+<https://w3id.org/airo/incident/Stakeholder/523b9d3c1141> a airo:Stakeholder ;
+    rdfs:label "International Criminal Court" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "I.C.C." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f897bcf98be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3656> .
+
+<https://w3id.org/airo/incident/Stakeholder/604e73a21c4a> a airo:Stakeholder ;
+    rdfs:label "United Nations" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United Nations" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84c7d1daf1bc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> .
+
+<https://w3id.org/airo/incident/Stakeholder/61163b54fec6> a airo:Stakeholder ;
+    rdfs:label "Unit 8200" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/23ac2716a80b>,
+        <https://w3id.org/airo/incident/AISystem/7e066f890ddc>,
+        <https://w3id.org/airo/incident/AISystem/80eabb819af2> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Unit 8200" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f2ad746b4c3>,
+        <https://w3id.org/airo/incident/evidence/80d1afa3df4d>,
+        <https://w3id.org/airo/incident/evidence/cc47593062ee>,
+        <https://w3id.org/airo/incident/evidence/d24290f4b4dd>,
+        <https://w3id.org/airo/incident/evidence/f0b875c0cd04> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/85c563d3f96d> a airo:Stakeholder ;
+    rdfs:label "Local Call" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Local Call" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f65b40ee32a>,
+        <https://w3id.org/airo/incident/evidence/3b2b9bb39a90>,
+        <https://w3id.org/airo/incident/evidence/3d0d654ac974>,
+        <https://w3id.org/airo/incident/evidence/4bdf6e9ec38c>,
+        <https://w3id.org/airo/incident/evidence/5931f6842f0a>,
+        <https://w3id.org/airo/incident/evidence/59a5fc430877>,
+        <https://w3id.org/airo/incident/evidence/9a490fdb8821>,
+        <https://w3id.org/airo/incident/evidence/b7ef3816706f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7536>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 8 .
+
+<https://w3id.org/airo/incident/Stakeholder/9a361b31cace> a airo:Stakeholder ;
+    rdfs:label "Palestinian Islamic Jihad" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Palestinian Islamic Jihad" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21ac6c5aa560>,
+        <https://w3id.org/airo/incident/evidence/2f65b40ee32a>,
+        <https://w3id.org/airo/incident/evidence/76da46dc41ff>,
+        <https://w3id.org/airo/incident/evidence/77cf19787de3>,
+        <https://w3id.org/airo/incident/evidence/813935e5b772>,
+        <https://w3id.org/airo/incident/evidence/9a490fdb8821>,
+        <https://w3id.org/airo/incident/evidence/ab8a34261a1d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 7 .
+
+<https://w3id.org/airo/incident/evidence/08b9690445eb> a airo:Evidence ;
+    airo:evidenceText "Israeli Military Using AI to Select Targets in Gaza With 'Rubber Stamp' From Human Operator: Report" ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/0b645caf4527> a airo:Evidence ;
+    airo:evidenceText "The officials, quoted in an extensive investigation by the online publication jointly run by Palestinians and Israelis, said that the AI-based tool was called “Lavender” and was known to have a 10% error rate." ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/1c7baf00756b> a airo:Evidence ;
+    airo:evidenceText "‘Lavender’: The AI machine directing Israel’s bombing spree in Gaza" ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/202ddec8a74c> a airo:Evidence ;
+    airo:evidenceText "And in an attempt to meet their commanders’ demands, they came to rely on Lavender, which generated a database of individuals believed to have ‘militant’ characteristics." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/20eb8711ec18> a airo:Evidence ;
+    airo:evidenceText "The Lavender AI system reportedly works by analyzing information collected on almost all of the 2.3 million Palestinians in the Gaza Strip “through a system of mass surveillance,” assessing the likelihood of any given person belonging to Hamas in an opaque ranking system." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/29f18a45ab2c> a airo:Evidence ;
+    airo:evidenceText "Israel offers a glimpse into the terrifying world of military AI" ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/2b1a3525c07e> a airo:Evidence ;
+    airo:evidenceText "White House national security spokesperson John Kirby told CNN on Thursday that the United States was looking into the media reports on the apparent AI tool." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/2dc58298d26b> a airo:Evidence ;
+    airo:evidenceText "the country’s military “almost completely relied” on Lavender during the early weeks of the war, despite the fact that it was known to misidentify potential targets as terrorists." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/3cf0ed06775b> a airo:Evidence ;
+    airo:evidenceText "Lavender AI program Israel kill lists Gaza Hamas war" ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/4a0de57d7a0e> a airo:Evidence ;
+    airo:evidenceText "This was used alongside another AI-based decision support system, called the Gospel, which recommended buildings and structures as targets rather than individuals." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/4dd7e9b65f57> a airo:Evidence ;
+    airo:evidenceText "Israel reportedly used ‘Lavender’ AI system to ID thousands of dubious targets in Gaza war" ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/51e88f3954e4> a airo:Evidence ;
+    airo:evidenceText "In 2021, a book titled “The Human-Machine Team: How to Create Synergy Between Human and Artificial Intelligence That Will Revolutionize Our World” was released in English under the pen name “Brigadier General Y.S.”" ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/5753a72716a7> a airo:Evidence ;
+    airo:evidenceText "Israel also loosened its threshold for the number of civilians it was acceptable to kill as “collateral damage,” a report that’s consistent with previous leaks published in Haaretz about new rules of engagement after October 7." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/59b2c4efd0f7> a airo:Evidence ;
+    airo:evidenceText "‘The machine did it coldly’: Israel used AI to identify 37,000 Hamas targets" ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/61374490b43b> a airo:Evidence ;
+    airo:evidenceText "Additional automated systems, including one called \"Where's Daddy?\" also revealed here for the first time, were used specifically to track the targeted individuals and carry out bombings when they had entered their family's residences." ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/6240bd7c0a00> a airo:Evidence ;
+    airo:evidenceText "[7536] The IDF said 'analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.'" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/62b242cb8268> a airo:Evidence ;
+    airo:evidenceText "The Israeli military's bombing campaign in Gaza used a previously undisclosed AI-powered database that at one stage identified 37,000 potential targets based on their apparent links to Hamas, according to intelligence sources involved in the war." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/68c498cde124> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/68e0e1083299> a airo:Evidence ;
+    airo:evidenceText "Lavender learns to identify characteristics of known Hamas and [Palestinian Islamic Jihad] operatives, whose information was fed to the machine as training data, and then to locate these same characteristics — also called “features” — among the general population, the sources explained." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/6908f1265038> a airo:Evidence ;
+    airo:evidenceText "the tool, trained by Israeli military data scientists, sifted through a huge trove of surveillance data and other information to generate targets for assassination." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/712ee0db76a2> a airo:Evidence ;
+    airo:evidenceText "This was used alongside another AI-based decision support system, called the Gospel, which recommended buildings and structures as targets rather than individuals." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/726d0d42207f> a airo:Evidence ;
+    airo:evidenceText "[5945] The testimony from the six intelligence officers, all who have been involved in using AI systems to identify Hamas and Palestinian Islamic Jihad (PIJ) targets in the war..." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/768f1a552f05> a airo:Evidence ;
+    airo:evidenceText "Israeli intelligence sources reveal use of 'Lavender' system in Gaza war and claim permission given to kill civilians in pursuit of low-ranking militants." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/77cf19787de3> a airo:Evidence ;
+    airo:evidenceText "What it meant in the past was that these are particular individuals, who are senior-ranking commanders in Hamas or Islamic Jihad military wings." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/7910e65c0a58> a airo:Evidence ;
+    airo:evidenceText "Their unusually candid testimony provides a rare glimpse into the first-hand experiences of Israeli intelligence officials who have been using machine-learning systems to help identify targets during the six-month war." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/813935e5b772> a airo:Evidence ;
+    airo:evidenceText "Formally, the Lavender system is designed to mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets." ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/827d86d7737f> a airo:Evidence ;
+    airo:evidenceText "President Biden reportedly called on Israel to change course and take demonstrable steps to better preserve civilian life and enable the flow of aid." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/83b09cb1510d> a airo:Evidence ;
+    airo:evidenceText "So you're willing to take the margin of error of using artificial intelligence, risking collateral damage and civilians dying, and risking attacking by mistake, and to live with it, they added." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/9eaa1f7bfd0d> a airo:Evidence ;
+    airo:evidenceText "[7570] Formally, the Lavender system is designed to mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/9fb158135bca> a airo:Evidence ;
+    airo:evidenceText "The Lavender software analyzes information collected on most of the 2.3 million residents of the Gaza Strip through a system of mass surveillance, then assesses and ranks the likelihood that each particular person is active in the military wing of Hamas or PIJ." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/a119b60f1941> a airo:Evidence ;
+    airo:evidenceText "[5946] A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/a87d3d3a0692> a airo:Evidence ;
+    airo:evidenceText "The +972 Magazine-Local Call probe further revealed that the Lavender program joined another AI system — The Gospel — which was previously reported about too." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/b0b1dd1232b3> a airo:Evidence ;
+    airo:evidenceText "Israel is using artificial intelligence to help pick bombing targets in Gaza, report says" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/bd9b7982134b> a airo:Evidence ;
+    airo:evidenceText "It reportedly used machine learning to identify characteristics of militants and assigned people a score of 1-100, according to military sources, based on factors including association with suspected militants and frequently changing their phone." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/c4ff2fe95c27> a airo:Evidence ;
+    airo:evidenceText "The story revealed how the Israeli military had used the program to identify suspected militants, which in practice meant that tens of thousands of Palestinians had their homes marked as legitimate targets for bombing, with minimal human oversight." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/c6fe64ac67a6> a airo:Evidence ;
+    airo:evidenceText "It further argued that Lavender was simply a database whose purpose was to cross-reference intelligence sources, in order to produce up-to-date layers of information on the military operatives of terrorist organisations." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/da1438c94f2d> a airo:Evidence ;
+    airo:evidenceText "According to them, Lavender had played a significant role in the war, processing huge troves of data to quickly identify “junior” operatives to target." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/ddfbe00430d0> a airo:Evidence ;
+    airo:evidenceText "1 intelligence officer told The Guardian. “We were told: now we have to f**k up Hamas, no matter what the cost." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/deb7dc879aa7> a airo:Evidence ;
+    airo:evidenceText "Their accounts were shared exclusively with the Guardian in advance of publication." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/e5233895354d> a airo:Evidence ;
+    airo:evidenceText "Another automated system used in conjunction with Lavender, dubbed “Where’s Daddy?” has been used to strike targets inside their family homes." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/e990973f3d82> a airo:Evidence ;
+    airo:evidenceText "Every Palestinian is given a ranking of 1 to 100 that supposedly determines how likely they are to be a member of the militant terrorist group." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/ec3b0b6dab74> a airo:Evidence ;
+    airo:evidenceText "Inside Israel’s Bombing Campaign in Gaza" ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/f051f020431a> a airo:Evidence ;
+    airo:evidenceText "To meet this demand, the IDF came to rely heavily on Lavender to generate a database of individuals judged to have the characteristics of a PIJ or Hamas militant." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/f2a62e5af7f1> a airo:Evidence ;
+    airo:evidenceText "Israel used AI to identify bombing targets in Gaza, sources say" ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/f7b24e09085c> a airo:Evidence ;
+    airo:evidenceText "tens of thousands of Palestinians had their homes marked as legitimate targets for bombing, with minimal human oversight." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/fbe5bf7e84b8> a airo:Evidence ;
+    airo:evidenceText "Lavender AI: Israeli Army's Use of Artificial Intelligence in Gaza" ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/Risk/f8e51c5ca0cd> a airo:Risk ;
+    rdfs:label "Risk of AI system misidentifying civilians as militant targets for assassination" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de7bfdb26d01> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3621> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/2977bb500aa6> .
+
+<https://w3id.org/airo/incident/Stakeholder/178953143007> a airo:Stakeholder ;
+    rdfs:label "Israel Defense Forces" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/23ac2716a80b>,
+        <https://w3id.org/airo/incident/AISystem/7e066f890ddc>,
+        <https://w3id.org/airo/incident/AISystem/80eabb819af2> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/23ac2716a80b>,
+        <https://w3id.org/airo/incident/AISystem/7e066f890ddc>,
+        <https://w3id.org/airo/incident/AISystem/80eabb819af2> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Israel Defense Forces" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b2b9bb39a90>,
+        <https://w3id.org/airo/incident/evidence/3b6622ddee40>,
+        <https://w3id.org/airo/incident/evidence/5135c49200c1>,
+        <https://w3id.org/airo/incident/evidence/68dcdb1ec9c0>,
+        <https://w3id.org/airo/incident/evidence/72b60f0288c0>,
+        <https://w3id.org/airo/incident/evidence/80d1afa3df4d>,
+        <https://w3id.org/airo/incident/evidence/9d206433cba8>,
+        <https://w3id.org/airo/incident/evidence/c4ff2fe95c27>,
+        <https://w3id.org/airo/incident/evidence/d24290f4b4dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7536> ;
+    airo:hasSupportCount 9 .
+
+<https://w3id.org/airo/incident/evidence/07081fdc56c5> a airo:Evidence ;
+    airo:evidenceText "intelligence sources claim that Israeli military officials permitted large numbers of Palestinian civilians to be killed, particularly during the early weeks and months of the conflict." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/3b6622ddee40> a airo:Evidence ;
+    airo:evidenceText "(The IDF denied to the reporter that such a \"kill list\" exists, and characterized the program as merely a database meant for cross-referencing intelligence sources.)" ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/b294ed07cbca> a airo:Evidence ;
+    airo:evidenceText "Additional automated systems, including one called “Where's Daddy?” also revealed here for the first time, were used specifically to track the targeted individuals and carry out bombings when they had entered their family’s residences." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/d3b7ab0f9a16> a airo:Evidence ;
+    airo:evidenceText "Israel has been using an artificial intelligence system called Lavender to create a “kill list” of at least 37,000 people in Gaza." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/de7bfdb26d01> a airo:Evidence ;
+    airo:evidenceText "the new report cites six unnamed Israeli intelligence officers who spoke with +972 about how the country’s military “almost completely relied” on Lavender during the early weeks of the war, despite the fact that it was known to misidentify potential targets as terrorists." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/f0b875c0cd04> a airo:Evidence ;
+    airo:evidenceText "In it, the author — a man who we confirmed to be the current commander of the elite Israeli intelligence unit 8200 — makes the case for designing a special machine that could rapidly process massive amounts of data to generate thousands of potential “targets” for military strikes in the heat of a war." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/f93337c7d333> a airo:Evidence ;
+    airo:evidenceText "The new report cites six unnamed Israeli intelligence officers who spoke with +972 about how the country’s military “almost completely relied” on Lavender during the early weeks of the war, despite the fact that it was known to misidentify potential targets as terrorists." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/AISystem/7e066f890ddc> a airo:AISystem ;
+    rdfs:label "Where's Daddy?" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Where's Daddy?" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61374490b43b>,
+        <https://w3id.org/airo/incident/evidence/d8f1b9082255>,
+        <https://w3id.org/airo/incident/evidence/e5233895354d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AISystem/80eabb819af2> a airo:AISystem ;
+    rdfs:label "Gospel" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Gospel" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a0de57d7a0e>,
+        <https://w3id.org/airo/incident/evidence/4f529dbc4150>,
+        <https://w3id.org/airo/incident/evidence/712ee0db76a2>,
+        <https://w3id.org/airo/incident/evidence/866c139c79c9>,
+        <https://w3id.org/airo/incident/evidence/a87d3d3a0692>,
+        <https://w3id.org/airo/incident/evidence/e39282b7c6e0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/evidence/1ba8821fbf49> a airo:Evidence ;
+    airo:evidenceText "According to the report, the tool, trained by Israeli military data scientists, sifted through a huge trove of surveillance data and other information to generate targets for assassination." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/23d143280e6e> a airo:Evidence ;
+    airo:evidenceText "\"The IDF does not use an artificial intelligence system that identifies terrorist operatives or tries to predict whether a person is a terrorist,\" it added." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/46bb1ca6995b> a airo:Evidence ;
+    airo:evidenceText "As per their findings, the fundamental difference between the two systems is in the definition of the target: whereas ‘The Gospel’ marks buildings and structures that the army claims militants operate from, Lavender marks people — and puts them on a kill list." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/ab8a34261a1d> a airo:Evidence ;
+    airo:evidenceText "Formally, the Lavender system is designed to mark all suspected operatives in the military wings of Hamas and Palestinian Islamic Jihad (PIJ), including low-ranking ones, as potential bombing targets." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/c0899da3f819> a airo:Evidence ;
+    airo:evidenceText "In a phone call with Israeli Prime Minister Benjamin Netanyahu on Thursday, President Biden reportedly called on Israel to change course and take demonstrable steps to better preserve civilian life and enable the flow of aid." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/d8f1b9082255> a airo:Evidence ;
+    airo:evidenceText "Additional automated systems, including one called “Where's Daddy?” also revealed here for the first time, were used specifically to track the targeted individuals and carry out bombings when they had entered their family’s residences." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/ded05c5647ec> a airo:Evidence ;
+    airo:evidenceText "The Lavender software analyzes information collected on most of the 2.3 million residents of the Gaza Strip through a system of mass surveillance, then assesses and ranks the likelihood that each particular person is active in the military wing of Hamas or PIJ." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/e473785b9eb5> a airo:Evidence ;
+    airo:evidenceText "A fundamental difference between the two systems is in the definition of the target: whereas The Gospel marks buildings and structures that the army claims militants operate from, Lavender marks people — and puts them on a kill list." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/1b1ca035456e> a airo:Evidence ;
+    airo:evidenceText "According to data from the Palestinian Health Ministry in Gaza, on which the Israeli army has relied almost exclusively since the beginning of the war, Israel killed some 15,000 Palestinians — almost half of the death toll so far — in the first six weeks of the war, up until a week-long ceasefire was agreed on Nov. 24." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/21ac6c5aa560> a airo:Evidence ;
+    airo:evidenceText "In fact, 4 officials, as per a report in The Guardian, said that at one stage of the war, Lavender had listed as many as 37,000 Palestinian people to be linked to either Hamas or Palestinian Islamic Jihad." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/4bdf6e9ec38c> a airo:Evidence ;
+    airo:evidenceText "A new investigation by +972 Magazine and Local Call reveals that the Israeli army has developed an artificial intelligence-based program known as \"Lavender,\" unveiled here for the first time." ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/557f3093a886> a airo:Evidence ;
+    airo:evidenceText "This week, Israeli journalist and filmmaker Yuval Abraham published a lengthy expose on the existence of the Lavender program and its implementation in the Israeli campaign in Gaza that followed Hamas's deadly Oct. 7 terrorist strike on southern Israel." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/58de96daa0ee> a airo:Evidence ;
+    airo:evidenceText "According to data from the Palestinian Health Ministry in Gaza, on which the Israeli army has relied almost exclusively since the beginning of the war, Israel killed some 15,000 Palestinians --- alm..." ;
+    airo:sourceDocId "3620" .
+
+<https://w3id.org/airo/incident/evidence/59898837a4e4> a airo:Evidence ;
+    airo:evidenceText "The investigation’s author, Yuval Abraham, previously told CNN in January of his work looking into how the Israeli military has been ”heavily relying on artificial intelligence to generate targets for such assassinations with very little human supervision.”" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/642c1d4a325a> a airo:Evidence ;
+    airo:evidenceText "1 such expert is Sarah Harrison, a former lawyer at the US Department of Defense, and now an analyst at Crisis Group." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/6b1e425fbde2> a airo:Evidence ;
+    airo:evidenceText "This week's incident involving an Israeli drone strike on a convoy of vehicles belonging to World Central Kitchen, a prominent food aid group, killing seven of its workers, sharpened the spotlight on Israel's conduct of the war." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/84c7d1daf1bc> a airo:Evidence ;
+    airo:evidenceText "More than 32,600 Palestinians have been killed in Gaza since the start of the war, according to the United Nations, with the majority identified as women and children." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/b42ef005f4db> a airo:Evidence ;
+    airo:evidenceText "The author of both stories was Yuval Abraham, an Israeli journalist and documentary filmmaker." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/b7ef3816706f> a airo:Evidence ;
+    airo:evidenceText "A new investigation by +972 Magazine and Local Call reveals that the Israeli army has developed an artificial intelligence-based program known as “Lavender,” unveiled here for the first time." ;
+    airo:sourceDocId "7570" .
+
+<https://w3id.org/airo/incident/evidence/b9e5686661e3> a airo:Evidence ;
+    airo:evidenceText "In the weeks immediately after Hamas’s 7 October surprise attack on Israel, the Israel Defense Forces allegedly intentionally targeted civilian homes" ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/cc47593062ee> a airo:Evidence ;
+    airo:evidenceText "the system more than the judgement of their own grieving colleagues after 7 October, one intelligence officer who used Lavender, which was developed by Israel’s elite Unit 8200, told The Guardian" ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/dc41049c1186> a airo:Evidence ;
+    airo:evidenceText "The IDF’s targeting tactics have come under a new round of international criticism after Israel killed seven World Central Kitchen aid workers in an airstrike in Gaza on Monday." ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/e868c4c958e4> a airo:Evidence ;
+    airo:evidenceText "\"It is challenging in the best of circumstances to differentiate between valid military targets and civilians\" there, Brian Castner, senior crisis adviser and weapons investigator at Amnesty International, told my colleagues in December." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/1ea525a906ad> a airo:Evidence ;
+    airo:evidenceText "The IDF said “analysts must conduct independent examinations, in which they verify that the identified targets meet the relevant definitions in accordance with international law and additional restrictions stipulated in the IDF directives.”" ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/76da46dc41ff> a airo:Evidence ;
+    airo:evidenceText "Lavender learns to identify characteristics of known Hamas and \\[Palestinian Islamic Jihad\\] operatives, whose information was fed to the machine as training data, and then to locate these same characteristics — also called “features” — among the general population, the sources explained." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/aa3d7f3f8e42> a airo:Evidence ;
+    airo:evidenceText "In addition to talking about their use of the AI system, called Lavender, the intelligence sources claim that Israeli military officials permitted large numbers of Palestinian civilians to be killed, particularly during the early weeks and months of the conflict." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/3b2b9bb39a90> a airo:Evidence ;
+    airo:evidenceText "A joint investigation by +972 Magazine and Local Call has revealed that Israel Defense Forces made use of an AI program called Lavender to identify potential Hamas militants in the aftermath of the attacks perpetrated last year." ;
+    airo:sourceDocId "5946" .
+
+<https://w3id.org/airo/incident/evidence/3d0d654ac974> a airo:Evidence ;
+    airo:evidenceText "A new report published by +972 magazine and Local Call indicates that Israel has allegedly used an AI-powered database to select suspected Hamas and other militant targets in the besieged Gaza Strip." ;
+    airo:sourceDocId "3651" .
+
+<https://w3id.org/airo/incident/evidence/5f3430497a15> a airo:Evidence ;
+    airo:evidenceText "The Israeli military's bombing campaign in Gaza used a previously undisclosed AI-powered database that at one stage identified 37,000 potential targets based on their apparent links to Hamas, according to intelligence sources involved in the war." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/68dcdb1ec9c0> a airo:Evidence ;
+    airo:evidenceText "“Contrary to claims, the IDF does not use an artificial intelligence system that identifies terrorist operatives or tries to predict whether a person is a terrorist. Information systems are merely tools for analysts in the target identification process,” the Israelis statement reads." ;
+    airo:sourceDocId "3621" .
+
+<https://w3id.org/airo/incident/evidence/2f897bcf98be> a airo:Evidence ;
+    airo:evidenceText "There are separate legal procedures being conducted in The Hague against Israeli military policies." ;
+    airo:sourceDocId "3656" .
+
+<https://w3id.org/airo/incident/evidence/5135c49200c1> a airo:Evidence ;
+    airo:evidenceText "the Israel Defense Forces allegedly intentionally targeted civilian homes and allegedly used an AI-based programme called Lavender to generate targets for assassination" ;
+    airo:sourceDocId "5948" .
+
+<https://w3id.org/airo/incident/evidence/59a5fc430877> a airo:Evidence ;
+    airo:evidenceText "The Israeli military has been using artificial intelligence to help identify bombing targets in Gaza, according to an investigation by +972 Magazine and Local Call, citing six Israeli intelligence officials involved in the alleged program." ;
+    airo:sourceDocId "7536" .
+
+<https://w3id.org/airo/incident/evidence/80d1afa3df4d> a airo:Evidence ;
+    airo:evidenceText "Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/evidence/d24290f4b4dd> a airo:Evidence ;
+    airo:evidenceText "Lavender was developed by the Israel Defense Forces' elite intelligence division, Unit 8200, which is comparable to the US's National Security Agency or GCHQ in the UK." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_76> a airo:AIRiskIncident ;
+    rdfs:label "Inside Israel’s Bombing Campaign in Gaza" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/0146e925f33e>,
+        <https://w3id.org/airo/incident/Regulation/58ef1bb54cca> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/2977bb500aa6> ;
+    airo:hasDescription "pred_76" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/26c4dbb429cd>,
+        <https://w3id.org/airo/incident/Domain/3de5f8043a10>,
+        <https://w3id.org/airo/incident/evidence/44a84e28f18d>,
+        <https://w3id.org/airo/incident/evidence/81a3e1a799fe>,
+        <https://w3id.org/airo/incident/evidence/ab53f38c6cec>,
+        <https://w3id.org/airo/incident/evidence/cc0fd56b3db5>,
+        <https://w3id.org/airo/incident/evidence/ed0ef7b455f7> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/7358d4f0ce85> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/3620>,
+        <https://w3id.org/airo/incident/NewsReport/3621>,
+        <https://w3id.org/airo/incident/NewsReport/3641>,
+        <https://w3id.org/airo/incident/NewsReport/3651>,
+        <https://w3id.org/airo/incident/NewsReport/3656>,
+        <https://w3id.org/airo/incident/NewsReport/5945>,
+        <https://w3id.org/airo/incident/NewsReport/5946>,
+        <https://w3id.org/airo/incident/NewsReport/5948>,
+        <https://w3id.org/airo/incident/NewsReport/7536>,
+        <https://w3id.org/airo/incident/NewsReport/7570> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/f8e51c5ca0cd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7536>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/23ac2716a80b>,
+        <https://w3id.org/airo/incident/AISystem/7e066f890ddc>,
+        <https://w3id.org/airo/incident/AISystem/80eabb819af2> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/021b370e18e3>,
+        <https://w3id.org/airo/incident/Stakeholder/0c3320820d42>,
+        <https://w3id.org/airo/incident/Stakeholder/0c8724bc9eac>,
+        <https://w3id.org/airo/incident/Stakeholder/0ee4ea1e4450>,
+        <https://w3id.org/airo/incident/Stakeholder/16fbf4fb9bb0>,
+        <https://w3id.org/airo/incident/Stakeholder/178953143007>,
+        <https://w3id.org/airo/incident/Stakeholder/195d7f1966bf>,
+        <https://w3id.org/airo/incident/Stakeholder/1ae90dbdbf98>,
+        <https://w3id.org/airo/incident/Stakeholder/1c9859ce3472>,
+        <https://w3id.org/airo/incident/Stakeholder/1dcac15c0ddb>,
+        <https://w3id.org/airo/incident/Stakeholder/2626e017c810>,
+        <https://w3id.org/airo/incident/Stakeholder/2746b22f8e40>,
+        <https://w3id.org/airo/incident/Stakeholder/28e8b5f4a6a8>,
+        <https://w3id.org/airo/incident/Stakeholder/523b9d3c1141>,
+        <https://w3id.org/airo/incident/Stakeholder/5379c19c3120>,
+        <https://w3id.org/airo/incident/Stakeholder/604e73a21c4a>,
+        <https://w3id.org/airo/incident/Stakeholder/61163b54fec6>,
+        <https://w3id.org/airo/incident/Stakeholder/747174e0ea0c>,
+        <https://w3id.org/airo/incident/Stakeholder/85c563d3f96d>,
+        <https://w3id.org/airo/incident/Stakeholder/9a361b31cace>,
+        <https://w3id.org/airo/incident/Stakeholder/b8f108e0fbdd> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/b8d884fec858> .
+
+<https://w3id.org/airo/incident/evidence/2f65b40ee32a> a airo:Evidence ;
+    airo:evidenceText "The testimony from the six intelligence officers, all who have been involved in using AI systems to identify Hamas and Palestinian Islamic Jihad (PIJ) targets in the war, was given to the journalist Yuval Abraham for a report published by the Israeli-Palestinian publication +972 Magazine and the Hebrew-language outlet Local Call.",
+        "The testimony from the six intelligence officers, all who have been involved in using AI systems to identify Hamas and Palestinian Islamic Jihad (PIJ) targets in the war, was given to the journalist Yuval Abraham." ;
+    airo:sourceDocId "5945" .
+
+<https://w3id.org/airo/incident/evidence/9a490fdb8821> a airo:Evidence ;
+    airo:evidenceText "The testimony from the six intelligence officers, all who have been involved in using AI systems to identify Hamas and Palestinian Islamic Jihad (PIJ) targets in the war, was given to the journalist Yuval Abraham for a report published by the Israeli-Palestinian publication +972 Magazine and the Hebrew-language outlet Local Call." ;
+    airo:sourceDocId "3641" .
+
+<https://w3id.org/airo/incident/AISystem/23ac2716a80b> a airo:AISystem ;
+    rdfs:label "Lavender" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/0146e925f33e>,
+        <https://w3id.org/airo/incident/Regulation/58ef1bb54cca> ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/0824b32171c3>,
+        <https://w3id.org/airo/incident/AICapability/17447bf16a44>,
+        <https://w3id.org/airo/incident/AICapability/1b0aa9612009>,
+        <https://w3id.org/airo/incident/AICapability/30d80277ef6c>,
+        <https://w3id.org/airo/incident/AICapability/57a90b02fc49>,
+        <https://w3id.org/airo/incident/AICapability/7356a5f54753>,
+        <https://w3id.org/airo/incident/AICapability/7e0ed285f577>,
+        <https://w3id.org/airo/incident/AICapability/90f58893586b>,
+        <https://w3id.org/airo/incident/AICapability/9383f680f0e8>,
+        <https://w3id.org/airo/incident/AICapability/958f650647d3>,
+        <https://w3id.org/airo/incident/AICapability/9c18822ad6e4>,
+        <https://w3id.org/airo/incident/AICapability/a20e8ac1995f>,
+        <https://w3id.org/airo/incident/AICapability/ad3c6aa193e6>,
+        <https://w3id.org/airo/incident/AICapability/b98c4635b030>,
+        <https://w3id.org/airo/incident/AICapability/bea633f819df>,
+        <https://w3id.org/airo/incident/AICapability/c80a1cb400f0>,
+        <https://w3id.org/airo/incident/AICapability/d31b1861e81b>,
+        <https://w3id.org/airo/incident/AICapability/d5f842147795>,
+        <https://w3id.org/airo/incident/AICapability/e1098a2a843b>,
+        <https://w3id.org/airo/incident/AICapability/f8eb552bb20a>,
+        <https://w3id.org/airo/incident/Purpose/8b76b0baf0ff> ;
+    airo:hasDescription "Lavender" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/87904f340605>,
+        <https://w3id.org/airo/incident/evidence/0b645caf4527>,
+        <https://w3id.org/airo/incident/evidence/3b2b9bb39a90>,
+        <https://w3id.org/airo/incident/evidence/3bfc4d66f897>,
+        <https://w3id.org/airo/incident/evidence/4bdf6e9ec38c>,
+        <https://w3id.org/airo/incident/evidence/5135c49200c1>,
+        <https://w3id.org/airo/incident/evidence/5f3430497a15>,
+        <https://w3id.org/airo/incident/evidence/aa3d7f3f8e42>,
+        <https://w3id.org/airo/incident/evidence/b7ef3816706f>,
+        <https://w3id.org/airo/incident/evidence/c4ff2fe95c27>,
+        <https://w3id.org/airo/incident/evidence/d3b7ab0f9a16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3620>,
+        <https://w3id.org/airo/incident/document/3621>,
+        <https://w3id.org/airo/incident/document/3641>,
+        <https://w3id.org/airo/incident/document/3651>,
+        <https://w3id.org/airo/incident/document/3656>,
+        <https://w3id.org/airo/incident/document/5945>,
+        <https://w3id.org/airo/incident/document/5946>,
+        <https://w3id.org/airo/incident/document/5948>,
+        <https://w3id.org/airo/incident/document/7536>,
+        <https://w3id.org/airo/incident/document/7570> ;
+    airo:hasSupportCount 10 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/a36f2342d237> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/8a4ffc8d3872>,
+        <https://w3id.org/airo/incident/AITechnique/9a0a3111906a>,
+        <https://w3id.org/airo/incident/AITechnique/9a555edfd2d0>,
+        <https://w3id.org/airo/incident/AITechnique/dc79e27d8c65> .
+

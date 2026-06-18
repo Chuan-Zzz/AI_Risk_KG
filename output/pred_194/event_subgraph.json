@@ -1,0 +1,5642 @@
+{
+  "event_id": "pred_194",
+  "incident_node": {
+    "id": "pred_194",
+    "name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_194",
+    "evidence": [
+      {
+        "evidence_id": "0f8dd9b09801",
+        "evidence_sentence": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "c45d772cbd26",
+        "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "e92b7b804b72",
+        "evidence_sentence": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+        "source_doc_id": "3968",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "cf3bcf1e5f47",
+        "evidence_sentence": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "b1091903196b",
+        "evidence_sentence": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+        "source_doc_id": "3970",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "3966",
+      "3967",
+      "3968",
+      "3969",
+      "3970",
+      "7007"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_194",
+      "name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_194",
+      "evidence": [
+        {
+          "evidence_id": "0f8dd9b09801",
+          "evidence_sentence": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "c45d772cbd26",
+          "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "e92b7b804b72",
+          "evidence_sentence": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "cf3bcf1e5f47",
+          "evidence_sentence": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "b1091903196b",
+          "evidence_sentence": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+          "source_doc_id": "3970",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966",
+        "3967",
+        "3968",
+        "3969",
+        "3970",
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "cac43d456fdb",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966",
+        "3967",
+        "3968",
+        "3969",
+        "3970"
+      ],
+      "attributes": {
+        "report_count": 5
+      },
+      "reasoning": null
+    },
+    {
+      "id": "164f7254daad",
+      "name": "aiaaic",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiaaic",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {
+        "report_count": 1
+      },
+      "reasoning": null
+    },
+    {
+      "id": "3966",
+      "name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "entity_type": "NewsReport",
+      "description": "I'm talking at a conference later this year (on UX+AI).\n\nI just saw an ad for the conference with my photo and was like, wait, that doesn't look right.\n\nIs my bra showing in my profile pic and I've ne",
+      "evidence": [
+        {
+          "evidence_id": "0759c2cf0ca1",
+          "evidence_sentence": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {
+        "url": "https://x.com/elizlaraki/status/1846252781851890026",
+        "publish_time": "2024-10-15T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "3967",
+      "name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "entity_type": "NewsReport",
+      "description": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist. Taking to X/Twitter an",
+      "evidence": [
+        {
+          "evidence_id": "a4fa0b04165c",
+          "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {
+        "url": "https://in.mashable.com/tech/83980/edited-photo-to-unbutton-my-blouse-ex-google-and-facebook-techie-alleges-her-pic-altered-for-ai-conf",
+        "publish_time": "2024-10-18T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "3968",
+      "name": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+      "entity_type": "NewsReport",
+      "description": "A UI/UX designer claimed that her photo for a conference poster was edited by the organiser who added a bra on her photo. \n\nElizabeth Lazarki, who has previously worked with Google Maps, Facebook and ",
+      "evidence": [
+        {
+          "evidence_id": "c11fe6de1751",
+          "evidence_sentence": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {
+        "url": "https://www.hindustantimes.com/trending/made-up-a-bra-ex-google-techie-claims-her-photo-was-edited-for-ai-conference-101729157168093.html",
+        "publish_time": "2024-10-17T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "3969",
+      "name": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+      "entity_type": "NewsReport",
+      "description": "A product designer, who worked for Google, YouTube and Facebook, has accused the organisers of an AI conference of editing her photo for a poster. The US-based techie alleged that not only the pockets",
+      "evidence": [
+        {
+          "evidence_id": "ea77372a2bb8",
+          "evidence_sentence": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {
+        "url": "https://www.news18.com/viral/unbuttoned-blouse-added-bra-ex-google-facebook-employee-claims-photo-edited-for-ai-conference-9089518.html",
+        "publish_time": "2024-10-18T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "3970",
+      "name": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+      "entity_type": "NewsReport",
+      "description": "**Washington DC:** A woman took to X to share a bizarre and unique experience with netizens. She claimed that an image she had given for a conference was altered by AI with a bra. The incident left ne",
+      "evidence": [
+        {
+          "evidence_id": "894998db98bb",
+          "evidence_sentence": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+          "source_doc_id": "3970",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3970"
+      ],
+      "attributes": {
+        "url": "https://www.news9live.com/viral-news/ai-edits-ex-google-techies-image-to-add-a-bra-netizens-shocked-2725551",
+        "publish_time": "2024-10-17T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "7007",
+      "name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "entity_type": "NewsReport",
+      "description": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference\nElizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upo",
+      "evidence": [
+        {
+          "evidence_id": "8d84d6c4a14c",
+          "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {
+        "url": "https://in.mashable.com/tech/83980/edited-photo-to-unbutton-my-blouse-ex-google-and-facebook-techie-alleges-her-pic-altered-for-ai-conf",
+        "publish_time": "2024-10-18",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "2e06e6d24af8",
+      "name": "Elizabeth Laraki",
+      "entity_type": "Stakeholder",
+      "description": "Elizabeth Laraki",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 0,
+            "end": 16
+          },
+          "confidence": 0.98
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 4,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "6121c24b0660",
+      "name": "Google",
+      "entity_type": "Stakeholder",
+      "description": "Google",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Google",
+            "start": 330,
+            "end": 336
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Google",
+            "start": 40,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Google",
+            "start": 39,
+            "end": 45
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Google Maps",
+            "start": 174,
+            "end": 185
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e2608cd4ed2a",
+      "name": "AI image expansion",
+      "entity_type": "AITechnique",
+      "description": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "d6843b7bc0b7",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "AI expand image tool",
+            "start": 1316,
+            "end": 1336
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eb463d6bed83",
+          "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "an AI expander",
+            "start": 1275,
+            "end": 1289
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "7007",
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "5e49ae5b9ef1",
+      "name": "AI expand image tool",
+      "entity_type": "AISystem",
+      "description": "an AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "0811eb63d88c",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "an AI expand image tool",
+            "start": 773,
+            "end": 796
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "fb50037f5aaa",
+      "name": "Social media manager (unknown)",
+      "entity_type": "Stakeholder",
+      "description": "the woman running their social media",
+      "evidence": [
+        {
+          "evidence_id": "e4fba5f0e95c",
+          "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the woman running their social media",
+            "start": 639,
+            "end": 675
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7c57af488616",
+      "name": "Conference host (unknown)",
+      "entity_type": "Stakeholder",
+      "description": "the conference host",
+      "evidence": [
+        {
+          "evidence_id": "5cab9b20a390",
+          "evidence_sentence": "Immediately, I email the conference host.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the conference host",
+            "start": 465,
+            "end": 484
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0b2975713615",
+      "name": "Upscale Conf",
+      "entity_type": "Stakeholder",
+      "description": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 247,
+            "end": 259
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8f78c307c82f",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "upscaleconf",
+            "start": 2657,
+            "end": 2668
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "7007",
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0c4e0538ea31",
+      "name": "Upscale Conf",
+      "entity_type": "AISystem",
+      "description": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 138,
+            "end": 150
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1e06d3c54190",
+      "name": "Facebook",
+      "entity_type": "Stakeholder",
+      "description": "Facebook",
+      "evidence": [
+        {
+          "evidence_id": "8494031f80b3",
+          "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 3799,
+            "end": 3807
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 187,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 2,
+      "source_doc_ids": [
+        "3967",
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "cb4f4baebac0",
+      "name": "AI expander",
+      "entity_type": "AITechnique",
+      "description": "AI expander",
+      "evidence": [
+        {
+          "evidence_id": "35159bd0a069",
+          "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "AI expander",
+            "start": 1177,
+            "end": 1188
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "332736d15734",
+      "name": "generate image content",
+      "entity_type": "AICapability",
+      "description": "AI invented the bottom part of the image",
+      "evidence": [
+        {
+          "evidence_id": "0ee637e9cd81",
+          "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "AI invented the bottom part of the image",
+            "start": 1264,
+            "end": 1304
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c807425be723",
+      "name": "Midjourney",
+      "entity_type": "AISystem",
+      "description": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "7399373baf55",
+          "evidence_sentence": "I’ve fed Midjourney identical prompts only swapping out “men” and “women” and the results are always drastically different, sexualizing the images of women nearly always.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Midjourney",
+            "start": 2099,
+            "end": 2109
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a6829888975e",
+      "name": "Elizabeth Lazarki",
+      "entity_type": "Stakeholder",
+      "description": "Elizabeth Lazarki",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Elizabeth Lazarki",
+            "start": 124,
+            "end": 141
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7c5ab3afe441",
+      "name": "YouTube",
+      "entity_type": "Stakeholder",
+      "description": "YouTube",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "YouTube",
+            "start": 200,
+            "end": 207
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2f9b8fd10a7e",
+      "name": "Elizabeth Laraki_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "894da3c05268",
+          "evidence_sentence": "[7007] Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": "She is the person depicted in the AI-generated image and experienced distress from it."
+    },
+    {
+      "id": "77fc4e2dc02f",
+      "name": "Elizabeth Laraki_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "40f2c17bda72",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": "She directly used the AI image expansion tool to edit her photo."
+    },
+    {
+      "id": "b4e39c027295",
+      "name": "Google_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "40f1a8b54a31",
+          "evidence_sentence": "[7007] Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": "Google is mentioned only as a former employer of Elizabeth Laraki; no evidence of direct involvement in AI system development/deployment."
+    },
+    {
+      "id": "3e104bb9a163",
+      "name": "Upscale Conf_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8fa3e977ea1d",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": "The conference organizers (Upscale Conf) deployed/used the AI tool to create promotional materials."
+    },
+    {
+      "id": "9a05c961d03d",
+      "name": "Social media manager (unknown)_AIUser",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d822119c7d89",
+          "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {},
+      "reasoning": "The social media manager used the AI tool to expand the cropped image for the ad."
+    },
+    {
+      "id": "488aa98ea787",
+      "name": "Conference host (unknown)_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "b58384e2e7dd",
+          "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": "The conference hosts are responsible for the AI-generated content in the ad and took corrective action."
+    },
+    {
+      "id": "410f2d35dcae",
+      "name": "Facebook_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0481a450351e",
+          "evidence_sentence": "[3967] From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": "Facebook is mentioned only as a former employer of Elizabeth Laraki; no evidence of direct AI system involvement."
+    },
+    {
+      "id": "13bf03bff24c",
+      "name": "Elizabeth Lazarki_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ac3cce9eabd9",
+          "evidence_sentence": "[3968] Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": "Elizabeth Lazarki (likely same person as Laraki) shared the problematic AI-generated image, indicating she was affected."
+    },
+    {
+      "id": "5a936fe7909d",
+      "name": "YouTube_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2a5f3515d0d8",
+          "evidence_sentence": "[3968] Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": "YouTube is mentioned only as a former employer; no evidence of direct AI system involvement."
+    },
+    {
+      "id": "732219b42dba",
+      "name": "AI image expansion/generation tool hallucinating content",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "aa5c5513ea03",
+          "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "bbd7d6f308ff",
+      "name": "risk of AI-generated distorted or fabricated imagery",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ad2b398f3562",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "296786f4f159",
+      "name": "lack of human oversight in AI-generated content for official communications",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "019171465a42",
+          "evidence_sentence": "The social media manager used a cropped square image and applied an AI expand tool without reviewing the result.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a9f9e8e0608d",
+      "name": "misrepresentation of a speaker's appearance in official conference promotion",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "51ea0dbfbf58",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "87b2e2e81fbe",
+      "name": "personal distress and reputational harm to the individual depicted",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "4d354c0420a5",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "05f3e417fd45",
+      "name": "individuals depicted in AI-manipulated images",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8508f60c8ac9",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a38bc58a8f44",
+      "name": "manual review and correction of AI-generated content by stakeholders",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "2c8f9b2d8c72",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "156c2987f9ab",
+      "name": "AI image expansion/generation",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "86aef7948e73",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence explicitly states the AI tool was used to make an image taller by expanding it vertically."
+    },
+    {
+      "id": "488250d01579",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "aaac0a32c27b",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": "The AI tool is being actively used in production (conference ad creation), indicating deployment phase."
+    },
+    {
+      "id": "fdeb100647c1",
+      "name": "graphic design",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ac71a241de3b",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "attributes": {},
+      "reasoning": "The AI tool is being used for conference advertisement design, which falls under graphic design domain."
+    },
+    {
+      "id": "2f3e5e5f4407",
+      "name": "ensure accurate representation of individuals in AI-generated content",
+      "entity_type": "Obligation",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "897815b9903e",
+          "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.75
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.75,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": "The hosts took responsibility to correct the AI-generated error, implying an obligation for accuracy."
+    },
+    {
+      "id": "9f662f70e8cf",
+      "name": "transparency about AI-generated content in marketing materials",
+      "entity_type": "ComplianceRequirement",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "6ef699844402",
+          "evidence_sentence": "[3967] In essence, 'AI invented the bottom part of the image,' Laraki described.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "attributes": {},
+      "reasoning": "The need to disclose AI involvement in content creation is implied by the call-out and correction."
+    },
+    {
+      "id": "2c8e90acb166",
+      "name": "public scrutiny of AI-generated content in marketing",
+      "entity_type": "Trend",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "17eca4fa8472",
+          "evidence_sentence": "[3968] Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "attributes": {},
+      "reasoning": "Social media sharing of AI content issues indicates growing public awareness and scrutiny."
+    }
+  ],
+  "edges": [
+    {
+      "id": "3c5a7993b4e6",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "3966",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "0759c2cf0ca1",
+          "evidence_sentence": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "33c434f220e5",
+      "subject_id": "cac43d456fdb",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "3966",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ad626e5354ba",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "3967",
+      "object_name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "evidence": [
+        {
+          "evidence_id": "a4fa0b04165c",
+          "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "eb7d371e2799",
+      "subject_id": "cac43d456fdb",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "3967",
+      "object_name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e8fce3ce7c83",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "3968",
+      "object_name": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+      "evidence": [
+        {
+          "evidence_id": "c11fe6de1751",
+          "evidence_sentence": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+          "source_doc_id": "3968",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "27805b6ed5c3",
+      "subject_id": "cac43d456fdb",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "3968",
+      "object_name": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3ac153f33fd5",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "3969",
+      "object_name": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+      "evidence": [
+        {
+          "evidence_id": "ea77372a2bb8",
+          "evidence_sentence": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6d25633e9c88",
+      "subject_id": "cac43d456fdb",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "3969",
+      "object_name": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "53418012d250",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "3970",
+      "object_name": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+      "evidence": [
+        {
+          "evidence_id": "894998db98bb",
+          "evidence_sentence": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+          "source_doc_id": "3970",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3970"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "61fba0772fb6",
+      "subject_id": "cac43d456fdb",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "3970",
+      "object_name": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3970"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2d0544454bf7",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasReport",
+      "object_id": "7007",
+      "object_name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "evidence": [
+        {
+          "evidence_id": "8d84d6c4a14c",
+          "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8398798d5b62",
+      "subject_id": "164f7254daad",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "7007",
+      "object_name": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "417ee77df2f3",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e06e6d24af8",
+      "object_name": "Elizabeth Laraki",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "58c61cc19bf2",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "6121c24b0660",
+      "object_name": "Google",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Google",
+            "start": 330,
+            "end": 336
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Google",
+            "start": 40,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Google",
+            "start": 39,
+            "end": 45
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e36a9801e35e",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesAISystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "0811eb63d88c",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "an AI expand image tool",
+            "start": 773,
+            "end": 796
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ba8bbc8cdd8",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "fb50037f5aaa",
+      "object_name": "Social media manager (unknown)",
+      "evidence": [
+        {
+          "evidence_id": "e4fba5f0e95c",
+          "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the woman running their social media",
+            "start": 639,
+            "end": 675
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "889f1d1f83e4",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "7c57af488616",
+      "object_name": "Conference host (unknown)",
+      "evidence": [
+        {
+          "evidence_id": "5cab9b20a390",
+          "evidence_sentence": "Immediately, I email the conference host.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the conference host",
+            "start": 465,
+            "end": 484
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "592aaa2f08f0",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "0b2975713615",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 247,
+            "end": 259
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8f78c307c82f",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "upscaleconf",
+            "start": 2657,
+            "end": 2668
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a221f6eb1d91",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesAISystem",
+      "object_id": "0c4e0538ea31",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 138,
+            "end": 150
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "02b060dc8e4d",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "1e06d3c54190",
+      "object_name": "Facebook",
+      "evidence": [
+        {
+          "evidence_id": "8494031f80b3",
+          "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 3799,
+            "end": 3807
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 187,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e616aa3fba72",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesAISystem",
+      "object_id": "c807425be723",
+      "object_name": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "7399373baf55",
+          "evidence_sentence": "I’ve fed Midjourney identical prompts only swapping out “men” and “women” and the results are always drastically different, sexualizing the images of women nearly always.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Midjourney",
+            "start": 2099,
+            "end": 2109
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "71fa02ddfd2e",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "a6829888975e",
+      "object_name": "Elizabeth Lazarki",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Elizabeth Lazarki",
+            "start": 124,
+            "end": 141
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1414c2c645d8",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "involvesStakeholder",
+      "object_id": "7c5ab3afe441",
+      "object_name": "YouTube",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "YouTube",
+            "start": 200,
+            "end": 207
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5e1154644b72",
+      "subject_id": "5e49ae5b9ef1",
+      "subject_name": "AI expand image tool",
+      "predicate": "usesTechnique",
+      "object_id": "e2608cd4ed2a",
+      "object_name": "AI image expansion",
+      "evidence": [
+        {
+          "evidence_id": "d6843b7bc0b7",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "AI expand image tool",
+            "start": 1316,
+            "end": 1336
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "eb463d6bed83",
+          "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "an AI expander",
+            "start": 1275,
+            "end": 1289
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b2080a9b35f5",
+      "subject_id": "5e49ae5b9ef1",
+      "subject_name": "AI expand image tool",
+      "predicate": "usesTechnique",
+      "object_id": "cb4f4baebac0",
+      "object_name": "AI expander",
+      "evidence": [
+        {
+          "evidence_id": "35159bd0a069",
+          "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "AI expander",
+            "start": 1177,
+            "end": 1188
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "63fae9e00160",
+      "subject_id": "5e49ae5b9ef1",
+      "subject_name": "AI expand image tool",
+      "predicate": "hasCapability",
+      "object_id": "332736d15734",
+      "object_name": "generate image content",
+      "evidence": [
+        {
+          "evidence_id": "0ee637e9cd81",
+          "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "AI invented the bottom part of the image",
+            "start": 1264,
+            "end": 1304
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bcbf488ebab0",
+      "subject_id": "2f9b8fd10a7e",
+      "subject_name": "Elizabeth Laraki_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "object_name": "Elizabeth Laraki",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a36d0751068b",
+      "subject_id": "2f9b8fd10a7e",
+      "subject_name": "Elizabeth Laraki_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a68af3e8ce99",
+      "subject_id": "2f9b8fd10a7e",
+      "subject_name": "Elizabeth Laraki_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c9308deec62c",
+      "subject_id": "77fc4e2dc02f",
+      "subject_name": "Elizabeth Laraki_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "object_name": "Elizabeth Laraki",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d39669e94e3f",
+      "subject_id": "77fc4e2dc02f",
+      "subject_name": "Elizabeth Laraki_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cb82bdbcd3fc",
+      "subject_id": "77fc4e2dc02f",
+      "subject_name": "Elizabeth Laraki_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 303,
+            "end": 319
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ede1f0eaa700",
+          "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 360,
+            "end": 376
+          },
+          "confidence": 0.99
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Elizabeth Laraki",
+            "start": 109,
+            "end": 125
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "07161f69b64f",
+      "subject_id": "b4e39c027295",
+      "subject_name": "Google_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "6121c24b0660",
+      "object_name": "Google",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Google",
+            "start": 330,
+            "end": 336
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Google",
+            "start": 40,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Google",
+            "start": 39,
+            "end": 45
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4047f2b28f5d",
+      "subject_id": "b4e39c027295",
+      "subject_name": "Google_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Google",
+            "start": 330,
+            "end": 336
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Google",
+            "start": 40,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Google",
+            "start": 39,
+            "end": 45
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "891749fda91e",
+      "subject_id": "b4e39c027295",
+      "subject_name": "Google_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "a83cd5a3126a",
+          "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+          "source_doc_id": "3970",
+          "mention_span": {
+            "text": "Google",
+            "start": 330,
+            "end": 336
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Google",
+            "start": 40,
+            "end": 46
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "636fe625b9fc",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Google",
+            "start": 39,
+            "end": 45
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967",
+        "3970",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b42b57af85da",
+      "subject_id": "3e104bb9a163",
+      "subject_name": "Upscale Conf_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "0b2975713615",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 247,
+            "end": 259
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8f78c307c82f",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "upscaleconf",
+            "start": 2657,
+            "end": 2668
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a734b647d988",
+      "subject_id": "3e104bb9a163",
+      "subject_name": "Upscale Conf_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 247,
+            "end": 259
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8f78c307c82f",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "upscaleconf",
+            "start": 2657,
+            "end": 2668
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9a94b580e0d6",
+      "subject_id": "3e104bb9a163",
+      "subject_name": "Upscale Conf_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "3e8bfc367b64",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": {
+            "text": "Upscale Conf",
+            "start": 247,
+            "end": 259
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8f78c307c82f",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "upscaleconf",
+            "start": 2657,
+            "end": 2668
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3b03a5780d43",
+      "subject_id": "9a05c961d03d",
+      "subject_name": "Social media manager (unknown)_AIUser",
+      "predicate": "roleHeldBy",
+      "object_id": "fb50037f5aaa",
+      "object_name": "Social media manager (unknown)",
+      "evidence": [
+        {
+          "evidence_id": "e4fba5f0e95c",
+          "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the woman running their social media",
+            "start": 639,
+            "end": 675
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b54ee016d3dc",
+      "subject_id": "9a05c961d03d",
+      "subject_name": "Social media manager (unknown)_AIUser",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "e4fba5f0e95c",
+          "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the woman running their social media",
+            "start": 639,
+            "end": 675
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9b71c2f1f0d6",
+      "subject_id": "9a05c961d03d",
+      "subject_name": "Social media manager (unknown)_AIUser",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "e4fba5f0e95c",
+          "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the woman running their social media",
+            "start": 639,
+            "end": 675
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5cd73304edec",
+      "subject_id": "488aa98ea787",
+      "subject_name": "Conference host (unknown)_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "7c57af488616",
+      "object_name": "Conference host (unknown)",
+      "evidence": [
+        {
+          "evidence_id": "5cab9b20a390",
+          "evidence_sentence": "Immediately, I email the conference host.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the conference host",
+            "start": 465,
+            "end": 484
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "74f180565a35",
+      "subject_id": "488aa98ea787",
+      "subject_name": "Conference host (unknown)_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "5cab9b20a390",
+          "evidence_sentence": "Immediately, I email the conference host.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the conference host",
+            "start": 465,
+            "end": 484
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c1ee43a6bc65",
+      "subject_id": "488aa98ea787",
+      "subject_name": "Conference host (unknown)_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "5cab9b20a390",
+          "evidence_sentence": "Immediately, I email the conference host.",
+          "source_doc_id": "3966",
+          "mention_span": {
+            "text": "the conference host",
+            "start": 465,
+            "end": 484
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1cf881886510",
+      "subject_id": "410f2d35dcae",
+      "subject_name": "Facebook_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "1e06d3c54190",
+      "object_name": "Facebook",
+      "evidence": [
+        {
+          "evidence_id": "8494031f80b3",
+          "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 3799,
+            "end": 3807
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 187,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0e4942961353",
+      "subject_id": "410f2d35dcae",
+      "subject_name": "Facebook_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "8494031f80b3",
+          "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 3799,
+            "end": 3807
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 187,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "60639451e8d1",
+      "subject_id": "410f2d35dcae",
+      "subject_name": "Facebook_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "8494031f80b3",
+          "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+          "source_doc_id": "3967",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 3799,
+            "end": 3807
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Facebook",
+            "start": 187,
+            "end": 195
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5af6239285ef",
+      "subject_id": "13bf03bff24c",
+      "subject_name": "Elizabeth Lazarki_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "a6829888975e",
+      "object_name": "Elizabeth Lazarki",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Elizabeth Lazarki",
+            "start": 124,
+            "end": 141
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7509aefe94af",
+      "subject_id": "13bf03bff24c",
+      "subject_name": "Elizabeth Lazarki_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Elizabeth Lazarki",
+            "start": 124,
+            "end": 141
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7c98cd33d1c6",
+      "subject_id": "13bf03bff24c",
+      "subject_name": "Elizabeth Lazarki_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "Elizabeth Lazarki",
+            "start": 124,
+            "end": 141
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d833dec81f4f",
+      "subject_id": "5a936fe7909d",
+      "subject_name": "YouTube_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "7c5ab3afe441",
+      "object_name": "YouTube",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "YouTube",
+            "start": 200,
+            "end": 207
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bc322fa06c3e",
+      "subject_id": "5a936fe7909d",
+      "subject_name": "YouTube_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "object_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "YouTube",
+            "start": 200,
+            "end": 207
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "bf2914b16805",
+      "subject_id": "5a936fe7909d",
+      "subject_name": "YouTube_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "ececfdae545c",
+          "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+          "source_doc_id": "3968",
+          "mention_span": {
+            "text": "YouTube",
+            "start": 200,
+            "end": 207
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3968"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7c295bcca566",
+      "subject_id": "2e06e6d24af8",
+      "subject_name": "Elizabeth Laraki",
+      "predicate": "uses",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "d000eff44d9a",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4061e4074617",
+      "subject_id": "2e06e6d24af8",
+      "subject_name": "Elizabeth Laraki",
+      "predicate": "uses",
+      "object_id": "0c4e0538ea31",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "c74bcb139f73",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a2097f53c691",
+      "subject_id": "2e06e6d24af8",
+      "subject_name": "Elizabeth Laraki",
+      "predicate": "uses",
+      "object_id": "c807425be723",
+      "object_name": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "8ed2fc9da19f",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "043e87da06ec",
+      "subject_id": "0b2975713615",
+      "subject_name": "Upscale Conf",
+      "predicate": "deploys",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "a8e3af298053",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0a32bfb4a68e",
+      "subject_id": "0b2975713615",
+      "subject_name": "Upscale Conf",
+      "predicate": "deploys",
+      "object_id": "0c4e0538ea31",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "284eee063caf",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a122e431486",
+      "subject_id": "0b2975713615",
+      "subject_name": "Upscale Conf",
+      "predicate": "deploys",
+      "object_id": "c807425be723",
+      "object_name": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "6232a1e605fa",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5ea0ef3664a7",
+      "subject_id": "fb50037f5aaa",
+      "subject_name": "Social media manager (unknown)",
+      "predicate": "uses",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "666c05b16378",
+          "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "319d22921ed1",
+      "subject_id": "fb50037f5aaa",
+      "subject_name": "Social media manager (unknown)",
+      "predicate": "uses",
+      "object_id": "0c4e0538ea31",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "4769d5c8d48a",
+          "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9160ba68622c",
+      "subject_id": "fb50037f5aaa",
+      "subject_name": "Social media manager (unknown)",
+      "predicate": "uses",
+      "object_id": "c807425be723",
+      "object_name": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "08b97be6bcbc",
+          "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b5f3ae28833a",
+      "subject_id": "7c57af488616",
+      "subject_name": "Conference host (unknown)",
+      "predicate": "deploys",
+      "object_id": "5e49ae5b9ef1",
+      "object_name": "AI expand image tool",
+      "evidence": [
+        {
+          "evidence_id": "7c554530a935",
+          "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "995c132c966a",
+      "subject_id": "7c57af488616",
+      "subject_name": "Conference host (unknown)",
+      "predicate": "deploys",
+      "object_id": "0c4e0538ea31",
+      "object_name": "Upscale Conf",
+      "evidence": [
+        {
+          "evidence_id": "352e3564201a",
+          "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8c7b391c395f",
+      "subject_id": "7c57af488616",
+      "subject_name": "Conference host (unknown)",
+      "predicate": "deploys",
+      "object_id": "c807425be723",
+      "object_name": "Midjourney",
+      "evidence": [
+        {
+          "evidence_id": "6b1990611426",
+          "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ee2180695f16",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "isRiskSourceFor",
+      "object_id": "732219b42dba",
+      "object_name": "AI image expansion/generation tool hallucinating content",
+      "evidence": [
+        {
+          "evidence_id": "aa5c5513ea03",
+          "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "63bce9f8ca93",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasRisk",
+      "object_id": "bbd7d6f308ff",
+      "object_name": "risk of AI-generated distorted or fabricated imagery",
+      "evidence": [
+        {
+          "evidence_id": "ad2b398f3562",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f8b27fd601af",
+      "subject_id": "732219b42dba",
+      "subject_name": "AI image expansion/generation tool hallucinating content",
+      "predicate": "causes",
+      "object_id": "bbd7d6f308ff",
+      "object_name": "risk of AI-generated distorted or fabricated imagery",
+      "evidence": [
+        {
+          "evidence_id": "ad2b398f3562",
+          "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0bf0a4433ea8",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasConsequence",
+      "object_id": "a9f9e8e0608d",
+      "object_name": "misrepresentation of a speaker's appearance in official conference promotion",
+      "evidence": [
+        {
+          "evidence_id": "51ea0dbfbf58",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d3853d5ca0a3",
+      "subject_id": "bbd7d6f308ff",
+      "subject_name": "risk of AI-generated distorted or fabricated imagery",
+      "predicate": "leadsTo",
+      "object_id": "a9f9e8e0608d",
+      "object_name": "misrepresentation of a speaker's appearance in official conference promotion",
+      "evidence": [
+        {
+          "evidence_id": "51ea0dbfbf58",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "649030c9c08b",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasImpact",
+      "object_id": "87b2e2e81fbe",
+      "object_name": "personal distress and reputational harm to the individual depicted",
+      "evidence": [
+        {
+          "evidence_id": "4d354c0420a5",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "facf6cd9e56e",
+      "subject_id": "a9f9e8e0608d",
+      "subject_name": "misrepresentation of a speaker's appearance in official conference promotion",
+      "predicate": "impacts",
+      "object_id": "87b2e2e81fbe",
+      "object_name": "personal distress and reputational harm to the individual depicted",
+      "evidence": [
+        {
+          "evidence_id": "4d354c0420a5",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "78f7c21563ca",
+      "subject_id": "87b2e2e81fbe",
+      "subject_name": "personal distress and reputational harm to the individual depicted",
+      "predicate": "affects",
+      "object_id": "05f3e417fd45",
+      "object_name": "individuals depicted in AI-manipulated images",
+      "evidence": [
+        {
+          "evidence_id": "8508f60c8ac9",
+          "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+          "source_doc_id": "7007",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "7007"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "16306fcf249f",
+      "subject_id": "5e49ae5b9ef1",
+      "subject_name": "AI expand image tool",
+      "predicate": "hasVulnerability",
+      "object_id": "296786f4f159",
+      "object_name": "lack of human oversight in AI-generated content for official communications",
+      "evidence": [
+        {
+          "evidence_id": "019171465a42",
+          "evidence_sentence": "The social media manager used a cropped square image and applied an AI expand tool without reviewing the result.",
+          "source_doc_id": "3966",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3966"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "91e5b6ce69d8",
+      "subject_id": "a38bc58a8f44",
+      "subject_name": "manual review and correction of AI-generated content by stakeholders",
+      "predicate": "mitigates",
+      "object_id": "bbd7d6f308ff",
+      "object_name": "risk of AI-generated distorted or fabricated imagery",
+      "evidence": [
+        {
+          "evidence_id": "2c8f9b2d8c72",
+          "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+          "source_doc_id": "3967",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3967",
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8fc8ce422782",
+      "subject_id": "5e49ae5b9ef1",
+      "subject_name": "AI expand image tool",
+      "predicate": "hasCapability",
+      "object_id": "156c2987f9ab",
+      "object_name": "AI image expansion/generation",
+      "evidence": [
+        {
+          "evidence_id": "86aef7948e73",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d6bdb8da1234",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasEvidence",
+      "object_id": "488250d01579",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "aaac0a32c27b",
+          "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e962e4111eb",
+      "subject_id": "pred_194",
+      "subject_name": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+      "predicate": "hasEvidence",
+      "object_id": "fdeb100647c1",
+      "object_name": "graphic design",
+      "evidence": [
+        {
+          "evidence_id": "ac71a241de3b",
+          "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+          "source_doc_id": "3969",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "3969"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "8631224a68d3",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "3966",
+      "evidence": {
+        "evidence_id": "0759c2cf0ca1",
+        "evidence_sentence": "@elizlaraki X post, Oct 15, 2024, 2:12 PM",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c9930b699aec",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "3967",
+      "evidence": {
+        "evidence_id": "a4fa0b04165c",
+        "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c044478a372b",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "3968",
+      "evidence": {
+        "evidence_id": "c11fe6de1751",
+        "evidence_sentence": "'Made up a bra': Ex Google techie claims her photo was edited for AI conference",
+        "source_doc_id": "3968",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "847baf43f0e6",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "3969",
+      "evidence": {
+        "evidence_id": "ea77372a2bb8",
+        "evidence_sentence": "'Unbuttoned Blouse, Added Bra': Ex-Google, Facebook Employee Claims Photo Edited for AI Conference",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "80b87131b4af",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "3970",
+      "evidence": {
+        "evidence_id": "894998db98bb",
+        "evidence_sentence": "AI edits ex-Google techie's image to add a 'bra'; netizens shocked",
+        "source_doc_id": "3970",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f589fc035897",
+      "subject_id": "pred_194",
+      "predicate": "hasReport",
+      "object_id": "7007",
+      "evidence": {
+        "evidence_id": "8d84d6c4a14c",
+        "evidence_sentence": "‘Edited Photo To Unbutton My Blouse’ Ex-Google And Facebook Techie Alleges Her Pic Altered For AI Conference",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d5b4a59a1b99",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "86ac21a7206a",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "6d4a6a0dd26e",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.99,
+      "support_count": 1
+    },
+    {
+      "id": "e0009ad06718",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Google",
+          "start": 330,
+          "end": 336
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4469ad8a5c18",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Google",
+          "start": 40,
+          "end": 46
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0283fdc58aee",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "636fe625b9fc",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Google",
+          "start": 39,
+          "end": 45
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "3b58cde1c831",
+      "subject_id": "pred_194",
+      "predicate": "involvesAISystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "0811eb63d88c",
+        "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "an AI expand image tool",
+          "start": 773,
+          "end": 796
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b1a6f58eea7e",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "fb50037f5aaa",
+      "evidence": {
+        "evidence_id": "e4fba5f0e95c",
+        "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the woman running their social media",
+          "start": 639,
+          "end": 675
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "993bb1f0e20f",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "7c57af488616",
+      "evidence": {
+        "evidence_id": "5cab9b20a390",
+        "evidence_sentence": "Immediately, I email the conference host.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the conference host",
+          "start": 465,
+          "end": 484
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1e4272580063",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "0b2975713615",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Upscale Conf",
+          "start": 247,
+          "end": 259
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4d181d3f115e",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "0b2975713615",
+      "evidence": {
+        "evidence_id": "8f78c307c82f",
+        "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "upscaleconf",
+          "start": 2657,
+          "end": 2668
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "86bfc6a0141b",
+      "subject_id": "pred_194",
+      "predicate": "involvesAISystem",
+      "object_id": "0c4e0538ea31",
+      "evidence": {
+        "evidence_id": "636fe625b9fc",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Upscale Conf",
+          "start": 138,
+          "end": 150
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "e97be9337c99",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "1e06d3c54190",
+      "evidence": {
+        "evidence_id": "8494031f80b3",
+        "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 3799,
+          "end": 3807
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "72299824ba2c",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "1e06d3c54190",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 187,
+          "end": 195
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8c01d0e73bc1",
+      "subject_id": "pred_194",
+      "predicate": "involvesAISystem",
+      "object_id": "c807425be723",
+      "evidence": {
+        "evidence_id": "7399373baf55",
+        "evidence_sentence": "I’ve fed Midjourney identical prompts only swapping out “men” and “women” and the results are always drastically different, sexualizing the images of women nearly always.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Midjourney",
+          "start": 2099,
+          "end": 2109
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1d1a821225a4",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "a6829888975e",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Elizabeth Lazarki",
+          "start": 124,
+          "end": 141
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b938d87aef9f",
+      "subject_id": "pred_194",
+      "predicate": "involvesStakeholder",
+      "object_id": "7c5ab3afe441",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "YouTube",
+          "start": 200,
+          "end": 207
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "66e9ca6054ff",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "usesTechnique",
+      "object_id": "e2608cd4ed2a",
+      "evidence": {
+        "evidence_id": "d6843b7bc0b7",
+        "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "AI expand image tool",
+          "start": 1316,
+          "end": 1336
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f675a8c1791c",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "usesTechnique",
+      "object_id": "e2608cd4ed2a",
+      "evidence": {
+        "evidence_id": "eb463d6bed83",
+        "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "an AI expander",
+          "start": 1275,
+          "end": 1289
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "e0a5f9b2ddb7",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "usesTechnique",
+      "object_id": "cb4f4baebac0",
+      "evidence": {
+        "evidence_id": "35159bd0a069",
+        "evidence_sentence": "The designer then used an AI expander to make the photo look taller and compatible for the design.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "AI expander",
+          "start": 1177,
+          "end": 1188
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "5975fa490338",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "hasCapability",
+      "object_id": "332736d15734",
+      "evidence": {
+        "evidence_id": "0ee637e9cd81",
+        "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "AI invented the bottom part of the image",
+          "start": 1264,
+          "end": 1304
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c48da72050a5",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "eeb2799a26f9",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "de5c43c12f94",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "aa8e0e16d309",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f9498d6ff285",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "193dc24e54ba",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "82a5e518a380",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "d4bb0ccdbae2",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "41117e11cacc",
+      "subject_id": "2f9b8fd10a7e",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "68bee1613bd8",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0f31293933dc",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e0e6036ac70b",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleHeldBy",
+      "object_id": "2e06e6d24af8",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c5f63682fbfe",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a9f72d2c0105",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "dfff19446210",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "4b3d448df758",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 303,
+          "end": 319
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "eeb9d6e504cb",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "ede1f0eaa700",
+        "evidence_sentence": "Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 360,
+          "end": 376
+        },
+        "confidence": 0.99
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "0cb3134de96d",
+      "subject_id": "77fc4e2dc02f",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Elizabeth Laraki",
+          "start": 109,
+          "end": 125
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "b3ff324d4fe7",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleHeldBy",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Google",
+          "start": 330,
+          "end": 336
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "7e6a67ec70c1",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleHeldBy",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Google",
+          "start": 40,
+          "end": 46
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "962eb09767bc",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleHeldBy",
+      "object_id": "6121c24b0660",
+      "evidence": {
+        "evidence_id": "636fe625b9fc",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Google",
+          "start": 39,
+          "end": 45
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "a6a8c2990ce9",
+      "subject_id": "b4e39c027295",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Google",
+          "start": 330,
+          "end": 336
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "8a657d023212",
+      "subject_id": "b4e39c027295",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Google",
+          "start": 40,
+          "end": 46
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "7843d61bb778",
+      "subject_id": "b4e39c027295",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "636fe625b9fc",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Google",
+          "start": 39,
+          "end": 45
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "ef73c09e37cb",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "a83cd5a3126a",
+        "evidence_sentence": "Elizabeth Laraki, a former Google employee, shared that she was speaking at a conference on UX and AI design.",
+        "source_doc_id": "3970",
+        "mention_span": {
+          "text": "Google",
+          "start": 330,
+          "end": 336
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "c1f9de9a8ddb",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Google",
+          "start": 40,
+          "end": 46
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "43e79fe3fffb",
+      "subject_id": "b4e39c027295",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "636fe625b9fc",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Google",
+          "start": 39,
+          "end": 45
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "ac21e7019c85",
+      "subject_id": "3e104bb9a163",
+      "predicate": "roleHeldBy",
+      "object_id": "0b2975713615",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Upscale Conf",
+          "start": 247,
+          "end": 259
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1384b7cdb582",
+      "subject_id": "3e104bb9a163",
+      "predicate": "roleHeldBy",
+      "object_id": "0b2975713615",
+      "evidence": {
+        "evidence_id": "8f78c307c82f",
+        "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "upscaleconf",
+          "start": 2657,
+          "end": 2668
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c7a69059a8c9",
+      "subject_id": "3e104bb9a163",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Upscale Conf",
+          "start": 247,
+          "end": 259
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b57fa198932d",
+      "subject_id": "3e104bb9a163",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "8f78c307c82f",
+        "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "upscaleconf",
+          "start": 2657,
+          "end": 2668
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f4e9087a609e",
+      "subject_id": "3e104bb9a163",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "3e8bfc367b64",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": {
+          "text": "Upscale Conf",
+          "start": 247,
+          "end": 259
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "b6efb3911f5e",
+      "subject_id": "3e104bb9a163",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "8f78c307c82f",
+        "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "upscaleconf",
+          "start": 2657,
+          "end": 2668
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "521fca5b87bb",
+      "subject_id": "9a05c961d03d",
+      "predicate": "roleHeldBy",
+      "object_id": "fb50037f5aaa",
+      "evidence": {
+        "evidence_id": "e4fba5f0e95c",
+        "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the woman running their social media",
+          "start": 639,
+          "end": 675
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "06c6521f193f",
+      "subject_id": "9a05c961d03d",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "e4fba5f0e95c",
+        "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the woman running their social media",
+          "start": 639,
+          "end": 675
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "6cd6d068b93e",
+      "subject_id": "9a05c961d03d",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "e4fba5f0e95c",
+        "evidence_sentence": "He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the woman running their social media",
+          "start": 639,
+          "end": 675
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "878cdd32db4a",
+      "subject_id": "488aa98ea787",
+      "predicate": "roleHeldBy",
+      "object_id": "7c57af488616",
+      "evidence": {
+        "evidence_id": "5cab9b20a390",
+        "evidence_sentence": "Immediately, I email the conference host.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the conference host",
+          "start": 465,
+          "end": 484
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d6cb3e1c2428",
+      "subject_id": "488aa98ea787",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "5cab9b20a390",
+        "evidence_sentence": "Immediately, I email the conference host.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the conference host",
+          "start": 465,
+          "end": 484
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "aa8439d13a21",
+      "subject_id": "488aa98ea787",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "5cab9b20a390",
+        "evidence_sentence": "Immediately, I email the conference host.",
+        "source_doc_id": "3966",
+        "mention_span": {
+          "text": "the conference host",
+          "start": 465,
+          "end": 484
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "1682509c425f",
+      "subject_id": "410f2d35dcae",
+      "predicate": "roleHeldBy",
+      "object_id": "1e06d3c54190",
+      "evidence": {
+        "evidence_id": "8494031f80b3",
+        "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 3799,
+          "end": 3807
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "c301bbaf5a89",
+      "subject_id": "410f2d35dcae",
+      "predicate": "roleHeldBy",
+      "object_id": "1e06d3c54190",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 187,
+          "end": 195
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "12cf820bf9e5",
+      "subject_id": "410f2d35dcae",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "8494031f80b3",
+        "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 3799,
+          "end": 3807
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "cd5d61d51724",
+      "subject_id": "410f2d35dcae",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 187,
+          "end": 195
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "055de328484b",
+      "subject_id": "410f2d35dcae",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "8494031f80b3",
+        "evidence_sentence": "From 2012 till 2018, she was the Director of Product Design at Mark Zuckerberg-led company Facebook.",
+        "source_doc_id": "3967",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 3799,
+          "end": 3807
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "30485864db1b",
+      "subject_id": "410f2d35dcae",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Facebook",
+          "start": 187,
+          "end": 195
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "0ecb09fb6003",
+      "subject_id": "13bf03bff24c",
+      "predicate": "roleHeldBy",
+      "object_id": "a6829888975e",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Elizabeth Lazarki",
+          "start": 124,
+          "end": 141
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "2cca88859c54",
+      "subject_id": "13bf03bff24c",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Elizabeth Lazarki",
+          "start": 124,
+          "end": 141
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "90f065b15fe9",
+      "subject_id": "13bf03bff24c",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared that she was attending a conference later this year on UX and AI design.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "Elizabeth Lazarki",
+          "start": 124,
+          "end": 141
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "6ee6a6e49966",
+      "subject_id": "5a936fe7909d",
+      "predicate": "roleHeldBy",
+      "object_id": "7c5ab3afe441",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "YouTube",
+          "start": 200,
+          "end": 207
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "94dcb93cfdbc",
+      "subject_id": "5a936fe7909d",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_194",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "YouTube",
+          "start": 200,
+          "end": 207
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "9606dda52902",
+      "subject_id": "5a936fe7909d",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "ececfdae545c",
+        "evidence_sentence": "Elizabeth Lazarki, who has previously worked with Google Maps, Facebook and YouTube, shared the edited photo on X.",
+        "source_doc_id": "3968",
+        "mention_span": {
+          "text": "YouTube",
+          "start": 200,
+          "end": 207
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "25e221f62883",
+      "subject_id": "2e06e6d24af8",
+      "predicate": "uses",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "d000eff44d9a",
+        "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "34b0b46ea3e2",
+      "subject_id": "2e06e6d24af8",
+      "predicate": "uses",
+      "object_id": "0c4e0538ea31",
+      "evidence": {
+        "evidence_id": "c74bcb139f73",
+        "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2ae807cc20f3",
+      "subject_id": "2e06e6d24af8",
+      "predicate": "uses",
+      "object_id": "c807425be723",
+      "evidence": {
+        "evidence_id": "8ed2fc9da19f",
+        "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "731292b3a14d",
+      "subject_id": "0b2975713615",
+      "predicate": "deploys",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "a8e3af298053",
+        "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6053166a2ef9",
+      "subject_id": "0b2975713615",
+      "predicate": "deploys",
+      "object_id": "0c4e0538ea31",
+      "evidence": {
+        "evidence_id": "284eee063caf",
+        "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "e73eedf63de7",
+      "subject_id": "0b2975713615",
+      "predicate": "deploys",
+      "object_id": "c807425be723",
+      "evidence": {
+        "evidence_id": "6232a1e605fa",
+        "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9cf4ecac226c",
+      "subject_id": "fb50037f5aaa",
+      "predicate": "uses",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "666c05b16378",
+        "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "0aa4e703fbf5",
+      "subject_id": "fb50037f5aaa",
+      "predicate": "uses",
+      "object_id": "0c4e0538ea31",
+      "evidence": {
+        "evidence_id": "4769d5c8d48a",
+        "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "09263e3bf89e",
+      "subject_id": "fb50037f5aaa",
+      "predicate": "uses",
+      "object_id": "c807425be723",
+      "evidence": {
+        "evidence_id": "08b97be6bcbc",
+        "evidence_sentence": "[3966] He quickly reports back that the woman running their social media used a cropped square image from their website.",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "254c2dbe7e41",
+      "subject_id": "7c57af488616",
+      "predicate": "deploys",
+      "object_id": "5e49ae5b9ef1",
+      "evidence": {
+        "evidence_id": "7c554530a935",
+        "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "31e2a332bb03",
+      "subject_id": "7c57af488616",
+      "predicate": "deploys",
+      "object_id": "0c4e0538ea31",
+      "evidence": {
+        "evidence_id": "352e3564201a",
+        "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "642677ac9ee2",
+      "subject_id": "7c57af488616",
+      "predicate": "deploys",
+      "object_id": "c807425be723",
+      "evidence": {
+        "evidence_id": "6b1990611426",
+        "evidence_sentence": "[3967] Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "fb03613a8064",
+      "subject_id": "pred_194",
+      "predicate": "isRiskSourceFor",
+      "object_id": "732219b42dba",
+      "evidence": {
+        "evidence_id": "aa5c5513ea03",
+        "evidence_sentence": "In essence, \"AI invented the bottom part of the image,\" Laraki described.",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "13e7a4a90165",
+      "subject_id": "pred_194",
+      "predicate": "hasRisk",
+      "object_id": "bbd7d6f308ff",
+      "evidence": {
+        "evidence_id": "ad2b398f3562",
+        "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "a049e9e13242",
+      "subject_id": "732219b42dba",
+      "predicate": "causes",
+      "object_id": "bbd7d6f308ff",
+      "evidence": {
+        "evidence_id": "ad2b398f3562",
+        "evidence_sentence": "She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "82275319bcf0",
+      "subject_id": "pred_194",
+      "predicate": "hasConsequence",
+      "object_id": "a9f9e8e0608d",
+      "evidence": {
+        "evidence_id": "51ea0dbfbf58",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d33aceecd794",
+      "subject_id": "bbd7d6f308ff",
+      "predicate": "leadsTo",
+      "object_id": "a9f9e8e0608d",
+      "evidence": {
+        "evidence_id": "51ea0dbfbf58",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "501f11aae927",
+      "subject_id": "pred_194",
+      "predicate": "hasImpact",
+      "object_id": "87b2e2e81fbe",
+      "evidence": {
+        "evidence_id": "4d354c0420a5",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "faa86558310b",
+      "subject_id": "a9f9e8e0608d",
+      "predicate": "impacts",
+      "object_id": "87b2e2e81fbe",
+      "evidence": {
+        "evidence_id": "4d354c0420a5",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "305b8520f808",
+      "subject_id": "87b2e2e81fbe",
+      "predicate": "affects",
+      "object_id": "05f3e417fd45",
+      "evidence": {
+        "evidence_id": "8508f60c8ac9",
+        "evidence_sentence": "Elizabeth Laraki, a former employee at Google who worked on Google Maps, was distraught upon first glance at an ad for the AI conference (Upscale Conf), where she is a panelist.",
+        "source_doc_id": "7007",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "fad9b160a4ed",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "hasVulnerability",
+      "object_id": "296786f4f159",
+      "evidence": {
+        "evidence_id": "019171465a42",
+        "evidence_sentence": "The social media manager used a cropped square image and applied an AI expand tool without reviewing the result.",
+        "source_doc_id": "3966",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "1482180bf639",
+      "subject_id": "a38bc58a8f44",
+      "predicate": "mitigates",
+      "object_id": "bbd7d6f308ff",
+      "evidence": {
+        "evidence_id": "2c8f9b2d8c72",
+        "evidence_sentence": "Luckily, I know the hosts for @upscaleconf. They are great people. When I called this out, they found the issue, apologized + fixed it quickly.",
+        "source_doc_id": "3967",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9c52f82b6890",
+      "subject_id": "5e49ae5b9ef1",
+      "predicate": "hasCapability",
+      "object_id": "156c2987f9ab",
+      "evidence": {
+        "evidence_id": "86aef7948e73",
+        "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "6c51a4e92bfc",
+      "subject_id": "pred_194",
+      "predicate": "hasEvidence",
+      "object_id": "488250d01579",
+      "evidence": {
+        "evidence_id": "aaac0a32c27b",
+        "evidence_sentence": "[3969] She needed it to be more vertical, so she used an AI expand image tool to make the photo taller.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f355eeec8826",
+      "subject_id": "pred_194",
+      "predicate": "hasEvidence",
+      "object_id": "fdeb100647c1",
+      "evidence": {
+        "evidence_id": "ac71a241de3b",
+        "evidence_sentence": "[3969] Elizabeth Laraki is set to attend a conference on UX and AI later this year and the organisers put up an ad for the same.",
+        "source_doc_id": "3969",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "Elizabeth Laraki": 4,
+    "Google": 3,
+    "AI image expansion": 2,
+    "AI expand image tool": 1,
+    "Social media manager (unknown)": 1,
+    "Conference host (unknown)": 1,
+    "Upscale Conf": 1,
+    "Facebook": 2,
+    "AI expander": 1,
+    "generate image content": 1,
+    "Midjourney": 1,
+    "Elizabeth Lazarki": 1,
+    "Google Maps": 1,
+    "YouTube": 1
+  },
+  "report_count": 6,
+  "first_seen": "2024-10-15T00:00:00Z",
+  "last_seen": "2024-10-18T00:00:00Z"
+}

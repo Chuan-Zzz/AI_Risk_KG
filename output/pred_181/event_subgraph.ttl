@@ -1,0 +1,1770 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/59590b84e2fe> a airo:ComplianceRequirement ;
+    rdfs:label "comply with Australia's criminal code" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/21983907a474> ;
+    airo:hasReasoning "The case involved prosecution under Australia's criminal code for misuse of technology." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> .
+
+<https://w3id.org/airo/incident/EnforcementAction/a51320e1e293> a airo:EnforcementAction ;
+    rdfs:label "criminal prosecution and imprisonment" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ad8ada2c9fc> ;
+    airo:hasReasoning "The evidence shows formal legal enforcement through criminal prosecution resulting in a 9-year prison sentence." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> .
+
+<https://w3id.org/airo/incident/InformationSource/eb500b127553> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/4366>,
+        <https://w3id.org/airo/incident/NewsReport/4373>,
+        <https://w3id.org/airo/incident/NewsReport/4374>,
+        <https://w3id.org/airo/incident/NewsReport/4375>,
+        <https://w3id.org/airo/incident/NewsReport/4376>,
+        <https://w3id.org/airo/incident/NewsReport/4379> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376>,
+        <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/RiskControl/66d15c774a6a> a airo:RiskControl ;
+    rdfs:label "Criminal investigation and prosecution under Australia's criminal code" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84965eab475b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/2cdd96a30b0c> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0a809affb1b5> a airo:RoleAssignment ;
+    rdfs:label "Kris_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/278bd52810c2> ;
+    airo:hasReasoning "Kris, as Hannah's partner, was directly affected by the AI deepfake campaign and participated in uncovering the perpetrator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7d21c3c470d2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/29d229dd17be> a airo:RoleAssignment ;
+    rdfs:label "Andrew Thomas Hayler_AIDeployer" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7d6e25ec7d8> ;
+    airo:hasReasoning "Andrew Thomas Hayler is the same person as Andy Hayler, who deployed the AI deepfake images." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/735c7a5ab2ed> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2bd5a0caa4ca> a airo:RoleAssignment ;
+    rdfs:label "Sidnie Sarang_Stakeholder" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b92f686d7d45> ;
+    airo:hasReasoning "Sidnie Sarang is a criminal lawyer who represented victims but does not fit the standard AI-specific roles (AIDeveloper, AIProvider, AIDeployer, AIUser, Regulator, AffectedActor)." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3c1e8890dd2a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/306cac326f41> a airo:RoleAssignment ;
+    rdfs:label "Jessica Stuart_AffectedActor" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/609766397d6d> ;
+    airo:hasReasoning "Jessica Stuart was a victim of the AI deepfake campaign, experiencing personal horror and impact from the shared photographs." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/df6917cbf82c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/37cc915f6306> a airo:RoleAssignment ;
+    rdfs:label "Will_AffectedActor" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b517af22583a> ;
+    airo:hasReasoning "Will is likely 1 of the 26 women targeted in the deepfake campaign, though specific evidence about Will's involvement is limited." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f9a3a2c764bd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3b7e471563d3> a airo:RoleAssignment ;
+    rdfs:label "Andy Hayler_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5a75834ba96> ;
+    airo:hasReasoning "Andy Hayler deployed and distributed the AI-generated deepfake images using online platforms." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/131b98daefb9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/74450b435099> a airo:RoleAssignment ;
+    rdfs:label "Police_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19b0708bbc44> ;
+    airo:hasReasoning "Police are mentioned as part of the legal/regulatory system that investigated and pursued the criminal case." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/593812a3cbcc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/79b6ffb9d45c> a airo:RoleAssignment ;
+    rdfs:label "Hannah Grundy_AffectedActor" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45134507d754> ;
+    airo:hasReasoning "Hannah Grundy was a primary victim of the AI deepfake campaign, receiving non-consensual pornographic images of herself." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d7fa6b3eeb85> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/87b8447be9b3> a airo:RoleAssignment ;
+    rdfs:label "Rachel McGinty_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e57874712ec> ;
+    airo:hasReasoning "Rachel McGinty was targeted and negatively affected by the AI deepfake campaign, as evidenced by the threatening thread created about her." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8df39e042277> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ad38c77e52ba> a airo:RoleAssignment ;
+    rdfs:label "District Court at the Downing Centre_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a886b441b977> ;
+    airo:hasReasoning "The District Court is a judicial/regulatory body that adjudicated the criminal case." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/de3af6028e91> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ea45d0477dca> a airo:RoleAssignment ;
+    rdfs:label "Jane Culver_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb012fe72f16> ;
+    airo:hasReasoning "Judge Culver is a judicial authority who made a ruling and imposed a sentence in the criminal case." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c57543f863ad> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f8bb3bbf1b41> a airo:RoleAssignment ;
+    rdfs:label "Allan Watt_Stakeholder" ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad610aa9f9b7> ;
+    airo:hasReasoning "Allan Watt is mentioned in the context but does not have clear evidence fitting standard AI-specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_181> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/78b1140ccd84> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> .
+
+<https://w3id.org/airo/incident/Trend/ec6ec3778ce4> a airo:Trend ;
+    rdfs:label "legal prosecution of AI-generated non-consensual deepfakes" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/afbe7654b783> ;
+    airo:hasReasoning "The case demonstrates increasing legal accountability for AI-generated deepfake crimes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/event/pred_181> a airo:AIRiskIncident ;
+    airo:firstSeen "2024-10-13T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 6 ;
+    airo:lastSeen "2024-10-24T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/010b8660d75a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1086e5e6da07> .
+
+<https://w3id.org/airo/incident/ks/02eb74ebb890> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/05019598d315> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c07facac414> .
+
+<https://w3id.org/airo/incident/ks/05f5247c2e10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> .
+
+<https://w3id.org/airo/incident/ks/084a910f4214> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/955fbba627fa> .
+
+<https://w3id.org/airo/incident/ks/0aad990dced0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> .
+
+<https://w3id.org/airo/incident/ks/0abe930bfe6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85fd65f03412> .
+
+<https://w3id.org/airo/incident/ks/11220e0dbb3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/12fd01969610> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5536601da8> .
+
+<https://w3id.org/airo/incident/ks/13f64d2d8579> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e8634b5d829> .
+
+<https://w3id.org/airo/incident/ks/155c6c3b4d1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5879a7e40da> .
+
+<https://w3id.org/airo/incident/ks/17e566983f4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa4989798d6> .
+
+<https://w3id.org/airo/incident/ks/19ee85aa665b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92ab1cdfe93a> .
+
+<https://w3id.org/airo/incident/ks/1baac4b47ce1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2247ad324a44> .
+
+<https://w3id.org/airo/incident/ks/1d4b964039cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5f411cd174> .
+
+<https://w3id.org/airo/incident/ks/1fdfb4799cfd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c01af5958ed2> .
+
+<https://w3id.org/airo/incident/ks/209eaa4b14cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/21549da6103d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bf309fb1433> .
+
+<https://w3id.org/airo/incident/ks/22a052cc48a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/693e7ddf33de> .
+
+<https://w3id.org/airo/incident/ks/2398185916f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bec1319ff3b4> .
+
+<https://w3id.org/airo/incident/ks/24d75466aebe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/668682eee6b3> .
+
+<https://w3id.org/airo/incident/ks/286f42375021> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/2a9999479342> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/628bdfdc4e33> .
+
+<https://w3id.org/airo/incident/ks/2b8b6235bc42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8c92dc4ea2b> .
+
+<https://w3id.org/airo/incident/ks/2bfe9b490f91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa4989798d6> .
+
+<https://w3id.org/airo/incident/ks/32d050a806ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c72781be2ee> .
+
+<https://w3id.org/airo/incident/ks/356a0f8d7d4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/359a2dfdedf2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa4989798d6> .
+
+<https://w3id.org/airo/incident/ks/36838dcceded> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/029fbcf86bb6> .
+
+<https://w3id.org/airo/incident/ks/3710a4431086> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2247ad324a44> .
+
+<https://w3id.org/airo/incident/ks/395dc68d84b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/3aa4c652c6c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76b12387e48f> .
+
+<https://w3id.org/airo/incident/ks/3aacf122b3f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/3d6a1385f460> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a702eed27789> .
+
+<https://w3id.org/airo/incident/ks/3dff46156077> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5f411cd174> .
+
+<https://w3id.org/airo/incident/ks/3e23dc6dff54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/424c0500e3fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc937a862f03> .
+
+<https://w3id.org/airo/incident/ks/45a7f41de97d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8ee4766051> .
+
+<https://w3id.org/airo/incident/ks/46000096a236> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/4a7e341ff0a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a702eed27789> .
+
+<https://w3id.org/airo/incident/ks/4b0b3d7ca172> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7103d3bfb55a> .
+
+<https://w3id.org/airo/incident/ks/4c0c0811275a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7686d8877124> .
+
+<https://w3id.org/airo/incident/ks/4c0ea0616c5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/4faa41f11598> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd909fb253d1> .
+
+<https://w3id.org/airo/incident/ks/504ecf094d86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8c92dc4ea2b> .
+
+<https://w3id.org/airo/incident/ks/51979e8bdb65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5879a7e40da> .
+
+<https://w3id.org/airo/incident/ks/52ff2a773d37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc937a862f03> .
+
+<https://w3id.org/airo/incident/ks/559e48f7c7ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/5721cf332b8c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2fa3aed8b51> .
+
+<https://w3id.org/airo/incident/ks/57ac09cced42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42de53b5fd10> .
+
+<https://w3id.org/airo/incident/ks/5c5d18d7237b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/121bf95e8931> .
+
+<https://w3id.org/airo/incident/ks/5c94d38a58c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5f411cd174> .
+
+<https://w3id.org/airo/incident/ks/64234524c98b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85fd65f03412> .
+
+<https://w3id.org/airo/incident/ks/64b345bc7893> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/663366677aeb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7b305b9e8a3b> .
+
+<https://w3id.org/airo/incident/ks/666c4f9cb426> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ea03a224e57> .
+
+<https://w3id.org/airo/incident/ks/68b129c74f56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2247ad324a44> .
+
+<https://w3id.org/airo/incident/ks/6a4968c014eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/6b23427dd63c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c4f14a0dc16> .
+
+<https://w3id.org/airo/incident/ks/6eaed2fe707c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/6ee27870e0f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56a9c40d8d08> .
+
+<https://w3id.org/airo/incident/ks/6f8ff2e1ffdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/029fbcf86bb6> .
+
+<https://w3id.org/airo/incident/ks/7249bf657716> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6d79a7d5a78> .
+
+<https://w3id.org/airo/incident/ks/79875b6e8783> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/79f0c6b9ef6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/029fbcf86bb6> .
+
+<https://w3id.org/airo/incident/ks/7dbd5b61a59a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6d79a7d5a78> .
+
+<https://w3id.org/airo/incident/ks/7dd69c761323> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c4f14a0dc16> .
+
+<https://w3id.org/airo/incident/ks/7eeaef2ec72d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> .
+
+<https://w3id.org/airo/incident/ks/803581168c0b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc937a862f03> .
+
+<https://w3id.org/airo/incident/ks/85ca7acaf002> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bec1319ff3b4> .
+
+<https://w3id.org/airo/incident/ks/870818fff52f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62e9d12d0797> .
+
+<https://w3id.org/airo/incident/ks/89043432bea2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8c92dc4ea2b> .
+
+<https://w3id.org/airo/incident/ks/8b8b6e864731> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45547e3b8622> .
+
+<https://w3id.org/airo/incident/ks/8badcf80c463> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62e9d12d0797> .
+
+<https://w3id.org/airo/incident/ks/8c2c35ea26ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c01af5958ed2> .
+
+<https://w3id.org/airo/incident/ks/8e190dda0b20> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7103d3bfb55a> .
+
+<https://w3id.org/airo/incident/ks/8f24ae7a0397> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd5e24b2d68a> .
+
+<https://w3id.org/airo/incident/ks/9167e319f991> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd909fb253d1> .
+
+<https://w3id.org/airo/incident/ks/927fd43983f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc937a862f03> .
+
+<https://w3id.org/airo/incident/ks/94151a5bec2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2247ad324a44> .
+
+<https://w3id.org/airo/incident/ks/94500f779260> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94e55042aebb> .
+
+<https://w3id.org/airo/incident/ks/952be034cb0b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5f411cd174> .
+
+<https://w3id.org/airo/incident/ks/97148a3cade6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85fd65f03412> .
+
+<https://w3id.org/airo/incident/ks/9841594a431a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ae5bc8545a6> .
+
+<https://w3id.org/airo/incident/ks/9adedd0b6315> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ae5bc8545a6> .
+
+<https://w3id.org/airo/incident/ks/9c08953cb9d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5879a7e40da> .
+
+<https://w3id.org/airo/incident/ks/9d614f94fb06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a702eed27789> .
+
+<https://w3id.org/airo/incident/ks/9df424d5fe33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eaa673d18e98> .
+
+<https://w3id.org/airo/incident/ks/9f6c984eaed6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8ee4766051> .
+
+<https://w3id.org/airo/incident/ks/9f8421bd12c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26b6468d7c75> .
+
+<https://w3id.org/airo/incident/ks/a034780fab62> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/121bf95e8931> .
+
+<https://w3id.org/airo/incident/ks/a04e47674be5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ae5bc8545a6> .
+
+<https://w3id.org/airo/incident/ks/a142568d5cce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/029fbcf86bb6> .
+
+<https://w3id.org/airo/incident/ks/a40b65bd2ffa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c4f14a0dc16> .
+
+<https://w3id.org/airo/incident/ks/a5060510b9e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> .
+
+<https://w3id.org/airo/incident/ks/a6ea3a869028> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c4f14a0dc16> .
+
+<https://w3id.org/airo/incident/ks/a9307aadb4b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ae5bc8545a6> .
+
+<https://w3id.org/airo/incident/ks/a989959bfc5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa4989798d6> .
+
+<https://w3id.org/airo/incident/ks/ab89e0f75f61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/073953e5bb2a> .
+
+<https://w3id.org/airo/incident/ks/ae39f6549ff0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c72781be2ee> .
+
+<https://w3id.org/airo/incident/ks/aea09a3232ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/121bf95e8931> .
+
+<https://w3id.org/airo/incident/ks/b15e2047d5cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7686d8877124> .
+
+<https://w3id.org/airo/incident/ks/b17401daead5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/693e7ddf33de> .
+
+<https://w3id.org/airo/incident/ks/b194ad7f0a7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d50b6f1ccc52> .
+
+<https://w3id.org/airo/incident/ks/b1acedb30b69> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da3baa249008> .
+
+<https://w3id.org/airo/incident/ks/b336c18abb4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7686d8877124> .
+
+<https://w3id.org/airo/incident/ks/b3bcadd5741a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62e9d12d0797> .
+
+<https://w3id.org/airo/incident/ks/b54702526819> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b3970183bffd> .
+
+<https://w3id.org/airo/incident/ks/b577de0b3016> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/073953e5bb2a> .
+
+<https://w3id.org/airo/incident/ks/b7b5cf324db4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c72781be2ee> .
+
+<https://w3id.org/airo/incident/ks/bb8bc949ddc0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d8c92dc4ea2b> .
+
+<https://w3id.org/airo/incident/ks/bb980c30d347> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/073953e5bb2a> .
+
+<https://w3id.org/airo/incident/ks/bda17b098c10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42de53b5fd10> .
+
+<https://w3id.org/airo/incident/ks/be45e91e814f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd909fb253d1> .
+
+<https://w3id.org/airo/incident/ks/bf85b7705dc1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62e9d12d0797> .
+
+<https://w3id.org/airo/incident/ks/c2849601cf26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/c32bbc33395e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d170b0bd941> .
+
+<https://w3id.org/airo/incident/ks/c5f94f61bdf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80b184c2bc5b> .
+
+<https://w3id.org/airo/incident/ks/c645866edb63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85fd65f03412> .
+
+<https://w3id.org/airo/incident/ks/c93bf10c8c5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bec1319ff3b4> .
+
+<https://w3id.org/airo/incident/ks/ca10441ec40d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.4"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7686d8877124> .
+
+<https://w3id.org/airo/incident/ks/ca76322462e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/073953e5bb2a> .
+
+<https://w3id.org/airo/incident/ks/cab3267d13b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6787a650296b> .
+
+<https://w3id.org/airo/incident/ks/cc5953205a18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c07facac414> .
+
+<https://w3id.org/airo/incident/ks/cd34bb4364ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/d00bd8170a09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8ee4766051> .
+
+<https://w3id.org/airo/incident/ks/d1906e077c0c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05e6ea85be49> .
+
+<https://w3id.org/airo/incident/ks/d224ed24054d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/d322e6f230e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26209043abde> .
+
+<https://w3id.org/airo/incident/ks/d5095209d781> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a702eed27789> .
+
+<https://w3id.org/airo/incident/ks/d6f3c50f0c59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fb97563277> .
+
+<https://w3id.org/airo/incident/ks/d73cc30a2e0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/d7b26f09230a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/693e7ddf33de> .
+
+<https://w3id.org/airo/incident/ks/e1b41b99884d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/352782738d25> .
+
+<https://w3id.org/airo/incident/ks/e2e0a12fb69f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c01af5958ed2> .
+
+<https://w3id.org/airo/incident/ks/e41e5c1e2dd9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5879a7e40da> .
+
+<https://w3id.org/airo/incident/ks/e4d70dac275e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c01af5958ed2> .
+
+<https://w3id.org/airo/incident/ks/e5bf7135a390> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/693e7ddf33de> .
+
+<https://w3id.org/airo/incident/ks/e5d6d7209637> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bec1319ff3b4> .
+
+<https://w3id.org/airo/incident/ks/e64cc45bc372> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc7878d01290> .
+
+<https://w3id.org/airo/incident/ks/e6fe91942d77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/608bbe8e1c7f> .
+
+<https://w3id.org/airo/incident/ks/e8e2d130d56c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> .
+
+<https://w3id.org/airo/incident/ks/ebe083b51528> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/f07abc9ef723> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/121bf95e8931> .
+
+<https://w3id.org/airo/incident/ks/f431c9e8bcd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1c67ab8a3> .
+
+<https://w3id.org/airo/incident/ks/f46b4b856261> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/f63ee3809e98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32> .
+
+<https://w3id.org/airo/incident/ks/f6a25fb42e8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a8ee4766051> .
+
+<https://w3id.org/airo/incident/ks/f863bb5fca11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c72781be2ee> .
+
+<https://w3id.org/airo/incident/ks/f9ee23e927fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd909fb253d1> .
+
+<https://w3id.org/airo/incident/ks/fa736919d98c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84965eab475b> .
+
+<https://w3id.org/airo/incident/ks/fd49b470e196> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44> .
+
+<https://w3id.org/airo/incident/ks/ff81f4919d52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ad8ada2c9fc> .
+
+<https://w3id.org/airo/incident/AICapability/8280d45bec63> a airo:AICapability ;
+    rdfs:label "generate pornographic images" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-generated pornographic images" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45547e3b8622> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/AICapability/a5164e448c64> a airo:AICapability ;
+    rdfs:label "generate pornographic content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-generated pornographic content" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d170b0bd941> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/634fc5b50660> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92ab1cdfe93a> ;
+    airo:hasReasoning "The AI-generated deepfakes were actively deployed and shared online over a two-year period, causing direct harm to victims." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> .
+
+<https://w3id.org/airo/incident/AITechnique/67c761968acd> a airo:AITechnique ;
+    rdfs:label "AI image manipulation" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "used AI technology to add features such as bruising" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76b12387e48f>,
+        <https://w3id.org/airo/incident/evidence/8ea03a224e57> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/a70bb1823255> a airo:AITechnique ;
+    rdfs:label "AI technology" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "used AI technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bf309fb1433>,
+        <https://w3id.org/airo/incident/evidence/da3baa249008> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/a7a2b1f53fd8> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7b305b9e8a3b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/AITechnique/f63b29ebd21c> a airo:AITechnique ;
+    rdfs:label "deep fake" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/668682eee6b3>,
+        <https://w3id.org/airo/incident/evidence/955fbba627fa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/cbbb0487adc2> a airo:AffectedActor ;
+    rdfs:label "Multiple women (friends, colleagues, housemates) who were victims of deepfake harassment" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7b1c67ab8a3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> .
+
+<https://w3id.org/airo/incident/Domain/3f0284dbf41f> a airo:Domain ;
+    rdfs:label "personal safety and privacy" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80b184c2bc5b> ;
+    airo:hasReasoning "The AI system was used to violate personal privacy and safety through non-consensual pornographic deepfakes and online abuse campaigns." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/Hazard/daac242321b9> a airo:Hazard ;
+    rdfs:label "Public exposure of victims on large online platforms with potential for real-world harm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26209043abde> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> .
+
+<https://w3id.org/airo/incident/Obligation/24eaf18e1d48> a airo:Obligation ;
+    rdfs:label "prohibit use of carriage service to cause offence" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/608bbe8e1c7f> ;
+    airo:hasReasoning "The evidence mentions legal obligations under Australia's criminal code regarding carriage service offenses." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> .
+
+<https://w3id.org/airo/incident/Purpose/0500907ff2a6> a airo:Purpose ;
+    rdfs:label "generate pornographic images of individuals without consent" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e8634b5d829> ;
+    airo:hasReasoning "The evidence describes AI being used to create and share pornographic images of a specific individual, with AI technology adding graphic features like bruising." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> .
+
+<https://w3id.org/airo/incident/RiskSource/a36f919ef26e> a airo:RiskSource ;
+    rdfs:label "Unauthorized creation of deepfake pornographic content" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/2cdd96a30b0c> ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d50b6f1ccc52> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/daac242321b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/807cd816daa3> .
+
+<https://w3id.org/airo/incident/Stakeholder/0b99639efa61> a airo:Stakeholder ;
+    rdfs:label "Judge Culver" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Judge Culver" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/Stakeholder/3cc4abdf3ece> a airo:Stakeholder ;
+    rdfs:label "New Zealand private investigator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "New Zealand private investigator" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56a9c40d8d08> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> .
+
+<https://w3id.org/airo/incident/Stakeholder/a295d970339b> a airo:Stakeholder ;
+    rdfs:label "The perpetrator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the accused" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b3970183bffd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/Stakeholder/f15b462a05ad> a airo:Stakeholder ;
+    rdfs:label "University of Sydney" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sydney University" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd5e24b2d68a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/Threat/807cd816daa3> a airo:Threat ;
+    rdfs:label "Malicious actor with intimate knowledge of victims and access to their photos" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1086e5e6da07> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/Vulnerability/05a5dadf7bdd> a airo:Vulnerability ;
+    rdfs:label "Social media photos of individuals publicly accessible for misuse" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/352782738d25> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/evidence/05e6ea85be49> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/063db904256b> a airo:Evidence ;
+    airo:evidenceText "Hannah needed legal support when she faced a push back from the police who were handling her case." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/19b0708bbc44> a airo:Evidence ;
+    airo:evidenceText "[4374] After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/21983907a474> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/278bd52810c2> a airo:Evidence ;
+    airo:evidenceText "[4366] She asked her partner Kris to open the link for her while she watched on. [4366] It became more and more obvious that it was our friend Andy, said Kris." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/296d8b404d04> a airo:Evidence ;
+    airo:evidenceText "The case of Hannah Grundy, our client, has gained national attention after it was recently featured in Australian Story: Betrayal." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/2cc18beb567a> a airo:Evidence ;
+    airo:evidenceText "How a young Aussie teacher became the target of vile deepfake images" ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/399e61c3c5cb> a airo:Evidence ;
+    airo:evidenceText "When she showed it to her partner, Kris Ventura, he agreed that it was \"probably a scam\" but their interest was piqued." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/45134507d754> a airo:Evidence ;
+    airo:evidenceText "[4366] When science teacher Hannah Grundy started receiving emails from a stranger called John Doe, she assumed it was a scam and decided to ignore them. [4375] Hannah Grundy received a series of anonymous emails in February 2022 warning several pornographic images of her had been shared on a website." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/5aaaffe6ace9> a airo:Evidence ;
+    airo:evidenceText "Hannah found deepfake porn of herself online. But the most disturbing revelation was still to come" ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/5deead5fed55> a airo:Evidence ;
+    airo:evidenceText "Jessica Stuart, who had considered Hayler a \"close friend\", spoke about the horror of learning he had shared photographs of her plastered with degrading comments." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/609766397d6d> a airo:Evidence ;
+    airo:evidenceText "[4375] 6 women fronted Hayler in court to described how his weaponised usage of deepfakes had impacted their lives with one, Jessica Stuart, saying he'd 'incited a whole community of predators against us'. [4373] Jessica Stuart, who had considered Hayler a \"close friend\", spoke about the horror of learning he had shared photographs of her plastered with degrading comments." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/661bd8b6353c> a airo:Evidence ;
+    airo:evidenceText "Hannah Grundy had received from a mysterious internet stranger who called herself \"Sally\"." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/8af99a803bff> a airo:Evidence ;
+    airo:evidenceText "Justice for Hannah Grundy – A Landmark Victory Against Online Abuse For Our Client" ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/9e57874712ec> a airo:Evidence ;
+    airo:evidenceText "[4366] 1 was Rachel McGinty and another was Jessica Stuart, who had both worked at a university bar with Hannah and her partner Kris, and were part of their tight-knit friendship group. [4373] Rachel McGinty described finding out that Hayler had created a thread on the website called \"Let's r*pe Rachel\"." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/a886b441b977> a airo:Evidence ;
+    airo:evidenceText "[4374] After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/ad610aa9f9b7> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/afbe7654b783> a airo:Evidence ;
+    airo:evidenceText "[4374] After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre. [4375] 6 women fronted Hayler in court to described how his weaponised usage of deepfakes had impacted their lives with one, Jessica Stuart, saying he'd 'incited a whole community of predators against us'." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/b24e8e472597> a airo:Evidence ;
+    airo:evidenceText "Shock over revenge porn sicko: ‘Best friend’" ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/b517af22583a> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/b7d6e25ec7d8> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/b92f686d7d45> a airo:Evidence ;
+    airo:evidenceText "[4366] They approached criminal lawyer Sidnie Sarang, who started to build a case against Andy while he continued to post sexual images of Hannah online. [4374] Our top Criminal Lawyer, Sidnie Sarang, represented Hannah through this harrowing ordeal." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/bb012fe72f16> a airo:Evidence ;
+    airo:evidenceText "[4374] After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/d1e21f597f52> a airo:Evidence ;
+    airo:evidenceText "When science teacher Hannah Grundy started receiving emails from a stranger called John Doe, she assumed it was a scam and decided to ignore them." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/d5a75834ba96> a airo:Evidence ;
+    airo:evidenceText "[4366] It became more and more obvious that it was our friend Andy, said Kris. [4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/e10213df378f> a airo:Evidence ;
+    airo:evidenceText "Teacher’s shock discovery: Close friend responsible for sharing her deepfake porn images" ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/eaa673d18e98> a airo:Evidence ;
+    airo:evidenceText "[4366] It became more and more obvious that it was our friend Andy, said Kris. [4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/ff4c2ff213ff> a airo:Evidence ;
+    airo:evidenceText "Gradually, a single name emerged: Andrew Hayler." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/Consequence/c3fff0e594c2> a airo:Consequence ;
+    rdfs:label "Distribution of deepfake pornography with faces of victims superimposed on explicit content" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42de53b5fd10> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/929bcb2a523b> .
+
+<https://w3id.org/airo/incident/Impact/929bcb2a523b> a airo:Impact ;
+    rdfs:label "Severe psychological harm, fear of physical attack, and incitement of online predators against victims" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/cbbb0487adc2> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c07facac414> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373> .
+
+<https://w3id.org/airo/incident/NewsReport/4366> a airo:NewsReport ;
+    rdfs:label "Teacher’s shock discovery: Close friend responsible for sharing her deepfake porn images" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**WARNING: This story discusses details of sexual abuse**
+
+When science teacher Hannah Grundy started receiving emails from a stranger called John Doe, she assumed it was a scam and decided to ignore """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/26b6468d7c75> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366> .
+
+<https://w3id.org/airo/incident/NewsReport/4373> a airo:NewsReport ;
+    rdfs:label "Hannah found deepfake porn of herself online. But the most disturbing revelation was still to come" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """*I will just keep emailing because I think this is worthy of your attention".*
+
+It was the second message Hannah Grundy had received from a mysterious internet stranger who called herself "Sally". The""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5536601da8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373> .
+
+<https://w3id.org/airo/incident/NewsReport/4374> a airo:NewsReport ;
+    rdfs:label "Justice for Hannah Grundy – A Landmark Victory Against Online Abuse For Our Client" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The case of Hannah Grundy, our client, has gained national attention after it was recently featured in [Australian Story: Betrayal](https://iview.abc.net.au/show/australian-story/series/2024/video/NC2" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fc7878d01290> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/NewsReport/4375> a airo:NewsReport ;
+    rdfs:label "How a young Aussie teacher became the target of vile deepfake images" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A woman who was the target of vile [deepfake](/sciencetech/deepfake/index.html) pornography was horrified to learn her perverted attacker was a close friend. 
+
+Hannah Grundy received a series of anony""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6787a650296b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> .
+
+<https://w3id.org/airo/incident/NewsReport/4376> a airo:NewsReport ;
+    rdfs:label "Shock over revenge porn sicko: ‘Best friend’" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """When science teacher Hannah Grundy started receiving emails from a stranger called John Doe, she assumed it was a scam and decided to ignore them.
+
+The messages were warning her that her image had app""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d2fa3aed8b51> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4376> .
+
+<https://w3id.org/airo/incident/NewsReport/4379> a airo:NewsReport ;
+    rdfs:label "'I found deepfake porn of myself online. Then I found out who was responsible.'" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "When high school teacher Hannah Grundy received a series of cryptic emails, she never imagined they would lead her to uncover [a deeply disturbing internet hate crime](https://www.mamamia.com.au/ai-nu" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/628bdfdc4e33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> .
+
+<https://w3id.org/airo/incident/Regulation/62a3041395d2> a airo:Regulation ;
+    rdfs:label "Australia's criminal code" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Australia's criminal code" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7103d3bfb55a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/24eaf18e1d48> .
+
+<https://w3id.org/airo/incident/Stakeholder/131b98daefb9> a airo:Stakeholder ;
+    rdfs:label "Andy Hayler" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/08ea830b062a> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Andy Hayler" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a702eed27789>,
+        <https://w3id.org/airo/incident/evidence/cc937a862f03> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/3c1e8890dd2a> a airo:Stakeholder ;
+    rdfs:label "Sidnie Sarang" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sidnie Sarang" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/029fbcf86bb6>,
+        <https://w3id.org/airo/incident/evidence/073953e5bb2a>,
+        <https://w3id.org/airo/incident/evidence/d5879a7e40da> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/593812a3cbcc> a airo:Stakeholder ;
+    rdfs:label "Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/063db904256b>,
+        <https://w3id.org/airo/incident/evidence/693e7ddf33de>,
+        <https://w3id.org/airo/incident/evidence/85fd65f03412>,
+        <https://w3id.org/airo/incident/evidence/bec1319ff3b4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/735c7a5ab2ed> a airo:Stakeholder ;
+    rdfs:label "Andrew Thomas Hayler" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/08ea830b062a> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Andrew Thomas Hayler" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac5f411cd174>,
+        <https://w3id.org/airo/incident/evidence/d8c92dc4ea2b>,
+        <https://w3id.org/airo/incident/evidence/dd909fb253d1>,
+        <https://w3id.org/airo/incident/evidence/ff4c2ff213ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4379> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/78b1140ccd84> a airo:Stakeholder ;
+    rdfs:label "Allan Watt" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Allan Watt" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7686d8877124> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373> .
+
+<https://w3id.org/airo/incident/Stakeholder/7d21c3c470d2> a airo:Stakeholder ;
+    rdfs:label "Kris" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kris" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32>,
+        <https://w3id.org/airo/incident/evidence/1ae5bc8545a6>,
+        <https://w3id.org/airo/incident/evidence/399e61c3c5cb>,
+        <https://w3id.org/airo/incident/evidence/62e9d12d0797> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/8df39e042277> a airo:Stakeholder ;
+    rdfs:label "Rachel McGinty" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Rachel McGinty" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44>,
+        <https://w3id.org/airo/incident/evidence/1a8ee4766051>,
+        <https://w3id.org/airo/incident/evidence/a8fb97563277> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/c57543f863ad> a airo:Stakeholder ;
+    rdfs:label "Jane Culver" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Judge Jane Culver" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/121bf95e8931>,
+        <https://w3id.org/airo/incident/evidence/cfa4989798d6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4375> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/d7fa6b3eeb85> a airo:Stakeholder ;
+    rdfs:label "Hannah Grundy" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hannah Grundy" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/125588bddb32>,
+        <https://w3id.org/airo/incident/evidence/296d8b404d04>,
+        <https://w3id.org/airo/incident/evidence/661bd8b6353c>,
+        <https://w3id.org/airo/incident/evidence/9c72781be2ee>,
+        <https://w3id.org/airo/incident/evidence/c01af5958ed2>,
+        <https://w3id.org/airo/incident/evidence/d1e21f597f52> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376>,
+        <https://w3id.org/airo/incident/document/4379> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/Stakeholder/de3af6028e91> a airo:Stakeholder ;
+    rdfs:label "District Court at the Downing Centre" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "District Court at the Downing Centre" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04cf4c9bf432> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4374> .
+
+<https://w3id.org/airo/incident/Stakeholder/df6917cbf82c> a airo:Stakeholder ;
+    rdfs:label "Jessica Stuart" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jessica Stuart" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00272b2f7c44>,
+        <https://w3id.org/airo/incident/evidence/2247ad324a44>,
+        <https://w3id.org/airo/incident/evidence/5deead5fed55>,
+        <https://w3id.org/airo/incident/evidence/a8fb97563277> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/f9a3a2c764bd> a airo:Stakeholder ;
+    rdfs:label "Will" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Will" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c4f14a0dc16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4373> .
+
+<https://w3id.org/airo/incident/evidence/0ad8ada2c9fc> a airo:Evidence ;
+    airo:evidenceText "[4374] After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/1086e5e6da07> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler might have been one of Hannah's most trusted friends for over a decade, yet behind the façade of friendship, he had been orchestrating a two-year campaign of online abuse." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/26209043abde> a airo:Evidence ;
+    airo:evidenceText "Police finally arrested Hayler in August 2022, after six months of Ms Grundy living fear of being attacked by him or a stranger who'd seen the videos." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/26b6468d7c75> a airo:Evidence ;
+    airo:evidenceText "Teacher’s shock discovery: Close friend responsible for sharing her deepfake porn images" ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/352782738d25> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler had been using social media photos of his victims, superimposing their faces onto explicit pornographic images, and uploading these altered images to an Instagram account and a pornographic website with over 300,000 members." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/45547e3b8622> a airo:Evidence ;
+    airo:evidenceText "It tells a shocking story of online abuse and AI generated pornographic images." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/56a9c40d8d08> a airo:Evidence ;
+    airo:evidenceText "They later discovered the website was found by a New Zealand private investigator who realised the danger its content had put Ms Grundy in." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/5d170b0bd941> a airo:Evidence ;
+    airo:evidenceText "Hannah's ordeal began in August 2022 when she discovered violent, degrading AI-generated pornographic content of herself." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/608bbe8e1c7f> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/628bdfdc4e33> a airo:Evidence ;
+    airo:evidenceText "'I found deepfake porn of myself online. Then I found out who was responsible.'" ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/668682eee6b3> a airo:Evidence ;
+    airo:evidenceText "Even though the photos and videos had been created with AI by superimposing Ms Grundy's face onto other women..." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/6787a650296b> a airo:Evidence ;
+    airo:evidenceText "How a young Aussie teacher became the target of vile deepfake images" ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/76b12387e48f> a airo:Evidence ;
+    airo:evidenceText "Some of the pictures were incredibly graphic and used AI technology to add features such as bruising." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/7a5536601da8> a airo:Evidence ;
+    airo:evidenceText "Hannah found deepfake porn of herself online. But the most disturbing revelation was still to come" ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/7b305b9e8a3b> a airo:Evidence ;
+    airo:evidenceText "Some were really crude, but others used AI, and there were even GIFs, moving images of violent porn with my face on them." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/80b184c2bc5b> a airo:Evidence ;
+    airo:evidenceText "[4379] Andrew Thomas Hayler might have been one of Hannah's most trusted friends for over a decade, yet behind the façade of friendship, he had been orchestrating a two-year campaign of online abuse. [4373] Rachel McGinty described finding out that Hayler had created a thread on the website called \"Let's r*pe Rachel\"." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/84965eab475b> a airo:Evidence ;
+    airo:evidenceText "After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/8bf309fb1433> a airo:Evidence ;
+    airo:evidenceText "Some of the pictures were incredibly graphic and used AI technology to add features such as bruising." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/8ea03a224e57> a airo:Evidence ;
+    airo:evidenceText "Hannah's case is a tragic example of the damage caused by online anonymity, AI manipulation, and the failure of early intervention." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/92ab1cdfe93a> a airo:Evidence ;
+    airo:evidenceText "[4366] Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues. [4375] 6 women fronted Hayler in court to described how his weaponised usage of deepfakes had impacted their lives with one, Jessica Stuart, saying he'd 'incited a whole community of predators against us'." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/94e55042aebb> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler had been using social media photos of his victims, superimposing their faces onto explicit pornographic images, and uploading these altered images to an Instagram account and a pornographic website with over 300,000 members." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/955fbba627fa> a airo:Evidence ;
+    airo:evidenceText "Hannah realised that the pictures had been taken from her Facebook and Instagram, which were both private, meaning that the person behind the deep fake images was one of her mates." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/9e8634b5d829> a airo:Evidence ;
+    airo:evidenceText "[4375] Hannah Grundy received a series of anonymous emails in February 2022 warning several pornographic images of her had been shared on a website. [4373] the posts of Hannah were incredibly graphic in nature, using AI technology to add things like bruising." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/b3970183bffd> a airo:Evidence ;
+    airo:evidenceText "After receiving no significant action from the police, Sidnie Sarang intervened to help Hannah push for justice. It was a long and arduous process, but the perpetrator was finally arrested." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/bd5e24b2d68a> a airo:Evidence ;
+    airo:evidenceText "But over the next two months, similar emails followed, warning her that this man, from Sydney University was posting explicit photos of her online." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/d2fa3aed8b51> a airo:Evidence ;
+    airo:evidenceText "Shock over revenge porn sicko: ‘Best friend’" ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/d50b6f1ccc52> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler had been using social media photos of his victims, superimposing their faces onto explicit pornographic images, and uploading these altered images to an Instagram account and a pornographic website with over 300,000 members." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/da3baa249008> a airo:Evidence ;
+    airo:evidenceText "the posts of Hannah were incredibly graphic in nature, using AI technology to add things like bruising." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/f7b1c67ab8a3> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/fc7878d01290> a airo:Evidence ;
+    airo:evidenceText "Justice for Hannah Grundy – A Landmark Victory Against Online Abuse For Our Client" ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/Risk/2cdd96a30b0c> a airo:Risk ;
+    rdfs:label "Risk of AI-generated non-consensual intimate imagery and online harassment" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6d79a7d5a78> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4375> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/c3fff0e594c2> .
+
+<https://w3id.org/airo/incident/evidence/3c07facac414> a airo:Evidence ;
+    airo:evidenceText "Jessica Stuart, who had considered Hayler a 'close friend', spoke about the horror of learning he had shared photographs of her plastered with degrading comments." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/42de53b5fd10> a airo:Evidence ;
+    airo:evidenceText "Even though the photos and videos had been created with AI by superimposing Ms Grundy's face onto other women..." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/7103d3bfb55a> a airo:Evidence ;
+    airo:evidenceText "Australia's criminal code was amended in August to sentence anyone found guilty of creating 'non-consensual deepfake sexually explicit material' to up to seven years in prison." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/f6d79a7d5a78> a airo:Evidence ;
+    airo:evidenceText "6 women fronted Hayler in court to described how his weaponised usage of deepfakes had impacted their lives with one, Jessica Stuart, saying he'd 'incited a whole community of predators against us'." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/029fbcf86bb6> a airo:Evidence ;
+    airo:evidenceText "They approached criminal lawyer Sidnie Sarang, who started to build a case against Andy while he continued to post sexual images of Hannah online." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/073953e5bb2a> a airo:Evidence ;
+    airo:evidenceText "They approached criminal lawyer Sidnie Sarang, who started to build a case against Andy while he continued to post sexual images of Hannah online." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/121bf95e8931> a airo:Evidence ;
+    airo:evidenceText "Judge Jane Culver sentenced Hayler to nine years in prison with a non-parole period of five-and-a-half years." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/1a8ee4766051> a airo:Evidence ;
+    airo:evidenceText "Rachel McGinty described finding out that Hayler had created a thread on the website called \"Let's r*pe Rachel\"." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/1ae5bc8545a6> a airo:Evidence ;
+    airo:evidenceText "She asked her partner Kris to open the link for her while she watched on." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/2247ad324a44> a airo:Evidence ;
+    airo:evidenceText "6 women fronted Hayler in court to described how his weaponised usage of deepfakes had impacted their lives with one, Jessica Stuart, saying he'd 'incited a whole community of predators against us'." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/4c4f14a0dc16> a airo:Evidence ;
+    airo:evidenceText "It was a New Zealand-based private investigator and former police officer named Will who spotted the photographs of Hannah." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/62e9d12d0797> a airo:Evidence ;
+    airo:evidenceText "She asked her partner Kris to open the link for her while she watched on." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/693e7ddf33de> a airo:Evidence ;
+    airo:evidenceText "Police finally arrested Hayler in August 2022, after six months of Ms Grundy living fear of being attacked by him or a stranger who'd seen the videos." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/7686d8877124> a airo:Evidence ;
+    airo:evidenceText "On their lawyer's advice, they recruited forensic computing expert Allan Watt to compile a report bolstering their assertion that Hayler was the perpetrator." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/85fd65f03412> a airo:Evidence ;
+    airo:evidenceText "Armed with a trove of digital evidence, she and Kris went to Newtown Police Station to report what they had found." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/9c72781be2ee> a airo:Evidence ;
+    airo:evidenceText "When high school teacher Hannah Grundy received a series of cryptic emails, she never imagined they would lead her to uncover a deeply disturbing internet hate crime." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/a702eed27789> a airo:Evidence ;
+    airo:evidenceText "Andy Hayler was a superviser at Manning Bar when Hannah started there as a student." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/ac5f411cd174> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler might have been one of Hannah's most trusted friends for over a decade, yet behind the façade of friendship, he had been orchestrating a two-year campaign of online abuse." ;
+    airo:sourceDocId "4379" .
+
+<https://w3id.org/airo/incident/evidence/bec1319ff3b4> a airo:Evidence ;
+    airo:evidenceText "The next day Hannah and Kris went to the police with their evidence, but cops said it wasn't enough to charge Andy." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/c01af5958ed2> a airo:Evidence ;
+    airo:evidenceText "When science teacher Hannah Grundy started receiving emails from a stranger called John Doe, she assumed it was a scam and decided to ignore them." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/cc937a862f03> a airo:Evidence ;
+    airo:evidenceText "It became more and more obvious that it was our friend Andy, said Kris." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/cfa4989798d6> a airo:Evidence ;
+    airo:evidenceText "Judge Jane Culver described Hayler's actions as a \"vivid and dangerous illustration\" of the way violence was perpetrated online." ;
+    airo:sourceDocId "4373" .
+
+<https://w3id.org/airo/incident/evidence/d5879a7e40da> a airo:Evidence ;
+    airo:evidenceText "Our top Criminal Lawyer, Sidnie Sarang, represented Hannah through this harrowing ordeal." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/d8c92dc4ea2b> a airo:Evidence ;
+    airo:evidenceText "Andrew Thomas Hayler pleaded guilty to 28 counts of using a carriage service to cause offence involving 26 women between July 2020 and August 2022, including his close friends, former housemates and colleagues." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/evidence/dd909fb253d1> a airo:Evidence ;
+    airo:evidenceText "the couple realized the attacker was someone very close to them- Andrew Hayler." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/04cf4c9bf432> a airo:Evidence ;
+    airo:evidenceText "After lengthy legal proceedings, the accused was sentenced to nine years imprisonment, with a non-parole period of 5.5 years, by Judge Culver in the District Court at the Downing Centre." ;
+    airo:sourceDocId "4374" .
+
+<https://w3id.org/airo/incident/evidence/00272b2f7c44> a airo:Evidence ;
+    airo:evidenceText "1 was Rachel McGinty and another was Jessica Stuart, who had both worked at a university bar with Hannah and her partner Kris, and were part of their tight knit friendship group." ;
+    airo:sourceDocId "4376" .
+
+<https://w3id.org/airo/incident/evidence/125588bddb32> a airo:Evidence ;
+    airo:evidenceText "Hannah Grundy received a series of anonymous emails in February 2022 warning several pornographic images of her had been shared on a website." ;
+    airo:sourceDocId "4375" .
+
+<https://w3id.org/airo/incident/evidence/a8fb97563277> a airo:Evidence ;
+    airo:evidenceText "1 was Rachel McGinty and another was Jessica Stuart, who had both worked at a university bar with Hannah and her partner Kris, and were part of their tight-knit friendship group." ;
+    airo:sourceDocId "4366" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_181> a airo:AIRiskIncident ;
+    rdfs:label "Shock over revenge porn sicko: ‘Best friend’" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/62a3041395d2> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/c3fff0e594c2> ;
+    airo:hasDescription "pred_181" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/634fc5b50660>,
+        <https://w3id.org/airo/incident/Domain/3f0284dbf41f>,
+        <https://w3id.org/airo/incident/evidence/2cc18beb567a>,
+        <https://w3id.org/airo/incident/evidence/5aaaffe6ace9>,
+        <https://w3id.org/airo/incident/evidence/8af99a803bff>,
+        <https://w3id.org/airo/incident/evidence/b24e8e472597>,
+        <https://w3id.org/airo/incident/evidence/e10213df378f> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/929bcb2a523b> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/4366>,
+        <https://w3id.org/airo/incident/NewsReport/4373>,
+        <https://w3id.org/airo/incident/NewsReport/4374>,
+        <https://w3id.org/airo/incident/NewsReport/4375>,
+        <https://w3id.org/airo/incident/NewsReport/4376>,
+        <https://w3id.org/airo/incident/NewsReport/4379> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/2cdd96a30b0c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4366>,
+        <https://w3id.org/airo/incident/document/4373>,
+        <https://w3id.org/airo/incident/document/4374>,
+        <https://w3id.org/airo/incident/document/4375>,
+        <https://w3id.org/airo/incident/document/4376>,
+        <https://w3id.org/airo/incident/document/4379> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/08ea830b062a> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0b99639efa61>,
+        <https://w3id.org/airo/incident/Stakeholder/131b98daefb9>,
+        <https://w3id.org/airo/incident/Stakeholder/3c1e8890dd2a>,
+        <https://w3id.org/airo/incident/Stakeholder/3cc4abdf3ece>,
+        <https://w3id.org/airo/incident/Stakeholder/593812a3cbcc>,
+        <https://w3id.org/airo/incident/Stakeholder/735c7a5ab2ed>,
+        <https://w3id.org/airo/incident/Stakeholder/78b1140ccd84>,
+        <https://w3id.org/airo/incident/Stakeholder/7d21c3c470d2>,
+        <https://w3id.org/airo/incident/Stakeholder/8df39e042277>,
+        <https://w3id.org/airo/incident/Stakeholder/a295d970339b>,
+        <https://w3id.org/airo/incident/Stakeholder/c57543f863ad>,
+        <https://w3id.org/airo/incident/Stakeholder/d7fa6b3eeb85>,
+        <https://w3id.org/airo/incident/Stakeholder/de3af6028e91>,
+        <https://w3id.org/airo/incident/Stakeholder/df6917cbf82c>,
+        <https://w3id.org/airo/incident/Stakeholder/f15b462a05ad>,
+        <https://w3id.org/airo/incident/Stakeholder/f9a3a2c764bd> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/a36f919ef26e> .
+
+<https://w3id.org/airo/incident/AISystem/08ea830b062a> a airo:AISystem ;
+    rdfs:label "Instagram" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/62a3041395d2> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/8280d45bec63>,
+        <https://w3id.org/airo/incident/AICapability/a5164e448c64>,
+        <https://w3id.org/airo/incident/Purpose/0500907ff2a6> ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94e55042aebb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/4379> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/05a5dadf7bdd> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/67c761968acd>,
+        <https://w3id.org/airo/incident/AITechnique/a70bb1823255>,
+        <https://w3id.org/airo/incident/AITechnique/a7a2b1f53fd8>,
+        <https://w3id.org/airo/incident/AITechnique/f63b29ebd21c> .
+

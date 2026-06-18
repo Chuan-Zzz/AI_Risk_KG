@@ -1,0 +1,2902 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/6ce35e76ddb7> a airo:ComplianceRequirement ;
+    rdfs:label "compliance with the Personal Information Protection Act" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c671a50e2eee> ;
+    airo:hasReasoning "Critics argue the project violates the Personal Information Protection Act, indicating compliance with this act is a requirement." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/InformationSource/a1193878b95c> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2262>,
+        <https://w3id.org/airo/incident/NewsReport/2263>,
+        <https://w3id.org/airo/incident/NewsReport/2264>,
+        <https://w3id.org/airo/incident/NewsReport/2265> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265> .
+
+<https://w3id.org/airo/incident/InformationSource/efbf6e922cac> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8728>,
+        <https://w3id.org/airo/incident/NewsReport/8729>,
+        <https://w3id.org/airo/incident/NewsReport/8730>,
+        <https://w3id.org/airo/incident/NewsReport/8731>,
+        <https://w3id.org/airo/incident/NewsReport/8733> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8730>,
+        <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/RiskControl/48b34fb3fee6> a airo:RiskControl ;
+    rdfs:label "legal challenges and calls for project halt by civil society" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12a8905316de> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/7ca51dfe6c85> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7c7a8bfefd84> a airo:RoleAssignment ;
+    rdfs:label "facial recognition companies_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e17754f3cb8> ;
+    airo:hasReasoning "Private facial recognition companies are researching and developing the AI system for the government, making them AI developers." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e40958f7afea> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8d681c1cfba6> a airo:RoleAssignment ;
+    rdfs:label "Ministry of Justice (South Korea)_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/900d3f047e20> ;
+    airo:hasReasoning "The Ministry of Justice is building the system for use in its operations (airport immigration), making it an AI deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a4787c5fb74e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ab5e8442e67e> a airo:RoleAssignment ;
+    rdfs:label "Joint Committee with Migrants in Korea_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9ba760e22cc> ;
+    airo:hasReasoning "This committee represents migrants, who are a group directly affected by the tracking system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3e7f4f9aac32> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c4585d084e29> a airo:RoleAssignment ;
+    rdfs:label "Advocates for Public Interest Law_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42fa50048cd2> ;
+    airo:hasReasoning "This organization is part of the coalition opposing the system due to its human rights violations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/278b2e670b15> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cc5d76360dea> a airo:RoleAssignment ;
+    rdfs:label "Ministry of Justice (South Korea)_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f51538086fe> ;
+    airo:hasReasoning "The Ministry of Justice is actively developing the AI system as part of a joint project, making it an AI developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a4787c5fb74e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/df7329076108> a airo:RoleAssignment ;
+    rdfs:label "People's Solidarity for Participatory Democracy_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4d6bffac259> ;
+    airo:hasReasoning "PSPD is 1 of the rights groups calling for the project to be halted due to privacy and human rights concerns." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/41cd57b71cd1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e6810414f156> a airo:RoleAssignment ;
+    rdfs:label "Institute for Digital Rights_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/395a9c98b935> ;
+    airo:hasReasoning "The Institute for Digital Rights is part of the coalition urging the government to stop the system, positioning it as an actor affected by and opposing the project." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7b2d6133cfa6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e7b5cb42f913> a airo:RoleAssignment ;
+    rdfs:label "Korean Progressive Network Center (Jinbonet)_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67ff1d9253c8> ;
+    airo:hasReasoning "Like MINBYUN, Jinbonet is advocating for victims affected by the system's privacy violations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7e0bedc67cfc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e86cbe88a831> a airo:RoleAssignment ;
+    rdfs:label "Park Joo-min_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38c5e29fa62d> ;
+    airo:hasReasoning "As a National Assembly member, Park Joo-min is part of the legislative branch, which has oversight and regulatory functions over government projects." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/847964d5d800> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f0157f30a962> a airo:RoleAssignment ;
+    rdfs:label "Facebook_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/daf33cf664e3> ;
+    airo:hasReasoning "Facebook is mentioned in the core entities but the evidence does not specify its role in this project. It is likely a stakeholder in the broader context of data sharing or facial recognition technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fbdce72d94b5> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f83bb243f96b> a airo:RoleAssignment ;
+    rdfs:label "Personal Information Protection Commission (South Korea)_Regulator" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9d908fc1b83> ;
+    airo:hasReasoning "The Personal Information Protection Act is mentioned, and this commission is the regulatory body responsible for enforcing that act." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_97> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c87d19d13872> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/d609235b0878> .
+
+<https://w3id.org/airo/incident/Trend/45727ed17261> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny and bans on facial recognition" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/302c5899288b> ;
+    airo:hasReasoning "Multiple jurisdictions are implementing bans or restrictions on facial recognition, showing a trend toward increased regulation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/event/pred_97> a airo:AIRiskIncident ;
+    airo:firstSeen "2021-10-20T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 9 ;
+    airo:lastSeen "2021-11-16T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00a57bb210eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c2e81768cd6> .
+
+<https://w3id.org/airo/incident/ks/0112d70e3e92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/826048a9abee> .
+
+<https://w3id.org/airo/incident/ks/0322cb5b9ec3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b649e136468> .
+
+<https://w3id.org/airo/incident/ks/0450784969cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> .
+
+<https://w3id.org/airo/incident/ks/06f7c4bc8594> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67203f5cc7fc> .
+
+<https://w3id.org/airo/incident/ks/08f9fb5f179d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0da3d17627ea> .
+
+<https://w3id.org/airo/incident/ks/09f689747060> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4573f8291c0> .
+
+<https://w3id.org/airo/incident/ks/0a4fe33dce5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44a3083b289> .
+
+<https://w3id.org/airo/incident/ks/0b8a24bd4f7a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ee9a5222b11> .
+
+<https://w3id.org/airo/incident/ks/0d08bda286e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a80eb4afe786> .
+
+<https://w3id.org/airo/incident/ks/0d13b302d3ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3f2ca66f141> .
+
+<https://w3id.org/airo/incident/ks/0dd310c09dd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/509bb43edbf7> .
+
+<https://w3id.org/airo/incident/ks/0f9f43d95e8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/719979528185> .
+
+<https://w3id.org/airo/incident/ks/10698e9bb04c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/1212984fe836> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de05c0901013> .
+
+<https://w3id.org/airo/incident/ks/14afad8ddf35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bfd661e8412> .
+
+<https://w3id.org/airo/incident/ks/163057c4d17d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/18071a2af441> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5a3d77223> .
+
+<https://w3id.org/airo/incident/ks/1825abb00ce3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5b35af20ba> .
+
+<https://w3id.org/airo/incident/ks/1860231d6d25> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/1b2a95fa3989> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> .
+
+<https://w3id.org/airo/incident/ks/1c80b80d7b4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/1ccb597b23a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0e2ac30fd25> .
+
+<https://w3id.org/airo/incident/ks/1cf8735199a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1> .
+
+<https://w3id.org/airo/incident/ks/1d94357ee65f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b41d8ed6f13a> .
+
+<https://w3id.org/airo/incident/ks/1da74a92cde9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/1e0bccee8703> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/1f23fc329800> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/322943d06157> .
+
+<https://w3id.org/airo/incident/ks/20ae0284b756> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> .
+
+<https://w3id.org/airo/incident/ks/20e0c0ffb970> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/565258112e95> .
+
+<https://w3id.org/airo/incident/ks/249a3ef05a14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/26801fcb8752> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c2e81768cd6> .
+
+<https://w3id.org/airo/incident/ks/2813f5a920ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/28f487bf7355> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/2a1033bd2577> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/2b37a9dea269> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa556a6efbe1> .
+
+<https://w3id.org/airo/incident/ks/2c18376be6ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3425681056d5> .
+
+<https://w3id.org/airo/incident/ks/2c96e4a37ab0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796> .
+
+<https://w3id.org/airo/incident/ks/2d014e85ffb9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2cedc03d4929> .
+
+<https://w3id.org/airo/incident/ks/2db345175245> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/308e234dd575> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/31ce91960ba3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6879f4b95cba> .
+
+<https://w3id.org/airo/incident/ks/3571bc3182bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/35d3852b2385> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f7ce07d8807> .
+
+<https://w3id.org/airo/incident/ks/360906870c5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c54d773f686> .
+
+<https://w3id.org/airo/incident/ks/379bad1c0223> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/3865d7df2cc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/395100922d7a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/146870f300fd> .
+
+<https://w3id.org/airo/incident/ks/39eeff04f060> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/744f00f25405> .
+
+<https://w3id.org/airo/incident/ks/3a38b09bf75d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5a3d77223> .
+
+<https://w3id.org/airo/incident/ks/3da411e6f0f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c311b87030b> .
+
+<https://w3id.org/airo/incident/ks/3de33868d23f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/3f798332b4a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/3f9abdc3ce36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/405a2ad37289> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/4090f0fe4e1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d294cc3eb55> .
+
+<https://w3id.org/airo/incident/ks/410bc3393b83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb4d64674504> .
+
+<https://w3id.org/airo/incident/ks/418b0a424c11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12dc34148523> .
+
+<https://w3id.org/airo/incident/ks/41e8f723f3e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa556a6efbe1> .
+
+<https://w3id.org/airo/incident/ks/43d9d9ca2ec8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6879f4b95cba> .
+
+<https://w3id.org/airo/incident/ks/44b843b1dd18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> .
+
+<https://w3id.org/airo/incident/ks/462765235f39> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d444aae932f5> .
+
+<https://w3id.org/airo/incident/ks/46a1b5f6f772> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/47b5c27c3604> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06a3eb9123a5> .
+
+<https://w3id.org/airo/incident/ks/48b45c1e9fcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5a3d77223> .
+
+<https://w3id.org/airo/incident/ks/4989a4d29420> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb4d64674504> .
+
+<https://w3id.org/airo/incident/ks/4a4b0b871760> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fba829218b47> .
+
+<https://w3id.org/airo/incident/ks/4aba3d1606d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/4ae69e793353> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/4b11922e9317> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b160afd7f4c4> .
+
+<https://w3id.org/airo/incident/ks/4b1eac207df6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> .
+
+<https://w3id.org/airo/incident/ks/4b3bb2b267b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5cb2e15b4daa> .
+
+<https://w3id.org/airo/incident/ks/4bb022504cb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/4c21805affae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f80e5e1d0eb> .
+
+<https://w3id.org/airo/incident/ks/4ce6b66fc286> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/4f9a6ee605be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1> .
+
+<https://w3id.org/airo/incident/ks/4fbdc635f4c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/5034743fcf51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f90e1b28921e> .
+
+<https://w3id.org/airo/incident/ks/52e4a0f58c67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5a3d77223> .
+
+<https://w3id.org/airo/incident/ks/5424c1b5824d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4e58278e38f> .
+
+<https://w3id.org/airo/incident/ks/54f2c18350d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12a8905316de> .
+
+<https://w3id.org/airo/incident/ks/54f300ca1512> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> .
+
+<https://w3id.org/airo/incident/ks/55a2f9fe9704> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49b6258b7086> .
+
+<https://w3id.org/airo/incident/ks/55da819940a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/56fa7b87010d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4dd9af148954> .
+
+<https://w3id.org/airo/incident/ks/5761f5c200ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/57efe5229984> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b002ebd480d> .
+
+<https://w3id.org/airo/incident/ks/5b89270fe120> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab12faa071c9> .
+
+<https://w3id.org/airo/incident/ks/5cbd12b2df54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/5e159807c91d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bfd661e8412> .
+
+<https://w3id.org/airo/incident/ks/5f2b25d42bd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27506ec4f44d> .
+
+<https://w3id.org/airo/incident/ks/6119108c803f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf8fb4129525> .
+
+<https://w3id.org/airo/incident/ks/6157048b8c24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> .
+
+<https://w3id.org/airo/incident/ks/62a0c691dff5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1352e2deba3b> .
+
+<https://w3id.org/airo/incident/ks/6359106666ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/6399f9c9314e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49b6258b7086> .
+
+<https://w3id.org/airo/incident/ks/64f790199f59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6a79cd5bbaf> .
+
+<https://w3id.org/airo/incident/ks/652344c635ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f194c9f657d6> .
+
+<https://w3id.org/airo/incident/ks/66115874b60b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b674ebe8ddc> .
+
+<https://w3id.org/airo/incident/ks/6638dd8e4688> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> .
+
+<https://w3id.org/airo/incident/ks/66d47a84fd74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63b76e41d956> .
+
+<https://w3id.org/airo/incident/ks/670be6bdef76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/67fbc7de8b73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> .
+
+<https://w3id.org/airo/incident/ks/690a52df448e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> .
+
+<https://w3id.org/airo/incident/ks/6b5510bc7f2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a061e068c77f> .
+
+<https://w3id.org/airo/incident/ks/6cbd7541255e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/6d6a74af00fe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/6dba106394d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e20ec7071b> .
+
+<https://w3id.org/airo/incident/ks/6f90b3718b10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6879f4b95cba> .
+
+<https://w3id.org/airo/incident/ks/6fb03b1b28e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7e1e07c9992> .
+
+<https://w3id.org/airo/incident/ks/7049f392e25b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> .
+
+<https://w3id.org/airo/incident/ks/7203ffc6b0b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/74274ee044fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/648c72b35ee2> .
+
+<https://w3id.org/airo/incident/ks/7555a26ebc3a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/821bf0fc6997> .
+
+<https://w3id.org/airo/incident/ks/76632df0b05f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/76bd6d70ef8c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/778da812e921> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796> .
+
+<https://w3id.org/airo/incident/ks/78812b7a6089> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/037e114a6909> .
+
+<https://w3id.org/airo/incident/ks/78838097498c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3735ba10cd0> .
+
+<https://w3id.org/airo/incident/ks/793ef3943943> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e43418d09b3> .
+
+<https://w3id.org/airo/incident/ks/7a3c68e9e9f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b41d8ed6f13a> .
+
+<https://w3id.org/airo/incident/ks/7a5470d24fac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/7a771d5aedcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30dea2f3d365> .
+
+<https://w3id.org/airo/incident/ks/7e1757279a8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c54d773f686> .
+
+<https://w3id.org/airo/incident/ks/7f48bcf3b297> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/8076e816934a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e43418d09b3> .
+
+<https://w3id.org/airo/incident/ks/813079d07c11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1> .
+
+<https://w3id.org/airo/incident/ks/82a958ab0243> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/82e48ea2d75e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/839b5f7641f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a6434c62371> .
+
+<https://w3id.org/airo/incident/ks/84f90cc84a09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/86092e07384c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44a3083b289> .
+
+<https://w3id.org/airo/incident/ks/876dbc075f8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f9552fd09a7> .
+
+<https://w3id.org/airo/incident/ks/877bebe1d501> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1> .
+
+<https://w3id.org/airo/incident/ks/87a13213d345> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796> .
+
+<https://w3id.org/airo/incident/ks/87e7cb4135e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/8887d944789e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/8a94fbcc0da3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18d36076bc6a> .
+
+<https://w3id.org/airo/incident/ks/8b1055ff6432> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/565258112e95> .
+
+<https://w3id.org/airo/incident/ks/8b19e008c7e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/8c0d6ba5679f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c2e81768cd6> .
+
+<https://w3id.org/airo/incident/ks/8dc090f3b24e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/8e573e55bd3f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/802306c08f05> .
+
+<https://w3id.org/airo/incident/ks/8fcba9ac129b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7e22c440854> .
+
+<https://w3id.org/airo/incident/ks/902633f67e4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/90935272a21e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7ba780cab47> .
+
+<https://w3id.org/airo/incident/ks/91a702ceae18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/92869440b09c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07d1d7f3d1fe> .
+
+<https://w3id.org/airo/incident/ks/934b71252ddc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/509bb43edbf7> .
+
+<https://w3id.org/airo/incident/ks/954576fb2a48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/9677232f30af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/971e313c7785> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44a3083b289> .
+
+<https://w3id.org/airo/incident/ks/9723b108ea2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5efa947aac1f> .
+
+<https://w3id.org/airo/incident/ks/979a24acfb15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fba829218b47> .
+
+<https://w3id.org/airo/incident/ks/9942cf51bfda> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b70a8b2dddf> .
+
+<https://w3id.org/airo/incident/ks/9956bf450e6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/99e9077cd15b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da1f7d3d571> .
+
+<https://w3id.org/airo/incident/ks/9ae56e76cd39> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c43998a89d2> .
+
+<https://w3id.org/airo/incident/ks/9be010bd0e19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/9cfeddda535b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13> .
+
+<https://w3id.org/airo/incident/ks/9d19089bae07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/9eda32643605> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/9fb91b3d31f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> .
+
+<https://w3id.org/airo/incident/ks/a04ca0e2a8fe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed04bd55a82c> .
+
+<https://w3id.org/airo/incident/ks/a2004c6a347b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f90e1b28921e> .
+
+<https://w3id.org/airo/incident/ks/a2a9d9229f58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81ff605116be> .
+
+<https://w3id.org/airo/incident/ks/a2cad16437cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/a2e02d2fdddd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/a49230e17b82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/a499c5243cf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed04bd55a82c> .
+
+<https://w3id.org/airo/incident/ks/a4f7e832d1e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796> .
+
+<https://w3id.org/airo/incident/ks/a50a836dd5c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/411290899e7e> .
+
+<https://w3id.org/airo/incident/ks/a664b6ba4703> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43e5a3d77223> .
+
+<https://w3id.org/airo/incident/ks/a7367917f3b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed3dc3959b9e> .
+
+<https://w3id.org/airo/incident/ks/a7b94850a88f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/34198263ee4e> .
+
+<https://w3id.org/airo/incident/ks/a9405cb0f088> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fb08aedc08a> .
+
+<https://w3id.org/airo/incident/ks/a9b936e45fde> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> .
+
+<https://w3id.org/airo/incident/ks/ab453a327e38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/411290899e7e> .
+
+<https://w3id.org/airo/incident/ks/ac8f4725b9ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3f2ca66f141> .
+
+<https://w3id.org/airo/incident/ks/b093af3bf2c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/b1f10dbc6ecf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/b2b8e3ad694e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b41d8ed6f13a> .
+
+<https://w3id.org/airo/incident/ks/b43791cdba4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44a3083b289> .
+
+<https://w3id.org/airo/incident/ks/b5f938671de0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e49641c99f9> .
+
+<https://w3id.org/airo/incident/ks/b94a11e4da38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> .
+
+<https://w3id.org/airo/incident/ks/beb09f070a1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d338aea50b3> .
+
+<https://w3id.org/airo/incident/ks/bed628a10dbc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> .
+
+<https://w3id.org/airo/incident/ks/bfd8da0e2a37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/322943d06157> .
+
+<https://w3id.org/airo/incident/ks/c054bc3d4736> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e20ec7071b> .
+
+<https://w3id.org/airo/incident/ks/c060fd4611e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/c073a3638499> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/c13ce241f5c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab12faa071c9> .
+
+<https://w3id.org/airo/incident/ks/c1800cbb848e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12dc34148523> .
+
+<https://w3id.org/airo/incident/ks/c2ea9bd38b1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> .
+
+<https://w3id.org/airo/incident/ks/c4a6f98a8bf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/c75f35fa5677> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6d63c5baad3d> .
+
+<https://w3id.org/airo/incident/ks/cb68b96a1a0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ed21332b88f> .
+
+<https://w3id.org/airo/incident/ks/cb7a18f14f0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ecccebbcfa2d> .
+
+<https://w3id.org/airo/incident/ks/cc18d9fbeffc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/cdf006573e84> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/ce351e64c622> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/cee5d1bead60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6879f4b95cba> .
+
+<https://w3id.org/airo/incident/ks/d001d91df47c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f81a4369575> .
+
+<https://w3id.org/airo/incident/ks/d23583b8bf43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103> .
+
+<https://w3id.org/airo/incident/ks/d384007dbc6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04489bb97d85> .
+
+<https://w3id.org/airo/incident/ks/d7400646e462> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c49279c185a> .
+
+<https://w3id.org/airo/incident/ks/d7d8802f8138> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b41d8ed6f13a> .
+
+<https://w3id.org/airo/incident/ks/d906fcfd50b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2cedc03d4929> .
+
+<https://w3id.org/airo/incident/ks/d9ae80970456> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6d4fd8fa555> .
+
+<https://w3id.org/airo/incident/ks/db663a82220c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/db70610ccfd6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7e1e07c9992> .
+
+<https://w3id.org/airo/incident/ks/dbf24c1c26fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d253979b27b9> .
+
+<https://w3id.org/airo/incident/ks/dc318fecc5b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1928395d4133> .
+
+<https://w3id.org/airo/incident/ks/dcecb8ef6b64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e22ee83ab0c2> .
+
+<https://w3id.org/airo/incident/ks/e14cbc194f67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/946ab6d0d09d> .
+
+<https://w3id.org/airo/incident/ks/e1fadbf41db8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/e29919906424> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/e446299d653f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/322943d06157> .
+
+<https://w3id.org/airo/incident/ks/e61149c45f83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4571eae574d0> .
+
+<https://w3id.org/airo/incident/ks/e66cc0777651> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/e6bec6a30aec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/e7bbfdbf0460> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5cc47be19551> .
+
+<https://w3id.org/airo/incident/ks/ec6bcb243e46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1> .
+
+<https://w3id.org/airo/incident/ks/ec6de697acc0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> .
+
+<https://w3id.org/airo/incident/ks/ecd14d3663db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51b90b6f402b> .
+
+<https://w3id.org/airo/incident/ks/ed6fafa5a03f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/edb8e056a60e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> .
+
+<https://w3id.org/airo/incident/ks/ede51cb37e05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f> .
+
+<https://w3id.org/airo/incident/ks/ee50036960e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c97633729a2e> .
+
+<https://w3id.org/airo/incident/ks/f363e31db5c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bdaf74f6b66> .
+
+<https://w3id.org/airo/incident/ks/f410ac94333b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> .
+
+<https://w3id.org/airo/incident/ks/f44c132b6687> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5be87ae3f62> .
+
+<https://w3id.org/airo/incident/ks/f719d592798e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81ff605116be> .
+
+<https://w3id.org/airo/incident/ks/fe782bf6461e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f80e5e1d0eb> .
+
+<https://w3id.org/airo/incident/ks/fea06987e1af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a9cfcc997896> .
+
+<https://w3id.org/airo/incident/ks/ff15a42b8e29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796> .
+
+<https://w3id.org/airo/incident/ks/ffd9b78ea5f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5cc47be19551> .
+
+<https://w3id.org/airo/incident/AICapability/09caa0fd2f8b> a airo:AICapability ;
+    rdfs:label "identify airport users' identities" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "automatically identify airport users’ identities through CCTV surveillance cameras" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d>,
+        <https://w3id.org/airo/incident/evidence/9c2e81768cd6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/320190a3fe46> a airo:AICapability ;
+    rdfs:label "location tracking and facial photography" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "location tracking and photography of the faces of people arriving and departing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4571eae574d0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8728> .
+
+<https://w3id.org/airo/incident/AICapability/3f775e635dfa> a airo:AICapability ;
+    rdfs:label "identification and tracking" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identification and tracking" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3587c3f77b3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> .
+
+<https://w3id.org/airo/incident/AICapability/60232a19fb9a> a airo:AICapability ;
+    rdfs:label "detect dangerous situations" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "detect dangerous situations in real time" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d>,
+        <https://w3id.org/airo/incident/evidence/9c2e81768cd6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/757c3c128ff5> a airo:AICapability ;
+    rdfs:label "AI learning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e20ec7071b>,
+        <https://w3id.org/airo/incident/evidence/f90e1b28921e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/e1004453e0cd> a airo:AICapability ;
+    rdfs:label "algorithm testing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "algorithm testing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9e20ec7071b>,
+        <https://w3id.org/airo/incident/evidence/f90e1b28921e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/0eee647ef83c> a airo:AILifecyclePhase ;
+    rdfs:label "development" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b002ebd480d> ;
+    airo:hasReasoning "The evidence describes an ongoing 'development project' with a future completion date, indicating the system is in the development phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8728> .
+
+<https://w3id.org/airo/incident/AITechnique/171850e66e87> a airo:AITechnique ;
+    rdfs:label "1-to-many facial recognition" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "1-to-many facial recognition technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f6d4fd8fa555> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/AITechnique/3bbe6fa8ee06> a airo:AITechnique ;
+    rdfs:label "1-to-many matching algorithm" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "1 대 다수 매칭 알고리즘" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e49641c99f9>,
+        <https://w3id.org/airo/incident/evidence/6fb08aedc08a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/430d0c7cae13> a airo:AITechnique ;
+    rdfs:label "biometric algorithms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "biometric algorithms" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> .
+
+<https://w3id.org/airo/incident/AITechnique/aa0e9ab78de6> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/AITechnique/d61853500a2f> a airo:AITechnique ;
+    rdfs:label "1-to-1 matching" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "1 대 1 매칭" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4dd9af148954>,
+        <https://w3id.org/airo/incident/evidence/b7e22c440854> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/dffc26ff0f94> a airo:AITechnique ;
+    rdfs:label "facial recognition" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition data" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07d1d7f3d1fe>,
+        <https://w3id.org/airo/incident/evidence/3541430f2c4b>,
+        <https://w3id.org/airo/incident/evidence/411290899e7e>,
+        <https://w3id.org/airo/incident/evidence/5ee9a5222b11>,
+        <https://w3id.org/airo/incident/evidence/b41d8ed6f13a>,
+        <https://w3id.org/airo/incident/evidence/b4573f8291c0>,
+        <https://w3id.org/airo/incident/evidence/fa7707729239> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/AITechnique/f2aae65b5bb2> a airo:AITechnique ;
+    rdfs:label "remote monitoring systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "remote monitoring systems" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ee9a5222b11> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/AffectedActor/7c28d56c73b0> a airo:AffectedActor ;
+    rdfs:label "citizens and foreign nationals in South Korea" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0da3d17627ea> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> .
+
+<https://w3id.org/airo/incident/Domain/2f19393ccce0> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c43998a89d2> ;
+    airo:hasReasoning "The AI system is designed for use in airport immigration, which falls within the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/Hazard/f9e3bc915534> a airo:Hazard ;
+    rdfs:label "deployment of real-time facial recognition for identity tracking" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a061e068c77f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262> .
+
+<https://w3id.org/airo/incident/Obligation/b71f752fb910> a airo:Obligation ;
+    rdfs:label "immediate halt to the biometric monitoring system" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1352e2deba3b> ;
+    airo:hasReasoning "NGOs are urging the government to immediately stop the project, implying a moral or legal obligation to do so." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Purpose/2515fcdb11d1> a airo:Purpose ;
+    rdfs:label "airport immigration facial recognition and tracking" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/821bf0fc6997> ;
+    airo:hasReasoning "The evidence explicitly states the project's goal is to develop a facial recognition system for airport immigration purposes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/RiskSource/3869a8096b59> a airo:RiskSource ;
+    rdfs:label "unauthorized sharing of facial biometric data with private sector" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/7ca51dfe6c85> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f81a4369575> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/f9e3bc915534> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> .
+
+<https://w3id.org/airo/incident/Stakeholder/1d04c59273bb> a airo:Stakeholder ;
+    rdfs:label "Park Beom-kye" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Park Beom-kye" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c49279c185a>,
+        <https://w3id.org/airo/incident/evidence/a80eb4afe786> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/8731> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/1f13b007728b> a airo:Stakeholder ;
+    rdfs:label "Hong Nam-ki" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "홍남기" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7e1e07c9992> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2265> .
+
+<https://w3id.org/airo/incident/Stakeholder/228e7b37849a> a airo:Stakeholder ;
+    rdfs:label "private companies" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "private companies" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/238469c49e75> a airo:Stakeholder ;
+    rdfs:label "MINBYUN - Lawyers for a Democratic Society" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MINBYUN—Lawyers for a Democratic Society" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796>,
+        <https://w3id.org/airo/incident/evidence/1461503d6e13>,
+        <https://w3id.org/airo/incident/evidence/55d582ef24f1>,
+        <https://w3id.org/airo/incident/evidence/767ccb5adc0f>,
+        <https://w3id.org/airo/incident/evidence/b2b46f77b66e>,
+        <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/2a58f2c18dfd> a airo:Stakeholder ;
+    rdfs:label "US Democratic Senators" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "US Democratic Senators" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/31837ac924ca> a airo:Stakeholder ;
+    rdfs:label "National IT Industry Promotion Agency (NIPA)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "정보통신산업진흥원(NIPA)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032564551523>,
+        <https://w3id.org/airo/incident/evidence/5cb2e15b4daa>,
+        <https://w3id.org/airo/incident/evidence/5d338aea50b3>,
+        <https://w3id.org/airo/incident/evidence/f194c9f657d6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/333422593aa9> a airo:Stakeholder ;
+    rdfs:label "National Assembly’s Legislation and Judiciary Committee" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Assembly’s Legislation and Judiciary Committee" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/67203f5cc7fc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> .
+
+<https://w3id.org/airo/incident/Stakeholder/38931fc42393> a airo:Stakeholder ;
+    rdfs:label "private sector" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "private sector" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab12faa071c9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/Stakeholder/39c82b5d5937> a airo:Stakeholder ;
+    rdfs:label "South Korean Ministry of Justice" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ministry of Justice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1>,
+        <https://w3id.org/airo/incident/evidence/e3587c3f77b3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/3ba24de52beb> a airo:Stakeholder ;
+    rdfs:label "JetBlue" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "JetBlue" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa556a6efbe1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/45ab2f23605f> a airo:Stakeholder ;
+    rdfs:label "Democratic Party (South Korea)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Democratic Party" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b160afd7f4c4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> .
+
+<https://w3id.org/airo/incident/Stakeholder/5e6b24c75ddb> a airo:Stakeholder ;
+    rdfs:label "San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ecccebbcfa2d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/611cc4241097> a airo:Stakeholder ;
+    rdfs:label "Delta Airlines" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delta Airlines" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da1f7d3d571> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/6bcb33bc3c6c> a airo:Stakeholder ;
+    rdfs:label "Korean Ministry of Justice (MOJ)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Korean Ministry of Justice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49b6258b7086> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/Stakeholder/75e1ba193070> a airo:Stakeholder ;
+    rdfs:label "United States" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "US" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3f2ca66f141> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/7d0537ffe9c5> a airo:Stakeholder ;
+    rdfs:label "civil liberty groups" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "civil liberty groups" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5b35af20ba> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/89f7b859f4a8> a airo:Stakeholder ;
+    rdfs:label "privacy advocacy group" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "privacy advocacy group" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b70a8b2dddf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/Stakeholder/924d59069b89> a airo:Stakeholder ;
+    rdfs:label "Ministry of Science and ICT (MSIT)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ministry of Science and ICT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49b6258b7086> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/Stakeholder/9a0ea95c4076> a airo:Stakeholder ;
+    rdfs:label "The Hankyoreh" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Hankyoreh" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c54d773f686>,
+        <https://w3id.org/airo/incident/evidence/43e5a3d77223> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/b1c53975ae2b> a airo:Stakeholder ;
+    rdfs:label "South Korean Government" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Korean government" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab12faa071c9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/Stakeholder/b577966a05a9> a airo:Stakeholder ;
+    rdfs:label "European Union" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "European Union" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/322943d06157> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/b9f5d81bea88> a airo:Stakeholder ;
+    rdfs:label "Ministry of Economy and Finance" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "기획재정부" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7e1e07c9992> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2265> .
+
+<https://w3id.org/airo/incident/Stakeholder/c471ca121b8b> a airo:Stakeholder ;
+    rdfs:label "Korean Progressive Network Jinbonet" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Korean Progressive Network Jinbonet" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f>,
+        <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/cb76085f7e3e> a airo:Stakeholder ;
+    rdfs:label "Motherboard" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Motherboard" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6>,
+        <https://w3id.org/airo/incident/evidence/bb4d64674504> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/d6dfa97c50dc> a airo:Stakeholder ;
+    rdfs:label "Departments of Motor Vehicles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Departments of Motor Vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb4d64674504> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/e725d6cbbb2d> a airo:Stakeholder ;
+    rdfs:label "US Customs and Border Protection" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "US Customs and Border Protection" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/146870f300fd>,
+        <https://w3id.org/airo/incident/evidence/d253979b27b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/eedbcf01baba> a airo:Stakeholder ;
+    rdfs:label "Virginia" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Virginia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Stakeholder/f64dfcb1bc21> a airo:Stakeholder ;
+    rdfs:label "Ministry of Science and Information and Communication Technology (South Korea)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ministry of Science and ICT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/293c95dd8cd0>,
+        <https://w3id.org/airo/incident/evidence/30dea2f3d365>,
+        <https://w3id.org/airo/incident/evidence/6d63c5baad3d>,
+        <https://w3id.org/airo/incident/evidence/c97633729a2e>,
+        <https://w3id.org/airo/incident/evidence/e3587c3f77b3>,
+        <https://w3id.org/airo/incident/evidence/ec75cf08c445>,
+        <https://w3id.org/airo/incident/evidence/f6a79cd5bbaf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8730>,
+        <https://w3id.org/airo/incident/document/8731> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/Stakeholder/fff84e6b8aad> a airo:Stakeholder ;
+    rdfs:label "Vermont" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Vermont" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8caf45f1dc6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Vulnerability/f8cb9f92d728> a airo:Vulnerability ;
+    rdfs:label "lack of data subject consent for biometric data processing" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf8fb4129525> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/evidence/032564551523> a airo:Evidence ;
+    airo:evidenceText "According to Hankyoreh, the MSIT-affiliated National IT Industry Promotion Agency (NIPA) is currently planning the deployment of more than 100 additional cameras in the immigration area and its glass booths." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/037e114a6909> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/06a3eb9123a5> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/0f51538086fe> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/1928395d4133> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/27506ec4f44d> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/2a6434c62371> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/2b674ebe8ddc> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/302c5899288b> a airo:Evidence ;
+    airo:evidenceText "[8733] Virginia and Vermont have banned local law enforcement agencies from using facial recognition, and in June, several US Democratic Senators introduced legislation that would stop government use of biometric technology." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/3425681056d5> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/3541430f2c4b> a airo:Evidence ;
+    airo:evidenceText "While the use of facial recognition technology has become common for governments across the world, advocates in South Korea are calling the practice a “human rights disaster” that is relatively unprecedented." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/38c5e29fa62d> a airo:Evidence ;
+    airo:evidenceText "[2262] The revelation, first reported in the South Korean newspaper The Hankyoreh, came to light after National Assembly member Park Joo-min requested and received documents from the Ministry of Justice related to a April 2019 project titled Artificial Intelligence and Tracking System Construction Project." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/395a9c98b935> a airo:Evidence ;
+    airo:evidenceText "[8733] “We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN – Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/3d294cc3eb55> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/41996a5a9830> a airo:Evidence ;
+    airo:evidenceText "South Korea Is Giving Millions of Photos to Facial Recognition Researchers" ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/42fa50048cd2> a airo:Evidence ;
+    airo:evidenceText "[8733] “We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN – Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/451e5018cbf7> a airo:Evidence ;
+    airo:evidenceText "South Korea’s Personal Information Protection Act defines “sensitive information” as information produced for the purpose of identifying a specific individual through their physical, physiological, and behavioral characteristics." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/4e17754f3cb8> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/51b90b6f402b> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/57575f47b29f> a airo:Evidence ;
+    airo:evidenceText "Attorneys claim the project directly violates South Korea’s Personal Information Protection Act, a law that strictly limits the processing of personal information in the country." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/5b649e136468> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/5efa947aac1f> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/5fae5ca6fb50> a airo:Evidence ;
+    airo:evidenceText "[단독] 정부, 출입국 얼굴사진 1억7천만건 AI업체에 넘겼다" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/63b76e41d956> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/67ff1d9253c8> a airo:Evidence ;
+    airo:evidenceText "[8729] Privacy advocates including MINBYUN—Lawyers for a Democratic Society and the Korean Progressive Network Center (Jinbonet) said the project was “already a clear violation of the Personal Information Protection Act” and announced plans to “launch a class action lawsuit for victims both in Korea and overseas.”" ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/719979528185> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/734d48d7f6b1> a airo:Evidence ;
+    airo:evidenceText "Rights groups demand halt to South Korea facial recognition surveillance project" ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/7c311b87030b> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/826048a9abee> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/900d3f047e20> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/946ab6d0d09d> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/a0e2ac30fd25> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/a9cfcc997896> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/b5475adce0fb> a airo:Evidence ;
+    airo:evidenceText "The MOJ has been transferring information obtained during the immigration screening process to the MSIT, including facial images of South Korean and foreign passengers, along with their nationality, gender and age." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/b9d908fc1b83> a airo:Evidence ;
+    airo:evidenceText "[2263] As a consequence, some six rights groups including People’s Solidarity for Participatory Democracy (PSPD), MINBYUN-Lawyers for a Democratic Society, and the Institute for Digital Rights, have called on the government to halt the facial recognition project, arguing that it violates the country’s Personal Information Protection Act as well as international human rights norms." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/c671a50e2eee> a airo:Evidence ;
+    airo:evidenceText "[2263] As a consequence, some six rights groups including People’s Solidarity for Participatory Democracy (PSPD), MINBYUN-Lawyers for a Democratic Society, and the Institute for Digital Rights, have called on the government to halt the facial recognition project, arguing that it violates the country’s Personal Information Protection Act as well as international human rights norms." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/c72d9df116b5> a airo:Evidence ;
+    airo:evidenceText "S. Korean government provided 170M facial images obtained in immigration process to private AI developers" ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/d444aae932f5> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/daf33cf664e3> a airo:Evidence ;
+    airo:evidenceText "[8730] The South Korean government shared roughly 170 million face images of citizens and resident foreign nationals with the private sector without their consent to be used in training and testing biometric algorithms, according to a recent Ministry of Justice document." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/de05c0901013> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/e054effb2018> a airo:Evidence ;
+    airo:evidenceText "Seoul shares face biometrics of 170M travelers with private firms" ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/e22ee83ab0c2> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/e3735ba10cd0> a airo:Evidence ;
+    airo:evidenceText "[8730] The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/e4d6bffac259> a airo:Evidence ;
+    airo:evidenceText "[2263] As a consequence, some six rights groups including People’s Solidarity for Participatory Democracy (PSPD), MINBYUN-Lawyers for a Democratic Society, and the Institute for Digital Rights, have called on the government to halt the facial recognition project, arguing that it violates the country’s Personal Information Protection Act as well as international human rights norms." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/e9ba760e22cc> a airo:Evidence ;
+    airo:evidenceText "[8733] “We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN – Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/ec75cf08c445> a airo:Evidence ;
+    airo:evidenceText "The MSIT has, in turn, transferred that information to private businesses for the purpose of AI technology research." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/ed3dc3959b9e> a airo:Evidence ;
+    airo:evidenceText "[8731] Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/f3eb99df4527> a airo:Evidence ;
+    airo:evidenceText "Attorneys claim the project directly violates South Korea’s Personal Information Protection Act, a law that strictly limits the processing of personal information in the country." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/f7ba780cab47> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/fa7707729239> a airo:Evidence ;
+    airo:evidenceText "In 2019, San Francisco became the first US city to ban police and government agencies from using the technology." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/Consequence/8d61b85a890e> a airo:Consequence ;
+    rdfs:label "violation of personal information protection laws and international human rights norms" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f80e5e1d0eb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/5f7c496473c3> .
+
+<https://w3id.org/airo/incident/Data/526f82b374d7> a airo:Data ;
+    rdfs:label "170 million face images" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "170 million face images" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> .
+
+<https://w3id.org/airo/incident/Data/63eacd9cde4f> a airo:Data ;
+    rdfs:label "facial photographs" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial photographs" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e43418d09b3>,
+        <https://w3id.org/airo/incident/evidence/e3587c3f77b3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> .
+
+<https://w3id.org/airo/incident/Data/b80368c3c5b9> a airo:Data ;
+    rdfs:label "face biometrics" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "face biometrics" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a46459d4d103>,
+        <https://w3id.org/airo/incident/evidence/ed04bd55a82c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/8730> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Impact/5f7c496473c3> a airo:Impact ;
+    rdfs:label "erosion of civil liberties and mass violation of information rights" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/7c28d56c73b0> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bfd661e8412> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/NewsReport/2262> a airo:NewsReport ;
+    rdfs:label "South Korea Is Giving Millions of Photos to Facial Recognition Researchers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The South Korean Ministry of Justice has provided more than 100 million photos of foreign nationals who travelled through the country’s airports to facial recognition companies without their consent, " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/648c72b35ee2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262> .
+
+<https://w3id.org/airo/incident/NewsReport/2263> a airo:NewsReport ;
+    rdfs:label "Rights groups demand halt to South Korea facial recognition surveillance project" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A project intended to develop an artificial intelligence-powered facial recognition system to be used for airport immigration purposes, spearheaded by [South Korea](https://www.biometricupdate.com/?po" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4e58278e38f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/NewsReport/2264> a airo:NewsReport ;
+    rdfs:label "Seoul shares face biometrics of 170M travelers with private firms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The South Korean government shared roughly 170 million face images of citizens and resident foreign nationals with the private sector without their consent to be used in training and testing biometric" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/34198263ee4e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264> .
+
+<https://w3id.org/airo/incident/NewsReport/2265> a airo:NewsReport ;
+    rdfs:label "[단독] 정부, 출입국 얼굴사진 1억7천만건 AI업체에 넘겼다" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "정부가 출입국 심사에 쓸 '인공지능'(AI) 개발 명분으로 약 1억7천만건의 내-외국인 얼굴 사진을 민간 업체에 넘긴 것으로 확인됐다. 생체정보인 얼굴은 개인정보 중에서도 처리 규정이 까다로운 '민감 정보'다. 정부는 이 정보를 당사자 동의 없이 민간에 제공한 터라 논란이 예상된다. 나아가 정부는 인천국제공항 입국장에 수백대의 카메라를 설치해 생체정보를 추" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f9552fd09a7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2265> .
+
+<https://w3id.org/airo/incident/NewsReport/8728> a airo:NewsReport ;
+    rdfs:label "S. Korean government provided 170M facial images obtained in immigration process to private AI developers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """S. Korean government provided 170M facial images obtained in immigration process to private AI developers
+Facebook 페이스북
+Twitter 트위터
+The South Korean government handed over roughly 170 million photogra""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ed21332b88f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8728> .
+
+<https://w3id.org/airo/incident/NewsReport/8729> a airo:NewsReport ;
+    rdfs:label "‘I first learned of it today’: Justice minister reacts to handover of travelers’ facial data" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """‘I first learned of it today’: Justice minister reacts to handover of travelers’ facial data
+Facebook 페이스북
+Twitter 트위터
+Minister of Justice Park Beom-kye on Thursday pledged to use facial recognition d""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04489bb97d85> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> .
+
+<https://w3id.org/airo/incident/NewsReport/8730> a airo:NewsReport ;
+    rdfs:label "Seoul shares face biometrics of 170M travelers with private firms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """All enriched metadata for an item (web page, file, ...).
+SharePoint users may find it useful to compare the information on this page to the information on a SharePoint document library View page.
+In a""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f7ce07d8807> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8730> .
+
+<https://w3id.org/airo/incident/NewsReport/8731> a airo:NewsReport ;
+    rdfs:label "“A human rights disaster”: S. Korean civic groups demand government halt creation of AI facial ID and tracking system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """“A human rights disaster”: S. Korean civic groups demand government halt creation of AI facial ID and tracking system
+Facebook 페이스북
+Twitter 트위터
+The artificial intelligence identification and tracking """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/744f00f25405> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> .
+
+<https://w3id.org/airo/incident/NewsReport/8733> a airo:NewsReport ;
+    rdfs:label "South Korea Is Giving Millions of Photos to Facial Recognition Researchers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """ShareCopied to clipboard
+The South Korean Ministry of Justice has provided more than 100 million photos of foreign nationals who travelled through the country’s airports to facial recognition companie""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18d36076bc6a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/Regulation/2627323f0329> a airo:Regulation ;
+    rdfs:label "Immigration Control Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "출입국관리법" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/509bb43edbf7>,
+        <https://w3id.org/airo/incident/evidence/565258112e95>,
+        <https://w3id.org/airo/incident/evidence/5cc47be19551> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Regulation/66210f571c85> a airo:Regulation ;
+    rdfs:label "EU Artificial Intelligence Act (draft)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "European Union’s draft Artificial Intelligence Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2cedc03d4929>,
+        <https://w3id.org/airo/incident/evidence/322943d06157> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Regulation/bcdb78a9529f> a airo:Regulation ;
+    rdfs:label "Personal Information Protection Act" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Personal Information Protection Act" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12dc34148523>,
+        <https://w3id.org/airo/incident/evidence/1461503d6e13>,
+        <https://w3id.org/airo/incident/evidence/3b70a8b2dddf>,
+        <https://w3id.org/airo/incident/evidence/451e5018cbf7>,
+        <https://w3id.org/airo/incident/evidence/57575f47b29f>,
+        <https://w3id.org/airo/incident/evidence/b2b46f77b66e>,
+        <https://w3id.org/airo/incident/evidence/f3eb99df4527>,
+        <https://w3id.org/airo/incident/evidence/fba829218b47> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 8 ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/b71f752fb910> .
+
+<https://w3id.org/airo/incident/Stakeholder/278b2e670b15> a airo:Stakeholder ;
+    rdfs:label "Advocates for Public Interest Law" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Advocates for Public Interest Law" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f>,
+        <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/3e7f4f9aac32> a airo:Stakeholder ;
+    rdfs:label "Joint Committee with Migrants in Korea" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Joint Committee with Migrants in Korea" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/767ccb5adc0f>,
+        <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/41cd57b71cd1> a airo:Stakeholder ;
+    rdfs:label "People's Solidarity for Participatory Democracy" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "People's Solidarity for Participatory Democracy" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0dca91144796>,
+        <https://w3id.org/airo/incident/evidence/1461503d6e13> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/8731> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/7b2d6133cfa6> a airo:Stakeholder ;
+    rdfs:label "Institute for Digital Rights" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Institute for Digital Rights" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1461503d6e13>,
+        <https://w3id.org/airo/incident/evidence/6879f4b95cba>,
+        <https://w3id.org/airo/incident/evidence/767ccb5adc0f>,
+        <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/7e0bedc67cfc> a airo:Stakeholder ;
+    rdfs:label "Korean Progressive Network Center (Jinbonet)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Korean Progressive Network Center (Jinbonet)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b2b46f77b66e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8729> .
+
+<https://w3id.org/airo/incident/Stakeholder/847964d5d800> a airo:Stakeholder ;
+    rdfs:label "Park Joo-min" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "박주민" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c54d773f686>,
+        <https://w3id.org/airo/incident/evidence/43e5a3d77223>,
+        <https://w3id.org/airo/incident/evidence/a46459d4d103>,
+        <https://w3id.org/airo/incident/evidence/c44a3083b289> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/c87d19d13872> a airo:Stakeholder ;
+    rdfs:label "Personal Information Protection Commission (South Korea)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Korea’s Personal Information Protection Commission" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/Stakeholder/e40958f7afea> a airo:Stakeholder ;
+    rdfs:label "facial recognition companies" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/204e8c5f5ced>,
+        <https://w3id.org/airo/incident/AISystem/2c0e7fafb68e>,
+        <https://w3id.org/airo/incident/AISystem/7aebb88d8a3a>,
+        <https://w3id.org/airo/incident/AISystem/c0b877a3e440>,
+        <https://w3id.org/airo/incident/AISystem/d3998da4925e>,
+        <https://w3id.org/airo/incident/AISystem/d609235b0878>,
+        <https://w3id.org/airo/incident/AISystem/d952d57d4891>,
+        <https://w3id.org/airo/incident/AISystem/f139968ace40> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition companies" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/55d582ef24f1>,
+        <https://w3id.org/airo/incident/evidence/b41d8ed6f13a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/fbdce72d94b5> a airo:Stakeholder ;
+    rdfs:label "Facebook" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ffce8a17d0f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/evidence/04489bb97d85> a airo:Evidence ;
+    airo:evidenceText "‘I first learned of it today’: Justice minister reacts to handover of travelers’ facial data" ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/07d1d7f3d1fe> a airo:Evidence ;
+    airo:evidenceText "In 2020 alone, the MOJ installed a total of 88 cameras around the Incheon Airport immigration area, including 50 fixed facial recognition cameras, 26 four-sided omnidirectional cameras, and 12 rotating cameras." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/0da3d17627ea> a airo:Evidence ;
+    airo:evidenceText "[8729] The Ministry of Justice is known to have given 170 million facial images of Koreans and foreign nationals to the private sector without data subjects' consent as part of a project to build an artificial intelligence (AI) identification tracking system." ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/0ed21332b88f> a airo:Evidence ;
+    airo:evidenceText "S. Korean government provided 170M facial images obtained in immigration process to private AI developers" ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/0f9552fd09a7> a airo:Evidence ;
+    airo:evidenceText "[단독] 정부, 출입국 얼굴사진 1억7천만건 AI업체에 넘겼다" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/12a8905316de> a airo:Evidence ;
+    airo:evidenceText "[8731] Groups including People's Solidarity for Participatory Democracy (PSPD) and MINBYUN-Lawyers for a Democratic Society are calling for the project to be immediately halted and are requesting to meet with the head of the Ministry of Justice." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/1352e2deba3b> a airo:Evidence ;
+    airo:evidenceText "[8733] “We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN – Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/146870f300fd> a airo:Evidence ;
+    airo:evidenceText "US Customs and Border Protection is already relying on facial recognition technology in dozens of locations." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/18d36076bc6a> a airo:Evidence ;
+    airo:evidenceText "South Korea Is Giving Millions of Photos to Facial Recognition Researchers" ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/1e49641c99f9> a airo:Evidence ;
+    airo:evidenceText "The companies are working on developing a “one-to-many” matching algorithm that compares data of South Korean and foreign nationals registered with the MOJ to images of people taken with cameras at immigration." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/2da1f7d3d571> a airo:Evidence ;
+    airo:evidenceText "Despite this pushback, the use of the technology is increasingly used in commercial spaces and airports. This holiday season, Delta Airlines will be piloting a facial recognition boarding program in Atlanta, following similar moves by JetBlue." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/34198263ee4e> a airo:Evidence ;
+    airo:evidenceText "Seoul shares face biometrics of 170M travelers with private firms" ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/4571eae574d0> a airo:Evidence ;
+    airo:evidenceText "“location tracking and photography of the faces of people arriving and departing.”" ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/4c43998a89d2> a airo:Evidence ;
+    airo:evidenceText "[2263] A project intended to develop an artificial intelligence-powered facial recognition system to be used for airport immigration purposes, spearheaded by South Korea’s Ministry of Justice and the Ministry of Science and Information and Communication Technology, has met with fierce criticism from civil rights groups and opposition politicians in the country." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/4dd9af148954> a airo:Evidence ;
+    airo:evidenceText "It’s a more complex system than the “one-to-one” matching currently used in automated immigration inspections, which checks whether the person in front of the camera is the same one identified in the passport photograph." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/5cb2e15b4daa> a airo:Evidence ;
+    airo:evidenceText "올 6월 과기부 산하 정보통신산업진흥원(NIPA)이 작성한 사업제안서에도 100대 이상의 카메라를 출입국 심사장과 심사대 유리 부스에 추가로 설치하겠다는 계획이 담겼다." ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/5d338aea50b3> a airo:Evidence ;
+    airo:evidenceText "A project proposal drafted this June by the MSIT-affiliated National IT Industry Promotion Agency (NIPA) included plans for the addition of over 100 cameras in the immigration area and its glass booths." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/648c72b35ee2> a airo:Evidence ;
+    airo:evidenceText "South Korea Is Giving Millions of Photos to Facial Recognition Researchers" ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/67203f5cc7fc> a airo:Evidence ;
+    airo:evidenceText "Speaking to the National Assembly’s Legislation and Judiciary Committee during the annual parliamentary audit of the administration, the minister said, “I first learned [about the project] today and was greatly surprised,”" ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/6d63c5baad3d> a airo:Evidence ;
+    airo:evidenceText "“The project itself cannot be retracted or canceled because it was initiated through a memorandum of understanding with the Ministry of Science and ICT,” Park Beom-kye said." ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/6fb08aedc08a> a airo:Evidence ;
+    airo:evidenceText "업체들은 출입국 관리구역 카메라에 찍힌 사람과 기존 법무부에 등록된 내-외국인 데이터를 대조하는 '1 대 다수' 매칭 알고리즘을 개발하고 있다." ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/744f00f25405> a airo:Evidence ;
+    airo:evidenceText "“A human rights disaster”: S. Korean civic groups demand government halt creation of AI facial ID and tracking system" ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/7c49279c185a> a airo:Evidence ;
+    airo:evidenceText "Minister of Justice Park Beom-kye expressed surprise at the biometric data-sharing, and pledged minimal use of the resulting technology, within the scope of legal immigration checks." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/7f7ce07d8807> a airo:Evidence ;
+    airo:evidenceText "Seoul shares face biometrics of 170M travelers with private firms" ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/802306c08f05> a airo:Evidence ;
+    airo:evidenceText "Hani reports that work on the face biometrics identification and tracking system has been ongoing since 2019 but further concern has been sparked by reports that the government handed over at least 170 million face photographs of Koreans and foreigners to a private company to train AI algorithms for the surveillance system." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/821bf0fc6997> a airo:Evidence ;
+    airo:evidenceText "[2263] A project intended to develop an artificial intelligence-powered facial recognition system to be used for airport immigration purposes, spearheaded by South Korea’s Ministry of Justice and the Ministry of Science and Information and Communication Technology, has met with fierce criticism from civil rights groups and opposition politicians in the country." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/8b002ebd480d> a airo:Evidence ;
+    airo:evidenceText "[8728] According to materials received Wednesday by Democratic Party lawmaker Park Joo-min from the Ministry of Justice (MOJ) and Ministry of Science and ICT (MSIT), the two ministries have been pursuing an “AI identification and tracking system development project” based on an April 2019 memorandum of understanding, with a target completion date in 2022." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/9f81a4369575> a airo:Evidence ;
+    airo:evidenceText "[8730] The South Korean government shared roughly 170 million face images of citizens and resident foreign nationals with the private sector without their consent to be used in training and testing biometric algorithms, according to a recent Ministry of Justice document." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/a061e068c77f> a airo:Evidence ;
+    airo:evidenceText "[2262] The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users' identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/a80eb4afe786> a airo:Evidence ;
+    airo:evidenceText "The groups gave the Ministry of Justice an official request for a meeting with Justice Minister Park Beom-kye on Tuesday and said that Park must present a course of action to end the project." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/b160afd7f4c4> a airo:Evidence ;
+    airo:evidenceText "The justice minister was responding to Park Joo-min, a lawmaker with the Democratic Party, who’d asked whether he was aware that the ministry was providing facial data of people arriving at the airport to a company that was developing an AI system." ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/b4573f8291c0> a airo:Evidence ;
+    airo:evidenceText "Minister of Justice Park Beom-kye on Thursday pledged to use facial recognition data from passengers coming and going from South Korea within the minimum scope of immigration control only." ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/b7e22c440854> a airo:Evidence ;
+    airo:evidenceText "현행 자동출입국심사에서처럼 카메라 앞의 인물이 여권 사진의 인물과 동일한지를 검증하는 '1 대 1' 매칭보다 복잡한 형태다." ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/bf8fb4129525> a airo:Evidence ;
+    airo:evidenceText "[8733] The South Korean Ministry of Justice has provided more than 100 million photos of foreign nationals who travelled through the country's airports to facial recognition companies without their consent, according to attorneys with the non-governmental organization Lawyers for a Democratic Society." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/d253979b27b9> a airo:Evidence ;
+    airo:evidenceText "US Customs and Border Protection is already relying on facial recognition technology in dozens of locations." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/e4e58278e38f> a airo:Evidence ;
+    airo:evidenceText "Rights groups demand halt to South Korea facial recognition surveillance project" ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/ecccebbcfa2d> a airo:Evidence ;
+    airo:evidenceText "In 2019, San Francisco became the first US city to ban police and government agencies from using the technology." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/f194c9f657d6> a airo:Evidence ;
+    airo:evidenceText "NIPA, the organization that drafted the proposal, explained that this involved “location tracking and photography of the faces of people arriving and departing.”" ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/f6d4fd8fa555> a airo:Evidence ;
+    airo:evidenceText "The cameras feature one-to-many facial recognition technology." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/fd5b35af20ba> a airo:Evidence ;
+    airo:evidenceText "Shortly after the discovery, civil liberty groups announced plans to represent both foreign and domestic victims in a lawsuit." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/Risk/7ca51dfe6c85> a airo:Risk ;
+    rdfs:label "risk of mass surveillance and tracking without consent" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81ff605116be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/8d61b85a890e> .
+
+<https://w3id.org/airo/incident/Stakeholder/a4787c5fb74e> a airo:Stakeholder ;
+    rdfs:label "Ministry of Justice (South Korea)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/204e8c5f5ced>,
+        <https://w3id.org/airo/incident/AISystem/2c0e7fafb68e>,
+        <https://w3id.org/airo/incident/AISystem/7aebb88d8a3a>,
+        <https://w3id.org/airo/incident/AISystem/c0b877a3e440>,
+        <https://w3id.org/airo/incident/AISystem/d3998da4925e>,
+        <https://w3id.org/airo/incident/AISystem/d609235b0878>,
+        <https://w3id.org/airo/incident/AISystem/d952d57d4891>,
+        <https://w3id.org/airo/incident/AISystem/f139968ace40> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/204e8c5f5ced>,
+        <https://w3id.org/airo/incident/AISystem/2c0e7fafb68e>,
+        <https://w3id.org/airo/incident/AISystem/7aebb88d8a3a>,
+        <https://w3id.org/airo/incident/AISystem/c0b877a3e440>,
+        <https://w3id.org/airo/incident/AISystem/d3998da4925e>,
+        <https://w3id.org/airo/incident/AISystem/d609235b0878>,
+        <https://w3id.org/airo/incident/AISystem/d952d57d4891>,
+        <https://w3id.org/airo/incident/AISystem/f139968ace40> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ministry of Justice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/293c95dd8cd0>,
+        <https://w3id.org/airo/incident/evidence/30dea2f3d365>,
+        <https://w3id.org/airo/incident/evidence/4bdaf74f6b66>,
+        <https://w3id.org/airo/incident/evidence/b41d8ed6f13a>,
+        <https://w3id.org/airo/incident/evidence/b5475adce0fb>,
+        <https://w3id.org/airo/incident/evidence/b5be87ae3f62>,
+        <https://w3id.org/airo/incident/evidence/c97633729a2e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8730> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/evidence/12dc34148523> a airo:Evidence ;
+    airo:evidenceText "개인정보보호법은 '개인의 신체적, 생리적, 행동적 특징에 관한 정보로서 특정인을 알아볼 목적으로 생성된 정보' 등을 민감 정보로 규정한다." ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/293c95dd8cd0> a airo:Evidence ;
+    airo:evidenceText "According to materials received Wednesday by Democratic Party lawmaker Park Joo-min from the Ministry of Justice (MOJ) and Ministry of Science and ICT (MSIT), the two ministries have been pursuing an “AI identification and tracking system development project” based on an April 2019 memorandum of understanding, with a target completion date in 2022." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/2cedc03d4929> a airo:Evidence ;
+    airo:evidenceText "The European Union’s draft Artificial Intelligence Act would also limit live facial recognition in public spaces—but with exemptions for “national security” purposes." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/3b70a8b2dddf> a airo:Evidence ;
+    airo:evidenceText "A privacy advocacy group, meanwhile, has announced plans to launch a class action suit over alleged violation of the country’s Personal Information Protection Act." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/509bb43edbf7> a airo:Evidence ;
+    airo:evidenceText "Noticeably, the Korean Immigration Act only allows the MOJ to collect or store face and fingerprint biometrics of citizens who have applied to use the automated immigration clearance service introduced in 2008." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/565258112e95> a airo:Evidence ;
+    airo:evidenceText "현행 출입국관리법상 법무부는 입국 심사 때 내국인의 안면 등 생체정보는 수집-저장하지 않지만" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/5cc47be19551> a airo:Evidence ;
+    airo:evidenceText "While the Immigration Act does not allow the MOJ to collect or store biometric data such as facial images from South Korean nationals during immigration screening, it does store fingerprints and facial photographs from the South Koreans who have applied to use the automated immigration clearance service introduced in 2008." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/5ee9a5222b11> a airo:Evidence ;
+    airo:evidenceText "Further supporting their argument on why the project is dangerous for Koreans, they drew this example: “The U.S. and the EU view AI facial recognition as a dangerous technology and have recently been developing measures to regulate remote monitoring systems that make use of biometric information." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/7e43418d09b3> a airo:Evidence ;
+    airo:evidenceText "After the Hankyoreh reported on Oct. 21 that the government had given a private-sector company more than 170 million facial photographs of Koreans and foreign nationals to train its AI, there has been an outcry about the government's infringement on privacy rights." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/81ff605116be> a airo:Evidence ;
+    airo:evidenceText "[8731] The artificial intelligence identification and tracking system that the South Korean Ministry of Justice and the Ministry of Science and ICT are seeking to develop using facial photographs of Koreans and non-Koreans represents an 'unprecedented violation of people's information rights,' say critics in civil society." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/8bfd661e8412> a airo:Evidence ;
+    airo:evidenceText "[2263] As a consequence, some six rights groups including People's Solidarity for Participatory Democracy (PSPD), MINBYUN-Lawyers for a Democratic Society, and the Institute for Digital Rights, have called on the government to halt the facial recognition project, arguing that it violates the country's Personal Information Protection Act as well as international human rights norms." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/8f80e5e1d0eb> a airo:Evidence ;
+    airo:evidenceText "[8729] Privacy advocates including MINBYUN—Lawyers for a Democratic Society and the Korean Progressive Network Center (Jinbonet) said the project was 'already a clear violation of the Personal Information Protection Act' and announced plans to 'launch a class action lawsuit for victims both in Korea and overseas.'" ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/d3f2ca66f141> a airo:Evidence ;
+    airo:evidenceText "Numerous studies, including from the US government, have shown the technology to be racist and unreliable, and civil rights advocates have noted that facial recognition is deployed disproportionately against immigrants and communities of color." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/ed04bd55a82c> a airo:Evidence ;
+    airo:evidenceText "Scheduled for completion in 2022, the project has seen the MOJ transferring information obtained during the immigration screening process to the MSIT, including face biometrics, nationality, gender, and age." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/f6a79cd5bbaf> a airo:Evidence ;
+    airo:evidenceText "두 부처는 지난 2019년 4월 양해각서(MOU)를 맺고 2022년 완료를 목표로 '인공지능 식별추적시스템 구축 사업'을 진행하고 있다." ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/fba829218b47> a airo:Evidence ;
+    airo:evidenceText "The project to build an AI identification and tracking system should be immediately halted for violating the Personal Information Protection Act and international human rights norms, the groups said during the press conference." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/AISystem/204e8c5f5ced> a airo:AISystem ;
+    rdfs:label "AI facial recognition system" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI facial recognition system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/411290899e7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8731> .
+
+<https://w3id.org/airo/incident/AISystem/2c0e7fafb68e> a airo:AISystem ;
+    rdfs:label "advanced immigration screening system" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "advanced immigration screening system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01402e3d5f0d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/AISystem/7aebb88d8a3a> a airo:AISystem ;
+    rdfs:label "facial recognition boarding program" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition boarding program" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa556a6efbe1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/AISystem/c0b877a3e440> a airo:AISystem ;
+    rdfs:label "Face biometrics identification and tracking system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "face biometrics identification and tracking system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/802306c08f05> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/AISystem/d3998da4925e> a airo:AISystem ;
+    rdfs:label "biometric monitoring system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "biometric monitoring system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b5de4d4156b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8733> .
+
+<https://w3id.org/airo/incident/AISystem/d952d57d4891> a airo:AISystem ;
+    rdfs:label "Airport immigration facial recognition system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30dea2f3d365> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2263> .
+
+<https://w3id.org/airo/incident/AISystem/f139968ace40> a airo:AISystem ;
+    rdfs:label "Artificial Intelligence and Tracking System Construction Project" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Artificial Intelligence and Tracking System Construction Project" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c54d773f686>,
+        <https://w3id.org/airo/incident/evidence/9c2e81768cd6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/30dea2f3d365> a airo:Evidence ;
+    airo:evidenceText "A project intended to develop an artificial intelligence-powered facial recognition system to be used for airport immigration purposes, spearheaded by South Korea’s Ministry of Justice and the Ministry of Science and Information and Communication Technology, has met with fierce criticism from civil rights groups and opposition politicians in the country." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/411290899e7e> a airo:Evidence ;
+    airo:evidenceText "Korea's Ministry of Justice and Ministry of Science and ICT have been building the AI identification and tracking system since 2019 with the goal of setting up an AI facial recognition system for use in airport immigration control." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/ab12faa071c9> a airo:Evidence ;
+    airo:evidenceText "The South Korean government shared roughly 170 million face images of citizens and resident foreign nationals with the private sector without their consent to be used in training and testing biometric algorithms, according to a recent Ministry of Justice document." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/b9e20ec7071b> a airo:Evidence ;
+    airo:evidenceText "Of the facial images collected, 100 million were used for “AI learning” and another 20 million for “algorithm testing.”" ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/bb4d64674504> a airo:Evidence ;
+    airo:evidenceText "In 2019, a Motherboard investigation revealed the Departments of Motor Vehicles in numerous states had been selling names, addresses and other personal data to insurance or tow companies and to private investigators." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/e7e1e07c9992> a airo:Evidence ;
+    airo:evidenceText "지난 2019년 6월 정부가 홍남기 부총리 겸 기획재정부 장관 주재로 열린 관계 장관회의 뒤 낸 보도자료에서 해당 사업에 대한 언급은 있었으나" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/f90e1b28921e> a airo:Evidence ;
+    airo:evidenceText "Companies used 100 million of these for “AI learning” and another 20 million for “algorithm testing.”" ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/fa556a6efbe1> a airo:Evidence ;
+    airo:evidenceText "This holiday season, Delta Airlines will be piloting a facial recognition boarding program in Atlanta, following similar moves by JetBlue." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/1b8bb47bfa4f> a airo:Evidence ;
+    airo:evidenceText "The South Korean government shared roughly 170 million face images of citizens and resident foreign nationals with the private sector without their consent to be used in training and testing biometric algorithms, according to a recent Ministry of Justice document." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/322943d06157> a airo:Evidence ;
+    airo:evidenceText "The European Union’s draft Artificial Intelligence Act would also limit live facial recognition in public spaces—but with exemptions for “national security” purposes." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/3c54d773f686> a airo:Evidence ;
+    airo:evidenceText "The revelation, first reported in the South Korean newspaper The Hankyoreh, came to light after National Assembly member Park Joo-min requested and received documents from the Ministry of Justice related to a April 2019 project titled Artificial Intelligence and Tracking System Construction Project." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/49b6258b7086> a airo:Evidence ;
+    airo:evidenceText "The move is part of an “AI identification and tracking system development project” based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/6879f4b95cba> a airo:Evidence ;
+    airo:evidenceText "“Internationally, it is difficult to find any precedent of actual immigration data from domestic and international travelers being provided to companies and used for AI development without any notification or consent,” said Chang Yeo-Kyung, executive director of the Institute for Digital Rights." ;
+    airo:sourceDocId "8728" .
+
+<https://w3id.org/airo/incident/evidence/c44a3083b289> a airo:Evidence ;
+    airo:evidenceText "20일 박주민 더불어민주당 의원이 법무부-과학기술정보통신부에서 받은 자료들을 보면" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/8caf45f1dc6c> a airo:Evidence ;
+    airo:evidenceText "Virginia and Vermont have banned local law enforcement agencies from using facial recognition, and in June, several US Democratic Senators introduced legislation that would stop government use of biometric technology." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/9c2e81768cd6> a airo:Evidence ;
+    airo:evidenceText "The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/0dca91144796> a airo:Evidence ;
+    airo:evidenceText "Groups including People's Solidarity for Participatory Democracy (PSPD) and MINBYUN-Lawyers for a Democratic Society are calling for the project to be immediately halted and are requesting to meet with the head of the Ministry of Justice." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/evidence/43e5a3d77223> a airo:Evidence ;
+    airo:evidenceText "The revelation, first reported in the South Korean newspaper The Hankyoreh, came to light after National Assembly member Park Joo-min requested and received documents from the Ministry of Justice related to a April 2019 project titled Artificial Intelligence and Tracking System Construction Project." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/b41d8ed6f13a> a airo:Evidence ;
+    airo:evidenceText "The South Korean Ministry of Justice has provided more than 100 million photos of foreign nationals who travelled through the country’s airports to facial recognition companies without their consent." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/4bdaf74f6b66> a airo:Evidence ;
+    airo:evidenceText "법무부가 출입국 심사 과정에서 확보한 내-외국인의 △안면 이미지 △국적 △성별 △나이 등의 정보를 과기부에 이관하고" ;
+    airo:sourceDocId "2265" .
+
+<https://w3id.org/airo/incident/evidence/55d582ef24f1> a airo:Evidence ;
+    airo:evidenceText "The South Korean Ministry of Justice has provided more than 100 million photos of foreign nationals who travelled through the country’s airports to facial recognition companies without their consent, according to attorneys with the non-governmental organization Lawyers for a Democratic Society." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/a46459d4d103> a airo:Evidence ;
+    airo:evidenceText "The report was seen by Hankyoreh, and describes the capture and handling of face biometric data collected at Incheon International Airport, according to materials handed to Democratic Party National Assembly Member Park Joo-min." ;
+    airo:sourceDocId "2264" .
+
+<https://w3id.org/airo/incident/evidence/01402e3d5f0d> a airo:Evidence ;
+    airo:evidenceText "The documents show private companies secretly used biometric data to research and develop an advanced immigration screening system that would utilize artificial intelligence to automatically identify airport users’ identities through CCTV surveillance cameras and detect dangerous situations in real time." ;
+    airo:sourceDocId "8733" .
+
+<https://w3id.org/airo/incident/evidence/0ffce8a17d0f> a airo:Evidence ;
+    airo:evidenceText "South Korea’s Personal Information Protection Commission in August slammed a heavy fine on Facebook for violating facial recognition consent rules." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/evidence/b2b46f77b66e> a airo:Evidence ;
+    airo:evidenceText "Privacy advocates including MINBYUN—Lawyers for a Democratic Society and the Korean Progressive Network Center (Jinbonet) said the project was “already a clear violation of the Personal Information Protection Act” and announced plans to “launch a class action lawsuit for victims both in Korea and overseas.”" ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/b5be87ae3f62> a airo:Evidence ;
+    airo:evidenceText "The Ministry of Justice is known to have given 170 million facial images of Koreans and foreign nationals to the private sector without data subjects’ consent as part of a project to build an artificial intelligence (AI) identification tracking system." ;
+    airo:sourceDocId "8729" .
+
+<https://w3id.org/airo/incident/evidence/e3587c3f77b3> a airo:Evidence ;
+    airo:evidenceText "The artificial intelligence identification and tracking system that the South Korean Ministry of Justice and the Ministry of Science and ICT are seeking to develop using facial photographs of Koreans and non-Koreans represents an 'unprecedented violation of people's information rights,' say critics in civil society." ;
+    airo:sourceDocId "8731" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_97> a airo:AIRiskIncident ;
+    rdfs:label "[단독] 정부, 출입국 얼굴사진 1억7천만건 AI업체에 넘겼다" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/2627323f0329>,
+        <https://w3id.org/airo/incident/Regulation/66210f571c85>,
+        <https://w3id.org/airo/incident/Regulation/bcdb78a9529f> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/8d61b85a890e> ;
+    airo:hasDescription "pred_97" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/0eee647ef83c>,
+        <https://w3id.org/airo/incident/Data/526f82b374d7>,
+        <https://w3id.org/airo/incident/Data/63eacd9cde4f>,
+        <https://w3id.org/airo/incident/Data/b80368c3c5b9>,
+        <https://w3id.org/airo/incident/Domain/2f19393ccce0>,
+        <https://w3id.org/airo/incident/evidence/41996a5a9830>,
+        <https://w3id.org/airo/incident/evidence/5fae5ca6fb50>,
+        <https://w3id.org/airo/incident/evidence/734d48d7f6b1>,
+        <https://w3id.org/airo/incident/evidence/c72d9df116b5>,
+        <https://w3id.org/airo/incident/evidence/e054effb2018> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/5f7c496473c3> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2262>,
+        <https://w3id.org/airo/incident/NewsReport/2263>,
+        <https://w3id.org/airo/incident/NewsReport/2264>,
+        <https://w3id.org/airo/incident/NewsReport/2265>,
+        <https://w3id.org/airo/incident/NewsReport/8728>,
+        <https://w3id.org/airo/incident/NewsReport/8729>,
+        <https://w3id.org/airo/incident/NewsReport/8730>,
+        <https://w3id.org/airo/incident/NewsReport/8731>,
+        <https://w3id.org/airo/incident/NewsReport/8733> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/7ca51dfe6c85> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2262>,
+        <https://w3id.org/airo/incident/document/2263>,
+        <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8730>,
+        <https://w3id.org/airo/incident/document/8731>,
+        <https://w3id.org/airo/incident/document/8733> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/204e8c5f5ced>,
+        <https://w3id.org/airo/incident/AISystem/2c0e7fafb68e>,
+        <https://w3id.org/airo/incident/AISystem/7aebb88d8a3a>,
+        <https://w3id.org/airo/incident/AISystem/c0b877a3e440>,
+        <https://w3id.org/airo/incident/AISystem/d3998da4925e>,
+        <https://w3id.org/airo/incident/AISystem/d609235b0878>,
+        <https://w3id.org/airo/incident/AISystem/d952d57d4891>,
+        <https://w3id.org/airo/incident/AISystem/f139968ace40> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/1d04c59273bb>,
+        <https://w3id.org/airo/incident/Stakeholder/1f13b007728b>,
+        <https://w3id.org/airo/incident/Stakeholder/228e7b37849a>,
+        <https://w3id.org/airo/incident/Stakeholder/238469c49e75>,
+        <https://w3id.org/airo/incident/Stakeholder/278b2e670b15>,
+        <https://w3id.org/airo/incident/Stakeholder/2a58f2c18dfd>,
+        <https://w3id.org/airo/incident/Stakeholder/31837ac924ca>,
+        <https://w3id.org/airo/incident/Stakeholder/333422593aa9>,
+        <https://w3id.org/airo/incident/Stakeholder/38931fc42393>,
+        <https://w3id.org/airo/incident/Stakeholder/39c82b5d5937>,
+        <https://w3id.org/airo/incident/Stakeholder/3ba24de52beb>,
+        <https://w3id.org/airo/incident/Stakeholder/3e7f4f9aac32>,
+        <https://w3id.org/airo/incident/Stakeholder/41cd57b71cd1>,
+        <https://w3id.org/airo/incident/Stakeholder/45ab2f23605f>,
+        <https://w3id.org/airo/incident/Stakeholder/5e6b24c75ddb>,
+        <https://w3id.org/airo/incident/Stakeholder/611cc4241097>,
+        <https://w3id.org/airo/incident/Stakeholder/6bcb33bc3c6c>,
+        <https://w3id.org/airo/incident/Stakeholder/75e1ba193070>,
+        <https://w3id.org/airo/incident/Stakeholder/7b2d6133cfa6>,
+        <https://w3id.org/airo/incident/Stakeholder/7d0537ffe9c5>,
+        <https://w3id.org/airo/incident/Stakeholder/7e0bedc67cfc>,
+        <https://w3id.org/airo/incident/Stakeholder/847964d5d800>,
+        <https://w3id.org/airo/incident/Stakeholder/89f7b859f4a8>,
+        <https://w3id.org/airo/incident/Stakeholder/924d59069b89>,
+        <https://w3id.org/airo/incident/Stakeholder/9a0ea95c4076>,
+        <https://w3id.org/airo/incident/Stakeholder/a4787c5fb74e>,
+        <https://w3id.org/airo/incident/Stakeholder/b1c53975ae2b>,
+        <https://w3id.org/airo/incident/Stakeholder/b577966a05a9>,
+        <https://w3id.org/airo/incident/Stakeholder/b9f5d81bea88>,
+        <https://w3id.org/airo/incident/Stakeholder/c471ca121b8b>,
+        <https://w3id.org/airo/incident/Stakeholder/c87d19d13872>,
+        <https://w3id.org/airo/incident/Stakeholder/cb76085f7e3e>,
+        <https://w3id.org/airo/incident/Stakeholder/d6dfa97c50dc>,
+        <https://w3id.org/airo/incident/Stakeholder/e40958f7afea>,
+        <https://w3id.org/airo/incident/Stakeholder/e725d6cbbb2d>,
+        <https://w3id.org/airo/incident/Stakeholder/eedbcf01baba>,
+        <https://w3id.org/airo/incident/Stakeholder/f64dfcb1bc21>,
+        <https://w3id.org/airo/incident/Stakeholder/fbdce72d94b5>,
+        <https://w3id.org/airo/incident/Stakeholder/fff84e6b8aad> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/3869a8096b59> .
+
+<https://w3id.org/airo/incident/evidence/c97633729a2e> a airo:Evidence ;
+    airo:evidenceText "The move is part of an \"AI identification and tracking system development project\" based on a memorandum of understanding between the Korean Ministry of Justice (MOJ) and the Ministry of Science and ICT (MSIT)." ;
+    airo:sourceDocId "8730" .
+
+<https://w3id.org/airo/incident/evidence/1461503d6e13> a airo:Evidence ;
+    airo:evidenceText "As a consequence, some six rights groups including People’s Solidarity for Participatory Democracy (PSPD), MINBYUN-Lawyers for a Democratic Society, and the Institute for Digital Rights, have called on the government to halt the facial recognition project, arguing that it violates the country’s Personal Information Protection Act as well as international human rights norms." ;
+    airo:sourceDocId "2263" .
+
+<https://w3id.org/airo/incident/AISystem/d609235b0878> a airo:AISystem ;
+    rdfs:label "AI identification and tracking system" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/2627323f0329>,
+        <https://w3id.org/airo/incident/Regulation/66210f571c85>,
+        <https://w3id.org/airo/incident/Regulation/bcdb78a9529f> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/09caa0fd2f8b>,
+        <https://w3id.org/airo/incident/AICapability/320190a3fe46>,
+        <https://w3id.org/airo/incident/AICapability/3f775e635dfa>,
+        <https://w3id.org/airo/incident/AICapability/60232a19fb9a>,
+        <https://w3id.org/airo/incident/AICapability/757c3c128ff5>,
+        <https://w3id.org/airo/incident/AICapability/e1004453e0cd>,
+        <https://w3id.org/airo/incident/Purpose/2515fcdb11d1> ;
+    airo:hasDescription "AI identification tracking system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/293c95dd8cd0>,
+        <https://w3id.org/airo/incident/evidence/49b6258b7086>,
+        <https://w3id.org/airo/incident/evidence/b5be87ae3f62>,
+        <https://w3id.org/airo/incident/evidence/c97633729a2e>,
+        <https://w3id.org/airo/incident/evidence/e3587c3f77b3>,
+        <https://w3id.org/airo/incident/evidence/f6a79cd5bbaf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2264>,
+        <https://w3id.org/airo/incident/document/2265>,
+        <https://w3id.org/airo/incident/document/8728>,
+        <https://w3id.org/airo/incident/document/8729>,
+        <https://w3id.org/airo/incident/document/8730>,
+        <https://w3id.org/airo/incident/document/8731> ;
+    airo:hasSupportCount 6 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/f8cb9f92d728> ;
+    airo:uses <https://w3id.org/airo/incident/Data/526f82b374d7>,
+        <https://w3id.org/airo/incident/Data/63eacd9cde4f>,
+        <https://w3id.org/airo/incident/Data/b80368c3c5b9> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/171850e66e87>,
+        <https://w3id.org/airo/incident/AITechnique/3bbe6fa8ee06>,
+        <https://w3id.org/airo/incident/AITechnique/430d0c7cae13>,
+        <https://w3id.org/airo/incident/AITechnique/aa0e9ab78de6>,
+        <https://w3id.org/airo/incident/AITechnique/d61853500a2f>,
+        <https://w3id.org/airo/incident/AITechnique/dffc26ff0f94>,
+        <https://w3id.org/airo/incident/AITechnique/f2aae65b5bb2> .
+
+<https://w3id.org/airo/incident/evidence/767ccb5adc0f> a airo:Evidence ;
+    airo:evidenceText "“We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN - Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "2262" .
+
+<https://w3id.org/airo/incident/evidence/b5de4d4156b6> a airo:Evidence ;
+    airo:evidenceText "“We, the NGOs, urge the government to immediately stop the establishment of a biometric monitoring system that is not only illegal but also significantly violates international human rights norms,” wrote Advocates for Public Interest Law, MINBYUN – Lawyers for a Democratic Society, the Institute for Digital Rights, the Joint Committee with Migrants in Korea, and the Korean Progressive Network Jinbonet, in a press release that was translated and provided to Motherboard." ;
+    airo:sourceDocId "8733" .
+

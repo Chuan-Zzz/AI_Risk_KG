@@ -1,0 +1,1343 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/fd15afa487cf> a airo:ComplianceRequirement ;
+    rdfs:label "stop testing and seek a permit" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b1fa146153d> ;
+    airo:hasReasoning "The DMV explicitly demanded Uber cease testing and obtain a permit, which is a specific compliance requirement." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/EnforcementAction/49b1f0378a50> a airo:EnforcementAction ;
+    rdfs:label "revoked vehicle registrations" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b85f7d2f6db> ;
+    airo:hasReasoning "The DMV revoked the registrations of Uber's self-driving cars, which is a direct regulatory enforcement action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> .
+
+<https://w3id.org/airo/incident/InformationSource/7f73c0f58c01> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/987>,
+        <https://w3id.org/airo/incident/NewsReport/988>,
+        <https://w3id.org/airo/incident/NewsReport/989>,
+        <https://w3id.org/airo/incident/NewsReport/990> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987>,
+        <https://w3id.org/airo/incident/document/988>,
+        <https://w3id.org/airo/incident/document/989>,
+        <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/RiskControl/65137cf82e69> a airo:RiskControl ;
+    rdfs:label "State regulators revoking vehicle registrations and demanding cessation of testing without permits" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa2c9078150f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/39a275757bb1> .
+
+<https://w3id.org/airo/incident/RoleAssignment/12dac5469110> a airo:RoleAssignment ;
+    rdfs:label "Uber_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d823f4910f4> ;
+    airo:hasReasoning "Uber deployed the self-driving vehicles for a trial run (testing) on public roads." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2307860787e8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/182d53e03815> a airo:RoleAssignment ;
+    rdfs:label "California DMV_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf167865eaa> ;
+    airo:hasReasoning "The California DMV took regulatory action by denying a permit and later revoking registrations, which are functions of a regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/16eb0cd2dba9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/482c744f68aa> a airo:RoleAssignment ;
+    rdfs:label "Tesla Motors_AIProvider" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6278841ed75a> ;
+    airo:hasReasoning "Tesla Motors is mentioned as a stakeholder ('Tesla Motors Car'), and Tesla provides vehicles with autonomous driving capabilities to customers." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/70353cf59e0a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/80ac67c96de9> a airo:RoleAssignment ;
+    rdfs:label "Consumer Watchdog_Stakeholder" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c2103a5e402> ;
+    airo:hasReasoning "Consumer Watchdog is listed as a stakeholder but there is no direct evidence in the provided sentences of its specific actions; it is likely an advocacy group observing the issue, fitting the broad 'Stakeholder' role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b8310e0e105b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/93cd82f55612> a airo:RoleAssignment ;
+    rdfs:label "The Examiner_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc611c0e9e1a> ;
+    airo:hasReasoning "The Examiner reported the news of the incident, acting as a media stakeholder covering the event." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d039d62d8044> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9c6d201b24d9> a airo:RoleAssignment ;
+    rdfs:label "Anthony Levandowski_AIDeveloper" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/170408e272d3> ;
+    airo:hasReasoning "As Uber's self-driving chief, he is responsible for leading the development of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/8850a72a9476> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b94b4553d1ef> a airo:RoleAssignment ;
+    rdfs:label "human monitor_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a971ff57cae0> ;
+    airo:hasReasoning "The 'human monitoring the system' directly interacts with the AI as an operator/user responsible for oversight." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5bd4db54553c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c200919cf445> a airo:RoleAssignment ;
+    rdfs:label "Luxor Cab Company_AffectedActor" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ca379fdfe58> ;
+    airo:hasReasoning "Luxor Cab is a traditional taxi company affected by the competition and potential safety risks from Uber's self-driving cars; they reported the incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4c99cb31fcc1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c7faf18192c2> a airo:RoleAssignment ;
+    rdfs:label "Uber_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a863505e8226> ;
+    airo:hasReasoning "Uber is actively building and developing the self-driving technology for its vehicles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_494> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2307860787e8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/4011c6b29403> .
+
+<https://w3id.org/airo/incident/Trend/078d1874ecaf> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny of autonomous vehicle testing" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6154cf0add1b> ;
+    airo:hasReasoning "The DMV's actions (denying permit, revoking registrations) show increased scrutiny and enforcement against companies testing autonomous vehicles without proper authorization." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/event/pred_494> a airo:AIRiskIncident ;
+    airo:firstSeen "2016-12-15T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2017-02-26T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/030cb0f7a185> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/03a9db33b984> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> .
+
+<https://w3id.org/airo/incident/ks/0544d45d78a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0905e9203db> .
+
+<https://w3id.org/airo/incident/ks/0f911f4a3a10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c831dafc569> .
+
+<https://w3id.org/airo/incident/ks/1186900603ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c557d64d8e6a> .
+
+<https://w3id.org/airo/incident/ks/18a73d35fa98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6b0afd12d8d> .
+
+<https://w3id.org/airo/incident/ks/19a8e9237f5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> .
+
+<https://w3id.org/airo/incident/ks/1ba85e2e7a7c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/1e52a8d9b996> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/1efc7e8170d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/1f12bc3786dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/22251394f558> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa2c9078150f> .
+
+<https://w3id.org/airo/incident/ks/25b526901094> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d54bb098583> .
+
+<https://w3id.org/airo/incident/ks/2a4dafea98e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> .
+
+<https://w3id.org/airo/incident/ks/2ae7994df348> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c028f23b8951> .
+
+<https://w3id.org/airo/incident/ks/2b786e027bec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4391f47d4e14> .
+
+<https://w3id.org/airo/incident/ks/2d4ccdc00e3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/2d79c6b219c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5787fac1009d> .
+
+<https://w3id.org/airo/incident/ks/2de4e5af6fbe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0dac48238b7> .
+
+<https://w3id.org/airo/incident/ks/31271f999b54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> .
+
+<https://w3id.org/airo/incident/ks/3372b709683d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/37cfd2997a90> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/3b1f3c077b16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c831dafc569> .
+
+<https://w3id.org/airo/incident/ks/423e0fb1b93c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/430e7165415d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ebe19c0767> .
+
+<https://w3id.org/airo/incident/ks/4405ff42049e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5190a8cbc9c7> .
+
+<https://w3id.org/airo/incident/ks/466f7826c791> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6b0afd12d8d> .
+
+<https://w3id.org/airo/incident/ks/48c406f1c2b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74743ae69301> .
+
+<https://w3id.org/airo/incident/ks/4c5af2fc44ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> .
+
+<https://w3id.org/airo/incident/ks/4f3f82168dc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c028f23b8951> .
+
+<https://w3id.org/airo/incident/ks/51ae30b5191f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/55784a281110> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a3b90e6fe47> .
+
+<https://w3id.org/airo/incident/ks/5fdd87db2cd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d98b26a45b5> .
+
+<https://w3id.org/airo/incident/ks/635f75563dbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/6394de3c264b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/64750ce45276> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e86aee9d01a> .
+
+<https://w3id.org/airo/incident/ks/652d7ce48e35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> .
+
+<https://w3id.org/airo/incident/ks/6a75bd438635> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> .
+
+<https://w3id.org/airo/incident/ks/7013e0c4cc0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/860902625cd6> .
+
+<https://w3id.org/airo/incident/ks/727cd5e7de09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8240bc3d74e> .
+
+<https://w3id.org/airo/incident/ks/735ce236db98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c305454ca8e> .
+
+<https://w3id.org/airo/incident/ks/73daac3f579f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> .
+
+<https://w3id.org/airo/incident/ks/74d04da691ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cf50412dedd> .
+
+<https://w3id.org/airo/incident/ks/76b4eddbb37b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcf88bc44329> .
+
+<https://w3id.org/airo/incident/ks/785c3ce46cca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5755f0aeda07> .
+
+<https://w3id.org/airo/incident/ks/7e8aad5ceebd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> .
+
+<https://w3id.org/airo/incident/ks/7f58ab0b2fb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> .
+
+<https://w3id.org/airo/incident/ks/82327f57bec6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4de62bcb4557> .
+
+<https://w3id.org/airo/incident/ks/83606682cccb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> .
+
+<https://w3id.org/airo/incident/ks/85710c75f734> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f7308bc4635> .
+
+<https://w3id.org/airo/incident/ks/88515f54ebb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/8af0ad353f15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12c4b535810d> .
+
+<https://w3id.org/airo/incident/ks/8b2f066d490c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/053dd9c89fbf> .
+
+<https://w3id.org/airo/incident/ks/97f44f0a58ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/99f2d1ae4e2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c72f4a90a856> .
+
+<https://w3id.org/airo/incident/ks/9b0a3bc8c5b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/9b6ced6cdfe1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3f6cec7de7e> .
+
+<https://w3id.org/airo/incident/ks/9d65cbd0cb46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/776142c5515c> .
+
+<https://w3id.org/airo/incident/ks/9e59c1920023> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f7628560d> .
+
+<https://w3id.org/airo/incident/ks/a1a54d45fe87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/a1ed6e4aa42d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> .
+
+<https://w3id.org/airo/incident/ks/a20a6219d52d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c73e0798e1e> .
+
+<https://w3id.org/airo/incident/ks/a40cea5be01d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/50de748d2d60> .
+
+<https://w3id.org/airo/incident/ks/a5ed13546afd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/a9b46e86edaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba66ef88449e> .
+
+<https://w3id.org/airo/incident/ks/a9ecf203e472> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/ab955eef669b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d03cb97f1b0> .
+
+<https://w3id.org/airo/incident/ks/b027df783154> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4391f47d4e14> .
+
+<https://w3id.org/airo/incident/ks/b4a5b58b2140> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> .
+
+<https://w3id.org/airo/incident/ks/b801df50653b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/48e7acb0b844> .
+
+<https://w3id.org/airo/incident/ks/bbebc137b1d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/bdbc6c8ff389> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/c0f93a8f5c78> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2d18531e855> .
+
+<https://w3id.org/airo/incident/ks/c3b29d6e7046> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/221caf5ceb92> .
+
+<https://w3id.org/airo/incident/ks/ca1207ab21ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> .
+
+<https://w3id.org/airo/incident/ks/cbf44f4732ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> .
+
+<https://w3id.org/airo/incident/ks/ce92760ecb06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0dac48238b7> .
+
+<https://w3id.org/airo/incident/ks/d0e59e8b4eb3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> .
+
+<https://w3id.org/airo/incident/ks/d1ef0cb53d18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd7b0a4e79f3> .
+
+<https://w3id.org/airo/incident/ks/d2a03e0453e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f7628560d> .
+
+<https://w3id.org/airo/incident/ks/d5cdcf82a57f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/d7bf71f8a8ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/d862d9d6cc8a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0dac48238b7> .
+
+<https://w3id.org/airo/incident/ks/d8b2115f1624> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4827f123a6c> .
+
+<https://w3id.org/airo/incident/ks/d8eff060efd9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a3b90e6fe47> .
+
+<https://w3id.org/airo/incident/ks/d97aecf4f8c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e90ab4ec9dfd> .
+
+<https://w3id.org/airo/incident/ks/da2402d0007c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/def332c2e7d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> .
+
+<https://w3id.org/airo/incident/ks/dfde82610589> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2335ddaad89c> .
+
+<https://w3id.org/airo/incident/ks/e3ebadb477e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/e451e0ab8d33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/332b8311b90d> .
+
+<https://w3id.org/airo/incident/ks/e52d484445ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba> .
+
+<https://w3id.org/airo/incident/ks/ea50948c8ba5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58026b1e28d4> .
+
+<https://w3id.org/airo/incident/ks/ebad67b582f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> .
+
+<https://w3id.org/airo/incident/ks/ec2fc47eab48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e623e48487e> .
+
+<https://w3id.org/airo/incident/ks/ecde69875175> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0dac48238b7> .
+
+<https://w3id.org/airo/incident/ks/f054b361702c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> .
+
+<https://w3id.org/airo/incident/ks/f110a638c4d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6b0afd12d8d> .
+
+<https://w3id.org/airo/incident/ks/f1295ab3a78e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89edb6da604d> .
+
+<https://w3id.org/airo/incident/ks/f20ba9ba162d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6b0afd12d8d> .
+
+<https://w3id.org/airo/incident/ks/f8543dc1fa5c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> .
+
+<https://w3id.org/airo/incident/ks/fe368d975f89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415146f90406> .
+
+<https://w3id.org/airo/incident/ks/fee4fe327078> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b85f7d2f6db> .
+
+<https://w3id.org/airo/incident/ks/ff2512caa094> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a30d293420d> .
+
+<https://w3id.org/airo/incident/AICapability/76d6b7a56185> a airo:AICapability ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving Ubers" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e86aee9d01a>,
+        <https://w3id.org/airo/incident/evidence/b4c665f13e73> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/67912ef0c075> a airo:AILifecyclePhase ;
+    rdfs:label "testing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/332b8311b90d> ;
+    airo:hasReasoning "The system was in a 'trial run' or test phase in San Francisco, which is part of the testing lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/AITechnique/2cc0e102e48f> a airo:AITechnique ;
+    rdfs:label "Self-Driving Technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c305454ca8e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/AffectedActor/1325b103a966> a airo:AffectedActor ;
+    rdfs:label "General public, pedestrians, and other road users" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/053dd9c89fbf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/Documentation/cd1cb354c949> a airo:Documentation ;
+    rdfs:label "letter from regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ebe19c0767> ;
+    airo:hasReasoning "The evidence references a specific letter from the DMV, which is a form of regulatory documentation outlining requirements." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/Domain/153cb6bd664f> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0905e9203db> ;
+    airo:hasReasoning "The incident involved an autonomous vehicle (a car) operating on public roads, which falls within the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/Obligation/8d8ed32ac979> a airo:Obligation ;
+    rdfs:label "seek autonomous testing permit" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c73e0798e1e> ;
+    airo:hasReasoning "The evidence indicates Uber was required to file for a permit but did not, implying an obligation to seek such a permit for testing." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/Purpose/b4c693b17db5> a airo:Purpose ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415146f90406> ;
+    airo:hasReasoning "The evidence states Uber's goal is to build self-driving Ubers, directly indicating the system's purpose is autonomous driving." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/RiskSource/f4fb86f4a096> a airo:RiskSource ;
+    rdfs:label "Flawed mapping programs and sensor failures in autonomous vehicles" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/39a275757bb1> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/776142c5515c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> .
+
+<https://w3id.org/airo/incident/Stakeholder/075680fc9d4e> a airo:Stakeholder ;
+    rdfs:label "California State Regulators" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California state regulators" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5190a8cbc9c7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> .
+
+<https://w3id.org/airo/incident/Stakeholder/36d4dc3a7717> a airo:Stakeholder ;
+    rdfs:label "State of California" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f7628560d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Stakeholder/593247851ba2> a airo:Stakeholder ;
+    rdfs:label "Lyft" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lyft" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89edb6da604d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/Stakeholder/afc90dbf7445> a airo:Stakeholder ;
+    rdfs:label "Kamala Harris" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kamala Harris" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba66ef88449e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Stakeholder/d921b623a577> a airo:Stakeholder ;
+    rdfs:label "Chelsea Kohler" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chelsea Kohler" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58026b1e28d4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Stakeholder/df7b2695afe9> a airo:Stakeholder ;
+    rdfs:label "California Department of Motor Vehicles" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California DMV" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e623e48487e>,
+        <https://w3id.org/airo/incident/evidence/fd5c3340ff09> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987>,
+        <https://w3id.org/airo/incident/document/988> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/e41ed368515a> a airo:Stakeholder ;
+    rdfs:label "John M. Simpson" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "John M Simpson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c72f4a90a856> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Stakeholder/fa2060c83398> a airo:Stakeholder ;
+    rdfs:label "Christopher Koff" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Christopher Koff" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/705f7628560d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Vulnerability/ee51f71ba022> a airo:Vulnerability ;
+    rdfs:label "Inadequate robustness of perception systems to edge cases in real-world driving environments" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3cf50412dedd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/evidence/12c4b535810d> a airo:Evidence ;
+    airo:evidenceText "[987] After video of 1 of the violations surfaced in December, the company not only blamed and suspended the human monitoring the system, but doubled down." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/170408e272d3> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon..." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/1d54bb098583> a airo:Evidence ;
+    airo:evidenceText "[989] Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/221caf5ceb92> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon..." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/2335ddaad89c> a airo:Evidence ;
+    airo:evidenceText "[989] This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/2e67486bc2f4> a airo:Evidence ;
+    airo:evidenceText "An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/4b1fa146153d> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon, California DMV counsel Brian Soublet said that if Uber does not immediately confirm it will stop testing and seek a permit, the DMV will take legal action and seek an injunction." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/4de62bcb4557> a airo:Evidence ;
+    airo:evidenceText "[989] Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/5755f0aeda07> a airo:Evidence ;
+    airo:evidenceText "[989] This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/5787fac1009d> a airo:Evidence ;
+    airo:evidenceText "[990] An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/5ca379fdfe58> a airo:Evidence ;
+    airo:evidenceText "[989] Here’s the video of the erring Uber captured by Charles Rotter, operations manager at traditional cab company Luxor." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/5d03cb97f1b0> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon..." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/6154cf0add1b> a airo:Evidence ;
+    airo:evidenceText "[989] the ride-hailing service company’s autonomous vehicle test drive in its hometown was given a red light by the California’s Department of Motor Vehicles (DMV)." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/6278841ed75a> a airo:Evidence ;
+    airo:evidenceText "[990] An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/74743ae69301> a airo:Evidence ;
+    airo:evidenceText "[990] An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/860902625cd6> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon..." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/8a30d293420d> a airo:Evidence ;
+    airo:evidenceText "[987] After video of 1 of the violations surfaced in December, the company not only blamed and suspended the human monitoring the system, but doubled down." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/8c2103a5e402> a airo:Evidence ;
+    airo:evidenceText "[989] the ride-hailing service company’s autonomous vehicle test drive in its hometown was given a red light by the California’s Department of Motor Vehicles (DMV)." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/8d823f4910f4> a airo:Evidence ;
+    airo:evidenceText "[989] Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/9f7308bc4635> a airo:Evidence ;
+    airo:evidenceText "[989] This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/a863505e8226> a airo:Evidence ;
+    airo:evidenceText "[989] This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/a971ff57cae0> a airo:Evidence ;
+    airo:evidenceText "[987] After video of 1 of the violations surfaced in December, the company not only blamed and suspended the human monitoring the system, but doubled down." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/aed0cc195fc1> a airo:Evidence ;
+    airo:evidenceText "Witness says self-driving Uber ran red light on its own, disputing Uber's claims" ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/b110c9140119> a airo:Evidence ;
+    airo:evidenceText "Uber’s Self-Driving Cars Missed Six Red Lights In San Francisco" ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/bbf167865eaa> a airo:Evidence ;
+    airo:evidenceText "[989] the ride-hailing service company’s autonomous vehicle test drive in its hometown was given a red light by the California’s Department of Motor Vehicles (DMV)." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/bc611c0e9e1a> a airo:Evidence ;
+    airo:evidenceText "[988] An Uber equipped to drive itself ran a red light in San Francisco’s SOMA neighborhood Wednesday morning, per a YouTube video apparently shot from a local Luxor cab and reported by The Examiner." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/c557d64d8e6a> a airo:Evidence ;
+    airo:evidenceText "[990] An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/dbbf8fbfb548> a airo:Evidence ;
+    airo:evidenceText "Uber's Self-Driving Car Runs Red Light in San Francisco" ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/e90ab4ec9dfd> a airo:Evidence ;
+    airo:evidenceText "[989] Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/f8240bc3d74e> a airo:Evidence ;
+    airo:evidenceText "[987] After video of 1 of the violations surfaced in December, the company not only blamed and suspended the human monitoring the system, but doubled down." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/f9d8210aeb29> a airo:Evidence ;
+    airo:evidenceText "Uber’s Self Driving Cars Are Running Red Lights, Uber’s Blaming “Human Error”" ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/Consequence/d892e2e0fd7c> a airo:Consequence ;
+    rdfs:label "Autonomous vehicles running red lights and causing near-collisions in public streets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c831dafc569> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/ffe336636372> .
+
+<https://w3id.org/airo/incident/Impact/ffe336636372> a airo:Impact ;
+    rdfs:label "Endangerment of public safety and pedestrians on public roads" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/1325b103a966> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4391f47d4e14> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/NewsReport/987> a airo:NewsReport ;
+    rdfs:label "Uber’s Self-Driving Cars Missed Six Red Lights In San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Continuing a week-plus of embarrassments and bad news for Uber, the New York Times on Friday reported that traffic violations by the company’s self-driving cars were caused by problems with the cars’ " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3f6cec7de7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> .
+
+<https://w3id.org/airo/incident/NewsReport/988> a airo:NewsReport ;
+    rdfs:label "Uber's Self-Driving Car Runs Red Light in San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """An Uber equipped to drive itself ran a red light in San Francisco’s SOMA neighborhood Wednesday morning, per a YouTube video apparently shot from a local Luxor cab and reported by The Examiner:
+
+In th""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/48e7acb0b844> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/NewsReport/989> a airo:NewsReport ;
+    rdfs:label "Uber’s Self Driving Cars Are Running Red Lights, Uber’s Blaming “Human Error”" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention. Unfortunately, it might not exactly be the kind of hype that Uber hoped for. As previously noted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd7b0a4e79f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/NewsReport/990> a airo:NewsReport ;
+    rdfs:label "Witness says self-driving Uber ran red light on its own, disputing Uber's claims" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Company insists traffic violations in San Francisco are the result of ‘human error’ by drivers who can take control if needed, but witness account contradicts this
+
+An autonomous Uber malfunctioned wh""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcf88bc44329> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Regulation/5b747863e61b> a airo:Regulation ;
+    rdfs:label "California DMV Autonomous Vehicle Testing Permit" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "autonomous testing permit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c028f23b8951> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/8d8ed32ac979> .
+
+<https://w3id.org/airo/incident/Stakeholder/16eb0cd2dba9> a airo:Stakeholder ;
+    rdfs:label "California DMV" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California’s Department of Motor Vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b4c665f13e73> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/Stakeholder/4c99cb31fcc1> a airo:Stakeholder ;
+    rdfs:label "Luxor Cab Company" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Luxor" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/989> .
+
+<https://w3id.org/airo/incident/Stakeholder/5bd4db54553c> a airo:Stakeholder ;
+    rdfs:label "human monitor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "human monitoring the system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6b0afd12d8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> .
+
+<https://w3id.org/airo/incident/Stakeholder/70353cf59e0a> a airo:Stakeholder ;
+    rdfs:label "Tesla Motors" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tesla Motors" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> .
+
+<https://w3id.org/airo/incident/Stakeholder/8850a72a9476> a airo:Stakeholder ;
+    rdfs:label "Anthony Levandowski" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving chief Anthony Levandowski" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fd5c3340ff09> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/Stakeholder/b8310e0e105b> a airo:Stakeholder ;
+    rdfs:label "Consumer Watchdog" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Consumer Watchdog" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0dac48238b7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/Stakeholder/d039d62d8044> a airo:Stakeholder ;
+    rdfs:label "The Examiner" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Examiner" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62f6ffce04a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> .
+
+<https://w3id.org/airo/incident/evidence/053dd9c89fbf> a airo:Evidence ;
+    airo:evidenceText "In the video, a Volvo XC90 SUV decked out in the sensors Uber uses to see the world plowed through the intersection roughly three seconds after the light went red, and as a pedestrian was stepping into the crosswalk." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/12ebe19c0767> a airo:Evidence ;
+    airo:evidenceText "[988] In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon, California DMV counsel Brian Soublet said..." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/1e623e48487e> a airo:Evidence ;
+    airo:evidenceText "Uber withdrew its self-driving cars from San Francisco a week later, after the California DMV revoked the vehicles’ registrations." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/2b85f7d2f6db> a airo:Evidence ;
+    airo:evidenceText "[987] Uber withdrew its self-driving cars from San Francisco a week later, after the California DMV revoked the vehicles’ registrations." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/2e86aee9d01a> a airo:Evidence ;
+    airo:evidenceText "This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/332b8311b90d> a airo:Evidence ;
+    airo:evidenceText "[989] Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/3cf50412dedd> a airo:Evidence ;
+    airo:evidenceText "In May, the “autopilot sensors” on a Tesla Motors car failed to distinguish a white tractor-trailer crossing the highway against a bright sky, leading to the first known death caused by a self-driving car." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/3d98b26a45b5> a airo:Evidence ;
+    airo:evidenceText "in both instances, the vehicles seemed to be the Volvo XC90, launched the same day as Uber’s test run." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/415146f90406> a airo:Evidence ;
+    airo:evidenceText "[989] This is why we believe so much in making the roads safer by building self-driving Ubers." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/48e7acb0b844> a airo:Evidence ;
+    airo:evidenceText "Uber's Self-Driving Car Runs Red Light in San Francisco" ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/50de748d2d60> a airo:Evidence ;
+    airo:evidenceText "The supposedly human-caused red-light violation, they said, “is why we believe so much in making the roads safer by building self-driving Ubers.”" ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/5190a8cbc9c7> a airo:Evidence ;
+    airo:evidenceText "Worse still, the apparently flawed system was deployed against explicit demands by California state regulators that they cease operations." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/58026b1e28d4> a airo:Evidence ;
+    airo:evidenceText "Spokeswoman Chelsea Kohler declined to provide details about Koff’s claims and sent the Guardian a statement identical to the one she provided last week, citing “human error”, adding: “This is why we believe so much in making the roads safer by building self-driving Ubers.”" ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/776142c5515c> a airo:Evidence ;
+    airo:evidenceText "Continuing a week-plus of embarrassments and bad news for Uber, the New York Times on Friday reported that traffic violations by the company’s self-driving cars were caused by problems with the cars’ mapping programs." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/89edb6da604d> a airo:Evidence ;
+    airo:evidenceText "The incident was also witnessed by San Fransico writer and producer Annie Guas as she was travelling by a (human piloted) Lyft." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/8c305454ca8e> a airo:Evidence ;
+    airo:evidenceText "“Being able to understand the traffic signal and respond appropriately is a key requirement of any so-called self-driving technology,” said Simpson, who has called for criminal charges again" ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/9c73e0798e1e> a airo:Evidence ;
+    airo:evidenceText "[988] Even if it was a human at the wheel, it’s bad news on the day Uber announced it’s welcoming passengers aboard its fleet of driverless cars in the city, and that it’s doing so without filing for an autonomous testing permit with the California DMV." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/aa2c9078150f> a airo:Evidence ;
+    airo:evidenceText "Uber withdrew its self-driving cars from San Francisco a week later, after the California DMV revoked the vehicles’ registrations." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/b0905e9203db> a airo:Evidence ;
+    airo:evidenceText "[988] An Uber equipped to drive itself ran a red light in San Francisco’s SOMA neighborhood Wednesday morning, per a YouTube video apparently shot from a local Luxor cab and reported by The Examiner." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/ba66ef88449e> a airo:Evidence ;
+    airo:evidenceText "But Uber has ignored attorney general Kamala Harris’s threat of legal action, claiming it does not need permits since the vehicles have drivers monitoring and citing the cars’ “state-of-the-art” technology and “core safety capabilities”." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/bcf88bc44329> a airo:Evidence ;
+    airo:evidenceText "Witness says self-driving Uber ran red light on its own, disputing Uber's claims" ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/c2d18531e855> a airo:Evidence ;
+    airo:evidenceText "In the video, a Volvo XC90 SUV decked out in the sensors Uber uses to see the world plowed through the intersection roughly three seconds after the light went red, and as a pedestrian was stepping into the crosswalk." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/c3f6cec7de7e> a airo:Evidence ;
+    airo:evidenceText "Uber’s Self-Driving Cars Missed Six Red Lights In San Francisco" ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/c72f4a90a856> a airo:Evidence ;
+    airo:evidenceText "John M Simpson, privacy project director for Consumer Watchdog, who filed a report based on Koff’s incident, said he suspects Uber does not want to follow regulations that would require it to disclose details about errors to the government." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/fd7b0a4e79f3> a airo:Evidence ;
+    airo:evidenceText "Uber’s Self Driving Cars Are Running Red Lights, Uber’s Blaming “Human Error”" ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/Risk/39a275757bb1> a airo:Risk ;
+    rdfs:label "Risk of autonomous vehicles violating traffic laws and causing traffic incidents" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a3b90e6fe47> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/d892e2e0fd7c> .
+
+<https://w3id.org/airo/incident/Stakeholder/2307860787e8> a airo:Stakeholder ;
+    rdfs:label "Uber" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uber" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d1b6f5741ba>,
+        <https://w3id.org/airo/incident/evidence/2e67486bc2f4>,
+        <https://w3id.org/airo/incident/evidence/62f6ffce04a8>,
+        <https://w3id.org/airo/incident/evidence/c4827f123a6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987>,
+        <https://w3id.org/airo/incident/document/988>,
+        <https://w3id.org/airo/incident/document/989>,
+        <https://w3id.org/airo/incident/document/990> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/evidence/4391f47d4e14> a airo:Evidence ;
+    airo:evidenceText "In the video, a Volvo XC90 SUV decked out in the sensors Uber uses to see the world plowed through the intersection roughly three seconds after the light went red, and as a pedestrian was stepping into the crosswalk." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/6a3b90e6fe47> a airo:Evidence ;
+    airo:evidenceText "An Uber equipped to drive itself ran a red light in San Francisco’s SOMA neighborhood Wednesday morning, per a YouTube video apparently shot from a local Luxor cab and reported by The Examiner." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/6c831dafc569> a airo:Evidence ;
+    airo:evidenceText "An autonomous Uber malfunctioned while in “self-driving mode” and caused a near collision in San Francisco." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/c028f23b8951> a airo:Evidence ;
+    airo:evidenceText "Even if it was a human at the wheel, it’s bad news on the day Uber announced it’s welcoming passengers aboard its fleet of driverless cars in the city, and that it’s doing so without filing for an autonomous testing permit with the California DMV." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/evidence/705f7628560d> a airo:Evidence ;
+    airo:evidenceText "The self-driving car – which Uber introduced without permits, as part of a testing program that California has deemed illegal – accelerated into an intersection while the light was still red and while the automation technology was clearly controlling the car, said Christopher Koff, owner of local cafe AK Subs.",
+        "The self-driving car – which Uber introduced without permits, as part of a testing program that California has deemed illegal – accelerated into an intersection while the light was still red and while the automation technology was clearly controlling the car.",
+        "The self-driving car – which Uber introduced without permits, as part of a testing program that California has deemed illegal – accelerated into an intersection while the light was still red." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/b6b0afd12d8d> a airo:Evidence ;
+    airo:evidenceText "After video of 1 of the violations surfaced in December, the company not only blamed and suspended the human monitoring the system, but doubled down." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/b9a7d1dfecf2> a airo:Evidence ;
+    airo:evidenceText "Here’s the video of the erring Uber captured by Charles Rotter, operations manager at traditional cab company Luxor." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/e0dac48238b7> a airo:Evidence ;
+    airo:evidenceText "Koff’s story, which advocacy group Consumer Watchdog shared with state officials on Tuesday, directly contradicts Uber’s public claims..." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/AISystem/0914ca37900c> a airo:AISystem ;
+    rdfs:label "Volvo XC90" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Volvo XC90" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d98b26a45b5>,
+        <https://w3id.org/airo/incident/evidence/c2d18531e855> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/988>,
+        <https://w3id.org/airo/incident/document/989> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/445684206d88> a airo:AISystem ;
+    rdfs:label "Tesla Motors Car" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tesla Motors car" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8533e165af34> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/990> .
+
+<https://w3id.org/airo/incident/evidence/8533e165af34> a airo:Evidence ;
+    airo:evidenceText "In May, the “autopilot sensors” on a Tesla Motors car failed to distinguish a white tractor-trailer crossing the highway against a bright sky, leading to the first known death caused by a self-driving car." ;
+    airo:sourceDocId "990" .
+
+<https://w3id.org/airo/incident/evidence/b4c665f13e73> a airo:Evidence ;
+    airo:evidenceText "the ride-hailing service company’s autonomous vehicle test drive in its hometown was given a red light by the California’s Department of Motor Vehicles (DMV)." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/fd5c3340ff09> a airo:Evidence ;
+    airo:evidenceText "In a letter sent to Uber self-driving chief Anthony Levandowski on Wednesday afternoon, California DMV counsel Brian Soublet said that if Uber does not immediately confirm it will stop testing and seek a permit, the DMV will take legal action and seek an injunction." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_494> a airo:AIRiskIncident ;
+    rdfs:label "Uber's Self-Driving Car Runs Red Light in San Francisco" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/5b747863e61b> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/d892e2e0fd7c> ;
+    airo:hasDescription "pred_494" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/67912ef0c075>,
+        <https://w3id.org/airo/incident/Domain/153cb6bd664f>,
+        <https://w3id.org/airo/incident/evidence/aed0cc195fc1>,
+        <https://w3id.org/airo/incident/evidence/b110c9140119>,
+        <https://w3id.org/airo/incident/evidence/dbbf8fbfb548>,
+        <https://w3id.org/airo/incident/evidence/f9d8210aeb29> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/ffe336636372> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/987>,
+        <https://w3id.org/airo/incident/NewsReport/988>,
+        <https://w3id.org/airo/incident/NewsReport/989>,
+        <https://w3id.org/airo/incident/NewsReport/990> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/39a275757bb1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987>,
+        <https://w3id.org/airo/incident/document/988>,
+        <https://w3id.org/airo/incident/document/989>,
+        <https://w3id.org/airo/incident/document/990> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/0914ca37900c>,
+        <https://w3id.org/airo/incident/AISystem/4011c6b29403>,
+        <https://w3id.org/airo/incident/AISystem/445684206d88> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/075680fc9d4e>,
+        <https://w3id.org/airo/incident/Stakeholder/16eb0cd2dba9>,
+        <https://w3id.org/airo/incident/Stakeholder/2307860787e8>,
+        <https://w3id.org/airo/incident/Stakeholder/36d4dc3a7717>,
+        <https://w3id.org/airo/incident/Stakeholder/4c99cb31fcc1>,
+        <https://w3id.org/airo/incident/Stakeholder/593247851ba2>,
+        <https://w3id.org/airo/incident/Stakeholder/5bd4db54553c>,
+        <https://w3id.org/airo/incident/Stakeholder/70353cf59e0a>,
+        <https://w3id.org/airo/incident/Stakeholder/8850a72a9476>,
+        <https://w3id.org/airo/incident/Stakeholder/afc90dbf7445>,
+        <https://w3id.org/airo/incident/Stakeholder/b8310e0e105b>,
+        <https://w3id.org/airo/incident/Stakeholder/d039d62d8044>,
+        <https://w3id.org/airo/incident/Stakeholder/d921b623a577>,
+        <https://w3id.org/airo/incident/Stakeholder/df7b2695afe9>,
+        <https://w3id.org/airo/incident/Stakeholder/e41ed368515a>,
+        <https://w3id.org/airo/incident/Stakeholder/fa2060c83398> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/f4fb86f4a096> .
+
+<https://w3id.org/airo/incident/evidence/1d1b6f5741ba> a airo:Evidence ;
+    airo:evidenceText "Continuing a week-plus of embarrassments and bad news for Uber, the New York Times on Friday reported that traffic violations by the company’s self-driving cars were caused by problems with the cars’ mapping programs." ;
+    airo:sourceDocId "987" .
+
+<https://w3id.org/airo/incident/evidence/c4827f123a6c> a airo:Evidence ;
+    airo:evidenceText "Uber’s San Francisco trial run of its self-driving service last Tuesday is catching people’s attention." ;
+    airo:sourceDocId "989" .
+
+<https://w3id.org/airo/incident/evidence/62f6ffce04a8> a airo:Evidence ;
+    airo:evidenceText "An Uber equipped to drive itself ran a red light in San Francisco’s SOMA neighborhood Wednesday morning, per a YouTube video apparently shot from a local Luxor cab and reported by The Examiner." ;
+    airo:sourceDocId "988" .
+
+<https://w3id.org/airo/incident/AISystem/4011c6b29403> a airo:AISystem ;
+    rdfs:label "Uber Self-Driving Service" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/5b747863e61b> ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/76d6b7a56185>,
+        <https://w3id.org/airo/incident/Purpose/b4c693b17db5> ;
+    airo:hasDescription "self-driving service" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/cd1cb354c949>,
+        <https://w3id.org/airo/incident/evidence/1d1b6f5741ba>,
+        <https://w3id.org/airo/incident/evidence/50de748d2d60>,
+        <https://w3id.org/airo/incident/evidence/705f7628560d>,
+        <https://w3id.org/airo/incident/evidence/c028f23b8951>,
+        <https://w3id.org/airo/incident/evidence/c4827f123a6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/987>,
+        <https://w3id.org/airo/incident/document/988>,
+        <https://w3id.org/airo/incident/document/989>,
+        <https://w3id.org/airo/incident/document/990> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/ee51f71ba022> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/2cc0e102e48f> .
+

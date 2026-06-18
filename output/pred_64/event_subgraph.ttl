@@ -1,0 +1,2210 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/cabc017a5e38> a airo:ComplianceRequirement ;
+    rdfs:label "California Self-Driving Car Regulations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/839538ddebae> ;
+    airo:hasReasoning "The incident occurred in California, implying the vehicles were operating under California's self-driving car regulations." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5286> .
+
+<https://w3id.org/airo/incident/InformationSource/238c8e03cee7> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1973>,
+        <https://w3id.org/airo/incident/NewsReport/266>,
+        <https://w3id.org/airo/incident/NewsReport/267>,
+        <https://w3id.org/airo/incident/NewsReport/268>,
+        <https://w3id.org/airo/incident/NewsReport/269>,
+        <https://w3id.org/airo/incident/NewsReport/270>,
+        <https://w3id.org/airo/incident/NewsReport/274> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/274> .
+
+<https://w3id.org/airo/incident/InformationSource/92e739026601> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5286>,
+        <https://w3id.org/airo/incident/NewsReport/5288>,
+        <https://w3id.org/airo/incident/NewsReport/5290>,
+        <https://w3id.org/airo/incident/NewsReport/5292> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5286>,
+        <https://w3id.org/airo/incident/document/5288>,
+        <https://w3id.org/airo/incident/document/5290>,
+        <https://w3id.org/airo/incident/document/5292> .
+
+<https://w3id.org/airo/incident/RiskControl/0376c4d6e5b2> a airo:RiskControl ;
+    rdfs:label "Requirement for human operator oversight in autonomous vehicles" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7bdc7fc837f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/270> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/d96c83484dad> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2dbd28520688> a airo:RoleAssignment ;
+    rdfs:label "Chris Urmson_AIDeveloper" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8bdb539b072c> ;
+    airo:hasReasoning "Chris Urmson is a known Google self-driving car executive/lead, implying involvement in AI development (inferred from context, though not explicitly stated in evidence)." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/267> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b21c12c9b216> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/463f0eab1bef> a airo:RoleAssignment ;
+    rdfs:label "Delphi Automotive_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/174408a166a7> ;
+    airo:hasReasoning "Delphi developed the self-driving equipment/software, making it an AI developer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/268> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ab2efa10c746> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/610933267962> a airo:RoleAssignment ;
+    rdfs:label "CNNMoney_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d51cfbfd9187> ;
+    airo:hasReasoning "CNNMoney reported on the incident, acting as a news outlet/stakeholder in the AI risk narrative." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/40ab19533472> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7c254401437d> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3ae482d262e> ;
+    airo:hasReasoning "Google operated a self-driving prototype car, indicating it developed the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5288> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c61360e35415> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/86a0561748f9> a airo:RoleAssignment ;
+    rdfs:label "John Absmeier_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0eeb7e287bf5> ;
+    airo:hasReasoning "John Absmeier was a passenger in the self-driving car, directly interacting with the AI system as a user." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/274> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/99546bf8c394> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bc3eadd059e7> a airo:RoleAssignment ;
+    rdfs:label "Delphi Automotive_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a506574ecb06> ;
+    airo:hasReasoning "Delphi operated the self-driving car on public roads, indicating deployment of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5288> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ab2efa10c746> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c1c7d8eec7d2> a airo:RoleAssignment ;
+    rdfs:label "Reuters_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f49e8b67281e> ;
+    airo:hasReasoning "Reuters reported on the incident, acting as a news outlet/stakeholder in the AI risk narrative." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/267> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bfe92f706fcd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c327f3d238f2> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c669da60a5e0> ;
+    airo:hasReasoning "Google operated the self-driving car on public roads, indicating deployment of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5288> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c61360e35415> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/12e028ead03f> .
+
+<https://w3id.org/airo/incident/event/pred_64> a airo:AIRiskIncident ;
+    airo:firstSeen "2015-06-26T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 11 ;
+    airo:lastSeen "2017-09-11T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00a873101029> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf5796a34aab> .
+
+<https://w3id.org/airo/incident/ks/02ddef5f4f5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f038a3510ba9> .
+
+<https://w3id.org/airo/incident/ks/03d26f4743b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/04ca88186796> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d386b4132530> .
+
+<https://w3id.org/airo/incident/ks/04f9eed6632d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/830cecf46daa> .
+
+<https://w3id.org/airo/incident/ks/080f2ed9bf8a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e79ddb95f0fd> .
+
+<https://w3id.org/airo/incident/ks/0823eaa8b96b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f43e5aca353> .
+
+<https://w3id.org/airo/incident/ks/082f87ac09a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bc86cee0884> .
+
+<https://w3id.org/airo/incident/ks/08a0067c362f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a21da6a18ac0> .
+
+<https://w3id.org/airo/incident/ks/0a62e91ad4b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb330819a323> .
+
+<https://w3id.org/airo/incident/ks/0b5656221ab9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c720f676362e> .
+
+<https://w3id.org/airo/incident/ks/0d14cc35b29f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e6a0f4832888> .
+
+<https://w3id.org/airo/incident/ks/0dca79f0d4fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/038e774a1001> .
+
+<https://w3id.org/airo/incident/ks/0e5ad0b6cab3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15a8a96b9593> .
+
+<https://w3id.org/airo/incident/ks/0ea2bee90257> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/132af34e95a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c49bfaa23209> .
+
+<https://w3id.org/airo/incident/ks/13a56aa4cc3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a4ccff8da84a> .
+
+<https://w3id.org/airo/incident/ks/1419ea9f19ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c0d5af1f674> .
+
+<https://w3id.org/airo/incident/ks/147877cf2515> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/14fd2aaf76d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bc86cee0884> .
+
+<https://w3id.org/airo/incident/ks/15ff3aa47bcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/607ec89960a0> .
+
+<https://w3id.org/airo/incident/ks/18802cf433d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c49bfaa23209> .
+
+<https://w3id.org/airo/incident/ks/1a2ca123e86f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c49bfaa23209> .
+
+<https://w3id.org/airo/incident/ks/1aad88699447> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f8e1e7a48c7> .
+
+<https://w3id.org/airo/incident/ks/1b1ec1ae6e6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aba504b2727f> .
+
+<https://w3id.org/airo/incident/ks/1cdb305c13da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/1d50df86928e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/385e1e4f81e8> .
+
+<https://w3id.org/airo/incident/ks/1d6f02b1ac66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/1def1aae8a86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a55be3d70b> .
+
+<https://w3id.org/airo/incident/ks/21eb12149224> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db8370af0b13> .
+
+<https://w3id.org/airo/incident/ks/23a3a0d05f4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10e7fa3aa9ff> .
+
+<https://w3id.org/airo/incident/ks/24398ac54e2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f038a3510ba9> .
+
+<https://w3id.org/airo/incident/ks/248447556b29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/26f702b73287> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/274d0c472b5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c15830f87223> .
+
+<https://w3id.org/airo/incident/ks/28234a8cef89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ac5cc14ddff> .
+
+<https://w3id.org/airo/incident/ks/2cfcdb87c6ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/2d37a8a6fb04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb4a9fcba16c> .
+
+<https://w3id.org/airo/incident/ks/2de1ac974c11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb5a29a63737> .
+
+<https://w3id.org/airo/incident/ks/2ea32fb6726b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8de59b667eb1> .
+
+<https://w3id.org/airo/incident/ks/2f013b214910> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/324fd81646c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/571fe226ef7e> .
+
+<https://w3id.org/airo/incident/ks/33d40a6ed143> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12b8b96bb10f> .
+
+<https://w3id.org/airo/incident/ks/33fa1d9ece2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/081d40ff58c0> .
+
+<https://w3id.org/airo/incident/ks/347933c23aa6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/260775abc50e> .
+
+<https://w3id.org/airo/incident/ks/34eeba8814d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596> .
+
+<https://w3id.org/airo/incident/ks/38e3f1b7bb91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06cfc5e44fc1> .
+
+<https://w3id.org/airo/incident/ks/39030bb3c984> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/392083b43aaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cedba90075d> .
+
+<https://w3id.org/airo/incident/ks/39c6405daf0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/3bdd60c90bee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3ee68dea8e> .
+
+<https://w3id.org/airo/incident/ks/3e31ca190918> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/3e394439a493> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/3f1eace8988d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f8f257f999d> .
+
+<https://w3id.org/airo/incident/ks/403cb8bc610d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/571fe226ef7e> .
+
+<https://w3id.org/airo/incident/ks/40818ec29ef5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/795d7eaf9fdb> .
+
+<https://w3id.org/airo/incident/ks/45c1497528af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/4720b3770434> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2953d2a9be01> .
+
+<https://w3id.org/airo/incident/ks/4908289065b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/02cc61e37850> .
+
+<https://w3id.org/airo/incident/ks/4d810c6f8d04> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/50b91a1d40b6> .
+
+<https://w3id.org/airo/incident/ks/4eed9341300c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2127a1d6f52e> .
+
+<https://w3id.org/airo/incident/ks/509d6dde2590> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5380a9d48db> .
+
+<https://w3id.org/airo/incident/ks/50e6a702bf7b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/540acd2476f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37c3285c99e9> .
+
+<https://w3id.org/airo/incident/ks/546874e6d833> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b24b73aebc0c> .
+
+<https://w3id.org/airo/incident/ks/551fcb2530a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/56e7e80d7bf7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16af9829c506> .
+
+<https://w3id.org/airo/incident/ks/57cb0aa7f64d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ba724a09372> .
+
+<https://w3id.org/airo/incident/ks/594fb0728e23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/604c07af987b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5873145af909> .
+
+<https://w3id.org/airo/incident/ks/60cec9c1ed5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f4714e6b2d69> .
+
+<https://w3id.org/airo/incident/ks/61c6656ddbfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb5a29a63737> .
+
+<https://w3id.org/airo/incident/ks/651425c4ddc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5e4882b1c06e> .
+
+<https://w3id.org/airo/incident/ks/66e1bcdc2723> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/673641ffe34d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef1195a4d517> .
+
+<https://w3id.org/airo/incident/ks/6a0e6726e11f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61c118db6df5> .
+
+<https://w3id.org/airo/incident/ks/6a19256618ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8de59b667eb1> .
+
+<https://w3id.org/airo/incident/ks/6b4eaecf0ffd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/6d0d350c7b1b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/6d5790aa8a1b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33de88a4cc1a> .
+
+<https://w3id.org/airo/incident/ks/702580aebdd4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/607ec89960a0> .
+
+<https://w3id.org/airo/incident/ks/71e3ef223cc2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06cfc5e44fc1> .
+
+<https://w3id.org/airo/incident/ks/72d1f6563a90> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c49bfaa23209> .
+
+<https://w3id.org/airo/incident/ks/73a9c53177f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/749439560ad8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/761bde12faa3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f64abc76945> .
+
+<https://w3id.org/airo/incident/ks/763307fd565f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65bdc02b1d95> .
+
+<https://w3id.org/airo/incident/ks/76cbc00f7563> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bc86cee0884> .
+
+<https://w3id.org/airo/incident/ks/77a775e02786> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d306225e0b3b> .
+
+<https://w3id.org/airo/incident/ks/784654bb14f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e5c5b304be0> .
+
+<https://w3id.org/airo/incident/ks/7944ea1a9656> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/7c159d828761> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/7f5abb68398b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/571fe226ef7e> .
+
+<https://w3id.org/airo/incident/ks/7ff92884542b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d499dc7a3243> .
+
+<https://w3id.org/airo/incident/ks/84b1b7c845e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7d7a92b76fd8> .
+
+<https://w3id.org/airo/incident/ks/878b06552267> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/88a2167c8ef3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596> .
+
+<https://w3id.org/airo/incident/ks/88adc24e186b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/898da1f81685> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ed99b973454> .
+
+<https://w3id.org/airo/incident/ks/8a710702d5fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596> .
+
+<https://w3id.org/airo/incident/ks/8b46d6364395> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2de70b6a1792> .
+
+<https://w3id.org/airo/incident/ks/8c95de7d1c33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/8d81d146b054> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/8e24d63c3a24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/933905b89da3> .
+
+<https://w3id.org/airo/incident/ks/8e5b78929fad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92edeff2efc0> .
+
+<https://w3id.org/airo/incident/ks/93c058a13867> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf4b784a0316> .
+
+<https://w3id.org/airo/incident/ks/95d7e5dac6a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3f580ffe5c8> .
+
+<https://w3id.org/airo/incident/ks/98233e23c646> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fa6b4d892aa> .
+
+<https://w3id.org/airo/incident/ks/989a3212375e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62335a98e6d5> .
+
+<https://w3id.org/airo/incident/ks/9962156e632b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/9c8d7a6304cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d40ebd64a32d> .
+
+<https://w3id.org/airo/incident/ks/9cf9b723419f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/721b349e7548> .
+
+<https://w3id.org/airo/incident/ks/9d51f6f5777f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cba481aececb> .
+
+<https://w3id.org/airo/incident/ks/9d947e83bd22> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/9dc9ce2d95b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d6ed65614b6> .
+
+<https://w3id.org/airo/incident/ks/9eeb124c0d08> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87deb37ea5e8> .
+
+<https://w3id.org/airo/incident/ks/a0856495fbd4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/a13f84b3fcf5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d1b11c7c362> .
+
+<https://w3id.org/airo/incident/ks/a1c3bc0c9966> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f83470a4a96a> .
+
+<https://w3id.org/airo/incident/ks/a2a8566b8523> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb4a9fcba16c> .
+
+<https://w3id.org/airo/incident/ks/a35fb3f8f22f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/a3b35181503b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2986a41f92de> .
+
+<https://w3id.org/airo/incident/ks/a41d460a0eed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f435f68f2214> .
+
+<https://w3id.org/airo/incident/ks/aaac59a9588f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/ab26eddb4684> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7773f0f6c3a2> .
+
+<https://w3id.org/airo/incident/ks/ab2aa0c80cac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/416a074a3656> .
+
+<https://w3id.org/airo/incident/ks/ac7ee4dead9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/ks/aed7214aec4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e143d43c571> .
+
+<https://w3id.org/airo/incident/ks/af4cf851e672> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f038a3510ba9> .
+
+<https://w3id.org/airo/incident/ks/b03aea28127d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62335a98e6d5> .
+
+<https://w3id.org/airo/incident/ks/b07911ad1f00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/b0f242e7f79a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/b3ef739c21c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed2ebcb2e529> .
+
+<https://w3id.org/airo/incident/ks/b6d57d37f950> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06cfc5e44fc1> .
+
+<https://w3id.org/airo/incident/ks/bb03b37c32ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d38c670dc3ef> .
+
+<https://w3id.org/airo/incident/ks/bb19d4c45794> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11825daad1de> .
+
+<https://w3id.org/airo/incident/ks/bc132e240afe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/571fe226ef7e> .
+
+<https://w3id.org/airo/incident/ks/bd2558c2127a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/319721840999> .
+
+<https://w3id.org/airo/incident/ks/bd5d08631d82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e5c5b304be0> .
+
+<https://w3id.org/airo/incident/ks/bdffa89b1312> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8d290c1965f> .
+
+<https://w3id.org/airo/incident/ks/bfdc66f87b00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/275268ff73d3> .
+
+<https://w3id.org/airo/incident/ks/c25d6e7ab8c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce109fbc6c40> .
+
+<https://w3id.org/airo/incident/ks/c5334bbaa8ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28cb7af5769f> .
+
+<https://w3id.org/airo/incident/ks/c6f6dcc3aa4c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06cfc5e44fc1> .
+
+<https://w3id.org/airo/incident/ks/c795e37a5668> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1093776eadb8> .
+
+<https://w3id.org/airo/incident/ks/c80b8ba6b1d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596> .
+
+<https://w3id.org/airo/incident/ks/c85bda6e1ed2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9af06b53f99> .
+
+<https://w3id.org/airo/incident/ks/ca2d26d331da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f42b5db62e6c> .
+
+<https://w3id.org/airo/incident/ks/cd9060790f4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa00b15ca672> .
+
+<https://w3id.org/airo/incident/ks/cdf01285e3ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/416a074a3656> .
+
+<https://w3id.org/airo/incident/ks/cfba35c5a49d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99584ba51e3b> .
+
+<https://w3id.org/airo/incident/ks/cfe831823dfe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/d1708dab1ef2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/d1a01cdd3ea4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9bc86cee0884> .
+
+<https://w3id.org/airo/incident/ks/d327926e627b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/045bd2f82f9a> .
+
+<https://w3id.org/airo/incident/ks/d5f4e2ccd0e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/d7f76bbdbe40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a05d22371f5e> .
+
+<https://w3id.org/airo/incident/ks/d9fca02fb0b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/db01526a6843> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/833b604b450d> .
+
+<https://w3id.org/airo/incident/ks/dbced919a044> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae503434c547> .
+
+<https://w3id.org/airo/incident/ks/de0af4d47cf5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f267d6c263e1> .
+
+<https://w3id.org/airo/incident/ks/de31125b8cba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7fc27f8f55a7> .
+
+<https://w3id.org/airo/incident/ks/df18671f13d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f038a3510ba9> .
+
+<https://w3id.org/airo/incident/ks/dfed96b6c815> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/757cb34f08de> .
+
+<https://w3id.org/airo/incident/ks/e285e32217df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37c3285c99e9> .
+
+<https://w3id.org/airo/incident/ks/e3b8d02c8aee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59bada71127e> .
+
+<https://w3id.org/airo/incident/ks/e40217ac9ec6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/553288c39815> .
+
+<https://w3id.org/airo/incident/ks/e4d7a9551b48> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/e8216a118647> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9612bc00279> .
+
+<https://w3id.org/airo/incident/ks/e93f0834ee42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8de59b667eb1> .
+
+<https://w3id.org/airo/incident/ks/e94d745739bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/e952a0f78f30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/081402d32175> .
+
+<https://w3id.org/airo/incident/ks/e9e62510938b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/e9e6c6b81fea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da5bdf7a02a> .
+
+<https://w3id.org/airo/incident/ks/ea9853dce051> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16f666f2c8b0> .
+
+<https://w3id.org/airo/incident/ks/ec9153fde3a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7bdc7fc837f> .
+
+<https://w3id.org/airo/incident/ks/edb457b2c93a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c00d5f4caeab> .
+
+<https://w3id.org/airo/incident/ks/ef44c620142c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b> .
+
+<https://w3id.org/airo/incident/ks/eff96487e5bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aba504b2727f> .
+
+<https://w3id.org/airo/incident/ks/f23508b4525b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f23c1512bd15> .
+
+<https://w3id.org/airo/incident/ks/f27f0e8bc901> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b05e858c522e> .
+
+<https://w3id.org/airo/incident/ks/f3a9da301b4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/f791e60409bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/abd1bfad68bd> .
+
+<https://w3id.org/airo/incident/ks/f85056c93ea4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/486f575d4cb1> .
+
+<https://w3id.org/airo/incident/ks/fb54188637a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f0d30212ddf> .
+
+<https://w3id.org/airo/incident/ks/fc7cdd7ccf14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f26144552733> .
+
+<https://w3id.org/airo/incident/ks/fe58a3ac87d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10b2ee98ef53> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/647c12dc4443> a airo:AILifecyclePhase ;
+    rdfs:label "testing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1fa6b4d892aa> ;
+    airo:hasReasoning "The Delphi car is described as 'being tested', indicating these vehicles were in a testing or experimental phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> .
+
+<https://w3id.org/airo/incident/AITechnique/ed7b3d70edca> a airo:AITechnique ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "self-driving cars" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f23c1512bd15> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269> .
+
+<https://w3id.org/airo/incident/AffectedActor/0418cab6db38> a airo:AffectedActor ;
+    rdfs:label "Passengers and operators of autonomous vehicles" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f83470a4a96a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973> .
+
+<https://w3id.org/airo/incident/Domain/ace7812ad530> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/081d40ff58c0> ;
+    airo:hasReasoning "The AI systems are self-driving cars, which are applied in the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/268> .
+
+<https://w3id.org/airo/incident/Hazard/4fe13bce0520> a airo:Hazard ;
+    rdfs:label "Concurrent lane change maneuver into the same traffic lane" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7fc27f8f55a7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5292> .
+
+<https://w3id.org/airo/incident/Purpose/1ad5d8424b46> a airo:Purpose ;
+    rdfs:label "autonomous driving" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33de88a4cc1a> ;
+    airo:hasReasoning "The evidence explicitly states the cars are self-driving prototypes operated by both companies, indicating the purpose is autonomous driving." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5288> .
+
+<https://w3id.org/airo/incident/RiskSource/a9e196c8cde8> a airo:RiskSource ;
+    rdfs:label "Inadequate lane-change coordination between autonomous vehicles" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/d96c83484dad> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/abd1bfad68bd> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/4fe13bce0520> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> .
+
+<https://w3id.org/airo/incident/Stakeholder/c54bbc7b4fb4> a airo:Stakeholder ;
+    rdfs:label "California Department of Motor Vehicles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California Department of Motor Vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b24b73aebc0c>,
+        <https://w3id.org/airo/incident/evidence/d38c670dc3ef> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/5288> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/02cc61e37850> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/038e774a1001> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/045bd2f82f9a> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/0e143d43c571> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/0eeb7e287bf5> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/0f8e1e7a48c7> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/15a8a96b9593> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/16af9829c506> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/16f666f2c8b0> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/171fc2d6b56c> a airo:Evidence ;
+    airo:evidenceText "Google agreed with Delphi's take on the incident." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/174408a166a7> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/2127a1d6f52e> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/260775abc50e> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/27288ec5cd17> a airo:Evidence ;
+    airo:evidenceText "The incident occurred Tuesday on San Antonio Road in Palo Alto, said John Absmeier, director of Delphi’s Silicon Valley lab and global business director for the company’s automated driving program, who was a passenger in one of the cars." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/275268ff73d3> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/28cb7af5769f> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/2953d2a9be01> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/2986a41f92de> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/2da5bdf7a02a> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/2de70b6a1792> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/35f2b43feaa4> a airo:Evidence ;
+    airo:evidenceText "Google's Driverless Car Almost Hit Delphi's Autonomous Vehicle, Report Says" ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/385e1e4f81e8> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/3ac5cc14ddff> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/3ba724a09372> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/468c417c2a26> a airo:Evidence ;
+    airo:evidenceText "Self-driving cars from rivals Google, Delphi in close call" ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/485d1b914609> a airo:Evidence ;
+    airo:evidenceText "Google agreed." ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/4d6ed65614b6> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/50b91a1d40b6> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/553288c39815> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/5873145af909> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/58eea22a3bbd> a airo:Evidence ;
+    airo:evidenceText "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!" ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/59bada71127e> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/5e4882b1c06e> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/65bdc02b1d95> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/6b279be97ae3> a airo:Evidence ;
+    airo:evidenceText "Two rival self-driving cars have close call in California" ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/757cb34f08de> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/7773f0f6c3a2> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/795d7eaf9fdb> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/7d7a92b76fd8> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/7f43e5aca353> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/814f345b6cb1> a airo:Evidence ;
+    airo:evidenceText "The original report, by Reuters, quoted a Delphi official as saying he was in one of his company’s driverless cars when it was “cut off” by a Google car as it was preparing to make a lane change." ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/81aac0acd57f> a airo:Evidence ;
+    airo:evidenceText "Delphi has issued a statement that “the vehicles didn’t even come close to each other.”" ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/830cecf46daa> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/839538ddebae> a airo:Evidence ;
+    airo:evidenceText "[5286] He said, according to the report, that Google's Lexus RX400h had cut off Delphi's Audi Q5 SUV – the car Absmeier was travelling in as a passenger on San Atonia Road in Palo Alto, California at the time of the incident." ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/8a0ae90dbd49> a airo:Evidence ;
+    airo:evidenceText "John Absmeier, director of Delphi’s Silicon Valley lab, was a passenger in the Audi Q5 when the incident took place." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/8bdb539b072c> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/8d3ee68dea8e> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/8f64abc76945> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/92edeff2efc0> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/933905b89da3> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/937da98ebb8e> a airo:Evidence ;
+    airo:evidenceText "Driverless Car Maker Denies Claim of Near-Miss With Google Car" ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/98a55be3d70b> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/9bb752aa2174> a airo:Evidence ;
+    airo:evidenceText "Auto parts maker Delphi says that its experimental self-driving car was on a street in Silicon Valley when the near accident occurred as both car moved in to the same lane of traffic." ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/a05d22371f5e> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/a21da6a18ac0> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/a4ccff8da84a> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/a506574ecb06> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/a8d290c1965f> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/aa00b15ca672> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/aff1faaf9a00> a airo:Evidence ;
+    airo:evidenceText "Our car saw the Google car move into the same lane as our car was planning to move into, but upon detecting that the lane was no longer open it decided to terminate the move and wait until it was clear again." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/b05e858c522e> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/b9612bc00279> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/bf5796a34aab> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/c00d5f4caeab> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/c15830f87223> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/c3c69b31fa80> a airo:Evidence ;
+    airo:evidenceText "Google, which did not originally comment, put out a statement saying both cars “did what they were supposed to do in an ordinary everyday driving scenario.”" ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/c3f580ffe5c8> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/c669da60a5e0> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/c720f676362e> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/c9af06b53f99> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/cb330819a323> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/cba481aececb> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/ce109fbc6c40> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/cf4b784a0316> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/d0d1f75575cc> a airo:Evidence ;
+    airo:evidenceText "On Thursday, Google started testing self-driving vehicle prototypes of its own design on local streets." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/d306225e0b3b> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/d386b4132530> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/d40ebd64a32d> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/d499dc7a3243> a airo:Evidence ;
+    airo:evidenceText "[274] Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/d51cfbfd9187> a airo:Evidence ;
+    airo:evidenceText "[269] Delphi disclosed the incident to a Reuters reporter earlier this week and confirmed it to CNNMoney Friday." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/db8370af0b13> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/e79ddb95f0fd> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/ed7c7648b7da> a airo:Evidence ;
+    airo:evidenceText "Google last Thursday began testing its own self-driving prototypes on California streets. The Google-built vehicles use the same software and sensors as the Lexus prototypes." ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/ef1195a4d517> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/f26144552733> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/f3ae482d262e> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/f42b5db62e6c> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/f435f68f2214> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/f4714e6b2d69> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/f49e8b67281e> a airo:Evidence ;
+    airo:evidenceText "[267] The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/f5380a9d48db> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/Consequence/f3467b25a196> a airo:Consequence ;
+    rdfs:label "Near-miss traffic incident requiring evasive maneuvers" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62335a98e6d5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> ;
+    airo:impacts <https://w3id.org/airo/incident/AffectedActor/0418cab6db38> .
+
+<https://w3id.org/airo/incident/NewsReport/1973> a airo:NewsReport ;
+    rdfs:label "Two rival self-driving cars have close call in California" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MOUNTAIN VIEW, Calif. (Reuters) - Two self-driving prototype cars, one operated by Google Inc and the other by Delphi Automotive Plc, had a close call on a Silicon Valley street earlier this week, a D" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/833b604b450d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973> .
+
+<https://w3id.org/airo/incident/NewsReport/266> a airo:NewsReport ;
+    rdfs:label "Driverless Car Maker Denies Claim of Near-Miss With Google Car" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "After a report that a Delphi driverless car and a Google driverless car came close to a traffic incident on a road in Palo Alto, Calif., Delphi has issued a statement that “the vehicles didn’t even co" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c0d5af1f674> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/266> .
+
+<https://w3id.org/airo/incident/NewsReport/267> a airo:NewsReport ;
+    rdfs:label "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Delphi Automotive has contradicted a senior exec at the company by denying that one of its robo-cars had come close to being pranged by a Google self-driving vehicle.
+
+The firm told Reuters on Friday """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/11825daad1de> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/267> .
+
+<https://w3id.org/airo/incident/NewsReport/268> a airo:NewsReport ;
+    rdfs:label "Google's Driverless Car Almost Hit Delphi's Autonomous Vehicle, Report Says" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "One of the main reasons behind Google’s commitment to driverless cars is their ability to avoid accidents and improve traffic safety , as they eliminate human error, which is the single most common ca" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87deb37ea5e8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/268> .
+
+<https://w3id.org/airo/incident/NewsReport/269> a airo:NewsReport ;
+    rdfs:label "Self-driving cars from rivals Google, Delphi in close call" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "There are few drivers who haven't experienced what it's like to be cut off by another motorist who nearly causes an accident. Now, two autonomous-driving cars from competing companies have matched tha" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/081402d32175> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269> .
+
+<https://w3id.org/airo/incident/NewsReport/270> a airo:NewsReport ;
+    rdfs:label "Google and Delphi self-driving cars in near miss" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """In a showdown of self-driving cars a Google vehicle recently cut off a Delphi car attempting to switch roadway lanes, and came perilously close to crashing.
+
+Auto parts maker Delphi says that its expe""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/721b349e7548> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/270> .
+
+<https://w3id.org/airo/incident/NewsReport/274> a airo:NewsReport ;
+    rdfs:label "Delphi Changes Story, Says Google Self-Driving Car Did Not Nearly Crash Into Audi" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """June 29, 2015
+
+Delphi is back-pedaling after one of its executives told Reuters last week one of its self-driving vehicles had to take evasive maneuvers to avoid being side-swiped by an autonomous Goo""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cedba90075d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/274> .
+
+<https://w3id.org/airo/incident/NewsReport/5286> a airo:NewsReport ;
+    rdfs:label "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Special Features
+Vendor Voice
+This article is more than 1 year old
+Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!
+'Nah, they didn't even come close to each other'
+Delphi Automot""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99584ba51e3b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5286> .
+
+<https://w3id.org/airo/incident/NewsReport/5288> a airo:NewsReport ;
+    rdfs:label "Google and Delphi’s self-driving cars have near miss" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A near miss occurred on a California road between two driverless  cars this week, according to a Reuters report.
+The self-driving prototype cars involved in the incident were  operated by Google  and """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/61c118db6df5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5288> .
+
+<https://w3id.org/airo/incident/NewsReport/5290> a airo:NewsReport ;
+    rdfs:label "Self-driving cars narrowly avoid California crash" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Two self-driving cars owned by Google and Delphi only just escaped a collision on Californian roads earlier this week.
+The near-miss took place in Palo Alto, where seven companies are currently testin""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d1b11c7c362> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> .
+
+<https://w3id.org/airo/incident/NewsReport/5292> a airo:NewsReport ;
+    rdfs:label "Google and Delphi self-driving cars in near miss" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """In a showdown of self-driving cars a Google vehicle recently cut off a Delphi car attempting to switch roadway lanes, and came perilously close to crashing.
+Auto parts maker Delphi says that its exper""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1093776eadb8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5292> .
+
+<https://w3id.org/airo/incident/Regulation/a8bf7a62cca5> a airo:Regulation ;
+    rdfs:label "California Self-Driving Car Regulations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aba504b2727f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/270> .
+
+<https://w3id.org/airo/incident/Stakeholder/40ab19533472> a airo:Stakeholder ;
+    rdfs:label "CNNMoney" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CNNMoney" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c49bfaa23209> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269> .
+
+<https://w3id.org/airo/incident/Stakeholder/99546bf8c394> a airo:Stakeholder ;
+    rdfs:label "John Absmeier" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "John Absmeier" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27288ec5cd17>,
+        <https://w3id.org/airo/incident/evidence/486f575d4cb1>,
+        <https://w3id.org/airo/incident/evidence/571fe226ef7e>,
+        <https://w3id.org/airo/incident/evidence/8a0ae90dbd49>,
+        <https://w3id.org/airo/incident/evidence/9bc86cee0884> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/5286>,
+        <https://w3id.org/airo/incident/document/5290> ;
+    airo:hasSupportCount 5 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> .
+
+<https://w3id.org/airo/incident/Stakeholder/b21c12c9b216> a airo:Stakeholder ;
+    rdfs:label "Chris Urmson" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Chris Urmson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06cfc5e44fc1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> .
+
+<https://w3id.org/airo/incident/Stakeholder/bfe92f706fcd> a airo:Stakeholder ;
+    rdfs:label "Reuters" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Reuters" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596>,
+        <https://w3id.org/airo/incident/evidence/486f575d4cb1>,
+        <https://w3id.org/airo/incident/evidence/814f345b6cb1>,
+        <https://w3id.org/airo/incident/evidence/c49bfaa23209>,
+        <https://w3id.org/airo/incident/evidence/f038a3510ba9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/5286> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/evidence/081402d32175> a airo:Evidence ;
+    airo:evidenceText "Self-driving cars from rivals Google, Delphi in close call" ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/081d40ff58c0> a airo:Evidence ;
+    airo:evidenceText "[268] The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/1093776eadb8> a airo:Evidence ;
+    airo:evidenceText "Google and Delphi self-driving cars in near miss" ;
+    airo:sourceDocId "5292" .
+
+<https://w3id.org/airo/incident/evidence/10e7fa3aa9ff> a airo:Evidence ;
+    airo:evidenceText "Although Delphi is testing only two Audi prototypes, Google has had more than 20 Lexus vehicles equipped with its technology on California roads." ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/11825daad1de> a airo:Evidence ;
+    airo:evidenceText "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!" ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/evidence/12b8b96bb10f> a airo:Evidence ;
+    airo:evidenceText "Google has driven more than a million miles in these vehicles since 2009 and had finally hit the streets of California this week." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/1fa6b4d892aa> a airo:Evidence ;
+    airo:evidenceText "[5290] A car from Google's fleet reportedly cut off an Audi being tested by rival Delphi Automotive during a lane change." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/2f8f257f999d> a airo:Evidence ;
+    airo:evidenceText "1 of the main reasons behind Google’s commitment to driverless cars is their ability to avoid accidents and improve traffic safety." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/319721840999> a airo:Evidence ;
+    airo:evidenceText "Absmeier was a passenger in a prototype Audi Q5 crossover vehicle equipped with lasers, radar, cameras and special computer software designed to enable the vehicle to drive itself, with a person at the wheel as a backup." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/31b75b2832ba> a airo:Evidence ;
+    airo:evidenceText "Delphi is back-pedaling after one of its executives told Reuters last week one of its self-driving vehicles had to take evasive maneuvers to avoid being side-swiped by an autonomous Google car." ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/33de88a4cc1a> a airo:Evidence ;
+    airo:evidenceText "[5288] The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/3ed99b973454> a airo:Evidence ;
+    airo:evidenceText "Delphi, which recently drove a self-driving Audi across country, does most of its test drives near its autonomous driving lab." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/4c0d5af1f674> a airo:Evidence ;
+    airo:evidenceText "Driverless Car Maker Denies Claim of Near-Miss With Google Car" ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/5d1b11c7c362> a airo:Evidence ;
+    airo:evidenceText "Self-driving cars narrowly avoid California crash" ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/601341b04593> a airo:Evidence ;
+    airo:evidenceText "The self-driving prototype cars involved in the incident were operated by Google and by Delphi Automotive." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/61c118db6df5> a airo:Evidence ;
+    airo:evidenceText "Google and Delphi’s self-driving cars have near miss" ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/6e2871cebc3f> a airo:Evidence ;
+    airo:evidenceText "Google has 23 self-driving Lexus RX450h crossovers on the road, and recently put nine prototypes of its own self-driving car design on the road as well.",
+        "Google has 23 self-driving Lexus RX450h crossovers on the road." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/721b349e7548> a airo:Evidence ;
+    airo:evidenceText "Google and Delphi self-driving cars in near miss" ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/7cedba90075d> a airo:Evidence ;
+    airo:evidenceText "Delphi Changes Story, Says Google Self-Driving Car Did Not Nearly Crash Into Audi" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/7fc27f8f55a7> a airo:Evidence ;
+    airo:evidenceText "[5292] In a showdown of self-driving cars a Google vehicle recently cut off a Delphi car attempting to switch roadway lanes, and came perilously close to crashing." ;
+    airo:sourceDocId "5292" .
+
+<https://w3id.org/airo/incident/evidence/833b604b450d> a airo:Evidence ;
+    airo:evidenceText "Two rival self-driving cars have close call in California" ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/87deb37ea5e8> a airo:Evidence ;
+    airo:evidenceText "Google's Driverless Car Almost Hit Delphi's Autonomous Vehicle, Report Says" ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/99584ba51e3b> a airo:Evidence ;
+    airo:evidenceText "Robo-car wars: Delphi's near crash, prang, wallop with Google DENIED!" ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/9e759b8fb6ee> a airo:Evidence ;
+    airo:evidenceText "Delphi Automotive has contradicted a senior exec at the company by denying that one of its robo-cars had come close to being pranged by a Google self-driving vehicle." ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/abd1bfad68bd> a airo:Evidence ;
+    airo:evidenceText "[5290] A car from Google's fleet reportedly cut off an Audi being tested by rival Delphi Automotive during a lane change." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/ae503434c547> a airo:Evidence ;
+    airo:evidenceText "As the Delphi vehicle prepared to change lanes, a Google self-driving prototype - a Lexus RX400h crossover fitted with similar hardware and software - cut off the Audi, forcing it to abort the lane change, Absmeier said." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/b24b73aebc0c> a airo:Evidence ;
+    airo:evidenceText "The California Department of Motor Vehicles also says in all cases, the self-driving cars were not at fault." ;
+    airo:sourceDocId "5288" .
+
+<https://w3id.org/airo/incident/evidence/d38c670dc3ef> a airo:Evidence ;
+    airo:evidenceText "In all cases, the self-driving prototype was not at fault, according to the California Department of Motor Vehicles and the companies." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/edd7ff57e88f> a airo:Evidence ;
+    airo:evidenceText "2 self-driving prototype cars, one operated by Google Inc and the other by Delphi Automotive Plc, had a close call on a Silicon Valley street earlier this week." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/evidence/f23c1512bd15> a airo:Evidence ;
+    airo:evidenceText "Self-driving cars are allowed on streets and highways in California, but they are required to have a human driver sitting behind the steering wheel able to take over control of the car if there is a problem." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/f7bdc7fc837f> a airo:Evidence ;
+    airo:evidenceText "[270] Self-driving cars are allowed on streets and highways in California, but they're required to have a human sitting behind the steering wheel to take charge if there's a problem." ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/f83470a4a96a> a airo:Evidence ;
+    airo:evidenceText "[1973] The incident occurred Tuesday on San Antonio Road in Palo Alto, said John Absmeier, director of Delphi’s Silicon Valley lab and global business director for the company’s automated driving program, who was a passenger in one of the cars." ;
+    airo:sourceDocId "1973" .
+
+<https://w3id.org/airo/incident/Risk/d96c83484dad> a airo:Risk ;
+    rdfs:label "Risk of collision between autonomous vehicles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e5c5b304be0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5290> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/f3467b25a196> .
+
+<https://w3id.org/airo/incident/Stakeholder/ab2efa10c746> a airo:Stakeholder ;
+    rdfs:label "Delphi Automotive" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delphi Automotive" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0d07990a721b>,
+        <https://w3id.org/airo/incident/evidence/10b2ee98ef53>,
+        <https://w3id.org/airo/incident/evidence/31b75b2832ba>,
+        <https://w3id.org/airo/incident/evidence/416a074a3656>,
+        <https://w3id.org/airo/incident/evidence/601341b04593>,
+        <https://w3id.org/airo/incident/evidence/81aac0acd57f>,
+        <https://w3id.org/airo/incident/evidence/9bb752aa2174>,
+        <https://w3id.org/airo/incident/evidence/9e759b8fb6ee>,
+        <https://w3id.org/airo/incident/evidence/e6a0f4832888>,
+        <https://w3id.org/airo/incident/evidence/ed2ebcb2e529>,
+        <https://w3id.org/airo/incident/evidence/edd7ff57e88f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5286>,
+        <https://w3id.org/airo/incident/document/5288>,
+        <https://w3id.org/airo/incident/document/5290>,
+        <https://w3id.org/airo/incident/document/5292> ;
+    airo:hasSupportCount 11 .
+
+<https://w3id.org/airo/incident/Stakeholder/c61360e35415> a airo:Stakeholder ;
+    rdfs:label "Google" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05dae7779596>,
+        <https://w3id.org/airo/incident/evidence/0d07990a721b>,
+        <https://w3id.org/airo/incident/evidence/0f0d30212ddf>,
+        <https://w3id.org/airo/incident/evidence/171fc2d6b56c>,
+        <https://w3id.org/airo/incident/evidence/31b75b2832ba>,
+        <https://w3id.org/airo/incident/evidence/485d1b914609>,
+        <https://w3id.org/airo/incident/evidence/601341b04593>,
+        <https://w3id.org/airo/incident/evidence/9e759b8fb6ee>,
+        <https://w3id.org/airo/incident/evidence/c3c69b31fa80>,
+        <https://w3id.org/airo/incident/evidence/edd7ff57e88f>,
+        <https://w3id.org/airo/incident/evidence/f267d6c263e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5286>,
+        <https://w3id.org/airo/incident/document/5288>,
+        <https://w3id.org/airo/incident/document/5290>,
+        <https://w3id.org/airo/incident/document/5292> ;
+    airo:hasSupportCount 11 .
+
+<https://w3id.org/airo/incident/evidence/1e5c5b304be0> a airo:Evidence ;
+    airo:evidenceText "[5290] 2 self-driving cars owned by Google and Delphi only just escaped a collision on Californian roads earlier this week." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/62335a98e6d5> a airo:Evidence ;
+    airo:evidenceText "[5290] Delphi's vehicle took \"appropriate action\" to avert an accident, company executive John Absmeier, who was in the car during the encounter, told Reuters." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/aba504b2727f> a airo:Evidence ;
+    airo:evidenceText "Self-driving cars are allowed on streets and highways in California, but they're required to have a human sitting behind the steering wheel to take charge if there's a problem." ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/e6a0f4832888> a airo:Evidence ;
+    airo:evidenceText "Auto parts maker Delphi says that its experimental self-driving car was on a street in Silicon Valley earlier this week and was moving into another lane when an experimental self-driving car from Google cut it off by moving into the same lane.",
+        "Auto parts maker Delphi says that its experimental self-driving car was on a street in Silicon Valley earlier this week." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/evidence/37c3285c99e9> a airo:Evidence ;
+    airo:evidenceText "In a showdown of self-driving cars a Google vehicle recently cut off a Delphi car attempting to switch roadway lanes, and came perilously close to crashing." ;
+    airo:sourceDocId "5292" .
+
+<https://w3id.org/airo/incident/evidence/607ec89960a0> a airo:Evidence ;
+    airo:evidenceText "He said, according to the report, that Google's Lexus RX400h had cut off Delphi's Audi Q5 SUV – the car Absmeier was travelling in as a passenger on San Atonia Road in Palo Alto, California at the time of the incident." ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/eb4a9fcba16c> a airo:Evidence ;
+    airo:evidenceText "In a showdown of self-driving cars a Google vehicle recently cut off a Delphi car attempting to switch roadway lanes, and came perilously close to crashing." ;
+    airo:sourceDocId "270" .
+
+<https://w3id.org/airo/incident/evidence/fb5a29a63737> a airo:Evidence ;
+    airo:evidenceText "After a report that a Delphi driverless car and a Google driverless car came close to a traffic incident on a road in Palo Alto, Calif., Delphi has issued a statement that “the vehicles didn’t even come close to each other.”" ;
+    airo:sourceDocId "266" .
+
+<https://w3id.org/airo/incident/evidence/06cfc5e44fc1> a airo:Evidence ;
+    airo:evidenceText "Google's Chris Urmson, director for the firm's driverless cars project, boasted of the vehicles' safety record in a blog post last month." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/416a074a3656> a airo:Evidence ;
+    airo:evidenceText "The other vehicle in question was an Audi Q5 crossover fitted with self-driving equipment developed by Delphi Automotive." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/571fe226ef7e> a airo:Evidence ;
+    airo:evidenceText "Delphi's vehicle took \"appropriate action\" to avert an accident, company executive John Absmeier, who was in the car during the encounter, told Reuters." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/9bc86cee0884> a airo:Evidence ;
+    airo:evidenceText "Absmeier had apparently told Reuters, which stands by its original story, that the prototype cars had been involved in a near miss." ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/f038a3510ba9> a airo:Evidence ;
+    airo:evidenceText "The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "5286" .
+
+<https://w3id.org/airo/incident/evidence/05dae7779596> a airo:Evidence ;
+    airo:evidenceText "As reported by Reuters, one of Google’s driverless cars nearly collided with another car while driving in Silicon Valley." ;
+    airo:sourceDocId "268" .
+
+<https://w3id.org/airo/incident/evidence/8de59b667eb1> a airo:Evidence ;
+    airo:evidenceText "Although Delphi executive John Absmeier — who was in the self-driving Audi (run by Delphi software) at the time of the incident — originally told Reuters the Delphi car “took appropriate action” to avoid being hit by a Google-operated self-driving Lexus, the company is now saying “the vehicles didn’t even come close to each other.”" ;
+    airo:sourceDocId "274" .
+
+<https://w3id.org/airo/incident/evidence/c49bfaa23209> a airo:Evidence ;
+    airo:evidenceText "Delphi disclosed the incident to a Reuters reporter earlier this week and confirmed it to CNNMoney Friday." ;
+    airo:sourceDocId "269" .
+
+<https://w3id.org/airo/incident/AISystem/0510d1c322aa> a airo:AISystem ;
+    rdfs:label "Google Lexus RX450h self-driving car" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google's Lexus RX400h" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/607ec89960a0>,
+        <https://w3id.org/airo/incident/evidence/6e2871cebc3f>,
+        <https://w3id.org/airo/incident/evidence/8de59b667eb1>,
+        <https://w3id.org/airo/incident/evidence/ae503434c547> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5286> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AISystem/1888b9da0c21> a airo:AISystem ;
+    rdfs:label "Google's self-driving car prototype (Lexus RX400h)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lexus RX400h" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/416a074a3656> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/268> .
+
+<https://w3id.org/airo/incident/AISystem/3f0548350b2f> a airo:AISystem ;
+    rdfs:label "Google Self-Driving Technology" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google’s technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10e7fa3aa9ff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/274> .
+
+<https://w3id.org/airo/incident/AISystem/499395ed63a7> a airo:AISystem ;
+    rdfs:label "Delphi Driverless Car" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delphi driverless car" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb5a29a63737> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/266> .
+
+<https://w3id.org/airo/incident/AISystem/4e6248a80043> a airo:AISystem ;
+    rdfs:label "Delphi self-driving Audi Q5 SUV" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delphi's Audi Q5 SUV" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ed99b973454>,
+        <https://w3id.org/airo/incident/evidence/607ec89960a0>,
+        <https://w3id.org/airo/incident/evidence/8de59b667eb1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5286> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AISystem/65de5fdff6d6> a airo:AISystem ;
+    rdfs:label "Delphi Audi Q5 Prototype" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Audi Q5" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/319721840999> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973> .
+
+<https://w3id.org/airo/incident/AISystem/722d78f0f6c3> a airo:AISystem ;
+    rdfs:label "Google's driverless car" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google's driverless cars" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f8f257f999d>,
+        <https://w3id.org/airo/incident/evidence/fb5a29a63737> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/268> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/7f88f7e5b474> a airo:AISystem ;
+    rdfs:label "Delphi's self-driving vehicle (Audi Q5)" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Audi Q5" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/416a074a3656> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/268> .
+
+<https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2> a airo:AISystem ;
+    rdfs:label "Delphi Self-Driving Software" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delphi software" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8de59b667eb1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/274> .
+
+<https://w3id.org/airo/incident/AISystem/dda71d3152e5> a airo:AISystem ;
+    rdfs:label "Delphi self-driving car" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Delphi car" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37c3285c99e9>,
+        <https://w3id.org/airo/incident/evidence/e6a0f4832888>,
+        <https://w3id.org/airo/incident/evidence/eb4a9fcba16c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/5292> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_64> a airo:AIRiskIncident ;
+    rdfs:label "Self-driving cars narrowly avoid California crash" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/a8bf7a62cca5> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/f3467b25a196> ;
+    airo:hasDescription "pred_64" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/647c12dc4443>,
+        <https://w3id.org/airo/incident/Domain/ace7812ad530>,
+        <https://w3id.org/airo/incident/evidence/35f2b43feaa4>,
+        <https://w3id.org/airo/incident/evidence/468c417c2a26>,
+        <https://w3id.org/airo/incident/evidence/58eea22a3bbd>,
+        <https://w3id.org/airo/incident/evidence/6b279be97ae3>,
+        <https://w3id.org/airo/incident/evidence/937da98ebb8e> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1973>,
+        <https://w3id.org/airo/incident/NewsReport/266>,
+        <https://w3id.org/airo/incident/NewsReport/267>,
+        <https://w3id.org/airo/incident/NewsReport/268>,
+        <https://w3id.org/airo/incident/NewsReport/269>,
+        <https://w3id.org/airo/incident/NewsReport/270>,
+        <https://w3id.org/airo/incident/NewsReport/274>,
+        <https://w3id.org/airo/incident/NewsReport/5286>,
+        <https://w3id.org/airo/incident/NewsReport/5288>,
+        <https://w3id.org/airo/incident/NewsReport/5290>,
+        <https://w3id.org/airo/incident/NewsReport/5292> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/d96c83484dad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/266>,
+        <https://w3id.org/airo/incident/document/267>,
+        <https://w3id.org/airo/incident/document/268>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5286>,
+        <https://w3id.org/airo/incident/document/5288>,
+        <https://w3id.org/airo/incident/document/5290>,
+        <https://w3id.org/airo/incident/document/5292> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/0510d1c322aa>,
+        <https://w3id.org/airo/incident/AISystem/12e028ead03f>,
+        <https://w3id.org/airo/incident/AISystem/1888b9da0c21>,
+        <https://w3id.org/airo/incident/AISystem/3f0548350b2f>,
+        <https://w3id.org/airo/incident/AISystem/499395ed63a7>,
+        <https://w3id.org/airo/incident/AISystem/4e6248a80043>,
+        <https://w3id.org/airo/incident/AISystem/65de5fdff6d6>,
+        <https://w3id.org/airo/incident/AISystem/722d78f0f6c3>,
+        <https://w3id.org/airo/incident/AISystem/7f88f7e5b474>,
+        <https://w3id.org/airo/incident/AISystem/b4ce69ddb8b2>,
+        <https://w3id.org/airo/incident/AISystem/dda71d3152e5> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/40ab19533472>,
+        <https://w3id.org/airo/incident/Stakeholder/99546bf8c394>,
+        <https://w3id.org/airo/incident/Stakeholder/ab2efa10c746>,
+        <https://w3id.org/airo/incident/Stakeholder/b21c12c9b216>,
+        <https://w3id.org/airo/incident/Stakeholder/bfe92f706fcd>,
+        <https://w3id.org/airo/incident/Stakeholder/c54bbc7b4fb4>,
+        <https://w3id.org/airo/incident/Stakeholder/c61360e35415> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/a9e196c8cde8> .
+
+<https://w3id.org/airo/incident/evidence/0f0d30212ddf> a airo:Evidence ;
+    airo:evidenceText "2 self-driving cars owned by Google and Delphi only just escaped a collision on Californian roads earlier this week." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/10b2ee98ef53> a airo:Evidence ;
+    airo:evidenceText "Auto parts maker Delphi says that its experimental self-driving car was on a street in Silicon Valley when the near accident occurred as both car moved in to the same lane of traffic." ;
+    airo:sourceDocId "5292" .
+
+<https://w3id.org/airo/incident/evidence/ed2ebcb2e529> a airo:Evidence ;
+    airo:evidenceText "A car from Google's fleet reportedly cut off an Audi being tested by rival Delphi Automotive during a lane change." ;
+    airo:sourceDocId "5290" .
+
+<https://w3id.org/airo/incident/evidence/f267d6c263e1> a airo:Evidence ;
+    airo:evidenceText "Google agreed." ;
+    airo:sourceDocId "5292" .
+
+<https://w3id.org/airo/incident/evidence/486f575d4cb1> a airo:Evidence ;
+    airo:evidenceText "The firm told Reuters on Friday that the news wire's earlier report – which earlier this week had quoted John Absmeier, Delphi's Silicon Valley lab director, describing a close call with Google's car – was wrong." ;
+    airo:sourceDocId "267" .
+
+<https://w3id.org/airo/incident/AISystem/12e028ead03f> a airo:AISystem ;
+    rdfs:label "Google Self-Driving Prototype" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/a8bf7a62cca5> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/1ad5d8424b46> ;
+    airo:hasDescription "Google vehicle" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12b8b96bb10f>,
+        <https://w3id.org/airo/incident/evidence/37c3285c99e9>,
+        <https://w3id.org/airo/incident/evidence/6e2871cebc3f>,
+        <https://w3id.org/airo/incident/evidence/aff1faaf9a00>,
+        <https://w3id.org/airo/incident/evidence/d0d1f75575cc>,
+        <https://w3id.org/airo/incident/evidence/eb4a9fcba16c>,
+        <https://w3id.org/airo/incident/evidence/ed7c7648b7da> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1973>,
+        <https://w3id.org/airo/incident/document/269>,
+        <https://w3id.org/airo/incident/document/270>,
+        <https://w3id.org/airo/incident/document/274>,
+        <https://w3id.org/airo/incident/document/5288>,
+        <https://w3id.org/airo/incident/document/5292> ;
+    airo:hasSupportCount 6 ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/ed7b3d70edca> .
+
+<https://w3id.org/airo/incident/evidence/0d07990a721b> a airo:Evidence ;
+    airo:evidenceText "Delphi Automotive has contradicted a senior exec at the company by denying that one of its robo-cars had come close to being pranged by a Google self-driving vehicle." ;
+    airo:sourceDocId "267" .
+

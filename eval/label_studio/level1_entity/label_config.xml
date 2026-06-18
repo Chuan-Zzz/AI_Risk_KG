@@ -1,0 +1,71 @@
+<!--
+  AI Risk Knowledge Graph - Level 1 Entity Annotation Template
+  Layout: Two-column Grid (Left: HyperText with EN text | Right: Labels)
+  Single document view (the doc with most entity mentions).
+  Pre-annotated entities imported as Label Studio predictions.
+-->
+
+<View style="display: grid; grid-template: auto/1fr 1fr; column-gap: 1em">
+    <style>
+        .left, .right {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+
+    <!-- LEFT COLUMN: Text Area -->
+    <view className="left">
+        <Header value="Meta Info" />
+        <Text name="meta" value="$meta_info" style="font-size: 14px; color: #666; padding: 10px; background: #f0f2f5; border-radius: 8px;"/>
+
+        <Header value="Source Text (pre-extracted entities imported as annotations; delete or add as needed)" />
+        <HyperText name="text" value="$text" style="padding: 14px; background: #fff; border: 2px solid #4dabf7; border-radius: 8px; font-size: 13px; line-height: 1.8;"/>
+    </view>
+
+    <!-- RIGHT COLUMN: Labels Panel -->
+    <view className="right">
+        <Header value="Entity Labels" />
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #fff5f5;">
+            <Header value="Select entity type (click existing annotation to delete, or drag-select text to add)" style="color: #c92a2a; font-size: 14px;"/>
+            <Labels name="label" toName="text" choice="multiple">
+                <Label value="AISystem" background="#ff6b6b"/>
+                <Label value="AIModel" background="#ffa94d"/>
+                <Label value="AITechnique" background="#ffd43b"/>
+                <Label value="AICapability" background="#ff8787"/>
+                <Label value="AIDeveloper" background="#20c997"/>
+                <Label value="AIProvider" background="#339af0"/>
+                <Label value="AIDeployer" background="#51cf66"/>
+                <Label value="AIUser" background="#38d9a9"/>
+                <Label value="Regulator" background="#e64980"/>
+                <Label value="AffectedActor" background="#f06595"/>
+                <Label value="Stakeholder" background="#9775fa"/>
+                <Label value="Regulation" background="#364fc7"/>
+                <Label value="Standard" background="#4263eb"/>
+            </Labels>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #fff;">
+            <Header value="Entity Type Definitions" style="color: #333; font-size: 14px;"/>
+            <View style="padding:10px;background:#fffbe6;border-left:3px solid #ffd43b;border-radius:4px;margin-bottom:6px;font-size:12px;line-height:1.7;">
+                <Text name="def1" value="AISystem: Named AI system, product, or platform (e.g. ChatGPT, Tesla Autopilot).&#10;AIModel: Named AI/ML model (e.g. GPT-4, BERT).&#10;AITechnique: AI method or technique (e.g. deep learning, NLP).&#10;AICapability: AI system capability (e.g. text generation, image recognition)."/>
+            </View>
+            <View style="padding:10px;background:#f3f0ff;border-left:3px solid #9775fa;border-radius:4px;margin-bottom:6px;font-size:12px;line-height:1.7;">
+                <Text name="def2" value="Stakeholder: Organization, company, institution, or individual mentioned in the document.&#10;Role badges (from LLM inference, for reference):&#10;AIDeveloper = develops/trains AI systems&#10;AIProvider = provides/distributes AI systems&#10;AIDeployer = deploys AI in business&#10;AIUser = directly uses AI&#10;Regulator = government body that regulates/investigates AI&#10;AffectedActor = individual or group harmed by AI risks"/>
+            </View>
+            <View style="padding:10px;background:#e7f5ff;border-left:3px solid #364fc7;border-radius:4px;margin-bottom:6px;font-size:12px;line-height:1.7;">
+                <Text name="def3" value="Regulation: Named law or regulation (e.g. EU AI Act, GDPR).&#10;Standard: Technical or industry standard (e.g. ISO 42001)."/>
+            </View>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #f8f9fa;">
+            <Header value="Annotation Guidelines" style="color: #495057; font-size: 14px;"/>
+            <View style="padding:10px;background:#fff;border-left:3px solid #495057;border-radius:4px;font-size:12px;line-height:1.8;">
+                <Text name="guide" value="Steps:&#10;1. Left side shows the document with pre-extracted entities (colored highlights)&#10;2. Confirm pre-annotations: keep correct ones, delete incorrect ones&#10;3. For missed entities: select entity type on the right, then drag-select text on the left&#10;&#10;Rules:&#10;- Only annotate entities explicitly mentioned in the text&#10;- Dragged text becomes the mention_span&#10;- High recall preferred: annotate when in doubt&#10;- Each entity must have the correct type&#10;&#10;Entity types:&#10;- AISystem/Model/Technique/Capability: named AI products, models, methods, or capabilities&#10;- Stakeholder: organizations or individuals (with sub-roles: AIDeveloper/Provider/Deployer/User/Regulator/AffectedActor)&#10;- Regulation/Standard: named laws or industry standards"/>
+            </View>
+        </View>
+
+    </view>
+
+</View>

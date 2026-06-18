@@ -1,0 +1,2240 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/6bde082e4f92> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1322>,
+        <https://w3id.org/airo/incident/NewsReport/1539> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/InformationSource/74d4ae8aa836> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/9435>,
+        <https://w3id.org/airo/incident/NewsReport/9436>,
+        <https://w3id.org/airo/incident/NewsReport/9552> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/RiskControl/0560384a1ac8> a airo:RiskControl ;
+    rdfs:label "Software updates to make it harder for drivers to abuse the system and regulatory investigations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4cf71676b6fd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/e491b23e908b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/002059f1720f> a airo:RoleAssignment ;
+    rdfs:label "Bryant Walker Smith_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bc99f675cf5> ;
+    airo:hasReasoning "Smith is listed as a stakeholder but is not mentioned in any of the provided evidence sentences related to this specific Tesla Autopilot incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e335921954fa> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0760439e6641> a airo:RoleAssignment ;
+    rdfs:label "U.S. Congress_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/351b426a2563> ;
+    airo:hasReasoning "The mention of automaker practices and driver-monitoring systems implies regulatory oversight potential from federal legislative bodies like Congress." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2fe194eb3edd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/14aa5bfbe66f> a airo:RoleAssignment ;
+    rdfs:label "National Transportation Safety Board_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/02d1d55d0ec4> ;
+    airo:hasReasoning "The NTSB is a federal agency that investigates transportation accidents and makes safety recommendations, a regulatory function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c3abf37a40fe> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1958855f5d4e> a airo:RoleAssignment ;
+    rdfs:label "University of South Carolina_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b4b9b62b639> ;
+    airo:hasReasoning "The University is listed as a stakeholder but is not mentioned in any of the provided evidence sentences related to this specific Tesla Autopilot incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9f2084f91c0b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/23151024739c> a airo:RoleAssignment ;
+    rdfs:label "Kevin George Aziz Riad_AIUser" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5634ffb9df72> ;
+    airo:hasReasoning "He was the driver using the Tesla's Autopilot system at the time of the incident, making him a direct user of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/05d7effbdc82> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/35a0fcb4b501> a airo:RoleAssignment ;
+    rdfs:label "Donald Slavik_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aabdb509a64b> ;
+    airo:hasReasoning "Slavik is listed as a stakeholder but is not mentioned in any of the provided evidence sentences related to this specific Tesla Autopilot incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e71b5e000a86> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/35ea2fbf1c76> a airo:RoleAssignment ;
+    rdfs:label "National Highway Traffic Safety Administration_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e765589a6b6a> ;
+    airo:hasReasoning "NHTSA is the primary federal agency responsible for vehicle safety regulations and investigations, making it a regulator in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/99b5d25f6c10> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/39952373b766> a airo:RoleAssignment ;
+    rdfs:label "Federal Agencies_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0396f0efeb2> ;
+    airo:hasReasoning "The mention of automaker practices and driver-monitoring systems implies oversight from federal regulatory agencies." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/868be90ad1e3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5e0e29e9b4fd> a airo:RoleAssignment ;
+    rdfs:label "Los Angeles County District Attorney_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b37c069d114> ;
+    airo:hasReasoning "The District Attorney's office is prosecuting the case, acting as a legal/regulatory enforcement body." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/79f4c855cc76> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6237a9b9d4a2> a airo:RoleAssignment ;
+    rdfs:label "Rafaela Vasquez_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b4402bfc1fe> ;
+    airo:hasReasoning "Vasquez is listed as a stakeholder but is not mentioned in any of the provided evidence sentences related to this specific Tesla Autopilot incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b838cd01aeba> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6dd19308ba30> a airo:RoleAssignment ;
+    rdfs:label "NHTSA_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d8271449d55> ;
+    airo:hasReasoning "NHTSA is the primary federal agency responsible for vehicle safety regulations and investigations, making it a regulator in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/118fcea73c63> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8644f87e5783> a airo:RoleAssignment ;
+    rdfs:label "Gilberto Alcazar Lopez_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/520c06532a99> ;
+    airo:hasReasoning "Lopez is named as a victim in the fatal crash, making him an affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d81d04c08621> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8a14db98e4a1> a airo:RoleAssignment ;
+    rdfs:label "California Superior Court_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d0329805377> ;
+    airo:hasReasoning "The court is making a ruling on the case, which is a regulatory/judicial function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9a8bc05d12f4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8eae69c02c2e> a airo:RoleAssignment ;
+    rdfs:label "SAE_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2dc90ea04552> ;
+    airo:hasReasoning "SAE is mentioned in the standards list for defining automation levels, but the evidence doesn't show them taking an active role (developing, providing, deploying, regulating, or being affected) in this specific incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/01142691b043> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/91f9b2a51a27> a airo:RoleAssignment ;
+    rdfs:label "Tesla_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a4b77744bb6c> ;
+    airo:hasReasoning "Tesla provides/sells vehicles equipped with these AI systems to consumers, acting as the provider of the AI functionality." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1a3be3bbdd7a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ad2caf7f8fc8> a airo:RoleAssignment ;
+    rdfs:label "Uber_Stakeholder" ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8b88bc75237> ;
+    airo:hasReasoning "Uber is listed as a stakeholder but is not mentioned in any of the provided evidence sentences related to this specific Tesla Autopilot incident." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61e0a5bf62b7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b8a4073e7510> a airo:RoleAssignment ;
+    rdfs:label "Elon Musk_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f135c94f1d2b> ;
+    airo:hasReasoning "While Musk is the CEO of Tesla, the evidence provided does not specify his direct actions regarding the development, provision, or use of the specific AI system in this incident beyond his general association with the company." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bcfd53a565e4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b96c5e446e2e> a airo:RoleAssignment ;
+    rdfs:label "Maria Guadalupe Nieves-Lopez_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/464768df56d3> ;
+    airo:hasReasoning "Nieves-Lopez is named as a victim in the fatal crash, making her an affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/bf31b1af72de> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/dba996741fd9> a airo:RoleAssignment ;
+    rdfs:label "Arizona prosecutors_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00c2f3ce4303> ;
+    airo:hasReasoning "Arizona prosecutors are mentioned in the context of legal proceedings related to autonomous vehicle incidents, indicating a regulatory/legal role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b08001c715a8> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/dbc57880d996> a airo:RoleAssignment ;
+    rdfs:label "California State Prosecutors_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81f7a531aad4> ;
+    airo:hasReasoning "As state prosecutors, they are pursuing criminal charges and are part of the regulatory/legal enforcement apparatus." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6d4b92e23961> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f9acbb263fca> a airo:RoleAssignment ;
+    rdfs:label "NTSB_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae3f1a40a913> ;
+    airo:hasReasoning "The NTSB is a federal agency that investigates transportation accidents and makes safety recommendations, a regulatory function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b52d0654f4b6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/RoleAssignment/feb8acfca83b> a airo:RoleAssignment ;
+    rdfs:label "Tesla_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10eb1d2c8a4f> ;
+    airo:hasReasoning "Tesla develops its own Autopilot and Full Self-Driving systems, as indicated by its role as the automaker discussing system design and warnings." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_343> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/1a3be3bbdd7a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/a90da2e74182> .
+
+<https://w3id.org/airo/incident/event/pred_343> a airo:AIRiskIncident ;
+    airo:firstSeen "2022-01-18T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2022-05-22T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0045ded95d39> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af9b11ea6247> .
+
+<https://w3id.org/airo/incident/ks/01c6c9c20e63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/203bd4ca58c7> .
+
+<https://w3id.org/airo/incident/ks/0375feee1623> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87837e6c3320> .
+
+<https://w3id.org/airo/incident/ks/05b4d0ae5517> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d87fa4e3f32f> .
+
+<https://w3id.org/airo/incident/ks/0638312c5e85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/065341a5db16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/0b1b6b4f7a2a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb4a6d6b56f6> .
+
+<https://w3id.org/airo/incident/ks/0b9cdc0dff75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d87fa4e3f32f> .
+
+<https://w3id.org/airo/incident/ks/1028f90eb3aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/1112930efc7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87837e6c3320> .
+
+<https://w3id.org/airo/incident/ks/1176d0f0ac5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e4bb98935be> .
+
+<https://w3id.org/airo/incident/ks/12d5ed2ce1e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/12e90a15cc79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/1335bd0595b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/14efeb7f9219> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/15a0eefcc5d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e4a7c1de34> .
+
+<https://w3id.org/airo/incident/ks/15b2ebde6c98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> .
+
+<https://w3id.org/airo/incident/ks/16162e1f58cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/16acf95a1557> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/1a8354b088ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a5851397c86> .
+
+<https://w3id.org/airo/incident/ks/1b4bb2974036> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/1b64ad22e38a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85194ba6678> .
+
+<https://w3id.org/airo/incident/ks/1b9f3abfa2ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d814deaa4e5f> .
+
+<https://w3id.org/airo/incident/ks/1cbec1362238> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/1ec79303a490> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d814deaa4e5f> .
+
+<https://w3id.org/airo/incident/ks/1f441d86130a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0086307ca2f2> .
+
+<https://w3id.org/airo/incident/ks/1f7282197461> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/1fdb6ad0e836> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c962c75e5fb> .
+
+<https://w3id.org/airo/incident/ks/2193e8836e99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/21eb6caad4b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/225e041ea54c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/2389bce3c2d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c870159a17e> .
+
+<https://w3id.org/airo/incident/ks/241b7ac5a68a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/2537fcffe339> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b1a2a9d0a27> .
+
+<https://w3id.org/airo/incident/ks/261240db2c71> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b1deecd2c9cc> .
+
+<https://w3id.org/airo/incident/ks/2644d6540672> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726f86b1f043> .
+
+<https://w3id.org/airo/incident/ks/276ca4dd74f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/2791e0c756f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a710bd69319> .
+
+<https://w3id.org/airo/incident/ks/2838798b8367> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/28e445283a0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f127229926a0> .
+
+<https://w3id.org/airo/incident/ks/2a5b127ae6ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/2afaf01401eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/265956871f0e> .
+
+<https://w3id.org/airo/incident/ks/30d777270e79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/315854e6d4d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/319e86935c52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/579953c12db1> .
+
+<https://w3id.org/airo/incident/ks/3412ffac610c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daaa733673b> .
+
+<https://w3id.org/airo/incident/ks/363978f99b29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/37a537472c54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b6e93029061> .
+
+<https://w3id.org/airo/incident/ks/39637666aa14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b504d8e3d81> .
+
+<https://w3id.org/airo/incident/ks/3b48ca90593a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6db3b2b9e68> .
+
+<https://w3id.org/airo/incident/ks/3b4b0b1db294> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/3b66439e6682> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db703d7c69e6> .
+
+<https://w3id.org/airo/incident/ks/3dc27a49f730> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f332c981b411> .
+
+<https://w3id.org/airo/incident/ks/3e11d9527f56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726f86b1f043> .
+
+<https://w3id.org/airo/incident/ks/3fceb5465e92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97fe63930f84> .
+
+<https://w3id.org/airo/incident/ks/40d5f5dba73c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/414113fb5a13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/440c24732b85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/579953c12db1> .
+
+<https://w3id.org/airo/incident/ks/45c764ebf88f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc8283be3c91> .
+
+<https://w3id.org/airo/incident/ks/47076ad5eccf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f332c981b411> .
+
+<https://w3id.org/airo/incident/ks/49717b4deb87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c962c75e5fb> .
+
+<https://w3id.org/airo/incident/ks/498d4a903185> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85194ba6678> .
+
+<https://w3id.org/airo/incident/ks/49e7739e0739> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daaa733673b> .
+
+<https://w3id.org/airo/incident/ks/4af59e274a39> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d814deaa4e5f> .
+
+<https://w3id.org/airo/incident/ks/4f512a11b873> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85194ba6678> .
+
+<https://w3id.org/airo/incident/ks/5141f2bfc7e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/519c3e4ee608> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a710bd69319> .
+
+<https://w3id.org/airo/incident/ks/52488b373d0b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/596178217966> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6159f30d1a1> .
+
+<https://w3id.org/airo/incident/ks/59a735927169> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/5a39cfacd7d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e9f935bfb8e> .
+
+<https://w3id.org/airo/incident/ks/5ace0a5506c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a710bd69319> .
+
+<https://w3id.org/airo/incident/ks/5bd73bf705cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/5cda302bb2e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/5cef501e8cca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/5cf2ff8ec787> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/5d2f4b200659> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a22a8bd70371> .
+
+<https://w3id.org/airo/incident/ks/5d3c06b426e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f321ed7eee> .
+
+<https://w3id.org/airo/incident/ks/5ed47a62ebfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/5f10a43a3d61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e28c8cb61e87> .
+
+<https://w3id.org/airo/incident/ks/61ac5137f397> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d91f18c1a6> .
+
+<https://w3id.org/airo/incident/ks/633965b4d2f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a5851397c86> .
+
+<https://w3id.org/airo/incident/ks/63ee190d7992> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ffdfa0281c88> .
+
+<https://w3id.org/airo/incident/ks/6576ca9452bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/34bb0662d8cf> .
+
+<https://w3id.org/airo/incident/ks/657a656f9514> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9759d8bf92f> .
+
+<https://w3id.org/airo/incident/ks/666c898cb2ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/67197cbb4eaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2152a1262b97> .
+
+<https://w3id.org/airo/incident/ks/6af8e3a89457> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/265956871f0e> .
+
+<https://w3id.org/airo/incident/ks/6cf47c58b35a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> .
+
+<https://w3id.org/airo/incident/ks/6d3ca7ed0271> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85194ba6678> .
+
+<https://w3id.org/airo/incident/ks/6d59b8825599> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/6d96155ef982> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4cf71676b6fd> .
+
+<https://w3id.org/airo/incident/ks/6e771ba6afb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e28c8cb61e87> .
+
+<https://w3id.org/airo/incident/ks/70b51cb48d21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c962c75e5fb> .
+
+<https://w3id.org/airo/incident/ks/710ca5ebfc84> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/769a3400e342> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b77e6c55b5cc> .
+
+<https://w3id.org/airo/incident/ks/77b2dc8a7ec6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62fd96a63819> .
+
+<https://w3id.org/airo/incident/ks/7aaa8790a789> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c962c75e5fb> .
+
+<https://w3id.org/airo/incident/ks/7beeb619db3c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/7c72c3692ae4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6159f30d1a1> .
+
+<https://w3id.org/airo/incident/ks/7e033b769496> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/7fbce6dd0054> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/81129ecad43e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09c30db42c64> .
+
+<https://w3id.org/airo/incident/ks/81f46e3b832d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e28c8cb61e87> .
+
+<https://w3id.org/airo/incident/ks/849cfeea228b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/84b528cff4c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0a38923f715> .
+
+<https://w3id.org/airo/incident/ks/84b9eaf36add> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a97fc8ec7524> .
+
+<https://w3id.org/airo/incident/ks/84dd0b0d5a76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/579953c12db1> .
+
+<https://w3id.org/airo/incident/ks/85266513cf78> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6f9d45e9983> .
+
+<https://w3id.org/airo/incident/ks/875c191d1e98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bae28db2461> .
+
+<https://w3id.org/airo/incident/ks/889bf2759599> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d87fa4e3f32f> .
+
+<https://w3id.org/airo/incident/ks/89ed056b1164> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/355f7e4141c2> .
+
+<https://w3id.org/airo/incident/ks/8d567d7e2402> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/8e08e4844cc0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daaa733673b> .
+
+<https://w3id.org/airo/incident/ks/8fdd97eb5ff6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6159f30d1a1> .
+
+<https://w3id.org/airo/incident/ks/91a1c4d9770c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/922360ebee6d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/952617cd5e02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d87fa4e3f32f> .
+
+<https://w3id.org/airo/incident/ks/9601d114771b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/97358f4d7e63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d91f18c1a6> .
+
+<https://w3id.org/airo/incident/ks/97e61b66c142> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/98442cd040a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c870159a17e> .
+
+<https://w3id.org/airo/incident/ks/989ef34f7c35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f976a4cdce6> .
+
+<https://w3id.org/airo/incident/ks/9ae0e5870057> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b504d8e3d81> .
+
+<https://w3id.org/airo/incident/ks/9bf29da5e121> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c870159a17e> .
+
+<https://w3id.org/airo/incident/ks/9e392b26fad7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a5851397c86> .
+
+<https://w3id.org/airo/incident/ks/9fc388b54862> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a22a8bd70371> .
+
+<https://w3id.org/airo/incident/ks/9fd5a2f38fef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/265956871f0e> .
+
+<https://w3id.org/airo/incident/ks/a3013393de5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bdc5598b3416> .
+
+<https://w3id.org/airo/incident/ks/a4debe5ead06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/579953c12db1> .
+
+<https://w3id.org/airo/incident/ks/a501515975ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/a61f443524d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> .
+
+<https://w3id.org/airo/incident/ks/a64c6602f9da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/a79caced0e4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/b106d2f0e86e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/b19688bccade> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62fd96a63819> .
+
+<https://w3id.org/airo/incident/ks/b238611b147c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18d879065b78> .
+
+<https://w3id.org/airo/incident/ks/b2e526a129f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/b2f6ee26dcae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e4bb98935be> .
+
+<https://w3id.org/airo/incident/ks/b40f0ef45147> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/b7f5c1505fb2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d91f18c1a6> .
+
+<https://w3id.org/airo/incident/ks/b8149f95edfa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b504d8e3d81> .
+
+<https://w3id.org/airo/incident/ks/b98a81302fd5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daaa733673b> .
+
+<https://w3id.org/airo/incident/ks/b9e049152542> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f332c981b411> .
+
+<https://w3id.org/airo/incident/ks/bc5ea1369c05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a22a8bd70371> .
+
+<https://w3id.org/airo/incident/ks/bca3a8f6496b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc8283be3c91> .
+
+<https://w3id.org/airo/incident/ks/bcc415c51d4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> .
+
+<https://w3id.org/airo/incident/ks/bda004a2ee53> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/be907364c73c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> .
+
+<https://w3id.org/airo/incident/ks/bebfcc62ba40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/bf1c5b5d39b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/c002de47906b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0086307ca2f2> .
+
+<https://w3id.org/airo/incident/ks/c1b048a38417> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> .
+
+<https://w3id.org/airo/incident/ks/c27852d35295> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d814deaa4e5f> .
+
+<https://w3id.org/airo/incident/ks/c2ae91d7b8f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bd424cd9576d> .
+
+<https://w3id.org/airo/incident/ks/c30ff421bcb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/c6c8a29ce8d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62fd96a63819> .
+
+<https://w3id.org/airo/incident/ks/c818b92696d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8411c68ef2d1> .
+
+<https://w3id.org/airo/incident/ks/ca5f02774a9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> .
+
+<https://w3id.org/airo/incident/ks/cb841c45d8ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/265956871f0e> .
+
+<https://w3id.org/airo/incident/ks/cc5e9763da5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab41fd78eab7> .
+
+<https://w3id.org/airo/incident/ks/cc88ecc5371a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e28c8cb61e87> .
+
+<https://w3id.org/airo/incident/ks/cdd162eb592f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af9b11ea6247> .
+
+<https://w3id.org/airo/incident/ks/d3ebcde01edb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/d43d57eaadc9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726f86b1f043> .
+
+<https://w3id.org/airo/incident/ks/d5d00e91f5d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/d697b7b70437> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> .
+
+<https://w3id.org/airo/incident/ks/d6b2fa3227c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/da21a5b411e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a22a8bd70371> .
+
+<https://w3id.org/airo/incident/ks/db52e80875e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> .
+
+<https://w3id.org/airo/incident/ks/dd31abb83fc2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a97fc8ec7524> .
+
+<https://w3id.org/airo/incident/ks/dd7cc22f343d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/dfe99357b4d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/840eab7e30a0> .
+
+<https://w3id.org/airo/incident/ks/e140639d392c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f332c981b411> .
+
+<https://w3id.org/airo/incident/ks/e18b69d9f7e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c870159a17e> .
+
+<https://w3id.org/airo/incident/ks/e2a92e4e718a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a5851397c86> .
+
+<https://w3id.org/airo/incident/ks/e322ebb1beab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e15201008ac3> .
+
+<https://w3id.org/airo/incident/ks/e4569e98d294> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6159f30d1a1> .
+
+<https://w3id.org/airo/incident/ks/e47777c97daf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d91f18c1a6> .
+
+<https://w3id.org/airo/incident/ks/e4c38ca098b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0086307ca2f2> .
+
+<https://w3id.org/airo/incident/ks/e5ed0c3822f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.5"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62fd96a63819> .
+
+<https://w3id.org/airo/incident/ks/e617f30ba0a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b504d8e3d81> .
+
+<https://w3id.org/airo/incident/ks/e6399b2c106d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/e76051d18371> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a710bd69319> .
+
+<https://w3id.org/airo/incident/ks/e9540fb604de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> .
+
+<https://w3id.org/airo/incident/ks/ea3d670eed38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> .
+
+<https://w3id.org/airo/incident/ks/ee46f0b8e4be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/355f7e4141c2> .
+
+<https://w3id.org/airo/incident/ks/eefb00587ac1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e4bb98935be> .
+
+<https://w3id.org/airo/incident/ks/f000841818bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/726f86b1f043> .
+
+<https://w3id.org/airo/incident/ks/f10af0431142> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> .
+
+<https://w3id.org/airo/incident/ks/f13a88d1dec8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392> .
+
+<https://w3id.org/airo/incident/ks/f1e38309682e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71a67d2ff0ac> .
+
+<https://w3id.org/airo/incident/ks/f2124048534d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7226b9cc2a70> .
+
+<https://w3id.org/airo/incident/ks/f61a7dd708db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0086307ca2f2> .
+
+<https://w3id.org/airo/incident/ks/f76d213bc5cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/402d45cb4d97> .
+
+<https://w3id.org/airo/incident/ks/f9ff5bcf4b5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87837e6c3320> .
+
+<https://w3id.org/airo/incident/ks/fb1976a9a1da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dec6dd6a79ae> .
+
+<https://w3id.org/airo/incident/ks/fb8144c01e09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87837e6c3320> .
+
+<https://w3id.org/airo/incident/ks/fc991162247f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a998cf72033c> .
+
+<https://w3id.org/airo/incident/ks/fdec341d76d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09c30db42c64> .
+
+<https://w3id.org/airo/incident/ks/fe11c23d8aec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e4bb98935be> .
+
+<https://w3id.org/airo/incident/AICapability/0a4ac1f5e1a8> a airo:AICapability ;
+    rdfs:label "automatic emergency braking" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "automatic emergency braking system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/71a67d2ff0ac> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/AICapability/5f182a91869c> a airo:AICapability ;
+    rdfs:label "detect emergency vehicles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "detect emergency vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97fe63930f84> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/AICapability/66a8b687e021> a airo:AICapability ;
+    rdfs:label "traffic aware cruise control" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "traffic aware cruise control" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc8283be3c91> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/AICapability/9d0b1cb5bf69> a airo:AICapability ;
+    rdfs:label "autosteer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "autosteer" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc8283be3c91> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/0143a3a8c713> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e15201008ac3> ;
+    airo:hasReasoning "The accident occurred while the driver was actively operating the vehicle in real-world conditions, indicating the system was in the deployment phase of its lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/AITechnique/2ac5bab72d69> a airo:AITechnique ;
+    rdfs:label "driver-assist systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "driver-assist systems" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b77e6c55b5cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/AITechnique/31cb3ed550e9> a airo:AITechnique ;
+    rdfs:label "advanced driver-assistance functions" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "advanced driver-assistance functions" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/AITechnique/346791e52a6e> a airo:AITechnique ;
+    rdfs:label "facial recognition" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b1a2a9d0a27> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/AITechnique/8c0078f4bc72> a airo:AITechnique ;
+    rdfs:label "partially automated driving system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "partially automated driving system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9759d8bf92f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/AITechnique/a697508e0e25> a airo:AITechnique ;
+    rdfs:label "automation complacency" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "automation complacency" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dec6dd6a79ae> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/AITechnique/f1d105ae65d3> a airo:AITechnique ;
+    rdfs:label "infrared eye tracking" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "infrared eye tracking" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23837fba4baf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/AffectedActor/2c9bef7f9780> a airo:AffectedActor ;
+    rdfs:label "Motorists and passengers in other vehicles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f321ed7eee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/Domain/0c3a77cb8e10> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7226b9cc2a70> ;
+    airo:hasReasoning "The evidence describes a fatal car crash involving a driving system, placing it squarely in the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/Hazard/7da4b896f833> a airo:Hazard ;
+    rdfs:label "Unattended high-speed driving in traffic with automated system engaged" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b1deecd2c9cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/Purpose/524ddf077b54> a airo:Purpose ;
+    rdfs:label "partially automated driving assistance" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab41fd78eab7> ;
+    airo:hasReasoning "The evidence describes the system as a 'partially automated driving system' used while driving, indicating its purpose is to assist with driving tasks." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/RiskSource/589736c6c289> a airo:RiskSource ;
+    rdfs:label "Inadequate driver monitoring system and overstatement of Autopilot capabilities" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/e491b23e908b> ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ffdfa0281c88> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/7da4b896f833> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/Vulnerability/cbae72db7da8> a airo:Vulnerability ;
+    rdfs:label "Lack of robust driver monitoring to ensure attentiveness and readiness to retake control" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb4a6d6b56f6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/evidence/00c2f3ce4303> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/02d1d55d0ec4> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/07d5e240fb4c> a airo:Evidence ;
+    airo:evidenceText "Messages have been left seeking comment from Tesla, which has disbanded its media relations department." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/0b37c069d114> a airo:Evidence ;
+    airo:evidenceText "[9435] Riad's defense attorney did not respond to requests for comment last week, and the Los Angeles County District Attorney's Office declined to discuss the case." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/10eb1d2c8a4f> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/1b4402bfc1fe> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/203bd4ca58c7> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/2152a1262b97> a airo:Evidence ;
+    airo:evidenceText "[9552] Tesla's official reply in such cases is that Autopilot and its 'Full Self-Driving' systems can't drive themselves, so drivers have to be prepared to retake control of their cars at any time." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/2d0329805377> a airo:Evidence ;
+    airo:evidenceText "[9552] A judge in California has ruled that the driver of a Tesla Model S on Autopilot involved in the deaths of two motorists must stand trail for manslaughter." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/2dc90ea04552> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/34bb0662d8cf> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/351b426a2563> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/464768df56d3> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/4d8271449d55> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/520c06532a99> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/5634ffb9df72> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/5bc99f675cf5> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/5e9d646afa3d> a airo:Evidence ;
+    airo:evidenceText "Riad's defense attorney did not respond to requests for comment last week, and the Los Angeles County District Attorney's Office declined to discuss the case." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/6bae28db2461> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/814814760b51> a airo:Evidence ;
+    airo:evidenceText "California Prosecutors File Felony Charges Against Tesla Autopilot Driver" ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/81877b84eb35> a airo:Evidence ;
+    airo:evidenceText "Felony charges are 1st in a fatal crash involving Autopilot" ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/81f7a531aad4> a airo:Evidence ;
+    airo:evidenceText "[9552] State prosecutors believe there's enough evidence to try Kevin George Aziz Riad, 27, on two felony counts of vehicular manslaughter, each carrying a prison sentence of up to six years in California." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/8411c68ef2d1> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/93b1aa72da76> a airo:Evidence ;
+    airo:evidenceText "Tesla Driver On Trial For Autopilot Crash That Killed Two" ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/9b4b9b62b639> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/a0396f0efeb2> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/a4b77744bb6c> a airo:Evidence ;
+    airo:evidenceText "[9552] Tesla's official reply in such cases is that Autopilot and its 'Full Self-Driving' systems can't drive themselves, so drivers have to be prepared to retake control of their cars at any time." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/aabdb509a64b> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/ae3f1a40a913> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/b6db3b2b9e68> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/b8b88bc75237> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/bd424cd9576d> a airo:Evidence ;
+    airo:evidenceText "[9552] Tesla's official reply in such cases is that Autopilot and its 'Full Self-Driving' systems can't drive themselves, so drivers have to be prepared to retake control of their cars at any time." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/c0a38923f715> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/e20d2bfe1af8> a airo:Evidence ;
+    airo:evidenceText "California prosecutors have filed two counts of vehicular manslaughter against the driver of a Tesla on Autopilot who ran a red light, slammed into another car and killed two people in 2019." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/e71671a694f7> a airo:Evidence ;
+    airo:evidenceText "The driver, Kevin George Aziz Riad, 27, has pleaded not guilty." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/e765589a6b6a> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/ee2babbd6197> a airo:Evidence ;
+    airo:evidenceText "Tesla did not immediately respond to Insider's request for comment." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/f127229926a0> a airo:Evidence ;
+    airo:evidenceText "[9552] Tesla's official reply in such cases is that Autopilot and its 'Full Self-Driving' systems can't drive themselves, so drivers have to be prepared to retake control of their cars at any time." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/f135c94f1d2b> a airo:Evidence ;
+    airo:evidenceText "[9436] Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/f56a379681ce> a airo:Evidence ;
+    airo:evidenceText "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges, report says" ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/f655c1e4f955> a airo:Evidence ;
+    airo:evidenceText "Tesla owner is the first to face felony charges for deadly Autopilot crash" ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/Consequence/445e439ca10d> a airo:Consequence ;
+    rdfs:label "Fatal crash resulting in two deaths and criminal charges against the driver" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a97fc8ec7524> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/2de0a28b84fc> .
+
+<https://w3id.org/airo/incident/Impact/2de0a28b84fc> a airo:Impact ;
+    rdfs:label "Loss of human life and criminal liability for the driver" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/2c9bef7f9780> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af9b11ea6247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/NewsReport/1322> a airo:NewsReport ;
+    rdfs:label "Felony charges are 1st in a fatal crash involving Autopilot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "DETROIT (AP) — California prosecutors have filed two counts of vehicular manslaughter against the driver of a Tesla on Autopilot who ran a red light, slammed into another car and killed two people in " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b6e93029061> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/NewsReport/1539> a airo:NewsReport ;
+    rdfs:label "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges, report says" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A Tesla driver who had his car on Autopilot in a crash that killed two people will stand trial on two counts of manslaughter in Los Angeles, Fox Business reported.
+
+The fatal accident in 2019 occurred""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0f976a4cdce6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> .
+
+<https://w3id.org/airo/incident/NewsReport/9435> a airo:NewsReport ;
+    rdfs:label "California Prosecutors File Felony Charges Against Tesla Autopilot Driver" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "FREMONT (CBS SF/AP) — California prosecutors recently made history when they filed two counts of vehicular manslaughter against the driver of a Tesla who ran a red light, slammed into another car and " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51e4a7c1de34> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/NewsReport/9436> a airo:NewsReport ;
+    rdfs:label "Tesla owner is the first to face felony charges for deadly Autopilot crash" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Electric Cars /
+Tesla owner is the first to face felony charges for deadly Autopilot crash
+The first time criminal charges have been filed against a Tesla owner in the US for an incident involving Aut""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db703d7c69e6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/NewsReport/9552> a airo:NewsReport ;
+    rdfs:label "Tesla Driver On Trial For Autopilot Crash That Killed Two" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Tesla Driver On Trial For Autopilot Crash That Killed Two
+It's the first time a U.S. driver is being prosecuted for deaths in a crash where Autopilot was involved.
+A judge in California has ruled that""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18d879065b78> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/Stakeholder/01142691b043> a airo:Stakeholder ;
+    rdfs:label "SAE" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Society of Automotive Engineers" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/Stakeholder/05d7effbdc82> a airo:Stakeholder ;
+    rdfs:label "Kevin George Aziz Riad" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kevin George Aziz Riad" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e>,
+        <https://w3id.org/airo/incident/evidence/5e9d646afa3d>,
+        <https://w3id.org/airo/incident/evidence/704c7b70d1b7>,
+        <https://w3id.org/airo/incident/evidence/7a710bd69319>,
+        <https://w3id.org/airo/incident/evidence/e28c8cb61e87>,
+        <https://w3id.org/airo/incident/evidence/e71671a694f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 5 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/43092cd0037b>,
+        <https://w3id.org/airo/incident/AISystem/a90da2e74182>,
+        <https://w3id.org/airo/incident/AISystem/abca687f3988> .
+
+<https://w3id.org/airo/incident/Stakeholder/118fcea73c63> a airo:Stakeholder ;
+    rdfs:label "NHTSA" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Highway Traffic Safety Administration" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c962c75e5fb>,
+        <https://w3id.org/airo/incident/evidence/87837e6c3320> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9436> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/2fe194eb3edd> a airo:Stakeholder ;
+    rdfs:label "U.S. Congress" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Congress" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e61e488114fb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/Stakeholder/61e0a5bf62b7> a airo:Stakeholder ;
+    rdfs:label "Uber" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uber" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daaa733673b>,
+        <https://w3id.org/airo/incident/evidence/d814deaa4e5f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/6d4b92e23961> a airo:Stakeholder ;
+    rdfs:label "California State Prosecutors" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "State prosecutors" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5996d2f9887e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/Stakeholder/79f4c855cc76> a airo:Stakeholder ;
+    rdfs:label "Los Angeles County District Attorney" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "LA County District Attorney" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d91f18c1a6>,
+        <https://w3id.org/airo/incident/evidence/579953c12db1>,
+        <https://w3id.org/airo/incident/evidence/726f86b1f043> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/868be90ad1e3> a airo:Stakeholder ;
+    rdfs:label "Federal Agencies" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "federal agencies" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d87fa4e3f32f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/Stakeholder/99b5d25f6c10> a airo:Stakeholder ;
+    rdfs:label "National Highway Traffic Safety Administration" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NHTSA" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/516849299278>,
+        <https://w3id.org/airo/incident/evidence/e61e488114fb>,
+        <https://w3id.org/airo/incident/evidence/f85194ba6678> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/9a8bc05d12f4> a airo:Stakeholder ;
+    rdfs:label "California Superior Court" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California Superior Court" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0086307ca2f2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/Stakeholder/9f2084f91c0b> a airo:Stakeholder ;
+    rdfs:label "University of South Carolina" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "University of South Carolina" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c63f02acc064> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/Stakeholder/b08001c715a8> a airo:Stakeholder ;
+    rdfs:label "Arizona prosecutors" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Arizona prosecutors" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b504d8e3d81> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/Stakeholder/b52d0654f4b6> a airo:Stakeholder ;
+    rdfs:label "NTSB" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Transportation Safety Board" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c870159a17e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322> .
+
+<https://w3id.org/airo/incident/Stakeholder/b838cd01aeba> a airo:Stakeholder ;
+    rdfs:label "Rafaela Vasquez" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Rafaela Vasquez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a5851397c86>,
+        <https://w3id.org/airo/incident/evidence/f332c981b411> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/bcfd53a565e4> a airo:Stakeholder ;
+    rdfs:label "Elon Musk" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elon Musk" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e4bb98935be> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9552> .
+
+<https://w3id.org/airo/incident/Stakeholder/bf31b1af72de> a airo:Stakeholder ;
+    rdfs:label "Maria Guadalupe Nieves-Lopez" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Maria Guadalupe Nieves-Lopez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392>,
+        <https://w3id.org/airo/incident/evidence/a998cf72033c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/c3abf37a40fe> a airo:Stakeholder ;
+    rdfs:label "National Transportation Safety Board" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Transportation Safety Board" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6159f30d1a1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9435> .
+
+<https://w3id.org/airo/incident/Stakeholder/d81d04c08621> a airo:Stakeholder ;
+    rdfs:label "Gilberto Alcazar Lopez" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gilberto Alcazar Lopez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5839176d4392>,
+        <https://w3id.org/airo/incident/evidence/a998cf72033c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/e335921954fa> a airo:Stakeholder ;
+    rdfs:label "Bryant Walker Smith" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bryant Walker Smith" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/62fd96a63819>,
+        <https://w3id.org/airo/incident/evidence/c63f02acc064> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/e71b5e000a86> a airo:Stakeholder ;
+    rdfs:label "Donald Slavik" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Donald Slavik" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/265956871f0e>,
+        <https://w3id.org/airo/incident/evidence/a22a8bd70371> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/9435> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Standard/aa0cfb6e98df> a airo:Standard ;
+    rdfs:label "SAE Level 2 Standards" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Level 2 “partially automated” system by the Society of Automotive Engineers’ standards" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/74c08881e1d1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436> .
+
+<https://w3id.org/airo/incident/evidence/0f976a4cdce6> a airo:Evidence ;
+    airo:evidenceText "A Tesla driver who had his car on Autopilot in a fatal crash faces manslaughter charges, report says" ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/18d879065b78> a airo:Evidence ;
+    airo:evidenceText "Tesla Driver On Trial For Autopilot Crash That Killed Two" ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/1e9f935bfb8e> a airo:Evidence ;
+    airo:evidenceText "It's the first time a U.S. driver is being prosecuted for deaths in a crash where Autopilot was involved." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/402d45cb4d97> a airo:Evidence ;
+    airo:evidenceText "The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/4cf71676b6fd> a airo:Evidence ;
+    airo:evidenceText "Since the Autopilot crashes began, Tesla has updated the software to try to make it harder for drivers to abuse it." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/51e4a7c1de34> a airo:Evidence ;
+    airo:evidenceText "California Prosecutors File Felony Charges Against Tesla Autopilot Driver" ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/5b1a2a9d0a27> a airo:Evidence ;
+    airo:evidenceText "NYPD has been using Clearview AI's facial recognition technology since 2018." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/704c7b70d1b7> a airo:Evidence ;
+    airo:evidenceText "The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/71a67d2ff0ac> a airo:Evidence ;
+    airo:evidenceText "They have alleged negligence by Riad and have accused Tesla of selling defective vehicles that can accelerate suddenly and that lack an effective automatic emergency braking system." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/7226b9cc2a70> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/840eab7e30a0> a airo:Evidence ;
+    airo:evidenceText "Tesla's Autopilot and Full Self-Driving features need \"active driver supervision\", does not make the car autonomous, and is intended for \"fully attentive\" drivers, the company says on its website." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/8b6e93029061> a airo:Evidence ;
+    airo:evidenceText "Felony charges are 1st in a fatal crash involving Autopilot" ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/97f321ed7eee> a airo:Evidence ;
+    airo:evidenceText "California prosecutors have filed two counts of vehicular manslaughter against the driver of a Tesla on Autopilot who ran a red light, slammed into another car and killed two people in 2019." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/97fe63930f84> a airo:Evidence ;
+    airo:evidenceText "It's also tried to improve Autopilot's ability to detect emergency vehicles." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/ab41fd78eab7> a airo:Evidence ;
+    airo:evidenceText "[9435] The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/b1deecd2c9cc> a airo:Evidence ;
+    airo:evidenceText "Kevin George Aziz Riad, 27, was exiting a highway in his black Model S when he ran through a red light, slamming into a Honda Civic and killing two people." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/b6f9d45e9983> a airo:Evidence ;
+    airo:evidenceText "The company has said that Autopilot and a more sophisticated \"Full Self-Driving\" system cannot drive themselves and that drivers must pay attention and be ready to react at any time." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/b77e6c55b5cc> a airo:Evidence ;
+    airo:evidenceText "By contrast, Autopilot and other driver-assist systems are widely used on roads across the world." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/bdc5598b3416> a airo:Evidence ;
+    airo:evidenceText "A judge in California has ruled that the driver of a Tesla Model S on Autopilot involved in the deaths of two motorists must stand trail for manslaughter." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/cb4a6d6b56f6> a airo:Evidence ;
+    airo:evidenceText "Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/d9759d8bf92f> a airo:Evidence ;
+    airo:evidenceText "The defendant appears to be the first person to be charged with a felony in the United States for a fatal crash involving a motorist who was using a partially automated driving system." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/db703d7c69e6> a airo:Evidence ;
+    airo:evidenceText "Tesla owner is the first to face felony charges for deadly Autopilot crash" ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/dec6dd6a79ae> a airo:Evidence ;
+    airo:evidenceText "In 1 crash report, the NTSB referred to its misuse as \"automation complacency.\"" ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/e15201008ac3> a airo:Evidence ;
+    airo:evidenceText "[1539] The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/ffdfa0281c88> a airo:Evidence ;
+    airo:evidenceText "Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/Risk/e491b23e908b> a airo:Risk ;
+    rdfs:label "Risk of fatal crashes due to driver inattention while using driver-assistance systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/355f7e4141c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/445e439ca10d> .
+
+<https://w3id.org/airo/incident/Stakeholder/1a3be3bbdd7a> a airo:Stakeholder ;
+    rdfs:label "Tesla" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/43092cd0037b>,
+        <https://w3id.org/airo/incident/AISystem/a90da2e74182>,
+        <https://w3id.org/airo/incident/AISystem/abca687f3988> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tesla" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/07d5e240fb4c>,
+        <https://w3id.org/airo/incident/evidence/23837fba4baf>,
+        <https://w3id.org/airo/incident/evidence/8eef4d1d4c9a>,
+        <https://w3id.org/airo/incident/evidence/cfeb7f3737f0>,
+        <https://w3id.org/airo/incident/evidence/ee2babbd6197> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/43092cd0037b>,
+        <https://w3id.org/airo/incident/AISystem/a90da2e74182>,
+        <https://w3id.org/airo/incident/AISystem/abca687f3988> .
+
+<https://w3id.org/airo/incident/evidence/355f7e4141c2> a airo:Evidence ;
+    airo:evidenceText "The fatal accident in 2019 occurred when Kevin George Aziz Riad, 27, was driving a Tesla Model S at 74 mph in Gardena, Los Angeles." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/a97fc8ec7524> a airo:Evidence ;
+    airo:evidenceText "California prosecutors have filed two counts of vehicular manslaughter against the driver of a Tesla on Autopilot who ran a red light, slammed into another car and killed two people in 2019." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/af9b11ea6247> a airo:Evidence ;
+    airo:evidenceText "State prosecutors believe there's enough evidence to try Kevin George Aziz Riad, 27, on two felony counts of vehicular manslaughter, each carrying a prison sentence of up to six years in California." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/AISystem/43092cd0037b> a airo:AISystem ;
+    rdfs:label "Tesla Full Self-Driving" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Full Self-Driving" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/840eab7e30a0>,
+        <https://w3id.org/airo/incident/evidence/b6f9d45e9983>,
+        <https://w3id.org/airo/incident/evidence/cfeb7f3737f0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/AISystem/abca687f3988> a airo:AISystem ;
+    rdfs:label "Tesla Autopilot" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:conformsToStandard <https://w3id.org/airo/incident/Standard/aa0cfb6e98df> ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/0a4ac1f5e1a8>,
+        <https://w3id.org/airo/incident/AICapability/5f182a91869c>,
+        <https://w3id.org/airo/incident/AICapability/66a8b687e021>,
+        <https://w3id.org/airo/incident/AICapability/9d0b1cb5bf69>,
+        <https://w3id.org/airo/incident/Purpose/524ddf077b54> ;
+    airo:hasDescription "Autopilot" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09c30db42c64>,
+        <https://w3id.org/airo/incident/evidence/1e9f935bfb8e>,
+        <https://w3id.org/airo/incident/evidence/402d45cb4d97>,
+        <https://w3id.org/airo/incident/evidence/704c7b70d1b7>,
+        <https://w3id.org/airo/incident/evidence/e20d2bfe1af8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 5 ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/2ac5bab72d69>,
+        <https://w3id.org/airo/incident/AITechnique/31cb3ed550e9>,
+        <https://w3id.org/airo/incident/AITechnique/346791e52a6e>,
+        <https://w3id.org/airo/incident/AITechnique/8c0078f4bc72>,
+        <https://w3id.org/airo/incident/AITechnique/a697508e0e25>,
+        <https://w3id.org/airo/incident/AITechnique/f1d105ae65d3> .
+
+<https://w3id.org/airo/incident/evidence/09c30db42c64> a airo:Evidence ;
+    airo:evidenceText "California prosecutors filed two felony charges against the owner of Tesla Model S for a deadly crash in 2019 that involved the vehicle’s Autopilot system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/dc8283be3c91> a airo:Evidence ;
+    airo:evidenceText "Prosecutors said the Tesla's Autopilot features including autosteer and traffic aware cruise control were being used when the driver crashed into the Honda." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/0086307ca2f2> a airo:Evidence ;
+    airo:evidenceText "Riad, a limousine service driver, will now face two charges of vehicular manslaughter, according to charges filed with the California Superior Court." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/0a5851397c86> a airo:Evidence ;
+    airo:evidenceText "Rafaela Vasquez, the driver in the Uber autonomous test vehicle, was charged in 2020 with negligent homicide after the SUV fatally struck a pedestrian in suburban Phoenix in 2018." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/25d91f18c1a6> a airo:Evidence ;
+    airo:evidenceText "According to the LA County District Attorney, the incident took place in Gardena, a suburb of LA, on December 29, 2019." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/265956871f0e> a airo:Evidence ;
+    airo:evidenceText "Donald Slavik, a Colorado lawyer who has served as a consultant in automotive technology lawsuits, including many against Tesla, said he, too, is unaware of any previous felony charges being filed against a U.S. driver who was using partially automated driver technology involved in a fatal crash." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/3c870159a17e> a airo:Evidence ;
+    airo:evidenceText "NHTSA and the National Transportation Safety Board have been reviewing the widespread misuse of Autopilot by drivers, whose overconfidence and inattention have been blamed for multiple crashes, including fatal ones." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/4e4bb98935be> a airo:Evidence ;
+    airo:evidenceText "But this admonition doesn't fully come across in the way that Tesla's CEO, Elon Musk, talks about so-called FSD." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/579953c12db1> a airo:Evidence ;
+    airo:evidenceText "Los Angeles County prosecutors filed the charges in October, but they came to light only last week." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/62fd96a63819> a airo:Evidence ;
+    airo:evidenceText "Bryant Walker Smith, a law professor at the University of South Carolina who studies automated vehicles, said this is the first U.S. case to his knowledge in which serious criminal charges were filed in a fatal crash involving a partially automated driver-assist system." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/6c962c75e5fb> a airo:Evidence ;
+    airo:evidenceText "Last year, the National Highway Traffic Safety Administration opened an investigation into over a dozen incidents involving Tesla vehicles using Autopilot that have crashed into stationary emergency vehicles." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/726f86b1f043> a airo:Evidence ;
+    airo:evidenceText "Los Angeles County prosecutors filed the charges in October, but they came to light only last week." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/7a710bd69319> a airo:Evidence ;
+    airo:evidenceText "Kevin George Aziz Riad, 27, was exiting a highway in his black Model S when he ran through a red light, slamming into a Honda Civic and killing two people." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/87837e6c3320> a airo:Evidence ;
+    airo:evidenceText "But the National Highway Traffic Safety Administration, which sent investigators to the crash, confirmed last week that Autopilot was in use in the Tesla at the time of the crash." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/8daaa733673b> a airo:Evidence ;
+    airo:evidenceText "Authorities in Arizona filed a charge of negligent homicide in 2020 against a driver Uber had hired to take part in the testing of a fully autonomous vehicle on public roads." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/9b504d8e3d81> a airo:Evidence ;
+    airo:evidenceText "Arizona prosecutors declined to file criminal charges against Uber." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/a22a8bd70371> a airo:Evidence ;
+    airo:evidenceText "Donald Slavik, a Colorado lawyer who has served as a consultant in automotive technology lawsuits, including many against Tesla, said he, too, is unaware of any previous felony charges being filed against a U.S. driver who was using partially automated driver technology involved in a fatal crash." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/b6159f30d1a1> a airo:Evidence ;
+    airo:evidenceText "NHTSA and the National Transportation Safety Board have been reviewing the widespread misuse of Autopilot by drivers, whose overconfidence and inattention have been blamed for multiple crashes, including fatal ones." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/d814deaa4e5f> a airo:Evidence ;
+    airo:evidenceText "Authorities in Arizona filed a charge of negligent homicide in 2020 against a driver Uber had hired to take part in the testing of a fully autonomous vehicle on public roads." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/d87fa4e3f32f> a airo:Evidence ;
+    airo:evidenceText "The misuse of Autopilot, which can control steering, speed and braking, has occurred on numerous occasions and is the subject of investigations by two federal agencies." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/e28c8cb61e87> a airo:Evidence ;
+    airo:evidenceText "The driver, Kevin George Aziz Riad, 27, has pleaded not guilty." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/f332c981b411> a airo:Evidence ;
+    airo:evidenceText "Rafaela Vasquez, the driver in the Uber autonomous test vehicle, was charged in 2020 with negligent homicide after the SUV fatally struck a pedestrian in suburban Phoenix in 2018." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/f85194ba6678> a airo:Evidence ;
+    airo:evidenceText "The National Highway Traffic Safety Administration, which sent investigators to the crash, confirmed last week that Autopilot was in use in the Tesla at the time of the crash." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/516849299278> a airo:Evidence ;
+    airo:evidenceText "The National Highway Traffic Safety Administration is examining a dozen crashes that involved Tesla drivers using Autopilot features amid scrutiny over its advanced driver-assistance functions." ;
+    airo:sourceDocId "1539" .
+
+<https://w3id.org/airo/incident/evidence/74c08881e1d1> a airo:Evidence ;
+    airo:evidenceText "Autopilot is considered a Level 2 “partially automated” system by the Society of Automotive Engineers’ standards, which requires that drivers keep their hands on the wheel and eyes on the road." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/8eef4d1d4c9a> a airo:Evidence ;
+    airo:evidenceText "Since the Autopilot crashes began, Tesla has updated the software to try to make it harder for drivers to abuse it." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/23837fba4baf> a airo:Evidence ;
+    airo:evidenceText "Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system (like infrared eye tracking, for example) to ensure its customers are following safety protocols.",
+        "Tesla warns that drivers need to keep their eyes on the road and hands on the wheel at all times, though the automaker has declined to include a more robust driver-monitoring system." ;
+    airo:sourceDocId "9436" .
+
+<https://w3id.org/airo/incident/evidence/5839176d4392> a airo:Evidence ;
+    airo:evidenceText "2 people who were in the Civic, Gilberto Alcazar Lopez and Maria Guadalupe Nieves-Lopez died at the scene." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/5996d2f9887e> a airo:Evidence ;
+    airo:evidenceText "State prosecutors believe there's enough evidence to try Kevin George Aziz Riad, 27, on two felony counts of vehicular manslaughter, each carrying a prison sentence of up to six years in California." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/a998cf72033c> a airo:Evidence ;
+    airo:evidenceText "2 people who were in the Civic, Gilberto Alcazar Lopez and Maria Guadalupe Nieves-Lopez died at the scene." ;
+    airo:sourceDocId "1322" .
+
+<https://w3id.org/airo/incident/evidence/c63f02acc064> a airo:Evidence ;
+    airo:evidenceText "Bryant Walker Smith, a law professor at the University of South Carolina who studies automated vehicles, said this is the first U.S. case to his knowledge in which serious criminal charges were filed in a fatal crash involving a partially automated driver-assist system." ;
+    airo:sourceDocId "9435" .
+
+<https://w3id.org/airo/incident/evidence/cfeb7f3737f0> a airo:Evidence ;
+    airo:evidenceText "Tesla's official reply in such cases is that Autopilot and its \"Full Self-Driving\" systems can't drive themselves, so drivers have to be prepared to retake control of their cars at any time." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/evidence/e61e488114fb> a airo:Evidence ;
+    airo:evidenceText "It has prompted Congress and NHTSA to look into autonomous vehicle systems in the U.S., while lawmakers abroad try to agree on regulations, too." ;
+    airo:sourceDocId "9552" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_343> a airo:AIRiskIncident ;
+    rdfs:label "California Prosecutors File Felony Charges Against Tesla Autopilot Driver" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/445e439ca10d> ;
+    airo:hasDescription "pred_343" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/0143a3a8c713>,
+        <https://w3id.org/airo/incident/Domain/0c3a77cb8e10>,
+        <https://w3id.org/airo/incident/evidence/814814760b51>,
+        <https://w3id.org/airo/incident/evidence/81877b84eb35>,
+        <https://w3id.org/airo/incident/evidence/93b1aa72da76>,
+        <https://w3id.org/airo/incident/evidence/f56a379681ce>,
+        <https://w3id.org/airo/incident/evidence/f655c1e4f955> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/2de0a28b84fc> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1322>,
+        <https://w3id.org/airo/incident/NewsReport/1539>,
+        <https://w3id.org/airo/incident/NewsReport/9435>,
+        <https://w3id.org/airo/incident/NewsReport/9436>,
+        <https://w3id.org/airo/incident/NewsReport/9552> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/e491b23e908b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1322>,
+        <https://w3id.org/airo/incident/document/1539>,
+        <https://w3id.org/airo/incident/document/9435>,
+        <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/43092cd0037b>,
+        <https://w3id.org/airo/incident/AISystem/a90da2e74182>,
+        <https://w3id.org/airo/incident/AISystem/abca687f3988> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/01142691b043>,
+        <https://w3id.org/airo/incident/Stakeholder/05d7effbdc82>,
+        <https://w3id.org/airo/incident/Stakeholder/118fcea73c63>,
+        <https://w3id.org/airo/incident/Stakeholder/1a3be3bbdd7a>,
+        <https://w3id.org/airo/incident/Stakeholder/2fe194eb3edd>,
+        <https://w3id.org/airo/incident/Stakeholder/61e0a5bf62b7>,
+        <https://w3id.org/airo/incident/Stakeholder/6d4b92e23961>,
+        <https://w3id.org/airo/incident/Stakeholder/79f4c855cc76>,
+        <https://w3id.org/airo/incident/Stakeholder/868be90ad1e3>,
+        <https://w3id.org/airo/incident/Stakeholder/99b5d25f6c10>,
+        <https://w3id.org/airo/incident/Stakeholder/9a8bc05d12f4>,
+        <https://w3id.org/airo/incident/Stakeholder/9f2084f91c0b>,
+        <https://w3id.org/airo/incident/Stakeholder/b08001c715a8>,
+        <https://w3id.org/airo/incident/Stakeholder/b52d0654f4b6>,
+        <https://w3id.org/airo/incident/Stakeholder/b838cd01aeba>,
+        <https://w3id.org/airo/incident/Stakeholder/bcfd53a565e4>,
+        <https://w3id.org/airo/incident/Stakeholder/bf31b1af72de>,
+        <https://w3id.org/airo/incident/Stakeholder/c3abf37a40fe>,
+        <https://w3id.org/airo/incident/Stakeholder/d81d04c08621>,
+        <https://w3id.org/airo/incident/Stakeholder/e335921954fa>,
+        <https://w3id.org/airo/incident/Stakeholder/e71b5e000a86> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/589736c6c289> ;
+    airo:specifies <https://w3id.org/airo/incident/Standard/aa0cfb6e98df> .
+
+<https://w3id.org/airo/incident/AISystem/a90da2e74182> a airo:AISystem ;
+    rdfs:label "Tesla Model S" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tesla Model S" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09c30db42c64>,
+        <https://w3id.org/airo/incident/evidence/bdc5598b3416> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9436>,
+        <https://w3id.org/airo/incident/document/9552> ;
+    airo:hasSupportCount 2 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/cbae72db7da8> .
+

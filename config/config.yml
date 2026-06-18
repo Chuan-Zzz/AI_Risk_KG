@@ -1,0 +1,68 @@
+# AI Risk Knowledge Graph Configuration
+
+# LLM 配置
+llm:
+  primary:
+    provider: openai
+    model: glm-5.1
+    base_url: https://api.meai.cloud/v1
+    api_key: ${LLM_API_KEY}
+    temperature: null
+    max_tokens: null
+
+# 嵌入模型配置
+embedding:
+  model: D:/model/bge-m3  # 本地 bge-m3 模型
+  dimension: 1024
+  device: cpu  # 或 cuda
+  batch_size: 32
+
+# Neo4j 配置
+neo4j:
+  uri: ${NEO4J_URI}
+  user: ${NEO4J_USER}
+  password: ${NEO4J_PASSWORD}
+  database: kgclean
+
+# 实体对齐配置
+alignment:
+  similarity_threshold: 0.8  # 混合对齐阈值
+  llm_verify_top_k: 3  # LLM 验证最多候选对数
+  early_stopping_threshold: 0.7  # 低于此值直接跳过，不进入 LLM 验证
+  cross_event_threshold: 0.85  # 跨事件实体对齐阈值（更严格）
+
+  # 混合对齐配置（语义 + BM25）
+  use_hybrid: true  # 启用混合模式（false = 纯语义）
+  semantic_weight: 0.6  # 语义相似度权重
+  bm25_weight: 0.4  # BM25 关键词匹配权重
+  exact_match_bonus: 0.3  # 精确匹配奖励
+  bm25_k1: 1.5  # BM25 词频饱和参数
+  bm25_b: 0.75  # BM25 文档长度归一化
+
+# 本体验证配置
+validation:
+  max_refine_iterations: 3  # Self-Refine 最大迭代次数
+  strict_mode: true  # 严格模式：只保留完全符合本体的三元组
+
+# 抽取配置
+extraction:
+  batch_size: 10  # 批量抽取大小
+  parallel_workers: 15  # 并行工作数
+
+# 路径配置
+paths:
+  base_dir: .
+  data_dir: data
+  output_dir: output
+  config_dir: config
+
+# 功能开关
+features:
+  augmentation: false  # 知识增强（爬取外部信息）- 默认关闭以节省成本
+  visualization: true  # 可视化
+  incremental_build: true  # 增量构建模式
+
+# RAG 配置
+rag:
+  top_k: 5  # 检索返回数量
+  hops: 2  # 图遍历跳数

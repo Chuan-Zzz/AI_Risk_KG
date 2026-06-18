@@ -1,0 +1,1250 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/04b70738aefb> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5268> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268> .
+
+<https://w3id.org/airo/incident/InformationSource/1b07fce3862a> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/571>,
+        <https://w3id.org/airo/incident/NewsReport/572>,
+        <https://w3id.org/airo/incident/NewsReport/575>,
+        <https://w3id.org/airo/incident/NewsReport/576>,
+        <https://w3id.org/airo/incident/NewsReport/577>,
+        <https://w3id.org/airo/incident/NewsReport/578>,
+        <https://w3id.org/airo/incident/NewsReport/579>,
+        <https://w3id.org/airo/incident/NewsReport/580> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/571>,
+        <https://w3id.org/airo/incident/document/572>,
+        <https://w3id.org/airo/incident/document/575>,
+        <https://w3id.org/airo/incident/document/576>,
+        <https://w3id.org/airo/incident/document/577>,
+        <https://w3id.org/airo/incident/document/578>,
+        <https://w3id.org/airo/incident/document/579>,
+        <https://w3id.org/airo/incident/document/580> .
+
+<https://w3id.org/airo/incident/RiskControl/eb892b07b72e> a airo:RiskControl ;
+    rdfs:label "Developer intervention to strip the flawed AI feature pending a fix" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953095b1d522> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/578> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/830fcd57cedd> .
+
+<https://w3id.org/airo/incident/RoleAssignment/05ec7613324c> a airo:RoleAssignment ;
+    rdfs:label "Frontier Developments_AIDeveloper" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/764be0cbdc3c> ;
+    airo:hasReasoning "Frontier Developments created and developed the game and its AI systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/577> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/97287b39b912> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/58ae4e9555db> .
+
+<https://w3id.org/airo/incident/RoleAssignment/89dfba38ae4d> a airo:RoleAssignment ;
+    rdfs:label "Zac Antonaci_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4fa8a504a457> ;
+    airo:hasReasoning "As an employee (head of community) of the developer, Zac Antonaci is part of the organization deploying the AI system to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/572> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5d1d911ac2c7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/58ae4e9555db> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ea03b282e511> a airo:RoleAssignment ;
+    rdfs:label "Frontier Developments_AIProvider" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5b25f258920> ;
+    airo:hasReasoning "Frontier Developments releases and provides the game (containing the AI) to the public/players." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/97287b39b912> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/58ae4e9555db> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f16539e6813d> a airo:RoleAssignment ;
+    rdfs:label "The Pilots Federation_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/78dfdfaf423a> ;
+    airo:hasReasoning "The Pilots Federation is the in-game organization of players; they are the ones whose ships were destroyed by the overpowered AI, making them the affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/578> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9e3c7025ff2c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/58ae4e9555db> .
+
+<https://w3id.org/airo/incident/event/pred_92> a airo:AIRiskIncident ;
+    airo:firstSeen "2016-06-02T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 9 ;
+    airo:lastSeen "2016-06-10T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00ffd80078be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/017cdaea4f9c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3ed6ef94efd> .
+
+<https://w3id.org/airo/incident/ks/02c88532f956> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb2677e5af2a> .
+
+<https://w3id.org/airo/incident/ks/0758c459ae96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1733f612ba5> .
+
+<https://w3id.org/airo/incident/ks/082495377759> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/090d651a4fab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953095b1d522> .
+
+<https://w3id.org/airo/incident/ks/0c6ad2f54bc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4cbc48efa36> .
+
+<https://w3id.org/airo/incident/ks/12ee261c8270> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84b02a71f72b> .
+
+<https://w3id.org/airo/incident/ks/1325683e7fd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/47cf93d5f53a> .
+
+<https://w3id.org/airo/incident/ks/133ef36b271d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/1c3549371c94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/1c6d15e907a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2ec50b5c3bb> .
+
+<https://w3id.org/airo/incident/ks/223ef78c3cd0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e80bd5de548> .
+
+<https://w3id.org/airo/incident/ks/233d397a03c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/2731055fa5bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d09aecb7c06c> .
+
+<https://w3id.org/airo/incident/ks/27a1f5576207> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/32c46c1abe5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f63dc8e01ca2> .
+
+<https://w3id.org/airo/incident/ks/3465220a60b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fe37653a018> .
+
+<https://w3id.org/airo/incident/ks/34f7f71d3799> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22a64b2db5a3> .
+
+<https://w3id.org/airo/incident/ks/354709f758a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/3595ffe435cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ff03aa50a8a> .
+
+<https://w3id.org/airo/incident/ks/38cc0fd581d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/3caa1ca2dab1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f63dc8e01ca2> .
+
+<https://w3id.org/airo/incident/ks/3e1e48ea66b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a675209bc01c> .
+
+<https://w3id.org/airo/incident/ks/3fa77d11fc1c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/494ac1298e56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da3f7caf3f44> .
+
+<https://w3id.org/airo/incident/ks/4973662fb7b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e80bd5de548> .
+
+<https://w3id.org/airo/incident/ks/4ad41ff56988> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fb731c1222d> .
+
+<https://w3id.org/airo/incident/ks/4bcceb30426d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90525fa7b2b0> .
+
+<https://w3id.org/airo/incident/ks/4bf9e7997b00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9347da329df1> .
+
+<https://w3id.org/airo/incident/ks/50832701d672> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d29eb9c08ea3> .
+
+<https://w3id.org/airo/incident/ks/54d3686da93a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59f8770400e6> .
+
+<https://w3id.org/airo/incident/ks/636e556f0036> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/638a3afa0431> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41a715851619> .
+
+<https://w3id.org/airo/incident/ks/638d4644d130> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/996e2b586c2a> .
+
+<https://w3id.org/airo/incident/ks/64bee4b4b5cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44ae6d956421> .
+
+<https://w3id.org/airo/incident/ks/6792178974df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fefc563f7947> .
+
+<https://w3id.org/airo/incident/ks/6d0e9623ccb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4cbc48efa36> .
+
+<https://w3id.org/airo/incident/ks/7037f233e642> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39b814da5589> .
+
+<https://w3id.org/airo/incident/ks/711fe28f9ce0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ece1eae1c609> .
+
+<https://w3id.org/airo/incident/ks/780c03adadf7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eb3bf23010ae> .
+
+<https://w3id.org/airo/incident/ks/78a0a5503628> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/80cda584a1bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/112de28ce09d> .
+
+<https://w3id.org/airo/incident/ks/844bf6a23199> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/467fe8b0ac50> .
+
+<https://w3id.org/airo/incident/ks/8a97143149b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03b1887bbad5> .
+
+<https://w3id.org/airo/incident/ks/8bef1f47a3c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/8ed20df11860> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16f3ff59beda> .
+
+<https://w3id.org/airo/incident/ks/8f72cca486eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87abfc72dbde> .
+
+<https://w3id.org/airo/incident/ks/90bb08ea0605> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb2677e5af2a> .
+
+<https://w3id.org/airo/incident/ks/957ada7f1d73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/961f8bb140eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc239003acef> .
+
+<https://w3id.org/airo/incident/ks/9678bf698247> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22a64b2db5a3> .
+
+<https://w3id.org/airo/incident/ks/97562700fb7a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/9a4d3363d9f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/9af96b61c3c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb2677e5af2a> .
+
+<https://w3id.org/airo/incident/ks/9c73b77185df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4660888941fe> .
+
+<https://w3id.org/airo/incident/ks/a0bba1bcb5ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c26c9f5cc51b> .
+
+<https://w3id.org/airo/incident/ks/a0f957fbe15e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7d0e856ab51> .
+
+<https://w3id.org/airo/incident/ks/a14ace20ad61> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e80bd5de548> .
+
+<https://w3id.org/airo/incident/ks/a18061728b65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31c4f9a01755> .
+
+<https://w3id.org/airo/incident/ks/a2defb7c016f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03b1887bbad5> .
+
+<https://w3id.org/airo/incident/ks/a475beb8f3e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/aa65c2e26e58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc239003acef> .
+
+<https://w3id.org/airo/incident/ks/aadb3679319d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e80bd5de548> .
+
+<https://w3id.org/airo/incident/ks/ae08f8c4d4ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4660888941fe> .
+
+<https://w3id.org/airo/incident/ks/b4a88f910edc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16f3ff59beda> .
+
+<https://w3id.org/airo/incident/ks/b75f4b92296e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2926bd3e4a81> .
+
+<https://w3id.org/airo/incident/ks/ba8681255b23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52ce59b368d8> .
+
+<https://w3id.org/airo/incident/ks/bc83aff188bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/bd17a27c07e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/c1283986a97d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3d846faa66f> .
+
+<https://w3id.org/airo/incident/ks/c39638ec6834> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c92b7b74e8c0> .
+
+<https://w3id.org/airo/incident/ks/c925e13c964e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/201113354995> .
+
+<https://w3id.org/airo/incident/ks/cbdf669e57bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4158e9842a9c> .
+
+<https://w3id.org/airo/incident/ks/cc0d8a4897f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56eb93006af9> .
+
+<https://w3id.org/airo/incident/ks/cc8f41150643> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8a62bd8bebc> .
+
+<https://w3id.org/airo/incident/ks/cd07cfb7ed10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb2677e5af2a> .
+
+<https://w3id.org/airo/incident/ks/d3173bd32fed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb2f9fd91dad> .
+
+<https://w3id.org/airo/incident/ks/d932a02e35d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/753bfcaf3651> .
+
+<https://w3id.org/airo/incident/ks/dbee00cf4acc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc239003acef> .
+
+<https://w3id.org/airo/incident/ks/dda602ce353f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45de5e8294b3> .
+
+<https://w3id.org/airo/incident/ks/dee7f4d53e0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc239003acef> .
+
+<https://w3id.org/airo/incident/ks/e47e59cb43a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7d0e856ab51> .
+
+<https://w3id.org/airo/incident/ks/e7964b9e6a8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bf68ceadf3b> .
+
+<https://w3id.org/airo/incident/ks/e846d99b2713> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4cbc48efa36> .
+
+<https://w3id.org/airo/incident/ks/e9b78fbb7aad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8557dfbf5e5c> .
+
+<https://w3id.org/airo/incident/ks/eac18effb151> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c4cbc48efa36> .
+
+<https://w3id.org/airo/incident/ks/eb0f2024f98b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/017cf4fba9e2> .
+
+<https://w3id.org/airo/incident/ks/ed6cd8159e83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/281848a4b301> .
+
+<https://w3id.org/airo/incident/ks/eeee6b0e1b4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16c3deded879> .
+
+<https://w3id.org/airo/incident/ks/fe063d1689d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/848eceac4d53> .
+
+<https://w3id.org/airo/incident/ks/ffff8a0412f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7edf777621a7> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/239ce44fdcf4> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8557dfbf5e5c> ;
+    airo:hasReasoning "The risk occurred after a game update (patch) was released and deployed to players, indicating the system was already in use." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/575> .
+
+<https://w3id.org/airo/incident/AITechnique/b8004db1b0f9> a airo:AITechnique ;
+    rdfs:label "networking issue" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "networking issue" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90525fa7b2b0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/571> .
+
+<https://w3id.org/airo/incident/AITechnique/d23aae816f76> a airo:AITechnique ;
+    rdfs:label "crafting" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "crafting" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2ec50b5c3bb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/571> .
+
+<https://w3id.org/airo/incident/AffectedActor/5b188d1a402d> a airo:AffectedActor ;
+    rdfs:label "Players of Elite: Dangerous" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2926bd3e4a81> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/579> .
+
+<https://w3id.org/airo/incident/Domain/b32218e5b773> a airo:Domain ;
+    rdfs:label "entertainment" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4158e9842a9c> ;
+    airo:hasReasoning "The AI system is part of a video game, which falls under the entertainment domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268> .
+
+<https://w3id.org/airo/incident/Hazard/e842e9d8bcf1> a airo:Hazard ;
+    rdfs:label "Unintended AI behavior leading to in-game combat imbalance" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59f8770400e6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/578> .
+
+<https://w3id.org/airo/incident/Purpose/1f1c89fc8129> a airo:Purpose ;
+    rdfs:label "game enemy AI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fefc563f7947> ;
+    airo:hasReasoning "The AI system (NPC AI) is part of a game and controls non-player characters (spaceships) that act as opponents to human players." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/580> .
+
+<https://w3id.org/airo/incident/RiskSource/5e091448d865> a airo:RiskSource ;
+    rdfs:label "Networking bug in AI update causing unintended weapon stat merging" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/830fcd57cedd> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ece1eae1c609> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/e842e9d8bcf1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/572> .
+
+<https://w3id.org/airo/incident/Stakeholder/76550b3ddf7e> a airo:Stakeholder ;
+    rdfs:label "Elite: Dangerous Developers" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the developers" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/52ce59b368d8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/578> .
+
+<https://w3id.org/airo/incident/Stakeholder/d3f3ea0ef0de> a airo:Stakeholder ;
+    rdfs:label "NPC spaceships" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NPC spaceships" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/848eceac4d53> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/Vulnerability/aefa294f7d3b> a airo:Vulnerability ;
+    rdfs:label "Flaw in networking code enabling unintended AI data merging" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fe37653a018> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/evidence/1c788d1e0e6f> a airo:Evidence ;
+    airo:evidenceText "As Frontier's Head of Community Management Zac Antonaci explained, the AI was able to create incredibly powerful weapons that shouldn't actually exist in the game." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/2042706a027b> a airo:Evidence ;
+    airo:evidenceText "A bug in Elite Dangerous caused the game's AI to create super weapons and start to hunt down the game's players." ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/2b6c67d3e92a> a airo:Evidence ;
+    airo:evidenceText "\"We don't think the AI became sentient in a Skynet-style uprising!\" Zac Antonaci, Frontier's head of community management, said." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/31c4f9a01755> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/3a550d60b3ed> a airo:Evidence ;
+    airo:evidenceText "Developer Frontier has had to strip out the feature at the heart of the problem, engineers' weaponry, until the issue is fixed." ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/41a715851619> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/444922d86bdc> a airo:Evidence ;
+    airo:evidenceText "VR compatible space sim Elite Dangerous is no stranger to updates, but its most recent one did introduce the strangest of bugs." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/45de5e8294b3> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/467367d72f5e> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/467fe8b0ac50> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/47cf93d5f53a> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/4a1a350a5b6b> a airo:Evidence ;
+    airo:evidenceText "\"We don't think the AI became sentient in a Skynet-style uprising!\" - Frontier Developments' Zac Antonaci." ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/evidence/4fa8a504a457> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/764be0cbdc3c> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/78dfdfaf423a> a airo:Evidence ;
+    airo:evidenceText "[578] The most recent Elite: Dangerous patch had some issues, starting with the fact that AI ships were rocking impossibly powerful weapons that would destroy player ships with speed and fury." ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/7b010fa97c35> a airo:Evidence ;
+    airo:evidenceText "Elite Dangerous has been patched to prevent rogue NPCs developing their own hybrid superweapons." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/7edf777621a7> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/827b792388d3> a airo:Evidence ;
+    airo:evidenceText "Apparently a bug in the game Elite Dangerous has caused its AI to not only develop its own weapons, but to use those tools to start totally destroying the players." ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/evidence/84b02a71f72b> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/890f18c319a5> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/8b0c018fc9cb> a airo:Evidence ;
+    airo:evidenceText "Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/8eb99f9a7d99> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/8ff03aa50a8a> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/9347da329df1> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/996e2b586c2a> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/a120659fea5b> a airo:Evidence ;
+    airo:evidenceText "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here" ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/a5b25f258920> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/ab037dc944e9> a airo:Evidence ;
+    airo:evidenceText "Sarah Connor would be horrified to see what Elite Dangerous's AI has been getting up to." ;
+    airo:sourceDocId "579" .
+
+<https://w3id.org/airo/incident/evidence/b74c38057394> a airo:Evidence ;
+    airo:evidenceText "Elite Dangerous patch stops AI developing WMDs" ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/c92b7b74e8c0> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/cd376555a1a0> a airo:Evidence ;
+    airo:evidenceText "According to a post on the Frontier forum, the developer believes The Engineers shipped with a networking issue that let the NPC AI merge weapon stats and abilities, thus causing unusual weapon attacks." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/d09aecb7c06c> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/d29eb9c08ea3> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/da3f7caf3f44> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/e327414fbf19> a airo:Evidence ;
+    airo:evidenceText "But 1 of the unintended consequences was it made AI spaceships incredibly powerful - so powerful, in fact, that developer Frontier was forced to strip them of their upgraded weapons." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/eb3bf23010ae> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/f1733f612ba5> a airo:Evidence ;
+    airo:evidenceText "[572] It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities, writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/fb2f9fd91dad> a airo:Evidence ;
+    airo:evidenceText "[577] Creator Frontier Developments recently introduced its 2.1 Engineers update to the popular game, bringing improved AI with it." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/ff4b4a5ed26f> a airo:Evidence ;
+    airo:evidenceText "Bug In Video Game Makes AI Go Rogue, Starts Totally Destroying Players" ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/AIModel/9c578e6b0549> a airo:AIModel ;
+    rdfs:label "NPC AI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NPC AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd376555a1a0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/Consequence/293833cc4b41> a airo:Consequence ;
+    rdfs:label "AI-controlled ships became disproportionately powerful and aggressive" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7d0e856ab51> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/580> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/ef85aac34fb3> .
+
+<https://w3id.org/airo/incident/Impact/ef85aac34fb3> a airo:Impact ;
+    rdfs:label "Negative player experience and disruption of intended game balance" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/5b188d1a402d> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16f3ff59beda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/580> .
+
+<https://w3id.org/airo/incident/NewsReport/5268> a airo:NewsReport ;
+    rdfs:label "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elite: Dangerous recently revamped with the release of a big new expansion. But one of the unintended consequences was it made AI spaceships incredibly powerful - so powerful, in fact, that developer " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/281848a4b301> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268> .
+
+<https://w3id.org/airo/incident/NewsReport/571> a airo:NewsReport ;
+    rdfs:label "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A bug in Elite Dangerous caused the game's AI to create super weapons and start to hunt down the game's players. Developer Frontier has had to strip out the feature at the heart of the problem, engine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/112de28ce09d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/571> .
+
+<https://w3id.org/airo/incident/NewsReport/572> a airo:NewsReport ;
+    rdfs:label "Elite Dangerous patch stops AI developing WMDs" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elite Dangerous has been patched to prevent rogue NPCs developing their own hybrid superweapons. To be clear, these weren't weapons they were crafting from recipes—the AI was building entirely new WMD" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/39b814da5589> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/572> .
+
+<https://w3id.org/airo/incident/NewsReport/575> a airo:NewsReport ;
+    rdfs:label "Bug In Video Game Makes AI Go Rogue, Starts Totally Destroying Players" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Is Skynet Real?
+
+Remember that moment in the movie Terminator when Skynet’s AI turned on humanity? Well, we’re getting a taste of it now. Apparently a bug in the game Elite Dangerous has caused its AI""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56eb93006af9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/575> .
+
+<https://w3id.org/airo/incident/NewsReport/576> a airo:NewsReport ;
+    rdfs:label "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elite: Dangerous recently revamped with the release of a big new expansion. But one of the unintended consequences was it made AI spaceships incredibly powerful - so powerful, in fact, that developer " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3ed6ef94efd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/NewsReport/577> a airo:NewsReport ;
+    rdfs:label "Elite's New AI is So Clever it Built Weapons that Shouldn't Exist" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """VR compatible space sim Elite Dangerous is no stranger to updates, but its most recent one did introduce the strangest of bugs.
+
+Creator Frontier Developments recently introduced its 2.1 Engineers upd""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/753bfcaf3651> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/577> .
+
+<https://w3id.org/airo/incident/NewsReport/578> a airo:NewsReport ;
+    rdfs:label "Elite: Dangerous identifies issues with AI superweapons in the game" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The most recent Elite: Dangerous patch had some issues, starting with the fact that AI ships were rocking impossibly powerful weapons that would destroy player ships with speed and fury. It was kind o" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16c3deded879> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/578> .
+
+<https://w3id.org/airo/incident/NewsReport/579> a airo:NewsReport ;
+    rdfs:label "Elite's AI created super weapons to hunt down players" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Sarah Connor would be horrified to see what Elite Dangerous's AI has been getting up to.
+
+A bug in Frontier Developments' game has caused the AI to create super weapons and hunt down players, followin""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3d846faa66f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/579> .
+
+<https://w3id.org/airo/incident/NewsReport/580> a airo:NewsReport ;
+    rdfs:label "Frontier inadvertently drives Elite: Dangerous AI to create superweapons" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """"We don’t think the AI became sentient in a Skynet-style uprising!"
+
+- Frontier Developments' Zac Antonaci.
+
+A recent upgrade of the artificial intelligences in Frontier Developments' multiplayer spac""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/017cf4fba9e2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/580> .
+
+<https://w3id.org/airo/incident/Regulation/961a3c09345b> a airo:Regulation ;
+    rdfs:label "2.1 Engineers update" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "2.1 Engineers update" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03b1887bbad5>,
+        <https://w3id.org/airo/incident/evidence/22a64b2db5a3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/571>,
+        <https://w3id.org/airo/incident/document/579> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/5d1d911ac2c7> a airo:Stakeholder ;
+    rdfs:label "Zac Antonaci" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/03a4a68fd944>,
+        <https://w3id.org/airo/incident/AISystem/1edddae04f34>,
+        <https://w3id.org/airo/incident/AISystem/58ae4e9555db>,
+        <https://w3id.org/airo/incident/AISystem/7492f8cf2471>,
+        <https://w3id.org/airo/incident/AISystem/92e89286af94> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Zac Antonaci" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c788d1e0e6f>,
+        <https://w3id.org/airo/incident/evidence/2b6c67d3e92a>,
+        <https://w3id.org/airo/incident/evidence/4a1a350a5b6b>,
+        <https://w3id.org/airo/incident/evidence/c4cbc48efa36>,
+        <https://w3id.org/airo/incident/evidence/cc239003acef>,
+        <https://w3id.org/airo/incident/evidence/fb2677e5af2a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268>,
+        <https://w3id.org/airo/incident/document/572>,
+        <https://w3id.org/airo/incident/document/575>,
+        <https://w3id.org/airo/incident/document/576>,
+        <https://w3id.org/airo/incident/document/577>,
+        <https://w3id.org/airo/incident/document/580> ;
+    airo:hasSupportCount 6 .
+
+<https://w3id.org/airo/incident/Stakeholder/9e3c7025ff2c> a airo:Stakeholder ;
+    rdfs:label "The Pilots Federation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Pilots Federation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e80bd5de548> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/evidence/017cf4fba9e2> a airo:Evidence ;
+    airo:evidenceText "Frontier inadvertently drives Elite: Dangerous AI to create superweapons" ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/evidence/112de28ce09d> a airo:Evidence ;
+    airo:evidenceText "Elite's AI Created Super Weapons and Started Hunting Players. Skynet is Here" ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/16c3deded879> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous identifies issues with AI superweapons in the game" ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/201113354995> a airo:Evidence ;
+    airo:evidenceText "An Xbox 1 version of the game is also available but obviously doesn't support VR." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/281848a4b301> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/2926bd3e4a81> a airo:Evidence ;
+    airo:evidenceText "[579] A bug in Frontier Developments' game has caused the AI to create super weapons and hunt down players" ;
+    airo:sourceDocId "579" .
+
+<https://w3id.org/airo/incident/evidence/39b814da5589> a airo:Evidence ;
+    airo:evidenceText "Elite Dangerous patch stops AI developing WMDs" ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/4158e9842a9c> a airo:Evidence ;
+    airo:evidenceText "[5268] Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/44ae6d956421> a airo:Evidence ;
+    airo:evidenceText "The Engineers (2.1) expansion made key changes to the space game's AI and NPCs." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/52ce59b368d8> a airo:Evidence ;
+    airo:evidenceText "Removing modifications from NPC weapons was a quick fix, but it looks like the developers have identified the core problem and will be fixing it by early next week." ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/56eb93006af9> a airo:Evidence ;
+    airo:evidenceText "Bug In Video Game Makes AI Go Rogue, Starts Totally Destroying Players" ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/evidence/59f8770400e6> a airo:Evidence ;
+    airo:evidenceText "[578] The most recent Elite: Dangerous patch had some issues, starting with the fact that AI ships were rocking impossibly powerful weapons that would destroy player ships with speed and fury." ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/5fb731c1222d> a airo:Evidence ;
+    airo:evidenceText "The most recent Elite: Dangerous patch had some issues, starting with the fact that AI ships were rocking impossibly powerful weapons that would destroy player ships with speed and fury." ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/6fe37653a018> a airo:Evidence ;
+    airo:evidenceText "[576] According to a post on the Frontier forum, the developer believes The Engineers shipped with a networking issue that let the NPC AI merge weapon stats and abilities, thus causing unusual weapon attacks." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/753bfcaf3651> a airo:Evidence ;
+    airo:evidenceText "Elite's New AI is So Clever it Built Weapons that Shouldn't Exist" ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/848eceac4d53> a airo:Evidence ;
+    airo:evidenceText "Players have found post-The Engineers, NPC spaceships try to do this to human controlled players much more often." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/8557dfbf5e5c> a airo:Evidence ;
+    airo:evidenceText "[575] The entire situation began after an update was released by Developer Frontier—2.1 Engineers." ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/evidence/87abfc72dbde> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous recently revamped with the release of a big new expansion." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/90525fa7b2b0> a airo:Evidence ;
+    airo:evidenceText "It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities." ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/953095b1d522> a airo:Evidence ;
+    airo:evidenceText "[578] Removing modifications from NPC weapons was a quick fix, but it looks like the developers have identified the core problem and will be fixing it by early next week." ;
+    airo:sourceDocId "578" .
+
+<https://w3id.org/airo/incident/evidence/a3d846faa66f> a airo:Evidence ;
+    airo:evidenceText "Elite's AI created super weapons to hunt down players" ;
+    airo:sourceDocId "579" .
+
+<https://w3id.org/airo/incident/evidence/c2ec50b5c3bb> a airo:Evidence ;
+    airo:evidenceText "The AI also had access to one of 2.1's big features: crafting." ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/c3ed6ef94efd> a airo:Evidence ;
+    airo:evidenceText "Elite: Dangerous' latest expansion caused AI spaceships to unintentionally create super weapons" ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/ece1eae1c609> a airo:Evidence ;
+    airo:evidenceText "[572] \"It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities.\"" ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/fefc563f7947> a airo:Evidence ;
+    airo:evidenceText "[580] A recent upgrade of the artificial intelligences in Frontier Developments' multiplayer space sim Elite: Dangerous went a little too well, driving players to complain that the games' NPCs have become too powerful." ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/Risk/830fcd57cedd> a airo:Risk ;
+    rdfs:label "Risk of AI creating overpowered and unintended weapon capabilities" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f63dc8e01ca2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/579> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/293833cc4b41> .
+
+<https://w3id.org/airo/incident/Stakeholder/97287b39b912> a airo:Stakeholder ;
+    rdfs:label "Frontier Developments" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AIModel/9c578e6b0549>,
+        <https://w3id.org/airo/incident/AISystem/03a4a68fd944>,
+        <https://w3id.org/airo/incident/AISystem/1edddae04f34>,
+        <https://w3id.org/airo/incident/AISystem/58ae4e9555db>,
+        <https://w3id.org/airo/incident/AISystem/7492f8cf2471>,
+        <https://w3id.org/airo/incident/AISystem/92e89286af94> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Frontier" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/22a64b2db5a3>,
+        <https://w3id.org/airo/incident/evidence/3a550d60b3ed>,
+        <https://w3id.org/airo/incident/evidence/7bf68ceadf3b>,
+        <https://w3id.org/airo/incident/evidence/8b0c018fc9cb>,
+        <https://w3id.org/airo/incident/evidence/a675209bc01c>,
+        <https://w3id.org/airo/incident/evidence/a8a62bd8bebc>,
+        <https://w3id.org/airo/incident/evidence/c26c9f5cc51b>,
+        <https://w3id.org/airo/incident/evidence/e327414fbf19> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268>,
+        <https://w3id.org/airo/incident/document/571>,
+        <https://w3id.org/airo/incident/document/572>,
+        <https://w3id.org/airo/incident/document/575>,
+        <https://w3id.org/airo/incident/document/576>,
+        <https://w3id.org/airo/incident/document/577>,
+        <https://w3id.org/airo/incident/document/579>,
+        <https://w3id.org/airo/incident/document/580> ;
+    airo:hasSupportCount 8 ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/9c578e6b0549>,
+        <https://w3id.org/airo/incident/AISystem/03a4a68fd944>,
+        <https://w3id.org/airo/incident/AISystem/1edddae04f34>,
+        <https://w3id.org/airo/incident/AISystem/58ae4e9555db>,
+        <https://w3id.org/airo/incident/AISystem/7492f8cf2471>,
+        <https://w3id.org/airo/incident/AISystem/92e89286af94> .
+
+<https://w3id.org/airo/incident/evidence/03b1887bbad5> a airo:Evidence ;
+    airo:evidenceText "It all started after Frontier released the 2.1 Engineers update." ;
+    airo:sourceDocId "571" .
+
+<https://w3id.org/airo/incident/evidence/16f3ff59beda> a airo:Evidence ;
+    airo:evidenceText "[580] A recent upgrade of the artificial intelligences in Frontier Developments' multiplayer space sim Elite: Dangerous went a little too well, driving players to complain that the games' NPCs have become too powerful." ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/evidence/a675209bc01c> a airo:Evidence ;
+    airo:evidenceText "A recent upgrade of the artificial intelligences in Frontier Developments' multiplayer space sim Elite: Dangerous went a little too well, driving players to complain that the games' NPCs have become too powerful." ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/evidence/e7d0e856ab51> a airo:Evidence ;
+    airo:evidenceText "[580] A recent upgrade of the artificial intelligences in Frontier Developments' multiplayer space sim Elite: Dangerous went a little too well, driving players to complain that the games' NPCs have become too powerful." ;
+    airo:sourceDocId "580" .
+
+<https://w3id.org/airo/incident/evidence/f63dc8e01ca2> a airo:Evidence ;
+    airo:evidenceText "[579] A bug in Frontier Developments' game has caused the AI to create super weapons and hunt down players" ;
+    airo:sourceDocId "579" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_92> a airo:AIRiskIncident ;
+    rdfs:label "Elite Dangerous patch stops AI developing WMDs" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/961a3c09345b> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/293833cc4b41> ;
+    airo:hasDescription "pred_92" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/239ce44fdcf4>,
+        <https://w3id.org/airo/incident/Domain/b32218e5b773>,
+        <https://w3id.org/airo/incident/evidence/467367d72f5e>,
+        <https://w3id.org/airo/incident/evidence/8eb99f9a7d99>,
+        <https://w3id.org/airo/incident/evidence/a120659fea5b>,
+        <https://w3id.org/airo/incident/evidence/b74c38057394>,
+        <https://w3id.org/airo/incident/evidence/ff4b4a5ed26f> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/ef85aac34fb3> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/5268>,
+        <https://w3id.org/airo/incident/NewsReport/571>,
+        <https://w3id.org/airo/incident/NewsReport/572>,
+        <https://w3id.org/airo/incident/NewsReport/575>,
+        <https://w3id.org/airo/incident/NewsReport/576>,
+        <https://w3id.org/airo/incident/NewsReport/577>,
+        <https://w3id.org/airo/incident/NewsReport/578>,
+        <https://w3id.org/airo/incident/NewsReport/579>,
+        <https://w3id.org/airo/incident/NewsReport/580> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/830fcd57cedd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268>,
+        <https://w3id.org/airo/incident/document/571>,
+        <https://w3id.org/airo/incident/document/572>,
+        <https://w3id.org/airo/incident/document/575>,
+        <https://w3id.org/airo/incident/document/576>,
+        <https://w3id.org/airo/incident/document/577>,
+        <https://w3id.org/airo/incident/document/578>,
+        <https://w3id.org/airo/incident/document/579>,
+        <https://w3id.org/airo/incident/document/580> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/03a4a68fd944>,
+        <https://w3id.org/airo/incident/AISystem/1edddae04f34>,
+        <https://w3id.org/airo/incident/AISystem/58ae4e9555db>,
+        <https://w3id.org/airo/incident/AISystem/7492f8cf2471>,
+        <https://w3id.org/airo/incident/AISystem/92e89286af94> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/5d1d911ac2c7>,
+        <https://w3id.org/airo/incident/Stakeholder/76550b3ddf7e>,
+        <https://w3id.org/airo/incident/Stakeholder/97287b39b912>,
+        <https://w3id.org/airo/incident/Stakeholder/9e3c7025ff2c>,
+        <https://w3id.org/airo/incident/Stakeholder/d3f3ea0ef0de> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/5e091448d865> .
+
+<https://w3id.org/airo/incident/AISystem/03a4a68fd944> a airo:AISystem ;
+    rdfs:label "HTC Vive" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "HTC Vive" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4660888941fe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/577> .
+
+<https://w3id.org/airo/incident/AISystem/1edddae04f34> a airo:AISystem ;
+    rdfs:label "Xbox 1" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Xbox 1" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/201113354995> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/577> .
+
+<https://w3id.org/airo/incident/AISystem/7492f8cf2471> a airo:AISystem ;
+    rdfs:label "Oculus Rift" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Oculus Rift" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4660888941fe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/577> .
+
+<https://w3id.org/airo/incident/AISystem/92e89286af94> a airo:AISystem ;
+    rdfs:label "The Engineers (2.1) expansion" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Engineers" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/44ae6d956421> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/576> .
+
+<https://w3id.org/airo/incident/evidence/22a64b2db5a3> a airo:Evidence ;
+    airo:evidenceText "A bug in Frontier Developments' game has caused the AI to create super weapons and hunt down players",
+        "A bug in Frontier Developments' game has caused the AI to create super weapons and hunt down players, following the 2.1 Engineers update which improved the game's AI and gave it access to crafting." ;
+    airo:sourceDocId "579" .
+
+<https://w3id.org/airo/incident/evidence/4660888941fe> a airo:Evidence ;
+    airo:evidenceText "Elite Dangerous supports both Oculus Rift and HTC Vive on PC, and is considered to be one of the biggest and best games on both HMDs." ;
+    airo:sourceDocId "577" .
+
+<https://w3id.org/airo/incident/evidence/3e80bd5de548> a airo:Evidence ;
+    airo:evidenceText "Due to the recent surge of unsanctioned and illegally modified weapons from the NPC AI over the recent days, a post on the Frontier forum reads, The Pilots Federation have agreed to reimburse all insurance payouts made over that period." ;
+    airo:sourceDocId "576" .
+
+<https://w3id.org/airo/incident/evidence/c4cbc48efa36> a airo:Evidence ;
+    airo:evidenceText "\"It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities,\" writes head of community Zac Antonaci." ;
+    airo:sourceDocId "572" .
+
+<https://w3id.org/airo/incident/evidence/cc239003acef> a airo:Evidence ;
+    airo:evidenceText "“It appears that the unusual weapons attacks were caused by some form of networking issue which allowed the NPC AI to merge weapon stats and abilities,” posted Frontier community manager Zac Antonaci." ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/evidence/fb2677e5af2a> a airo:Evidence ;
+    airo:evidenceText "Zac Antonaci, Frontier's head of community management, said." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/AISystem/58ae4e9555db> a airo:AISystem ;
+    rdfs:label "Elite: Dangerous" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/961a3c09345b> ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/1f1c89fc8129> ;
+    airo:hasDescription "Elite: Dangerous" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2042706a027b>,
+        <https://w3id.org/airo/incident/evidence/444922d86bdc>,
+        <https://w3id.org/airo/incident/evidence/5fb731c1222d>,
+        <https://w3id.org/airo/incident/evidence/7b010fa97c35>,
+        <https://w3id.org/airo/incident/evidence/827b792388d3>,
+        <https://w3id.org/airo/incident/evidence/87abfc72dbde>,
+        <https://w3id.org/airo/incident/evidence/890f18c319a5>,
+        <https://w3id.org/airo/incident/evidence/a675209bc01c>,
+        <https://w3id.org/airo/incident/evidence/ab037dc944e9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5268>,
+        <https://w3id.org/airo/incident/document/571>,
+        <https://w3id.org/airo/incident/document/572>,
+        <https://w3id.org/airo/incident/document/575>,
+        <https://w3id.org/airo/incident/document/576>,
+        <https://w3id.org/airo/incident/document/577>,
+        <https://w3id.org/airo/incident/document/578>,
+        <https://w3id.org/airo/incident/document/579>,
+        <https://w3id.org/airo/incident/document/580> ;
+    airo:hasSupportCount 9 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/aefa294f7d3b> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/b8004db1b0f9>,
+        <https://w3id.org/airo/incident/AITechnique/d23aae816f76> .
+
+<https://w3id.org/airo/incident/evidence/7bf68ceadf3b> a airo:Evidence ;
+    airo:evidenceText "developer Frontier was forced to strip them of their upgraded weapons." ;
+    airo:sourceDocId "5268" .
+
+<https://w3id.org/airo/incident/evidence/a8a62bd8bebc> a airo:Evidence ;
+    airo:evidenceText "The entire situation began after an update was released by Developer Frontier—2.1 Engineers." ;
+    airo:sourceDocId "575" .
+
+<https://w3id.org/airo/incident/evidence/c26c9f5cc51b> a airo:Evidence ;
+    airo:evidenceText "Details on the additional tweaks and fixes can be found on the Frontier forums." ;
+    airo:sourceDocId "572" .
+

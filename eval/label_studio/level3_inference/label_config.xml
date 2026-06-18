@@ -1,0 +1,63 @@
+<!--
+  AI Risk Knowledge Graph - Level 3 Inference Verification Template
+  Fields: Purpose, AILifecyclePhase, Domain
+  Each field shows pre-inferred value + evidence + reasoning chain with a 3-star rating + correction box.
+-->
+
+<View style="display: grid; grid-template: auto/1fr 1fr; column-gap: 1em">
+    <style>
+        .left, .right {
+            width: 100%;
+            height: 100vh;
+            overflow: auto;
+        }
+    </style>
+
+    <!-- LEFT COLUMN: Text Reference -->
+    <view className="left">
+        <Header value="Event Meta Info" />
+        <Text name="meta" value="$meta_info" style="font-size: 14px; color: #666; padding: 10px; background: #f0f2f5; border-radius: 8px;"/>
+
+        <Header value="Evidence Source Text (only docs with evidence)" />
+        <HyperText name="text" value="$text" style="font-size: 15px; line-height: 1.8; padding: 14px; background: #fff; border: 2px solid #4dabf7; border-radius: 8px;"/>
+    </view>
+
+    <!-- RIGHT COLUMN: Pre-inferred Results + Rating + Correction -->
+    <view className="right">
+        <Header value="Pre-inferred Results (Verify and Rate)" />
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #fff3cd;">
+            <Header value="1. Purpose (optional)" style="color: #856404; font-size: 14px;"/>
+            <HyperText name="p_pre" value="$purpose_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="p_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="purpose_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="p_hint" value="3=correct  2=partially correct  1=incorrect  skip if not inferred" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #d4edda;">
+            <Header value="2. AILifecyclePhase (optional)" style="color: #155724; font-size: 14px;"/>
+            <HyperText name="lc_pre" value="$lifecycle_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="lc_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="lifecycle_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="lc_hint" value="3=correct  2=partially correct  1=incorrect  skip if not inferred" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #cce5ff;">
+            <Header value="3. Domain (optional)" style="color: #004085; font-size: 14px;"/>
+            <HyperText name="d_pre" value="$domain_pre" style="padding: 10px; background: #fff; border-radius: 4px; font-size: 13px; margin: 8px 0;"/>
+            <TextArea name="d_corrected" toName="text" rows="1" placeholder="If incorrect, enter the correct value here (leave blank to skip)" style="width: 100%; margin: 4px 0;"/>
+            <Rating name="domain_score" toName="text" maxRating="3" defaultValue="2" size="medium"/>
+            <Text name="d_hint" value="3=correct  2=partially correct  1=incorrect  skip if not inferred" style="font-size: 11px; color: #999;"/>
+        </View>
+
+        <!-- Guidelines -->
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #f8f9fa;">
+            <Header value="Verification Guidelines" style="color: #495057; font-size: 14px;"/>
+            <View style="padding:10px;background:#fff;border-left:3px solid #495057;border-radius:4px;font-size:12px;line-height:1.8;">
+                <Text name="guide" value="Steps:&#10;1. Left side shows documents with evidence sentences (highlighted with colored backgrounds)&#10;   Yellow=Purpose, Green=Lifecycle, Blue=Domain&#10;2. Review each inference field value, evidence, and reasoning chain&#10;3. Rate with stars&#10;&#10;If the pre-inferred value is incorrect:&#10;- Enter the corrected value in the text box below&#10;- Leave blank if the pre-inference is correct&#10;&#10;Rating:&#10;3 stars = Correct: inference is reasonable, supported by evidence&#10;2 stars = Partially correct: right direction but not precise&#10;1 star = Incorrect: no basis for inference or completely wrong&#10;&#10;Note: Level 3 evaluates controlled inference only, not speculation. Uninferred fields can be skipped."/>
+            </View>
+        </View>
+
+    </view>
+
+</View>

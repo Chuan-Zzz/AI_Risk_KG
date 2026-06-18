@@ -1,0 +1,1684 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/EnforcementAction/e85fcc2f707d> a airo:EnforcementAction ;
+    rdfs:label "court ruling of unlawfulness" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9a344d73ac0> ;
+    airo:hasReasoning "The Court of Appeal made a formal ruling declaring the use of the technology unlawful, which is a significant enforcement action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> .
+
+<https://w3id.org/airo/incident/InformationSource/44535fbc1371> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/9503>,
+        <https://w3id.org/airo/incident/NewsReport/9506>,
+        <https://w3id.org/airo/incident/NewsReport/9508>,
+        <https://w3id.org/airo/incident/NewsReport/9510> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9508>,
+        <https://w3id.org/airo/incident/document/9510> .
+
+<https://w3id.org/airo/incident/InformationSource/c14d5c48bd06> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1762>,
+        <https://w3id.org/airo/incident/NewsReport/1764>,
+        <https://w3id.org/airo/incident/NewsReport/1765>,
+        <https://w3id.org/airo/incident/NewsReport/1766> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1764>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/1766> .
+
+<https://w3id.org/airo/incident/RiskControl/ca42c31ed972> a airo:RiskControl ;
+    rdfs:label "Legal challenges and court rulings to enforce compliance with data protection and equality laws" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc28e3dfbdfb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/3851f9b307ca> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1408d93175b0> a airo:RoleAssignment ;
+    rdfs:label "Ed Bridges_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b0605f484eea> ;
+    airo:hasReasoning "Ed Bridges was personally affected by having his face scanned without consent and took legal action as a result." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6eecac0e979d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/192db3db7194> a airo:RoleAssignment ;
+    rdfs:label "Information Commissioner's Office_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ba71def21e7c> ;
+    airo:hasReasoning "The ICO is a data protection regulator that criticized the use of the technology, fitting the regulator role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2810b901eb01> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/480e4206f1c9> a airo:RoleAssignment ;
+    rdfs:label "Tony Porter_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77149d894ffc> ;
+    airo:hasReasoning "As Surveillance Camera Commissioner, Tony Porter issued official commentary and oversight on the use of surveillance technology including AI." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cc0398e91744> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/733d79183aec> a airo:RoleAssignment ;
+    rdfs:label "Home Office_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/13d2401ed30f> ;
+    airo:hasReasoning "The Home Office is a government department responsible for policing and security, implicated in the policy context for police use of AI surveillance." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a7edbec9050b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/81ef2f963227> a airo:RoleAssignment ;
+    rdfs:label "Big Brother Watch_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d38ae83cbf87> ;
+    airo:hasReasoning "The group is a civil liberties organization criticizing the technology, acting as an advocacy stakeholder rather than a direct developer, deployer, or affected individual." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1765> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2f289ea74604> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9f8b5271b858> a airo:RoleAssignment ;
+    rdfs:label "High Court_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/941745bc3125> ;
+    airo:hasReasoning "The High Court adjudicated the legal challenge against the use of the AI system, performing a regulatory/judicial function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2cd35118cd4d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a13db971adf7> a airo:RoleAssignment ;
+    rdfs:label "Court of Appeal_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/884bd456130c> ;
+    airo:hasReasoning "The Court of Appeal made a legal ruling on the lawfulness of the AI system's use, which is a regulatory/judicial function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5c91cdc17582> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a2a5e0525140> a airo:RoleAssignment ;
+    rdfs:label "Surveillance Camera Commissioner_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a4ce727038f> ;
+    airo:hasReasoning "This is an official regulatory body overseeing surveillance cameras, including AI-based systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4a2f67c04319> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d709c166dd83> a airo:RoleAssignment ;
+    rdfs:label "Silkie Carlo_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c92f23a501f> ;
+    airo:hasReasoning "Silkie Carlo is associated with Big Brother Watch (likely as a director or spokesperson), acting as an advocacy stakeholder criticizing the technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1765> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e7c1b595fbfa> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f77f33007a0c> a airo:RoleAssignment ;
+    rdfs:label "South Wales Police_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d25fa9499fd7> ;
+    airo:hasReasoning "The police force deployed and operated the facial recognition system at a public event." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_127> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2fb62aa1caee> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/910c3194be14> .
+
+<https://w3id.org/airo/incident/event/pred_127> a airo:AIRiskIncident ;
+    airo:firstSeen "2018-05-04T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 8 ;
+    airo:lastSeen "2020-08-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/015c7e84a171> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45b0f05ad41b> .
+
+<https://w3id.org/airo/incident/ks/04ac88667597> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a568c9fab64> .
+
+<https://w3id.org/airo/incident/ks/05260a81f3a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd> .
+
+<https://w3id.org/airo/incident/ks/05a4994423b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/06b7c0167e94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/843f3bb3cf60> .
+
+<https://w3id.org/airo/incident/ks/07df46c36f95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58f2640ca58c> .
+
+<https://w3id.org/airo/incident/ks/0a12d54c4ffe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cf2d4b1b73> .
+
+<https://w3id.org/airo/incident/ks/0b8bcdd54413> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7892eeee3287> .
+
+<https://w3id.org/airo/incident/ks/0f95a3fbede7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d0f8406d4c9> .
+
+<https://w3id.org/airo/incident/ks/14f19f23403f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/161ce00cdf4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4873ca9d717> .
+
+<https://w3id.org/airo/incident/ks/17a2f1e27b86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9069cfa5fcda> .
+
+<https://w3id.org/airo/incident/ks/1b907e8e84cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eabedb4a4db0> .
+
+<https://w3id.org/airo/incident/ks/1bc7de9853a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd> .
+
+<https://w3id.org/airo/incident/ks/1c14af1cf352> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7892eeee3287> .
+
+<https://w3id.org/airo/incident/ks/1ee19dfaf10d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bebdd330a51> .
+
+<https://w3id.org/airo/incident/ks/2048f9a0b028> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cf2d4b1b73> .
+
+<https://w3id.org/airo/incident/ks/211b936e2c5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bc8b6301ba3> .
+
+<https://w3id.org/airo/incident/ks/241181555167> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/163b4f8f5725> .
+
+<https://w3id.org/airo/incident/ks/25cbe4654993> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eabedb4a4db0> .
+
+<https://w3id.org/airo/incident/ks/2600c58dcd18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/843f3bb3cf60> .
+
+<https://w3id.org/airo/incident/ks/27283659adab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58f2640ca58c> .
+
+<https://w3id.org/airo/incident/ks/28b0f3914698> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98e8f25a286f> .
+
+<https://w3id.org/airo/incident/ks/28f9d7acbbdd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24409b6cc39f> .
+
+<https://w3id.org/airo/incident/ks/2a0d3a237c63> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85c9069a8f81> .
+
+<https://w3id.org/airo/incident/ks/31ca357ea282> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7892eeee3287> .
+
+<https://w3id.org/airo/incident/ks/33964f85b580> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bebdd330a51> .
+
+<https://w3id.org/airo/incident/ks/34b740f4991b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86a1d1684a89> .
+
+<https://w3id.org/airo/incident/ks/3538865c0d5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92e11d293783> .
+
+<https://w3id.org/airo/incident/ks/37cc46b0a8e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> .
+
+<https://w3id.org/airo/incident/ks/3940c0bbcd59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7892eeee3287> .
+
+<https://w3id.org/airo/incident/ks/3e7e853ec37c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bebdd330a51> .
+
+<https://w3id.org/airo/incident/ks/3feefd5bfd8f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58f2640ca58c> .
+
+<https://w3id.org/airo/incident/ks/475e45f9f2dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/47972dd129ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58f2640ca58c> .
+
+<https://w3id.org/airo/incident/ks/480afd1affc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b41e4e4cafad> .
+
+<https://w3id.org/airo/incident/ks/49025a52e2dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2339e69b4c3d> .
+
+<https://w3id.org/airo/incident/ks/49a77a068e75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24409b6cc39f> .
+
+<https://w3id.org/airo/incident/ks/4cf532a02f0e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5507c7eec20a> .
+
+<https://w3id.org/airo/incident/ks/4ee42a82a4d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/df1e2db37b62> .
+
+<https://w3id.org/airo/incident/ks/51fef05b0333> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd> .
+
+<https://w3id.org/airo/incident/ks/54e07b66a200> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42c739b05396> .
+
+<https://w3id.org/airo/incident/ks/5bfce91f4a49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88d7a6f1c074> .
+
+<https://w3id.org/airo/incident/ks/5e03c5a3366e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac2520b4aec6> .
+
+<https://w3id.org/airo/incident/ks/5e9c15b3025b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac2520b4aec6> .
+
+<https://w3id.org/airo/incident/ks/5f4809bdefeb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/843f3bb3cf60> .
+
+<https://w3id.org/airo/incident/ks/6418c4144c3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a568c9fab64> .
+
+<https://w3id.org/airo/incident/ks/657649fc5364> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/6671696c40d7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> .
+
+<https://w3id.org/airo/incident/ks/67a9ea57c7ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a568c9fab64> .
+
+<https://w3id.org/airo/incident/ks/6981cede852f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac2520b4aec6> .
+
+<https://w3id.org/airo/incident/ks/69fc8565c876> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b11d3e32304> .
+
+<https://w3id.org/airo/incident/ks/6d7285bc61df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd> .
+
+<https://w3id.org/airo/incident/ks/6dd3bbc2d74b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/732ffa3d2884> .
+
+<https://w3id.org/airo/incident/ks/710a320991a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57f1ad56cc49> .
+
+<https://w3id.org/airo/incident/ks/71b34c8fd0f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f43de5b2d8f> .
+
+<https://w3id.org/airo/incident/ks/771170a33c43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d55ad17d0318> .
+
+<https://w3id.org/airo/incident/ks/7933bec76858> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0fe56d5c7aa0> .
+
+<https://w3id.org/airo/incident/ks/7941df3474d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24409b6cc39f> .
+
+<https://w3id.org/airo/incident/ks/79c9d0de345f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/7b2ae0a7a1c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2f6860e78a5e> .
+
+<https://w3id.org/airo/incident/ks/7b699021cc42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24409b6cc39f> .
+
+<https://w3id.org/airo/incident/ks/8050230301e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/809b2b244c54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2b212afa5a1> .
+
+<https://w3id.org/airo/incident/ks/820e479b1490> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/766fbfaf1919> .
+
+<https://w3id.org/airo/incident/ks/868d22efbec5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ecfb293c4fd> .
+
+<https://w3id.org/airo/incident/ks/8a5cb9cb9a8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad920f9269bf> .
+
+<https://w3id.org/airo/incident/ks/8c76ad8e2eb2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/8daf0b0deb1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/8e48336552b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ca4c202ba41> .
+
+<https://w3id.org/airo/incident/ks/9108e3d1c13f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88d7a6f1c074> .
+
+<https://w3id.org/airo/incident/ks/9581ef7640ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/96d48852b9ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d0f8406d4c9> .
+
+<https://w3id.org/airo/incident/ks/9744e5cd8ff3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/9ccdb770fa42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86a1d1684a89> .
+
+<https://w3id.org/airo/incident/ks/a0323133988b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/766fbfaf1919> .
+
+<https://w3id.org/airo/incident/ks/a4d08a7ac0df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/a67b8c20e1c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/843f3bb3cf60> .
+
+<https://w3id.org/airo/incident/ks/a69247a35296> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8658dd96d1da> .
+
+<https://w3id.org/airo/incident/ks/afafdf774709> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc6c73ed116a> .
+
+<https://w3id.org/airo/incident/ks/b1cec3c960da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d0f8406d4c9> .
+
+<https://w3id.org/airo/incident/ks/b42c99116bb2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9a344d73ac0> .
+
+<https://w3id.org/airo/incident/ks/b45e4bfdd061> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d78a97909825> .
+
+<https://w3id.org/airo/incident/ks/b50fde5bfa56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c485ace8ef33> .
+
+<https://w3id.org/airo/incident/ks/b5d5c64e4833> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c485ace8ef33> .
+
+<https://w3id.org/airo/incident/ks/b5da45aa04bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f771108742cf> .
+
+<https://w3id.org/airo/incident/ks/b76164345a5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da268f614d76> .
+
+<https://w3id.org/airo/incident/ks/ba24c34b47e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57f1ad56cc49> .
+
+<https://w3id.org/airo/incident/ks/ba32ca5e6a01> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/bc56ce5198d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c0e49925d2a> .
+
+<https://w3id.org/airo/incident/ks/bc61d211e283> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86a1d1684a89> .
+
+<https://w3id.org/airo/incident/ks/bf59835e5840> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a234693cf75> .
+
+<https://w3id.org/airo/incident/ks/c12a891540be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd434fd1d737> .
+
+<https://w3id.org/airo/incident/ks/c14514f30730> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28dee73904d9> .
+
+<https://w3id.org/airo/incident/ks/c150d66daaaa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a7765d8e9c4> .
+
+<https://w3id.org/airo/incident/ks/c4277bd87502> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86a1d1684a89> .
+
+<https://w3id.org/airo/incident/ks/c7276ea1b454> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85c9069a8f81> .
+
+<https://w3id.org/airo/incident/ks/c9b09d071915> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a568c9fab64> .
+
+<https://w3id.org/airo/incident/ks/cb8d95e0cf21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca6be9350c8d> .
+
+<https://w3id.org/airo/incident/ks/cfb9e867b2d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f43de5b2d8f> .
+
+<https://w3id.org/airo/incident/ks/d5fb85692a05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/d68ab320d02a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7e9b9da5840> .
+
+<https://w3id.org/airo/incident/ks/d79857f16a92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> .
+
+<https://w3id.org/airo/incident/ks/d7a7e93eb033> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ddf65c441a6> .
+
+<https://w3id.org/airo/incident/ks/d88867e95030> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac2520b4aec6> .
+
+<https://w3id.org/airo/incident/ks/db764f4c67e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/dc78a490614a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87ad7839a302> .
+
+<https://w3id.org/airo/incident/ks/de8ffc6a96be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dc28e3dfbdfb> .
+
+<https://w3id.org/airo/incident/ks/e013db52871a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cf2d4b1b73> .
+
+<https://w3id.org/airo/incident/ks/e14f86d0f9fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> .
+
+<https://w3id.org/airo/incident/ks/e1a5c9e0417b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bcd3c8ffb55> .
+
+<https://w3id.org/airo/incident/ks/e41241a64bc4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4faa7d3daa51> .
+
+<https://w3id.org/airo/incident/ks/e4513e154d84> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d0f8406d4c9> .
+
+<https://w3id.org/airo/incident/ks/e7bf805f6b94> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd> .
+
+<https://w3id.org/airo/incident/ks/ea54474cb58d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bebdd330a51> .
+
+<https://w3id.org/airo/incident/ks/ea90ecf552a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f771108742cf> .
+
+<https://w3id.org/airo/incident/ks/eb044a06ce72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> .
+
+<https://w3id.org/airo/incident/ks/ec04e3ab8d30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2b540763cb8> .
+
+<https://w3id.org/airo/incident/ks/ee248f211819> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28dee73904d9> .
+
+<https://w3id.org/airo/incident/ks/ee9625ed7b67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4526e0b72ce7> .
+
+<https://w3id.org/airo/incident/ks/f279b75b939d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca6be9350c8d> .
+
+<https://w3id.org/airo/incident/ks/fbc08a3013a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a31a128f0d83> .
+
+<https://w3id.org/airo/incident/ks/fbeca33b02e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cf2d4b1b73> .
+
+<https://w3id.org/airo/incident/AICapability/0200ca92d4b4> a airo:AICapability ;
+    rdfs:label "face scanning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "scans the faces of pedestrians" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/AICapability/6a9c570fd20e> a airo:AICapability ;
+    rdfs:label "face matching" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "compares them to images on a database of persons of interest" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/4dfbfccff84f> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d55ad17d0318> ;
+    airo:hasReasoning "The system was being used in real-world scenarios at multiple events, indicating it was in the deployment phase of the lifecycle, not just development or testing." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/AITechnique/c98f64c52168> a airo:AITechnique ;
+    rdfs:label "facial recognition" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "facial recognition technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31123b626d47>,
+        <https://w3id.org/airo/incident/evidence/42c739b05396>,
+        <https://w3id.org/airo/incident/evidence/54cf2d4b1b73>,
+        <https://w3id.org/airo/incident/evidence/5f860171b8ed>,
+        <https://w3id.org/airo/incident/evidence/808f99682817>,
+        <https://w3id.org/airo/incident/evidence/b41e4e4cafad>,
+        <https://w3id.org/airo/incident/evidence/c9d9f968ffd7>,
+        <https://w3id.org/airo/incident/evidence/e4873ca9d717> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1764>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/1766>,
+        <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9508>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:hasSupportCount 8 .
+
+<https://w3id.org/airo/incident/AffectedActor/8001fcc392f7> a airo:AffectedActor ;
+    rdfs:label "General public and individuals scanned without consent" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2339e69b4c3d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Domain/c205a7220970> a airo:Domain ;
+    rdfs:label "law enforcement" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/163b4f8f5725> ;
+    airo:hasReasoning "The primary user is a police force, and the deployment occurred at a public event for security purposes, placing this in the law enforcement domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> .
+
+<https://w3id.org/airo/incident/Obligation/deb03bc73b96> a airo:Obligation ;
+    rdfs:label "compliance with data protection laws" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b11d3e32304> ;
+    airo:hasReasoning "The court ruling found the use unlawful, implying obligations under data protection laws were not met." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Purpose/bf21c2462d9d> a airo:Purpose ;
+    rdfs:label "identify persons of interest in public spaces for policing and security" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45b0f05ad41b> ;
+    airo:hasReasoning "The evidence explicitly states the system scans faces and compares them to a database of persons of interest, indicating a purpose of identification for security/police purposes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/RiskSource/d4aa412541d9> a airo:RiskSource ;
+    rdfs:label "Use of low-quality images for facial recognition watch lists" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/3851f9b307ca> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a7765d8e9c4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/3b0d00b8dd09> .
+
+<https://w3id.org/airo/incident/Stakeholder/0d2afa28cd46> a airo:Stakeholder ;
+    rdfs:label "Interpol" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Interpol" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28dee73904d9>,
+        <https://w3id.org/airo/incident/evidence/7f43de5b2d8f>,
+        <https://w3id.org/airo/incident/evidence/ca6be9350c8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/23135ecd67ee> a airo:Stakeholder ;
+    rdfs:label "Liam Gallagher" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Liam Gallagher" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ddf65c441a6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> .
+
+<https://w3id.org/airo/incident/Stakeholder/25b55846774a> a airo:Stakeholder ;
+    rdfs:label "VMware" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "VMware" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4faa7d3daa51> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Stakeholder/3067df112ce4> a airo:Stakeholder ;
+    rdfs:label "Leicestershire Police" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Leicestershire police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8658dd96d1da> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/51bca861b22b> a airo:Stakeholder ;
+    rdfs:label "Elizabeth Denham" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Elizabeth Denham" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/87ad7839a302> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> .
+
+<https://w3id.org/airo/incident/Stakeholder/5951e93a3cc5> a airo:Stakeholder ;
+    rdfs:label "UEFA" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uefa" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28dee73904d9>,
+        <https://w3id.org/airo/incident/evidence/7f43de5b2d8f>,
+        <https://w3id.org/airo/incident/evidence/ca6be9350c8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/95a9269eaf41> a airo:Stakeholder ;
+    rdfs:label "Alexeis Garcia-Perez" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Alexeis Garcia-Perez" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2b212afa5a1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/a6d506132aaa> a airo:Stakeholder ;
+    rdfs:label "Richard Lewis" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Richard Lewis" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bcd3c8ffb55> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> .
+
+<https://w3id.org/airo/incident/Stakeholder/a872161c4528> a airo:Stakeholder ;
+    rdfs:label "Metropolitan Police" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "London's Metropolitan Police force" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a234693cf75>,
+        <https://w3id.org/airo/incident/evidence/b7e9b9da5840>,
+        <https://w3id.org/airo/incident/evidence/d78a97909825> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9508> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/be924cc091dd> a airo:Stakeholder ;
+    rdfs:label "Real Madrid" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Real Madrid" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88d7a6f1c074> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> .
+
+<https://w3id.org/airo/incident/Stakeholder/cea5b4bbf7cf> a airo:Stakeholder ;
+    rdfs:label "Juventus" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Juventus" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88d7a6f1c074> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> .
+
+<https://w3id.org/airo/incident/Stakeholder/cefda7ba263c> a airo:Stakeholder ;
+    rdfs:label "Martin Evison" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Martin Evison" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/df1e2db37b62> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/e22d410b61a6> a airo:Stakeholder ;
+    rdfs:label "Liberty" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Liberty" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0fe56d5c7aa0>,
+        <https://w3id.org/airo/incident/evidence/da268f614d76> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/fcfc2962eb54> a airo:Stakeholder ;
+    rdfs:label "Wired" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Wired" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2ecfb293c4fd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1766> .
+
+<https://w3id.org/airo/incident/Threat/3b0d00b8dd09> a airo:Threat ;
+    rdfs:label "Unlawful deployment of facial recognition technology by law enforcement" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2b540763cb8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Vulnerability/b32e5b5013fa> a airo:Vulnerability ;
+    rdfs:label "System's inability to handle low-quality input data, leading to high error rates" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4526e0b72ce7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9510> .
+
+<https://w3id.org/airo/incident/evidence/089f48e2b058> a airo:Evidence ;
+    airo:evidenceText "South Wales Police admitted the technology wasn't '100% accurate' but said nobody had been arrested when misidentified." ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/13d2401ed30f> a airo:Evidence ;
+    airo:evidenceText "South Wales Police has been testing an automated facial recognition system since June 2017 and has used it in the real-world at more than ten events." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/1535d1605aa5> a airo:Evidence ;
+    airo:evidenceText "South Wales Police has been conducting a trial of the tech since 2017 ahead of a possible rollout to police forces in Wales and England." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/2f6860e78a5e> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/31123b626d47> a airo:Evidence ;
+    airo:evidenceText "More than 2,000 people were wrongly identified as possible criminals by facial scanning technology at the 2017 Champions League final in Cardiff." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/411a67c9e6b7> a airo:Evidence ;
+    airo:evidenceText "2,000 wrongly matched with possible criminals at Champions League" ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/5f860171b8ed> a airo:Evidence ;
+    airo:evidenceText "Police were trialling automated facial recognition technology to track down criminals." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/607c4f191799> a airo:Evidence ;
+    airo:evidenceText "UK court finds facial recognition technology used by police was unlawful" ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/77149d894ffc> a airo:Evidence ;
+    airo:evidenceText "In his 2017 annual report, Tony Porter the Surveillance Camera Commissioner said automatic facial recognition is \"fascinating\" but it can be used for \"intrusive capabilities\" and have \"crass\" applications." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/7c92f23a501f> a airo:Evidence ;
+    airo:evidenceText "Civil liberties group Big Brother Watch criticised the use of the technology, saying in a tweet: \"Not only is real-time facial recognition a threat to civil liberties, it is a dangerously inaccurate policing tool.\"" ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/808f99682817> a airo:Evidence ;
+    airo:evidenceText "Facial recognition software wrongly identified more than 2,000 people as potential criminals as police patrolled the Champions League final in Cardiff." ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/884bd456130c> a airo:Evidence ;
+    airo:evidenceText "The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/941745bc3125> a airo:Evidence ;
+    airo:evidenceText "Ed Bridges, 36, brought the challenge at the High Court after claiming his face was scanned while doing Christmas shopping in 2017 and at a peaceful anti-arms protest in 2018." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/9a4ce727038f> a airo:Evidence ;
+    airo:evidenceText "In his 2017 annual report, Tony Porter the Surveillance Camera Commissioner said automatic facial recognition is \"fascinating\" but it can be used for \"intrusive capabilities\" and have \"crass\" applications." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/a31a128f0d83> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/ad920f9269bf> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/b0605f484eea> a airo:Evidence ;
+    airo:evidenceText "Ed Bridges, 36, brought the challenge at the High Court after claiming his face was scanned while doing Christmas shopping in 2017 and at a peaceful anti-arms protest in 2018." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/b114f048f9cc> a airo:Evidence ;
+    airo:evidenceText "South Wales Police has been testing an automated facial recognition system since June 2017 and has used it in the real-world at more than ten events." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/b44cecd260bb> a airo:Evidence ;
+    airo:evidenceText "British police defend their new criminal facial recognition technology – even though it's failing at a rate of 92%" ;
+    airo:sourceDocId "1766" .
+
+<https://w3id.org/airo/incident/evidence/b73aa6728f66> a airo:Evidence ;
+    airo:evidenceText "But civil liberties campaign group Big Brother Watch called for the system to be scrapped, adding it was \"outrageous\" that more than 2,000 at the event had been wrongly identified." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/ba71def21e7c> a airo:Evidence ;
+    airo:evidenceText "A watchdog has criticised the way that a Welsh police force is using facial recognition technology." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/c9d9f968ffd7> a airo:Evidence ;
+    airo:evidenceText "A watchdog has criticised the way that a Welsh police force is using facial recognition technology." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/cd2fb650915d> a airo:Evidence ;
+    airo:evidenceText "UK police say 92% false positive facial recognition is no big deal" ;
+    airo:sourceDocId "1764" .
+
+<https://w3id.org/airo/incident/evidence/d25fa9499fd7> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/d2a06009bf4e> a airo:Evidence ;
+    airo:evidenceText "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff" ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/d38ae83cbf87> a airo:Evidence ;
+    airo:evidenceText "Civil liberties group Big Brother Watch criticised the use of the technology, saying in a tweet: \"Not only is real-time facial recognition a threat to civil liberties, it is a dangerously inaccurate policing tool.\"" ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/AISystem/5908f1768d12> a airo:AISystem ;
+    rdfs:label "South Wales Police automated facial recognition system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Wales' use of the tech" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/732ffa3d2884> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/AISystem/6a1868d83670> a airo:AISystem ;
+    rdfs:label "AFR Locate" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AFR Locate" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/af1b2e597931> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Consequence/e127b913e23e> a airo:Consequence ;
+    rdfs:label "Mass false positive matches of innocent individuals as potential criminals" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f771108742cf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/32d1fc30b8aa> .
+
+<https://w3id.org/airo/incident/Data/5dcb3f6b6a25> a airo:Data ;
+    rdfs:label "Automatic Number Plate Recognition database" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Automatic Number Plate Recognition database" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c485ace8ef33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Data/ad7ed526f3b3> a airo:Data ;
+    rdfs:label "Police National Database" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Police National Database" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/766fbfaf1919> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Impact/32d1fc30b8aa> a airo:Impact ;
+    rdfs:label "Violation of privacy, data protection, and equality rights for citizens" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/8001fcc392f7> ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eabedb4a4db0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/NewsReport/1762> a airo:NewsReport ;
+    rdfs:label "2,000 wrongly matched with possible criminals at Champions League" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**More than 2,000 people were wrongly identified as possible criminals by facial scanning technology at the 2017 Champions League final in Cardiff.**
+
+South Wales Police used the technology as about 1""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd434fd1d737> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762> .
+
+<https://w3id.org/airo/incident/NewsReport/1764> a airo:NewsReport ;
+    rdfs:label "UK police say 92% false positive facial recognition is no big deal" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A British police agency is [defending](https://www.south-wales.police.uk/en/newsroom/2000-positive-matches-reached-with-our-identify-facial-recognition-technology-in-past-9-months-with-over-450-arrest" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bc8b6301ba3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1764> .
+
+<https://w3id.org/airo/incident/NewsReport/1765> a airo:NewsReport ;
+    rdfs:label "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facial recognition software wrongly identified more than 2,000 people as potential criminals as police patrolled the [Champions League final](http://www.walesonline.co.uk/all-about/uefa-champions-leag" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9069cfa5fcda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1765> .
+
+<https://w3id.org/airo/incident/NewsReport/1766> a airo:NewsReport ;
+    rdfs:label "British police defend their new criminal facial recognition technology – even though it's failing at a rate of 92%" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """*   **Police in South Wales have been relying on facial recognition technology for 12 months.**
+*   **An FOI request has revealed that the technology provides a "false positive" ID in more than 90% of""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc6c73ed116a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1766> .
+
+<https://w3id.org/airo/incident/NewsReport/9503> a airo:NewsReport ;
+    rdfs:label "UK court finds facial recognition technology used by police was unlawful" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal.
+The "AFR Locate" software automatically scans the faces of pedestrians without """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/92e11d293783> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/NewsReport/9506> a airo:NewsReport ;
+    rdfs:label "Facial recognition tech used by UK police is making a ton of mistakes" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """All products featured on WIRED are independently selected by our editors. However, we may receive compensation from retailers and/or from purchases of products through these links.
+At the end of each """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5507c7eec20a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/NewsReport/9508> a airo:NewsReport ;
+    rdfs:label "Watchdog's critical report on how South Wales Police is using facial recognition technology" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Watchdog's critical report on how South Wales Police is using facial recognition technology
+The Information Commissioner's Office said it has "serious concerns"
+A watchdog has criticised the way that """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c0e49925d2a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> .
+
+<https://w3id.org/airo/incident/NewsReport/9510> a airo:NewsReport ;
+    rdfs:label "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff
+South Wales Police admitted the technology wasn't '100% accurate' but said nobody h""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ca4c202ba41> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9510> .
+
+<https://w3id.org/airo/incident/Regulation/acf296791c07> a airo:Regulation ;
+    rdfs:label "data protection laws" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "data protection laws" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57f1ad56cc49> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/deb03bc73b96> .
+
+<https://w3id.org/airo/incident/Stakeholder/2810b901eb01> a airo:Stakeholder ;
+    rdfs:label "Information Commissioner's Office" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Information Commissioner's Office" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58f2640ca58c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> .
+
+<https://w3id.org/airo/incident/Stakeholder/2cd35118cd4d> a airo:Stakeholder ;
+    rdfs:label "High Court" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "High Court" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dba232a13185> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9508> .
+
+<https://w3id.org/airo/incident/Stakeholder/2f289ea74604> a airo:Stakeholder ;
+    rdfs:label "Big Brother Watch" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Big Brother Watch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d0f8406d4c9>,
+        <https://w3id.org/airo/incident/evidence/7892eeee3287>,
+        <https://w3id.org/airo/incident/evidence/7bebdd330a51>,
+        <https://w3id.org/airo/incident/evidence/ac2520b4aec6>,
+        <https://w3id.org/airo/incident/evidence/b73aa6728f66> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1764>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/2fb62aa1caee> a airo:Stakeholder ;
+    rdfs:label "South Wales Police" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/5908f1768d12>,
+        <https://w3id.org/airo/incident/AISystem/6a1868d83670>,
+        <https://w3id.org/airo/incident/AISystem/910c3194be14> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "South Wales Police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/089f48e2b058>,
+        <https://w3id.org/airo/incident/evidence/1535d1605aa5>,
+        <https://w3id.org/airo/incident/evidence/24409b6cc39f>,
+        <https://w3id.org/airo/incident/evidence/54cf2d4b1b73>,
+        <https://w3id.org/airo/incident/evidence/86a1d1684a89>,
+        <https://w3id.org/airo/incident/evidence/88d7a6f1c074>,
+        <https://w3id.org/airo/incident/evidence/953b717c33fd>,
+        <https://w3id.org/airo/incident/evidence/b114f048f9cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1764>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/1766>,
+        <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9508>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:hasSupportCount 8 .
+
+<https://w3id.org/airo/incident/Stakeholder/4a2f67c04319> a airo:Stakeholder ;
+    rdfs:label "Surveillance Camera Commissioner" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Surveillance Camera Commissioner" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/5c91cdc17582> a airo:Stakeholder ;
+    rdfs:label "Court of Appeal" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Court of Appeal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cf2d4b1b73> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503> .
+
+<https://w3id.org/airo/incident/Stakeholder/6eecac0e979d> a airo:Stakeholder ;
+    rdfs:label "Ed Bridges" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ed Bridges" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/843f3bb3cf60>,
+        <https://w3id.org/airo/incident/evidence/dba232a13185> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9508> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a7edbec9050b> a airo:Stakeholder ;
+    rdfs:label "Home Office" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Home Office" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a568c9fab64> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/cc0398e91744> a airo:Stakeholder ;
+    rdfs:label "Tony Porter" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tony Porter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/349b9234f155> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/Stakeholder/e7c1b595fbfa> a airo:Stakeholder ;
+    rdfs:label "Silkie Carlo" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Silkie Carlo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7892eeee3287> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/9506> .
+
+<https://w3id.org/airo/incident/evidence/0a234693cf75> a airo:Evidence ;
+    airo:evidenceText "Elsewhere, London's Metropolitain police has tested its technology at both the Notting Hill Carnival and a remembrance service held at the Cenotaph, in November 2017." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/0fe56d5c7aa0> a airo:Evidence ;
+    airo:evidenceText "He has been supported by civil liberties organization Liberty." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/163b4f8f5725> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/1b11d3e32304> a airo:Evidence ;
+    airo:evidenceText "The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/1c0e49925d2a> a airo:Evidence ;
+    airo:evidenceText "Watchdog's critical report on how South Wales Police is using facial recognition technology" ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/2339e69b4c3d> a airo:Evidence ;
+    airo:evidenceText "The \"AFR Locate\" software automatically scans the faces of pedestrians without them knowing and compares them to images on a database of persons of interest." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/2bcd3c8ffb55> a airo:Evidence ;
+    airo:evidenceText "Responding to the Information Commissioner’s Office report, Deputy Chief Constable Richard Lewis said: “South Wales Police has received and will carefully consider both the Report and the Opinion issued by the Information Commissioner’s Office on the use of facial recognition technology by law enforcement in public places." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/2ecfb293c4fd> a airo:Evidence ;
+    airo:evidenceText "Late last week, Wired's Matt Burgess got an FOI request back in regard to how effective the AFR system has been for the South Wales Police since then." ;
+    airo:sourceDocId "1766" .
+
+<https://w3id.org/airo/incident/evidence/3a7765d8e9c4> a airo:Evidence ;
+    airo:evidenceText "The force blamed the high number of false positives at the Champions League final on the \"poor quality of images\" on the watch list supplied by Uefa, Interpol and other partner agencies" ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/42c739b05396> a airo:Evidence ;
+    airo:evidenceText "A British police agency is defending its use of facial recognition technology at the June 2017 Champions League soccer final in Cardiff, Wales." ;
+    airo:sourceDocId "1764" .
+
+<https://w3id.org/airo/incident/evidence/4526e0b72ce7> a airo:Evidence ;
+    airo:evidenceText "South Wales Police admitted the technology wasn't '100% accurate' but said nobody had been arrested when misidentified." ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/45b0f05ad41b> a airo:Evidence ;
+    airo:evidenceText "The \"AFR Locate\" software automatically scans the faces of pedestrians without them knowing and compares them to images on a database of persons of interest." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/4bc8b6301ba3> a airo:Evidence ;
+    airo:evidenceText "UK police say 92% false positive facial recognition is no big deal" ;
+    airo:sourceDocId "1764" .
+
+<https://w3id.org/airo/incident/evidence/4faa7d3daa51> a airo:Evidence ;
+    airo:evidenceText "Less than half of the British public (47.5%) trust the use of facial recognition technology to benefit society in the coming five years, according to a study from U.S. tech firm VMware." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/5507c7eec20a> a airo:Evidence ;
+    airo:evidenceText "Facial recognition tech used by UK police is making a ton of mistakes" ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/732ffa3d2884> a airo:Evidence ;
+    airo:evidenceText "Multiple arrests have been made as a result of South Wales' use of the tech." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/7ddf65c441a6> a airo:Evidence ;
+    airo:evidenceText "However, all 6 matches to the police \"watch list\" at the Liam Gallagher concert in Cardiff in December were valid." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/8658dd96d1da> a airo:Evidence ;
+    airo:evidenceText "South Wales Police isn't the only UK constabulary that has been testing facial recognition systems in public places. In 2015, police in Leicestershire tested facial recognition technology at the Download music festival where 90,000 people attended." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/87ad7839a302> a airo:Evidence ;
+    airo:evidenceText "The information commissioner Elizabeth Denham said she had \"serious concerns\" about how South Wales Police was using the tech." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/9069cfa5fcda> a airo:Evidence ;
+    airo:evidenceText "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff" ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/92e11d293783> a airo:Evidence ;
+    airo:evidenceText "UK court finds facial recognition technology used by police was unlawful" ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/98e8f25a286f> a airo:Evidence ;
+    airo:evidenceText "South Wales Police have made 450 arrests in the last nine months using the automatic facial recognition (AFR) software, which scans faces comparing them to about 500,000 custody images." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/9ca4c202ba41> a airo:Evidence ;
+    airo:evidenceText "Facial recognition wrongly identified 2,000 people as possible criminals when Champions League final came to Cardiff" ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/b41e4e4cafad> a airo:Evidence ;
+    airo:evidenceText "Facial recognition software wrongly identified more than 2,000 people as potential criminals as police patrolled the Champions League final in Cardiff." ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/b7e9b9da5840> a airo:Evidence ;
+    airo:evidenceText "In January, London's Metropolitan Police force said it planned to start using live facial recognition cameras across the city." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/bc6c73ed116a> a airo:Evidence ;
+    airo:evidenceText "British police defend their new criminal facial recognition technology – even though it's failing at a rate of 92%" ;
+    airo:sourceDocId "1766" .
+
+<https://w3id.org/airo/incident/evidence/d55ad17d0318> a airo:Evidence ;
+    airo:evidenceText "South Wales Police has been testing an automated facial recognition system since June 2017 and has used it in the real-world at more than ten events." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/d78a97909825> a airo:Evidence ;
+    airo:evidenceText "The ICO said such an approach was in marked contrast to the Metropolitan Police's more \"bespoke\" approach." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/da268f614d76> a airo:Evidence ;
+    airo:evidenceText "At the time of the Met's most recent test, civil rights group Liberty argued there was \"no legal basis\" for the use of the real-time system." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/dc28e3dfbdfb> a airo:Evidence ;
+    airo:evidenceText "3 judges found SWP had breached privacy rights, data protection laws and equality laws by deploying the technology." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/dd434fd1d737> a airo:Evidence ;
+    airo:evidenceText "2,000 wrongly matched with possible criminals at Champions League" ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/df1e2db37b62> a airo:Evidence ;
+    airo:evidenceText "I think the false positive rates are disappointingly realistic,\" says Martin Evison a forensic science professor who has researched police recognition techniques at Northumbria University." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/e2b212afa5a1> a airo:Evidence ;
+    airo:evidenceText "For police it can help facilitate the identification process and it can reduce it to minutes and seconds,\" says Alexeis Garcia-Perez, a researcher on cyber security management at Coventry University." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/e4873ca9d717> a airo:Evidence ;
+    airo:evidenceText "British police have been forced to defend facial recognition technology which falsely identified 2297 out of 2470 football fans as \"persons of interest.\"" ;
+    airo:sourceDocId "1766" .
+
+<https://w3id.org/airo/incident/evidence/e9a344d73ac0> a airo:Evidence ;
+    airo:evidenceText "The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/f2b540763cb8> a airo:Evidence ;
+    airo:evidenceText "The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/Risk/3851f9b307ca> a airo:Risk ;
+    rdfs:label "Risk of widespread false positive identifications by facial recognition systems" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85c9069a8f81> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1765> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/e127b913e23e> .
+
+<https://w3id.org/airo/incident/evidence/57f1ad56cc49> a airo:Evidence ;
+    airo:evidenceText "3 judges found SWP had breached privacy rights, data protection laws and equality laws by deploying the technology." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/766fbfaf1919> a airo:Evidence ;
+    airo:evidenceText "In the future, the police force says, it may be possible to integrate the facial recognition technology with databases from other sources. It says the Police National Database (which has more than 19 million images), the Automatic Number Plate Recognition database, passport or driving licence could be added to its system." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/85c9069a8f81> a airo:Evidence ;
+    airo:evidenceText "Facial recognition software wrongly identified more than 2,000 people as potential criminals as police patrolled the Champions League final in Cardiff." ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/c485ace8ef33> a airo:Evidence ;
+    airo:evidenceText "It says the Police National Database (which has more than 19 million images), the Automatic Number Plate Recognition database, passport or driving licence could be added to its system." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/eabedb4a4db0> a airo:Evidence ;
+    airo:evidenceText "3 judges found SWP had breached privacy rights, data protection laws and equality laws by deploying the technology." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/f771108742cf> a airo:Evidence ;
+    airo:evidenceText "More than 2,000 people were wrongly identified as possible criminals by facial scanning technology at the 2017 Champions League final in Cardiff." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/28dee73904d9> a airo:Evidence ;
+    airo:evidenceText "The force blamed the high number of false positives at the Champions League final on the “poor quality of images” on the watch list supplied by Uefa, Interpol and other partner agencies." ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/7f43de5b2d8f> a airo:Evidence ;
+    airo:evidenceText "South Wales Police said the high volume of false matches was down to \"poor quality images\" supplied by other agencies including UEFA and Interpol - and it being the first major use of the equipment." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/ca6be9350c8d> a airo:Evidence ;
+    airo:evidenceText "The force blamed the high number of false positives at the Champions League final on the “poor quality of images” on the watch list supplied by Uefa, Interpol and other partner agencies as well as the fact it was the first major use of the technology." ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/24409b6cc39f> a airo:Evidence ;
+    airo:evidenceText "New data about the South Wales Police's use of the technology obtained by Wired UK and The Guardian through a public records request shows that of the 2,470 alerts from the facial recognition system, 2,297 were false positives." ;
+    airo:sourceDocId "1764" .
+
+<https://w3id.org/airo/incident/evidence/58f2640ca58c> a airo:Evidence ;
+    airo:evidenceText "The Information Commissioner's Office said it has \"serious concerns\"" ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/evidence/5d0f8406d4c9> a airo:Evidence ;
+    airo:evidenceText "However, Big Brother Watch, a London-based advocacy group, is unsatisfied with the police's response." ;
+    airo:sourceDocId "1764" .
+
+<https://w3id.org/airo/incident/evidence/6a568c9fab64> a airo:Evidence ;
+    airo:evidenceText "South Wales Police says the government's Home Office has not set any false positive rates that should be targeted but the system does allow the \"operator to vary the match threshold against a watch list as a whole\"." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/7bebdd330a51> a airo:Evidence ;
+    airo:evidenceText "Civil liberties group Big Brother Watch criticised the use of the technology, saying in a tweet: “Not only is real-time facial recognition a threat to civil liberties, it is a dangerously inaccurate policing tool.”" ;
+    airo:sourceDocId "9510" .
+
+<https://w3id.org/airo/incident/evidence/843f3bb3cf60> a airo:Evidence ;
+    airo:evidenceText "The case was brought to court by 37-year-old Cardiff resident Ed Bridges, who is also a civil liberties campaigner." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/86a1d1684a89> a airo:Evidence ;
+    airo:evidenceText "South Wales Police became the first in the UK to introduce the technology last year with the first arrest as a result occurring on May 31." ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/88d7a6f1c074> a airo:Evidence ;
+    airo:evidenceText "South Wales Police used the technology as about 170,000 people were in Cardiff for the Real Madrid v Juventus game." ;
+    airo:sourceDocId "1762" .
+
+<https://w3id.org/airo/incident/evidence/ac2520b4aec6> a airo:Evidence ;
+    airo:evidenceText "Civil liberties group Big Brother Watch criticised the use of the technology, saying in a tweet: “Not only is real-time facial recognition a threat to civil liberties, it is a dangerously inaccurate policing tool.”" ;
+    airo:sourceDocId "1765" .
+
+<https://w3id.org/airo/incident/evidence/7892eeee3287> a airo:Evidence ;
+    airo:evidenceText "Silkie Carlo the director of rights group Big Brother Watch.",
+        "Silkie Carlo the director of rights group Big Brother Watch. The group is planning on launching a campaign against facial recognition tech in parliament later this month." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/af1b2e597931> a airo:Evidence ;
+    airo:evidenceText "The \"AFR Locate\" software automatically scans the faces of pedestrians without them knowing and compares them to images on a database of persons of interest." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/54cf2d4b1b73> a airo:Evidence ;
+    airo:evidenceText "The use of automatic facial recognition technology by South Wales Police was unlawful, according to the Court of Appeal." ;
+    airo:sourceDocId "9503" .
+
+<https://w3id.org/airo/incident/evidence/953b717c33fd> a airo:Evidence ;
+    airo:evidenceText "South Wales police rolled out its \"Automated Facial Recognition\" (AFR) pilot program just before the Champion's League Final between Juventus and Real Madrid almost a year ago in Cardiff, Wales." ;
+    airo:sourceDocId "1766" .
+
+<https://w3id.org/airo/incident/evidence/349b9234f155> a airo:Evidence ;
+    airo:evidenceText "In his 2017 annual report, Tony Porter the Surveillance Camera Commissioner said automatic facial recognition is \"fascinating\" but it can be used for \"intrusive capabilities\" and have \"crass\" applications." ;
+    airo:sourceDocId "9506" .
+
+<https://w3id.org/airo/incident/evidence/dba232a13185> a airo:Evidence ;
+    airo:evidenceText "Ed Bridges, 36, brought the challenge at the High Court after claiming his face was scanned while doing Christmas shopping in 2017 and at a peaceful anti-arms protest in 2018." ;
+    airo:sourceDocId "9508" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_127> a airo:AIRiskIncident ;
+    rdfs:label "2,000 wrongly matched with possible criminals at Champions League" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/acf296791c07> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/e127b913e23e> ;
+    airo:hasDescription "pred_127" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/4dfbfccff84f>,
+        <https://w3id.org/airo/incident/Data/5dcb3f6b6a25>,
+        <https://w3id.org/airo/incident/Data/ad7ed526f3b3>,
+        <https://w3id.org/airo/incident/Domain/c205a7220970>,
+        <https://w3id.org/airo/incident/evidence/411a67c9e6b7>,
+        <https://w3id.org/airo/incident/evidence/607c4f191799>,
+        <https://w3id.org/airo/incident/evidence/b44cecd260bb>,
+        <https://w3id.org/airo/incident/evidence/cd2fb650915d>,
+        <https://w3id.org/airo/incident/evidence/d2a06009bf4e> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/32d1fc30b8aa> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1762>,
+        <https://w3id.org/airo/incident/NewsReport/1764>,
+        <https://w3id.org/airo/incident/NewsReport/1765>,
+        <https://w3id.org/airo/incident/NewsReport/1766>,
+        <https://w3id.org/airo/incident/NewsReport/9503>,
+        <https://w3id.org/airo/incident/NewsReport/9506>,
+        <https://w3id.org/airo/incident/NewsReport/9508>,
+        <https://w3id.org/airo/incident/NewsReport/9510> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/3851f9b307ca> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1764>,
+        <https://w3id.org/airo/incident/document/1765>,
+        <https://w3id.org/airo/incident/document/1766>,
+        <https://w3id.org/airo/incident/document/9503>,
+        <https://w3id.org/airo/incident/document/9506>,
+        <https://w3id.org/airo/incident/document/9508>,
+        <https://w3id.org/airo/incident/document/9510> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/5908f1768d12>,
+        <https://w3id.org/airo/incident/AISystem/6a1868d83670>,
+        <https://w3id.org/airo/incident/AISystem/910c3194be14> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0d2afa28cd46>,
+        <https://w3id.org/airo/incident/Stakeholder/23135ecd67ee>,
+        <https://w3id.org/airo/incident/Stakeholder/25b55846774a>,
+        <https://w3id.org/airo/incident/Stakeholder/2810b901eb01>,
+        <https://w3id.org/airo/incident/Stakeholder/2cd35118cd4d>,
+        <https://w3id.org/airo/incident/Stakeholder/2f289ea74604>,
+        <https://w3id.org/airo/incident/Stakeholder/2fb62aa1caee>,
+        <https://w3id.org/airo/incident/Stakeholder/3067df112ce4>,
+        <https://w3id.org/airo/incident/Stakeholder/4a2f67c04319>,
+        <https://w3id.org/airo/incident/Stakeholder/51bca861b22b>,
+        <https://w3id.org/airo/incident/Stakeholder/5951e93a3cc5>,
+        <https://w3id.org/airo/incident/Stakeholder/5c91cdc17582>,
+        <https://w3id.org/airo/incident/Stakeholder/6eecac0e979d>,
+        <https://w3id.org/airo/incident/Stakeholder/95a9269eaf41>,
+        <https://w3id.org/airo/incident/Stakeholder/a6d506132aaa>,
+        <https://w3id.org/airo/incident/Stakeholder/a7edbec9050b>,
+        <https://w3id.org/airo/incident/Stakeholder/a872161c4528>,
+        <https://w3id.org/airo/incident/Stakeholder/be924cc091dd>,
+        <https://w3id.org/airo/incident/Stakeholder/cc0398e91744>,
+        <https://w3id.org/airo/incident/Stakeholder/cea5b4bbf7cf>,
+        <https://w3id.org/airo/incident/Stakeholder/cefda7ba263c>,
+        <https://w3id.org/airo/incident/Stakeholder/e22d410b61a6>,
+        <https://w3id.org/airo/incident/Stakeholder/e7c1b595fbfa>,
+        <https://w3id.org/airo/incident/Stakeholder/fcfc2962eb54> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/d4aa412541d9> .
+
+<https://w3id.org/airo/incident/AISystem/910c3194be14> a airo:AISystem ;
+    rdfs:label "Automatic Facial Recognition (AFR) software" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/acf296791c07> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/0200ca92d4b4>,
+        <https://w3id.org/airo/incident/AICapability/6a9c570fd20e>,
+        <https://w3id.org/airo/incident/Purpose/bf21c2462d9d> ;
+    airo:hasDescription "Automated Facial Recognition" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/953b717c33fd>,
+        <https://w3id.org/airo/incident/evidence/98e8f25a286f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1762>,
+        <https://w3id.org/airo/incident/document/1766> ;
+    airo:hasSupportCount 2 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/b32e5b5013fa> ;
+    airo:uses <https://w3id.org/airo/incident/Data/5dcb3f6b6a25>,
+        <https://w3id.org/airo/incident/Data/ad7ed526f3b3> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/c98f64c52168> .
+

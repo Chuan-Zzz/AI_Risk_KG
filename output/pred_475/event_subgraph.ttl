@@ -1,0 +1,1234 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/CodeOfConduct/e46b8be89541> a airo:CodeOfConduct ;
+    rdfs:label "voluntary legislation against online sex violence proposed" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f52b1927138d> ;
+    airo:hasReasoning "This indicates a potential future regulatory response, which is not yet a mandatory code but a proposed governance action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/1a069574f70c> a airo:ComplianceRequirement ;
+    rdfs:label "adherence to obscenity laws prohibiting uncensored genitalia" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bde5a5e59bea> ;
+    airo:hasReasoning "The evidence explicitly states the legal requirement that the AI use violated." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/EnforcementAction/5c85ff01a295> a airo:EnforcementAction ;
+    rdfs:label "arrest for copyright and obscenity law violations" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e461f2caaef5> ;
+    airo:hasReasoning "The authorities took the enforcement action of arresting the individual for violating specific laws." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> .
+
+<https://w3id.org/airo/incident/InformationSource/7be65dd4109e> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1742> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/InformationSource/cd00eea5e243> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8754>,
+        <https://w3id.org/airo/incident/NewsReport/8757>,
+        <https://w3id.org/airo/incident/NewsReport/8758> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754>,
+        <https://w3id.org/airo/incident/document/8757>,
+        <https://w3id.org/airo/incident/document/8758> .
+
+<https://w3id.org/airo/incident/RiskControl/92e2b2f4e0c1> a airo:RiskControl ;
+    rdfs:label "law enforcement arrests and proposed legislation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3296edefe92> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/8aaeb5e56b62> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3cf237968493> a airo:RoleAssignment ;
+    rdfs:label "Tsai Ing-wen_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd7f58d4e021> ;
+    airo:hasReasoning "As the head of state considering new legislation, she is acting in a regulatory capacity." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b47681367e33> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3e9274a17f0d> a airo:RoleAssignment ;
+    rdfs:label "Daisuke Sueyoshi_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e9f3d7ca57> ;
+    airo:hasReasoning "He is a legal expert providing commentary on the case. None of the more specific roles (Regulator, etc.) are supported by the evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0d88cda55860> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5697bdefa0e9> a airo:RoleAssignment ;
+    rdfs:label "Taiwan_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec6478a4a5ae> ;
+    airo:hasReasoning "The government (represented by its President) is considering legislative action, which is a regulatory function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61ff4b7489a2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6d881d0b6f5b> a airo:RoleAssignment ;
+    rdfs:label "Sensity_Stakeholder" ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f62cfdb442c> ;
+    airo:hasReasoning "The stakeholder is listed but not mentioned in the key evidence sentences. Therefore, no role can be inferred." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2b76ccf5a3c2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/72a1bc3054b7> a airo:RoleAssignment ;
+    rdfs:label "Japanese authorities_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/869ff0a48f0d> ;
+    airo:hasReasoning "The authorities performed the arrest, indicating a regulatory/enforcement role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f30aea749160> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7907536b49aa> a airo:RoleAssignment ;
+    rdfs:label "a 43-year-old man_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f1cfec9994e6> ;
+    airo:hasReasoning "He was actively using the AI system to process videos for sale, making him a deployer/operator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8758> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/806100b1b9aa> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/91f092d87956> a airo:RoleAssignment ;
+    rdfs:label "The Mainichi_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20327ff1d7c3> ;
+    airo:hasReasoning "The Mainichi is a news outlet reporting on the event, which fits the general stakeholder role as it is not a regulator, developer, deployer, or user in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f0a2805070cb> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cf4717ab1b49> a airo:RoleAssignment ;
+    rdfs:label "Japanese police_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d05dcc199ac6> ;
+    airo:hasReasoning "The police performed an enforcement action (arrest) related to an AI misuse case, which is a regulatory function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f4ac51e4f80a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f9e75279ec64> a airo:RoleAssignment ;
+    rdfs:label "Masayuki Nakamoto_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b7406636ddef> ;
+    airo:hasReasoning "He used the AI tool to process videos and sold the content, making him the deployer/operator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_475> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a45c3bb8661a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> .
+
+<https://w3id.org/airo/incident/Trend/4accbbe35f11> a airo:Trend ;
+    rdfs:label "first criminal cases involving AI misuse in Japan and Taiwan" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75c52c07dc4c> ;
+    airo:hasReasoning "The evidence highlights these as pioneering criminal cases, suggesting a trend of increased legal enforcement against AI misuse." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/event/pred_475> a airo:AIRiskIncident ;
+    airo:firstSeen "2021-10-19T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2021-10-21T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/033f340caee4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/035b429c34aa> .
+
+<https://w3id.org/airo/incident/ks/03454c74840c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e3b4fdb9c8> .
+
+<https://w3id.org/airo/incident/ks/06d3c42f500a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0c61d804bbd> .
+
+<https://w3id.org/airo/incident/ks/075dab5f5d8a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fb46fd7dadf> .
+
+<https://w3id.org/airo/incident/ks/08fc7a77875e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/097e2f77c8d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3153cdd635e1> .
+
+<https://w3id.org/airo/incident/ks/0e37f6e0b1f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d720e23ba45c> .
+
+<https://w3id.org/airo/incident/ks/132e05a2b0f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a6926ac4942> .
+
+<https://w3id.org/airo/incident/ks/1474c345bedd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> .
+
+<https://w3id.org/airo/incident/ks/174b3bafa8c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a9d0dabf16b> .
+
+<https://w3id.org/airo/incident/ks/1c92d4f08aa3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d6ef0deebee> .
+
+<https://w3id.org/airo/incident/ks/1dbfaae581d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/2040fc2e1fd9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff79fe3d2277> .
+
+<https://w3id.org/airo/incident/ks/264c128369a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/28262b4dedf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e9e7c7d7922> .
+
+<https://w3id.org/airo/incident/ks/29ed44b968c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7753c68390d0> .
+
+<https://w3id.org/airo/incident/ks/2a69e0760f9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d5bfe5e821c> .
+
+<https://w3id.org/airo/incident/ks/2e3583a64dc2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d6ef0deebee> .
+
+<https://w3id.org/airo/incident/ks/33712096409e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6ec8f6a865e> .
+
+<https://w3id.org/airo/incident/ks/33c29d32b65c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/342fb43e8605> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> .
+
+<https://w3id.org/airo/incident/ks/345f03dc8d1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f889dca6937> .
+
+<https://w3id.org/airo/incident/ks/347d15cbd13a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63be672d4304> .
+
+<https://w3id.org/airo/incident/ks/36ed52a313f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> .
+
+<https://w3id.org/airo/incident/ks/3c727dd2de6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5062d604846> .
+
+<https://w3id.org/airo/incident/ks/3dd7bd413c14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/3df4fb43cab1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> .
+
+<https://w3id.org/airo/incident/ks/3ed18a513c33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> .
+
+<https://w3id.org/airo/incident/ks/3fda56e21ee9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff79fe3d2277> .
+
+<https://w3id.org/airo/incident/ks/440027e8ac66> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/958dff298615> .
+
+<https://w3id.org/airo/incident/ks/466d2c4789d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e9e7c7d7922> .
+
+<https://w3id.org/airo/incident/ks/491c202fae19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0c61d804bbd> .
+
+<https://w3id.org/airo/incident/ks/4b1ae2eb64f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff79fe3d2277> .
+
+<https://w3id.org/airo/incident/ks/4cb3b1d4184e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/522cf62687a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/330813535c16> .
+
+<https://w3id.org/airo/incident/ks/5830b9597c18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/596640bd3ec9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85da29773f6b> .
+
+<https://w3id.org/airo/incident/ks/5c3871ec81cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e3b4fdb9c8> .
+
+<https://w3id.org/airo/incident/ks/5d51474186a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fb46fd7dadf> .
+
+<https://w3id.org/airo/incident/ks/6024ca8037f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d6ef0deebee> .
+
+<https://w3id.org/airo/incident/ks/61c70bc8f92a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63be672d4304> .
+
+<https://w3id.org/airo/incident/ks/6ac83dc9641a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3296edefe92> .
+
+<https://w3id.org/airo/incident/ks/71c959bf1def> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5062d604846> .
+
+<https://w3id.org/airo/incident/ks/7311f0651703> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e461f2caaef5> .
+
+<https://w3id.org/airo/incident/ks/75f4a7e1af24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85da29773f6b> .
+
+<https://w3id.org/airo/incident/ks/761df27257aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/892ecd9632ab> .
+
+<https://w3id.org/airo/incident/ks/7b1fa58d4da2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/7f88e9e4602d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b7422ae76be> .
+
+<https://w3id.org/airo/incident/ks/80767e1dea7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/78dbebd1450c> .
+
+<https://w3id.org/airo/incident/ks/811a6186ca93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7753c68390d0> .
+
+<https://w3id.org/airo/incident/ks/85538de43895> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> .
+
+<https://w3id.org/airo/incident/ks/85836ff06bea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d6ef0deebee> .
+
+<https://w3id.org/airo/incident/ks/86810f320739> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63be672d4304> .
+
+<https://w3id.org/airo/incident/ks/8897a5f9322f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/330813535c16> .
+
+<https://w3id.org/airo/incident/ks/89f8c98e5645> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9dfa4a81b37> .
+
+<https://w3id.org/airo/incident/ks/8a92fa6034fb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f632e6b4587> .
+
+<https://w3id.org/airo/incident/ks/8b272dae88d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> .
+
+<https://w3id.org/airo/incident/ks/8e57e6ffec8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98f914d7a4e0> .
+
+<https://w3id.org/airo/incident/ks/9146c6a474af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/9c92e0983aa0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/9f24ad494496> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/9f9358c1895b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/9fc3ae172829> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98f914d7a4e0> .
+
+<https://w3id.org/airo/incident/ks/a6b8a6a050de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/abd5c17c68d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63be672d4304> .
+
+<https://w3id.org/airo/incident/ks/acd9738428c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5062d604846> .
+
+<https://w3id.org/airo/incident/ks/b001c69c27c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0c61d804bbd> .
+
+<https://w3id.org/airo/incident/ks/b118944ad264> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/b6d8ffca2668> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7753c68390d0> .
+
+<https://w3id.org/airo/incident/ks/ba21859cac15> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5243084ef279> .
+
+<https://w3id.org/airo/incident/ks/bafc611d6eda> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> .
+
+<https://w3id.org/airo/incident/ks/bc3a2d207547> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/c278b7e87582> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5062d604846> .
+
+<https://w3id.org/airo/incident/ks/c6bda19bcab1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dbd5ae1fc698> .
+
+<https://w3id.org/airo/incident/ks/cad033fa850f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97d683d1754e> .
+
+<https://w3id.org/airo/incident/ks/caf25a1ff0ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/cb24be35e8cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> .
+
+<https://w3id.org/airo/incident/ks/d6a8f67d9533> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/d73024778e21> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> .
+
+<https://w3id.org/airo/incident/ks/d814a8920962> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> .
+
+<https://w3id.org/airo/incident/ks/d97d1a5ab4c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.1"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> .
+
+<https://w3id.org/airo/incident/ks/e3940464babf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7753c68390d0> .
+
+<https://w3id.org/airo/incident/ks/e8230e9bc2bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85da29773f6b> .
+
+<https://w3id.org/airo/incident/ks/e8b3c5c65e4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3c1dd0873fd> .
+
+<https://w3id.org/airo/incident/ks/ea7552aa825f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c903112a3a8b> .
+
+<https://w3id.org/airo/incident/ks/efa4be123942> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85da29773f6b> .
+
+<https://w3id.org/airo/incident/ks/f0fc2f757fec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0c61d804bbd> .
+
+<https://w3id.org/airo/incident/ks/f1be89fba965> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9dfa4a81b37> .
+
+<https://w3id.org/airo/incident/ks/f1e862cec4b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c903112a3a8b> .
+
+<https://w3id.org/airo/incident/ks/f316d7ba6900> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d76161456770> .
+
+<https://w3id.org/airo/incident/ks/f985109836de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f5062d604846> .
+
+<https://w3id.org/airo/incident/ks/fbff7ae1d811> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff79fe3d2277> .
+
+<https://w3id.org/airo/incident/AICapability/9aff9497c2c8> a airo:AICapability ;
+    rdfs:label "face swapping" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "face swaps" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/AICapability/ea24d9113a69> a airo:AICapability ;
+    rdfs:label "fake video detection" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "fake video detection services" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/AICapability/ea2ab7876e42> a airo:AICapability ;
+    rdfs:label "reconstruct blurred video content" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "reconstruct the blurred parts of the video" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e9e7c7d7922> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/20405ad8506a> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d5bfe5e821c> ;
+    airo:hasReasoning "The individual was actively using the AI system to process videos and sell the output, indicating it was in the operational deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8758> .
+
+<https://w3id.org/airo/incident/AITechnique/1719b0b50b21> a airo:AITechnique ;
+    rdfs:label "deepfake" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deepfake" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce>,
+        <https://w3id.org/airo/incident/evidence/f5062d604846> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742>,
+        <https://w3id.org/airo/incident/document/8754> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/21909bbfe139> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90e3b4fdb9c8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/AITechnique/2c3b85a84429> a airo:AITechnique ;
+    rdfs:label "TecoGAN" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "TecoGAN" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/AITechnique/7874b1d754df> a airo:AITechnique ;
+    rdfs:label "machine learning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "machine learning software" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e9e7c7d7922> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/AITechnique/cb93cca89248> a airo:AITechnique ;
+    rdfs:label "deep learning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "deep learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/AffectedActor/8fc6e90ee47c> a airo:AffectedActor ;
+    rdfs:label "porn actors and individuals depicted in manipulated content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/958dff298615> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/Documentation/b360884a1fee> a airo:Documentation ;
+    rdfs:label "none mentioned" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/892ecd9632ab> ;
+    airo:hasReasoning "No specific documentation like reports or assessments are mentioned in the evidence." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/Domain/c278b41b84ee> a airo:Domain ;
+    rdfs:label "entertainment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3c1dd0873fd> ;
+    airo:hasReasoning "The AI system was applied to adult video content, which falls under the entertainment domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/Hazard/736e30f32716> a airo:Hazard ;
+    rdfs:label "distribution of explicit content in violation of obscenity laws" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97d683d1754e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/Obligation/abca6ab24a01> a airo:Obligation ;
+    rdfs:label "conform to obscenity and copyright laws" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b7422ae76be> ;
+    airo:hasReasoning "The arrest was based on breaking existing laws, implying an obligation to comply with them." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/Purpose/92d5e21f6b29> a airo:Purpose ;
+    rdfs:label "reconstruct blurred video content" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1f632e6b4587> ;
+    airo:hasReasoning "The evidence states the tool was used to 'bypass pixelation' in videos, which is a form of reconstructing blurred content." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/RiskSource/9b944691e544> a airo:RiskSource ;
+    rdfs:label "access to AI tools for video reconstruction and face manipulation" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/8aaeb5e56b62> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a6926ac4942> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/736e30f32716> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/a628c462061f> .
+
+<https://w3id.org/airo/incident/TechnicalDocumentation/9523ea23a0cc> a airo:TechnicalDocumentation ;
+    rdfs:label "none mentioned" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d720e23ba45c> ;
+    airo:hasReasoning "No technical documents like model cards or risk assessments are referenced." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/Threat/a628c462061f> a airo:Threat ;
+    rdfs:label "online platforms and groups for selling and distributing deepfake content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3153cdd635e1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/VerificationTest/f98fffe569fd> a airo:VerificationTest ;
+    rdfs:label "none mentioned" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d76161456770> ;
+    airo:hasReasoning "No testing or verification procedures are mentioned in the evidence." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/N/A> .
+
+<https://w3id.org/airo/incident/Vulnerability/7c915b726f5d> a airo:Vulnerability ;
+    rdfs:label "AI models capable of reconstructing or manipulating video content without robust safeguards" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dbd5ae1fc698> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/evidence/03a161f9402d> a airo:Evidence ;
+    airo:evidenceText "Man Arrested For Uncensoring Japanese Porn With AI In First Deepfake Case" ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/evidence/20327ff1d7c3> a airo:Evidence ;
+    airo:evidenceText "[8754] According to the Japanese news outlet, The Mainichi, this is the first arrest of this kind within the country." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/226e838d6c10> a airo:Evidence ;
+    airo:evidenceText "Japanese police on Monday arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos, in the first criminal case in the country involving the exploitative use of the powerful technology." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/3f62cfdb442c> a airo:Evidence ;
+    airo:evidenceText "No direct evidence linking Sensity to the core events in the provided sentences." ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/4bd69fc5c0e3> a airo:Evidence ;
+    airo:evidenceText "Man Arrested for Uncensoring Japanese Porn With AI in First Deepfake Case" ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/66ead1b66677> a airo:Evidence ;
+    airo:evidenceText "Japan arrests man who de-pixelated porn using deepfake tech" ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/75c52c07dc4c> a airo:Evidence ;
+    airo:evidenceText "[1742] Japanese police on Monday arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos, in the first criminal case in the country involving the exploitative use of the powerful technology." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/78dbebd1450c> a airo:Evidence ;
+    airo:evidenceText "[1742] Masayuki Nakamoto, who runs his own website in the southern prefecture of Hyogo, lifted images of porn stars from Japanese adult videos and doctored them with the same method used to create realistic face swaps in deepfake videos." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/869ff0a48f0d> a airo:Evidence ;
+    airo:evidenceText "[8754] A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obscenity laws." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/a54d23d5e9fc> a airo:Evidence ;
+    airo:evidenceText "Japanese man arrested for using DeepFake to de-pixelate porn content" ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/a6ec8f6a865e> a airo:Evidence ;
+    airo:evidenceText "[8758] Japanese police arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos." ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/evidence/b7406636ddef> a airo:Evidence ;
+    airo:evidenceText "[1742] Masayuki Nakamoto, who runs his own website in the southern prefecture of Hyogo, lifted images of porn stars from Japanese adult videos and doctored them with the same method used to create realistic face swaps in deepfake videos." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/bde5a5e59bea> a airo:Evidence ;
+    airo:evidenceText "[8757] Pixelated porn is peculiar to Japan, since the country’s law has made it illegal for any depiction of genitalia to be uncensored." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/cd7f58d4e021> a airo:Evidence ;
+    airo:evidenceText "[8757] The crime was called “online sex violence” by the country’s President, Tsai Ing-wen, who has added that she will consider legislation against the same." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/d05dcc199ac6> a airo:Evidence ;
+    airo:evidenceText "[1742] Japanese police on Monday arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos, in the first criminal case in the country involving the exploitative use of the powerful technology." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/ec6478a4a5ae> a airo:Evidence ;
+    airo:evidenceText "[8757] The crime was called “online sex violence” by the country’s President, Tsai Ing-wen, who has added that she will consider legislation against the same." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/f1cfec9994e6> a airo:Evidence ;
+    airo:evidenceText "[8758] Japanese police arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos." ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/evidence/f2e9f3d7ca57> a airo:Evidence ;
+    airo:evidenceText "[8757] Daisuke Sueyoshi, a Japanese lawyer, has said that this happens to be the first time a person has been arrested for using AI in the country." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/f52b1927138d> a airo:Evidence ;
+    airo:evidenceText "[8757] The crime was called “online sex violence” by the country’s President, Tsai Ing-wen, who has added that she will consider legislation against the same." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/Consequence/7ddbc57b36f1> a airo:Consequence ;
+    rdfs:label "creation and sale of de-pixelated or deepfake pornographic content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/330813535c16> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/551979261650> .
+
+<https://w3id.org/airo/incident/Impact/551979261650> a airo:Impact ;
+    rdfs:label "violation of privacy, nonconsensual exploitation, and breaking obscenity/copyright laws" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/8fc6e90ee47c> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c903112a3a8b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/NewsReport/1742> a airo:NewsReport ;
+    rdfs:label "Man Arrested for Uncensoring Japanese Porn With AI in First Deepfake Case" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Japanese police on Monday arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos, in the first criminal case in the country involving the exploitative" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5243084ef279> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/NewsReport/8754> a airo:NewsReport ;
+    rdfs:label "Japan arrests man who de-pixelated porn using deepfake tech" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obsce" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a9d0dabf16b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/NewsReport/8757> a airo:NewsReport ;
+    rdfs:label "Japanese man arrested for using DeepFake to de-pixelate porn content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A Japanese man has been arrested for using artificial intelligence-driven tool DeepFake to de-pixelate porn content. The 43-year old was arrested by the Japanese police on grounds of using the technol" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3f889dca6937> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/NewsReport/8758> a airo:NewsReport ;
+    rdfs:label "Man Arrested For Uncensoring Japanese Porn With AI In First Deepfake Case" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Japanese police arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos, in the first criminal case in the country involving the exploitative use of th" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/035b429c34aa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8758> .
+
+<https://w3id.org/airo/incident/Regulation/906bb92dbdd2> a airo:Regulation ;
+    rdfs:label "obscenity law" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "obscenity law" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9dfa4a81b37> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/abca6ab24a01> .
+
+<https://w3id.org/airo/incident/Regulation/e24483e1f51b> a airo:Regulation ;
+    rdfs:label "California political deepfake ban" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California banned political deepfakes" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98f914d7a4e0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/Stakeholder/0d88cda55860> a airo:Stakeholder ;
+    rdfs:label "Daisuke Sueyoshi" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Daisuke Sueyoshi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff79fe3d2277> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/Stakeholder/2b76ccf5a3c2> a airo:Stakeholder ;
+    rdfs:label "Sensity" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sensity" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1da0bde436cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> .
+
+<https://w3id.org/airo/incident/Stakeholder/61ff4b7489a2> a airo:Stakeholder ;
+    rdfs:label "Taiwan" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Taiwan" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d6ef0deebee> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/Stakeholder/806100b1b9aa> a airo:Stakeholder ;
+    rdfs:label "a 43-year-old man" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "a 43-year-old man" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e2fbe644659> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8758> .
+
+<https://w3id.org/airo/incident/Stakeholder/a45c3bb8661a> a airo:Stakeholder ;
+    rdfs:label "Masayuki Nakamoto" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Masayuki Nakamoto" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65ea6cb737ce>,
+        <https://w3id.org/airo/incident/evidence/a0c61d804bbd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742>,
+        <https://w3id.org/airo/incident/document/8757> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/b47681367e33> a airo:Stakeholder ;
+    rdfs:label "Tsai Ing-wen" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tsai Ing-wen" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85da29773f6b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> .
+
+<https://w3id.org/airo/incident/Stakeholder/f0a2805070cb> a airo:Stakeholder ;
+    rdfs:label "The Mainichi" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Mainichi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754> .
+
+<https://w3id.org/airo/incident/Stakeholder/f30aea749160> a airo:Stakeholder ;
+    rdfs:label "Japanese authorities" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "authorities in the country" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63be672d4304>,
+        <https://w3id.org/airo/incident/evidence/f5062d604846> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8754>,
+        <https://w3id.org/airo/incident/document/8757> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/f4ac51e4f80a> a airo:Stakeholder ;
+    rdfs:label "Japanese police" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Japanese police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226e838d6c10>,
+        <https://w3id.org/airo/incident/evidence/5f1ebdcc07c2>,
+        <https://w3id.org/airo/incident/evidence/7753c68390d0>,
+        <https://w3id.org/airo/incident/evidence/9e2fbe644659> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742>,
+        <https://w3id.org/airo/incident/document/8754>,
+        <https://w3id.org/airo/incident/document/8757>,
+        <https://w3id.org/airo/incident/document/8758> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/evidence/035b429c34aa> a airo:Evidence ;
+    airo:evidenceText "Man Arrested For Uncensoring Japanese Porn With AI In First Deepfake Case" ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/evidence/0b7422ae76be> a airo:Evidence ;
+    airo:evidenceText "[8754] A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obscenity laws." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/1d5bfe5e821c> a airo:Evidence ;
+    airo:evidenceText "[8758] Japanese police arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos." ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/evidence/1f632e6b4587> a airo:Evidence ;
+    airo:evidenceText "[8754] According to local police, the individual learned to use a deep-learning video-clarifying tool, TecoGAN, to bypass pixelation in over 2,500 video files." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/2a6926ac4942> a airo:Evidence ;
+    airo:evidenceText "[8754] According to local police, the individual learned to use a deep-learning video-clarifying tool, TecoGAN, to bypass pixelation in over 2,500 video files." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/3153cdd635e1> a airo:Evidence ;
+    airo:evidenceText "[8757] Meanwhile in Taiwan Interestingly, Monday also saw a man being arrested in Taiwan for selling DeepFake porn on a Telegram group which has around 6,000 members." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/3f889dca6937> a airo:Evidence ;
+    airo:evidenceText "Japanese man arrested for using DeepFake to de-pixelate porn content" ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/5243084ef279> a airo:Evidence ;
+    airo:evidenceText "Man Arrested for Uncensoring Japanese Porn With AI in First Deepfake Case" ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/892ecd9632ab> a airo:Evidence ;
+    airo:evidenceText "N/A" ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/8a9d0dabf16b> a airo:Evidence ;
+    airo:evidenceText "Japan arrests man who de-pixelated porn using deepfake tech" ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/958dff298615> a airo:Evidence ;
+    airo:evidenceText "[8757] In the case, which is a first-of-its-kind instance, a man identified as Masayuki Nakamoto has been accused of taking images of porn actors from a number of pornography sites, and putting faces on them." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/97d683d1754e> a airo:Evidence ;
+    airo:evidenceText "[8757] Pixelated porn is peculiar to Japan, since the country’s law has made it illegal for any depiction of genitalia to be uncensored." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/a3296edefe92> a airo:Evidence ;
+    airo:evidenceText "[8757] The crime was called “online sex violence” by the country’s President, Tsai Ing-wen, who has added that she will consider legislation against the same." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/d3c1dd0873fd> a airo:Evidence ;
+    airo:evidenceText "[1742] Masayuki Nakamoto, who runs his own website in the southern prefecture of Hyogo, lifted images of porn stars from Japanese adult videos and doctored them with the same method used to create realistic face swaps in deepfake videos." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/d720e23ba45c> a airo:Evidence ;
+    airo:evidenceText "N/A" ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/d76161456770> a airo:Evidence ;
+    airo:evidenceText "N/A" ;
+    airo:sourceDocId "N/A" .
+
+<https://w3id.org/airo/incident/evidence/dbd5ae1fc698> a airo:Evidence ;
+    airo:evidenceText "[1742] But instead of changing faces, Nakamoto used machine learning software to reconstruct the blurred parts of the video based on a large set of uncensored nudes and sold the content online." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/e461f2caaef5> a airo:Evidence ;
+    airo:evidenceText "[8754] A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obscenity laws." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/Risk/8aaeb5e56b62> a airo:Risk ;
+    rdfs:label "risk of nonconsensual pornography generation and distribution" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6fb46fd7dadf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/7ddbc57b36f1> .
+
+<https://w3id.org/airo/incident/evidence/330813535c16> a airo:Evidence ;
+    airo:evidenceText "[1742] Masayuki Nakamoto, who runs his own website in the southern prefecture of Hyogo, lifted images of porn stars from Japanese adult videos and doctored them with the same method used to create realistic face swaps in deepfake videos." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/6fb46fd7dadf> a airo:Evidence ;
+    airo:evidenceText "[1742] According to Sensity, a startup that offers fake video detection services, 96 percent of deepfake videos depicted nonconsensual pornography in 2019." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/98f914d7a4e0> a airo:Evidence ;
+    airo:evidenceText "The next year, California banned political deepfakes within 60 days of an election to combat potential campaign misinformation." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/c903112a3a8b> a airo:Evidence ;
+    airo:evidenceText "[8754] A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obscenity laws." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/d9dfa4a81b37> a airo:Evidence ;
+    airo:evidenceText "Penises and vaginas are pixelated in Japanese porn because an obscenity law forbids the explicit depictions of genitalia." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/4e9e7c7d7922> a airo:Evidence ;
+    airo:evidenceText "But instead of changing faces, Nakamoto used machine learning software to reconstruct the blurred parts of the video based on a large set of uncensored nudes and sold the content online." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/90e3b4fdb9c8> a airo:Evidence ;
+    airo:evidenceText "A Japanese man has been arrested for using artificial intelligence-driven tool DeepFake to de-pixelate porn content." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/2d6ef0deebee> a airo:Evidence ;
+    airo:evidenceText """Meanwhile in Taiwan
+Interestingly, Monday also saw a man being arrested in Taiwan for selling DeepFake porn on a Telegram group which has around 6,000 members.""" ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/63be672d4304> a airo:Evidence ;
+    airo:evidenceText "Pixelated porn is peculiar to Japan, since the country’s law has made it illegal for any depiction of genitalia to be uncensored." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/64eb4c7d3b5d> a airo:Evidence ;
+    airo:evidenceText "According to the Japanese news outlet, The Mainichi, this is the first arrest of this kind within the country." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/7753c68390d0> a airo:Evidence ;
+    airo:evidenceText "The 43-year old was arrested by the Japanese police on grounds of using the technology to unblur pornography videos." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/85da29773f6b> a airo:Evidence ;
+    airo:evidenceText "The crime was called “online sex violence” by the country’s President, Tsai Ing-wen, who has added that she will consider legislation against the same." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/a0c61d804bbd> a airo:Evidence ;
+    airo:evidenceText "In the case, which is a first-of-its-kind instance, a man identified as Masayuki Nakamoto has been accused of taking images of porn actors from a number of pornography sites, and putting faces on them." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/ff79fe3d2277> a airo:Evidence ;
+    airo:evidenceText "Daisuke Sueyoshi, a Japanese lawyer, has said that this happens to be the first time a person has been arrested for using AI in the country." ;
+    airo:sourceDocId "8757" .
+
+<https://w3id.org/airo/incident/evidence/1da0bde436cc> a airo:Evidence ;
+    airo:evidenceText "According to Sensity, a startup that offers fake video detection services, 96 percent of deepfake videos depicted nonconsensual pornography in 2019." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/evidence/f5062d604846> a airo:Evidence ;
+    airo:evidenceText "A Japanese man who made over $96,000 using deepfake technology to un-blur censored porn was arrested earlier this week by authorities in the country on the grounds of breaking both copyright and obscenity laws." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/5f1ebdcc07c2> a airo:Evidence ;
+    airo:evidenceText "According to local police, the individual learned to use a deep-learning video-clarifying tool, TecoGAN, to bypass pixelation in over 2,500 video files." ;
+    airo:sourceDocId "8754" .
+
+<https://w3id.org/airo/incident/evidence/65ea6cb737ce> a airo:Evidence ;
+    airo:evidenceText "Masayuki Nakamoto, who runs his own website in the southern prefecture of Hyogo, lifted images of porn stars from Japanese adult videos and doctored them with the same method used to create realistic face swaps in deepfake videos." ;
+    airo:sourceDocId "1742" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_475> a airo:AIRiskIncident ;
+    rdfs:label "Japan arrests man who de-pixelated porn using deepfake tech" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/906bb92dbdd2>,
+        <https://w3id.org/airo/incident/Regulation/e24483e1f51b> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/7ddbc57b36f1> ;
+    airo:hasDescription "pred_475" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/20405ad8506a>,
+        <https://w3id.org/airo/incident/Domain/c278b41b84ee>,
+        <https://w3id.org/airo/incident/evidence/03a161f9402d>,
+        <https://w3id.org/airo/incident/evidence/4bd69fc5c0e3>,
+        <https://w3id.org/airo/incident/evidence/66ead1b66677>,
+        <https://w3id.org/airo/incident/evidence/a54d23d5e9fc> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/551979261650> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1742>,
+        <https://w3id.org/airo/incident/NewsReport/8754>,
+        <https://w3id.org/airo/incident/NewsReport/8757>,
+        <https://w3id.org/airo/incident/NewsReport/8758> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/8aaeb5e56b62> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1742>,
+        <https://w3id.org/airo/incident/document/8754>,
+        <https://w3id.org/airo/incident/document/8757>,
+        <https://w3id.org/airo/incident/document/8758> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0d88cda55860>,
+        <https://w3id.org/airo/incident/Stakeholder/2b76ccf5a3c2>,
+        <https://w3id.org/airo/incident/Stakeholder/61ff4b7489a2>,
+        <https://w3id.org/airo/incident/Stakeholder/806100b1b9aa>,
+        <https://w3id.org/airo/incident/Stakeholder/a45c3bb8661a>,
+        <https://w3id.org/airo/incident/Stakeholder/b47681367e33>,
+        <https://w3id.org/airo/incident/Stakeholder/f0a2805070cb>,
+        <https://w3id.org/airo/incident/Stakeholder/f30aea749160>,
+        <https://w3id.org/airo/incident/Stakeholder/f4ac51e4f80a> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/9b944691e544> .
+
+<https://w3id.org/airo/incident/evidence/9e2fbe644659> a airo:Evidence ;
+    airo:evidenceText "Japanese police arrested a 43-year-old man for using artificial intelligence to effectively unblur pixelated porn videos." ;
+    airo:sourceDocId "8758" .
+
+<https://w3id.org/airo/incident/AISystem/6dc87cf4bf9f> a airo:AISystem ;
+    rdfs:label "DeepFake" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/906bb92dbdd2>,
+        <https://w3id.org/airo/incident/Regulation/e24483e1f51b> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/9aff9497c2c8>,
+        <https://w3id.org/airo/incident/AICapability/ea24d9113a69>,
+        <https://w3id.org/airo/incident/AICapability/ea2ab7876e42>,
+        <https://w3id.org/airo/incident/Purpose/92d5e21f6b29> ;
+    airo:hasDescription "DeepFake" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/b360884a1fee>,
+        <https://w3id.org/airo/incident/TechnicalDocumentation/9523ea23a0cc>,
+        <https://w3id.org/airo/incident/VerificationTest/f98fffe569fd>,
+        <https://w3id.org/airo/incident/evidence/90e3b4fdb9c8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8757> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/7c915b726f5d> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/1719b0b50b21>,
+        <https://w3id.org/airo/incident/AITechnique/21909bbfe139>,
+        <https://w3id.org/airo/incident/AITechnique/2c3b85a84429>,
+        <https://w3id.org/airo/incident/AITechnique/7874b1d754df>,
+        <https://w3id.org/airo/incident/AITechnique/cb93cca89248> .
+

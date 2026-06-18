@@ -1,0 +1,1363 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/31ee2ef755db> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/6376>,
+        <https://w3id.org/airo/incident/NewsReport/6377>,
+        <https://w3id.org/airo/incident/NewsReport/6378>,
+        <https://w3id.org/airo/incident/NewsReport/8037>,
+        <https://w3id.org/airo/incident/NewsReport/8038>,
+        <https://w3id.org/airo/incident/NewsReport/8040> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6377>,
+        <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8037>,
+        <https://w3id.org/airo/incident/document/8038>,
+        <https://w3id.org/airo/incident/document/8040> .
+
+<https://w3id.org/airo/incident/Obligation/d7dc316837b3> a airo:Obligation ;
+    rdfs:label "provide transparency on AI system failures" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/acc0a1dceef3> ;
+    airo:hasReasoning "The evidence highlights a stakeholder's criticism about the lack of transparency regarding the AI error, implying an obligation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/RiskControl/f26617276dfe> a airo:RiskControl ;
+    rdfs:label "platform apology and bug fix" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b974fd0a834d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/f7efa8faddc0> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2318b430b282> a airo:RoleAssignment ;
+    rdfs:label "ytkingkhan_AIUser" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ba949d76493> ;
+    airo:hasReasoning "The stakeholder directly interacted with the Instagram AI system by using it and testing its behavior." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8038> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/146c56f2c7fa> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3fb7805b0cd1> a airo:RoleAssignment ;
+    rdfs:label "Fahad Ali_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7c4971d5728> ;
+    airo:hasReasoning "As an individual (and representative of an affected community) commenting on the lack of transparency regarding the harmful error, he is an affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c96351680850> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7140940e906a> a airo:RoleAssignment ;
+    rdfs:label "European Commission_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8c7d6dfa5ef> ;
+    airo:hasReasoning "The European Commission is a key regulatory body for AI in the EU, mentioned in the context of broader governance concerns, though not directly enforcing in this specific event." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8040> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7ed6ec760381> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/97010a68a4d7> a airo:RoleAssignment ;
+    rdfs:label "Andy Stone_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce8240855c9d> ;
+    airo:hasReasoning "As the spokesperson for Meta (the deployer), he represents the organization that deployed the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6377> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9baeefa7ddcd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9b7c1e2618a2> a airo:RoleAssignment ;
+    rdfs:label "Meta Platforms, Inc._AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/35b92973ac4f> ;
+    airo:hasReasoning "Meta Platforms is the parent company responsible for deploying and operating the Instagram platform and its AI features." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8040> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3110769bc6ee> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ace97f78fc2e> a airo:RoleAssignment ;
+    rdfs:label "Electronic Frontiers Australia_AffectedActor" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/04010ee4f729> ;
+    airo:hasReasoning "As a digital rights organization commenting on the lack of transparency and the harm of the error, they are an affected party advocating for the affected community." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a4534253ff98> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c689ea83e271> a airo:RoleAssignment ;
+    rdfs:label "The Guardian_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe4e1a508d6c> ;
+    airo:hasReasoning "The Guardian is a news organization reporting on the event and receiving official statements, but does not fit other specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/45328a9f1f69> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/de0897f6828d> a airo:RoleAssignment ;
+    rdfs:label "Instagram_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ca6d72207ce> ;
+    airo:hasReasoning "Instagram is the platform that deployed and operated the auto-translation feature for its users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/332ba8d027bc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f2df858edc06> a airo:RoleAssignment ;
+    rdfs:label "404 Media_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43514a7019a6> ;
+    airo:hasReasoning "404 Media is a news outlet that reported on the issue and received statements, but does not fit other specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_212> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/94a822e9c178> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/Trend/f6dc2abef84d> a airo:Trend ;
+    rdfs:label "growing scrutiny of AI translation bias and accuracy" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28b48ff5f725> ;
+    airo:hasReasoning "The incident is part of a trend where AI errors, particularly in translation affecting sensitive contexts, are receiving critical public and media attention." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8040> .
+
+<https://w3id.org/airo/incident/event/pred_212> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-10-19T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 6 ;
+    airo:lastSeen "2023-10-22T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/01c3ad02ea1c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf99cd917b91> .
+
+<https://w3id.org/airo/incident/ks/02fab395cc4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ad28a86b88> .
+
+<https://w3id.org/airo/incident/ks/0ab48bcae66b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3baeb4e15a91> .
+
+<https://w3id.org/airo/incident/ks/158951b54225> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8dac1d18e09> .
+
+<https://w3id.org/airo/incident/ks/17db3332dd93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6e7f3babbe1> .
+
+<https://w3id.org/airo/incident/ks/1a48a364ecbb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27aaf312d7dd> .
+
+<https://w3id.org/airo/incident/ks/1de67c982659> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e74dbc5456> .
+
+<https://w3id.org/airo/incident/ks/2478fb1f62db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687> .
+
+<https://w3id.org/airo/incident/ks/24bf7ba64aa1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33656ab379a1> .
+
+<https://w3id.org/airo/incident/ks/25001a06d4e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a407db3c9> .
+
+<https://w3id.org/airo/incident/ks/264fe5f5a4e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8dac1d18e09> .
+
+<https://w3id.org/airo/incident/ks/275107f588e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20a7562f6b1a> .
+
+<https://w3id.org/airo/incident/ks/285b6d76d8bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32fa4a707755> .
+
+<https://w3id.org/airo/incident/ks/29d739406369> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eac936eba7a> .
+
+<https://w3id.org/airo/incident/ks/2b30212390a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4c5d0b8b5c> .
+
+<https://w3id.org/airo/incident/ks/2d8ed0cefc35> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6aab3dfbf4b4> .
+
+<https://w3id.org/airo/incident/ks/31ee6a101038> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687> .
+
+<https://w3id.org/airo/incident/ks/334fd75c7354> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3baeb4e15a91> .
+
+<https://w3id.org/airo/incident/ks/36c845f84173> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27aaf312d7dd> .
+
+<https://w3id.org/airo/incident/ks/392e2c271069> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44cec4ce6a8> .
+
+<https://w3id.org/airo/incident/ks/3adaeaec7467> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b06793af4930> .
+
+<https://w3id.org/airo/incident/ks/3b72e30902c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/3b8943a4d0ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/81f88748dde6> .
+
+<https://w3id.org/airo/incident/ks/3da3eb0bf10d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1762f611d2f1> .
+
+<https://w3id.org/airo/incident/ks/41258b1b1012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e74dbc5456> .
+
+<https://w3id.org/airo/incident/ks/41a7cfdff20b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/43e738c21644> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c408c6684f9> .
+
+<https://w3id.org/airo/incident/ks/4ac86c7b3892> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf99cd917b91> .
+
+<https://w3id.org/airo/incident/ks/4c5a22fd403d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ad28a86b88> .
+
+<https://w3id.org/airo/incident/ks/4eeee5e4e62b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687> .
+
+<https://w3id.org/airo/incident/ks/51e49b8ea083> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a84a262cea1a> .
+
+<https://w3id.org/airo/incident/ks/53d8473d548c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a407db3c9> .
+
+<https://w3id.org/airo/incident/ks/565ed9ae1584> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/59de0d89c51b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aaa4594d3ac1> .
+
+<https://w3id.org/airo/incident/ks/5b8c6cda144f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9995699bbea2> .
+
+<https://w3id.org/airo/incident/ks/5e8612db2c4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1762f611d2f1> .
+
+<https://w3id.org/airo/incident/ks/61b29ad6f106> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33221af4599> .
+
+<https://w3id.org/airo/incident/ks/69390777f2ab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/6ad8e20c901b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eac936eba7a> .
+
+<https://w3id.org/airo/incident/ks/6b45b5b12da0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e74dbc5456> .
+
+<https://w3id.org/airo/incident/ks/6d2aa40b3dce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4d73122888> .
+
+<https://w3id.org/airo/incident/ks/6d3e46f42629> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33221af4599> .
+
+<https://w3id.org/airo/incident/ks/70207c813644> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44cec4ce6a8> .
+
+<https://w3id.org/airo/incident/ks/705c0825b6c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c16081952c4> .
+
+<https://w3id.org/airo/incident/ks/7160695d83bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a84a262cea1a> .
+
+<https://w3id.org/airo/incident/ks/766cbd71c28b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd2e640f518c> .
+
+<https://w3id.org/airo/incident/ks/78b5c6c0aafb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27aaf312d7dd> .
+
+<https://w3id.org/airo/incident/ks/7a3135c595de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/7ccd3b929758> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c15f0d8500f3> .
+
+<https://w3id.org/airo/incident/ks/819e2877ff33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f2e74dbc5456> .
+
+<https://w3id.org/airo/incident/ks/8302410bdd99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687> .
+
+<https://w3id.org/airo/incident/ks/886c637804ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e91274d11454> .
+
+<https://w3id.org/airo/incident/ks/88a380897d87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/89f5c204760c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c683c76ea50b> .
+
+<https://w3id.org/airo/incident/ks/8c032ffdbb6e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09406f1231d9> .
+
+<https://w3id.org/airo/incident/ks/8c99ca42012a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ad28a86b88> .
+
+<https://w3id.org/airo/incident/ks/8da20cffa05a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/663d45c3106c> .
+
+<https://w3id.org/airo/incident/ks/8e5f8f2637da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24966683ac23> .
+
+<https://w3id.org/airo/incident/ks/8efb56a44271> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1762f611d2f1> .
+
+<https://w3id.org/airo/incident/ks/9119775bf9f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2687f8cfc6e> .
+
+<https://w3id.org/airo/incident/ks/93d4c7ffee37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c16081952c4> .
+
+<https://w3id.org/airo/incident/ks/97e39ecf78c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a84a262cea1a> .
+
+<https://w3id.org/airo/incident/ks/993f7776c3ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ca00f9d2d04> .
+
+<https://w3id.org/airo/incident/ks/99a3c991c200> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44cec4ce6a8> .
+
+<https://w3id.org/airo/incident/ks/99b559d72b00> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44cec4ce6a8> .
+
+<https://w3id.org/airo/incident/ks/9bc674fa3d71> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d971ff56e014> .
+
+<https://w3id.org/airo/incident/ks/9eacc72ef189> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/a094759784a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6c433b3ee05> .
+
+<https://w3id.org/airo/incident/ks/a12235cce549> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf99cd917b91> .
+
+<https://w3id.org/airo/incident/ks/a48b3bf89d7b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a84a262cea1a> .
+
+<https://w3id.org/airo/incident/ks/a680cf4f308b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a261b00b3225> .
+
+<https://w3id.org/airo/incident/ks/aa63b1a9d507> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/ae6f7003e7b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a325188c9bd> .
+
+<https://w3id.org/airo/incident/ks/af390205b259> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7150106e5bf> .
+
+<https://w3id.org/airo/incident/ks/b445f92e6a7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/b902144a43e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1201623b74c1> .
+
+<https://w3id.org/airo/incident/ks/bb476f21a82c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/acc2219e0484> .
+
+<https://w3id.org/airo/incident/ks/bb7a9a2cd2e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a136d01cce8e> .
+
+<https://w3id.org/airo/incident/ks/beb8b24a0319> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c0e46182c95> .
+
+<https://w3id.org/airo/incident/ks/bef5eb619937> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c0e46182c95> .
+
+<https://w3id.org/airo/incident/ks/c1e7f49612fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20a7562f6b1a> .
+
+<https://w3id.org/airo/incident/ks/c2e72f2c7e96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/c435b35116c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8dac1d18e09> .
+
+<https://w3id.org/airo/incident/ks/c4664f354ee4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a407db3c9> .
+
+<https://w3id.org/airo/incident/ks/d2ca044a39cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b974fd0a834d> .
+
+<https://w3id.org/airo/incident/ks/d43f902828b5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/d5390191b84f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36df25f41921> .
+
+<https://w3id.org/airo/incident/ks/d6a7c266d1b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bf99cd917b91> .
+
+<https://w3id.org/airo/incident/ks/d7cb5f1d1c1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687> .
+
+<https://w3id.org/airo/incident/ks/d9d8056b77e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eac936eba7a> .
+
+<https://w3id.org/airo/incident/ks/d9ed02097742> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8dac1d18e09> .
+
+<https://w3id.org/airo/incident/ks/dc0ea96e6111> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ad28a86b88> .
+
+<https://w3id.org/airo/incident/ks/dd39fe2bb85b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33221af4599> .
+
+<https://w3id.org/airo/incident/ks/df6668738b92> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c0e46182c95> .
+
+<https://w3id.org/airo/incident/ks/e3b309ffda09> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/e606e8250688> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8dac1d18e09> .
+
+<https://w3id.org/airo/incident/ks/e7168c0da536> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1762f611d2f1> .
+
+<https://w3id.org/airo/incident/ks/e9da6093aa9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/eaa24b3e38a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/ed4d7b54a9f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049> .
+
+<https://w3id.org/airo/incident/ks/ed8dc46b698f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a407db3c9> .
+
+<https://w3id.org/airo/incident/ks/ee10423e7581> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f93c21280d0> .
+
+<https://w3id.org/airo/incident/ks/f15a361f0ac5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33221af4599> .
+
+<https://w3id.org/airo/incident/ks/f32e60d18929> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88e5023bbf08> .
+
+<https://w3id.org/airo/incident/ks/f3a12fffd7a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27aaf312d7dd> .
+
+<https://w3id.org/airo/incident/ks/f4e22b55de79> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9eac936eba7a> .
+
+<https://w3id.org/airo/incident/ks/f5d111cd9609> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/760fb8dbd4eb> .
+
+<https://w3id.org/airo/incident/ks/f77d8290eba3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c914734a5ca0> .
+
+<https://w3id.org/airo/incident/ks/f94cc6b6d0b1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c0e46182c95> .
+
+<https://w3id.org/airo/incident/ks/fa1c25224bee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/fa90be3dca3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d971ff56e014> .
+
+<https://w3id.org/airo/incident/ks/fd30d972e48e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> .
+
+<https://w3id.org/airo/incident/ks/fdc5b6da433d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab6b8f3c9d92> .
+
+<https://w3id.org/airo/incident/AICapability/5df3f07faab6> a airo:AICapability ;
+    rdfs:label "auto-translate" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto-translate" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3baeb4e15a91> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> .
+
+<https://w3id.org/airo/incident/AICapability/70d96e7e9bc5> a airo:AICapability ;
+    rdfs:label "auto-translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto-translated" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36df25f41921>,
+        <https://w3id.org/airo/incident/evidence/6aab3dfbf4b4>,
+        <https://w3id.org/airo/incident/evidence/7a325188c9bd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8038> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/734b198a2ea1> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a261b00b3225> ;
+    airo:hasReasoning "The bug occurred while the auto-translation feature was live and affecting users, indicating the deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/AITechnique/7e9f5ad4e783> a airo:AITechnique ;
+    rdfs:label "auto-translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "auto-translation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88e5023bbf08>,
+        <https://w3id.org/airo/incident/evidence/c15f0d8500f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/8040> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/c7bc728638f7> a airo:AffectedActor ;
+    rdfs:label "Palestinian users and supporters" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6e7f3babbe1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> .
+
+<https://w3id.org/airo/incident/Domain/b6632eed304b> a airo:Domain ;
+    rdfs:label "social media" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5f93c21280d0> ;
+    airo:hasReasoning "The AI system is part of the Instagram social media platform, used for user profile management." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> .
+
+<https://w3id.org/airo/incident/Purpose/0f1e4077c3f3> a airo:Purpose ;
+    rdfs:label "auto-translate user profile bios" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/24966683ac23> ;
+    airo:hasReasoning "The evidence explicitly states the AI system's function was to auto-translate user biographies." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> .
+
+<https://w3id.org/airo/incident/RiskSource/c687a6869802> a airo:RiskSource ;
+    rdfs:label "bug in auto-translation algorithm" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/f7efa8faddc0> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/acc2219e0484> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/Vulnerability/c0a28086f6ff> a airo:Vulnerability ;
+    rdfs:label "algorithmic bias or error in content translation system" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1201623b74c1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8040> .
+
+<https://w3id.org/airo/incident/evidence/04010ee4f729> a airo:Evidence ;
+    airo:evidenceText "Fahad Ali, the secretary of Electronic Frontiers Australia... said there had not been enough transparency from Meta on how this had been allowed to occur." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/0b06d7bad794> a airo:Evidence ;
+    airo:evidenceText "Amid bombing campaigns, a humanitarian crisis, rampant misinformation, and international discord that's said to be tearing the American government apart, Instagram's auto-translation algorithm seems to have changed at least two users' bios mentions of Palestine to include the word \"terrorist.\"" ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/28b48ff5f725> a airo:Evidence ;
+    airo:evidenceText "While it remains unclear why this gross error occurred, Farhad Ali... told The Guardian that it raises urgent questions." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/32fa4a707755> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/35b92973ac4f> a airo:Evidence ;
+    airo:evidenceText "In statements to 404 Media and The Guardian, Meta, the parent company of Facebook and Instagram, apologized for the error." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/43514a7019a6> a airo:Evidence ;
+    airo:evidenceText "404media first reported... In statements to 404 Media and The Guardian, Meta... apologized for the error." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/663d45c3106c> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding 'Palestinian terrorist' to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/67dcfc09f443> a airo:Evidence ;
+    airo:evidenceText "Instagram ‘Sincerely Apologizes’ For Inserting ‘Terrorist’ Into Palestinian Bio Translations" ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/evidence/7ba949d76493> a airo:Evidence ;
+    airo:evidenceText "The issue was brought to attention by TikTok user ytkingkhan, who tested the phrase on his Instagram account." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/7c408c6684f9> a airo:Evidence ;
+    airo:evidenceText "In statements to 404 Media and The Guardian, Meta, the parent company of Facebook and Instagram, apologized for the error." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/9995699bbea2> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/9ca6d72207ce> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding 'Palestinian terrorist' to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/9d4d73122888> a airo:Evidence ;
+    airo:evidenceText "The issue was brought to attention by TikTok user ytkingkhan, who tested the phrase on his Instagram account." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/a1f65dfa4d5a> a airo:Evidence ;
+    airo:evidenceText "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters" ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/a47a7e3c1524> a airo:Evidence ;
+    airo:evidenceText "It comes as the European Union demanded TikTok and Meta explain the measures they have taken to reduce the spreading and amplifying terrorist and violent content, hate speech and disinformation." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/a5a5f88ecb08> a airo:Evidence ;
+    airo:evidenceText "Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/a7c4971d5728> a airo:Evidence ;
+    airo:evidenceText "Fahad Ali... said there had not been enough transparency from Meta on how this had been allowed to occur." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/a8c7d6dfa5ef> a airo:Evidence ;
+    airo:evidenceText "Amid bombing campaigns... [and] international discord... [and governance focus]. (Implicit role based on context of AI regulation)" ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/aaa4594d3ac1> a airo:Evidence ;
+    airo:evidenceText "In statements to 404 Media and The Guardian, Meta, the parent company of Facebook and Instagram, apologized for the error." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/acc0a1dceef3> a airo:Evidence ;
+    airo:evidenceText "Fahad Ali... said there had not been enough transparency from Meta on how this had been allowed to occur." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/b06793af4930> a airo:Evidence ;
+    airo:evidenceText "In statements to 404 Media and The Guardian, Meta, the parent company of Facebook and Instagram, apologized for the error." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/c2687f8cfc6e> a airo:Evidence ;
+    airo:evidenceText "The issue was brought to attention by TikTok user ytkingkhan, who tested the phrase on his Instagram account." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/c683c76ea50b> a airo:Evidence ;
+    airo:evidenceText "The issue was brought to attention by TikTok user ytkingkhan, who tested the phrase on his Instagram account." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/c73a76e112b4> a airo:Evidence ;
+    airo:evidenceText "Meta apologises after auto-translate added ‘terrorist’ to biographies of Palestine supporters on Instagram" ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/c914734a5ca0> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding 'Palestinian terrorist' to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/cd2e640f518c> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding 'Palestinian terrorist' to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/ce8240855c9d> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/dfc6995920b0> a airo:Evidence ;
+    airo:evidenceText "Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles" ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/e7b9d1d237c4> a airo:Evidence ;
+    airo:evidenceText "Instagram apologises after inserting 'terrorist' into some Palestinian profiles" ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/e91274d11454> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/fe4e1a508d6c> a airo:Evidence ;
+    airo:evidenceText "The issue was raised on Monday in a TikTok by @ytkingkhan, 404media first reported. (and in statements to The Guardian)" ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/Consequence/ec7164685b33> a airo:Consequence ;
+    rdfs:label "incorrect and offensive labels applied to users' profiles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d971ff56e014> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8037> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/4468a3a58823> .
+
+<https://w3id.org/airo/incident/Impact/4468a3a58823> a airo:Impact ;
+    rdfs:label "reputational harm to users and erosion of trust in platform" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/c7bc728638f7> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20a7562f6b1a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/NewsReport/6376> a airo:NewsReport ;
+    rdfs:label "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters
+Instagram's auto-translation feature was adding "Palestinian terrorist" to some users' a""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a136d01cce8e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376> .
+
+<https://w3id.org/airo/incident/NewsReport/6377> a airo:NewsReport ;
+    rdfs:label "Meta apologises after auto-translate added ‘terrorist’ to biographies of Palestine supporters on Instagram" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Meta apologises after auto-translate added ‘terrorist’ to biographies of Palestine supporters on Instagram
+Insta user ‘s bio had a line with three elements – ‘Palestinian’ in English, a Palestinian fl""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/760fb8dbd4eb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6377> .
+
+<https://w3id.org/airo/incident/NewsReport/6378> a airo:NewsReport ;
+    rdfs:label "Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles
+Parent company Meta says bug caused ‘inappropriate’ auto-translations and was now fixed while employee says it pushed ‘a l""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d4c5d0b8b5c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/NewsReport/8037> a airo:NewsReport ;
+    rdfs:label "Instagram ‘Sincerely Apologizes’ For Inserting ‘Terrorist’ Into Palestinian Bio Translations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Instagram ‘Sincerely Apologizes’ For Inserting ‘Terrorist’ Into Palestinian Bio Translations
+Instagram was auto-translating user bios that included “Palestinian” and an Arabic phrase that means “prais""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33656ab379a1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8037> .
+
+<https://w3id.org/airo/incident/NewsReport/8038> a airo:NewsReport ;
+    rdfs:label "Instagram apologises after inserting 'terrorist' into some Palestinian profiles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Instagram apologises after inserting 'terrorist' into some Palestinian profiles
+Meta said it had fixed a problem that "briefly caused inappropriate Arabic translations" after a user said his bio was a""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/09406f1231d9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8038> .
+
+<https://w3id.org/airo/incident/NewsReport/8040> a airo:NewsReport ;
+    rdfs:label "Instagram Apologizes for Bug that Added “Terrorist” to Palestinian User Bios" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Amid bombing campaigns, a humanitarian crisis, rampant misinformation, and international discord that's said to be tearing the American government apart, Instagram's auto-translation algorithm seems t" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b6c433b3ee05> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8040> .
+
+<https://w3id.org/airo/incident/Stakeholder/146c56f2c7fa> a airo:Stakeholder ;
+    rdfs:label "ytkingkhan" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ytkingkhan" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687>,
+        <https://w3id.org/airo/incident/evidence/81f88748dde6>,
+        <https://w3id.org/airo/incident/evidence/9c0e46182c95>,
+        <https://w3id.org/airo/incident/evidence/f8dac1d18e09> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8037>,
+        <https://w3id.org/airo/incident/document/8038> ;
+    airo:hasSupportCount 4 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/7c58a4eea899>,
+        <https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d>,
+        <https://w3id.org/airo/incident/AISystem/cabdd72948a4> .
+
+<https://w3id.org/airo/incident/Stakeholder/3110769bc6ee> a airo:Stakeholder ;
+    rdfs:label "Meta Platforms, Inc." ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7c58a4eea899>,
+        <https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d>,
+        <https://w3id.org/airo/incident/AISystem/cabdd72948a4> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Meta" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ad28a86b88>,
+        <https://w3id.org/airo/incident/evidence/7a325188c9bd>,
+        <https://w3id.org/airo/incident/evidence/9eac936eba7a>,
+        <https://w3id.org/airo/incident/evidence/a47a7e3c1524>,
+        <https://w3id.org/airo/incident/evidence/bfde8c403a4e>,
+        <https://w3id.org/airo/incident/evidence/d99205093049> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6377>,
+        <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8038>,
+        <https://w3id.org/airo/incident/document/8040> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/332ba8d027bc> a airo:Stakeholder ;
+    rdfs:label "Instagram" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7c58a4eea899>,
+        <https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d>,
+        <https://w3id.org/airo/incident/AISystem/cabdd72948a4> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d99205093049>,
+        <https://w3id.org/airo/incident/evidence/f2e74dbc5456> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6377>,
+        <https://w3id.org/airo/incident/document/8037> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/45328a9f1f69> a airo:Stakeholder ;
+    rdfs:label "The Guardian" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Guardian" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27aaf312d7dd>,
+        <https://w3id.org/airo/incident/evidence/bf99cd917b91> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6378> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/7ed6ec760381> a airo:Stakeholder ;
+    rdfs:label "European Commission" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "European Commission" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33221af4599> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8038> .
+
+<https://w3id.org/airo/incident/Stakeholder/94a822e9c178> a airo:Stakeholder ;
+    rdfs:label "404 Media" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "404media" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c44cec4ce6a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/Stakeholder/9baeefa7ddcd> a airo:Stakeholder ;
+    rdfs:label "Andy Stone" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7c58a4eea899>,
+        <https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d>,
+        <https://w3id.org/airo/incident/AISystem/cabdd72948a4> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Andy Stone" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c2a407db3c9>,
+        <https://w3id.org/airo/incident/evidence/a84a262cea1a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6377> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a4534253ff98> a airo:Stakeholder ;
+    rdfs:label "Electronic Frontiers Australia" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Electronic Frontiers Australian" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1762f611d2f1>,
+        <https://w3id.org/airo/incident/evidence/cf9b17d5344f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8040> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/c96351680850> a airo:Stakeholder ;
+    rdfs:label "Fahad Ali" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Fahad Ali" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf9b17d5344f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/evidence/09406f1231d9> a airo:Evidence ;
+    airo:evidenceText "Instagram apologises after inserting 'terrorist' into some Palestinian profiles" ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/1201623b74c1> a airo:Evidence ;
+    airo:evidenceText "[8040] While it remains unclear why this gross error occurred, Farhad Ali of the digital rights organization Electronic Frontiers Australian told The Guardian that it raises urgent questions." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/24966683ac23> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding 'Palestinian terrorist' to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/33656ab379a1> a airo:Evidence ;
+    airo:evidenceText "Instagram ‘Sincerely Apologizes’ For Inserting ‘Terrorist’ Into Palestinian Bio Translations" ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/evidence/36df25f41921> a airo:Evidence ;
+    airo:evidenceText "Some bios containing the word \"Palestinian\" followed by the Palestinian flag emoji and the Arabic phrase \"Alhamdulillah,\" which means \"Praise be to God\", were being auto-translated to: \"Praise be to God, Palestinian terrorists are fighting for their freedom.\"" ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/5f93c21280d0> a airo:Evidence ;
+    airo:evidenceText "Instagram was auto-translating user bios... The issue was raised on Monday in a TikTok by @ytkingkhan" ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/6aab3dfbf4b4> a airo:Evidence ;
+    airo:evidenceText "When auto-translated to English the phrase read: “Praise be to god, Palestinian terrorists are fighting for their freedom.”" ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/760fb8dbd4eb> a airo:Evidence ;
+    airo:evidenceText "Meta apologises after auto-translate added ‘terrorist’ to biographies of Palestine supporters on Instagram" ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/9ca00f9d2d04> a airo:Evidence ;
+    airo:evidenceText "Meta also said there was a global outage of its live video service on Facebook for a short time." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/9d4c5d0b8b5c> a airo:Evidence ;
+    airo:evidenceText "Instagram apologises for adding ‘terrorist’ to some Palestinian user profiles" ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/a136d01cce8e> a airo:Evidence ;
+    airo:evidenceText "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters" ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/a261b00b3225> a airo:Evidence ;
+    airo:evidenceText "Parent company Meta says bug caused ‘inappropriate’ auto-translations and was now fixed." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/ab6b8f3c9d92> a airo:Evidence ;
+    airo:evidenceText "Instagram was auto-translating user bios that included “Palestinian” and an Arabic phrase that means “praise be to God” to say “Palestinian terrorists are fighting for their freedom,” which the platform says it’s very sorry for." ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/evidence/acc2219e0484> a airo:Evidence ;
+    airo:evidenceText "[6378] Parent company Meta says bug caused ‘inappropriate’ auto-translations and was now fixed." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/b6c433b3ee05> a airo:Evidence ;
+    airo:evidenceText "Instagram Apologizes for Bug that Added “Terrorist” to Palestinian User Bios" ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/b6e7f3babbe1> a airo:Evidence ;
+    airo:evidenceText "[6376] Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/b974fd0a834d> a airo:Evidence ;
+    airo:evidenceText "[6376] Meta has apologized for the translation errors, saying it has since fixed the issue." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/bfde8c403a4e> a airo:Evidence ;
+    airo:evidenceText "Meta has apologised after Instagram inserted the word \"terrorist\" into some Palestinian users' profile bios." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/c15f0d8500f3> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation algorithm seems to have changed at least two users' bios mentions of Palestine to include the word \"terrorist.\"" ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/c7150106e5bf> a airo:Evidence ;
+    airo:evidenceText "A former Facebook employee with access to discussions among current Meta employees told Guardian Australia the issue “really pushed a lot of people over the edge” – internally and externally." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/Risk/f7efa8faddc0> a airo:Risk ;
+    rdfs:label "risk of AI-generated biased or offensive content" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9c16081952c4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6377> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/ec7164685b33> .
+
+<https://w3id.org/airo/incident/evidence/20a7562f6b1a> a airo:Evidence ;
+    airo:evidenceText "[6378] A former Facebook employee with access to discussions among current Meta employees told Guardian Australia the issue “really pushed a lot of people over the edge” – internally and externally." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/7a325188c9bd> a airo:Evidence ;
+    airo:evidenceText "Parent company Meta says bug caused ‘inappropriate’ auto-translations and was now fixed while employee says it pushed ‘a lot of people over the edge’.",
+        "Parent company Meta says bug caused ‘inappropriate’ auto-translations and was now fixed." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/81f88748dde6> a airo:Evidence ;
+    airo:evidenceText "TikTok user YtKingKhan posted earlier this week about the issue, noting that different combinations still translated to “terrorist”." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/88e5023bbf08> a airo:Evidence ;
+    airo:evidenceText "Instagram's auto-translation feature was adding \"Palestinian terrorist\" to some users' account bios." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/9c16081952c4> a airo:Evidence ;
+    airo:evidenceText "[6377] Meta has apologised for Instagram’s auto-translation feature adding “Palestinian terrorist” to the biographies of some users, despite the original descriptions containing no such wording." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/d971ff56e014> a airo:Evidence ;
+    airo:evidenceText "[8037] Instagram was auto-translating user bios that included “Palestinian” and an Arabic phrase that means “praise be to God” to say “Palestinian terrorists are fighting for their freedom,” which the platform says it’s very sorry for." ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/evidence/3baeb4e15a91> a airo:Evidence ;
+    airo:evidenceText "Meta apologized after Instagram's auto-translate tool added 'terrorist' to the bio of some Palestine supporters." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/AISystem/7c58a4eea899> a airo:AISystem ;
+    rdfs:label "Facebook" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Facebook" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ca00f9d2d04>,
+        <https://w3id.org/airo/incident/evidence/c7150106e5bf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378> .
+
+<https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d> a airo:AISystem ;
+    rdfs:label "TikTok" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "TikTok" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7513d4d5d687>,
+        <https://w3id.org/airo/incident/evidence/81f88748dde6>,
+        <https://w3id.org/airo/incident/evidence/f8dac1d18e09> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8037>,
+        <https://w3id.org/airo/incident/document/8038> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/evidence/12ad28a86b88> a airo:Evidence ;
+    airo:evidenceText "Meta has apologized for the translation errors, saying it has since fixed the issue." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/1762f611d2f1> a airo:Evidence ;
+    airo:evidenceText "While it remains unclear why this gross error occurred, Farhad Ali of the digital rights organization Electronic Frontiers Australian told The Guardian that it raises urgent questions." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/27aaf312d7dd> a airo:Evidence ;
+    airo:evidenceText "A spokesperson for Meta told Guardian Australia the issue had been fixed earlier this week." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/5c2a407db3c9> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/evidence/9c0e46182c95> a airo:Evidence ;
+    airo:evidenceText "The issue was raised on Monday in a TikTok by @ytkingkhan, 404media first reported." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/9eac936eba7a> a airo:Evidence ;
+    airo:evidenceText "In statements to 404 Media and The Guardian, Meta, the parent company of Facebook and Instagram, apologized for the error." ;
+    airo:sourceDocId "8040" .
+
+<https://w3id.org/airo/incident/evidence/a84a262cea1a> a airo:Evidence ;
+    airo:evidenceText "Meta spokesperson Andy Stone wrote on X." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/bf99cd917b91> a airo:Evidence ;
+    airo:evidenceText "the spokesperson told The Guardian." ;
+    airo:sourceDocId "6376" .
+
+<https://w3id.org/airo/incident/evidence/c44cec4ce6a8> a airo:Evidence ;
+    airo:evidenceText "The issue, which was first reported by 404media, affected users with the word “Palestinian” written in English on their profile." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/e33221af4599> a airo:Evidence ;
+    airo:evidenceText "The 27-nation bloc's executive branch, the European Commission, formally requested the social media companies provide information on how they are complying with sweeping new digital rules aimed at cleaning up online platforms." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/f2e74dbc5456> a airo:Evidence ;
+    airo:evidenceText "Instagram ‘Sincerely Apologizes’ For Inserting ‘Terrorist’ Into Palestinian Bio Translations." ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/evidence/7513d4d5d687> a airo:Evidence ;
+    airo:evidenceText "The issue was brought to attention by TikTok user ytkingkhan, who tested the phrase on his Instagram account." ;
+    airo:sourceDocId "8038" .
+
+<https://w3id.org/airo/incident/evidence/f8dac1d18e09> a airo:Evidence ;
+    airo:evidenceText "On TikTok, user ytkingkhan posted a video showing his Instagram bio." ;
+    airo:sourceDocId "8037" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_212> a airo:AIRiskIncident ;
+    rdfs:label "Instagram apologises after inserting 'terrorist' into some Palestinian profiles" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/ec7164685b33> ;
+    airo:hasDescription "pred_212" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/734b198a2ea1>,
+        <https://w3id.org/airo/incident/Domain/b6632eed304b>,
+        <https://w3id.org/airo/incident/evidence/67dcfc09f443>,
+        <https://w3id.org/airo/incident/evidence/a1f65dfa4d5a>,
+        <https://w3id.org/airo/incident/evidence/c73a76e112b4>,
+        <https://w3id.org/airo/incident/evidence/dfc6995920b0>,
+        <https://w3id.org/airo/incident/evidence/e7b9d1d237c4> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/4468a3a58823> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/6376>,
+        <https://w3id.org/airo/incident/NewsReport/6377>,
+        <https://w3id.org/airo/incident/NewsReport/6378>,
+        <https://w3id.org/airo/incident/NewsReport/8037>,
+        <https://w3id.org/airo/incident/NewsReport/8038>,
+        <https://w3id.org/airo/incident/NewsReport/8040> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/f7efa8faddc0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6377>,
+        <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8037>,
+        <https://w3id.org/airo/incident/document/8038>,
+        <https://w3id.org/airo/incident/document/8040> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/7c58a4eea899>,
+        <https://w3id.org/airo/incident/AISystem/8f9cf7bf8a2d>,
+        <https://w3id.org/airo/incident/AISystem/cabdd72948a4> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/146c56f2c7fa>,
+        <https://w3id.org/airo/incident/Stakeholder/3110769bc6ee>,
+        <https://w3id.org/airo/incident/Stakeholder/332ba8d027bc>,
+        <https://w3id.org/airo/incident/Stakeholder/45328a9f1f69>,
+        <https://w3id.org/airo/incident/Stakeholder/7ed6ec760381>,
+        <https://w3id.org/airo/incident/Stakeholder/94a822e9c178>,
+        <https://w3id.org/airo/incident/Stakeholder/9baeefa7ddcd>,
+        <https://w3id.org/airo/incident/Stakeholder/a4534253ff98>,
+        <https://w3id.org/airo/incident/Stakeholder/c96351680850> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/c687a6869802> .
+
+<https://w3id.org/airo/incident/evidence/cf9b17d5344f> a airo:Evidence ;
+    airo:evidenceText "Fahad Ali, the secretary of Electronic Frontiers Australia and a Palestinian based in Sydney, said there had not been enough transparency from Meta on how this had been allowed to occur." ;
+    airo:sourceDocId "6378" .
+
+<https://w3id.org/airo/incident/evidence/d99205093049> a airo:Evidence ;
+    airo:evidenceText "Meta has apologised for Instagram’s auto-translation feature adding “Palestinian terrorist” to the biographies of some users, despite the original descriptions containing no such wording." ;
+    airo:sourceDocId "6377" .
+
+<https://w3id.org/airo/incident/AISystem/cabdd72948a4> a airo:AISystem ;
+    rdfs:label "Instagram" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/5df3f07faab6>,
+        <https://w3id.org/airo/incident/AICapability/70d96e7e9bc5>,
+        <https://w3id.org/airo/incident/Purpose/0f1e4077c3f3> ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b06d7bad794>,
+        <https://w3id.org/airo/incident/evidence/3baeb4e15a91>,
+        <https://w3id.org/airo/incident/evidence/88e5023bbf08>,
+        <https://w3id.org/airo/incident/evidence/a5a5f88ecb08>,
+        <https://w3id.org/airo/incident/evidence/ab6b8f3c9d92>,
+        <https://w3id.org/airo/incident/evidence/bfde8c403a4e>,
+        <https://w3id.org/airo/incident/evidence/d99205093049> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6376>,
+        <https://w3id.org/airo/incident/document/6377>,
+        <https://w3id.org/airo/incident/document/6378>,
+        <https://w3id.org/airo/incident/document/8037>,
+        <https://w3id.org/airo/incident/document/8038>,
+        <https://w3id.org/airo/incident/document/8040> ;
+    airo:hasSupportCount 6 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/c0a28086f6ff> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/7e9f5ad4e783> .
+

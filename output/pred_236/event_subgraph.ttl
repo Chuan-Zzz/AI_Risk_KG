@@ -1,0 +1,718 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_236> a airo:AIRiskIncident ;
+    rdfs:label "WeChat translates 'black foreigner' into racial slur" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/823e114ac49c> ;
+    airo:hasDescription "pred_236" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15fe4c4a637f>,
+        <https://w3id.org/airo/incident/evidence/16c85f7ac2c8>,
+        <https://w3id.org/airo/incident/evidence/f9087054032f>,
+        <https://w3id.org/airo/incident/evidence/fa504e6f9946>,
+        <https://w3id.org/airo/incident/evidence/fd76e6ddd2dc> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/0defc21dd809> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1534>,
+        <https://w3id.org/airo/incident/NewsReport/1731>,
+        <https://w3id.org/airo/incident/NewsReport/1732>,
+        <https://w3id.org/airo/incident/NewsReport/1733>,
+        <https://w3id.org/airo/incident/NewsReport/1734> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/4deb9d3c1ab6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1731>,
+        <https://w3id.org/airo/incident/document/1732>,
+        <https://w3id.org/airo/incident/document/1733>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/70eaf76a88fa>,
+        <https://w3id.org/airo/incident/AISystem/71bf121d3d4a>,
+        <https://w3id.org/airo/incident/AISystem/ae76bd69ae63>,
+        <https://w3id.org/airo/incident/AISystem/d2751191c43a> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/097677adba2d>,
+        <https://w3id.org/airo/incident/Stakeholder/3017a350fd43>,
+        <https://w3id.org/airo/incident/Stakeholder/5187e244fa95>,
+        <https://w3id.org/airo/incident/Stakeholder/8203d835d0f8>,
+        <https://w3id.org/airo/incident/Stakeholder/850846519502>,
+        <https://w3id.org/airo/incident/Stakeholder/f63dc2132de6> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/39458cb94a42> .
+
+<https://w3id.org/airo/incident/InformationSource/4ea39ffc75b5> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1534>,
+        <https://w3id.org/airo/incident/NewsReport/1731>,
+        <https://w3id.org/airo/incident/NewsReport/1732>,
+        <https://w3id.org/airo/incident/NewsReport/1733>,
+        <https://w3id.org/airo/incident/NewsReport/1734> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1731>,
+        <https://w3id.org/airo/incident/document/1732>,
+        <https://w3id.org/airo/incident/document/1733>,
+        <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/RiskControl/b704df7a2d76> a airo:RiskControl ;
+    rdfs:label "Immediate fix and retooling of the translation algorithm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce71aedb10dc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1732> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/4deb9d3c1ab6> .
+
+<https://w3id.org/airo/incident/event/pred_236> a airo:AIRiskIncident ;
+    airo:firstSeen "2017-10-11T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2017-10-14T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0cc9e92beb33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/950ec3337b0c> .
+
+<https://w3id.org/airo/incident/ks/0d3b2f5ea678> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b334e52c9de> .
+
+<https://w3id.org/airo/incident/ks/1d1b7849fa2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6feaa77f7800> .
+
+<https://w3id.org/airo/incident/ks/20a2ee8ea1ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7ee32f48a96> .
+
+<https://w3id.org/airo/incident/ks/2883ed0bc90d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a88e2b8654b4> .
+
+<https://w3id.org/airo/incident/ks/32f12577d65e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49a5bc4dce4a> .
+
+<https://w3id.org/airo/incident/ks/444045344e77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c08c76fa7ad1> .
+
+<https://w3id.org/airo/incident/ks/46f9c1a21c14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41d55ae65402> .
+
+<https://w3id.org/airo/incident/ks/4bcbf3b07053> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9f387cb153> .
+
+<https://w3id.org/airo/incident/ks/53a1cd36020a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9f387cb153> .
+
+<https://w3id.org/airo/incident/ks/7b249ab91f90> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/254531707aa5> .
+
+<https://w3id.org/airo/incident/ks/808b01245256> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c718f5bc753> .
+
+<https://w3id.org/airo/incident/ks/82e636e5bf32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/598fd925ef27> .
+
+<https://w3id.org/airo/incident/ks/888cdd6e96b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e89360120bb> .
+
+<https://w3id.org/airo/incident/ks/8e4d7790380d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cde806bddb0> .
+
+<https://w3id.org/airo/incident/ks/921930dae133> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/484828a88bfd> .
+
+<https://w3id.org/airo/incident/ks/932702c6bb2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bc75cf770e9> .
+
+<https://w3id.org/airo/incident/ks/97acdf991bc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce71aedb10dc> .
+
+<https://w3id.org/airo/incident/ks/98c850df7f7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59804c781e32> .
+
+<https://w3id.org/airo/incident/ks/a20870c0484c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d45657e640e> .
+
+<https://w3id.org/airo/incident/ks/a5e23e565eaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e89360120bb> .
+
+<https://w3id.org/airo/incident/ks/a6c30a6d8a9c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16c021f2b128> .
+
+<https://w3id.org/airo/incident/ks/acea129a2509> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ef4f2677876> .
+
+<https://w3id.org/airo/incident/ks/afa2a7d6d183> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b00fb9ab5ed7> .
+
+<https://w3id.org/airo/incident/ks/bac3359e9204> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5218743f18db> .
+
+<https://w3id.org/airo/incident/ks/be89c76dcffd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed60fbcd593a> .
+
+<https://w3id.org/airo/incident/ks/c14f65b4e882> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da3b0f8f145d> .
+
+<https://w3id.org/airo/incident/ks/c44a8e786708> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1610e634723a> .
+
+<https://w3id.org/airo/incident/ks/c53efbdd9d9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e58288685d70> .
+
+<https://w3id.org/airo/incident/ks/ca943fd02bf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf529ee91bef> .
+
+<https://w3id.org/airo/incident/ks/ccf25192b5f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9f387cb153> .
+
+<https://w3id.org/airo/incident/ks/cf9c2bc8364c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49a5bc4dce4a> .
+
+<https://w3id.org/airo/incident/ks/d55c38638184> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b334e52c9de> .
+
+<https://w3id.org/airo/incident/ks/da31277a0c32> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03acb350ed1c> .
+
+<https://w3id.org/airo/incident/ks/dc59db252a75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de1aaf0525db> .
+
+<https://w3id.org/airo/incident/ks/dc692eabd466> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de1aaf0525db> .
+
+<https://w3id.org/airo/incident/ks/e18fc5663812> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e9276587c3f> .
+
+<https://w3id.org/airo/incident/ks/e40355b7c22b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2768dc99264> .
+
+<https://w3id.org/airo/incident/ks/ee033d66048f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ef4f2677876> .
+
+<https://w3id.org/airo/incident/ks/f0ed9ff92434> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a65133cb29b> .
+
+<https://w3id.org/airo/incident/ks/fb8951b5ebe9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a0e296cf56c2> .
+
+<https://w3id.org/airo/incident/ks/ff5ce459406f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0cf529c7b639> .
+
+<https://w3id.org/airo/incident/AICapability/1984c2fa0839> a airo:AICapability ;
+    rdfs:label "translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "translation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03acb350ed1c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AICapability/eca4ecf0cec7> a airo:AICapability ;
+    rdfs:label "translates between Chinese and English" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "translates between Chinese and English" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de1aaf0525db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1731> .
+
+<https://w3id.org/airo/incident/AISystem/70eaf76a88fa> a airo:AISystem ;
+    rdfs:label "WeChat" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/1984c2fa0839>,
+        <https://w3id.org/airo/incident/AICapability/eca4ecf0cec7> ;
+    airo:hasDescription "WeChat" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/03acb350ed1c>,
+        <https://w3id.org/airo/incident/evidence/3c718f5bc753>,
+        <https://w3id.org/airo/incident/evidence/5218743f18db>,
+        <https://w3id.org/airo/incident/evidence/a0e296cf56c2>,
+        <https://w3id.org/airo/incident/evidence/e58288685d70> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1731>,
+        <https://w3id.org/airo/incident/document/1732>,
+        <https://w3id.org/airo/incident/document/1733>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:hasSupportCount 5 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/83f1ec57b0b6> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/31f1f104b326>,
+        <https://w3id.org/airo/incident/AITechnique/8de36c6efbfc>,
+        <https://w3id.org/airo/incident/AITechnique/ae17eadd3a54>,
+        <https://w3id.org/airo/incident/AITechnique/c044f69193e3>,
+        <https://w3id.org/airo/incident/AITechnique/d745ac998cb2> .
+
+<https://w3id.org/airo/incident/AISystem/71bf121d3d4a> a airo:AISystem ;
+    rdfs:label "Microsoft Neural Machine Translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft’s Neural Machine Translation system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9f387cb153> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AISystem/ae76bd69ae63> a airo:AISystem ;
+    rdfs:label "Microsoft Translator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft Translator" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e89360120bb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AISystem/d2751191c43a> a airo:AISystem ;
+    rdfs:label "Bing Translator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bing Translator" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9f387cb153> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AITechnique/31f1f104b326> a airo:AITechnique ;
+    rdfs:label "neural machine translation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "neural machine translation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0cf529c7b639>,
+        <https://w3id.org/airo/incident/evidence/ed60fbcd593a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/8de36c6efbfc> a airo:AITechnique ;
+    rdfs:label "machine learning" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "machine learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e7ee32f48a96> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1731> .
+
+<https://w3id.org/airo/incident/AITechnique/ae17eadd3a54> a airo:AITechnique ;
+    rdfs:label "Neural Language Processing" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "neural language processing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b00fb9ab5ed7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AITechnique/c044f69193e3> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/950ec3337b0c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1732> .
+
+<https://w3id.org/airo/incident/AITechnique/d745ac998cb2> a airo:AITechnique ;
+    rdfs:label "Language AI" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "language AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16c021f2b128> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/AffectedActor/12b79d24f2a4> a airo:AffectedActor ;
+    rdfs:label "Black individuals, particularly those using the translation service" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6feaa77f7800> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1732> .
+
+<https://w3id.org/airo/incident/RiskSource/39458cb94a42> a airo:RiskSource ;
+    rdfs:label "Inadequate training data for contextual translation" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/4deb9d3c1ab6> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a2768dc99264> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1731> .
+
+<https://w3id.org/airo/incident/Stakeholder/097677adba2d> a airo:Stakeholder ;
+    rdfs:label "Sixth Tone" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sixth Tone" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d45657e640e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/Stakeholder/3017a350fd43> a airo:Stakeholder ;
+    rdfs:label "Ann James" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ann James" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/254531707aa5>,
+        <https://w3id.org/airo/incident/evidence/2bc75cf770e9>,
+        <https://w3id.org/airo/incident/evidence/484828a88bfd>,
+        <https://w3id.org/airo/incident/evidence/87a5e7c77c8d>,
+        <https://w3id.org/airo/incident/evidence/f1099b6da4f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1731>,
+        <https://w3id.org/airo/incident/document/1732>,
+        <https://w3id.org/airo/incident/document/1733>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/5187e244fa95> a airo:Stakeholder ;
+    rdfs:label "Tencent" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tencent" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/41d55ae65402>,
+        <https://w3id.org/airo/incident/evidence/cf529ee91bef>,
+        <https://w3id.org/airo/incident/evidence/da3b0f8f145d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1733>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/8203d835d0f8> a airo:Stakeholder ;
+    rdfs:label "That's Shanghai" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "That's Shanghai" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59804c781e32>,
+        <https://w3id.org/airo/incident/evidence/ae9f387cb153> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1734> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/850846519502> a airo:Stakeholder ;
+    rdfs:label "Microsoft" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e89360120bb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/Stakeholder/f63dc2132de6> a airo:Stakeholder ;
+    rdfs:label "WeChat" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "WeChat" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c718f5bc753>,
+        <https://w3id.org/airo/incident/evidence/c08c76fa7ad1>,
+        <https://w3id.org/airo/incident/evidence/de1aaf0525db> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534>,
+        <https://w3id.org/airo/incident/document/1731>,
+        <https://w3id.org/airo/incident/document/1732> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Vulnerability/83f1ec57b0b6> a airo:Vulnerability ;
+    rdfs:label "AI model's inability to correctly discern context and avoid harmful associations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a88e2b8654b4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534> .
+
+<https://w3id.org/airo/incident/evidence/15fe4c4a637f> a airo:Evidence ;
+    airo:evidenceText "China's Most Popular App Apologizes After Translating 'Black Foreigner' as the N-Word" ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/16c85f7ac2c8> a airo:Evidence ;
+    airo:evidenceText "WeChat Apologizes for Translating ‘Black Foreigner’ as N-Word" ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/87a5e7c77c8d> a airo:Evidence ;
+    airo:evidenceText "The issue was discovered by Shanghai-based theater director Ann James, who texted her Chinese colleagues in their messaging group this morning to say she was running late." ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/f1099b6da4f3> a airo:Evidence ;
+    airo:evidenceText "Ann James, a black theater director based in Shanghai, messaged her colleagues in English on Wednesday to say she was running late." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/f9087054032f> a airo:Evidence ;
+    airo:evidenceText "WeChat translates 'black foreigner' into racial slur" ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/fa504e6f9946> a airo:Evidence ;
+    airo:evidenceText "WeChat translates 'black foreigner' into the N-word" ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/fd76e6ddd2dc> a airo:Evidence ;
+    airo:evidenceText "China's WeChat app translates 'black foreigner' to N-word" ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/Consequence/823e114ac49c> a airo:Consequence ;
+    rdfs:label "Offensive and racist translation output for a neutral phrase" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b334e52c9de> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1732> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/0defc21dd809> .
+
+<https://w3id.org/airo/incident/Impact/0defc21dd809> a airo:Impact ;
+    rdfs:label "Harm to dignity and emotional distress for affected users" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/12b79d24f2a4> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4ef4f2677876> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1733> .
+
+<https://w3id.org/airo/incident/NewsReport/1534> a airo:NewsReport ;
+    rdfs:label "WeChat Apologizes for Translating ‘Black Foreigner’ as N-Word" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Chinese messaging app WeChat has apologized for an error in its algorithm that provided the N-word as a translation for a neutral Chinese term for black foreigners.
+
+“We’re very sorry for the inapprop""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1610e634723a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1534> .
+
+<https://w3id.org/airo/incident/NewsReport/1731> a airo:NewsReport ;
+    rdfs:label "China's WeChat app translates 'black foreigner' to N-word" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """China’s most popular chat app has apologised after its software used the N-word to translate a Chinese phrase that commonly means “black foreigner”.
+
+WeChat, which has almost [900 million users](https""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7cde806bddb0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1731> .
+
+<https://w3id.org/airo/incident/NewsReport/1732> a airo:NewsReport ;
+    rdfs:label "WeChat translates 'black foreigner' into racial slur" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """**Chinese messaging app WeChat has apologised after its software used the N-word as an English translation for the Chinese for "black foreigner".**
+
+The company blamed its algorithms for producing the""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2e9276587c3f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1732> .
+
+<https://w3id.org/airo/incident/NewsReport/1733> a airo:NewsReport ;
+    rdfs:label "WeChat translates 'black foreigner' into the N-word" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """WeChat, the Chinese messaging app, has apologised for translating “black foreigner” into the N-word.
+
+It was noticed by Ann James, a black American director and actor who featured in China’s highest-g""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a65133cb29b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1733> .
+
+<https://w3id.org/airo/incident/NewsReport/1734> a airo:NewsReport ;
+    rdfs:label "China's Most Popular App Apologizes After Translating 'Black Foreigner' as the N-Word" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The translation service in China’s biggest messaging app, WeChat, [is being retooled](http://www.sixthtone.com/news/1000991/wechat-apologizes-for-translating-black-foreigner-as-n-word) after offering " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/598fd925ef27> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> .
+
+<https://w3id.org/airo/incident/evidence/0cf529c7b639> a airo:Evidence ;
+    airo:evidenceText "WeChat confirmed their software uses neural machine translation, AI that’s been trained on vast quantities of text to gain new vocabulary and, crucially, discern the specific contexts in which to use these new words." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/1610e634723a> a airo:Evidence ;
+    airo:evidenceText "WeChat Apologizes for Translating ‘Black Foreigner’ as N-Word" ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/16c021f2b128> a airo:Evidence ;
+    airo:evidenceText "Recognizing patterns is the core of language AI." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/254531707aa5> a airo:Evidence ;
+    airo:evidenceText "It was spotted by Ann James, a black American living in Shanghai, when she texted her Chinese colleagues to say she was running late." ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/2a65133cb29b> a airo:Evidence ;
+    airo:evidenceText "WeChat translates 'black foreigner' into the N-word" ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/2bc75cf770e9> a airo:Evidence ;
+    airo:evidenceText "It was noticed by Ann James, a black American director and actor who featured in China’s highest-grossing film ever, this summer’s Wolf Warrior 2." ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/2e9276587c3f> a airo:Evidence ;
+    airo:evidenceText "WeChat translates 'black foreigner' into racial slur" ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/41d55ae65402> a airo:Evidence ;
+    airo:evidenceText "The company behind it, Tencent, is now the world’s 10th most valuable public firm, worth $275 billion, according to The Economist." ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/484828a88bfd> a airo:Evidence ;
+    airo:evidenceText "The issue was first noticed by an American living in Shanghai, Ann James, when her friend discussed being late in Chinese in a group chat." ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/4d45657e640e> a airo:Evidence ;
+    airo:evidenceText "As Sixth Tone explains, “hei laowai,” the term the coworker actually used, is a neutral phrase meaning “black foreigner.”" ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/5218743f18db> a airo:Evidence ;
+    airo:evidenceText "Chinese messaging app WeChat has apologised after its software used the N-word as an English translation for the Chinese for \"black foreigner\"." ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/59804c781e32> a airo:Evidence ;
+    airo:evidenceText "A local English-language media outlet, That’s Shanghai, reported the story and found that the translator gave neutral translations in some instances but used the slur when the phrase in question included a negative term, such as “late” or “lazy.”" ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/598fd925ef27> a airo:Evidence ;
+    airo:evidenceText "China's Most Popular App Apologizes After Translating 'Black Foreigner' as the N-Word" ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/6feaa77f7800> a airo:Evidence ;
+    airo:evidenceText "[1732] It was spotted by Ann James, a black American living in Shanghai, when she texted her Chinese colleagues to say she was running late." ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/7cde806bddb0> a airo:Evidence ;
+    airo:evidenceText "China's WeChat app translates 'black foreigner' to N-word" ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/950ec3337b0c> a airo:Evidence ;
+    airo:evidenceText "The app's software uses artificial intelligence that has been fed huge reams of text to help it pick the best translations." ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/a0e296cf56c2> a airo:Evidence ;
+    airo:evidenceText "China’s most popular chat app has apologised after its software used the N-word to translate a Chinese phrase that commonly means “black foreigner”." ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/a2768dc99264> a airo:Evidence ;
+    airo:evidenceText "[1731] WeChat, which has almost 900 million users, blamed the use of the racial slur on an error in the artificial intelligence software that translates between Chinese and English." ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/a88e2b8654b4> a airo:Evidence ;
+    airo:evidenceText "[1534] That’s Shanghai, reported the story and found that the translator gave neutral translations in some instances but used the slur when the phrase in question included a negative term, such as “late” or “lazy.”" ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/b00fb9ab5ed7> a airo:Evidence ;
+    airo:evidenceText "Neural language processing AI picks up on patterns between associated words, then spits them back out." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/c08c76fa7ad1> a airo:Evidence ;
+    airo:evidenceText "WeChat acknowledged the error to China-focused news site Sixth Tone, saying: \"We're very sorry for the inappropriate translation. After receiving users' feedback, we immediately fixed the problem.\"" ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/ce71aedb10dc> a airo:Evidence ;
+    airo:evidenceText "[1732] WeChat acknowledged the error to China-focused news site Sixth Tone, saying: “We’re very sorry for the inappropriate translation. After receiving users’ feedback, we immediately fixed the problem.”" ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/cf529ee91bef> a airo:Evidence ;
+    airo:evidenceText "WeChat’s parent company, Tencent, is worth $275 million, making it the world’s tenth most valuable public company, according to The Economist." ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/da3b0f8f145d> a airo:Evidence ;
+    airo:evidenceText "The platform boasts a staggering 700 million users worldwide and, in China, is used for everything from booking plane tickets to paying utility bills to office communications." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/e58288685d70> a airo:Evidence ;
+    airo:evidenceText "WeChat, the Chinese messaging app, has apologised for translating “black foreigner” into the N-word." ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/e7ee32f48a96> a airo:Evidence ;
+    airo:evidenceText "The company uses AI and machine learning, feeding computers huge amounts of data to train it to pick the best translations based on context." ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/ed60fbcd593a> a airo:Evidence ;
+    airo:evidenceText "The spokesperson from WeChat explained that the app used neural machine translation, though the engine was constantly being refined to provide “more accurate, faithful, expressive, and elegant” results." ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/Risk/4deb9d3c1ab6> a airo:Risk ;
+    rdfs:label "Risk of AI-generated racist or offensive language" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49a5bc4dce4a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1734> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/823e114ac49c> .
+
+<https://w3id.org/airo/incident/evidence/03acb350ed1c> a airo:Evidence ;
+    airo:evidenceText "The translation service in China’s biggest messaging app, WeChat, is being retooled after offering a racist slur as a translation for the phrase “black foreigner.”" ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/1b334e52c9de> a airo:Evidence ;
+    airo:evidenceText "[1732] Chinese messaging app WeChat has apologised after its software used the N-word as an English translation for the Chinese for “black foreigner”." ;
+    airo:sourceDocId "1732" .
+
+<https://w3id.org/airo/incident/evidence/3c718f5bc753> a airo:Evidence ;
+    airo:evidenceText "Chinese messaging app WeChat has apologized for an error in its algorithm that provided the N-word as a translation for a neutral Chinese term for black foreigners." ;
+    airo:sourceDocId "1534" .
+
+<https://w3id.org/airo/incident/evidence/49a5bc4dce4a> a airo:Evidence ;
+    airo:evidenceText "[1734] The translation service in China’s biggest messaging app, WeChat, is being retooled after offering a racist slur as a translation for the phrase “black foreigner.”" ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/4ef4f2677876> a airo:Evidence ;
+    airo:evidenceText "[1733] WeChat, the Chinese messaging app, has apologised for translating “black foreigner” into the N-word." ;
+    airo:sourceDocId "1733" .
+
+<https://w3id.org/airo/incident/evidence/6e89360120bb> a airo:Evidence ;
+    airo:evidenceText "Interestingly, the derogatory translations seem to have been provided by an unspecified service, while the inoffensive translations were explicitly performed by Microsoft Translator." ;
+    airo:sourceDocId "1734" .
+
+<https://w3id.org/airo/incident/evidence/de1aaf0525db> a airo:Evidence ;
+    airo:evidenceText "WeChat, which has almost 900 million users, blamed the use of the racial slur on an error in the artificial intelligence software that translates between Chinese and English." ;
+    airo:sourceDocId "1731" .
+
+<https://w3id.org/airo/incident/evidence/ae9f387cb153> a airo:Evidence ;
+    airo:evidenceText "That’s Shanghai couldn’t replicate the offensive translation in either Bing Translator or Microsoft’s Neural Machine Translation system." ;
+    airo:sourceDocId "1734" .
+

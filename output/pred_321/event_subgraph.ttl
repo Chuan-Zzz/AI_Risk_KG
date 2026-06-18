@@ -1,0 +1,1256 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/EnforcementAction/35ee25aefeae> a airo:EnforcementAction ;
+    rdfs:label "lawsuit filed by anti-racism organizations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/202b1ab352c6> ;
+    airo:hasReasoning "A lawsuit is a form of private enforcement action against the AI system's discriminatory outputs." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> .
+
+<https://w3id.org/airo/incident/InformationSource/977713e5609b> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/5319>,
+        <https://w3id.org/airo/incident/NewsReport/8124> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5319>,
+        <https://w3id.org/airo/incident/document/8124> .
+
+<https://w3id.org/airo/incident/InformationSource/b7ff7cb945d6> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1151>,
+        <https://w3id.org/airo/incident/NewsReport/1169>,
+        <https://w3id.org/airo/incident/NewsReport/1170> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/RiskControl/47ccd36988cc> a airo:RiskControl ;
+    rdfs:label "Legal action and lawsuits to force disabling of discriminatory suggestions, followed by algorithm fixes" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58db7a6cd911> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5319> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/5bb0907fb89b> .
+
+<https://w3id.org/airo/incident/RoleAssignment/17d211dc0b24> a airo:RoleAssignment ;
+    rdfs:label "Agence France Presse_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42b3e9ac63c3> ;
+    airo:hasReasoning "AFP is mentioned as a media outlet reporting the story, a stakeholder in information dissemination." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c1a026033a07> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/185b9a04e37a> a airo:RoleAssignment ;
+    rdfs:label "Movement Against Racism and for Friendship Among Peoples_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a0ac25e7a0f> ;
+    airo:hasReasoning "This anti-racism group joined the lawsuit as a party harmed by the discriminatory system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b59c2eb9ee81> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/1a9b25f9b898> a airo:RoleAssignment ;
+    rdfs:label "Google_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06f20c94043a> ;
+    airo:hasReasoning "Google provides the autocomplete feature as part of its public search service." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a7f7646ee62b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/236797965eb2> a airo:RoleAssignment ;
+    rdfs:label "French anti-racism groups_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db114848ee1e> ;
+    airo:hasReasoning "These groups are directly harmed by and taking legal action against the discriminatory practice." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5319> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61eb11680c17> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/29ee502c4e9a> a airo:RoleAssignment ;
+    rdfs:label "SOS Racisme_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a322a46f441c> ;
+    airo:hasReasoning "SOS Racisme is suing over harmful discriminatory suggestions, indicating they are a harmed party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3fb974cf3b13> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/32f4306914e0> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80dadca3bfb5> ;
+    airo:hasReasoning "Google announced fixing the algorithm, indicating it developed the system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8124> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a7f7646ee62b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/55b2d09626d5> a airo:RoleAssignment ;
+    rdfs:label "Google_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a240e731c733> ;
+    airo:hasReasoning "Google deployed and operates the autocomplete feature in its live search environment." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a7f7646ee62b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5e2f4343ec38> a airo:RoleAssignment ;
+    rdfs:label "Patrick Kulgman_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/84e381803587> ;
+    airo:hasReasoning "As a lawyer representing the affected group, he is a stakeholder advocating for the harmed parties but does not fit other specific roles." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/05158d6af4d9> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ddb3a6c09551> a airo:RoleAssignment ;
+    rdfs:label "Union of Jewish Students of France_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45ecadaf3497> ;
+    airo:hasReasoning "The organization joined the lawsuit as a party harmed by the discriminatory suggestions targeting their community." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/746e0fcc5a6c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/Trend/7f3b74dd4f14> a airo:Trend ;
+    rdfs:label "legal challenges and lawsuits against AI systems for discriminatory outputs" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49151db445d2> ;
+    airo:hasReasoning "The evidence shows a trend of anti-discrimination groups using litigation to address AI-driven bias and stereotyping." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/event/pred_321> a airo:AIRiskIncident ;
+    airo:firstSeen "2012-01-05T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2018-02-12T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0089fbae67db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> .
+
+<https://w3id.org/airo/incident/ks/0311ecc37f8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/04ba92fb4743> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> .
+
+<https://w3id.org/airo/incident/ks/0bf480b53c8b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/0ce2e132f05a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bfe6022a655> .
+
+<https://w3id.org/airo/incident/ks/0dfecdb71c05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/10a8e24b46b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/15b8de1af090> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/1744511bd354> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/17f144790dc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29119aa559f1> .
+
+<https://w3id.org/airo/incident/ks/189b2a3f113b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/194a40929744> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/1aa97de3655a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/1d2843a1c934> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/1eae95e022cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/224801ba586e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/224d857e8f7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/28dd504d6d55> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/28f2a017090c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12a6ff269f50> .
+
+<https://w3id.org/airo/incident/ks/29392882e304> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/2a547e8bd4b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/2e28138aa1a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/142534179321> .
+
+<https://w3id.org/airo/incident/ks/30b0bfc8b9df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/334db0edb481> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/377899ce2b26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de86ce5c8ece> .
+
+<https://w3id.org/airo/incident/ks/37eb31233298> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/3b5890982cfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb429ff18dc7> .
+
+<https://w3id.org/airo/incident/ks/3b596a20346b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/410e0c99e529> .
+
+<https://w3id.org/airo/incident/ks/3ce1ddb79878> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab265df95f0f> .
+
+<https://w3id.org/airo/incident/ks/40e89f8aa7b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/4213412a30f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3600849dc39a> .
+
+<https://w3id.org/airo/incident/ks/48c6d2894547> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> .
+
+<https://w3id.org/airo/incident/ks/4a514dcfdd5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/4b36bdbecf31> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/153a1939742a> .
+
+<https://w3id.org/airo/incident/ks/4b86e80cf3ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/4c64a46738cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/048e010eab6b> .
+
+<https://w3id.org/airo/incident/ks/4e9ccacf8d2b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/50a3283fc8f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1797f44d2c0d> .
+
+<https://w3id.org/airo/incident/ks/50fb2f51e330> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/52e6139d9463> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0aefdc6cb1af> .
+
+<https://w3id.org/airo/incident/ks/53415f064d27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/54f42569b36c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/59636b813900> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/59b37abb6a13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15187736c449> .
+
+<https://w3id.org/airo/incident/ks/5e8db551c864> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/6481089c8838> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/67c516fc6868> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a69d93da81d8> .
+
+<https://w3id.org/airo/incident/ks/6c258dc8f026> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/6e468fce0fd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c39a33ecae37> .
+
+<https://w3id.org/airo/incident/ks/6e6e339023c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fd4673f278> .
+
+<https://w3id.org/airo/incident/ks/72be341069ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3600849dc39a> .
+
+<https://w3id.org/airo/incident/ks/7608b856e940> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/77d72f135aaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/78d34b8aeac9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/78e4ba95bc7b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf2e80402492> .
+
+<https://w3id.org/airo/incident/ks/7b8a6db1daba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36730d7aef36> .
+
+<https://w3id.org/airo/incident/ks/7d1d3581cdc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebe5076b5469> .
+
+<https://w3id.org/airo/incident/ks/7f9b466fe4b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/80c5e4c7732f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> .
+
+<https://w3id.org/airo/incident/ks/80dc1bf3bc1e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/865259f070ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/334c40e3df39> .
+
+<https://w3id.org/airo/incident/ks/86dc7e9cf57e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/872147fd2033> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/881a6a5121e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c60f2b4462d8> .
+
+<https://w3id.org/airo/incident/ks/89433f86bd74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/8a956f0bd658> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/8eca16f5a7d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/90a887bda08a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fd4673f278> .
+
+<https://w3id.org/airo/incident/ks/94ab6fc7634c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/9561a732c62d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/95a5183c1e81> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58db7a6cd911> .
+
+<https://w3id.org/airo/incident/ks/96575ffb8dfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/9a7f94ec2b10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/9bd7396ecf0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/9c6a99c9e8ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/9f918aee0f88> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebe5076b5469> .
+
+<https://w3id.org/airo/incident/ks/9fa30f2ba377> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/9fb626adcb67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c73f5f4e1e18> .
+
+<https://w3id.org/airo/incident/ks/a459732390a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/a59652475d42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/a6ba78d3cf16> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/a9680db9c8f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3600849dc39a> .
+
+<https://w3id.org/airo/incident/ks/abdcf5755389> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/ac26778444a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a4dee4a5b4c> .
+
+<https://w3id.org/airo/incident/ks/ae11c72e4fb3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/ae807019e1dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab265df95f0f> .
+
+<https://w3id.org/airo/incident/ks/b19adce53e60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3600849dc39a> .
+
+<https://w3id.org/airo/incident/ks/b2e2b49a5c1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9677b6786ad> .
+
+<https://w3id.org/airo/incident/ks/b482b1937c40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/b672c9ed18f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/b7998e44fe4c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebe5076b5469> .
+
+<https://w3id.org/airo/incident/ks/b872da7b6c02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdf720f4a5b> .
+
+<https://w3id.org/airo/incident/ks/bae960e596cc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> .
+
+<https://w3id.org/airo/incident/ks/bcada1f6aa28> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/bdfb84abff4d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/be6af7532b7c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/c0830e226204> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f545a4860bea> .
+
+<https://w3id.org/airo/incident/ks/c9550da1ebc3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7221ef7fc32d> .
+
+<https://w3id.org/airo/incident/ks/c9d0ef337d51> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/cdbd49f8c679> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdf720f4a5b> .
+
+<https://w3id.org/airo/incident/ks/d15520b035a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ceea3bf8268f> .
+
+<https://w3id.org/airo/incident/ks/da2c17cf1fb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70d10f9b34e0> .
+
+<https://w3id.org/airo/incident/ks/e0bcadbb5b59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/e647d86b2093> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/58e4a4913e4d> .
+
+<https://w3id.org/airo/incident/ks/e6517c5f6c68> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/202b1ab352c6> .
+
+<https://w3id.org/airo/incident/ks/e9afa3312286> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebe5076b5469> .
+
+<https://w3id.org/airo/incident/ks/ec3e5db2f5c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/ef5cb46059cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/f5ea54eb9476> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a> .
+
+<https://w3id.org/airo/incident/ks/fd76c96fc820> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> .
+
+<https://w3id.org/airo/incident/ks/ff4a55c88b02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b27884239eaf> .
+
+<https://w3id.org/airo/incident/ks/ff83462f01e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9677b6786ad> .
+
+<https://w3id.org/airo/incident/AICapability/3cbde368ab93> a airo:AICapability ;
+    rdfs:label "autocomplete" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "autocomplete feature" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29119aa559f1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/AICapability/3f36c7124d1f> a airo:AICapability ;
+    rdfs:label "predict search queries" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab265df95f0f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/3edd6343760f> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7221ef7fc32d> ;
+    airo:hasReasoning "The lawsuits and public complaints indicate the AI system was already active and deployed, causing real-world harm." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/AITechnique/f249e5246b85> a airo:AITechnique ;
+    rdfs:label "autocomplete algorithms" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "autocomplete algorithms" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300>,
+        <https://w3id.org/airo/incident/evidence/ab265df95f0f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AffectedActor/394522a6c312> a airo:AffectedActor ;
+    rdfs:label "Jewish individuals, public figures, and companies targeted by discriminatory suggestions" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c60f2b4462d8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/Domain/963bd9e2494b> a airo:Domain ;
+    rdfs:label "search engine / information retrieval" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/70d10f9b34e0> ;
+    airo:hasReasoning "The system is explicitly described as a search engine autocomplete feature, operating within the domain of web search and information retrieval." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/Purpose/05243effd212> a airo:Purpose ;
+    rdfs:label "predict and display search queries based on other users' search activities and the contents of web pages indexed by Google" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf2e80402492> ;
+    airo:hasReasoning "The evidence explicitly states the purpose of the autocomplete algorithm: predicting and displaying search queries based on user activity and indexed content." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/RiskSource/ea231c976771> a airo:RiskSource ;
+    rdfs:label "Algorithm based on user search activities and indexed web content" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/5bb0907fb89b> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36730d7aef36> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/Stakeholder/18f3035be7b6> a airo:Stakeholder ;
+    rdfs:label "Hiroyuki Tomita" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Hiroyuki Tomita" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/142534179321> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/Stakeholder/470114d83897> a airo:Stakeholder ;
+    rdfs:label "French companies" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "2 French companies" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/410e0c99e529> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/Stakeholder/82714342a308> a airo:Stakeholder ;
+    rdfs:label "Kyodo News Agency" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Kyodo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15187736c449> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/Stakeholder/f36eca7ea49d> a airo:Stakeholder ;
+    rdfs:label "Japan" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Japan" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7bfe6022a655> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/Vulnerability/391c59ff89b9> a airo:Vulnerability ;
+    rdfs:label "Lack of content filtering for discriminatory or defamatory predictions" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c39a33ecae37> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/evidence/048e010eab6b> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature 'predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.'" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/06f20c94043a> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature 'predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.'" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/153a1939742a> a airo:Evidence ;
+    airo:evidenceText "[8124] In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature..." ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/1797f44d2c0d> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature 'predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.'" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/3a0ac25e7a0f> a airo:Evidence ;
+    airo:evidenceText "[1169] French anti-discrimination organization SOS Racisme, in association with... the Movement Against Racism and for Friendship Among Peoples... is suing Google because its autocomplete feature suggests the word 'Jewish'..." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/42b3e9ac63c3> a airo:Evidence ;
+    airo:evidenceText "[1151] A lawyer for SOS Racisme, Patrick Kulgman, told Agence France Presse (AFP) that Google's autocomplete algorithms have resulted in 'the creation of what is probably the biggest Jewish file in history,' according to The Times of Israel." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/45ecadaf3497> a airo:Evidence ;
+    airo:evidenceText "[1169] French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France... is suing Google because its autocomplete feature suggests the word 'Jewish'..." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/49151db445d2> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/696d125ca5c0> a airo:Evidence ;
+    airo:evidenceText "Google ordered to change autocomplete function in Japan" ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/80dadca3bfb5> a airo:Evidence ;
+    airo:evidenceText "[8124] In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature..." ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/84e381803587> a airo:Evidence ;
+    airo:evidenceText "[1151] A lawyer for SOS Racisme, Patrick Kulgman, told Agence France Presse (AFP) that Google's autocomplete algorithms have resulted in 'the creation of what is probably the biggest Jewish file in history,' according to The Times of Israel." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/8a4dee4a5b4c> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/8c7fbfd598ca> a airo:Evidence ;
+    airo:evidenceText "Google Autocomplete Still Makes Vile Suggestions" ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/9507a78c86fb> a airo:Evidence ;
+    airo:evidenceText "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/995db2de89e6> a airo:Evidence ;
+    airo:evidenceText "Deal reached in Google France autocorrect battle" ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/a240e731c733> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/a322a46f441c> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/ceea3bf8268f> a airo:Evidence ;
+    airo:evidenceText "[8124] In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature..." ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/db114848ee1e> a airo:Evidence ;
+    airo:evidenceText "[5319] Legal action was originally taken by anti-racism organisations such as SOS Racisme in an attempt to try and prevent the continuation of what they viewed as a discriminatory practice responsible for maintaining stereotypes and advancing racist ideas about Jewish conspiracies." ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/de86ce5c8ece> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/e0534e949319> a airo:Evidence ;
+    airo:evidenceText "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/Consequence/fbd9d094d0e3> a airo:Consequence ;
+    rdfs:label "Automated suggestions link public figures to 'Jewish' or antisemitic tropes, creating a 'Jewish file'" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fd4673f278> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/efe45ef11c36> .
+
+<https://w3id.org/airo/incident/Impact/efe45ef11c36> a airo:Impact ;
+    rdfs:label "Reputational damage, privacy violations, and difficulty finding employment for individuals" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/394522a6c312> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bcdf720f4a5b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/NewsReport/1151> a airo:NewsReport ;
+    rdfs:label "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A new lawsuit alleges that Google's search engine has an anti-Semitism problem.
+
+French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France, the Mo""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b27884239eaf> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151> .
+
+<https://w3id.org/airo/incident/NewsReport/1169> a airo:NewsReport ;
+    rdfs:label "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A new lawsuit alleges that Google's search engine has an anti-Semitism problem.
+
+French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France, the Mo""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a69d93da81d8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/NewsReport/1170> a airo:NewsReport ;
+    rdfs:label "Google ordered to change autocomplete function in Japan" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Google has been ordered to disable part of its autocomplete function in Japan after complaints it violates privacy.
+
+An unidentified man took the search giant to court over concerns that typing in his""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bb429ff18dc7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1170> .
+
+<https://w3id.org/airo/incident/NewsReport/5319> a airo:NewsReport ;
+    rdfs:label "Deal reached in Google France autocorrect battle" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Deal reached in Google France autocorrect battle
+Internet giant Google has reached a deal with French anti-racism groups following a lawsuit brought against it in regards to the autocomplete feature o""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0aefdc6cb1af> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5319> .
+
+<https://w3id.org/airo/incident/NewsReport/8124> a airo:NewsReport ;
+    rdfs:label "Google Autocomplete Still Makes Vile Suggestions" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature: When users typed in the phrase, \"are jews,\" Google automatically suggested the question, \"are jews evi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12a6ff269f50> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8124> .
+
+<https://w3id.org/airo/incident/Stakeholder/05158d6af4d9> a airo:Stakeholder ;
+    rdfs:label "Patrick Kulgman" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Patrick Kulgman" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300>,
+        <https://w3id.org/airo/incident/evidence/ebe5076b5469> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/3fb974cf3b13> a airo:Stakeholder ;
+    rdfs:label "SOS Racisme" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "SOS Racisme" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a>,
+        <https://w3id.org/airo/incident/evidence/3600849dc39a>,
+        <https://w3id.org/airo/incident/evidence/58e4a4913e4d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/5319> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/61eb11680c17> a airo:Stakeholder ;
+    rdfs:label "French anti-racism groups" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "French anti-racism groups" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/5319> .
+
+<https://w3id.org/airo/incident/Stakeholder/746e0fcc5a6c> a airo:Stakeholder ;
+    rdfs:label "Union of Jewish Students of France" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Union of Jewish Students of France" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a>,
+        <https://w3id.org/airo/incident/evidence/58e4a4913e4d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/b59c2eb9ee81> a airo:Stakeholder ;
+    rdfs:label "Movement Against Racism and for Friendship Among Peoples" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "the Movement Against Racism and for Friendship Among Peoples" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a>,
+        <https://w3id.org/airo/incident/evidence/58e4a4913e4d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/c1a026033a07> a airo:Stakeholder ;
+    rdfs:label "Agence France Presse" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Agence France Presse" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96903b2d3300> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169> .
+
+<https://w3id.org/airo/incident/evidence/0aefdc6cb1af> a airo:Evidence ;
+    airo:evidenceText "Deal reached in Google France autocorrect battle" ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/12a6ff269f50> a airo:Evidence ;
+    airo:evidenceText "Google Autocomplete Still Makes Vile Suggestions" ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/142534179321> a airo:Evidence ;
+    airo:evidenceText "Lawyer Hiroyuki Tomita said the effect on the man's reputation has meant he has found it hard to find work." ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/15187736c449> a airo:Evidence ;
+    airo:evidenceText "Mr Tomita told Japanese news agency Kyodo." ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/202b1ab352c6> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/334c40e3df39> a airo:Evidence ;
+    airo:evidenceText "A new lawsuit alleges that Google's search engine has an anti-Semitism problem." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/36730d7aef36> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature \"predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.\"" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/410e0c99e529> a airo:Evidence ;
+    airo:evidenceText "The Hollywood Reporter also writes that the last lawsuit Google saw in France due to its autocomplete feature occurred in 2009, when two French companies sued the search engine because its autocomplete feature suggested the French word for \"scam\" in searches for said companies' names." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/58db7a6cd911> a airo:Evidence ;
+    airo:evidenceText "[5319] Internet giant Google has reached a deal with French anti-racism groups following a lawsuit brought against it in regards to the autocomplete feature of its search engine." ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/70d10f9b34e0> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature 'predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.'" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/7221ef7fc32d> a airo:Evidence ;
+    airo:evidenceText "[1151] French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word 'Jewish' in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/a69d93da81d8> a airo:Evidence ;
+    airo:evidenceText "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/b27884239eaf> a airo:Evidence ;
+    airo:evidenceText "Google Instant's Allegedly 'Anti-Semitic' Results Lead To Lawsuit In France" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/bb429ff18dc7> a airo:Evidence ;
+    airo:evidenceText "Google ordered to change autocomplete function in Japan" ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/c39a33ecae37> a airo:Evidence ;
+    airo:evidenceText "[1169] A new lawsuit alleges that Google's search engine has an anti-Semitism problem." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/c60f2b4462d8> a airo:Evidence ;
+    airo:evidenceText "[1169] French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France, the Movement Against Racism and for Friendship Among Peoples and other organizations, is suing Google because its autocomplete feature suggests the word \"Jewish\" in searches involving certain public figures, including News Corporation chairman Rupert Murdoch and actor Jon Hamm, reports The Times of Israel." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/c73f5f4e1e18> a airo:Evidence ;
+    airo:evidenceText "The reasoning for this autocomplete function is based in Google.fr users frequently asking whether politicians and various celebrities are Jewish or not, thus the words \"Jufi\" or \"Jewish\" are frequently suggested as a possible result when internet users type in certain famous names." ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/cf2e80402492> a airo:Evidence ;
+    airo:evidenceText "[1151] According to Google's website, its algorithm for the Google Instant autocomplete feature 'predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.'" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/Risk/5bb0907fb89b> a airo:Risk ;
+    rdfs:label "Risk of discriminatory and antisemitic search suggestions" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d9677b6786ad> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8124> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/fbd9d094d0e3> .
+
+<https://w3id.org/airo/incident/evidence/29119aa559f1> a airo:Evidence ;
+    airo:evidenceText "According to Google's website, its algorithm for the Google Instant autocomplete feature \"predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.\"" ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/72fd4673f278> a airo:Evidence ;
+    airo:evidenceText "[1151] A lawyer for SOS Racisme, Patrick Kulgman, told Agence France Presse (AFP) that Google's autocomplete algorithms have resulted in \"the creation of what is probably the biggest Jewish file in history,\" according to The Times of Israel." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/7bfe6022a655> a airo:Evidence ;
+    airo:evidenceText "Google has been ordered to disable part of its autocomplete function in Japan after complaints it violates privacy." ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/bcdf720f4a5b> a airo:Evidence ;
+    airo:evidenceText "[1170] Lawyer Hiroyuki Tomita said the effect on the man's reputation has meant he has found it hard to find work." ;
+    airo:sourceDocId "1170" .
+
+<https://w3id.org/airo/incident/evidence/d9677b6786ad> a airo:Evidence ;
+    airo:evidenceText "[8124] In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature: When users typed in the phrase, \"are jews,\" Google automatically suggested the question, \"are jews evil?\"" ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/AISystem/3339c17c1ee8> a airo:AISystem ;
+    rdfs:label "Google Search" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google's search engine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/334c40e3df39>,
+        <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/5319> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a7f7646ee62b> a airo:Stakeholder ;
+    rdfs:label "Google" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/3339c17c1ee8>,
+        <https://w3id.org/airo/incident/AISystem/b6823b183082> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/3339c17c1ee8>,
+        <https://w3id.org/airo/incident/AISystem/b6823b183082> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Google" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30a3a67b252a>,
+        <https://w3id.org/airo/incident/evidence/58e4a4913e4d>,
+        <https://w3id.org/airo/incident/evidence/7bfe6022a655>,
+        <https://w3id.org/airo/incident/evidence/f545a4860bea>,
+        <https://w3id.org/airo/incident/evidence/f8fc97cafdf4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/1170>,
+        <https://w3id.org/airo/incident/document/5319>,
+        <https://w3id.org/airo/incident/document/8124> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/3339c17c1ee8>,
+        <https://w3id.org/airo/incident/AISystem/b6823b183082> .
+
+<https://w3id.org/airo/incident/evidence/ab265df95f0f> a airo:Evidence ;
+    airo:evidenceText "According to Google's website, its algorithm for the Google Instant autocomplete feature \"predicts and displays search queries based on other users' search activities and the contents of web pages indexed by Google.\"" ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/3600849dc39a> a airo:Evidence ;
+    airo:evidenceText "Legal action was originally taken by anti-racism organisations such as SOS Racisme in anattempt to try and prevent the continuation of what they viewed as a discriminatory practice responsible for maintaining stereotypes and advancing racist ideas about Jewish conspiracies." ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/evidence/ebe5076b5469> a airo:Evidence ;
+    airo:evidenceText "A lawyer for SOS Racisme, Patrick Kulgman, told Agence France Presse (AFP) that Google's autocomplete algorithms have resulted in \"the creation of what is probably the biggest Jewish file in history,\" according to The Times of Israel." ;
+    airo:sourceDocId "1151" .
+
+<https://w3id.org/airo/incident/evidence/f8fc97cafdf4> a airo:Evidence ;
+    airo:evidenceText "Internet giant Google has reached a deal with French anti-racism groups following a lawsuit brought against it in regards to the autocomplete feature of its search engine." ;
+    airo:sourceDocId "5319" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_321> a airo:AIRiskIncident ;
+    rdfs:label "Google Autocomplete Still Makes Vile Suggestions" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/fbd9d094d0e3> ;
+    airo:hasDescription "pred_321" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/3edd6343760f>,
+        <https://w3id.org/airo/incident/Domain/963bd9e2494b>,
+        <https://w3id.org/airo/incident/evidence/696d125ca5c0>,
+        <https://w3id.org/airo/incident/evidence/8c7fbfd598ca>,
+        <https://w3id.org/airo/incident/evidence/9507a78c86fb>,
+        <https://w3id.org/airo/incident/evidence/995db2de89e6>,
+        <https://w3id.org/airo/incident/evidence/e0534e949319> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/efe45ef11c36> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1151>,
+        <https://w3id.org/airo/incident/NewsReport/1169>,
+        <https://w3id.org/airo/incident/NewsReport/1170>,
+        <https://w3id.org/airo/incident/NewsReport/5319>,
+        <https://w3id.org/airo/incident/NewsReport/8124> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/5bb0907fb89b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/1170>,
+        <https://w3id.org/airo/incident/document/5319>,
+        <https://w3id.org/airo/incident/document/8124> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/3339c17c1ee8>,
+        <https://w3id.org/airo/incident/AISystem/b6823b183082> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/05158d6af4d9>,
+        <https://w3id.org/airo/incident/Stakeholder/18f3035be7b6>,
+        <https://w3id.org/airo/incident/Stakeholder/3fb974cf3b13>,
+        <https://w3id.org/airo/incident/Stakeholder/470114d83897>,
+        <https://w3id.org/airo/incident/Stakeholder/61eb11680c17>,
+        <https://w3id.org/airo/incident/Stakeholder/746e0fcc5a6c>,
+        <https://w3id.org/airo/incident/Stakeholder/82714342a308>,
+        <https://w3id.org/airo/incident/Stakeholder/a7f7646ee62b>,
+        <https://w3id.org/airo/incident/Stakeholder/b59c2eb9ee81>,
+        <https://w3id.org/airo/incident/Stakeholder/c1a026033a07>,
+        <https://w3id.org/airo/incident/Stakeholder/f36eca7ea49d> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/ea231c976771> .
+
+<https://w3id.org/airo/incident/evidence/96903b2d3300> a airo:Evidence ;
+    airo:evidenceText "A lawyer for SOS Racisme, Patrick Kulgman, told Agence France Presse (AFP) that Google's autocomplete algorithms have resulted in \"the creation of what is probably the biggest Jewish file in history,\" according to The Times of Israel." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/AISystem/b6823b183082> a airo:AISystem ;
+    rdfs:label "Google Instant autocomplete feature" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/3cbde368ab93>,
+        <https://w3id.org/airo/incident/AICapability/3f36c7124d1f>,
+        <https://w3id.org/airo/incident/Purpose/05243effd212> ;
+    airo:hasDescription "Google autocomplete feature" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29119aa559f1>,
+        <https://w3id.org/airo/incident/evidence/58e4a4913e4d>,
+        <https://w3id.org/airo/incident/evidence/c73f5f4e1e18>,
+        <https://w3id.org/airo/incident/evidence/f545a4860bea> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1151>,
+        <https://w3id.org/airo/incident/document/1169>,
+        <https://w3id.org/airo/incident/document/5319>,
+        <https://w3id.org/airo/incident/document/8124> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/391c59ff89b9> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/f249e5246b85> .
+
+<https://w3id.org/airo/incident/evidence/f545a4860bea> a airo:Evidence ;
+    airo:evidenceText "In December of 2016, Google announced it had fixed a troubling quirk of its autocomplete feature: When users typed in the phrase, \"are jews,\" Google automatically suggested the question, \"are jews evil?\"" ;
+    airo:sourceDocId "8124" .
+
+<https://w3id.org/airo/incident/evidence/30a3a67b252a> a airo:Evidence ;
+    airo:evidenceText "French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France, the Movement Against Racism and for Friendship Among Peoples and other organizations, is suing Google because its autocomplete feature suggests the word \"Jewish\" in searches involving certain public figures, including News Corporation chairman Rupert Murdoch and actor Jon Hamm, reports The Times of Israel." ;
+    airo:sourceDocId "1169" .
+
+<https://w3id.org/airo/incident/evidence/58e4a4913e4d> a airo:Evidence ;
+    airo:evidenceText "French anti-discrimination organization SOS Racisme, in association with the Union of Jewish Students of France, the Movement Against Racism and for Friendship Among Peoples and other organizations, is suing Google because its autocomplete feature suggests the word \"Jewish\" in searches involving certain public figures.",
+        "French anti-discrimination organization SOS Racisme... is suing Google because its autocomplete feature suggests the word \"Jewish\" in searches involving certain public figures." ;
+    airo:sourceDocId "1151" .
+

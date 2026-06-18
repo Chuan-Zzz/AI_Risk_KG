@@ -1,0 +1,1302 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/EnforcementAction/d2538211fd46> a airo:EnforcementAction ;
+    rdfs:label "ordered to stop using a robot" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de75a34b517a> ;
+    airo:hasReasoning "The city issued an order against the SPCA's use of the robot, which is a direct regulatory enforcement action." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> .
+
+<https://w3id.org/airo/incident/InformationSource/4f573aed9355> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1574>,
+        <https://w3id.org/airo/incident/NewsReport/1632>,
+        <https://w3id.org/airo/incident/NewsReport/1633>,
+        <https://w3id.org/airo/incident/NewsReport/806> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574>,
+        <https://w3id.org/airo/incident/document/1632>,
+        <https://w3id.org/airo/incident/document/1633>,
+        <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/RiskControl/c21f620dd622> a airo:RiskControl ;
+    rdfs:label "municipal regulation limiting robot deployment on public streets" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c6c41afc805> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/19757849bbc3> .
+
+<https://w3id.org/airo/incident/RoleAssignment/45e18c496b6a> a airo:RoleAssignment ;
+    rdfs:label "Harwin Cheng_AffectedActor" ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ecf120905d0> ;
+    airo:hasReasoning "Harwin Cheng is the individual who was physically hit and knocked down by the robot." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a133e7604d6c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7910d44249fe> a airo:RoleAssignment ;
+    rdfs:label "Knightscope, Inc._AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d785a437f414> ;
+    airo:hasReasoning "The company is the 'advanced physical security technology company' that operates the machines and is described as having developed the technology (software stack, sensors)." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/592460bfb673> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7a0d2c546926> a airo:RoleAssignment ;
+    rdfs:label "ABC7_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c43f1ee1740> ;
+    airo:hasReasoning "ABC7 is a news channel reporting on the incident. They do not fit the specific roles of developer, provider, deployer, user, regulator, or affected actor based on the evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4ed33425b21b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/906c8f7a8ae5> a airo:RoleAssignment ;
+    rdfs:label "William Santana Li_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05621acd3123> ;
+    airo:hasReasoning "As the CEO of Knightscope, Inc., he is part of the organization that develops the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/668aaa603002> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/919b6dde0b47> a airo:RoleAssignment ;
+    rdfs:label "Tiffany Teng_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ade50151a7cb> ;
+    airo:hasReasoning "As the parent of the child who was hit, she is a directly affected individual describing the incident's impact." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/093bdd5e8baf> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/94f4a3134da6> a airo:RoleAssignment ;
+    rdfs:label "Stanford Shopping Center_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2941611263a0> ;
+    airo:hasReasoning "The shopping center is the location where the robot was actively 'patrolling' and 'on duty', indicating it deployed and used the system in its operations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e7df82ff0f69> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/95e9a42fc4a2> a airo:RoleAssignment ;
+    rdfs:label "The Verge_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da14c755a75f> ;
+    airo:hasReasoning "The Verge is a news publication reporting on the incident and seeking comment. It does not fit the specific roles listed." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/51cf0a3c2fe5> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/a40982e8bd39> a airo:RoleAssignment ;
+    rdfs:label "Knightscope, Inc._AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b94b17f24497> ;
+    airo:hasReasoning "Knightscope 'built' the K5 robot, which was then 'hired' (rented/provided as a service) by the SPCA, indicating they provide the AI system to other organizations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/592460bfb673> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e615a5d6fc5a> a airo:RoleAssignment ;
+    rdfs:label "San Francisco SPCA_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac57f99d1222> ;
+    airo:hasReasoning "The SPCA 'hired' (deployed/used) the robot for patrol purposes at its own facilities." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_452> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/82c5bf9f770e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/1c53a423be93> .
+
+<https://w3id.org/airo/incident/event/pred_452> a airo:AIRiskIncident ;
+    airo:firstSeen "2016-07-07T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2017-12-13T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00ffc1dba740> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac34d996bd7e> .
+
+<https://w3id.org/airo/incident/ks/014fd51fc9ae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cda7fc69aad7> .
+
+<https://w3id.org/airo/incident/ks/054a1a22c7f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4130a23c0a45> .
+
+<https://w3id.org/airo/incident/ks/064d8eefeb67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/0907e6d675fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a4acf51e53> .
+
+<https://w3id.org/airo/incident/ks/205886102fab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac34d996bd7e> .
+
+<https://w3id.org/airo/incident/ks/218e8d3a8bf6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/2302a727998d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc1f6384cfcc> .
+
+<https://w3id.org/airo/incident/ks/27e876bd0e86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b26cfb725b9> .
+
+<https://w3id.org/airo/incident/ks/2aac148499e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/2d7c71fdfe89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a4acf51e53> .
+
+<https://w3id.org/airo/incident/ks/2fdda8c2e189> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3962da8a815> .
+
+<https://w3id.org/airo/incident/ks/3574bfa8fb02> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5a8ea7fddaa> .
+
+<https://w3id.org/airo/incident/ks/36dbe6e9d327> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48> .
+
+<https://w3id.org/airo/incident/ks/3a446b72c9fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3603211a9a60> .
+
+<https://w3id.org/airo/incident/ks/402215cebaed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/422a3a26076b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/459512ff33cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/467908be745b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c290f8aa4d0f> .
+
+<https://w3id.org/airo/incident/ks/46b07aced6b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/496c6a84eec0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a4acf51e53> .
+
+<https://w3id.org/airo/incident/ks/4ce70a1f2375> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfa3931ef1d7> .
+
+<https://w3id.org/airo/incident/ks/4d0a6784dfe7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/4dad5fa71b93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c6c41afc805> .
+
+<https://w3id.org/airo/incident/ks/5037d981271f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/505bfddac4ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfa3931ef1d7> .
+
+<https://w3id.org/airo/incident/ks/5101f33e1241> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d60220fd258> .
+
+<https://w3id.org/airo/incident/ks/511e63d57a67> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7812d6a04fb4> .
+
+<https://w3id.org/airo/incident/ks/5405b7c6c5a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93084f696a90> .
+
+<https://w3id.org/airo/incident/ks/54f0847fc557> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/574e3f6e6461> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/595bbc9d6e6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf94b824835b> .
+
+<https://w3id.org/airo/incident/ks/5a1dbfb179a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6af17c2d4092> .
+
+<https://w3id.org/airo/incident/ks/5d2ae594bb5c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/5d3325d5f665> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/61696e1435a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/acc1025d0fe2> .
+
+<https://w3id.org/airo/incident/ks/617183e24837> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29ad810fc203> .
+
+<https://w3id.org/airo/incident/ks/622c615f79c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/6384ff209803> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/64ed227c06cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/65526786b6a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa906a5a19d> .
+
+<https://w3id.org/airo/incident/ks/6c13a4b1477d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3267449f90a8> .
+
+<https://w3id.org/airo/incident/ks/6cccc13379e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bdae228d3115> .
+
+<https://w3id.org/airo/incident/ks/6d8626853417> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48> .
+
+<https://w3id.org/airo/incident/ks/6db4cd695c4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/797fccb890a3> .
+
+<https://w3id.org/airo/incident/ks/6de2333dce34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/6ff3240b68d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/720ccb633177> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/79e2752137f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90acb0cb5a98> .
+
+<https://w3id.org/airo/incident/ks/7e490e75007b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.99"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/80ee10f5bc0a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/8184665344eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> .
+
+<https://w3id.org/airo/incident/ks/841d374f6ea2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/8741f6ccf7df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> .
+
+<https://w3id.org/airo/incident/ks/87da358c950a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/89ca3934236a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9be40564dce9> .
+
+<https://w3id.org/airo/incident/ks/8baec6a80b2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/8c2f590a7cb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/8ed95eda35f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/99d3c445f22e> .
+
+<https://w3id.org/airo/incident/ks/8ffbf7ffb31c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfa3931ef1d7> .
+
+<https://w3id.org/airo/incident/ks/90a2da612657> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/90dc17e63c8f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/93fc9970f013> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b26cfb725b9> .
+
+<https://w3id.org/airo/incident/ks/9752e7159b7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/995df82b9691> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/9bb892fe3b43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2259bf1b2b45> .
+
+<https://w3id.org/airo/incident/ks/9e8f3891455e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc1f6384cfcc> .
+
+<https://w3id.org/airo/incident/ks/9f1d663f6f83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> .
+
+<https://w3id.org/airo/incident/ks/a1c92cade942> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc1f6384cfcc> .
+
+<https://w3id.org/airo/incident/ks/a2cde406836d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/a47d25905b50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bab4aca615cc> .
+
+<https://w3id.org/airo/incident/ks/a493a5f34c83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c10cdf2ab24c> .
+
+<https://w3id.org/airo/incident/ks/a51b9a05827a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/a65f991923af> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/ab54bd50be30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc1f6384cfcc> .
+
+<https://w3id.org/airo/incident/ks/ab87752b28a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33839644486> .
+
+<https://w3id.org/airo/incident/ks/ab8d63e181fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/ac6028f40885> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> .
+
+<https://w3id.org/airo/incident/ks/ac69476ce6de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3267449f90a8> .
+
+<https://w3id.org/airo/incident/ks/bbef65254e4a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfa3931ef1d7> .
+
+<https://w3id.org/airo/incident/ks/be4f6310e3c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac34d996bd7e> .
+
+<https://w3id.org/airo/incident/ks/beeb9b434ddd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b5d84c43680> .
+
+<https://w3id.org/airo/incident/ks/c5d613f7f919> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de75a34b517a> .
+
+<https://w3id.org/airo/incident/ks/c5f92b360ae4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/657b4a88b2e2> .
+
+<https://w3id.org/airo/incident/ks/c755f7bda139> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa906a5a19d> .
+
+<https://w3id.org/airo/incident/ks/cb159e6af213> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48> .
+
+<https://w3id.org/airo/incident/ks/cf008a2802b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a88e5246ae4> .
+
+<https://w3id.org/airo/incident/ks/d1609a536707> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/d73e63d8f514> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> .
+
+<https://w3id.org/airo/incident/ks/d9143d497b2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72c3ccf3c87d> .
+
+<https://w3id.org/airo/incident/ks/dccde3510e6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c10cdf2ab24c> .
+
+<https://w3id.org/airo/incident/ks/e0cf92e92266> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48> .
+
+<https://w3id.org/airo/incident/ks/e1b13fe35723> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/e2afc4f75fd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> .
+
+<https://w3id.org/airo/incident/ks/e443804b6dd5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/e83ab61ea115> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48> .
+
+<https://w3id.org/airo/incident/ks/e95a258d8e2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79f06f6632ed> .
+
+<https://w3id.org/airo/incident/ks/ea6ac92ac9ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/eac064bab264> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8daacd1ff6dc> .
+
+<https://w3id.org/airo/incident/ks/ecc7b8d61604> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/eeb551faa24f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a4acf51e53> .
+
+<https://w3id.org/airo/incident/ks/f082d6055b34> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/ks/f0e6542c073a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e> .
+
+<https://w3id.org/airo/incident/ks/f1485f80e0e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/f154f9d70c4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac34d996bd7e> .
+
+<https://w3id.org/airo/incident/ks/f2501212ce72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c5d1a206b79> .
+
+<https://w3id.org/airo/incident/ks/f2f532c1c761> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93084f696a90> .
+
+<https://w3id.org/airo/incident/ks/f505ff278ec1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2aa8369d62e6> .
+
+<https://w3id.org/airo/incident/ks/f580ee23ffce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> .
+
+<https://w3id.org/airo/incident/ks/f8178d26fcbc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a15076475de> .
+
+<https://w3id.org/airo/incident/ks/f8c7b79e1cb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d35df5396fb> .
+
+<https://w3id.org/airo/incident/ks/fbe8b7e90ecf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ebb771dfc0c> .
+
+<https://w3id.org/airo/incident/AICapability/5e67e4726dfd> a airo:AICapability ;
+    rdfs:label "environment sensing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "sense the surrounding environment" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/AICapability/60ab0fbf2329> a airo:AICapability ;
+    rdfs:label "alert security services of potentially criminal activity" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "alert security services of potentially criminal activity" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b26cfb725b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/AICapability/8b5ccd314fb4> a airo:AICapability ;
+    rdfs:label "anomaly detection" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "anomaly detection capabilities" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79f06f6632ed> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/451e5384e637> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c5d1a206b79> ;
+    airo:hasReasoning "The robot was actively 'patrolling' and had 'began trials' at the mall, indicating it was in operational deployment." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/AITechnique/2a461d50f5e4> a airo:AITechnique ;
+    rdfs:label "sonar sensing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "sonar sensors" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/AITechnique/97a90c596b9f> a airo:AITechnique ;
+    rdfs:label "laser ranging" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "laser ranging devices" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d3f5dbae749> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/AITechnique/c17479165ffe> a airo:AITechnique ;
+    rdfs:label "Lidar" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lidar" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b26cfb725b9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/AffectedActor/7df56056f9ae> a airo:AffectedActor ;
+    rdfs:label "children and guardians in public spaces" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9be40564dce9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/Domain/385172b4d41b> a airo:Domain ;
+    rdfs:label "physical security" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c290f8aa4d0f> ;
+    airo:hasReasoning "The company is defined as a 'physical security technology company' and the robot is used for patrolling and enforcement, placing it in the physical security domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/Hazard/c9ae90af09c6> a airo:Hazard ;
+    rdfs:label "unmonitored autonomous movement in high-traffic pedestrian areas" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2259bf1b2b45> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Purpose/c58d616c8edb> a airo:Purpose ;
+    rdfs:label "autonomous security patrol and anomaly detection" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9d35df5396fb> ;
+    airo:hasReasoning "The robot is described as an 'Autonomous Data Machine' used for patrolling, and the company provides 'anomaly detection capabilities' for physical security." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/RiskSource/49e8e317e02d> a airo:RiskSource ;
+    rdfs:label "autonomous navigation in crowded public spaces" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/19757849bbc3> ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/90acb0cb5a98> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/c9ae90af09c6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/Stakeholder/46d10bfb8509> a airo:Stakeholder ;
+    rdfs:label "Uber" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Uber" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf94b824835b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/Vulnerability/4b7798bda561> a airo:Vulnerability ;
+    rdfs:label "insufficient dynamic obstacle avoidance for small or fast-moving objects" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f3962da8a815> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/evidence/05621acd3123> a airo:Evidence ;
+    airo:evidenceText "[1574] \"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/0a15076475de> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/0b5d84c43680> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center... [806] Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/0bae223238e7> a airo:Evidence ;
+    airo:evidenceText "Animal shelter faces backlash after using robot to scare off homeless people" ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/17c5e70d4173> a airo:Evidence ;
+    airo:evidenceText "Mall security bot knocks down toddler, breaks Asimov's first law of robotics" ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/2941611263a0> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center... [806] Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/2aa8369d62e6> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/2d60220fd258> a airo:Evidence ;
+    airo:evidenceText "[1574] \"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/3603211a9a60> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center... [806] Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/4130a23c0a45> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines. [1574] Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/657b4a88b2e2> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/6a88e5246ae4> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center... [806] Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/72c3ccf3c87d> a airo:Evidence ;
+    airo:evidenceText "[1574] \"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/7453710a3223> a airo:Evidence ;
+    airo:evidenceText "Knightscope Issues Field Incident Report" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/7812d6a04fb4> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/797fccb890a3> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines. [1574] Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/8c43f1ee1740> a airo:Evidence ;
+    airo:evidenceText "[806] A report from local news channel ABC7 says the bot hit 16-month-old Harwin Cheng, knocking him to the floor." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/8daacd1ff6dc> a airo:Evidence ;
+    airo:evidenceText "[1574] \"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/9769e564ec16> a airo:Evidence ;
+    airo:evidenceText "Robots are being used to shoo away homeless people in San Francisco" ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/99d3c445f22e> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/9ecf120905d0> a airo:Evidence ;
+    airo:evidenceText "[806] A report from local news channel ABC7 says the bot hit 16-month-old Harwin Cheng, knocking him to the floor." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/ac57f99d1222> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/acc1025d0fe2> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/ade50151a7cb> a airo:Evidence ;
+    airo:evidenceText "[806] \"The robot hit my son's head and he fell down facing down on the floor and the robot did not stop and it kept moving forward,\" Harwin's mom Tiffany Teng said." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/b94b17f24497> a airo:Evidence ;
+    airo:evidenceText "[1633] The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/bab4aca615cc> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines. [1574] Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/d785a437f414> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines. [1574] Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/da14c755a75f> a airo:Evidence ;
+    airo:evidenceText "[806] Knightscope has yet to issue any statement on the matter or respond to requests for comment from The Verge." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/Consequence/2d39eefe36af> a airo:Consequence ;
+    rdfs:label "pedestrian knocked to the ground by robot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3267449f90a8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/93bbd34a3ace> .
+
+<https://w3id.org/airo/incident/Impact/93bbd34a3ace> a airo:Impact ;
+    rdfs:label "potential physical harm to a child" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/7df56056f9ae> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cfa906a5a19d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/NewsReport/1574> a airo:NewsReport ;
+    rdfs:label "Knightscope Issues Field Incident Report" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """July 13, 2016 05:30 PM Eastern Daylight Time 
+
+MOUNTAIN VIEW, Calif.--([BUSINESS WIRE](https://www.businesswire.com/))--Knightscope, Inc., an advanced physical security technology company, is issuing """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bdae228d3115> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> .
+
+<https://w3id.org/airo/incident/NewsReport/1632> a airo:NewsReport ;
+    rdfs:label "Robots are being used to shoo away homeless people in San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The San Francisco branch of the Society for the Prevention of Cruelty to Animals (SPCA) has been ordered by the city to stop using a robot to patrol the sidewalks outside its office, the [San Francisc" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6af17c2d4092> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/NewsReport/1633> a airo:NewsReport ;
+    rdfs:label "Animal shelter faces backlash after using robot to scare off homeless people" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """An animal shelter in San Francisco has been criticized for using a robot security guard to scare off homeless people.
+
+The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty t""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e33839644486> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633> .
+
+<https://w3id.org/airo/incident/NewsReport/806> a airo:NewsReport ;
+    rdfs:label "Mall security bot knocks down toddler, breaks Asimov's first law of robotics" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Robots might be cheaper to employ than humans, but it seems they still need to work on their people skills. Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cda7fc69aad7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Regulation/275a4a92cd89> a airo:Regulation ;
+    rdfs:label "San Francisco robot legislation" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "new legislation" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eccdf2789b3b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633> .
+
+<https://w3id.org/airo/incident/Regulation/2e9e2a8292a7> a airo:Regulation ;
+    rdfs:label "San Francisco delivery robot regulation" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "city to stop using a robot to patrol the sidewalks" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e>,
+        <https://w3id.org/airo/incident/evidence/93084f696a90> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/Stakeholder/093bdd5e8baf> a airo:Stakeholder ;
+    rdfs:label "Tiffany Teng" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tiffany Teng" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfa3931ef1d7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Stakeholder/4ed33425b21b> a airo:Stakeholder ;
+    rdfs:label "ABC7" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ABC7" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Stakeholder/51cf0a3c2fe5> a airo:Stakeholder ;
+    rdfs:label "The Verge" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Verge" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d4cc255c29dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Stakeholder/668aaa603002> a airo:Stakeholder ;
+    rdfs:label "William Santana Li" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "William Santana Li" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a4acf51e53>,
+        <https://w3id.org/airo/incident/evidence/cc1f6384cfcc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574>,
+        <https://w3id.org/airo/incident/document/806> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/82c5bf9f770e> a airo:Stakeholder ;
+    rdfs:label "San Francisco SPCA" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco branch of the Society for the Prevention of Cruelty to Animals (SPCA)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a0606387b6e>,
+        <https://w3id.org/airo/incident/evidence/be4760aa3f48>,
+        <https://w3id.org/airo/incident/evidence/eccdf2789b3b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632>,
+        <https://w3id.org/airo/incident/document/1633> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/a133e7604d6c> a airo:Stakeholder ;
+    rdfs:label "Harwin Cheng" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Harwin Cheng" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d8cd6237397> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/Stakeholder/e7df82ff0f69> a airo:Stakeholder ;
+    rdfs:label "Stanford Shopping Center" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Stanford Shopping Center" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ac34d996bd7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> .
+
+<https://w3id.org/airo/incident/evidence/2259bf1b2b45> a airo:Evidence ;
+    airo:evidenceText "[806] The robot hit my son's head and he fell down facing down on the floor and the robot did not stop and it kept moving forward" ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/29ad810fc203> a airo:Evidence ;
+    airo:evidenceText "A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center when, at approximately 2:39pm PDT, a child left the vicinity of his guardians and began running towards the machine." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/2c5d1a206b79> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center when, at approximately 2:39pm PDT, a child left the vicinity of his guardians and began running towards the machine. [806] The robot in question was the Knightscope K5, a five-foot, 300-pound machine that began trials in the mall last year." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/3c6c41afc805> a airo:Evidence ;
+    airo:evidenceText "[1633] The city recently passed new legislation limiting the use of robots in city streets." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/6af17c2d4092> a airo:Evidence ;
+    airo:evidenceText "Robots are being used to shoo away homeless people in San Francisco" ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/79f06f6632ed> a airo:Evidence ;
+    airo:evidenceText "Knightscope is an advanced security technology company that utilizes Software + Hardware + Humans to provide its customers with new groundbreaking anomaly detection capabilities." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/90acb0cb5a98> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center when, at approximately 2:39pm PDT, a child left the vicinity of his guardians and began running towards the machine." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/9be40564dce9> a airo:Evidence ;
+    airo:evidenceText "[1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center when, at approximately 2:39pm PDT, a child left the vicinity of his guardians and began running towards the machine." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/9d35df5396fb> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope is an advanced security technology company that utilizes Software + Hardware + Humans to provide its customers with new groundbreaking anomaly detection capabilities. [1574] A K5 Autonomous Data Machine (Machine Identification Number 13) was patrolling at a local shopping center" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/bdae228d3115> a airo:Evidence ;
+    airo:evidenceText "Knightscope Issues Field Incident Report" ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/c290f8aa4d0f> a airo:Evidence ;
+    airo:evidenceText "[1574] Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines. [1632] The robot, produced by Silicon Valley startup Knightscope, was used to ensure that homeless people didn’t set up camps outside of the nonprofit’s office." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/c5a8ea7fddaa> a airo:Evidence ;
+    airo:evidenceText "The robot in question was the Knightscope K5, a five-foot, 300-pound machine that began trials in the mall last year." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/cda7fc69aad7> a airo:Evidence ;
+    airo:evidenceText "Mall security bot knocks down toddler, breaks Asimov's first law of robotics" ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/cf94b824835b> a airo:Evidence ;
+    airo:evidenceText "And Uber, which is no stranger to the ethical quandaries of what it means to be gainfully employed by a company, has used the robots in San Francisco." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/de75a34b517a> a airo:Evidence ;
+    airo:evidenceText "[1632] The San Francisco branch of the Society for the Prevention of Cruelty to Animals (SPCA) has been ordered by the city to stop using a robot to patrol the sidewalks outside its office." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/e33839644486> a airo:Evidence ;
+    airo:evidenceText "Animal shelter faces backlash after using robot to scare off homeless people" ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/f3962da8a815> a airo:Evidence ;
+    airo:evidenceText "[1574] Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack, allowing machines the capability to sense the surrounding environment from less than an inch away to over 300 feet." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/Risk/19757849bbc3> a airo:Risk ;
+    rdfs:label "risk of physical collision with pedestrians" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c10cdf2ab24c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/806> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/2d39eefe36af> .
+
+<https://w3id.org/airo/incident/Stakeholder/592460bfb673> a airo:Stakeholder ;
+    rdfs:label "Knightscope, Inc." ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Knightscope, Inc." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213>,
+        <https://w3id.org/airo/incident/evidence/7ebb771dfc0c>,
+        <https://w3id.org/airo/incident/evidence/be4760aa3f48>,
+        <https://w3id.org/airo/incident/evidence/d4cc255c29dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574>,
+        <https://w3id.org/airo/incident/document/1632>,
+        <https://w3id.org/airo/incident/document/1633>,
+        <https://w3id.org/airo/incident/document/806> ;
+    airo:hasSupportCount 4 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> .
+
+<https://w3id.org/airo/incident/evidence/3267449f90a8> a airo:Evidence ;
+    airo:evidenceText "[806] A report from local news channel ABC7 says the bot hit 16-month-old Harwin Cheng, knocking him to the floor." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/93084f696a90> a airo:Evidence ;
+    airo:evidenceText "San Francisco recently voted to cut down on the number of robots that roam the streets of the city, which has seen an influx of small delivery robots in recent years." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/c10cdf2ab24c> a airo:Evidence ;
+    airo:evidenceText "[806] Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty and then apparently just kept on driving." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/cfa906a5a19d> a airo:Evidence ;
+    airo:evidenceText "[1574] \"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/9b26cfb725b9> a airo:Evidence ;
+    airo:evidenceText "It autonomously patrols a set area using a combination of Lidar and other sensors, and can alert security services of potentially criminal activity." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/80a4acf51e53> a airo:Evidence ;
+    airo:evidenceText "\"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said Knightscope chief executive William Santana Li." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/ac34d996bd7e> a airo:Evidence ;
+    airo:evidenceText "Last week, a robot security guard at the Stanford Shopping Center in Silicon Valley knocked down a toddler while on duty and then apparently just kept on driving." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/bfa3931ef1d7> a airo:Evidence ;
+    airo:evidenceText "\"The robot hit my son's head and he fell down facing down on the floor and the robot did not stop and it kept moving forward,\" Harwin's mom Tiffany Teng said." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/cc1f6384cfcc> a airo:Evidence ;
+    airo:evidenceText "\"Our first thoughts are for the family and we are thankful there were no serious injuries,\" said William Santana Li, chairman and chief executive officer, Knightscope, Inc." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/AISystem/4d6102814c28> a airo:AISystem ;
+    rdfs:label "Knightscope security robot" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "a robot" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6a27a3e2f213> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1632> .
+
+<https://w3id.org/airo/incident/AISystem/b3bca3d987a5> a airo:AISystem ;
+    rdfs:label "Knightscope K5" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/275a4a92cd89>,
+        <https://w3id.org/airo/incident/Regulation/2e9e2a8292a7> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/5e67e4726dfd>,
+        <https://w3id.org/airo/incident/AICapability/60ab0fbf2329>,
+        <https://w3id.org/airo/incident/AICapability/8b5ccd314fb4>,
+        <https://w3id.org/airo/incident/Purpose/c58d616c8edb> ;
+    airo:hasDescription "Knightscope K5" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be4760aa3f48>,
+        <https://w3id.org/airo/incident/evidence/c5a8ea7fddaa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1633>,
+        <https://w3id.org/airo/incident/document/806> ;
+    airo:hasSupportCount 2 ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/2a461d50f5e4>,
+        <https://w3id.org/airo/incident/AITechnique/97a90c596b9f>,
+        <https://w3id.org/airo/incident/AITechnique/c17479165ffe> .
+
+<https://w3id.org/airo/incident/evidence/8d3f5dbae749> a airo:Evidence ;
+    airo:evidenceText "Each K5 hosts nearly 30 sensors, including a multitude of laser ranging devices, sonar sensors and a robust software stack, allowing machines the capability to sense the surrounding environment from less than an inch away to over 300 feet." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/5a0606387b6e> a airo:Evidence ;
+    airo:evidenceText "The San Francisco branch of the Society for the Prevention of Cruelty to Animals (SPCA) has been ordered by the city to stop using a robot to patrol the sidewalks outside its office." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/7ebb771dfc0c> a airo:Evidence ;
+    airo:evidenceText "Knightscope, Inc., an advanced physical security technology company, is issuing its first incident report regarding operation of its Autonomous Data Machines." ;
+    airo:sourceDocId "1574" .
+
+<https://w3id.org/airo/incident/evidence/be4760aa3f48> a airo:Evidence ;
+    airo:evidenceText "The San Francisco branch of the SPCA (the Society for the Prevention of Cruelty to Animals) hired a K5 robot built by Knightscope to patrol the sidewalks outside its facilities." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/evidence/eccdf2789b3b> a airo:Evidence ;
+    airo:evidenceText "The city recently passed new legislation limiting the use of robots in city streets." ;
+    airo:sourceDocId "1633" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_452> a airo:AIRiskIncident ;
+    rdfs:label "Knightscope Issues Field Incident Report" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/275a4a92cd89>,
+        <https://w3id.org/airo/incident/Regulation/2e9e2a8292a7> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/2d39eefe36af> ;
+    airo:hasDescription "pred_452" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/451e5384e637>,
+        <https://w3id.org/airo/incident/Domain/385172b4d41b>,
+        <https://w3id.org/airo/incident/evidence/0bae223238e7>,
+        <https://w3id.org/airo/incident/evidence/17c5e70d4173>,
+        <https://w3id.org/airo/incident/evidence/7453710a3223>,
+        <https://w3id.org/airo/incident/evidence/9769e564ec16> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/93bbd34a3ace> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1574>,
+        <https://w3id.org/airo/incident/NewsReport/1632>,
+        <https://w3id.org/airo/incident/NewsReport/1633>,
+        <https://w3id.org/airo/incident/NewsReport/806> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/19757849bbc3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574>,
+        <https://w3id.org/airo/incident/document/1632>,
+        <https://w3id.org/airo/incident/document/1633>,
+        <https://w3id.org/airo/incident/document/806> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/1c53a423be93>,
+        <https://w3id.org/airo/incident/AISystem/4d6102814c28>,
+        <https://w3id.org/airo/incident/AISystem/b3bca3d987a5> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/093bdd5e8baf>,
+        <https://w3id.org/airo/incident/Stakeholder/46d10bfb8509>,
+        <https://w3id.org/airo/incident/Stakeholder/4ed33425b21b>,
+        <https://w3id.org/airo/incident/Stakeholder/51cf0a3c2fe5>,
+        <https://w3id.org/airo/incident/Stakeholder/592460bfb673>,
+        <https://w3id.org/airo/incident/Stakeholder/668aaa603002>,
+        <https://w3id.org/airo/incident/Stakeholder/82c5bf9f770e>,
+        <https://w3id.org/airo/incident/Stakeholder/a133e7604d6c>,
+        <https://w3id.org/airo/incident/Stakeholder/e7df82ff0f69> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/49e8e317e02d> .
+
+<https://w3id.org/airo/incident/evidence/2d8cd6237397> a airo:Evidence ;
+    airo:evidenceText "A report from local news channel ABC7 says the bot hit 16-month-old Harwin Cheng, knocking him to the floor." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/evidence/6a27a3e2f213> a airo:Evidence ;
+    airo:evidenceText "The robot, produced by Silicon Valley startup Knightscope, was used to ensure that homeless people didn’t set up camps outside of the nonprofit’s office." ;
+    airo:sourceDocId "1632" .
+
+<https://w3id.org/airo/incident/evidence/d4cc255c29dd> a airo:Evidence ;
+    airo:evidenceText "Knightscope has yet to issue any statement on the matter or respond to requests for comment from The Verge." ;
+    airo:sourceDocId "806" .
+
+<https://w3id.org/airo/incident/AISystem/1c53a423be93> a airo:AISystem ;
+    rdfs:label "K5 Autonomous Data Machine" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "K5 Autonomous Data Machine" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29ad810fc203> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1574> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/4b7798bda561> .
+

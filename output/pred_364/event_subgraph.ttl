@@ -1,0 +1,1322 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/e2955f93f6d1> a airo:ComplianceRequirement ;
+    rdfs:label "adhere to CMS coverage criteria" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/efb5187d5ce6> ;
+    airo:hasReasoning "The evidence explicitly mentions CMS coverage criteria as the basis for decisions, indicating a compliance requirement." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/InformationSource/a1b5070a54c5> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/3156>,
+        <https://w3id.org/airo/incident/NewsReport/3157>,
+        <https://w3id.org/airo/incident/NewsReport/3158>,
+        <https://w3id.org/airo/incident/NewsReport/3160> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156>,
+        <https://w3id.org/airo/incident/document/3157>,
+        <https://w3id.org/airo/incident/document/3158>,
+        <https://w3id.org/airo/incident/document/3160> .
+
+<https://w3id.org/airo/incident/RiskControl/7292ffdd27f0> a airo:RiskControl ;
+    rdfs:label "legal action and federal lawsuit to hold insurers accountable" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d8e65529886> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/272d6fab4e54> .
+
+<https://w3id.org/airo/incident/RoleAssignment/059d7fe2fb1f> a airo:RoleAssignment ;
+    rdfs:label "Humana_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/088230d4a7af> ;
+    airo:hasReasoning "Humana is mentioned in the core entities but no direct evidence of its involvement in the specific AI system or incident is provided." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2f5a2630c87e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0ced5171dfea> a airo:RoleAssignment ;
+    rdfs:label "NaviHealth_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de463cc2c183> ;
+    airo:hasReasoning "The evidence explicitly states NaviHealth created the AI tool." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4f1e15370154> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0e654da5b7ef> a airo:RoleAssignment ;
+    rdfs:label "UnitedHealthcare_AIUser" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/18fc01486669> ;
+    airo:hasReasoning "UnitedHealthcare employees interact with the AI system to make decisions, making them users of the system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/66b3f12f2ed1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2c36f1728fa9> a airo:RoleAssignment ;
+    rdfs:label "Ryan Clarkson_Stakeholder" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5117cfcacb93> ;
+    airo:hasReasoning "Ryan Clarkson is likely affiliated with the law firm involved in the lawsuit but does not fit other specific roles based on the evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/817b21a622b5> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/37a1e15a52de> a airo:RoleAssignment ;
+    rdfs:label "NaviHealth_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4f8cd254924e> ;
+    airo:hasReasoning "As a subsidiary that created the AI tool, NaviHealth provides the AI system to UnitedHealthcare for use." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4f1e15370154> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7d38ba8ff1cc> a airo:RoleAssignment ;
+    rdfs:label "US Department of Health and Human Services_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98a22bcca6ff> ;
+    airo:hasReasoning "The context implies regulatory oversight, and HHS is a federal agency that would oversee Medicare and healthcare regulations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0a67c0d03c06> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cbfe0aaba17b> a airo:RoleAssignment ;
+    rdfs:label "Clarkson Law Firm_Stakeholder" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9666751e969a> ;
+    airo:hasReasoning "The law firm is involved in the legal proceedings but does not fit other specific roles based on the evidence." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c5201eedef69> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/df543173511e> a airo:RoleAssignment ;
+    rdfs:label "UnitedHealth Group_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6f17a903b06> ;
+    airo:hasReasoning "UnitedHealth Group is the parent company of UnitedHealthcare, which uses the AI tool in its operations." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6386964b4e6e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ff498276e535> a airo:RoleAssignment ;
+    rdfs:label "UnitedHealthcare_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3ffe10da57d> ;
+    airo:hasReasoning "The evidence shows UnitedHealthcare is using the AI algorithm in their operations to make coverage decisions." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_364> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/66b3f12f2ed1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> .
+
+<https://w3id.org/airo/incident/event/pred_364> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-11-15T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2023-11-18T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/001cee707ffe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab46a7f6c1da> .
+
+<https://w3id.org/airo/incident/ks/011169fc3892> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/0160f2670650> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4a36e8d8e2dc> .
+
+<https://w3id.org/airo/incident/ks/01f443b414bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25456c67bf3f> .
+
+<https://w3id.org/airo/incident/ks/107d52ccfc60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/19791d0da52f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d8e65529886> .
+
+<https://w3id.org/airo/incident/ks/19bda2eaf7e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/1a29d5d7387e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/1ccb5538323c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/225708e52f56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25b5bf248bfc> .
+
+<https://w3id.org/airo/incident/ks/2672350ed18c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23e7b2737968> .
+
+<https://w3id.org/airo/incident/ks/26e82a608cb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/2a50d88fec03> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7705c29c374d> .
+
+<https://w3id.org/airo/incident/ks/2dd5f80e8c3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7705c29c374d> .
+
+<https://w3id.org/airo/incident/ks/2f0d6d6b068d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/2f2e0fb7b662> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63d58f29b960> .
+
+<https://w3id.org/airo/incident/ks/2f645c83a48f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/322cadc97142> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23e7b2737968> .
+
+<https://w3id.org/airo/incident/ks/3982cbf77f46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25456c67bf3f> .
+
+<https://w3id.org/airo/incident/ks/3dc1a4aed15a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/3faefa04957f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/405dabc57408> .
+
+<https://w3id.org/airo/incident/ks/3fd5612d2c3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/409fb8b42830> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d57ebda40417> .
+
+<https://w3id.org/airo/incident/ks/42d57998938c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c431a5207ab> .
+
+<https://w3id.org/airo/incident/ks/435e7dd41809> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/459a7dce899a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/466363c680d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8fb615042e16> .
+
+<https://w3id.org/airo/incident/ks/485713e450ce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/4b034a86ed86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfba67527738> .
+
+<https://w3id.org/airo/incident/ks/4e1b597ccb44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/4fa97881b0b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1dd3ac28f6c3> .
+
+<https://w3id.org/airo/incident/ks/5032a329f285> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f5bef3ec9a> .
+
+<https://w3id.org/airo/incident/ks/52c5a9458924> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1584f194a833> .
+
+<https://w3id.org/airo/incident/ks/55fe2f10df86> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/601e4a0eba80> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/6041ecf5f337> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/61aea9ceb41d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/6563bc17a487> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/6781ddb28ecf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/687a77b5f865> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/69a0d48c994c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93a4b0c0ecf4> .
+
+<https://w3id.org/airo/incident/ks/69c4373aa3a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a85a257e09c7> .
+
+<https://w3id.org/airo/incident/ks/6af0b184a0b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/6b5d6dd637a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/999f072b3cec> .
+
+<https://w3id.org/airo/incident/ks/6dd1b879ec43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6d039944d9> .
+
+<https://w3id.org/airo/incident/ks/6eaadc27fd36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0f2382675a7> .
+
+<https://w3id.org/airo/incident/ks/6ed66cb3664c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9ec0efb95eb1> .
+
+<https://w3id.org/airo/incident/ks/709c8506b06d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f5bef3ec9a> .
+
+<https://w3id.org/airo/incident/ks/71ff39506ff8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57c2a36f89b1> .
+
+<https://w3id.org/airo/incident/ks/7256a2854b6c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/725d0bd0361b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23e7b2737968> .
+
+<https://w3id.org/airo/incident/ks/7401a02a6c14> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a10dfcdb679a> .
+
+<https://w3id.org/airo/incident/ks/74077215c07c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e5a1842e294> .
+
+<https://w3id.org/airo/incident/ks/744e1c7cdb0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/537fe3cc1387> .
+
+<https://w3id.org/airo/incident/ks/75fffd84bc5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/775b8c85201c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab46a7f6c1da> .
+
+<https://w3id.org/airo/incident/ks/7846ac4af008> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/7a4581224c82> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/7c0ae87f5d3d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/80a896d68713> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/81d7e71cbbf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a724f5747041> .
+
+<https://w3id.org/airo/incident/ks/824df0d631a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/405dabc57408> .
+
+<https://w3id.org/airo/incident/ks/85f16c05f219> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/88061ce398d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/888e1b8e6e42> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/89ebd15185bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7705c29c374d> .
+
+<https://w3id.org/airo/incident/ks/9220ffd127ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1584f194a833> .
+
+<https://w3id.org/airo/incident/ks/9558a2d098df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/9b5c375dc146> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fb3aca26985> .
+
+<https://w3id.org/airo/incident/ks/9c59ecb9baab> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/9d328c5bcc01> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/9ee3adfad571> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aab489a1a2cf> .
+
+<https://w3id.org/airo/incident/ks/a17640f24347> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/a29aa35c4995> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/a3bc88c15991> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/a462b71456bd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/a47976fb8390> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f695ce8e570b> .
+
+<https://w3id.org/airo/incident/ks/a5bac35ed83c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/adbc50738874> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e5a1842e294> .
+
+<https://w3id.org/airo/incident/ks/b13703189d57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23e7b2737968> .
+
+<https://w3id.org/airo/incident/ks/b69c81c74dce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f5bef3ec9a> .
+
+<https://w3id.org/airo/incident/ks/bba90271e930> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31b592ac0600> .
+
+<https://w3id.org/airo/incident/ks/bd92cf81ad99> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/bdb90c87c8a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25456c67bf3f> .
+
+<https://w3id.org/airo/incident/ks/bf6f4c23a2d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/33086c5a62c2> .
+
+<https://w3id.org/airo/incident/ks/c41e009cdb13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/d097e1b61e10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa7d1b157937> .
+
+<https://w3id.org/airo/incident/ks/d368fee5de68> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1360d594efa1> .
+
+<https://w3id.org/airo/incident/ks/d6900efce5b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab46a7f6c1da> .
+
+<https://w3id.org/airo/incident/ks/d77b934f5f50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/da9cda77a926> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/dc487429a7c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b34bdd03f0f> .
+
+<https://w3id.org/airo/incident/ks/dde9097c1c1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/999f072b3cec> .
+
+<https://w3id.org/airo/incident/ks/de917e9d2ae1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6e2e38cabf40> .
+
+<https://w3id.org/airo/incident/ks/e1c072f8fbfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab46a7f6c1da> .
+
+<https://w3id.org/airo/incident/ks/e3849682f790> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/e48a1df3156a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57c2a36f89b1> .
+
+<https://w3id.org/airo/incident/ks/e4f6b89dbcb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa748d365185> .
+
+<https://w3id.org/airo/incident/ks/e71b9a5b6d9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/e8c746523b6f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97ed047743b6> .
+
+<https://w3id.org/airo/incident/ks/ea9ced934665> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/eba8626f76f1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/ec640826a04e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/ecb9e56d2d5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25456c67bf3f> .
+
+<https://w3id.org/airo/incident/ks/ed994bc5706e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/925b8de5d432> .
+
+<https://w3id.org/airo/incident/ks/f1335d685e52> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/f1830ae227df> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479> .
+
+<https://w3id.org/airo/incident/ks/f500589b92fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/f72f75db5993> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6727590f7403> .
+
+<https://w3id.org/airo/incident/ks/f883dfaa351f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7705c29c374d> .
+
+<https://w3id.org/airo/incident/ks/f97e489685b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/699c2410b7f9> .
+
+<https://w3id.org/airo/incident/ks/f9b48b05057f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a> .
+
+<https://w3id.org/airo/incident/ks/faad0d9324ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7faea378215f> .
+
+<https://w3id.org/airo/incident/ks/fb20b9234e2f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> .
+
+<https://w3id.org/airo/incident/ks/fe14dbb11fd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f5bef3ec9a> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/8052bc701623> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93a4b0c0ecf4> ;
+    airo:hasReasoning "The evidence shows the AI system is actively being used in operational decision-making (denying coverage), indicating it is in the deployment phase." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> .
+
+<https://w3id.org/airo/incident/AITechnique/220ed1cc7b39> a airo:AITechnique ;
+    rdfs:label "artificial intelligence algorithms" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "artificial intelligence algorithms" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31b592ac0600> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> .
+
+<https://w3id.org/airo/incident/AffectedActor/caa6fe9091af> a airo:AffectedActor ;
+    rdfs:label "vulnerable patients and Medicare Advantage enrollees in extended care" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfba67527738> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Domain/8aae7a6bee17> a airo:Domain ;
+    rdfs:label "healthcare" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aab489a1a2cf> ;
+    airo:hasReasoning "The evidence clearly shows the AI system is applied in the healthcare sector, specifically for Medicare Advantage claims in extended care facilities." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Hazard/217304fc6e17> a airo:Hazard ;
+    rdfs:label "enforcing rigid adherence to flawed algorithmic projections in coverage decisions" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0f2382675a7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> .
+
+<https://w3id.org/airo/incident/Obligation/78f872ec5690> a airo:Obligation ;
+    rdfs:label "maintain human oversight in coverage determinations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa7d1b157937> ;
+    airo:hasReasoning "The complaint highlights the lack of doctor input, implying an obligation to maintain human oversight in medical coverage decisions." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Purpose/d01aa87955d5> a airo:Purpose ;
+    rdfs:label "predict length of stay for patients in extended care facilities" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d57ebda40417> ;
+    airo:hasReasoning "The evidence explicitly states the AI tool is used to predict length of stay for patients in long-term care facilities." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/RiskSource/cdd1543b16e5> a airo:RiskSource ;
+    rdfs:label "unreliable and inaccurate AI model predictions" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/272d6fab4e54> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b34bdd03f0f> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/217304fc6e17> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/401636e668e8> .
+
+<https://w3id.org/airo/incident/Stakeholder/12ae99da41e3> a airo:Stakeholder ;
+    rdfs:label "Skilled Nursing News" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Skilled Nursing News" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e5a1842e294> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Stakeholder/3bcb21d06ad3> a airo:Stakeholder ;
+    rdfs:label "STAT News" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "STAT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a10dfcdb679a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Stakeholder/86273abe08ad> a airo:Stakeholder ;
+    rdfs:label "Optum" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Optum" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e5a1842e294> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Stakeholder/aebc7747492c> a airo:Stakeholder ;
+    rdfs:label "Richard Blumenthal" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Sen. Richard Blumenthal" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a724f5747041> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> .
+
+<https://w3id.org/airo/incident/Threat/401636e668e8> a airo:Threat ;
+    rdfs:label "systematic refusal to pay valid healthcare claims based on AI outputs" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa748d365185> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/Vulnerability/74f67c880911> a airo:Vulnerability ;
+    rdfs:label "AI model does not incorporate critical input from medical professionals" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2fb3aca26985> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/evidence/088230d4a7af> a airo:Evidence ;
+    airo:evidenceText "[3157] at least since UnitedHealthcare's 2020 acquisition of post-acute care management firm Navihealth, the US health insurance giant has repeatedly and wrongfully refused to pay the healthcare claims" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/15bd91204163> a airo:Evidence ;
+    airo:evidenceText "UnitedHealth Faces Lawsuit, Media Scrutiny Over AI’s Role in Medicare Advantage Denials of Nursing Home Care" ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/18fc01486669> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/1dd3ac28f6c3> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/2489bf3ebbe6> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare sued over AI-denied medical claims" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/25b5bf248bfc> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/2a8e3be92a9b> a airo:Evidence ;
+    airo:evidenceText "at least since UnitedHealthcare's 2020 acquisition of post-acute care management firm Navihealth, the US health insurance giant has repeatedly and wrongfully refused to pay the healthcare claims" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/3034557337ea> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare has been sued for allegedly denying healthcare claims based on a faulty AI model." ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/33086c5a62c2> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/4a36e8d8e2dc> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/4f8cd254924e> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/5117cfcacb93> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/514e55f224f3> a airo:Evidence ;
+    airo:evidenceText "The nH Predict AI Model allegedly produces generic care recommendations that fail to account for the individual needs of patients" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/537fe3cc1387> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/63d58f29b960> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/699c2410b7f9> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/8fb615042e16> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/9666751e969a> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/98a22bcca6ff> a airo:Evidence ;
+    airo:evidenceText "[3160] Defendants also utilize the nH Predict AI Model to aggressively deny coverage because they know they will not be held accountable for wrongful denials." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/9ec0efb95eb1> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/a6f17a903b06> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/a85a257e09c7> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/ad760e032491> a airo:Evidence ;
+    airo:evidenceText "America's Largest Health Insurer Denying Care With AI That's Wrong 90 Percent of the Time, Lawsuit Alleges" ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/ae255fa305b5> a airo:Evidence ;
+    airo:evidenceText "Defendants also utilize the nH Predict AI Model to aggressively deny coverage because they know they will not be held accountable for wrongful denials." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/c3ffe10da57d> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/ce98d4c19f61> a airo:Evidence ;
+    airo:evidenceText "UnitedHealth Group served class action lawsuit for AI-informed managed care denials" ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/dd6d039944d9> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/de463cc2c183> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/efb5187d5ce6> a airo:Evidence ;
+    airo:evidenceText "[3156] Coverage decisions are based on CMS coverage criteria and the terms of the member’s plan." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/f695ce8e570b> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/AIModel/0a5cb62ba47c> a airo:AIModel ;
+    rdfs:label "nH Predict" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "nH Predict AI Model" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/514e55f224f3>,
+        <https://w3id.org/airo/incident/evidence/ae255fa305b5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Consequence/eef7b68e0230> a airo:Consequence ;
+    rdfs:label "patients are denied necessary extended care coverage" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/405dabc57408> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/54b9de328497> .
+
+<https://w3id.org/airo/incident/Impact/54b9de328497> a airo:Impact ;
+    rdfs:label "harm to vulnerable patients and potential compromise of healthcare needs" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/caa6fe9091af> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1584f194a833> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/NewsReport/3156> a airo:NewsReport ;
+    rdfs:label "UnitedHealth Faces Lawsuit, Media Scrutiny Over AI’s Role in Medicare Advantage Denials of Nursing Home Care" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in exte" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6727590f7403> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/NewsReport/3157> a airo:NewsReport ;
+    rdfs:label "UnitedHealthcare sued over AI-denied medical claims" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """UnitedHealthcare has been sued for allegedly denying healthcare claims based on a faulty AI model.
+
+The [lawsuit](https://regmedia.co.uk/2023/11/14/unitedhealthcare_complaint.pdf) \\\\[PDF\\\\], filed Tue""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7c431a5207ab> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/NewsReport/3158> a airo:NewsReport ;
+    rdfs:label "America's Largest Health Insurer Denying Care With AI That's Wrong 90 Percent of the Time, Lawsuit Alleges" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97ed047743b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158> .
+
+<https://w3id.org/airo/incident/NewsReport/3160> a airo:NewsReport ;
+    rdfs:label "UnitedHealth Group served class action lawsuit for AI-informed managed care denials" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """UnitedHealthcare is being sued for allegedly using unreliable artificial intelligence algorithms to wrongfully deny payment for post-acute managed care.
+
+The three defendants named [in the complaint](""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7faea378215f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3160> .
+
+<https://w3id.org/airo/incident/Regulation/10fc7fd857c7> a airo:Regulation ;
+    rdfs:label "Class Action Complaint" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "class action lawsuit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1b215d5b245a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> ;
+    airo:imposesRequirement <https://w3id.org/airo/incident/Obligation/78f872ec5690> .
+
+<https://w3id.org/airo/incident/Regulation/20a52b1151af> a airo:Regulation ;
+    rdfs:label "Medicare Advantage" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Medicare Advantage" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7705c29c374d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/Regulation/af6868157401> a airo:Regulation ;
+    rdfs:label "CMS coverage criteria" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CMS coverage criteria" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/999f072b3cec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Stakeholder/0a67c0d03c06> a airo:Stakeholder ;
+    rdfs:label "US Department of Health and Human Services" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "US Department of Health and Human Services" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25456c67bf3f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/Stakeholder/2f5a2630c87e> a airo:Stakeholder ;
+    rdfs:label "Humana" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Humana" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/97f5bef3ec9a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/Stakeholder/6386964b4e6e> a airo:Stakeholder ;
+    rdfs:label "UnitedHealth Group" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "UnitedHealth Group" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479>,
+        <https://w3id.org/airo/incident/evidence/925b8de5d432> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/817b21a622b5> a airo:Stakeholder ;
+    rdfs:label "Ryan Clarkson" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ryan Clarkson" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/23e7b2737968> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/Stakeholder/c5201eedef69> a airo:Stakeholder ;
+    rdfs:label "Clarkson Law Firm" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Clarkson Law Firm" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab46a7f6c1da> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3157> .
+
+<https://w3id.org/airo/incident/evidence/0b34bdd03f0f> a airo:Evidence ;
+    airo:evidenceText "[3157] The complaint, brought by Clarkson Law Firm, alleges UnitedHealthcare unlawfully deployed an AI system with a 90 percent error rate" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/1360d594efa1> a airo:Evidence ;
+    airo:evidenceText "“The \\[NaviHealth\\] predict tool is not used to make coverage determinations." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/2fb3aca26985> a airo:Evidence ;
+    airo:evidenceText "[3156] The high level of denials were generated because UnitedHealth’s AI tool – one developed by its subsidiary NaviHealth – does not use input from doctors to predict the length of stay for patients in long-term care, according to the Class Action Complaint." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/31b592ac0600> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare is being sued for allegedly using unreliable artificial intelligence algorithms to wrongfully deny payment for post-acute managed care." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/5d8e65529886> a airo:Evidence ;
+    airo:evidenceText "[3160] The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/6727590f7403> a airo:Evidence ;
+    airo:evidenceText "UnitedHealth Faces Lawsuit, Media Scrutiny Over AI’s Role in Medicare Advantage Denials of Nursing Home Care" ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/7c431a5207ab> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare sued over AI-denied medical claims" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/7faea378215f> a airo:Evidence ;
+    airo:evidenceText "UnitedHealth Group served class action lawsuit for AI-informed managed care denials" ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/93a4b0c0ecf4> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/97ed047743b6> a airo:Evidence ;
+    airo:evidenceText "America's Largest Health Insurer Denying Care With AI That's Wrong 90 Percent of the Time, Lawsuit Alleges" ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/a10dfcdb679a> a airo:Evidence ;
+    airo:evidenceText "That same issue was at the center of a recently published piece in STAT, a health-oriented news outlet." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/a724f5747041> a airo:Evidence ;
+    airo:evidenceText "Sen. Richard Blumenthal (D-CT), for example, denounced the practice during a Senate subcommittee hearing in May." ;
+    airo:sourceDocId "3160" .
+
+<https://w3id.org/airo/incident/evidence/aa7d1b157937> a airo:Evidence ;
+    airo:evidenceText "[3156] The high level of denials were generated because UnitedHealth’s AI tool – one developed by its subsidiary NaviHealth – does not use input from doctors to predict the length of stay for patients in long-term care, according to the Class Action Complaint." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/aab489a1a2cf> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/bfba67527738> a airo:Evidence ;
+    airo:evidenceText "[3156] NaviHealth doesn’t just manage nursing home care within UnitedHealth’s plans, but also serves large Medicare Advantage insurers such as Humana and many regional health plans — potentially affecting the care of more than 15 million people, or half of all Medicare Advantage enrollees." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/d0f2382675a7> a airo:Evidence ;
+    airo:evidenceText "[3158] Their grievances are corroborated by an investigation from Stat News into UnitedHealth's internal practices at its subsidiary NaviHealth, which found that the company forced employees to unwaveringly adhere to the AI algorithm's questionable projections on how long patients could stay in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/d57ebda40417> a airo:Evidence ;
+    airo:evidenceText "[3156] The high level of denials were generated because UnitedHealth’s AI tool – one developed by its subsidiary NaviHealth – does not use input from doctors to predict the length of stay for patients in long-term care, according to the Class Action Complaint." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/fa748d365185> a airo:Evidence ;
+    airo:evidenceText "[3157] at least since UnitedHealthcare's 2020 acquisition of post-acute care management firm Navihealth, the US health insurance giant has repeatedly and wrongfully refused to pay the healthcare claims" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/Risk/272d6fab4e54> a airo:Risk ;
+    rdfs:label "risk of wrongful denial of healthcare coverage and claims" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/57c2a36f89b1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/eef7b68e0230> .
+
+<https://w3id.org/airo/incident/Stakeholder/4f1e15370154> a airo:Stakeholder ;
+    rdfs:label "NaviHealth" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AIModel/0a5cb62ba47c>,
+        <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NaviHealth" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/05fec3d9074a>,
+        <https://w3id.org/airo/incident/evidence/1b215d5b245a>,
+        <https://w3id.org/airo/incident/evidence/2a8e3be92a9b>,
+        <https://w3id.org/airo/incident/evidence/30db19384479> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156>,
+        <https://w3id.org/airo/incident/document/3157>,
+        <https://w3id.org/airo/incident/document/3158>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:hasSupportCount 4 ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/0a5cb62ba47c>,
+        <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> .
+
+<https://w3id.org/airo/incident/Stakeholder/66b3f12f2ed1> a airo:Stakeholder ;
+    rdfs:label "UnitedHealthcare" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "UnitedHealthcare" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3034557337ea>,
+        <https://w3id.org/airo/incident/evidence/30db19384479>,
+        <https://w3id.org/airo/incident/evidence/6e2e38cabf40>,
+        <https://w3id.org/airo/incident/evidence/925b8de5d432> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156>,
+        <https://w3id.org/airo/incident/document/3157>,
+        <https://w3id.org/airo/incident/document/3158>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:hasSupportCount 4 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> .
+
+<https://w3id.org/airo/incident/evidence/1584f194a833> a airo:Evidence ;
+    airo:evidenceText "[3157] \"UnitedHealthcare is responsible for the health care needs of some of our most vulnerable populations,\" said Ryan Clarkson, managing partner of Clarkson Law, in a statement." ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/405dabc57408> a airo:Evidence ;
+    airo:evidenceText "[3158] UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/57c2a36f89b1> a airo:Evidence ;
+    airo:evidenceText "[3156] UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/999f072b3cec> a airo:Evidence ;
+    airo:evidenceText "Coverage decisions are based on CMS coverage criteria and the terms of the member’s plan." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/7e5a1842e294> a airo:Evidence ;
+    airo:evidenceText "Aaron Albright, a spokesperson for Optum, the unit of UnitedHealth involved in the lawsuit’s claims, told Skilled Nursing News that the AI tool used in assessing claims is more for guidance and not for denial of insurance claims." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/23e7b2737968> a airo:Evidence ;
+    airo:evidenceText "\"UnitedHealthcare is responsible for the health care needs of some of our most vulnerable populations,\" said Ryan Clarkson, managing partner of Clarkson Law, in a statement." ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/25456c67bf3f> a airo:Evidence ;
+    airo:evidenceText "a report from the Inspector General of the US Department of Health and Human Services found that private Medicare Advantage programs deny 13 percent of service authorization requests" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/7705c29c374d> a airo:Evidence ;
+    airo:evidenceText "Medicare Advantage is a privately-run, government-approved version of the federal Medicare program" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/evidence/97f5bef3ec9a> a airo:Evidence ;
+    airo:evidenceText "NaviHealth doesn’t just manage nursing home care within UnitedHealth’s plans, but also serves large Medicare Advantage insurers such as Humana and many regional health plans — potentially affecting the care of more than 15 million people, or half of all Medicare Advantage enrollees." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/ab46a7f6c1da> a airo:Evidence ;
+    airo:evidenceText "The complaint, brought by Clarkson Law Firm, alleges UnitedHealthcare unlawfully deployed an AI system with a 90 percent error rate" ;
+    airo:sourceDocId "3157" .
+
+<https://w3id.org/airo/incident/AISystem/f664a56f170a> a airo:AISystem ;
+    rdfs:label "NaviHealth" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NaviHealth" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1360d594efa1>,
+        <https://w3id.org/airo/incident/evidence/1b215d5b245a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156> .
+
+<https://w3id.org/airo/incident/evidence/05fec3d9074a> a airo:Evidence ;
+    airo:evidenceText "Their grievances are corroborated by an investigation from Stat News into UnitedHealth's internal practices at its subsidiary NaviHealth, which found that the company forced employees to unwaveringly adhere to the AI algorithm's questionable projections on how long patients could stay in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_364> a airo:AIRiskIncident ;
+    rdfs:label "UnitedHealthcare sued over AI-denied medical claims" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:governs <https://w3id.org/airo/incident/Regulation/10fc7fd857c7>,
+        <https://w3id.org/airo/incident/Regulation/20a52b1151af>,
+        <https://w3id.org/airo/incident/Regulation/af6868157401> ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/eef7b68e0230> ;
+    airo:hasDescription "pred_364" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/8052bc701623>,
+        <https://w3id.org/airo/incident/Domain/8aae7a6bee17>,
+        <https://w3id.org/airo/incident/evidence/15bd91204163>,
+        <https://w3id.org/airo/incident/evidence/2489bf3ebbe6>,
+        <https://w3id.org/airo/incident/evidence/ad760e032491>,
+        <https://w3id.org/airo/incident/evidence/ce98d4c19f61> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/54b9de328497> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/3156>,
+        <https://w3id.org/airo/incident/NewsReport/3157>,
+        <https://w3id.org/airo/incident/NewsReport/3158>,
+        <https://w3id.org/airo/incident/NewsReport/3160> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/272d6fab4e54> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3156>,
+        <https://w3id.org/airo/incident/document/3157>,
+        <https://w3id.org/airo/incident/document/3158>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/09fa13f0e1b5>,
+        <https://w3id.org/airo/incident/AISystem/f664a56f170a> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/0a67c0d03c06>,
+        <https://w3id.org/airo/incident/Stakeholder/12ae99da41e3>,
+        <https://w3id.org/airo/incident/Stakeholder/2f5a2630c87e>,
+        <https://w3id.org/airo/incident/Stakeholder/3bcb21d06ad3>,
+        <https://w3id.org/airo/incident/Stakeholder/4f1e15370154>,
+        <https://w3id.org/airo/incident/Stakeholder/6386964b4e6e>,
+        <https://w3id.org/airo/incident/Stakeholder/66b3f12f2ed1>,
+        <https://w3id.org/airo/incident/Stakeholder/817b21a622b5>,
+        <https://w3id.org/airo/incident/Stakeholder/86273abe08ad>,
+        <https://w3id.org/airo/incident/Stakeholder/aebc7747492c>,
+        <https://w3id.org/airo/incident/Stakeholder/c5201eedef69> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/cdd1543b16e5> .
+
+<https://w3id.org/airo/incident/evidence/6e2e38cabf40> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare, the largest health insurance provider in the US, is using an AI algorithm called nH Predict whose wildly inaccurate predictions are being used to deny health coverage to severely ill patients by cutting the time they can spend in extended care." ;
+    airo:sourceDocId "3158" .
+
+<https://w3id.org/airo/incident/evidence/1b215d5b245a> a airo:Evidence ;
+    airo:evidenceText "The high level of denials were generated because UnitedHealth’s AI tool – one developed by its subsidiary NaviHealth – does not use input from doctors to predict the length of stay for patients in long-term care, according to the Class Action Complaint." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/evidence/925b8de5d432> a airo:Evidence ;
+    airo:evidenceText "UnitedHealthcare, a unit of UnitedHealth Group (NYSE: UNH), is facing a federal lawsuit over its use of an artificial intelligence tool in making Medicare Advantage claims denials for patients in extended care facilities." ;
+    airo:sourceDocId "3156" .
+
+<https://w3id.org/airo/incident/AISystem/09fa13f0e1b5> a airo:AISystem ;
+    rdfs:label "nH Predict" ;
+    airo:compliesWithRegulation <https://w3id.org/airo/incident/Regulation/10fc7fd857c7>,
+        <https://w3id.org/airo/incident/Regulation/20a52b1151af>,
+        <https://w3id.org/airo/incident/Regulation/af6868157401> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/d01aa87955d5> ;
+    airo:hasDescription "nH Predict" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/30db19384479>,
+        <https://w3id.org/airo/incident/evidence/6e2e38cabf40> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3158>,
+        <https://w3id.org/airo/incident/document/3160> ;
+    airo:hasSupportCount 2 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/74f67c880911> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/220ed1cc7b39> .
+
+<https://w3id.org/airo/incident/evidence/30db19384479> a airo:Evidence ;
+    airo:evidenceText "The 3 defendants named in the complaint filed Tuesday are UnitedHealth Group, its health insurance segment UnitedHealthcare, and its subsidiary technology firm NaviHealth, which created the AI tool at issue called nH Predict." ;
+    airo:sourceDocId "3160" .
+

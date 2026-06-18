@@ -1,0 +1,1494 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/07437f0aa9aa> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/2294>,
+        <https://w3id.org/airo/incident/NewsReport/2296>,
+        <https://w3id.org/airo/incident/NewsReport/2298>,
+        <https://w3id.org/airo/incident/NewsReport/2299>,
+        <https://w3id.org/airo/incident/NewsReport/2300> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2296>,
+        <https://w3id.org/airo/incident/document/2298>,
+        <https://w3id.org/airo/incident/document/2299>,
+        <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/RiskControl/d3836235592d> a airo:RiskControl ;
+    rdfs:label "investigation and system improvements" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ffb45d07d83> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/cc4f4f8e4d4a> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2302f1b616a5> a airo:RoleAssignment ;
+    rdfs:label "Raytheon_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1ee8348a55de> ;
+    airo:hasReasoning "Raytheon provided the Patriot Missile system to the U.S. Army, making it the provider of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4d5bac5c8f8e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/776c5bac11aa> a airo:RoleAssignment ;
+    rdfs:label "Akiko Ohata White_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f986634461e2> ;
+    airo:hasReasoning "As the widow of a pilot killed in the incident, she is directly affected by the AI system's failure." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d44e7c0049f6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/85028b93c8c2> a airo:RoleAssignment ;
+    rdfs:label "Lockheed Martin_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c77a4d02f7e> ;
+    airo:hasReasoning "Lockheed Martin co-manufactured the system, implying it was a provider to the military." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5757db26b679> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8941d45ad44f> a airo:RoleAssignment ;
+    rdfs:label "Raytheon_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a215ee20ff0> ;
+    airo:hasReasoning "Raytheon is identified as a manufacturer of the missile system, which implies development and production." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4d5bac5c8f8e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/989af02d43ab> a airo:RoleAssignment ;
+    rdfs:label "Lockheed Martin_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29ceb91decf3> ;
+    airo:hasReasoning "Lockheed Martin is identified as a manufacturer of the missile system, which implies development and production." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/5757db26b679> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b89b1092cc84> a airo:RoleAssignment ;
+    rdfs:label "Royal Air Force_AffectedActor" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a2e25d06d72> ;
+    airo:hasReasoning "The Royal Air Force suffered personnel losses due to the system's failure, making it an affected party." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9213eefc3e1b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bc2ff13a9345> a airo:RoleAssignment ;
+    rdfs:label "Ivor Caplin_Regulator" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19ec7a1113b9> ;
+    airo:hasReasoning "As a UK defence minister, Ivor Caplin conducted an official report and investigation into the incident, acting in a regulatory/government oversight role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/084a931f002f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/be13f5a626c5> a airo:RoleAssignment ;
+    rdfs:label "House of Representatives_Regulator" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a339e70c446> ;
+    airo:hasReasoning "The House of Representatives, as a legislative body, has oversight and investigatory powers over defense procurement and incidents, though the evidence is indirect." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cc71a9b8962a> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/c2b423502b34> a airo:RoleAssignment ;
+    rdfs:label "United States Army_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3582037bc64b> ;
+    airo:hasReasoning "The U.S. Army used the Patriot Missile system in the operation, making it the deployer/operator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f78dc1cc90ab> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e4489698f12a> a airo:RoleAssignment ;
+    rdfs:label "United States Department of Defense_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2a2ca5913543> ;
+    airo:hasReasoning "The Defense Science Board, under the Department of Defense, conducted a performance review, acting in a regulatory/oversight capacity." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_242> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4cb42114824d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/5eea6479f464> .
+
+<https://w3id.org/airo/incident/Trend/4fdc9be463b4> a airo:Trend ;
+    rdfs:label "increasing scrutiny of autonomous weapons and reliance on technology in military operations" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4cd91eb6605f> ;
+    airo:hasReasoning "The report highlights a trend of reliance on technology for decision-making in military operations and the scrutiny following failures." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/event/pred_242> a airo:AIRiskIncident ;
+    airo:firstSeen "2004-05-15T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2022-05-06T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/03cb11a14e10> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2b4f9709085f> .
+
+<https://w3id.org/airo/incident/ks/090fd891b175> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ddb923658e68> .
+
+<https://w3id.org/airo/incident/ks/0e0eca3fed11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d74d8cb3702e> .
+
+<https://w3id.org/airo/incident/ks/0fc9e08980e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab86a80e35b9> .
+
+<https://w3id.org/airo/incident/ks/104684671579> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/10509e87a4bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/10659289c333> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/124755ef19ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/12d5bccc5129> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/177c79fa0257> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/183d5724d18b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a8e368c02c2> .
+
+<https://w3id.org/airo/incident/ks/18befcb345c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/191098e69f26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> .
+
+<https://w3id.org/airo/incident/ks/1971101f418f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b2878f915de> .
+
+<https://w3id.org/airo/incident/ks/1b1a570cbe80> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d6938075991> .
+
+<https://w3id.org/airo/incident/ks/1f6a9be3ab13> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14298b10a2ce> .
+
+<https://w3id.org/airo/incident/ks/1ff6f2f741f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0190cb668475> .
+
+<https://w3id.org/airo/incident/ks/27f842b33fb3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/28dccb02741f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94ebd995592e> .
+
+<https://w3id.org/airo/incident/ks/294a4788b9da> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa65d4fb2af5> .
+
+<https://w3id.org/airo/incident/ks/2bdf2d7c1d8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/2d6aa2a1c6b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/2d7360ceaacc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce3df9c7a595> .
+
+<https://w3id.org/airo/incident/ks/2e6601aa6ba5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/2fc207c73a07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0ebd7525b32c> .
+
+<https://w3id.org/airo/incident/ks/302b3d448e19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c753e21afd> .
+
+<https://w3id.org/airo/incident/ks/30382625f8a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/30b460fe8a43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/31293e301c7d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c753e21afd> .
+
+<https://w3id.org/airo/incident/ks/32f778941c5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/35028ca48766> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> .
+
+<https://w3id.org/airo/incident/ks/35b5eabce76d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/3623dddffaee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/36d6d36c6c49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/37b4a41682ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e9c477234c1> .
+
+<https://w3id.org/airo/incident/ks/382acdc27613> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/3aacaed4c0e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e45d17e0d6b> .
+
+<https://w3id.org/airo/incident/ks/3bb932533eed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/3caeeba56bf3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bfc6ccf453f2> .
+
+<https://w3id.org/airo/incident/ks/40da82db5d9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/41eca9a226c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/420e1e514c6d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c55f3b91e98d> .
+
+<https://w3id.org/airo/incident/ks/42290ba68a5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/487a4db71d49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/4cfc933a483a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/4fd795cced7f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/523ef5050b3e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f9fc7df98744> .
+
+<https://w3id.org/airo/incident/ks/530df87f4f05> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/572dd3b7a25c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3098f4216a16> .
+
+<https://w3id.org/airo/incident/ks/5851af645de0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/5863ce640a73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5b9b0f1041c> .
+
+<https://w3id.org/airo/incident/ks/597a4fa71e38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/604083d83c47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d6938075991> .
+
+<https://w3id.org/airo/incident/ks/60f6d416fcb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6163904e0b57> .
+
+<https://w3id.org/airo/incident/ks/6114cf3d47ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91156db7980f> .
+
+<https://w3id.org/airo/incident/ks/64e5d6ec8001> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f8f4cba4406> .
+
+<https://w3id.org/airo/incident/ks/6b3f4df84748> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ffb45d07d83> .
+
+<https://w3id.org/airo/incident/ks/6bc98d76950f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/6d68ac986165> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/543f7fc10015> .
+
+<https://w3id.org/airo/incident/ks/6f2cae2ffd73> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1765a4f0f23c> .
+
+<https://w3id.org/airo/incident/ks/6f907aab7942> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/6fc13ba41019> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> .
+
+<https://w3id.org/airo/incident/ks/70cf9ae0a443> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a939d2e53e0> .
+
+<https://w3id.org/airo/incident/ks/71e7961f2ead> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a7c4a42458> .
+
+<https://w3id.org/airo/incident/ks/7b2999951afe> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/921c42a747fa> .
+
+<https://w3id.org/airo/incident/ks/7bf57a311557> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/80821b3c5e85> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3713656b2774> .
+
+<https://w3id.org/airo/incident/ks/830de6bed1eb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab571639e11a> .
+
+<https://w3id.org/airo/incident/ks/868ba754d6be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a8e368c02c2> .
+
+<https://w3id.org/airo/incident/ks/90df657bf8ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/9139219a5865> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/917079964639> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c753e21afd> .
+
+<https://w3id.org/airo/incident/ks/92807f89aba2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d13305d6ab> .
+
+<https://w3id.org/airo/incident/ks/948c6b7cc47f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49e1c89b1fd7> .
+
+<https://w3id.org/airo/incident/ks/948da84faa6c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42d9142fc0f4> .
+
+<https://w3id.org/airo/incident/ks/949600c4b8cb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fe4d0ce0b4> .
+
+<https://w3id.org/airo/incident/ks/9542727b347e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d138b493343d> .
+
+<https://w3id.org/airo/incident/ks/9ba79a3ae3a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/9e85371d49d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/54cc44858131> .
+
+<https://w3id.org/airo/incident/ks/9ff8cfeb92a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c753e21afd> .
+
+<https://w3id.org/airo/incident/ks/a18f0b240472> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31f16dbd3f8a> .
+
+<https://w3id.org/airo/incident/ks/a1e061844e6d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49ca1ef1dea9> .
+
+<https://w3id.org/airo/incident/ks/a3b0cc5bc1db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/a3feec53e7a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a97e2bc08be6> .
+
+<https://w3id.org/airo/incident/ks/a5500fe5af77> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f80bf4d0b51a> .
+
+<https://w3id.org/airo/incident/ks/a7c94f0f66ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/a836d46d4221> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> .
+
+<https://w3id.org/airo/incident/ks/aab39c60acbd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40aec4bcd0f3> .
+
+<https://w3id.org/airo/incident/ks/ac9a8e963814> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/b48bb8a01b83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/714625858a4d> .
+
+<https://w3id.org/airo/incident/ks/b4eab1335533> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0653a8bcdafd> .
+
+<https://w3id.org/airo/incident/ks/b777a6695137> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/b8d20cccfc83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/ba6ce7c2ee18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31f16dbd3f8a> .
+
+<https://w3id.org/airo/incident/ks/bba7ad233cb8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/c0f935fb896e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/c20db9cde498> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b56d80efbb34> .
+
+<https://w3id.org/airo/incident/ks/c3a6c79ceb0d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/c5f6d004438a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aeb52e662497> .
+
+<https://w3id.org/airo/incident/ks/c647b20b24f6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0a41173963a7> .
+
+<https://w3id.org/airo/incident/ks/c6eec311f912> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/cc93ca5800bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/53edffb6b7fb> .
+
+<https://w3id.org/airo/incident/ks/ccb85c64cd38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/d0ff8c55e7f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> .
+
+<https://w3id.org/airo/incident/ks/d29cf596661e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/d64622cb56ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e91734b6965b> .
+
+<https://w3id.org/airo/incident/ks/d90145502289> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1449a5ba353b> .
+
+<https://w3id.org/airo/incident/ks/dae9f60f4dc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42d9142fc0f4> .
+
+<https://w3id.org/airo/incident/ks/db576c027e30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d43f8125a12c> .
+
+<https://w3id.org/airo/incident/ks/dcaae6a416b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3713656b2774> .
+
+<https://w3id.org/airo/incident/ks/df9cf70ca317> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/e025e01225ef> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/51664355849d> .
+
+<https://w3id.org/airo/incident/ks/e30ef2f49a91> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851> .
+
+<https://w3id.org/airo/incident/ks/e3e9cd29b7fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff593c87ac48> .
+
+<https://w3id.org/airo/incident/ks/e7142f8d48f5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> .
+
+<https://w3id.org/airo/incident/ks/e97891303e98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42d9142fc0f4> .
+
+<https://w3id.org/airo/incident/ks/f01676ab0f36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5454c9a7c69e> .
+
+<https://w3id.org/airo/incident/ks/f34f14b5efe7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/eeb3adedab0a> .
+
+<https://w3id.org/airo/incident/ks/f556070d7a95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> .
+
+<https://w3id.org/airo/incident/ks/f5931967d157> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> .
+
+<https://w3id.org/airo/incident/ks/fa8c221bb4f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3713656b2774> .
+
+<https://w3id.org/airo/incident/ks/fb16ace2010b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf961cd01be8> .
+
+<https://w3id.org/airo/incident/ks/fc32de541660> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42d9142fc0f4> .
+
+<https://w3id.org/airo/incident/ks/fe911e14ddc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a0f28af83c4> .
+
+<https://w3id.org/airo/incident/ks/ffe5898b0acd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3713656b2774> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/40ac491c514a> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cf961cd01be8> ;
+    airo:hasReasoning "The incident occurred while the system was actively being used by the U.S. Army in a combat operation, which is the deployment phase of the lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> .
+
+<https://w3id.org/airo/incident/AITechnique/d3321fe809f9> a airo:AITechnique ;
+    rdfs:label "Identification Friend-or-Foe (IFF)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identification friend-or-foe" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aeb52e662497> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/AffectedActor/b4c83fd51cee> a airo:AffectedActor ;
+    rdfs:label "military pilots and crew" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa65d4fb2af5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/Documentation/848e87ddce6b> a airo:Documentation ;
+    rdfs:label "post-incident investigation reports" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49e1c89b1fd7> ;
+    airo:hasReasoning "Formal investigations by military authorities produced reports detailing the causes of the incident." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/Domain/7a3b9191b89a> a airo:Domain ;
+    rdfs:label "military/defense" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e91734b6965b> ;
+    airo:hasReasoning "The system is used by the military for air defense, placing it squarely in the defense/military domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/Hazard/7efc45247c8d> a airo:Hazard ;
+    rdfs:label "over-reliance on automated technology without adequate human oversight" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c55f3b91e98d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Purpose/bfabf69920a5> a airo:Purpose ;
+    rdfs:label "missile defense and anti-aircraft operations" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80a7c4a42458> ;
+    airo:hasReasoning "The evidence explicitly states the system was developed to shoot down enemy airplanes, indicating its core purpose is anti-aircraft defense." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/RiskSource/9e5a047b5435> a airo:RiskSource ;
+    rdfs:label "failure of identification friend-or-foe (IFF) system" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/cc4f4f8e4d4a> ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49ca1ef1dea9> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/7efc45247c8d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/Stakeholder/3bf4c7c5996e> a airo:Stakeholder ;
+    rdfs:label "General Accounting Office" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "General Accounting Office" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/4b6c1d2c21fa> a airo:Stakeholder ;
+    rdfs:label "Defense Science Board" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Defense Science Board" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94ebd995592e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/Stakeholder/59a85dac6b06> a airo:Stakeholder ;
+    rdfs:label "United States Navy" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "U.S. Navy" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1765a4f0f23c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/Stakeholder/5bb462a63485> a airo:Stakeholder ;
+    rdfs:label "Ministry of Defence" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ministry of Defence" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1449a5ba353b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/5d0b13a39b94> a airo:Stakeholder ;
+    rdfs:label "Howard Wolpe" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Howard Wolpe" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/9fea70e38519> a airo:Stakeholder ;
+    rdfs:label "Center for Naval Analyses" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Center for Naval Analyses" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5454c9a7c69e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/Stakeholder/bd88d8773da7> a airo:Stakeholder ;
+    rdfs:label "Nathan White" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lt. Nathan White" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> .
+
+<https://w3id.org/airo/incident/Vulnerability/2b9be79773e6> a airo:Vulnerability ;
+    rdfs:label "inadequate equipment for manual identification of friendly aircraft" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce3df9c7a595> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/evidence/0190cb668475> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/0653a8bcdafd> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/083ba8b68a7d> a airo:Evidence ;
+    airo:evidenceText "Tornado crew shot down after friend or foe system failed" ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/0a41173963a7> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/0a939d2e53e0> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/0c77a4d02f7e> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/0ebd7525b32c> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/1718df6a3bc4> a airo:Evidence ;
+    airo:evidenceText "The Patriot battery at Dhahran failed to track and intercept the Scud missile because of a software problem in the system's weapons control computer." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/19ec7a1113b9> a airo:Evidence ;
+    airo:evidenceText "[2300] Last week's report by UK defence minister Ivor Caplin on the Tornado incident fingered a 'system error' as the cause..." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/1a339e70c446> a airo:Evidence ;
+    airo:evidenceText "[2296] The widow of a U.S. Navy pilot who was shot down over Iraq in a 2003 friendly fire incident sued Raytheon Co. on Tuesday... (Implicitly, legislative bodies conduct oversight and investigations into such failures)." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/1a82fba23e7a> a airo:Evidence ;
+    airo:evidenceText "Woman Sues Raytheon Over Iraq Friendly Fire Death" ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/1e9c477234c1> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/1ee8348a55de> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/29ceb91decf3> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/2a2ca5913543> a airo:Evidence ;
+    airo:evidenceText "[2294] As a 2005 report by the Defense Science Board Task Force on the Patriot system’s performance observed..." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/2b4f9709085f> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/3098f4216a16> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/3582037bc64b> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/3a215ee20ff0> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/3b2878f915de> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/4cd91eb6605f> a airo:Evidence ;
+    airo:evidenceText "[2300] ...linked to failure of the aircraft's 'identification friend or foe' (IFF) system against a backdrop of 'inexperienced US troops, heavily reliant on technology to make decisions, but lacking crucial equipment...'" ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/51664355849d> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/543f7fc10015> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/54cc44858131> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/6163904e0b57> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/6e545ddca55a> a airo:Evidence ;
+    airo:evidenceText "On February 25, 1991, a Patriot missile defense system operating at Dhahran, Saudi Arabia, during Operation Desert Storm failed to track and intercept an incoming Scud." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/7e45d17e0d6b> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/8a2e25d06d72> a airo:Evidence ;
+    airo:evidenceText "[2294] The deaths were the first losses suffered by the Royal Air Force in the war and the tragic result of friendly fire." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/91156db7980f> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/921c42a747fa> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/a97e2bc08be6> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/ab86a80e35b9> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/d4613fde3e0b> a airo:Evidence ;
+    airo:evidenceText "Understanding the errors introduced by military AI applications" ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/d5b9b0f1041c> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/d74d8cb3702e> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/ddb923658e68> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/e2389eda1400> a airo:Evidence ;
+    airo:evidenceText " Investigation Finds U.S. Missiles Downed Navy Jet" ;
+    airo:sourceDocId "2298" .
+
+<https://w3id.org/airo/incident/evidence/eeb3adedab0a> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/f807b69f984c> a airo:Evidence ;
+    airo:evidenceText "Patriot missile: friend or foe?" ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/f80bf4d0b51a> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/f986634461e2> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane in April 2003." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/f9fc7df98744> a airo:Evidence ;
+    airo:evidenceText "[2300] The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/ff593c87ac48> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/Consequence/029899495179> a airo:Consequence ;
+    rdfs:label "shootdown of friendly aircraft resulting in pilot deaths" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5a8e368c02c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/15b169bd36e6> .
+
+<https://w3id.org/airo/incident/Impact/15b169bd36e6> a airo:Impact ;
+    rdfs:label "loss of military personnel and damage to coalition relations" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/b4c83fd51cee> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31f16dbd3f8a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/NewsReport/2294> a airo:NewsReport ;
+    rdfs:label "Understanding the errors introduced by military AI applications" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "On March 22, 2003, two days into the U.S.-led invasion of Iraq, American troops fired a Patriot interceptor missile at what they assumed was an Iraqi anti-radiation missile designed to destroy air-def" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b56d80efbb34> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294> .
+
+<https://w3id.org/airo/incident/NewsReport/2296> a airo:NewsReport ;
+    rdfs:label "Woman Sues Raytheon Over Iraq Friendly Fire Death" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "BOSTON (Reuters) - The widow of a U.S. Navy pilot who was shot down over Iraq in a 2003 friendly fire incident sued Raytheon Co. on Tuesday, charging that the maker of the missile that took down the p" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d138b493343d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> .
+
+<https://w3id.org/airo/incident/NewsReport/2298> a airo:NewsReport ;
+    rdfs:label " Investigation Finds U.S. Missiles Downed Navy Jet" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A military investigation has concluded that a \"friendly fire\" incident in which a Navy pilot was shot down and killed by U.S. forces during the spring 2003 invasion of Iraq occurred because operators " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/714625858a4d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2298> .
+
+<https://w3id.org/airo/incident/NewsReport/2299> a airo:NewsReport ;
+    rdfs:label "Tornado crew shot down after friend or foe system failed" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "With 60 seconds to decide whether the dot approaching at a rapid speed from 23,000ft was a friendly bomber returning from a mission over Baghdad or an incoming Iraqi missile, an American Patriot anti-" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6f8f4cba4406> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/NewsReport/2300> a airo:NewsReport ;
+    rdfs:label "Patriot missile: friend or foe?" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Our [recent story](https://www.theregister.com/2004/05/14/tornado_system_error/) on the 2003 friendly-fire incident which saw a US Patriot missile down a RAF Tornado with the loss of both crew members" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14298b10a2ce> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/084a931f002f> a airo:Stakeholder ;
+    rdfs:label "Ivor Caplin" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ivor Caplin" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ab481e389fc3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/4cb42114824d> a airo:Stakeholder ;
+    rdfs:label "United States Department of Defense" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United States Department of Defense" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3713656b2774> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/9213eefc3e1b> a airo:Stakeholder ;
+    rdfs:label "Royal Air Force" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "RAF" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42d9142fc0f4>,
+        <https://w3id.org/airo/incident/evidence/53edffb6b7fb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2299> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/Stakeholder/cc71a9b8962a> a airo:Stakeholder ;
+    rdfs:label "House of Representatives" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "House of Representatives" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/85354b8f1629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/Stakeholder/d44e7c0049f6> a airo:Stakeholder ;
+    rdfs:label "Akiko Ohata White" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Akiko Ohata White" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da47df64bcda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2296> .
+
+<https://w3id.org/airo/incident/Stakeholder/f78dc1cc90ab> a airo:Stakeholder ;
+    rdfs:label "United States Army" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "U.S. Army" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c753e21afd>,
+        <https://w3id.org/airo/incident/evidence/53edffb6b7fb>,
+        <https://w3id.org/airo/incident/evidence/da47df64bcda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2296>,
+        <https://w3id.org/airo/incident/document/2299> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/evidence/14298b10a2ce> a airo:Evidence ;
+    airo:evidenceText "Patriot missile: friend or foe?" ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/1449a5ba353b> a airo:Evidence ;
+    airo:evidenceText "More specifically, the Ministry of Defence Military Aircraft Accident Summary (PDF) notes that:" ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/1765a4f0f23c> a airo:Evidence ;
+    airo:evidenceText "This dynamic played out in the other fatal friendly fire incident involving a Patriot missile battery during the Iraq War, when a U.S. Navy F/A-18 aircraft was misidentified as a ballistic missile and shot down, killing the pilot." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/20fe4d0ce0b4> a airo:Evidence ;
+    airo:evidenceText "The split-second decision led to one of the tragedies of the Iraq war last year: the dot was an RAF Tornado GR4, flown by Flight Lieutenants Kevin Main and David Williams who died instantly as their aircraft disintegrated in a ball of fire." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/3a0f28af83c4> a airo:Evidence ;
+    airo:evidenceText "With 60 seconds to decide whether the dot approaching at a rapid speed from 23,000ft was a friendly bomber returning from a mission over Baghdad or an incoming Iraqi missile, an American Patriot anti-aircraft battery opened fire." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/40aec4bcd0f3> a airo:Evidence ;
+    airo:evidenceText "The ground engineering check on ZG710's encrypted Mode 4 IFF was completed satisfactorily pre-engine start, and an RAF Regiment Rapier Missile unit that regularly checked the IFF of departing aircraft did not report the aircraft or log a fault." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/49ca1ef1dea9> a airo:Evidence ;
+    airo:evidenceText "[2299] However, the fundamental flaw which played a key part in the destruction of the Tornado was that its \"identification friend-or-foe\" (IFF) system which was supposed to send coded signals to anti-aircraft batteries had failed." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/49e1c89b1fd7> a airo:Evidence ;
+    airo:evidenceText "[2299] After more than a year of investigation by the RAF and the US Army, it was revealed that several factors led to the disastrous 'friendly-fire' incident." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/5454c9a7c69e> a airo:Evidence ;
+    airo:evidenceText "According to a 2019 Center for Naval Analyses report, the Patriot recommended that the operator fire missiles in response to what it had identified as an enemy projectile." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/5ffb45d07d83> a airo:Evidence ;
+    airo:evidenceText "[2300] Since Operation Desert Storm, the United States Department of Defense has invested over $3.0 billion to further improve and extend Patriot ground equipment performance." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/6f8f4cba4406> a airo:Evidence ;
+    airo:evidenceText "Tornado crew shot down after friend or foe system failed" ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/714625858a4d> a airo:Evidence ;
+    airo:evidenceText " Investigation Finds U.S. Missiles Downed Navy Jet" ;
+    airo:sourceDocId "2298" .
+
+<https://w3id.org/airo/incident/evidence/80a7c4a42458> a airo:Evidence ;
+    airo:evidenceText "[2294] The Patriot missile began development in the 1960s, when the U.S. Army sought a means to reliably shoot down enemy airplanes." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/94ebd995592e> a airo:Evidence ;
+    airo:evidenceText "As a 2005 report by the Defense Science Board Task Force on the Patriot system’s performance observed, operating autonomously required U.S. forces to trust that the automated features of the system were functioning properly." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/a5d13305d6ab> a airo:Evidence ;
+    airo:evidenceText "Another system that failed and that might have prevented the shootdown was the identification-as-friend-or-foe system, a safety measure designed to avoid such deadly mistakes." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/aa65d4fb2af5> a airo:Evidence ;
+    airo:evidenceText "[2299] The split-second decision led to one of the tragedies of the Iraq war last year: the dot was an RAF Tornado GR4, flown by Flight Lieutenants Kevin Main and David Williams who died instantly as their aircraft disintegrated in a ball of fire." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/ab571639e11a> a airo:Evidence ;
+    airo:evidenceText "The aircraft was about 16 miles from the Patriot missile location on the Kuwaiti/Iraqi border — one minute's flying time — when it received a direct hit." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/aeb52e662497> a airo:Evidence ;
+    airo:evidenceText "However, the fundamental flaw which played a key part in the destruction of the Tornado was that its \"identification friend-or-foe\" (IFF) system which was supposed to send coded signals to anti-aircraft batteries had failed." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/b56d80efbb34> a airo:Evidence ;
+    airo:evidenceText "Understanding the errors introduced by military AI applications" ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/bfc6ccf453f2> a airo:Evidence ;
+    airo:evidenceText "What the Patriot missile system had identified as an incoming missile, was in fact a UK Tornado fighter jet, and when the Patriot struck the aircraft, it killed two crew on board instantly." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/c55f3b91e98d> a airo:Evidence ;
+    airo:evidenceText "[2300] Last week's report by UK defence minister Ivor Caplin on the Tornado incident fingered a 'system error' as the cause, linked to failure of the aircraft's 'identification friend or foe' (IFF) system against a backdrop of of 'inexperienced US troops, heavily reliant on technology to make decisions, but lacking crucial equipment which could have helped them identify the Tornado as a friendly aircraft'." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/ce3df9c7a595> a airo:Evidence ;
+    airo:evidenceText "[2300] Last week's report by UK defence minister Ivor Caplin on the Tornado incident fingered a 'system error' as the cause, linked to failure of the aircraft's 'identification friend or foe' (IFF) system against a backdrop of of 'inexperienced US troops, heavily reliant on technology to make decisions, but lacking crucial equipment which could have helped them identify the Tornado as a friendly aircraft'." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/cf961cd01be8> a airo:Evidence ;
+    airo:evidenceText "[2296] Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane in April 2003 after erroneously identifying it as an enemy missile." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/d138b493343d> a airo:Evidence ;
+    airo:evidenceText "Woman Sues Raytheon Over Iraq Friendly Fire Death" ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/e91734b6965b> a airo:Evidence ;
+    airo:evidenceText "[2299] With 60 seconds to decide whether the dot approaching at a rapid speed from 23,000ft was a friendly bomber returning from a mission over Baghdad or an incoming Iraqi missile, an American Patriot anti-aircraft battery opened fire." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/Risk/cc4f4f8e4d4a> a airo:Risk ;
+    rdfs:label "risk of misidentifying friendly aircraft as enemy targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3d6938075991> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/029899495179> .
+
+<https://w3id.org/airo/incident/Stakeholder/4d5bac5c8f8e> a airo:Stakeholder ;
+    rdfs:label "Raytheon" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Raytheon Co." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/098fc1358851>,
+        <https://w3id.org/airo/incident/evidence/d03fc5ba057a>,
+        <https://w3id.org/airo/incident/evidence/d43f8125a12c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2296>,
+        <https://w3id.org/airo/incident/document/2300> ;
+    airo:hasSupportCount 3 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> .
+
+<https://w3id.org/airo/incident/Stakeholder/5757db26b679> a airo:Stakeholder ;
+    rdfs:label "Lockheed Martin" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Lockheed Martin" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d03fc5ba057a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> .
+
+<https://w3id.org/airo/incident/evidence/31f16dbd3f8a> a airo:Evidence ;
+    airo:evidenceText "[2294] The deaths were the first losses suffered by the Royal Air Force in the war and the tragic result of friendly fire." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/3d6938075991> a airo:Evidence ;
+    airo:evidenceText "[2299] With 60 seconds to decide whether the dot approaching at a rapid speed from 23,000ft was a friendly bomber returning from a mission over Baghdad or an incoming Iraqi missile, an American Patriot anti-aircraft battery opened fire." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/5a8e368c02c2> a airo:Evidence ;
+    airo:evidenceText "[2294] What the Patriot missile system had identified as an incoming missile, was in fact a UK Tornado fighter jet, and when the Patriot struck the aircraft, it killed two crew on board instantly." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/3713656b2774> a airo:Evidence ;
+    airo:evidenceText "Since Operation Desert Storm, the United States Department of Defense has invested over $3.0 billion to further improve and extend Patriot ground equipment performance." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/42d9142fc0f4> a airo:Evidence ;
+    airo:evidenceText "The deaths were the first losses suffered by the Royal Air Force in the war and the tragic result of friendly fire." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/49c753e21afd> a airo:Evidence ;
+    airo:evidenceText "The Patriot missile began development in the 1960s, when the U.S. Army sought a means to reliably shoot down enemy airplanes." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/AISystem/2be910d960e9> a airo:AISystem ;
+    rdfs:label "RAF Tornado GR4" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "RAF Tornado GR4" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20fe4d0ce0b4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/AISystem/3d2b0b710d71> a airo:AISystem ;
+    rdfs:label "Patriot Anti-Aircraft System" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Patriot anti-aircraft battery" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a0f28af83c4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2299> .
+
+<https://w3id.org/airo/incident/AISystem/47b3b28f42a2> a airo:AISystem ;
+    rdfs:label "Mode 4 IFF" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "encrypted Mode 4 IFF" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/40aec4bcd0f3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2300> .
+
+<https://w3id.org/airo/incident/AISystem/a80632dd02f9> a airo:AISystem ;
+    rdfs:label "Identification friend or foe (IFF) system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identification-as-friend-or-foe system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a5d13305d6ab>,
+        <https://w3id.org/airo/incident/evidence/ab481e389fc3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2300> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/ab481e389fc3> a airo:Evidence ;
+    airo:evidenceText "Last week's report by UK defence minister Ivor Caplin on the Tornado incident fingered a 'system error' as the cause, linked to failure of the aircraft's 'identification friend or foe' (IFF) system against a backdrop of of 'inexperienced US troops, heavily reliant on technology to make decisions, but lacking crucial equipment which could have helped them identify the Tornado as a friendly aircraft'." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/evidence/098fc1358851> a airo:Evidence ;
+    airo:evidenceText "Raytheon, which manufactures the Patriot, has described the system as having “automated operations” with “man-in-the-loop (human) override” capabilities—technology that allows the weapon to quickly engage targets with the necessary speed to carry out its missile defense mission." ;
+    airo:sourceDocId "2294" .
+
+<https://w3id.org/airo/incident/evidence/d43f8125a12c> a airo:Evidence ;
+    airo:evidenceText "The widow of a U.S. Navy pilot who was shot down over Iraq in a 2003 friendly fire incident sued Raytheon Co. on Tuesday, charging that the maker of the missile that took down the plane was liable in the incident." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/evidence/85354b8f1629> a airo:Evidence ;
+    airo:evidenceText "That's the first paragraph of a 1992 report by the Information Management and Technology Division of the General Accounting Office in response to a request by Howard Wolpe, Chairman, Subcommittee on Investigations and Oversight Committee on Science, Space, and Technology, House of Representatives." ;
+    airo:sourceDocId "2300" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_242> a airo:AIRiskIncident ;
+    rdfs:label "Patriot missile: friend or foe?" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/029899495179> ;
+    airo:hasDescription "pred_242" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/40ac491c514a>,
+        <https://w3id.org/airo/incident/Domain/7a3b9191b89a>,
+        <https://w3id.org/airo/incident/evidence/083ba8b68a7d>,
+        <https://w3id.org/airo/incident/evidence/1a82fba23e7a>,
+        <https://w3id.org/airo/incident/evidence/d4613fde3e0b>,
+        <https://w3id.org/airo/incident/evidence/e2389eda1400>,
+        <https://w3id.org/airo/incident/evidence/f807b69f984c> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/15b169bd36e6> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/2294>,
+        <https://w3id.org/airo/incident/NewsReport/2296>,
+        <https://w3id.org/airo/incident/NewsReport/2298>,
+        <https://w3id.org/airo/incident/NewsReport/2299>,
+        <https://w3id.org/airo/incident/NewsReport/2300> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/cc4f4f8e4d4a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2296>,
+        <https://w3id.org/airo/incident/document/2298>,
+        <https://w3id.org/airo/incident/document/2299>,
+        <https://w3id.org/airo/incident/document/2300> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/2be910d960e9>,
+        <https://w3id.org/airo/incident/AISystem/3d2b0b710d71>,
+        <https://w3id.org/airo/incident/AISystem/47b3b28f42a2>,
+        <https://w3id.org/airo/incident/AISystem/5eea6479f464>,
+        <https://w3id.org/airo/incident/AISystem/a80632dd02f9> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/084a931f002f>,
+        <https://w3id.org/airo/incident/Stakeholder/3bf4c7c5996e>,
+        <https://w3id.org/airo/incident/Stakeholder/4b6c1d2c21fa>,
+        <https://w3id.org/airo/incident/Stakeholder/4cb42114824d>,
+        <https://w3id.org/airo/incident/Stakeholder/4d5bac5c8f8e>,
+        <https://w3id.org/airo/incident/Stakeholder/5757db26b679>,
+        <https://w3id.org/airo/incident/Stakeholder/59a85dac6b06>,
+        <https://w3id.org/airo/incident/Stakeholder/5bb462a63485>,
+        <https://w3id.org/airo/incident/Stakeholder/5d0b13a39b94>,
+        <https://w3id.org/airo/incident/Stakeholder/9213eefc3e1b>,
+        <https://w3id.org/airo/incident/Stakeholder/9fea70e38519>,
+        <https://w3id.org/airo/incident/Stakeholder/bd88d8773da7>,
+        <https://w3id.org/airo/incident/Stakeholder/cc71a9b8962a>,
+        <https://w3id.org/airo/incident/Stakeholder/d44e7c0049f6>,
+        <https://w3id.org/airo/incident/Stakeholder/f78dc1cc90ab> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/9e5a047b5435> .
+
+<https://w3id.org/airo/incident/evidence/53edffb6b7fb> a airo:Evidence ;
+    airo:evidenceText "After more than a year of investigation by the RAF and the US Army, it was revealed that several factors led to the disastrous \"friendly-fire\" incident on March 23 which was only the third day of coalition airstrikes on Iraq." ;
+    airo:sourceDocId "2299" .
+
+<https://w3id.org/airo/incident/evidence/da47df64bcda> a airo:Evidence ;
+    airo:evidenceText "Akiko Ohata White, the widow of Lt. Nathan White, said in papers filed in federal court in Boston that a Raytheon Patriot Missile system used by the U.S. Army shot down the plane in April 2003 after erroneously identifying it as an enemy missile." ;
+    airo:sourceDocId "2296" .
+
+<https://w3id.org/airo/incident/AISystem/5eea6479f464> a airo:AISystem ;
+    rdfs:label "Raytheon Patriot Missile System" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/bfabf69920a5> ;
+    airo:hasDescription "Raytheon Patriot Missile system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/848e87ddce6b>,
+        <https://w3id.org/airo/incident/evidence/1718df6a3bc4>,
+        <https://w3id.org/airo/incident/evidence/6e545ddca55a>,
+        <https://w3id.org/airo/incident/evidence/ab571639e11a>,
+        <https://w3id.org/airo/incident/evidence/bfc6ccf453f2>,
+        <https://w3id.org/airo/incident/evidence/da47df64bcda> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/2294>,
+        <https://w3id.org/airo/incident/document/2296>,
+        <https://w3id.org/airo/incident/document/2299>,
+        <https://w3id.org/airo/incident/document/2300> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/2b9be79773e6> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/d3321fe809f9> .
+
+<https://w3id.org/airo/incident/evidence/d03fc5ba057a> a airo:Evidence ;
+    airo:evidenceText "The missile (overview here), which is manufactured by Raytheon and Lockheed Martin, began life some 40 years ago as an anti-aircraft weapon." ;
+    airo:sourceDocId "2300" .
+

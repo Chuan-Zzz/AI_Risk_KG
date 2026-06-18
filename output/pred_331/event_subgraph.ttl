@@ -1,0 +1,1898 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/ComplianceRequirement/721b378c3e10> a airo:ComplianceRequirement ;
+    rdfs:label "meet state commercialization permit requirements for autonomous vehicle services" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3ee7531d48b7> ;
+    airo:hasReasoning "The CPUC's vote to 'lift all restrictions' for commercialization indicates compliance with state permit requirements is a necessary condition for operation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/EnforcementAction/c6c7ebc936c3> a airo:EnforcementAction ;
+    rdfs:label "regulatory oversight and potential permit condition review by the California Public Utilities Commission" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/825ffc45b343> ;
+    airo:hasReasoning "The employee's letter to the CPUC is a formal channel for raising safety concerns, which could trigger regulatory review and enforcement actions regarding permit compliance." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:respondsToIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> .
+
+<https://w3id.org/airo/incident/InformationSource/84fec73198c4> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1604>,
+        <https://w3id.org/airo/incident/NewsReport/1605>,
+        <https://w3id.org/airo/incident/NewsReport/3060> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604>,
+        <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/InformationSource/8b9662e68306> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8605>,
+        <https://w3id.org/airo/incident/NewsReport/8610> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605>,
+        <https://w3id.org/airo/incident/document/8610> .
+
+<https://w3id.org/airo/incident/Obligation/62eaf8784c8d> a airo:Obligation ;
+    rdfs:label "maintain reliable wireless connectivity for remote oversight and rerouting of autonomous vehicles" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3e7858f813ee> ;
+    airo:hasReasoning "The incident highlights a critical operational failure due to lost connectivity, implying a governance obligation to ensure reliable communication for safety and control." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/RiskControl/1e65cb097b84> a airo:RiskControl ;
+    rdfs:label "Investigation and oversight by regulatory agencies" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/523487aa3e13> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/f0ca4ec1417f> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0c7e2706ac3d> a airo:RoleAssignment ;
+    rdfs:label "Aaron Peskin_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a10e859bc87> ;
+    airo:hasReasoning "As a city supervisor engaging with the company about operational failures, he is acting in a regulatory/oversight capacity for the city." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b49781667b1d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/15c3aebea935> a airo:RoleAssignment ;
+    rdfs:label "San Francisco Police Department_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bbf28695ade2> ;
+    airo:hasReasoning "As a law enforcement agency confirming details of a public safety incident, it performs a regulatory oversight/investigation role." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f2bbb49fb201> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/16b92564ffeb> a airo:RoleAssignment ;
+    rdfs:label "Tiffany Testo_Stakeholder" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/151f0357ff73> ;
+    airo:hasReasoning "There is no evidence in the provided text linking Tiffany Testo to the development, deployment, regulation, or impact of the autonomous vehicle systems discussed." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/337053c315a3> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/21ad9559863d> a airo:RoleAssignment ;
+    rdfs:label "Transportation and fire officials_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49b5014bf582> ;
+    airo:hasReasoning "As officials reporting to 'state regulators' on safety and disruption issues, they are performing a regulatory oversight function." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/053ac5405ad6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/21de82a4a4f2> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_Stakeholder" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f7e41394b0e4> ;
+    airo:hasReasoning "There is no evidence in the provided text linking OpenAI to the development, deployment, regulation, or impact of the autonomous vehicle systems discussed." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ba8ddfcb85d6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/282cd5a1931e> a airo:RoleAssignment ;
+    rdfs:label "California Public Utilities Commission_Regulator" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/01efe028d00b> ;
+    airo:hasReasoning "The CPUC is a state agency voting on regulations ('lift all restrictions') governing the commercialization of the AI systems." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e98f7124bc19> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/293015526f38> a airo:RoleAssignment ;
+    rdfs:label "National Highway Traffic Safety Administration_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42e15251a967> ;
+    airo:hasReasoning "As the federal agency responsible for vehicle safety, NHTSA is the relevant regulator for issues involving autonomous vehicles operating on public roads." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/3a677f485d90> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5f34559935f9> a airo:RoleAssignment ;
+    rdfs:label "San Francisco Municipal Transportation Authority_Regulator" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/650d73de4ea6> ;
+    airo:hasReasoning "As the city's transportation authority, it would be involved in regulating and managing the impact of robotaxis on city streets and infrastructure." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/2d978b018051> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/6d2c34892da9> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1c32de2f3817> ;
+    airo:hasReasoning "Cruise deployed and operates the driverless cars in the city's streets, as evidenced by its employees managing the system during failures." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8610> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/66a17fc0f50c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/70ae3609fbeb> a airo:RoleAssignment ;
+    rdfs:label "Anthropic_Stakeholder" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e1034324981e> ;
+    airo:hasReasoning "There is no evidence in the provided text linking Anthropic to the development, deployment, regulation, or impact of the autonomous vehicle systems discussed." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ff5987442689> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7cb5bca17020> a airo:RoleAssignment ;
+    rdfs:label "Amazon_AIProvider" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/93d0d810bc2e> ;
+    airo:hasReasoning "By owning Zoox, a provider of autonomous vehicle technology, Amazon is a provider in this domain." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d8c209017d73> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/83c79f401646> a airo:RoleAssignment ;
+    rdfs:label "Zoox_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c72c5c180ce> ;
+    airo:hasReasoning "Zoox is mentioned as a rival to Cruise and Waymo in the autonomous vehicle space, identifying it as a provider." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/08f567354383> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8432febfa297> a airo:RoleAssignment ;
+    rdfs:label "Waymo_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1a7b73ea48aa> ;
+    airo:hasReasoning "The context compares Cruise to rival Waymo, implying Waymo also has deployed autonomous vehicles operating in the city." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e1dba1a9d1bc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/90319bd68824> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIProvider" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ed07c51b24a> ;
+    airo:hasReasoning "By launching a 'commercial robotaxi service,' Cruise is providing the AI-powered transportation service to the public." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/66a17fc0f50c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9b039466699b> a airo:RoleAssignment ;
+    rdfs:label "Cohere_Stakeholder" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/756d314df5c8> ;
+    airo:hasReasoning "There is no evidence in the provided text linking Cohere to the development, deployment, regulation, or impact of the autonomous vehicle systems discussed." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/efc893af8dc7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/9c9b033b88a9> a airo:RoleAssignment ;
+    rdfs:label "Waymo_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94c871161165> ;
+    airo:hasReasoning "The regulation mentions Waymo in the context of 'full commercialization,' indicating it is a provider of a commercial autonomous vehicle service." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e1dba1a9d1bc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b0b5cff0019b> a airo:RoleAssignment ;
+    rdfs:label "Aurora_AIProvider" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7eca3c636ef2> ;
+    airo:hasReasoning "Aurora is listed as a 'well-capitalized rival' to Cruise and Waymo, indicating it is also a provider of autonomous vehicle technology." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/dd506696be5d> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/cf2fccdc8401> a airo:RoleAssignment ;
+    rdfs:label "California Department of Motor Vehicles_Regulator" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe4e450af20c> ;
+    airo:hasReasoning "While not directly mentioned in the provided evidence sentences, the California DMV is the primary state regulator for autonomous vehicle testing and deployment permits, making it a regulator in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e424a5407d11> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d66ba98a48bb> a airo:RoleAssignment ;
+    rdfs:label "Cruise_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0e71c7f9c72e> ;
+    airo:hasReasoning "As the entity operating and developing the 'Cruise driverless cars' and 'Cruise robotaxis,' it is the developer of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/66a17fc0f50c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f926e75caf79> a airo:RoleAssignment ;
+    rdfs:label "General Motors_AIDeveloper" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14de13c9a7c4> ;
+    airo:hasReasoning "As the parent company of the developer (Cruise), General Motors is ultimately responsible for the development of the AI system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_331> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/fd581aa993bc> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/Trend/9aed8a03880f> a airo:Trend ;
+    rdfs:label "increasing regulatory scrutiny and public opposition to autonomous vehicle deployment in urban areas" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b95d94ab3902> ;
+    airo:hasReasoning "The simultaneous vote for full commercialization and 'vocal opposition from city officials' highlights a trend of growing regulatory and public scrutiny as deployment expands." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/event/pred_331> a airo:AIRiskIncident ;
+    airo:firstSeen "2022-06-30T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2023-08-12T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/0013f11b0c64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/010b1140fc6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a294b8d8b7b> .
+
+<https://w3id.org/airo/incident/ks/012451d37d87> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec1bdfc4ec89> .
+
+<https://w3id.org/airo/incident/ks/051ff6098231> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f89d1f488d68> .
+
+<https://w3id.org/airo/incident/ks/05cc91d2d58e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a32c9a8c1100> .
+
+<https://w3id.org/airo/incident/ks/06d5c4dffc72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25d553d89fe3> .
+
+<https://w3id.org/airo/incident/ks/083f9a7c649a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37a8020ad7f8> .
+
+<https://w3id.org/airo/incident/ks/0bed9511ebe2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/0ec4c76fc11c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f31a01d4145> .
+
+<https://w3id.org/airo/incident/ks/1205f492f3f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/13cb23261efa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/155e12f2c3c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/849958675631> .
+
+<https://w3id.org/airo/incident/ks/1638c74223d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c3d7b05a68d> .
+
+<https://w3id.org/airo/incident/ks/16bdce9c3e6a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/17159708781e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/412ad80ddb05> .
+
+<https://w3id.org/airo/incident/ks/1824bb7e8dcf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a113ddc9210f> .
+
+<https://w3id.org/airo/incident/ks/1c46dcebae60> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8175e14830a3> .
+
+<https://w3id.org/airo/incident/ks/1d33cd85f6fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/1fe36a80a85e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/221c96c5c7b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a294b8d8b7b> .
+
+<https://w3id.org/airo/incident/ks/22c69faabcd2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/26c540aa3c97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b71b5951766> .
+
+<https://w3id.org/airo/incident/ks/27039035b806> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/29aa8570d36d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38a0db95c9af> .
+
+<https://w3id.org/airo/incident/ks/2ae38d9b6012> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/2d4dc11d4870> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/2e5a89d06bae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/825ffc45b343> .
+
+<https://w3id.org/airo/incident/ks/2ed56cf42248> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5433517d0b80> .
+
+<https://w3id.org/airo/incident/ks/2f0235e833b3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/849958675631> .
+
+<https://w3id.org/airo/incident/ks/2f7471c4e572> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/38196f347498> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3b18ebfc5bd5> .
+
+<https://w3id.org/airo/incident/ks/38230b9ffb01> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/3aed9afeee6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0b2f8bb63118> .
+
+<https://w3id.org/airo/incident/ks/3b0981cfb45f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9711e4307b9f> .
+
+<https://w3id.org/airo/incident/ks/3c213ac1dab7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b24f7e68daee> .
+
+<https://w3id.org/airo/incident/ks/3f2b32f0404d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/461c864e30ac> .
+
+<https://w3id.org/airo/incident/ks/415358d05578> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f31a01d4145> .
+
+<https://w3id.org/airo/incident/ks/416d2f3c6651> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1825af6b5ee6> .
+
+<https://w3id.org/airo/incident/ks/41d1b68d30a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c3d7b05a68d> .
+
+<https://w3id.org/airo/incident/ks/43191508aa8d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/433dbdba56c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/801441d55c33> .
+
+<https://w3id.org/airo/incident/ks/4375fd7b19d4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/45ed2b80d53f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/801441d55c33> .
+
+<https://w3id.org/airo/incident/ks/46075cb6cf24> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/49898ffdc908> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/801441d55c33> .
+
+<https://w3id.org/airo/incident/ks/4e0070da256b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a294b8d8b7b> .
+
+<https://w3id.org/airo/incident/ks/4f6e65bff0bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/17774e706070> .
+
+<https://w3id.org/airo/incident/ks/4f762e6864bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2234b6e4857c> .
+
+<https://w3id.org/airo/incident/ks/521f59993ad8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/530babb9e29c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/53d1f79c1859> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da3d465e275> .
+
+<https://w3id.org/airo/incident/ks/54123967dd4c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/55a475cdf0ba> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/55ab4e0dcef2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/5880bda3ef36> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/5887b2b7c8fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c746e7e0b5e1> .
+
+<https://w3id.org/airo/incident/ks/5a2f26827305> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f20d5a762cf9> .
+
+<https://w3id.org/airo/incident/ks/5a31ddf1b6b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/356bcf50034c> .
+
+<https://w3id.org/airo/incident/ks/5a38bdf47b1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ae9526bc1106> .
+
+<https://w3id.org/airo/incident/ks/5b26c12a35e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/801441d55c33> .
+
+<https://w3id.org/airo/incident/ks/5c5b36cef3e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/5caf79f315b0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f9f167b259d3> .
+
+<https://w3id.org/airo/incident/ks/5cfc02aa023f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c3d7b05a68d> .
+
+<https://w3id.org/airo/incident/ks/60f51b0fd761> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/62fb1ea7f0ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/6313543f7604> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f89d1f488d68> .
+
+<https://w3id.org/airo/incident/ks/64e191b8822d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/65dd8166d6c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/669bcb12c30c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/afd8cb8b4708> .
+
+<https://w3id.org/airo/incident/ks/68d825536ce9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7b10714057d> .
+
+<https://w3id.org/airo/incident/ks/6936fbb1dee2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e68835bf989c> .
+
+<https://w3id.org/airo/incident/ks/696fe0b8da80> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a294b8d8b7b> .
+
+<https://w3id.org/airo/incident/ks/69b9ace39a75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/6c3c72beec1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59eb72f1eec2> .
+
+<https://w3id.org/airo/incident/ks/6db0c2f159b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/6fa100055a9b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c3d7b05a68d> .
+
+<https://w3id.org/airo/incident/ks/6fd2ab02bb4b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca9a8829ff6d> .
+
+<https://w3id.org/airo/incident/ks/7073c88e16c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/70a647e81278> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/7167c0e472c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c9475c1879f> .
+
+<https://w3id.org/airo/incident/ks/731846344b7c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f544bbc1c6c0> .
+
+<https://w3id.org/airo/incident/ks/742eb261e76d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f544bbc1c6c0> .
+
+<https://w3id.org/airo/incident/ks/74b303d78938> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/702d66d1290c> .
+
+<https://w3id.org/airo/incident/ks/763c60fc30b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/523487aa3e13> .
+
+<https://w3id.org/airo/incident/ks/7a8340827798> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/7bf5597fd322> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f904454db389> .
+
+<https://w3id.org/airo/incident/ks/7c3dd1e43d1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f904454db389> .
+
+<https://w3id.org/airo/incident/ks/7cade4f22c64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f544bbc1c6c0> .
+
+<https://w3id.org/airo/incident/ks/7d3c328347c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/80f0abbb187b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5216325a040d> .
+
+<https://w3id.org/airo/incident/ks/812dbc0d31c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc7e0a1ef996> .
+
+<https://w3id.org/airo/incident/ks/82a79846b551> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56930407f789> .
+
+<https://w3id.org/airo/incident/ks/83bdb379d770> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/87d5d9e46e11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/87f20c1388e8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da3d465e275> .
+
+<https://w3id.org/airo/incident/ks/89f1292e761a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/849958675631> .
+
+<https://w3id.org/airo/incident/ks/8a75445f8fae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/8d2c7e233287> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/93cedb6087cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f904454db389> .
+
+<https://w3id.org/airo/incident/ks/94ce4172a07c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa5f946854c0> .
+
+<https://w3id.org/airo/incident/ks/95defa6f60e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7ba625830234> .
+
+<https://w3id.org/airo/incident/ks/96189323df9c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/35e89bbb9baf> .
+
+<https://w3id.org/airo/incident/ks/99b923d6a8c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f89d1f488d68> .
+
+<https://w3id.org/airo/incident/ks/99fefa04cd5b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2234b6e4857c> .
+
+<https://w3id.org/airo/incident/ks/9a7dedf11794> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/9d2c58005448> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/9d9cd7b9ddce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/9fdc747bce95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1825af6b5ee6> .
+
+<https://w3id.org/airo/incident/ks/a39db7dabbfa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/a61b9c0df83d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/a61facf3a73f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94b2a58a438e> .
+
+<https://w3id.org/airo/incident/ks/a80491665593> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/a95ed22cabed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56930407f789> .
+
+<https://w3id.org/airo/incident/ks/a9c558f97977> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/addfba16cdb7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/ae24acf35f5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f544bbc1c6c0> .
+
+<https://w3id.org/airo/incident/ks/b066bd5a90fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/b206a195c629> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> .
+
+<https://w3id.org/airo/incident/ks/b2cbfffa88b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12eb7e155bef> .
+
+<https://w3id.org/airo/incident/ks/b3f44886af19> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1825af6b5ee6> .
+
+<https://w3id.org/airo/incident/ks/b5e2b3bdc7e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/b73ad8aee4e2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/b89d75aa1c27> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1825af6b5ee6> .
+
+<https://w3id.org/airo/incident/ks/b9496edd1ac2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/b9c6eef1f13d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d3fe0f798c28> .
+
+<https://w3id.org/airo/incident/ks/bb54bb067031> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/bf4622f8c446> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/176345a72144> .
+
+<https://w3id.org/airo/incident/ks/bfce216e36b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/c7dcfbbc3349> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/c892e41e712d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/cda2e5eae41d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f89d1f488d68> .
+
+<https://w3id.org/airo/incident/ks/ce5a901a2581> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/d02ebc7c80aa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/d2e5d332edc7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aea3312d1614> .
+
+<https://w3id.org/airo/incident/ks/d57ea72f04c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/d6abdbe33611> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/d86d06950702> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/da47aeafb39d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/db9e88ba3640> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/849958675631> .
+
+<https://w3id.org/airo/incident/ks/dca6d281127b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7> .
+
+<https://w3id.org/airo/incident/ks/dcd9aa7a1e29> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/de85cb3b87bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/de9dc8ee0109> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79844bd61ce5> .
+
+<https://w3id.org/airo/incident/ks/e12c28a7949e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e8f6d29c3e5> .
+
+<https://w3id.org/airo/incident/ks/e1a94c7b7847> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2234b6e4857c> .
+
+<https://w3id.org/airo/incident/ks/e45b891d1601> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10bf0b8889b2> .
+
+<https://w3id.org/airo/incident/ks/e728b3fd95cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2234b6e4857c> .
+
+<https://w3id.org/airo/incident/ks/e9ac3bafdb0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1532ee04d960> .
+
+<https://w3id.org/airo/incident/ks/e9ae3644c72f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd0a995cc15c> .
+
+<https://w3id.org/airo/incident/ks/ea583126959c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/702d66d1290c> .
+
+<https://w3id.org/airo/incident/ks/eb733cf0c409> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8b505c349aa3> .
+
+<https://w3id.org/airo/incident/ks/ed710ac2f403> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/702d66d1290c> .
+
+<https://w3id.org/airo/incident/ks/f2ee6093de1a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7246cd39aa0c> .
+
+<https://w3id.org/airo/incident/ks/f3f65227c26d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f13b7ea47482> .
+
+<https://w3id.org/airo/incident/ks/f5b471255e58> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f904454db389> .
+
+<https://w3id.org/airo/incident/ks/f692c4d5efdf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> .
+
+<https://w3id.org/airo/incident/ks/f7f4b9f488b7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a008a15d0bc6> .
+
+<https://w3id.org/airo/incident/ks/f9d6a354fe53> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2d9225bc6f57> .
+
+<https://w3id.org/airo/incident/ks/fa31a1f58b56> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> .
+
+<https://w3id.org/airo/incident/ks/fa8f20945bf6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96f6eac5e553> .
+
+<https://w3id.org/airo/incident/ks/fed7adfe26a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/702d66d1290c> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/ba3d5a0c7435> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ec1bdfc4ec89> ;
+    airo:hasReasoning "The system is in active commercial service ('launched its first fully driverless, commercial robotaxi service'), placing it in the deployment phase of the lifecycle." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/AffectedActor/153ce3a84087> a airo:AffectedActor ;
+    rdfs:label "Motorists, pedestrians, and emergency services in San Francisco" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/10bf0b8889b2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Documentation/f5d6ed641c34> a airo:Documentation ;
+    rdfs:label "anonymous employee letter to regulators alleging regular connectivity failures" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c9475c1879f> ;
+    airo:hasReasoning "The anonymous letter is a form of internal documentation or disclosure sent to a regulatory body, highlighting governance and transparency issues." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604> .
+
+<https://w3id.org/airo/incident/Domain/581eed17c2d9> a airo:Domain ;
+    rdfs:label "transportation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cc7e0a1ef996> ;
+    airo:hasReasoning "The incident directly involved blocking public streets and traffic, which falls squarely within the transportation domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8610> .
+
+<https://w3id.org/airo/incident/Hazard/0d10234ddf9e> a airo:Hazard ;
+    rdfs:label "High vehicle density from external events overloading communication infrastructure" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd0a995cc15c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Purpose/110e2b8273fa> a airo:Purpose ;
+    rdfs:label "autonomous passenger transportation" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa5f946854c0> ;
+    airo:hasReasoning "The evidence explicitly describes Cruise as operating a 'commercial robotaxi service' with 'fully driverless' cars, indicating the system's purpose is to provide autonomous passenger transportation." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/RiskSource/58c9be5eb01b> a airo:RiskSource ;
+    rdfs:label "Wireless connectivity issues with remote server" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/f0ca4ec1417f> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a7b10714057d> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/0d10234ddf9e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/1908864fb526> .
+
+<https://w3id.org/airo/incident/Stakeholder/8e785c486adf> a airo:Stakeholder ;
+    rdfs:label "SoftBank Vision Fund" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "SoftBank Vision Fund" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e68835bf989c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/Threat/1908864fb526> a airo:Threat ;
+    rdfs:label "Loss of remote communication and control capability" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/94b2a58a438e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Vulnerability/8b828465c336> a airo:Vulnerability ;
+    rdfs:label "Reliance on cellular connectivity for vehicle operation and remote management" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aea3312d1614> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604> .
+
+<https://w3id.org/airo/incident/evidence/01efe028d00b> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/0b2f8bb63118> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/0e71c7f9c72e> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/14de13c9a7c4> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/151f0357ff73> a airo:Evidence ;
+    airo:evidenceText "Tiffany Testo is listed in the core entities but is not mentioned in any of the key evidence sentences regarding the Cruise robotaxi incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/1532ee04d960> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/176345a72144> a airo:Evidence ;
+    airo:evidenceText "The outages come at a vital time for Cruise, which is accelerating its autonomous vehicle program... as it competes with well-capitalized rivals like Google’s sister company Waymo, Aurora, and Zoox." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/1a7b73ea48aa> a airo:Evidence ;
+    airo:evidenceText "The Cruise vehicles that trapped Hu weren’t the only autonomous cars holding up traffic in San Francisco that night." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/1c32de2f3817> a airo:Evidence ;
+    airo:evidenceText "Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/2d9225bc6f57> a airo:Evidence ;
+    airo:evidenceText "The outages come at a vital time for Cruise, which is accelerating its autonomous vehicle program... as it competes with well-capitalized rivals like Google’s sister company Waymo, Aurora, and Zoox." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/35e89bbb9baf> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/38a0db95c9af> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/3b18ebfc5bd5> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/3b71b5951766> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/3c72c5c180ce> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/3e7858f813ee> a airo:Evidence ;
+    airo:evidenceText "the cell connectivity affected the company’s remote ability to reroute the cell-connected cars." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/3ee7531d48b7> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/412ad80ddb05> a airo:Evidence ;
+    airo:evidenceText "Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/42e15251a967> a airo:Evidence ;
+    airo:evidenceText "The evidence discusses national safety implications of autonomous vehicle failures on public roads, which fall under federal jurisdiction." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/461c864e30ac> a airo:Evidence ;
+    airo:evidenceText "The Cruise vehicles that trapped Hu weren’t the only autonomous cars holding up traffic in San Francisco that night." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/49b5014bf582> a airo:Evidence ;
+    airo:evidenceText "Transportation and fire officials told state regulators that the spike in robotaxi activity in recent months coincided with disruptive incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/5433517d0b80> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/59eb72f1eec2> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/642b56e4891d> a airo:Evidence ;
+    airo:evidenceText "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco" ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/650d73de4ea6> a airo:Evidence ;
+    airo:evidenceText "Transportation and fire officials told state regulators that the spike in robotaxi activity in recent months coincided with disruptive incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/7246cd39aa0c> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/756d314df5c8> a airo:Evidence ;
+    airo:evidenceText "Cohere is listed in the core entities but is not mentioned in any of the key evidence sentences regarding the Cruise robotaxi incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/7a10e859bc87> a airo:Evidence ;
+    airo:evidenceText "According to a text message exchange between San Francisco Supervisor Aaron Peskin and a Cruise government affairs manager..." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/7ba625830234> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/7eca3c636ef2> a airo:Evidence ;
+    airo:evidenceText "The outages come at a vital time for Cruise, which is accelerating its autonomous vehicle program... as it competes with well-capitalized rivals like Google’s sister company Waymo, Aurora, and Zoox." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/7ed07c51b24a> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/8175e14830a3> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/884cc227c5a0> a airo:Evidence ;
+    airo:evidenceText "Cruise robotaxis blocked traffic for hours on this San Francisco street" ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/93d0d810bc2e> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/94c871161165> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/9711e4307b9f> a airo:Evidence ;
+    airo:evidenceText "Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/982e6f0c9b76> a airo:Evidence ;
+    airo:evidenceText "We wrote last week about an eerie cyber-snafu with GM Cruise self-driving robotaxis, where at least eight of the driverless cars ganged up and blocked Gough Street “for a couple of hours,” and would not move until GM employees showed up and moved the cars manually." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/991f1a56f04b> a airo:Evidence ;
+    airo:evidenceText "'Surreal': Cruise’s driverless cars block traffic for nearly two hours in San Francisco" ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/9c3eded79077> a airo:Evidence ;
+    airo:evidenceText "Internal messages seen by WIRED show that nearly 60 vehicles were disabled across the city over a 90-minute period after they lost touch with a Cruise server." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/9e8f6d29c3e5> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/a113ddc9210f> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/a32c9a8c1100> a airo:Evidence ;
+    airo:evidenceText "The outages come at a vital time for Cruise, which is accelerating its autonomous vehicle program... as it competes with well-capitalized rivals like Google’s sister company Waymo, Aurora, and Zoox." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/a358efc4a04f> a airo:Evidence ;
+    airo:evidenceText "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew, One Night ‘Nearly 60’ Cars Stopped" ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/ae9526bc1106> a airo:Evidence ;
+    airo:evidenceText "Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/aec804c71b9b> a airo:Evidence ;
+    airo:evidenceText "The mishap comes less than a week after Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/afd8cb8b4708> a airo:Evidence ;
+    airo:evidenceText "The Cruise vehicles that trapped Hu weren’t the only autonomous cars holding up traffic in San Francisco that night." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/b24f7e68daee> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/b95d94ab3902> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city amid vocal opposition from city officials." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/bbf28695ade2> a airo:Evidence ;
+    airo:evidenceText "San Francisco police confirmed that the cell connectivity issues were caused by the large number of people at the nearby Outside Lands music festival overtaxing the system." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/c746e7e0b5e1> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/ca9a8829ff6d> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/d3fe0f798c28> a airo:Evidence ;
+    airo:evidenceText "The Cruise vehicles that trapped Hu weren’t the only autonomous cars holding up traffic in San Francisco that night." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/e0764e313eb2> a airo:Evidence ;
+    airo:evidenceText "GM Cruise snafus have blocked SF streets with suddenly immobilized self-driving cars at least three times in the last two months." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/e1034324981e> a airo:Evidence ;
+    airo:evidenceText "Anthropic is listed in the core entities but is not mentioned in any of the key evidence sentences regarding the Cruise robotaxi incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/f20d5a762cf9> a airo:Evidence ;
+    airo:evidenceText "Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/f7e41394b0e4> a airo:Evidence ;
+    airo:evidenceText "OpenAI is listed in the core entities but is not mentioned in any of the key evidence sentences regarding the Cruise robotaxi incidents." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/f7f684ee0d0a> a airo:Evidence ;
+    airo:evidenceText "Cruise’s Robot Car Outages Are Jamming Up San Francisco" ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/f9f167b259d3> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/fe4e450af20c> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission sounding the alarm." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/Consequence/ca6cc26474f7> a airo:Consequence ;
+    rdfs:label "Vehicles became immobilized, blocking streets and requiring manual intervention" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56930407f789> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8610> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/00af0e86efa4> .
+
+<https://w3id.org/airo/incident/Impact/00af0e86efa4> a airo:Impact ;
+    rdfs:label "Disruption to traffic flow and potential hindrance of emergency vehicles" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/153ce3a84087> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8f31a01d4145> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/NewsReport/1604> a airo:NewsReport ;
+    rdfs:label "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew, One Night ‘Nearly 60’ Cars Stopped" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GM Cruise snafus have blocked SF streets with suddenly immobilized self-driving cars at least three times in the last two months, with one incident where almost 60 vehicles stopped, and another where " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/356bcf50034c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604> .
+
+<https://w3id.org/airo/incident/NewsReport/1605> a airo:NewsReport ;
+    rdfs:label "Cruise’s Robot Car Outages Are Jamming Up San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Around midnight on June 28, Calvin Hu was driving with his girlfriend near San Francisco’s Golden Gate Park when he pulled up at an intersection behind two white and orange autonomous Chevrolet Bolts " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12eb7e155bef> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/NewsReport/3060> a airo:NewsReport ;
+    rdfs:label "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "As many as 10 Cruise driverless cars stopped working in San Francisco’s North Beach on Friday night, causing traffic to back up and leaving some questioning the decision of state regulators a day earl" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/96f6eac5e553> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/NewsReport/8605> a airo:NewsReport ;
+    rdfs:label "Cruise robotaxis blocked traffic for hours on this San Francisco street" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "More than a half dozen Cruise robotaxis stopped operating and sat in a street in San Francisco late Tuesday night, blocking traffic for a couple of hours until employees arrived and manually moved the" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/37a8020ad7f8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/NewsReport/8610> a airo:NewsReport ;
+    rdfs:label "'Surreal': Cruise’s driverless cars block traffic for nearly two hours in San Francisco" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nearly 20 driverless cars caused a major kerfuffle on the corner of San Francisco’s Gough and Fulton streets Tuesday night, blocking traffic for two hours and making the area completely impassable. Ev" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/79844bd61ce5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8610> .
+
+<https://w3id.org/airo/incident/Stakeholder/053ac5405ad6> a airo:Stakeholder ;
+    rdfs:label "Transportation and fire officials" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Transportation and fire officials" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f544bbc1c6c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Stakeholder/08f567354383> a airo:Stakeholder ;
+    rdfs:label "Zoox" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Zoox" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/Stakeholder/2d978b018051> a airo:Stakeholder ;
+    rdfs:label "San Francisco Municipal Transportation Authority" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco Municipal Transportation Authority" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f904454db389> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/Stakeholder/337053c315a3> a airo:Stakeholder ;
+    rdfs:label "Tiffany Testo" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tiffany Testo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1825af6b5ee6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604> .
+
+<https://w3id.org/airo/incident/Stakeholder/3a677f485d90> a airo:Stakeholder ;
+    rdfs:label "National Highway Traffic Safety Administration" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "National Highway Traffic Safety Agency" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2234b6e4857c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/Stakeholder/b49781667b1d> a airo:Stakeholder ;
+    rdfs:label "Aaron Peskin" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco Supervisor Aaron Peskin" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/801441d55c33> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Stakeholder/ba8ddfcb85d6> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/Stakeholder/d8c209017d73> a airo:Stakeholder ;
+    rdfs:label "Amazon" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Amazon" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/Stakeholder/dd506696be5d> a airo:Stakeholder ;
+    rdfs:label "Aurora" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Aurora" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/72fb5d0e2984> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/Stakeholder/e424a5407d11> a airo:Stakeholder ;
+    rdfs:label "California Department of Motor Vehicles" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California Department of Motor Vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8c3d7b05a68d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/Stakeholder/e98f7124bc19> a airo:Stakeholder ;
+    rdfs:label "California Public Utilities Commission" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "California Public Utilities Commission" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a294b8d8b7b>,
+        <https://w3id.org/airo/incident/evidence/5fa1ba819b31>,
+        <https://w3id.org/airo/incident/evidence/f89d1f488d68> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604>,
+        <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060> ;
+    airo:hasSupportCount 3 .
+
+<https://w3id.org/airo/incident/Stakeholder/efc893af8dc7> a airo:Stakeholder ;
+    rdfs:label "Cohere" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Cohere" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/Stakeholder/f2bbb49fb201> a airo:Stakeholder ;
+    rdfs:label "San Francisco Police Department" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "San Francisco police" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/849958675631> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> .
+
+<https://w3id.org/airo/incident/Stakeholder/fd581aa993bc> a airo:Stakeholder ;
+    rdfs:label "General Motors" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "General Motors" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/702d66d1290c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605> .
+
+<https://w3id.org/airo/incident/Stakeholder/ff5987442689> a airo:Stakeholder ;
+    rdfs:label "Anthropic" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Anthropic" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3c753645267b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/evidence/10bf0b8889b2> a airo:Evidence ;
+    airo:evidenceText "Transportation and fire officials told state regulators that the spike in robotaxi activity in recent months coincided with disruptive incidents, such as unplanned stops and erratic driving." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/12eb7e155bef> a airo:Evidence ;
+    airo:evidenceText "Cruise’s Robot Car Outages Are Jamming Up San Francisco" ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/17774e706070> a airo:Evidence ;
+    airo:evidenceText "As many as 10 Cruise driverless cars stopped working in San Francisco’s North Beach on Friday night." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/25d553d89fe3> a airo:Evidence ;
+    airo:evidenceText "Nearly 20 driverless cars caused a major kerfuffle on the corner of San Francisco’s Gough and Fulton streets Tuesday night, blocking traffic for two hours and making the area completely impassable." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/356bcf50034c> a airo:Evidence ;
+    airo:evidenceText "GM Cruise Robotaxis Blocked SF Streets More Frequently Than We Knew, One Night ‘Nearly 60’ Cars Stopped" ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/37a8020ad7f8> a airo:Evidence ;
+    airo:evidenceText "Cruise robotaxis blocked traffic for hours on this San Francisco street" ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/5216325a040d> a airo:Evidence ;
+    airo:evidenceText "Calvin Hu was driving with his girlfriend near San Francisco’s Golden Gate Park when he pulled up at an intersection behind two white and orange autonomous Chevrolet Bolts operated by Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/523487aa3e13> a airo:Evidence ;
+    airo:evidenceText "On Thursday, the National Highway Traffic Safety Agency said it would open a special investigation into the crash." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/79844bd61ce5> a airo:Evidence ;
+    airo:evidenceText "'Surreal': Cruise’s driverless cars block traffic for nearly two hours in San Francisco" ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/825ffc45b343> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission that month, which was reviewed by WIRED, alleged that the company loses contact with its driverless vehicles “with regularity.”" ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/8c9475c1879f> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission sounding the alarm." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/94b2a58a438e> a airo:Evidence ;
+    airo:evidenceText "According to a text message exchange between San Francisco Supervisor Aaron Peskin and a Cruise government affairs manager reviewed by the Chronicle, the cell connectivity affected the company’s remote ability to reroute the cell-connected cars." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/96f6eac5e553> a airo:Evidence ;
+    airo:evidenceText "Cruise blames Outside Lands for driverless car traffic fiasco in San Francisco" ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/a7b10714057d> a airo:Evidence ;
+    airo:evidenceText "Cruise said the backup was caused by “wireless connectivity issues” that immobilized the driverless cars." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/aea3312d1614> a airo:Evidence ;
+    airo:evidenceText "Internal messages seen by WIRED show that nearly 60 vehicles were disabled across the city over a 90-minute period after they lost touch with a Cruise server." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/cc7e0a1ef996> a airo:Evidence ;
+    airo:evidenceText "Nearly 20 driverless cars caused a major kerfuffle on the corner of San Francisco’s Gough and Fulton streets Tuesday night, blocking traffic for two hours." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/cd0a995cc15c> a airo:Evidence ;
+    airo:evidenceText "San Francisco police confirmed that the cell connectivity issues were caused by the large number of people at the nearby Outside Lands music festival overtaxing the system." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/e68835bf989c> a airo:Evidence ;
+    airo:evidenceText "In the spring, General Motors bought out the SoftBank Vision Fund’s $2.1 billion stake in Cruise and invested another $1.35 billion into the self-driving unit." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/ec1bdfc4ec89> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/f13b7ea47482> a airo:Evidence ;
+    airo:evidenceText "More than a half dozen Cruise robotaxis stopped operating and sat in a street in San Francisco late Tuesday night, blocking traffic for a couple of hours until employees arrived and manually moved the autonomous vehicles." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/fa5f946854c0> a airo:Evidence ;
+    airo:evidenceText "Cruise launched its first fully driverless, commercial robotaxi service in the city." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/Risk/f0ca4ec1417f> a airo:Risk ;
+    rdfs:label "Risk of autonomous vehicles becoming immobilized and blocking traffic" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2da3d465e275> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8610> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/ca6cc26474f7> .
+
+<https://w3id.org/airo/incident/Stakeholder/e1dba1a9d1bc> a airo:Stakeholder ;
+    rdfs:label "Waymo" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Waymo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3060> ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/evidence/2da3d465e275> a airo:Evidence ;
+    airo:evidenceText "Nearly 20 driverless cars caused a major kerfuffle on the corner of San Francisco’s Gough and Fulton streets Tuesday night, blocking traffic for two hours and making the area completely impassable." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/56930407f789> a airo:Evidence ;
+    airo:evidenceText "Eventually, Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/8f31a01d4145> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission that month, which was reviewed by WIRED, alleged that the company loses contact with its driverless vehicles “with regularity,” blocking traffic and potentially hindering emergency vehicles." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/Stakeholder/66a17fc0f50c> a airo:Stakeholder ;
+    rdfs:label "Cruise" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Cruise" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8a135ac1fbf7>,
+        <https://w3id.org/airo/incident/evidence/8b505c349aa3>,
+        <https://w3id.org/airo/incident/evidence/9c3eded79077>,
+        <https://w3id.org/airo/incident/evidence/a008a15d0bc6>,
+        <https://w3id.org/airo/incident/evidence/aec804c71b9b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604>,
+        <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060>,
+        <https://w3id.org/airo/incident/document/8605>,
+        <https://w3id.org/airo/incident/document/8610> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> .
+
+<https://w3id.org/airo/incident/evidence/1825af6b5ee6> a airo:Evidence ;
+    airo:evidenceText "Cruise spokesperson Tiffany Testo said in a statement to Wired that “We’re working to minimize how often this happens, but it is and will remain one aspect of our overall safety operations.”" ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/2234b6e4857c> a airo:Evidence ;
+    airo:evidenceText "On Thursday, the National Highway Traffic Safety Agency said it would open a special investigation into the crash." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/3a294b8d8b7b> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission that month, which was reviewed by WIRED, alleged that the company loses contact with its driverless vehicles “with regularity,” blocking traffic and potentially hindering emergency vehicles." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/702d66d1290c> a airo:Evidence ;
+    airo:evidenceText "Cruise, a subsidiary of General Motors." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/801441d55c33> a airo:Evidence ;
+    airo:evidenceText "According to a text message exchange between San Francisco Supervisor Aaron Peskin and a Cruise government affairs manager reviewed by the Chronicle, the cell connectivity affected the company’s remote ability to reroute the cell-connected cars." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/849958675631> a airo:Evidence ;
+    airo:evidenceText "San Francisco police confirmed that the cell connectivity issues were caused by the large number of people at the nearby Outside Lands music festival overtaxing the system." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/8c3d7b05a68d> a airo:Evidence ;
+    airo:evidenceText "In a written statement the California Department of Motor Vehicles, which oversees the state's autonomous vehicle operations, said it was aware of the incident and would meet with Cruise to “gather additional information.”" ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/f544bbc1c6c0> a airo:Evidence ;
+    airo:evidenceText "Transportation and fire officials told state regulators that the spike in robotaxi activity in recent months coincided with disruptive incidents, such as unplanned stops and erratic driving." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/f89d1f488d68> a airo:Evidence ;
+    airo:evidenceText "A letter sent anonymously by a Cruise employee to the California Public Utilities Commission sounding the alarm." ;
+    airo:sourceDocId "1604" .
+
+<https://w3id.org/airo/incident/evidence/f904454db389> a airo:Evidence ;
+    airo:evidenceText "The San Francisco Municipal Transportation Authority (SFMTA) did not respond to TechCrunch’s requests for more information about how it handles such situations with autonomous vehicles and whether Cruise will receive any fines for blocking the intersection." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/AISystem/38fcb2e6e784> a airo:AISystem ;
+    rdfs:label "Waymo" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Waymo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5fa1ba819b31>,
+        <https://w3id.org/airo/incident/evidence/72fb5d0e2984> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/6323248d7f85> a airo:AISystem ;
+    rdfs:label "Cruise robotaxis" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Cruise robotaxis" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f13b7ea47482> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8605> .
+
+<https://w3id.org/airo/incident/evidence/8a135ac1fbf7> a airo:Evidence ;
+    airo:evidenceText "Eventually, Cruise’s employees had to physically move the cars off the street themselves." ;
+    airo:sourceDocId "8610" .
+
+<https://w3id.org/airo/incident/evidence/8b505c349aa3> a airo:Evidence ;
+    airo:evidenceText "The Cruise vehicles that trapped Hu weren’t the only autonomous cars holding up traffic in San Francisco that night." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/evidence/a008a15d0bc6> a airo:Evidence ;
+    airo:evidenceText "Cruise said the backup was caused by “wireless connectivity issues” that immobilized the driverless cars." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/3c753645267b> a airo:Evidence ;
+    airo:evidenceText "Secure your spot for our leading AI industry event with speakers from OpenAI, Anthropic, and Cohere." ;
+    airo:sourceDocId "8605" .
+
+<https://w3id.org/airo/incident/evidence/5fa1ba819b31> a airo:Evidence ;
+    airo:evidenceText "The California Public Utilities Commission on Thursday voted to lift all restrictions for Cruise and Waymo’s full commercialization in the city amid vocal opposition from city officials." ;
+    airo:sourceDocId "3060" .
+
+<https://w3id.org/airo/incident/evidence/72fb5d0e2984> a airo:Evidence ;
+    airo:evidenceText "The outages come at a vital time for Cruise, which is accelerating its autonomous vehicle program on the tricky streets of San Francisco as it competes with well-capitalized rivals like Google’s sister company Waymo, Aurora, and Zoox, which is owned by Amazon." ;
+    airo:sourceDocId "1605" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_331> a airo:AIRiskIncident ;
+    rdfs:label "Cruise’s Robot Car Outages Are Jamming Up San Francisco" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/ca6cc26474f7> ;
+    airo:hasDescription "pred_331" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/ba3d5a0c7435>,
+        <https://w3id.org/airo/incident/Domain/581eed17c2d9>,
+        <https://w3id.org/airo/incident/evidence/642b56e4891d>,
+        <https://w3id.org/airo/incident/evidence/884cc227c5a0>,
+        <https://w3id.org/airo/incident/evidence/991f1a56f04b>,
+        <https://w3id.org/airo/incident/evidence/a358efc4a04f>,
+        <https://w3id.org/airo/incident/evidence/f7f684ee0d0a> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/00af0e86efa4> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1604>,
+        <https://w3id.org/airo/incident/NewsReport/1605>,
+        <https://w3id.org/airo/incident/NewsReport/3060>,
+        <https://w3id.org/airo/incident/NewsReport/8605>,
+        <https://w3id.org/airo/incident/NewsReport/8610> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/f0ca4ec1417f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604>,
+        <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060>,
+        <https://w3id.org/airo/incident/document/8605>,
+        <https://w3id.org/airo/incident/document/8610> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/38fcb2e6e784>,
+        <https://w3id.org/airo/incident/AISystem/6323248d7f85>,
+        <https://w3id.org/airo/incident/AISystem/daf3a46500cc> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/053ac5405ad6>,
+        <https://w3id.org/airo/incident/Stakeholder/08f567354383>,
+        <https://w3id.org/airo/incident/Stakeholder/2d978b018051>,
+        <https://w3id.org/airo/incident/Stakeholder/337053c315a3>,
+        <https://w3id.org/airo/incident/Stakeholder/3a677f485d90>,
+        <https://w3id.org/airo/incident/Stakeholder/66a17fc0f50c>,
+        <https://w3id.org/airo/incident/Stakeholder/8e785c486adf>,
+        <https://w3id.org/airo/incident/Stakeholder/b49781667b1d>,
+        <https://w3id.org/airo/incident/Stakeholder/ba8ddfcb85d6>,
+        <https://w3id.org/airo/incident/Stakeholder/d8c209017d73>,
+        <https://w3id.org/airo/incident/Stakeholder/dd506696be5d>,
+        <https://w3id.org/airo/incident/Stakeholder/e1dba1a9d1bc>,
+        <https://w3id.org/airo/incident/Stakeholder/e424a5407d11>,
+        <https://w3id.org/airo/incident/Stakeholder/e98f7124bc19>,
+        <https://w3id.org/airo/incident/Stakeholder/efc893af8dc7>,
+        <https://w3id.org/airo/incident/Stakeholder/f2bbb49fb201>,
+        <https://w3id.org/airo/incident/Stakeholder/fd581aa993bc>,
+        <https://w3id.org/airo/incident/Stakeholder/ff5987442689> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/58c9be5eb01b> .
+
+<https://w3id.org/airo/incident/AISystem/daf3a46500cc> a airo:AISystem ;
+    rdfs:label "Cruise driverless cars" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/Purpose/110e2b8273fa> ;
+    airo:hasDescription "Cruise’s driverless cars" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/f5d6ed641c34>,
+        <https://w3id.org/airo/incident/evidence/17774e706070>,
+        <https://w3id.org/airo/incident/evidence/25d553d89fe3>,
+        <https://w3id.org/airo/incident/evidence/5216325a040d>,
+        <https://w3id.org/airo/incident/evidence/982e6f0c9b76>,
+        <https://w3id.org/airo/incident/evidence/e0764e313eb2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1604>,
+        <https://w3id.org/airo/incident/document/1605>,
+        <https://w3id.org/airo/incident/document/3060>,
+        <https://w3id.org/airo/incident/document/8610> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/8b828465c336> .
+

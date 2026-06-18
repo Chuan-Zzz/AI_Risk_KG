@@ -1,0 +1,1213 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/03fcef1820e3> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/8963> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/InformationSource/957c879d2a9c> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/1909>,
+        <https://w3id.org/airo/incident/NewsReport/1910>,
+        <https://w3id.org/airo/incident/NewsReport/1911> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/RoleAssignment/20bdf3c215a8> a airo:RoleAssignment ;
+    rdfs:label "STM_AIProvider" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/31d0cba758cd> ;
+    airo:hasReasoning "As a defense company, STM provides this weapon system for use by military operators." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_477> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c3f9f0705dda> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2da8cd7adad7> a airo:RoleAssignment ;
+    rdfs:label "Turkey_AIDeployer" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cbbf8074c4cc> ;
+    airo:hasReasoning "Turkey is explicitly stated to have deployed the drone system in the conflict." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_477> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/f84611c19bf7> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> .
+
+<https://w3id.org/airo/incident/RoleAssignment/7a5c5aedc699> a airo:RoleAssignment ;
+    rdfs:label "STM_AIDeveloper" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bddeb70ee35> ;
+    airo:hasReasoning "STM is explicitly identified as the creator/manufacturer that designed and built the drone with embedded AI capabilities." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_477> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c3f9f0705dda> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f958316881de> a airo:RoleAssignment ;
+    rdfs:label "Haftar Armed Forces_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6c1e623a138b> ;
+    airo:hasReasoning "The Haftar Armed Forces were the group attacked and negatively impacted by the autonomous drone system." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_477> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/0af2c928bd42> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> .
+
+<https://w3id.org/airo/incident/Trend/e1328c8448cf> a airo:Trend ;
+    rdfs:label "increasing scrutiny and documentation of lethal autonomous weapons systems (LAWS) in conflict zones" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2215bf9b53fa> ;
+    airo:hasReasoning "The UN report itself represents a governance action of monitoring and documenting the first known use of such a system, indicating a trend towards scrutiny of AI in warfare." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/event/pred_477> a airo:AIRiskIncident ;
+    airo:firstSeen "2021-06-01T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 4 ;
+    airo:lastSeen "2021-06-03T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/00dade138076> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/031dcd1e358c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0a1682042ee> .
+
+<https://w3id.org/airo/incident/ks/0339239f3725> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/051bf54d0700> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19e029958a2a> .
+
+<https://w3id.org/airo/incident/ks/08144a6d0d07> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60cac038c202> .
+
+<https://w3id.org/airo/incident/ks/0d29f923f428> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/1079bb2cf754> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/14627d2d62c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/190d53eb0077> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e05043a45434> .
+
+<https://w3id.org/airo/incident/ks/1a7a956be36a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/593170be2a57> .
+
+<https://w3id.org/airo/incident/ks/1d360e67e4d3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f91ebc1c0694> .
+
+<https://w3id.org/airo/incident/ks/2072b0a70ee6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/551e476a2b62> .
+
+<https://w3id.org/airo/incident/ks/22046bbfe7a9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/297aaceb4f96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/15573c1c20fd> .
+
+<https://w3id.org/airo/incident/ks/2c251e12e5b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/2eb0aa5d98bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0> .
+
+<https://w3id.org/airo/incident/ks/30f4aa4c2bb5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/df9f610c50c6> .
+
+<https://w3id.org/airo/incident/ks/31d3f18f56c9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ad94dd7d5e0d> .
+
+<https://w3id.org/airo/incident/ks/34b2f9afd3d9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/370119ded944> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/3833973ba76b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ba98b18e9a> .
+
+<https://w3id.org/airo/incident/ks/38821d4da083> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef8675053165> .
+
+<https://w3id.org/airo/incident/ks/39421ad6b5bb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5816223de3e> .
+
+<https://w3id.org/airo/incident/ks/395cfc20b75c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/3bb7301ac93f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0> .
+
+<https://w3id.org/airo/incident/ks/3c8e94ebbcd9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/3d99df6e06e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ce2eb0368ea> .
+
+<https://w3id.org/airo/incident/ks/40e5cec3967b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20661da35d7b> .
+
+<https://w3id.org/airo/incident/ks/43baefa12ed6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1441e64e4364> .
+
+<https://w3id.org/airo/incident/ks/462bca232643> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7206f8ab859a> .
+
+<https://w3id.org/airo/incident/ks/4979bb9fcf11> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/326d6d0a9fff> .
+
+<https://w3id.org/airo/incident/ks/4bd01ca915c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/595cbdbd4e9f> .
+
+<https://w3id.org/airo/incident/ks/4dd4224ba66c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/51170454d758> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/55b8526e6201> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/587c8591d9db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/588a864e8796> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/5973bfe34792> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f297cc8271f7> .
+
+<https://w3id.org/airo/incident/ks/59a6c0e4c7a3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/5c6310ffbdb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/5e8053a1eb37> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f297cc8271f7> .
+
+<https://w3id.org/airo/incident/ks/6057aea5b2e0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3af7a62f6b21> .
+
+<https://w3id.org/airo/incident/ks/61c7412d15ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c8f1e0be7d0> .
+
+<https://w3id.org/airo/incident/ks/62f4ae6376dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f91ebc1c0694> .
+
+<https://w3id.org/airo/incident/ks/648b3424c0c6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/6706b358db40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/452ac200ce94> .
+
+<https://w3id.org/airo/incident/ks/69be9707737c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f91ebc1c0694> .
+
+<https://w3id.org/airo/incident/ks/6b98e982cc44> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8becc0834f47> .
+
+<https://w3id.org/airo/incident/ks/6dbdb815bae1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee4b692feea9> .
+
+<https://w3id.org/airo/incident/ks/6f15cfd7ab9e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60cac038c202> .
+
+<https://w3id.org/airo/incident/ks/6fcf5afd8b54> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/72141b432602> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/326d6d0a9fff> .
+
+<https://w3id.org/airo/incident/ks/724ec8044fc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e826ccff77> .
+
+<https://w3id.org/airo/incident/ks/75b3b82b109e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/944c3f2e1edc> .
+
+<https://w3id.org/airo/incident/ks/7750481644a8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9dbe47bd41c1> .
+
+<https://w3id.org/airo/incident/ks/784d2d12e2f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c16674aadd6c> .
+
+<https://w3id.org/airo/incident/ks/7c76156e87c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe7b0fcc9fb0> .
+
+<https://w3id.org/airo/incident/ks/89ac2b36b348> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0> .
+
+<https://w3id.org/airo/incident/ks/9148f3ee7767> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/929333c683ff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/93ea46589ad7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/95743fcc0461> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/973071cb419c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2d8637d658b> .
+
+<https://w3id.org/airo/incident/ks/a6b05fd7d7ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc425a3a8860> .
+
+<https://w3id.org/airo/incident/ks/a6c5e9420884> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/765c036af969> .
+
+<https://w3id.org/airo/incident/ks/a83c8d4d4d4f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9dbe47bd41c1> .
+
+<https://w3id.org/airo/incident/ks/a886b1776e59> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/b1a1fc65d590> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/b3f21282a7f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/b7e61377f971> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e3f40b05a53> .
+
+<https://w3id.org/airo/incident/ks/b958e7cd0479> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a814673a750> .
+
+<https://w3id.org/airo/incident/ks/b96020c81bcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0> .
+
+<https://w3id.org/airo/incident/ks/b97d79d49afc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/b98a1a8f4aa2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f91ebc1c0694> .
+
+<https://w3id.org/airo/incident/ks/bae7e7baf53e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/befd3a682748> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/944c3f2e1edc> .
+
+<https://w3id.org/airo/incident/ks/c071a6b1dd1d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/c3720d2aec28> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/c447bb048334> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e1ba4ff70ca> .
+
+<https://w3id.org/airo/incident/ks/c91a4c086c9d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0> .
+
+<https://w3id.org/airo/incident/ks/d1042cb26298> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7928a7b318f8> .
+
+<https://w3id.org/airo/incident/ks/dbb3693902e1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de13a10f9614> .
+
+<https://w3id.org/airo/incident/ks/ddd320f214c7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/08c37bad596f> .
+
+<https://w3id.org/airo/incident/ks/e367965f0bcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b182b5a024c> .
+
+<https://w3id.org/airo/incident/ks/e3936db41b2e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/e3f5b3e66bc9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656> .
+
+<https://w3id.org/airo/incident/ks/e5c744ca8948> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> .
+
+<https://w3id.org/airo/incident/ks/e9f1ed1df8b2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7130d338f81> .
+
+<https://w3id.org/airo/incident/ks/ec0374b2703c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9e5ef9f159e> .
+
+<https://w3id.org/airo/incident/ks/f14fa91c36f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8c9758fc465> .
+
+<https://w3id.org/airo/incident/ks/f1ff0289e206> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> .
+
+<https://w3id.org/airo/incident/ks/f4d7758f9205> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5816223de3e> .
+
+<https://w3id.org/airo/incident/AICapability/97f1939380ae> a airo:AICapability ;
+    rdfs:label "self-guidance" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "guide itself to its target" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/19e029958a2a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/AICapability/d41da0f87226> a airo:AICapability ;
+    rdfs:label "identify targets" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "identify targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/AICapability/dc62c8ebdc77> a airo:AICapability ;
+    rdfs:label "attack targets" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "attack targets" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/12ba98b18e9a>,
+        <https://w3id.org/airo/incident/evidence/452ac200ce94> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AICapability/f7a29585537e> a airo:AICapability ;
+    rdfs:label "hunt and engage" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "hunted down and remotely engaged" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5816223de3e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/e32aaf053ed8> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0a1682042ee> ;
+    airo:hasReasoning "The report documents the actual use of the drone in a conflict, indicating it was deployed and operational." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/AITechnique/01daf65ddb93> a airo:AITechnique ;
+    rdfs:label "machine learning" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "machine learning" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11>,
+        <https://w3id.org/airo/incident/evidence/f297cc8271f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/28a6aaf0a54b> a airo:AITechnique ;
+    rdfs:label "image processing" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "image processing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8dc1132fdc11>,
+        <https://w3id.org/airo/incident/evidence/f297cc8271f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AITechnique/43ea8fac59ee> a airo:AITechnique ;
+    rdfs:label "lethal autonomous weapons systems" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "lethal autonomous weapons systems" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e9e5ef9f159e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/AITechnique/71dc43aff971> a airo:AITechnique ;
+    rdfs:label "unmanned combat aerial vehicles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "unmanned combat aerial vehicles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/551e476a2b62> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/AITechnique/7d5d906462a1> a airo:AITechnique ;
+    rdfs:label "loitering munitions" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "loitering munitions" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9a814673a750> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/AffectedActor/b6f329d62f76> a airo:AffectedActor ;
+    rdfs:label "human combatants and soldiers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b182b5a024c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Documentation/a69f7f509246> a airo:Documentation ;
+    rdfs:label "UN Panel of Experts report on Libya" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/75e826ccff77> ;
+    airo:hasReasoning "The evidence explicitly references the official UN report that documented the incident and the use of the AI system." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/Domain/c6d4a35c0286> a airo:Domain ;
+    rdfs:label "military/defense" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8becc0834f47> ;
+    airo:hasReasoning "The evidence describes the AI system's use in an armed conflict scenario, clearly placing it in the military domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/Purpose/ce9f14dda8d8> a airo:Purpose ;
+    rdfs:label "lethal autonomous targeting and engagement of military personnel" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e1ba4ff70ca> ;
+    airo:hasReasoning "The evidence describes a weapon system designed to autonomously identify and attack targets, which is its core intended function." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/RiskSource/576390db121d> a airo:RiskSource ;
+    rdfs:label "development and deployment of lethal autonomous weapons systems" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/7628bd1a36c3> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/595cbdbd4e9f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> ;
+    airo:hasThreat <https://w3id.org/airo/incident/Threat/4815fa505866> .
+
+<https://w3id.org/airo/incident/Stakeholder/00f3caacf030> a airo:Stakeholder ;
+    rdfs:label "Russia" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Russia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/07d3386a5a39> a airo:Stakeholder ;
+    rdfs:label "UN Security Council's Panel of Experts on Libya" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United Nations (UN) Panel of Experts on Libya" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c8f468102c0>,
+        <https://w3id.org/airo/incident/evidence/60cac038c202>,
+        <https://w3id.org/airo/incident/evidence/ad94dd7d5e0d>,
+        <https://w3id.org/airo/incident/evidence/f09d8e686e93>,
+        <https://w3id.org/airo/incident/evidence/fe7b0fcc9fb0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/1911>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/082057f837a4> a airo:Stakeholder ;
+    rdfs:label "Khalifa Hifter" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Khalifa Hifter" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/17221703298e> a airo:Stakeholder ;
+    rdfs:label "United Arab Emirates" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United Arab Emirates" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/1ee4a30b8362> a airo:Stakeholder ;
+    rdfs:label "Khalifa Haftar" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gen. Khalifa Haftar" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60cac038c202> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/Stakeholder/32fe590ad0de> a airo:Stakeholder ;
+    rdfs:label "Human Rights Watch" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Human Rights Watch" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ce2eb0368ea> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/5af347a38313> a airo:Stakeholder ;
+    rdfs:label "Government of National Accord" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Government of National Accord" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60cac038c202> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/Stakeholder/7c8aea108af2> a airo:Stakeholder ;
+    rdfs:label "Egypt" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Egypt" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/9053289e5a36> a airo:Stakeholder ;
+    rdfs:label "United Nations Security Council" ;
+    airo:confidenceScore "0.92"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "UN Security Council" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee4b692feea9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/Stakeholder/a1265e2134b9> a airo:Stakeholder ;
+    rdfs:label "Saudi Arabia" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Saudi Arabia" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/b9131bb21c0b> a airo:Stakeholder ;
+    rdfs:label "United States" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "United States" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/d2637a709729> a airo:Stakeholder ;
+    rdfs:label "Campaign to Stop Killer Robots" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Campaign to Stop Killer Robots" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9e3f40b05a53> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Stakeholder/f1e233d30c87> a airo:Stakeholder ;
+    rdfs:label "France" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "France" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/Threat/4815fa505866> a airo:Threat ;
+    rdfs:label "use by state or non-state actors in military operations" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/bc425a3a8860> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/Vulnerability/08c5e99698dd> a airo:Vulnerability ;
+    rdfs:label "system designed for autonomous target engagement without requiring data connectivity" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c8f1e0be7d0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/evidence/08c37bad596f> a airo:Evidence ;
+    airo:evidenceText "[8963] The creator of the Kargu drone, STM, says the device 'can be effectively used against static or moving targets through its indigenous and real-time image processing capabilities and machine learning algorithms embedded on the platform.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/15573c1c20fd> a airo:Evidence ;
+    airo:evidenceText "[8963] Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/173e13a9f15d> a airo:Evidence ;
+    airo:evidenceText "A.I. Drone May Have Acted on Its Own in Attacking Fighters, U.N. Says" ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/2215bf9b53fa> a airo:Evidence ;
+    airo:evidenceText "[1911] The revelations were made in a report published in March 2021 by the United Nations (UN) Panel of Experts on Libya which stated that the drone was a “lethal autonomous weapon” which had “hunted down and remotely engaged” soldiers..." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/2bddeb70ee35> a airo:Evidence ;
+    airo:evidenceText "[8963] The creator of the Kargu drone, STM, says the device 'can be effectively used against static or moving targets through its indigenous and real-time image processing capabilities and machine learning algorithms embedded on the platform.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/31d0cba758cd> a airo:Evidence ;
+    airo:evidenceText "[1909] The Kargu-2 was built by STM, a defense company based in Turkey that describes the weapon as “a rotary wing attack drone” that can be used autonomously or manually." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/5904e7dd2764> a airo:Evidence ;
+    airo:evidenceText "AI-powered drone deployed in Libya has possibly killed people without any human interference" ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/6c1e623a138b> a airo:Evidence ;
+    airo:evidenceText "[8963] The drone, which the report refers to as a 'lethal autonomous weapon,' then found and attacked Libya's Haftar Armed Forces." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/7206f8ab859a> a airo:Evidence ;
+    airo:evidenceText "[1909] The Kargu-2 was built by STM, a defense company based in Turkey that describes the weapon as “a rotary wing attack drone” that can be used autonomously or manually." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/765c036af969> a airo:Evidence ;
+    airo:evidenceText "[8963] The creator of the Kargu drone, STM, says the device 'can be effectively used against static or moving targets through its indigenous and real-time image processing capabilities and machine learning algorithms embedded on the platform.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/c16674aadd6c> a airo:Evidence ;
+    airo:evidenceText "[8963] Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/c2d8637d658b> a airo:Evidence ;
+    airo:evidenceText "[8963] Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/c878c26eeb9d> a airo:Evidence ;
+    airo:evidenceText "A Military Drone With A Mind Of Its Own Was Used In Combat, U.N. Says" ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/cbbf8074c4cc> a airo:Evidence ;
+    airo:evidenceText "[8963] Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/dcbe0cc64019> a airo:Evidence ;
+    airo:evidenceText "Autonomous drone attacked soldiers in Libya all on its own" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/de13a10f9614> a airo:Evidence ;
+    airo:evidenceText "[1909] The Kargu-2 was built by STM, a defense company based in Turkey that describes the weapon as “a rotary wing attack drone” that can be used autonomously or manually." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/e05043a45434> a airo:Evidence ;
+    airo:evidenceText "[8963] The creator of the Kargu drone, STM, says the device 'can be effectively used against static or moving targets through its indigenous and real-time image processing capabilities and machine learning algorithms embedded on the platform.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/ef8675053165> a airo:Evidence ;
+    airo:evidenceText "[1909] The Kargu-2 was built by STM, a defense company based in Turkey that describes the weapon as “a rotary wing attack drone” that can be used autonomously or manually." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/f09d8e686e93> a airo:Evidence ;
+    airo:evidenceText "The findings about the drone attack, described briefly in the 548-page document, were reported last month by The New Scientist and by the Bulletin of the Atomic Scientists, a nonprofit organization." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/Consequence/cbfeb408aa2f> a airo:Consequence ;
+    rdfs:label "autonomous attack on retreating soldiers" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/326d6d0a9fff> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/9153995d56e6> .
+
+<https://w3id.org/airo/incident/Impact/9153995d56e6> a airo:Impact ;
+    rdfs:label "loss of human control over life-and-death decisions in warfare" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/b6f329d62f76> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/944c3f2e1edc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/NewsReport/1909> a airo:NewsReport ;
+    rdfs:label "A.I. Drone May Have Acted on Its Own in Attacking Fighters, U.N. Says" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "A military drone that attacked soldiers during a battle in [Liby](https://www.nytimes.com/2021/07/30/magazine/qaddafi-libya.html)a’s civil war last year may have done so without human control, [accord" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3af7a62f6b21> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> .
+
+<https://w3id.org/airo/incident/NewsReport/1910> a airo:NewsReport ;
+    rdfs:label "A Military Drone With A Mind Of Its Own Was Used In Combat, U.N. Says" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Military-grade autonomous drones can fly themselves to a specific location, pick their own targets and kill without the assistance of a remote human operator. Such weapons are known to be in developme" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/20661da35d7b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/NewsReport/1911> a airo:NewsReport ;
+    rdfs:label "AI-powered drone deployed in Libya has possibly killed people without any human interference" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "It has been revealed that an Artificial Intelligence-powered military drone was able to identify and attack human targets in Libya. The drone, Kargu-2, is made by a Turkish company (STM) and fitted wi" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7928a7b318f8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/NewsReport/8963> a airo:NewsReport ;
+    rdfs:label "Autonomous drone attacked soldiers in Libya all on its own" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Autonomous drone attacked soldiers in Libya all on its own
+Libyan forces were "hunted down and remotely engaged" by an autonomous drone, a UN report reads.
+The  STM Kargu-2, which its manufacturer des""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c7130d338f81> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/Risk/7628bd1a36c3> a airo:Risk ;
+    rdfs:label "risk of autonomous lethal force without human control" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9dbe47bd41c1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/cbfeb408aa2f> .
+
+<https://w3id.org/airo/incident/Stakeholder/0af2c928bd42> a airo:Stakeholder ;
+    rdfs:label "Haftar Armed Forces" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Haftar Armed Forces" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f91ebc1c0694> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8963> .
+
+<https://w3id.org/airo/incident/Stakeholder/f84611c19bf7> a airo:Stakeholder ;
+    rdfs:label "Turkey" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/37b2ed9f6a47>,
+        <https://w3id.org/airo/incident/AISystem/4ea6b3702832>,
+        <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Turkey" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/082ac65b0f06>,
+        <https://w3id.org/airo/incident/evidence/2c8f468102c0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/0c8f1e0be7d0> a airo:Evidence ;
+    airo:evidenceText "The lethal autonomous weapons systems were programmed to attack targets without requiring data connectivity between the operator and the munition: in effect, a true 'fire, forget and find' capability." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/12ba98b18e9a> a airo:Evidence ;
+    airo:evidenceText "The lethal autonomous weapons systems were programmed to attack targets without requiring data connectivity between the operator and the munition: in effect, a true 'fire, forget and find' capability." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/1441e64e4364> a airo:Evidence ;
+    airo:evidenceText "The drone, a Kargu-2, was used as soldiers tried to flee, the report said." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/19e029958a2a> a airo:Evidence ;
+    airo:evidenceText "\"Fire, forget and find\" refers to a weapon that once fired can guide itself to its target." ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/20661da35d7b> a airo:Evidence ;
+    airo:evidenceText "A Military Drone With A Mind Of Its Own Was Used In Combat, U.N. Says" ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/3af7a62f6b21> a airo:Evidence ;
+    airo:evidenceText "A.I. Drone May Have Acted on Its Own in Attacking Fighters, U.N. Says" ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/452ac200ce94> a airo:Evidence ;
+    airo:evidenceText "The lethal autonomous weapons systems were programmed to attack targets without requiring data connectivity between the operator and the munition: in effect, a true 'fire, forget and find' capability." ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/551e476a2b62> a airo:Evidence ;
+    airo:evidenceText "The fighters “were hunted down and remotely engaged by the unmanned combat aerial vehicles or the lethal autonomous weapons systems,” according to the report." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/593170be2a57> a airo:Evidence ;
+    airo:evidenceText "The STM Kargu-2, which its manufacturer describes as a 'rotary wing attack drone loitering munition system.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/595cbdbd4e9f> a airo:Evidence ;
+    airo:evidenceText "The drone, Kargu-2, is made by a Turkish company (STM) and fitted with a payload that explodes once it makes an impact or is in close proximity with its AI-identified target." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/75e826ccff77> a airo:Evidence ;
+    airo:evidenceText "[1911] reads part of page 17 of the letter dated 8 March 2021 from the UN Panel of Experts on Libya sent to the UN Security Council." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/7928a7b318f8> a airo:Evidence ;
+    airo:evidenceText "AI-powered drone deployed in Libya has possibly killed people without any human interference" ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/7e1ba4ff70ca> a airo:Evidence ;
+    airo:evidenceText "[1911] The drone, Kargu-2, is made by a Turkish company (STM) and fitted with a payload that explodes once it makes an impact or is in close proximity with its AI-identified target." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/8becc0834f47> a airo:Evidence ;
+    airo:evidenceText "[1911] The unmanned combat aerial vehicles and the small drone intelligence, surveillance and reconnaissance capability of HAF were neutralized by electronic jamming from the Koral electronic warfare system." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/8ce2eb0368ea> a airo:Evidence ;
+    airo:evidenceText "“Loitering munitions show how human control and judgment in life-and-death decisions is eroding, potentially to an unacceptable point,” Mary Wareham, the arms advocacy director at Human Rights Watch, wrote in an email." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/9a814673a750> a airo:Evidence ;
+    airo:evidenceText "She noted that the report stated the Kargu-2 and “other loitering munitions” attacked convoys and retreating fighters." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/9b182b5a024c> a airo:Evidence ;
+    airo:evidenceText "The fighters “were hunted down and remotely engaged by the unmanned combat aerial vehicles or the lethal autonomous weapons systems,” according to the report." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/9e3f40b05a53> a airo:Evidence ;
+    airo:evidenceText "She is a founding coordinator of the Campaign to Stop Killer Robots, which is working to ban fully autonomous weapons." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/ad94dd7d5e0d> a airo:Evidence ;
+    airo:evidenceText "The revelations were made in a report published in March 2021 by the United Nations (UN) Panel of Experts on Libya which stated that the drone was a “lethal autonomous weapon” which had “hunted down and remotely engaged” soldiers which are believed to have been loyal to Libya’s General Khalifa Haftar." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/bc425a3a8860> a airo:Evidence ;
+    airo:evidenceText "Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/c7130d338f81> a airo:Evidence ;
+    airo:evidenceText "Autonomous drone attacked soldiers in Libya all on its own" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/df9f610c50c6> a airo:Evidence ;
+    airo:evidenceText "The unmanned combat aerial vehicles and the small drone intelligence, surveillance and reconnaissance capability of HAF were neutralized by electronic jamming from the Koral electronic warfare system." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/e9e5ef9f159e> a airo:Evidence ;
+    airo:evidenceText "The drone, which the report described as “a lethal autonomous weapons systems,” was powered by artificial intelligence and used by forces backed by the government based in Tripoli." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/ee4b692feea9> a airo:Evidence ;
+    airo:evidenceText "reads part of page 17 of the letter dated 8 March 2021 from the UN Panel of Experts on Libya sent to the UN Security Council." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/f0a1682042ee> a airo:Evidence ;
+    airo:evidenceText "[1911] The revelations were made in a report published in March 2021 by the United Nations (UN) Panel of Experts on Libya which stated that the drone was a “lethal autonomous weapon” which had “hunted down and remotely engaged” soldiers..." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/fe7b0fcc9fb0> a airo:Evidence ;
+    airo:evidenceText "A military drone that attacked soldiers during a battle in Libya’s civil war last year may have done so without human control, according to a recent report commissioned by the United Nations." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/Stakeholder/c3f9f0705dda> a airo:Stakeholder ;
+    rdfs:label "STM" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:develops <https://w3id.org/airo/incident/AISystem/37b2ed9f6a47>,
+        <https://w3id.org/airo/incident/AISystem/4ea6b3702832>,
+        <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "STM" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/89643403b656>,
+        <https://w3id.org/airo/incident/evidence/8dc1132fdc11>,
+        <https://w3id.org/airo/incident/evidence/b8c9758fc465>,
+        <https://w3id.org/airo/incident/evidence/f297cc8271f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/1911>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 4 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/37b2ed9f6a47>,
+        <https://w3id.org/airo/incident/AISystem/4ea6b3702832>,
+        <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> .
+
+<https://w3id.org/airo/incident/evidence/326d6d0a9fff> a airo:Evidence ;
+    airo:evidenceText "She noted that the report stated the Kargu-2 and “other loitering munitions” attacked convoys and retreating fighters." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/944c3f2e1edc> a airo:Evidence ;
+    airo:evidenceText "A military drone that attacked soldiers during a battle in Libya’s civil war last year may have done so without human control, according to a recent report commissioned by the United Nations." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/9dbe47bd41c1> a airo:Evidence ;
+    airo:evidenceText "A military drone that attacked soldiers during a battle in Libya’s civil war last year may have done so without human control, according to a recent report commissioned by the United Nations." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_477> a airo:AIRiskIncident ;
+    rdfs:label "Autonomous drone attacked soldiers in Libya all on its own" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/cbfeb408aa2f> ;
+    airo:hasDescription "pred_477" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/e32aaf053ed8>,
+        <https://w3id.org/airo/incident/Domain/c6d4a35c0286>,
+        <https://w3id.org/airo/incident/evidence/173e13a9f15d>,
+        <https://w3id.org/airo/incident/evidence/5904e7dd2764>,
+        <https://w3id.org/airo/incident/evidence/c878c26eeb9d>,
+        <https://w3id.org/airo/incident/evidence/dcbe0cc64019> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/9153995d56e6> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/1909>,
+        <https://w3id.org/airo/incident/NewsReport/1910>,
+        <https://w3id.org/airo/incident/NewsReport/1911>,
+        <https://w3id.org/airo/incident/NewsReport/8963> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/7628bd1a36c3> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/1911>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/37b2ed9f6a47>,
+        <https://w3id.org/airo/incident/AISystem/4ea6b3702832>,
+        <https://w3id.org/airo/incident/AISystem/acb526e9d6ea> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/00f3caacf030>,
+        <https://w3id.org/airo/incident/Stakeholder/07d3386a5a39>,
+        <https://w3id.org/airo/incident/Stakeholder/082057f837a4>,
+        <https://w3id.org/airo/incident/Stakeholder/0af2c928bd42>,
+        <https://w3id.org/airo/incident/Stakeholder/17221703298e>,
+        <https://w3id.org/airo/incident/Stakeholder/1ee4a30b8362>,
+        <https://w3id.org/airo/incident/Stakeholder/32fe590ad0de>,
+        <https://w3id.org/airo/incident/Stakeholder/5af347a38313>,
+        <https://w3id.org/airo/incident/Stakeholder/7c8aea108af2>,
+        <https://w3id.org/airo/incident/Stakeholder/9053289e5a36>,
+        <https://w3id.org/airo/incident/Stakeholder/a1265e2134b9>,
+        <https://w3id.org/airo/incident/Stakeholder/b9131bb21c0b>,
+        <https://w3id.org/airo/incident/Stakeholder/c3f9f0705dda>,
+        <https://w3id.org/airo/incident/Stakeholder/d2637a709729>,
+        <https://w3id.org/airo/incident/Stakeholder/f1e233d30c87>,
+        <https://w3id.org/airo/incident/Stakeholder/f84611c19bf7> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/576390db121d> .
+
+<https://w3id.org/airo/incident/AISystem/37b2ed9f6a47> a airo:AISystem ;
+    rdfs:label "Lethal Autonomous Weapons System (LAWS)" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "lethal autonomous weapons systems" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c5816223de3e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1910> .
+
+<https://w3id.org/airo/incident/AISystem/4ea6b3702832> a airo:AISystem ;
+    rdfs:label "Koral electronic warfare system" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Koral electronic warfare system" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/df9f610c50c6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1911> .
+
+<https://w3id.org/airo/incident/evidence/c5816223de3e> a airo:Evidence ;
+    airo:evidenceText "Logistics convoys and retreating \\[Haftar-affiliated forces\\] were subsequently hunted down and remotely engaged by the unmanned combat aerial vehicles or the lethal autonomous weapons systems such as the STM _Kargu_\\-2 ... and other loitering munitions." ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/60cac038c202> a airo:Evidence ;
+    airo:evidenceText "The assault came during fighting between the U.N.-recognized Government of National Accord and forces aligned with Gen. Khalifa Haftar, according to the report by the U.N. Panel of Experts on Libya." ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/f91ebc1c0694> a airo:Evidence ;
+    airo:evidenceText "The drone, which the report refers to as a 'lethal autonomous weapon,' then found and attacked Libya's Haftar Armed Forces." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/f297cc8271f7> a airo:Evidence ;
+    airo:evidenceText "The Kargu-2 is an attack drone made by the Turkish company STM that can be operated both autonomously and manually and that purports to use \"machine learning\" and \"real-time image processing\" against its targets." ;
+    airo:sourceDocId "1910" .
+
+<https://w3id.org/airo/incident/evidence/2c8f468102c0> a airo:Evidence ;
+    airo:evidenceText "Turkey, a key combatant in the war, deployed the STM Kargu-2 drone, according to the UN Security Council's Panel of Experts on Libya report." ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/AISystem/acb526e9d6ea> a airo:AISystem ;
+    rdfs:label "STM Kargu-2" ;
+    airo:confidenceScore "0.98"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/97f1939380ae>,
+        <https://w3id.org/airo/incident/AICapability/d41da0f87226>,
+        <https://w3id.org/airo/incident/AICapability/dc62c8ebdc77>,
+        <https://w3id.org/airo/incident/AICapability/f7a29585537e>,
+        <https://w3id.org/airo/incident/Purpose/ce9f14dda8d8> ;
+    airo:hasDescription "Kargu-2" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/Documentation/a69f7f509246>,
+        <https://w3id.org/airo/incident/evidence/1441e64e4364>,
+        <https://w3id.org/airo/incident/evidence/593170be2a57>,
+        <https://w3id.org/airo/incident/evidence/89643403b656>,
+        <https://w3id.org/airo/incident/evidence/f297cc8271f7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/1909>,
+        <https://w3id.org/airo/incident/document/1910>,
+        <https://w3id.org/airo/incident/document/1911>,
+        <https://w3id.org/airo/incident/document/8963> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/08c5e99698dd> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/01daf65ddb93>,
+        <https://w3id.org/airo/incident/AITechnique/28a6aaf0a54b>,
+        <https://w3id.org/airo/incident/AITechnique/43ea8fac59ee>,
+        <https://w3id.org/airo/incident/AITechnique/71dc43aff971>,
+        <https://w3id.org/airo/incident/AITechnique/7d5d906462a1> .
+
+<https://w3id.org/airo/incident/evidence/b8c9758fc465> a airo:Evidence ;
+    airo:evidenceText "The Kargu-2 was built by STM, a defense company based in Turkey that describes the weapon as “a rotary wing attack drone” that can be used autonomously or manually." ;
+    airo:sourceDocId "1909" .
+
+<https://w3id.org/airo/incident/evidence/89643403b656> a airo:Evidence ;
+    airo:evidenceText "The drone, Kargu-2, is made by a Turkish company (STM) and fitted with a payload that explodes once it makes an impact or is in close proximity with its AI-identified target." ;
+    airo:sourceDocId "1911" .
+
+<https://w3id.org/airo/incident/evidence/8dc1132fdc11> a airo:Evidence ;
+    airo:evidenceText "The creator of the Kargu drone, STM, says the device 'can be effectively used against static or moving targets through its indigenous and real-time image processing capabilities and machine learning algorithms embedded on the platform.'" ;
+    airo:sourceDocId "8963" .
+
+<https://w3id.org/airo/incident/evidence/082ac65b0f06> a airo:Evidence ;
+    airo:evidenceText "The report said the attack happened in a clash between fighters for the Tripoli-based government, which is supported by Turkey and officially recognized by the United States and other Western powers, and militia forces led by Khalifa Hifter, who has received backing from Russia, Egypt, the United Arab Emirates, Saudi Arabia and, at times, France.",
+        "The report said the attack happened in a clash between fighters for the Tripoli-based government, which is supported by Turkey and officially recognized by the United States and other Western powers, and militia forces led by Khalifa Hifter, who has received backing from Russia.",
+        "The report said the attack happened in a clash between fighters for the Tripoli-based government, which is supported by Turkey and officially recognized by the United States and other Western powers." ;
+    airo:sourceDocId "1909" .
+

@@ -1,0 +1,1746 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/InformationSource/cbc5a4915ce0> a airo:InformationSource ;
+    rdfs:label "aiid" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiid" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/3181>,
+        <https://w3id.org/airo/incident/NewsReport/3182>,
+        <https://w3id.org/airo/incident/NewsReport/3183>,
+        <https://w3id.org/airo/incident/NewsReport/3184>,
+        <https://w3id.org/airo/incident/NewsReport/3185> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3183>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/RiskControl/67c1fac0ddec> a airo:RiskControl ;
+    rdfs:label "Celebrities publicly warning followers and denouncing deepfake scams" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b34d47f6d8d7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/bf0d5eef1f51> .
+
+<https://w3id.org/airo/incident/RoleAssignment/0578884b8db0> a airo:RoleAssignment ;
+    rdfs:label "TikTok_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/29ef928d1b5f> ;
+    airo:hasReasoning "The deepfake videos are hosted and distributed on TikTok's platform, making TikTok the deployer of the content (and the underlying AI system's output)." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/891ea4487ee6> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/06f6f3796501> a airo:RoleAssignment ;
+    rdfs:label "Instagram_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/712160634834> ;
+    airo:hasReasoning "The deepfake video was present on Instagram's platform, making it the deployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/02fb9bf1ec62> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/24aa220cffc5> a airo:RoleAssignment ;
+    rdfs:label "CBS Mornings_AIUser" ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/589d0d1a6c86> ;
+    airo:hasReasoning "CBS News (associated with CBS Mornings) reported on and shared the deepfake video as part of its news coverage, making it a user of the AI-generated content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/cbf24f599214> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/3edcdbe549f4> a airo:RoleAssignment ;
+    rdfs:label "CBS News_AIUser" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be8cb5fa8e1b> ;
+    airo:hasReasoning "CBS News reported on and shared the deepfake video, making it a user of the AI-generated content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/ecd20c716fe1> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/67224b3c9d73> a airo:RoleAssignment ;
+    rdfs:label "Screen Actors Guild-American Federation of Television and Radio Artists_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fdc20966e806> ;
+    airo:hasReasoning "This is the full name for SAG-AFTRA. As a labor union using a strike to regulate AI use, it acts as a regulator." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c3f660b2a736> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/89b008090e82> a airo:RoleAssignment ;
+    rdfs:label "Artipet_AIProvider" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e641e83a8766> ;
+    airo:hasReasoning "Artipet is named in the core entities and is implied to be the provider of the 'Artipet AI advert' that used a deepfake of Tom Hanks." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/e817a6014d4b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8b5b32f324ab> a airo:RoleAssignment ;
+    rdfs:label "The Authors Guild_Regulator" ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ea8133344aa7> ;
+    airo:hasReasoning "While not explicitly mentioned in the text, The Authors Guild is a key stakeholder in the core entities and, based on context of the Writers Guild, is likely involved in regulating AI use for authors. However, evidence is weak. I will omit this role assignment as per strict rules." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/6156760e5aae> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/8e8284b16a45> a airo:RoleAssignment ;
+    rdfs:label "Gayle King_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/db92f09c355d> ;
+    airo:hasReasoning "Gayle King is a journalist whose likeness was manipulated in an AI-generated ad without consent, making her a victim." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/61d3b0852239> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/96eb5c5012ae> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_Stakeholder" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a579800d50c> ;
+    airo:hasReasoning "OpenAI is listed as a stakeholder in the core entities. The evidence discusses generative AI broadly and the entertainment industry's response, but does not specify OpenAI's role (developer, provider, etc.) in these specific incidents. Therefore, 'Stakeholder' is the only role that can be inferred." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/116701baa48c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b05427647ed1> a airo:RoleAssignment ;
+    rdfs:label "MrBeast_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/25c9dca0567e> ;
+    airo:hasReasoning "MrBeast is a celebrity whose likeness was used in a deepfake scam ad on TikTok, making him a victim." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7c68dd01d304> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/b2a8bac5e101> a airo:RoleAssignment ;
+    rdfs:label "Tom Hanks_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/abfc19f7e5b4> ;
+    airo:hasReasoning "Tom Hanks is identified as a celebrity whose likeness was stolen and used in a deepfake without consent, making him a victim." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/7b1a66c157a4> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/bc41eca89822> a airo:RoleAssignment ;
+    rdfs:label "Writers Guild of America_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8ce37739d5ab> ;
+    airo:hasReasoning "The Writers Guild negotiated binding terms for AI use, thereby regulating its application in the industry." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/43f15155d6e2> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/d0c6d5ec7b91> a airo:RoleAssignment ;
+    rdfs:label "SAG-AFTRA_Regulator" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d65f0226a13f> ;
+    airo:hasReasoning "SAG-AFTRA, as a major labor union, is using its collective bargaining power (strike) to regulate and impose terms on the use of AI in the entertainment industry, acting as a regulatory body in this context." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/153e785f5cfd> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/e01bf8c24e24> a airo:RoleAssignment ;
+    rdfs:label "Scott Galloway_Stakeholder" ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2c27df374e18> ;
+    airo:hasReasoning "Scott Galloway is listed as a stakeholder but is not mentioned in any evidence sentence, so no role can be inferred." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/63b393793c37> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/RoleAssignment/f4fdfb14d971> a airo:RoleAssignment ;
+    rdfs:label "Meta_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7dc44468f4d4> ;
+    airo:hasReasoning "Instagram is owned by Meta, and the deepfake was deployed on its platform, making Meta an AIDeployer." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_247> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/a5d5c7221cac> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/Trend/540269e95ee9> a airo:Trend ;
+    rdfs:label "increasing labor union action to regulate AI use in entertainment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ffc8818d84c5> ;
+    airo:hasReasoning "The evidence describes strikes by two major entertainment guilds specifically targeting AI use, indicating a trend of organized labor pushing for governance and regulation of AI." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/event/pred_247> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-10-02T00:00:00+00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2023-10-04T00:00:00+00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/007aa9f61316> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/0152b3f634c1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/0227079488ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226b858bd217> .
+
+<https://w3id.org/airo/incident/ks/03b7f99399cd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/058421bddf81> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> .
+
+<https://w3id.org/airo/incident/ks/05874b89a5fa> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/45054a99edb2> .
+
+<https://w3id.org/airo/incident/ks/07c60cad163a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/0c80c9d3a4e5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/0dbc96ab89fc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/91ad3b56f7a4> .
+
+<https://w3id.org/airo/incident/ks/0f16a25e3bb0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8845e871936> .
+
+<https://w3id.org/airo/incident/ks/14764bc0d2a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> .
+
+<https://w3id.org/airo/incident/ks/14944f4dc0ac> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2761eeaee6c> .
+
+<https://w3id.org/airo/incident/ks/155544dd9158> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/777e098afe17> .
+
+<https://w3id.org/airo/incident/ks/17be85842a06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226b858bd217> .
+
+<https://w3id.org/airo/incident/ks/195faa3c59a2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/817937619538> .
+
+<https://w3id.org/airo/incident/ks/1d6b2228c995> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/817937619538> .
+
+<https://w3id.org/airo/incident/ks/1e366ccd04c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e315da7ba2e8> .
+
+<https://w3id.org/airo/incident/ks/20fa395a02c5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/210f1e5dc84b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/873391921c46> .
+
+<https://w3id.org/airo/incident/ks/22eba57cf4c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d81369049be7> .
+
+<https://w3id.org/airo/incident/ks/240af6a762d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/2419660947be> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7322c38579e7> .
+
+<https://w3id.org/airo/incident/ks/252feb88fdcc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/292157033327> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/be518d13f37c> .
+
+<https://w3id.org/airo/incident/ks/2ac5918a2856> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb7924988916> .
+
+<https://w3id.org/airo/incident/ks/2b114ded0019> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3a3181b7915> .
+
+<https://w3id.org/airo/incident/ks/2b8129d040c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/efe94afe9e6c> .
+
+<https://w3id.org/airo/incident/ks/2c0f7cec4fc5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/977ca8d18840> .
+
+<https://w3id.org/airo/incident/ks/2c668a4c83ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebf794879686> .
+
+<https://w3id.org/airo/incident/ks/2ef08aa18af8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/30c7a381fdfb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3525c5b8ebbe> .
+
+<https://w3id.org/airo/incident/ks/30e0340043e9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/344d26425b2d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa91f62e2933> .
+
+<https://w3id.org/airo/incident/ks/398b8b3e80f2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c395bf78223> .
+
+<https://w3id.org/airo/incident/ks/39918a8ed1f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/39f168080c96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5b1e134c11> .
+
+<https://w3id.org/airo/incident/ks/3c5a7c815ab4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/3d008933e36d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/43db827a23c8> .
+
+<https://w3id.org/airo/incident/ks/3d40c8db315d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/817937619538> .
+
+<https://w3id.org/airo/incident/ks/3d6e7a5831c2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7322c38579e7> .
+
+<https://w3id.org/airo/incident/ks/3d7ae85caf5a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5b1e134c11> .
+
+<https://w3id.org/airo/incident/ks/3f640999e4d2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/40317fe2ec98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/45a49340e99a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ced65fe12b3a> .
+
+<https://w3id.org/airo/incident/ks/48675c6fffd8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/777e098afe17> .
+
+<https://w3id.org/airo/incident/ks/48677a7877fd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/019fcd41a2e0> .
+
+<https://w3id.org/airo/incident/ks/49b9f6bfa819> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/4a82449f604d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9f40b6235e5> .
+
+<https://w3id.org/airo/incident/ks/53a10a7d2726> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38b88b60998a> .
+
+<https://w3id.org/airo/incident/ks/543ec33d8916> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b34d47f6d8d7> .
+
+<https://w3id.org/airo/incident/ks/5a8c575cc4bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/5b1c25c0c9c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bddbe2bb9c9> .
+
+<https://w3id.org/airo/incident/ks/5d301a16aeb8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> .
+
+<https://w3id.org/airo/incident/ks/5e0bc8aa46d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/650636933206> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/466eb4150294> .
+
+<https://w3id.org/airo/incident/ks/6612175d8471> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/661485d2c500> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb7924988916> .
+
+<https://w3id.org/airo/incident/ks/66a7658cd338> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.0"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5b1e134c11> .
+
+<https://w3id.org/airo/incident/ks/685bc4812423> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb7924988916> .
+
+<https://w3id.org/airo/incident/ks/6b0f503a4537> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c0734e16a56f> .
+
+<https://w3id.org/airo/incident/ks/6f89ad532b75> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> .
+
+<https://w3id.org/airo/incident/ks/704681c33330> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebf794879686> .
+
+<https://w3id.org/airo/incident/ks/7659344d4dcd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c278b5313ca> .
+
+<https://w3id.org/airo/incident/ks/77740f13157f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8845e871936> .
+
+<https://w3id.org/airo/incident/ks/796a871a0ddb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/7cbf7609f483> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c60d905babd3> .
+
+<https://w3id.org/airo/incident/ks/7dfc4794c0dc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60ae55c75da1> .
+
+<https://w3id.org/airo/incident/ks/809d173ebd76> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> .
+
+<https://w3id.org/airo/incident/ks/86ec42d20143> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/389b2df04a48> .
+
+<https://w3id.org/airo/incident/ks/8a157f41f1e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebf794879686> .
+
+<https://w3id.org/airo/incident/ks/8b0256cfc6f7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/232e385083aa> .
+
+<https://w3id.org/airo/incident/ks/8daab6bff9d1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2761eeaee6c> .
+
+<https://w3id.org/airo/incident/ks/911ff2e24812> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f0e0732242f7> .
+
+<https://w3id.org/airo/incident/ks/926bd947418e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/931bdc9ea264> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3525c5b8ebbe> .
+
+<https://w3id.org/airo/incident/ks/9362f4366eb4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60a1e62142d3> .
+
+<https://w3id.org/airo/incident/ks/9517dc3a7946> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76824fe37f80> .
+
+<https://w3id.org/airo/incident/ks/9995b1172299> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5ca719cec98d> .
+
+<https://w3id.org/airo/incident/ks/99a45ece8f26> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88bfa025f661> .
+
+<https://w3id.org/airo/incident/ks/9c6cb115d472> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/9c8bf241c416> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5814e6323b68> .
+
+<https://w3id.org/airo/incident/ks/9ef13d77517f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> .
+
+<https://w3id.org/airo/incident/ks/9f1866d304a7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/a08f38391418> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> .
+
+<https://w3id.org/airo/incident/ks/a1a9b9ced129> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da9343cced07> .
+
+<https://w3id.org/airo/incident/ks/a41d034fdda1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/a4552bed58ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36af2ab5b572> .
+
+<https://w3id.org/airo/incident/ks/a48b619e5579> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1651ace486f9> .
+
+<https://w3id.org/airo/incident/ks/a4f7a4936c5e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3e8a103bfa3> .
+
+<https://w3id.org/airo/incident/ks/a5681458630d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/a6825c39948f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9f40b6235e5> .
+
+<https://w3id.org/airo/incident/ks/a68fec737616> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ebf794879686> .
+
+<https://w3id.org/airo/incident/ks/b14543745b89> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/777e098afe17> .
+
+<https://w3id.org/airo/incident/ks/b19287598980> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5999e9355c45> .
+
+<https://w3id.org/airo/incident/ks/b24300c95213> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8458a1233bfc> .
+
+<https://w3id.org/airo/incident/ks/b3805f82eed6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226b858bd217> .
+
+<https://w3id.org/airo/incident/ks/b4d1ccfbb6f3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/105ffd629155> .
+
+<https://w3id.org/airo/incident/ks/b652a187ff95> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e315da7ba2e8> .
+
+<https://w3id.org/airo/incident/ks/b8eab331b9a4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/b94401e89c30> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226b858bd217> .
+
+<https://w3id.org/airo/incident/ks/bb297c8ca2ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/bcd0e0b6554c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/817937619538> .
+
+<https://w3id.org/airo/incident/ks/bd30b64a2d06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/bde6badd6316> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/be2d7ac10250> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/c22f37b9f12f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/28260caf976c> .
+
+<https://w3id.org/airo/incident/ks/c2f5017a83c3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9f40b6235e5> .
+
+<https://w3id.org/airo/incident/ks/c37b80ad3863> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e347f6e975cc> .
+
+<https://w3id.org/airo/incident/ks/cb179f64687a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fe77b790f56b> .
+
+<https://w3id.org/airo/incident/ks/cba6173d1189> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b0e87668a66> .
+
+<https://w3id.org/airo/incident/ks/cbd903d15734> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/cf0b4c1a12f0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8845e871936> .
+
+<https://w3id.org/airo/incident/ks/cfab3e9d2e96> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb7924988916> .
+
+<https://w3id.org/airo/incident/ks/cfc2bbcac765> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6beb61b4c95f> .
+
+<https://w3id.org/airo/incident/ks/d2d4afc00dbd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/d60db1131d6b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7322c38579e7> .
+
+<https://w3id.org/airo/incident/ks/d78a60a46c0b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0846425c2cad> .
+
+<https://w3id.org/airo/incident/ks/d92f9955d2f9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5b1e134c11> .
+
+<https://w3id.org/airo/incident/ks/d98b9890dd49> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5999e9355c45> .
+
+<https://w3id.org/airo/incident/ks/db6a0d5c5207> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/dc77b3186f2c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> .
+
+<https://w3id.org/airo/incident/ks/dcd829719dd5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef0916a878c6> .
+
+<https://w3id.org/airo/incident/ks/dd6ffc0c3ec7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56b0c71a89c4> .
+
+<https://w3id.org/airo/incident/ks/ddb71e174433> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133> .
+
+<https://w3id.org/airo/incident/ks/de96dec69543> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/defbd649e7e4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> .
+
+<https://w3id.org/airo/incident/ks/e0ac3a1b72a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5999e9355c45> .
+
+<https://w3id.org/airo/incident/ks/e17c2e3ea3de> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cadc5babab38> .
+
+<https://w3id.org/airo/incident/ks/e40b3c470736> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/777e098afe17> .
+
+<https://w3id.org/airo/incident/ks/e4be24545e38> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9f40b6235e5> .
+
+<https://w3id.org/airo/incident/ks/e4efe68440f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/019fcd41a2e0> .
+
+<https://w3id.org/airo/incident/ks/e5e2fd44dddb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/232e385083aa> .
+
+<https://w3id.org/airo/incident/ks/e8aa3666439d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e315da7ba2e8> .
+
+<https://w3id.org/airo/incident/ks/e8ad510d64f4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa91f62e2933> .
+
+<https://w3id.org/airo/incident/ks/ebcae8b0f16d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> .
+
+<https://w3id.org/airo/incident/ks/ecbec7eac081> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7322c38579e7> .
+
+<https://w3id.org/airo/incident/ks/ecf8cf8c402f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5999e9355c45> .
+
+<https://w3id.org/airo/incident/ks/ef1f66d3b377> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/f3fb71fa1a50> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> .
+
+<https://w3id.org/airo/incident/ks/f42bc1aa6933> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> .
+
+<https://w3id.org/airo/incident/ks/f9d8b50a93c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> .
+
+<https://w3id.org/airo/incident/ks/fba315dc0a9a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.75"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7e8092dd4ec1> .
+
+<https://w3id.org/airo/incident/ks/fe22d4285d47> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8845e871936> .
+
+<https://w3id.org/airo/incident/ks/fe598ab466ea> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e315da7ba2e8> .
+
+<https://w3id.org/airo/incident/AICapability/682ac555e7e6> a airo:AICapability ;
+    rdfs:label "generate images" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-rendered image" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4bddbe2bb9c9>,
+        <https://w3id.org/airo/incident/evidence/8458a1233bfc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/AICapability/7efc4d503efa> a airo:AICapability ;
+    rdfs:label "modify content" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-doctored content" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/873391921c46> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/AICapability/a4c16ba2337a> a airo:AICapability ;
+    rdfs:label "fake footage" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "fake footage" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa91f62e2933> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/AICapability/a6d600b558c9> a airo:AICapability ;
+    rdfs:label "generate realistic impersonations of the voice" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate realistic impersonations of the voice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/efe94afe9e6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/AICapability/bfbaec5c4d73> a airo:AICapability ;
+    rdfs:label "generate voice" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI generated voice" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/977ca8d18840> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/AICapability/d550848921c7> a airo:AICapability ;
+    rdfs:label "manipulate voice and video" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "manipulated her voice and video" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d81369049be7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/AICapability/f57887b91ca5> a airo:AICapability ;
+    rdfs:label "generate videos" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI-generated video" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77eeda06227d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/ef4d076610dc> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c278b5313ca> ;
+    airo:hasReasoning "The deepfakes are actively being shown on social media platforms (TikTok, Instagram) and warned about by celebrities, indicating the AI systems are already deployed and in use." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/AITechnique/4b6e27a01268> a airo:AITechnique ;
+    rdfs:label "deepfakes" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI deepfakes" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/76824fe37f80>,
+        <https://w3id.org/airo/incident/evidence/c2761eeaee6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/AITechnique/97d11077606c> a airo:AITechnique ;
+    rdfs:label "generative AI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generative AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/aa91f62e2933> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/AITechnique/e5939770531b> a airo:AITechnique ;
+    rdfs:label "deepfake technology" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI deep fakes" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9>,
+        <https://w3id.org/airo/incident/evidence/0846425c2cad>,
+        <https://w3id.org/airo/incident/evidence/45054a99edb2>,
+        <https://w3id.org/airo/incident/evidence/65aa010b5133>,
+        <https://w3id.org/airo/incident/evidence/aa91f62e2933>,
+        <https://w3id.org/airo/incident/evidence/f79fc82f76b5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/AITechnique/ff7b7498f724> a airo:AITechnique ;
+    rdfs:label "artificial intelligence" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c2761eeaee6c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/AffectedActor/2ce825fe82c9> a airo:AffectedActor ;
+    rdfs:label "Celebrities (Tom Hanks, MrBeast, Gayle King) and their followers/consumers" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6beb61b4c95f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> .
+
+<https://w3id.org/airo/incident/Domain/99bc2f47fdab> a airo:Domain ;
+    rdfs:label "entertainment" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60a1e62142d3> ;
+    airo:hasReasoning "The victims are celebrities (actors, journalists, YouTube personalities), and the evidence discusses strikes by entertainment industry guilds (SAG-AFTRA, Writers Guild) over AI use, placing the domain in entertainment." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/Hazard/c77b5381fa51> a airo:Hazard ;
+    rdfs:label "Lack of public awareness about deepfake technology enabling scam victimization" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c395bf78223> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/Purpose/1ad47c204103> a airo:Purpose ;
+    rdfs:label "generate deceptive impersonations for advertising and scams" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c3e8a103bfa3> ;
+    airo:hasReasoning "The evidence states that AI-generated videos (deepfakes) were used to promote dental plans, weight loss products, and iPhones, indicating the purpose was deceptive advertising or scams." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/RiskSource/9001834347ba> a airo:RiskSource ;
+    rdfs:label "Misuse of deepfake technology for unauthorized commercial promotion" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/bf0d5eef1f51> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e3a3181b7915> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/c77b5381fa51> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/Vulnerability/c8861990ae47> a airo:Vulnerability ;
+    rdfs:label "Celebrity images and voices can be easily replicated using generative AI without consent" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b0e87668a66> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/evidence/105ffd629155> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/137354096e94> a airo:Evidence ;
+    airo:evidenceText "Gayle King fumes over manipulated AI video of her endorsing weight loss company: 'Don’t be fooled’" ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/1651ace486f9> a airo:Evidence ;
+    airo:evidenceText "[3185] The AI version of Hanks was created to promote what he called “some dental plan.”" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/25c9dca0567e> a airo:Evidence ;
+    airo:evidenceText "[3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"]" ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/27d328cdd5f9> a airo:Evidence ;
+    airo:evidenceText "Celebrities warn followers not to be duped by AI deepfakes" ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/28260caf976c> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/29ef928d1b5f> a airo:Evidence ;
+    airo:evidenceText "[3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"] [3184] A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/2c27df374e18> a airo:Evidence ;
+    airo:evidenceText "The evidence does not provide any specific action or role for Scott Galloway in the text." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/36af2ab5b572> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/389b2df04a48> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/3a579800d50c> a airo:Evidence ;
+    airo:evidenceText "[3185] Member of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/43db827a23c8> a airo:Evidence ;
+    airo:evidenceText "[3185] The AI version of Hanks was created to promote what he called “some dental plan.”" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/5814e6323b68> a airo:Evidence ;
+    airo:evidenceText "[3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"] [3184] A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/589d0d1a6c86> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/5ca719cec98d> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/5d54f03c6a73> a airo:Evidence ;
+    airo:evidenceText "Academy Award winner Tom Hanks warned his 9.5 million followers of a similar scam Sunday." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/712160634834> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/7dc44468f4d4> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/7e8092dd4ec1> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/8ce37739d5ab> a airo:Evidence ;
+    airo:evidenceText "[3185] Meanwhile, the Writer’s Guild strike has finally ended, with negotiated terms for AI use in written material in the entertainment industry." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/94dc463c2d9b> a airo:Evidence ;
+    airo:evidenceText "TikTok deepfakes: MrBeast, Tom Hanks, Gayle King; call for ban" ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/abc28d8f61d1> a airo:Evidence ;
+    airo:evidenceText "Gayle King slams AI advert that uses manipulated video of her" ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/abfc19f7e5b4> a airo:Evidence ;
+    airo:evidenceText "[3185] Actor Tom Hanks, YouTube personality MrBeast and American broadcast journalist Gayle King have all recently tried to put an end to deep fakes of themselves." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/b1e8f74bb9d9> a airo:Evidence ;
+    airo:evidenceText "Tom Hanks, MrBeast and other celebrities warn over AI deep fake scams" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/be518d13f37c> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/be8cb5fa8e1b> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/c0734e16a56f> a airo:Evidence ;
+    airo:evidenceText "[3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"] [3184] A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/c60d905babd3> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/cadc5babab38> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/ced65fe12b3a> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/d65f0226a13f> a airo:Evidence ;
+    airo:evidenceText "[3185] Members of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/da9343cced07> a airo:Evidence ;
+    airo:evidenceText "[3185] The AI version of Hanks was created to promote what he called “some dental plan.”" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/db92f09c355d> a airo:Evidence ;
+    airo:evidenceText "[3182] Gayle King has hit out at an AI generated advert that manipulated a video of her to advertise its weight loss services." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/e641e83a8766> a airo:Evidence ;
+    airo:evidenceText "[3185] The AI version of Hanks was created to promote what he called “some dental plan.”" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/ea8133344aa7> a airo:Evidence ;
+    airo:evidenceText "[3185] Meanwhile, the Writer’s Guild strike has finally ended, with negotiated terms for AI use in written material in the entertainment industry." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/ef0916a878c6> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/f0e0732242f7> a airo:Evidence ;
+    airo:evidenceText "[3183] Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/f79fc82f76b5> a airo:Evidence ;
+    airo:evidenceText "The CBS host, 68, warned fans not to be fooled by the deepfake video, which has appeared across Instagram." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/fdc20966e806> a airo:Evidence ;
+    airo:evidenceText "[3185] Members of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/fe77b790f56b> a airo:Evidence ;
+    airo:evidenceText "[3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"] [3184] A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/ffc8818d84c5> a airo:Evidence ;
+    airo:evidenceText "[3185] Members of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer. [3185] Meanwhile, the Writer’s Guild strike has finally ended, with negotiated terms for AI use in written material in the entertainment industry." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/Consequence/987a6f695db2> a airo:Consequence ;
+    rdfs:label "Public figures must actively denounce unauthorized AI-generated impersonations of themselves" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/019fcd41a2e0> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/16215d2a37da> .
+
+<https://w3id.org/airo/incident/Impact/16215d2a37da> a airo:Impact ;
+    rdfs:label "Potential reputational damage to celebrities and financial harm to consumers被骗" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/2ce825fe82c9> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3525c5b8ebbe> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> .
+
+<https://w3id.org/airo/incident/NewsReport/3181> a airo:NewsReport ;
+    rdfs:label "Gayle King fumes over manipulated AI video of her endorsing weight loss company: 'Don’t be fooled’" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "American television personality Gayle King has [warned her followers](https://www.foxnews.com/media) about the dangers of artificial intelligence (AI) after she became the victim of a manipulated vide" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/88bfa025f661> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> .
+
+<https://w3id.org/airo/incident/NewsReport/3182> a airo:NewsReport ;
+    rdfs:label "Gayle King slams AI advert that uses manipulated video of her" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "[Gayle King](/tvshowbiz/gayle-king/index.html) has hit out at an [AI](/sciencetech/ai/index.html) generated advert that manipulated a video of her to advertise its [weight loss](/news/weight_loss/inde" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e347f6e975cc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/NewsReport/3183> a airo:NewsReport ;
+    rdfs:label "Celebrities warn followers not to be duped by AI deepfakes" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "On Monday, a \"CBS Mornings\" co-host warned thousands of social media followers that an AI-rendered image of her was falsely promoting a product that she has no connection with. A day earlier, an Oscar" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/56b0c71a89c4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/NewsReport/3184> a airo:NewsReport ;
+    rdfs:label "TikTok deepfakes: MrBeast, Tom Hanks, Gayle King; call for ban" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """A number of [TikTok](https://9to5mac.com/guides/tiktok/) deepfakes have been called out by the celebrities whose likenesses have been stolen. These include MrBeast, Tom Hanks, and Gayle King.
+
+The fak""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60ae55c75da1> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/NewsReport/3185> a airo:NewsReport ;
+    rdfs:label "Tom Hanks, MrBeast and other celebrities warn over AI deep fake scams" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Artificial intelligence (AI) has been a major talking point in Hollywood throughout 2023 and continues to be so as multiple celebrities have come forth denouncing the use of the likeness in AI deep fa" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/466eb4150294> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/Stakeholder/02fb9bf1ec62> a airo:Stakeholder ;
+    rdfs:label "Instagram" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Instagram" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5bcce5a294ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> .
+
+<https://w3id.org/airo/incident/Stakeholder/116701baa48c> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Open AI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/Stakeholder/153e785f5cfd> a airo:Stakeholder ;
+    rdfs:label "SAG-AFTRA" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Screen Actors Guild-American Federation of Television and Radio Artists" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b8845e871936> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/Stakeholder/43f15155d6e2> a airo:Stakeholder ;
+    rdfs:label "Writers Guild of America" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Writer’s Guild" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/817937619538> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3185> .
+
+<https://w3id.org/airo/incident/Stakeholder/6156760e5aae> a airo:Stakeholder ;
+    rdfs:label "The Authors Guild" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Authors Guild" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/226b858bd217> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/Stakeholder/61d3b0852239> a airo:Stakeholder ;
+    rdfs:label "Gayle King" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gayle King" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/65aa010b5133>,
+        <https://w3id.org/airo/incident/evidence/7322c38579e7>,
+        <https://w3id.org/airo/incident/evidence/777e098afe17>,
+        <https://w3id.org/airo/incident/evidence/a4e0cb210646>,
+        <https://w3id.org/airo/incident/evidence/e315da7ba2e8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3183>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/63b393793c37> a airo:Stakeholder ;
+    rdfs:label "Scott Galloway" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "NYU professor Scott Galloway" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7a5b1e134c11> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/Stakeholder/7b1a66c157a4> a airo:Stakeholder ;
+    rdfs:label "Tom Hanks" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Tom Hanks" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5d54f03c6a73>,
+        <https://w3id.org/airo/incident/evidence/65aa010b5133>,
+        <https://w3id.org/airo/incident/evidence/a4e0cb210646>,
+        <https://w3id.org/airo/incident/evidence/ebf794879686>,
+        <https://w3id.org/airo/incident/evidence/fb7924988916> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3183>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/7c68dd01d304> a airo:Stakeholder ;
+    rdfs:label "MrBeast" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MrBeast" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9>,
+        <https://w3id.org/airo/incident/evidence/65aa010b5133>,
+        <https://w3id.org/airo/incident/evidence/77eeda06227d>,
+        <https://w3id.org/airo/incident/evidence/a4e0cb210646> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3183>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> ;
+    airo:hasSupportCount 4 .
+
+<https://w3id.org/airo/incident/Stakeholder/891ea4487ee6> a airo:Stakeholder ;
+    rdfs:label "TikTok" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "TikTok" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/032088e80ec9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> .
+
+<https://w3id.org/airo/incident/Stakeholder/a5d5c7221cac> a airo:Stakeholder ;
+    rdfs:label "Meta" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Meta" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> .
+
+<https://w3id.org/airo/incident/Stakeholder/c3f660b2a736> a airo:Stakeholder ;
+    rdfs:label "Screen Actors Guild-American Federation of Television and Radio Artists" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "SAG-AFTRA" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9f40b6235e5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> .
+
+<https://w3id.org/airo/incident/Stakeholder/cbf24f599214> a airo:Stakeholder ;
+    rdfs:label "CBS Mornings" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CBS Mornings" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5999e9355c45> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/Stakeholder/e817a6014d4b> a airo:Stakeholder ;
+    rdfs:label "Artipet" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Artipet" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd>,
+        <https://w3id.org/airo/incident/evidence/5bcce5a294ec> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182> ;
+    airo:hasSupportCount 2 ;
+    airo:provides <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/Stakeholder/ecd20c716fe1> a airo:Stakeholder ;
+    rdfs:label "CBS News" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CBS News" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7322c38579e7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3183> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> .
+
+<https://w3id.org/airo/incident/evidence/0846425c2cad> a airo:Evidence ;
+    airo:evidenceText "The AI version of Hanks was created to promote what he called “some dental plan.”" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/38b88b60998a> a airo:Evidence ;
+    airo:evidenceText "TikTok said that it had removed the video, and pointed to its policy requiring the disclosure of synthetic or manipulated media." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/45054a99edb2> a airo:Evidence ;
+    airo:evidenceText "On Oct. 3, YouTube personality James Donaldson, known as MrBeast, took to social media platform X (formerly Twitter) to denounce an AI-generated deep fake of himself." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/466eb4150294> a airo:Evidence ;
+    airo:evidenceText "Tom Hanks, MrBeast and other celebrities warn over AI deep fake scams" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/4b0e87668a66> a airo:Evidence ;
+    airo:evidenceText "A deepfake is a video in which generative AI is used to fake footage of an individual, usually a celebrity, politician, or other public figure." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/4bddbe2bb9c9> a airo:Evidence ;
+    airo:evidenceText "On Monday, a \"CBS Mornings\" co-host warned thousands of social media followers that an AI-rendered image of her was falsely promoting a product that she has no connection with." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/4c278b5313ca> a airo:Evidence ;
+    airo:evidenceText "[3185] Actor Tom Hanks, YouTube personality MrBeast and American broadcast journalist Gayle King have all recently tried to put an end to deep fakes of themselves. [3181] On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"]" ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/4c395bf78223> a airo:Evidence ;
+    airo:evidenceText "The CBS host, 68, warned fans not to be fooled by the deepfake video, which has appeared across Instagram." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/56b0c71a89c4> a airo:Evidence ;
+    airo:evidenceText "Celebrities warn followers not to be duped by AI deepfakes" ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/60a1e62142d3> a airo:Evidence ;
+    airo:evidenceText "[3185] Members of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer. [3185] Meanwhile, the Writer’s Guild strike has finally ended, with negotiated terms for AI use in written material in the entertainment industry." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/60ae55c75da1> a airo:Evidence ;
+    airo:evidenceText "TikTok deepfakes: MrBeast, Tom Hanks, Gayle King; call for ban" ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/6beb61b4c95f> a airo:Evidence ;
+    airo:evidenceText "On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"]" ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/76824fe37f80> a airo:Evidence ;
+    airo:evidenceText "Celebrities warn followers not to be duped by AI deepfakes" ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/8458a1233bfc> a airo:Evidence ;
+    airo:evidenceText "A day earlier, an Oscar-winning actor told people to \"beware\" of an AI image of himself floating around on the internet." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/873391921c46> a airo:Evidence ;
+    airo:evidenceText "The same day, a YouTube star with 188 million followers said AI-doctored content was trying to shill for a \"scam\" using his likeness." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/88bfa025f661> a airo:Evidence ;
+    airo:evidenceText "Gayle King fumes over manipulated AI video of her endorsing weight loss company: 'Don’t be fooled’" ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/91ad3b56f7a4> a airo:Evidence ;
+    airo:evidenceText "Some schools have banned access to ChatGPT, an AI bot that can churn out responses or answers to students' schoolwork in mere moments." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/977ca8d18840> a airo:Evidence ;
+    airo:evidenceText "The fake video features a genuine clip of King that appears to have been dubbed with an AI generated voice." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/b34d47f6d8d7> a airo:Evidence ;
+    airo:evidenceText "Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/c3e8a103bfa3> a airo:Evidence ;
+    airo:evidenceText "[3182] Gayle King has hit out at an AI generated advert that manipulated a video of her to advertise its weight loss services. [3183] YouTube star MrBeast, whose real name is Jimmy Donaldson, shared an AI-generated video of himself Sunday. [3181] A day earlier, actor Tom Hanks warned that someone used the technology to create a video of him touting the benefits of a dental plan." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/d81369049be7> a airo:Evidence ;
+    airo:evidenceText "I posted this video promoting my radio show on August 31 (swipe to see the original), and they’ve manipulated my voice and video to make it seem like I’m promoting it." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/e347f6e975cc> a airo:Evidence ;
+    airo:evidenceText "Gayle King slams AI advert that uses manipulated video of her" ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/e3a3181b7915> a airo:Evidence ;
+    airo:evidenceText "The post, apparently from a company named Artipet, uses King's likeness and voice to try and sell weight loss products." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/efe94afe9e6c> a airo:Evidence ;
+    airo:evidenceText "The audio either splices together actual words and phrases from many hours of source footage, or generates realistic impersonations of the voice from the same training data." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/Risk/bf0d5eef1f51> a airo:Risk ;
+    rdfs:label "Risk of unauthorized use of celebrity likenesses for deceptive commercial purposes" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/232e385083aa> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/987a6f695db2> .
+
+<https://w3id.org/airo/incident/evidence/019fcd41a2e0> a airo:Evidence ;
+    airo:evidenceText "Actor Tom Hanks, YouTube personality MrBeast and American broadcast journalist Gayle King have all recently tried to put an end to deep fakes of themselves." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/232e385083aa> a airo:Evidence ;
+    airo:evidenceText "A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen. These include MrBeast, Tom Hanks, and Gayle King." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/3525c5b8ebbe> a airo:Evidence ;
+    airo:evidenceText "American television personality Gayle King has warned her followers about the dangers of artificial intelligence (AI) after she became the victim of a manipulated video." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/a4e0cb210646> a airo:Evidence ;
+    airo:evidenceText "A number of TikTok deepfakes have been called out by the celebrities whose likenesses have been stolen. These include MrBeast, Tom Hanks, and Gayle King." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/c2761eeaee6c> a airo:Evidence ;
+    airo:evidenceText "Anybody can now re-create themselves at any age they are by way of AI or deepfake technology, Hanks told Buxton." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/226b858bd217> a airo:Evidence ;
+    airo:evidenceText "And earlier this month, several high profile authors including George R.R. Martin and Jodi Picoult partnered with The Authors Guild and announced they are suing Open AI for the same reason." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/5999e9355c45> a airo:Evidence ;
+    airo:evidenceText "The sponsored post appeared on the feed of many of the \"CBS Mornings'\" host's one million followers." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/777e098afe17> a airo:Evidence ;
+    airo:evidenceText "Gayle King has hit out at an AI generated advert that manipulated a video of her to advertise its weight loss services." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/7a5b1e134c11> a airo:Evidence ;
+    airo:evidenceText "TNW reports NYU professor Scott Galloway telling a conference in Helsinki that the app was a threat to national security." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/817937619538> a airo:Evidence ;
+    airo:evidenceText "Meanwhile, the Writer’s Guild strike has finally ended, with negotiated terms for AI use in written material in the entertainment industry." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/aa91f62e2933> a airo:Evidence ;
+    airo:evidenceText "A deepfake is a video in which generative AI is used to fake footage of an individual, usually a celebrity, politician, or other public figure." ;
+    airo:sourceDocId "3184" .
+
+<https://w3id.org/airo/incident/evidence/b8845e871936> a airo:Evidence ;
+    airo:evidenceText "Members of the Screen Actors Guild-American Federation of Television and Radio Artists have included AI as an issue in their strike, which has been ongoing since the summer." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/evidence/b9f40b6235e5> a airo:Evidence ;
+    airo:evidenceText "The use of AI is among the issues on the bargaining table between the Screen Actors Guild-American Federation of Television and Radio Artists (SAG-AFTRA) and major Hollywood studios." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/e315da7ba2e8> a airo:Evidence ;
+    airo:evidenceText "American television personality Gayle King has warned her followers about the dangers of artificial intelligence (AI) after she became the victim of a manipulated video." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/ebf794879686> a airo:Evidence ;
+    airo:evidenceText "It comes just a day after Tom Hanks warned that an 'AI version' of his image was being used to sell a dental plan." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/fb7924988916> a airo:Evidence ;
+    airo:evidenceText "A day earlier, actor Tom Hanks warned that someone used the technology to create a video of him touting the benefits of a dental plan." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/7322c38579e7> a airo:Evidence ;
+    airo:evidenceText "Gayle King of CBS News posted a warning to Instagram on Monday, sharing a snippet of a video that used her likeness for a purported weight loss product." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/AISystem/7fe1025fe86f> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/682ac555e7e6>,
+        <https://w3id.org/airo/incident/AICapability/7efc4d503efa>,
+        <https://w3id.org/airo/incident/AICapability/a4c16ba2337a>,
+        <https://w3id.org/airo/incident/AICapability/a6d600b558c9>,
+        <https://w3id.org/airo/incident/AICapability/bfbaec5c4d73>,
+        <https://w3id.org/airo/incident/AICapability/d550848921c7>,
+        <https://w3id.org/airo/incident/AICapability/f57887b91ca5>,
+        <https://w3id.org/airo/incident/Purpose/1ad47c204103> ;
+    airo:hasDescription "Chat GPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4d1c6883d74b>,
+        <https://w3id.org/airo/incident/evidence/91ad3b56f7a4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3183> ;
+    airo:hasSupportCount 2 ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/4b6e27a01268>,
+        <https://w3id.org/airo/incident/AITechnique/97d11077606c>,
+        <https://w3id.org/airo/incident/AITechnique/e5939770531b>,
+        <https://w3id.org/airo/incident/AITechnique/ff7b7498f724> .
+
+<https://w3id.org/airo/incident/AISystem/986dbe5971ec> a airo:AISystem ;
+    rdfs:label "TikTok" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "TikTok" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/38b88b60998a> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3184> .
+
+<https://w3id.org/airo/incident/evidence/415ad34c84dd> a airo:Evidence ;
+    airo:evidenceText "The post, apparently from a company named Artipet, uses King's likeness and voice to try and sell weight loss products." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/evidence/77eeda06227d> a airo:Evidence ;
+    airo:evidenceText "YouTube star MrBeast, whose real name is Jimmy Donaldson, shared an AI-generated video of himself Sunday." ;
+    airo:sourceDocId "3183" .
+
+<https://w3id.org/airo/incident/evidence/5bcce5a294ec> a airo:Evidence ;
+    airo:evidenceText "A video of King has circulated on Instagram in which she appeared to promote various weight loss products from a company known as Artipet." ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/032088e80ec9> a airo:Evidence ;
+    airo:evidenceText "On Sunday, YouTube personality MrBeast slammed a TikTok video that seemed to show him offering 2$ iPhones to fortunate viewers, calling it a [\"deepfake scam ad.\"]" ;
+    airo:sourceDocId "3181" .
+
+<https://w3id.org/airo/incident/evidence/4d1c6883d74b> a airo:Evidence ;
+    airo:evidenceText "In July it emerged that Sarah Silverman hopes to sue Meta and Chat GPT's parent company Open AI over claims their AI language models were trained on her copyrighted material." ;
+    airo:sourceDocId "3182" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_247> a airo:AIRiskIncident ;
+    rdfs:label "Celebrities warn followers not to be duped by AI deepfakes" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/987a6f695db2> ;
+    airo:hasDescription "pred_247" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/ef4d076610dc>,
+        <https://w3id.org/airo/incident/Domain/99bc2f47fdab>,
+        <https://w3id.org/airo/incident/evidence/137354096e94>,
+        <https://w3id.org/airo/incident/evidence/27d328cdd5f9>,
+        <https://w3id.org/airo/incident/evidence/94dc463c2d9b>,
+        <https://w3id.org/airo/incident/evidence/abc28d8f61d1>,
+        <https://w3id.org/airo/incident/evidence/b1e8f74bb9d9> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/16215d2a37da> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/3181>,
+        <https://w3id.org/airo/incident/NewsReport/3182>,
+        <https://w3id.org/airo/incident/NewsReport/3183>,
+        <https://w3id.org/airo/incident/NewsReport/3184>,
+        <https://w3id.org/airo/incident/NewsReport/3185> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/bf0d5eef1f51> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3181>,
+        <https://w3id.org/airo/incident/document/3182>,
+        <https://w3id.org/airo/incident/document/3183>,
+        <https://w3id.org/airo/incident/document/3184>,
+        <https://w3id.org/airo/incident/document/3185> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/7fe1025fe86f>,
+        <https://w3id.org/airo/incident/AISystem/986dbe5971ec>,
+        <https://w3id.org/airo/incident/AISystem/f113f9ded7a7> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/02fb9bf1ec62>,
+        <https://w3id.org/airo/incident/Stakeholder/116701baa48c>,
+        <https://w3id.org/airo/incident/Stakeholder/153e785f5cfd>,
+        <https://w3id.org/airo/incident/Stakeholder/43f15155d6e2>,
+        <https://w3id.org/airo/incident/Stakeholder/6156760e5aae>,
+        <https://w3id.org/airo/incident/Stakeholder/61d3b0852239>,
+        <https://w3id.org/airo/incident/Stakeholder/63b393793c37>,
+        <https://w3id.org/airo/incident/Stakeholder/7b1a66c157a4>,
+        <https://w3id.org/airo/incident/Stakeholder/7c68dd01d304>,
+        <https://w3id.org/airo/incident/Stakeholder/891ea4487ee6>,
+        <https://w3id.org/airo/incident/Stakeholder/a5d5c7221cac>,
+        <https://w3id.org/airo/incident/Stakeholder/c3f660b2a736>,
+        <https://w3id.org/airo/incident/Stakeholder/cbf24f599214>,
+        <https://w3id.org/airo/incident/Stakeholder/e817a6014d4b>,
+        <https://w3id.org/airo/incident/Stakeholder/ecd20c716fe1> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/9001834347ba> .
+
+<https://w3id.org/airo/incident/evidence/65aa010b5133> a airo:Evidence ;
+    airo:evidenceText "Actor Tom Hanks, YouTube personality MrBeast and American broadcast journalist Gayle King have all recently tried to put an end to deep fakes of themselves." ;
+    airo:sourceDocId "3185" .
+
+<https://w3id.org/airo/incident/AISystem/f113f9ded7a7> a airo:AISystem ;
+    rdfs:label "Artipet AI advert" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "AI generated advert" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/415ad34c84dd> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/3182> ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/c8861990ae47> .
+

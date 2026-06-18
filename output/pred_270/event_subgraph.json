@@ -1,0 +1,4412 @@
+{
+  "event_id": "pred_270",
+  "incident_node": {
+    "id": "pred_270",
+    "name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_270",
+    "evidence": [
+      {
+        "evidence_id": "5e479163814c",
+        "evidence_sentence": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "e3f51e26dec4",
+        "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+        "source_doc_id": "4290",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "d7ade8abd0a2",
+        "evidence_sentence": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+        "source_doc_id": "4291",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "f8a4ace14d2b",
+        "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "5a761c6d340b",
+        "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+        "source_doc_id": "5350",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "4289",
+      "4290",
+      "4291",
+      "5345",
+      "5350"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_270",
+      "name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_270",
+      "evidence": [
+        {
+          "evidence_id": "5e479163814c",
+          "evidence_sentence": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "e3f51e26dec4",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "d7ade8abd0a2",
+          "evidence_sentence": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "f8a4ace14d2b",
+          "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "5a761c6d340b",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289",
+        "4290",
+        "4291",
+        "5345",
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "df14bdeb86be",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289",
+        "4290",
+        "4291"
+      ],
+      "attributes": {
+        "report_count": 3
+      },
+      "reasoning": null
+    },
+    {
+      "id": "8f6f5f7159e3",
+      "name": "aiaaic",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiaaic",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345",
+        "5350"
+      ],
+      "attributes": {
+        "report_count": 2
+      },
+      "reasoning": null
+    },
+    {
+      "id": "4289",
+      "name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "entity_type": "NewsReport",
+      "description": "We are all vulnerable to the rapid spread of phone scams – including, it seems, world leaders. Thailand’s prime minister has revealed she got a call from an AI system, demanding money in the voice of ",
+      "evidence": [
+        {
+          "evidence_id": "ba68e136dde0",
+          "evidence_sentence": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {
+        "url": "https://www.cnn.com/2025/01/16/asia/thailand-prime-minister-scam-call-intl-hnk/index.html",
+        "publish_time": "2025-01-16T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "4290",
+      "name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "entity_type": "NewsReport",
+      "description": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.\n\nPhone scams are one of the widespread problems around the world, with many cases of call centers in different countries de",
+      "evidence": [
+        {
+          "evidence_id": "3c645f945947",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "attributes": {
+        "url": "https://www.ndtv.com/world-news/thailands-prime-minister-targeted-by-ai-phone-scam-mimicking-world-leaders-7492354",
+        "publish_time": "2025-01-17T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "4291",
+      "name": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+      "entity_type": "NewsReport",
+      "description": "Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.\n\nSpeaking at a policy",
+      "evidence": [
+        {
+          "evidence_id": "74f9c9cd5f94",
+          "evidence_sentence": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "attributes": {
+        "url": "https://www.nationthailand.com/news/general/40045195",
+        "publish_time": "2025-01-15T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "5345",
+      "name": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+      "entity_type": "NewsReport",
+      "description": "Inappropriate\nMisinformation\nDistracting\nThai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam\nThailand’s Prime Minister Paetongtarn Shinawatra on Jan 15 warn",
+      "evidence": [
+        {
+          "evidence_id": "c3d41da2cc5b",
+          "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {
+        "url": "https://www.straitstimes.com/asia/se-asia/thai-pm-paetongtarn-almost-fooled-by-asean-leader-seeking-money-in-ai-voice-scam",
+        "publish_time": "2025-01-31",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "5350",
+      "name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "entity_type": "NewsReport",
+      "description": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders\nPaetongtarn identified the fake voice but expressed surprise at the scam's sophistication, underscoring the growing threat o",
+      "evidence": [
+        {
+          "evidence_id": "ba9f0b5253b7",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {
+        "url": "https://www.ndtv.com/world-news/thailands-prime-minister-targeted-by-ai-phone-scam-mimicking-world-leaders-7492354",
+        "publish_time": "2025-01-17",
+        "language": "zh"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "d8a741738df1",
+      "name": "AI-driven voice cloning",
+      "entity_type": "AITechnique",
+      "description": "AI-driven phone scam",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "AI-driven phone scam",
+            "start": 55,
+            "end": 75
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "345d88023b2c",
+      "name": "Paetongtarn Shinawatra",
+      "entity_type": "Stakeholder",
+      "description": "Paetongtarn Shinawatra",
+      "evidence": [
+        {
+          "evidence_id": "0c16626527c1",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 426,
+            "end": 448
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "84937438577c",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+            "start": 542,
+            "end": 590
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 236,
+            "end": 258
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "0fb6501e012f",
+          "evidence_sentence": "Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 15,
+            "end": 37
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "8d5125773e1b",
+          "evidence_sentence": "Thailand’s Prime Minister Paetongtarn Shinawatra on Jan 15 warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an Asean leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Thai PM Paetongtarn",
+            "start": 41,
+            "end": 60
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 5,
+      "source_doc_ids": [
+        "4291",
+        "4290",
+        "5345",
+        "4289",
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1804db392056",
+      "name": "Thailand",
+      "entity_type": "Stakeholder",
+      "description": "Thailand",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Thailand",
+            "start": 0,
+            "end": 8
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2e25e750a3f6",
+      "name": "artificial intelligence",
+      "entity_type": "AITechnique",
+      "description": "AI",
+      "evidence": [
+        {
+          "evidence_id": "81def0f3a0a9",
+          "evidence_sentence": "They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it. I was taken aback for a moment and realised something was off.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "AI",
+            "start": 38,
+            "end": 40
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "artificial intelligence",
+            "start": 443,
+            "end": 466
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 2,
+      "source_doc_ids": [
+        "5345",
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "cc5b9a31f99a",
+      "name": "CNN",
+      "entity_type": "Stakeholder",
+      "description": "CNN",
+      "evidence": [
+        {
+          "evidence_id": "059eb7323ce7",
+          "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "CNN",
+            "start": 986,
+            "end": 989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0ab1a8859ca8",
+      "name": "AI voice cloning system",
+      "entity_type": "AISystem",
+      "description": "an AI system",
+      "evidence": [
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "an AI system",
+            "start": 154,
+            "end": 166
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "439a7e525ce4",
+      "name": "Voice Engine",
+      "entity_type": "AISystem",
+      "description": "voice replication tool",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "voice replication tool",
+            "start": 2602,
+            "end": 2624
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "9a8295a2b77e",
+      "name": "ChatGPT",
+      "entity_type": "AISystem",
+      "description": "ChatGPT",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "ChatGPT",
+            "start": 2579,
+            "end": 2586
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7d24292f300a",
+      "name": "OpenAI",
+      "entity_type": "Stakeholder",
+      "description": "OpenAI",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "OpenAI",
+            "start": 2438,
+            "end": 2444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ae58cb153e1d",
+      "name": "Prasert Chantararuangthong",
+      "entity_type": "Stakeholder",
+      "description": "Prasert Chantararuangthong",
+      "evidence": [
+        {
+          "evidence_id": "f7c1f35c2bb1",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Prasert Chantararuangthong",
+            "start": 1448,
+            "end": 1474
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "34ee35111578",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+            "start": 1637,
+            "end": 1700
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 2,
+      "source_doc_ids": [
+        "4291",
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "49a6f3317946",
+      "name": "Call Centre Gang",
+      "entity_type": "Stakeholder",
+      "description": "call centre gang",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "call centre gang",
+            "start": 420,
+            "end": 436
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c3528f485633",
+      "name": "Neighbouring Country's Leader",
+      "entity_type": "Stakeholder",
+      "description": "neighbouring country’s leader",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "neighbouring country’s leader",
+            "start": 491,
+            "end": 520
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "487750433573",
+      "name": "AI voice scam",
+      "entity_type": "AITechnique",
+      "description": "AI voice scam",
+      "evidence": [
+        {
+          "evidence_id": "8a9142f78a7c",
+          "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "AI voice scam",
+            "start": 123,
+            "end": 136
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "d1520b0d5a48",
+      "name": "voice generation",
+      "entity_type": "AICapability",
+      "description": "voice clip",
+      "evidence": [
+        {
+          "evidence_id": "231d07592055",
+          "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "voice clip",
+            "start": 647,
+            "end": 657
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "cf16feee1d23",
+      "name": "voice mimicry",
+      "entity_type": "AICapability",
+      "description": "mimic the voice",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "mimic the voice",
+            "start": 470,
+            "end": 485
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "b658177454a6",
+      "name": "Line",
+      "entity_type": "AISystem",
+      "description": "Line",
+      "evidence": [
+        {
+          "evidence_id": "231d07592055",
+          "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Line",
+            "start": 700,
+            "end": 704
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "3b41d4f24074",
+      "name": "Paetongtarn Shinawatra_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "121821c8feb3",
+          "evidence_sentence": "[5350] Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": "She was directly targeted and nearly deceived by the AI scam, making her an affected individual."
+    },
+    {
+      "id": "be5bffbfc198",
+      "name": "Thailand_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "b1ad29216da4",
+          "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": "The scam targeted the country through its leader, attempting to defraud national funds, making the state an affected party."
+    },
+    {
+      "id": "8a4254c195b7",
+      "name": "OpenAI_AIDeveloper",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "66f50e7cf2d6",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": "OpenAI developed the Voice Engine tool, which is a type of AI voice cloning system mentioned in the context of the scam."
+    },
+    {
+      "id": "a3329f6b6b64",
+      "name": "Call Centre Gang_AIDeployer",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "8bfabd7dff71",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": "The gang deployed and used the AI voice cloning system to execute the scam."
+    },
+    {
+      "id": "e995750eb444",
+      "name": "Prasert Chantararuangthong_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0c9c62b37250",
+          "evidence_sentence": "[5345] She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": "As a minister tasked with investigating the AI scam, he is performing a regulatory oversight function."
+    },
+    {
+      "id": "03c5bfcb11db",
+      "name": "CNN_Stakeholder",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d63dc4340053",
+          "evidence_sentence": "[5350] According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": "CNN is reporting on the event but does not fit the roles of developer, provider, deployer, user, regulator, or directly affected actor."
+    },
+    {
+      "id": "982db843fd3e",
+      "name": "AI-driven voice cloning technology enabling realistic voice mimicry",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "131197150cd4",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ee42ff075067",
+      "name": "Risk of AI-powered voice scams targeting high-profile individuals for financial fraud",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "cb7754f11a90",
+          "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "cfa5dd9d4aaf",
+      "name": "Organized criminal group (call centre gang) employing AI for fraud",
+      "entity_type": "Threat",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "c209ee78dd81",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country's leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0d1d0b55abad",
+      "name": "Scammer demanded money using a fake voice recording sent via chat application",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f7b0f4553f67",
+          "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "95bb9dc79c16",
+      "name": "Potential diplomatic and financial consequences from targeting a head of state with a sophisticated fraud attempt",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "457596773190",
+          "evidence_sentence": "[4291] Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "f66c8728493b",
+      "name": "High-profile government officials (heads of state) targeted by impersonation scams",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "6031c8618333",
+          "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "1e48bfd40c00",
+      "name": "Investigation ordered by government and public warnings issued",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "5426bad595b1",
+          "evidence_sentence": "[4291] She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "836f9755f8cd",
+      "name": "voice impersonation for fraud",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "accdbd40aa48",
+          "evidence_sentence": "[5345] Thailand’s Prime Minister Paetongtarn Shinawatra on Jan 15 warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an Asean leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence states the AI system was used by a scammer to impersonate a leader's voice to demand money, indicating a fraudulent purpose."
+    },
+    {
+      "id": "31c2a3364b1f",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bf23e2b0e1d7",
+          "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "attributes": {},
+      "reasoning": "The AI system was actively used in a real-world scam targeting a person, indicating it was in the deployment phase."
+    },
+    {
+      "id": "35d0e266e112",
+      "name": "finance",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "67938deca137",
+          "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "attributes": {},
+      "reasoning": "The scam's goal was to extort money, placing the impact in the financial domain."
+    },
+    {
+      "id": "cafe4a9f9614",
+      "name": "conduct an investigation into AI-powered scams",
+      "entity_type": "Obligation",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "63f20960466f",
+          "evidence_sentence": "[5345] She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": "The Prime Minister instructed a minister to investigate the incident, imposing a duty on the government to respond."
+    },
+    {
+      "id": "94f58055c44b",
+      "name": "increasing use of AI for sophisticated fraud and impersonation",
+      "entity_type": "Trend",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "051b7b7e9728",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "attributes": {},
+      "reasoning": "The event exemplifies a trend where criminals use advanced AI techniques like voice cloning for targeted scams."
+    }
+  ],
+  "edges": [
+    {
+      "id": "78af6f59e9dc",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasReport",
+      "object_id": "4289",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "ba68e136dde0",
+          "evidence_sentence": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4bd2bcbdbc5e",
+      "subject_id": "df14bdeb86be",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "4289",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1fbb79080019",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasReport",
+      "object_id": "4290",
+      "object_name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "evidence": [
+        {
+          "evidence_id": "3c645f945947",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c0a62d33d4f0",
+      "subject_id": "df14bdeb86be",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "4290",
+      "object_name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "37c201c40c9a",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasReport",
+      "object_id": "4291",
+      "object_name": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+      "evidence": [
+        {
+          "evidence_id": "74f9c9cd5f94",
+          "evidence_sentence": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e1585f8fa820",
+      "subject_id": "df14bdeb86be",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "4291",
+      "object_name": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "25f9ecf1d7de",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasReport",
+      "object_id": "5345",
+      "object_name": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+      "evidence": [
+        {
+          "evidence_id": "c3d41da2cc5b",
+          "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7893f825869c",
+      "subject_id": "8f6f5f7159e3",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "5345",
+      "object_name": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "10cc52190060",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasReport",
+      "object_id": "5350",
+      "object_name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "evidence": [
+        {
+          "evidence_id": "ba9f0b5253b7",
+          "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "413b19efce1e",
+      "subject_id": "8f6f5f7159e3",
+      "subject_name": "aiaaic",
+      "predicate": "hasInformationSource",
+      "object_id": "5350",
+      "object_name": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "62927635b8e7",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "345d88023b2c",
+      "object_name": "Paetongtarn Shinawatra",
+      "evidence": [
+        {
+          "evidence_id": "0c16626527c1",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 426,
+            "end": 448
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "84937438577c",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+            "start": 542,
+            "end": 590
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 236,
+            "end": 258
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "4290",
+        "5345",
+        "4289",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ed53cfb1e5de",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "1804db392056",
+      "object_name": "Thailand",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Thailand",
+            "start": 0,
+            "end": 8
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "86a372f9e62d",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "cc5b9a31f99a",
+      "object_name": "CNN",
+      "evidence": [
+        {
+          "evidence_id": "059eb7323ce7",
+          "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "CNN",
+            "start": 986,
+            "end": 989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7512981d3ac0",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesAISystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "an AI system",
+            "start": 154,
+            "end": 166
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ff0a889a9b63",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesAISystem",
+      "object_id": "439a7e525ce4",
+      "object_name": "Voice Engine",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "voice replication tool",
+            "start": 2602,
+            "end": 2624
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "aabb370a2a86",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesAISystem",
+      "object_id": "9a8295a2b77e",
+      "object_name": "ChatGPT",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "ChatGPT",
+            "start": 2579,
+            "end": 2586
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "502ae384be1a",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "7d24292f300a",
+      "object_name": "OpenAI",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "OpenAI",
+            "start": 2438,
+            "end": 2444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fc453d0316e6",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "ae58cb153e1d",
+      "object_name": "Prasert Chantararuangthong",
+      "evidence": [
+        {
+          "evidence_id": "f7c1f35c2bb1",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Prasert Chantararuangthong",
+            "start": 1448,
+            "end": 1474
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "34ee35111578",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+            "start": 1637,
+            "end": 1700
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ca3c66958008",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "49a6f3317946",
+      "object_name": "Call Centre Gang",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "call centre gang",
+            "start": 420,
+            "end": 436
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a718bed01481",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesStakeholder",
+      "object_id": "c3528f485633",
+      "object_name": "Neighbouring Country's Leader",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "neighbouring country’s leader",
+            "start": 491,
+            "end": 520
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "18d8bcf7afa3",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "involvesAISystem",
+      "object_id": "b658177454a6",
+      "object_name": "Line",
+      "evidence": [
+        {
+          "evidence_id": "231d07592055",
+          "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Line",
+            "start": 700,
+            "end": 704
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "49cf1368c155",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "usesTechnique",
+      "object_id": "d8a741738df1",
+      "object_name": "AI-driven voice cloning",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "AI-driven phone scam",
+            "start": 55,
+            "end": 75
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0ca23977aa49",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "usesTechnique",
+      "object_id": "2e25e750a3f6",
+      "object_name": "artificial intelligence",
+      "evidence": [
+        {
+          "evidence_id": "81def0f3a0a9",
+          "evidence_sentence": "They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it. I was taken aback for a moment and realised something was off.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "AI",
+            "start": 38,
+            "end": 40
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "artificial intelligence",
+            "start": 443,
+            "end": 466
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9339f84fba1f",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "usesTechnique",
+      "object_id": "487750433573",
+      "object_name": "AI voice scam",
+      "evidence": [
+        {
+          "evidence_id": "8a9142f78a7c",
+          "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "AI voice scam",
+            "start": 123,
+            "end": 136
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4ef361a00015",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "hasCapability",
+      "object_id": "d1520b0d5a48",
+      "object_name": "voice generation",
+      "evidence": [
+        {
+          "evidence_id": "231d07592055",
+          "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "voice clip",
+            "start": 647,
+            "end": 657
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "878ee5f2367f",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "hasCapability",
+      "object_id": "cf16feee1d23",
+      "object_name": "voice mimicry",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "mimic the voice",
+            "start": 470,
+            "end": 485
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8817e772dcb3",
+      "subject_id": "3b41d4f24074",
+      "subject_name": "Paetongtarn Shinawatra_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "345d88023b2c",
+      "object_name": "Paetongtarn Shinawatra",
+      "evidence": [
+        {
+          "evidence_id": "0c16626527c1",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 426,
+            "end": 448
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "84937438577c",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+            "start": 542,
+            "end": 590
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 236,
+            "end": 258
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "4290",
+        "5345",
+        "4289",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "28b4388609c3",
+      "subject_id": "3b41d4f24074",
+      "subject_name": "Paetongtarn Shinawatra_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "0c16626527c1",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 426,
+            "end": 448
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "84937438577c",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+            "start": 542,
+            "end": 590
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 236,
+            "end": 258
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "4290",
+        "5345",
+        "4289",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "57f5950e7b63",
+      "subject_id": "3b41d4f24074",
+      "subject_name": "Paetongtarn Shinawatra_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "0c16626527c1",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 426,
+            "end": 448
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "84937438577c",
+          "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+            "start": 542,
+            "end": 590
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "aa2830b6287c",
+          "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "Paetongtarn Shinawatra",
+            "start": 236,
+            "end": 258
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "4290",
+        "5345",
+        "4289",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "06b1fa9a252b",
+      "subject_id": "be5bffbfc198",
+      "subject_name": "Thailand_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "1804db392056",
+      "object_name": "Thailand",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Thailand",
+            "start": 0,
+            "end": 8
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cbbf09897977",
+      "subject_id": "be5bffbfc198",
+      "subject_name": "Thailand_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Thailand",
+            "start": 0,
+            "end": 8
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5c0fa0b77303",
+      "subject_id": "be5bffbfc198",
+      "subject_name": "Thailand_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "ce3dc5d4e217",
+          "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": {
+            "text": "Thailand",
+            "start": 0,
+            "end": 8
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e7feab29ddac",
+      "subject_id": "8a4254c195b7",
+      "subject_name": "OpenAI_AIDeveloper",
+      "predicate": "roleHeldBy",
+      "object_id": "7d24292f300a",
+      "object_name": "OpenAI",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "OpenAI",
+            "start": 2438,
+            "end": 2444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6e4fbbf1a661",
+      "subject_id": "8a4254c195b7",
+      "subject_name": "OpenAI_AIDeveloper",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "OpenAI",
+            "start": 2438,
+            "end": 2444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "14733e3dca8d",
+      "subject_id": "8a4254c195b7",
+      "subject_name": "OpenAI_AIDeveloper",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "f7bee0bbfa61",
+          "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": {
+            "text": "OpenAI",
+            "start": 2438,
+            "end": 2444
+          },
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8e797a69b6c4",
+      "subject_id": "a3329f6b6b64",
+      "subject_name": "Call Centre Gang_AIDeployer",
+      "predicate": "roleHeldBy",
+      "object_id": "49a6f3317946",
+      "object_name": "Call Centre Gang",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "call centre gang",
+            "start": 420,
+            "end": 436
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b8e4ae6bdc91",
+      "subject_id": "a3329f6b6b64",
+      "subject_name": "Call Centre Gang_AIDeployer",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "call centre gang",
+            "start": 420,
+            "end": 436
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7fd655d27c4d",
+      "subject_id": "a3329f6b6b64",
+      "subject_name": "Call Centre Gang_AIDeployer",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "d85e799e2e24",
+          "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "call centre gang",
+            "start": 420,
+            "end": 436
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9b59ce3293a0",
+      "subject_id": "e995750eb444",
+      "subject_name": "Prasert Chantararuangthong_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "ae58cb153e1d",
+      "object_name": "Prasert Chantararuangthong",
+      "evidence": [
+        {
+          "evidence_id": "f7c1f35c2bb1",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Prasert Chantararuangthong",
+            "start": 1448,
+            "end": 1474
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "34ee35111578",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+            "start": 1637,
+            "end": 1700
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a104fbb17c8c",
+      "subject_id": "e995750eb444",
+      "subject_name": "Prasert Chantararuangthong_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "f7c1f35c2bb1",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Prasert Chantararuangthong",
+            "start": 1448,
+            "end": 1474
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "34ee35111578",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+            "start": 1637,
+            "end": 1700
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "cf4a34aceb68",
+      "subject_id": "e995750eb444",
+      "subject_name": "Prasert Chantararuangthong_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "f7c1f35c2bb1",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": {
+            "text": "Prasert Chantararuangthong",
+            "start": 1448,
+            "end": 1474
+          },
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "34ee35111578",
+          "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+          "source_doc_id": "5345",
+          "mention_span": {
+            "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+            "start": 1637,
+            "end": 1700
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "25861119b097",
+      "subject_id": "03c5bfcb11db",
+      "subject_name": "CNN_Stakeholder",
+      "predicate": "roleHeldBy",
+      "object_id": "cc5b9a31f99a",
+      "object_name": "CNN",
+      "evidence": [
+        {
+          "evidence_id": "059eb7323ce7",
+          "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "CNN",
+            "start": 986,
+            "end": 989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3c1fb6385b81",
+      "subject_id": "03c5bfcb11db",
+      "subject_name": "CNN_Stakeholder",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "object_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "evidence": [
+        {
+          "evidence_id": "059eb7323ce7",
+          "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "CNN",
+            "start": 986,
+            "end": 989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "289cbfbfc3a0",
+      "subject_id": "03c5bfcb11db",
+      "subject_name": "CNN_Stakeholder",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "059eb7323ce7",
+          "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+          "source_doc_id": "5350",
+          "mention_span": {
+            "text": "CNN",
+            "start": 986,
+            "end": 989
+          },
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e9fd4a49eec2",
+      "subject_id": "7d24292f300a",
+      "subject_name": "OpenAI",
+      "predicate": "develops",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "303b56172334",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "de88f05393bf",
+      "subject_id": "7d24292f300a",
+      "subject_name": "OpenAI",
+      "predicate": "develops",
+      "object_id": "439a7e525ce4",
+      "object_name": "Voice Engine",
+      "evidence": [
+        {
+          "evidence_id": "77a7f3fdf3e6",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2eda14f5a0d3",
+      "subject_id": "7d24292f300a",
+      "subject_name": "OpenAI",
+      "predicate": "develops",
+      "object_id": "9a8295a2b77e",
+      "object_name": "ChatGPT",
+      "evidence": [
+        {
+          "evidence_id": "c795eb042b1d",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c6e30cac144c",
+      "subject_id": "7d24292f300a",
+      "subject_name": "OpenAI",
+      "predicate": "develops",
+      "object_id": "b658177454a6",
+      "object_name": "Line",
+      "evidence": [
+        {
+          "evidence_id": "80d603aab4b5",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6d95cd9690a2",
+      "subject_id": "49a6f3317946",
+      "subject_name": "Call Centre Gang",
+      "predicate": "deploys",
+      "object_id": "0ab1a8859ca8",
+      "object_name": "AI voice cloning system",
+      "evidence": [
+        {
+          "evidence_id": "f37f92420fc2",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7f4f01a7ee12",
+      "subject_id": "49a6f3317946",
+      "subject_name": "Call Centre Gang",
+      "predicate": "deploys",
+      "object_id": "439a7e525ce4",
+      "object_name": "Voice Engine",
+      "evidence": [
+        {
+          "evidence_id": "8ecb35d6ce3d",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f52ec4d02679",
+      "subject_id": "49a6f3317946",
+      "subject_name": "Call Centre Gang",
+      "predicate": "deploys",
+      "object_id": "9a8295a2b77e",
+      "object_name": "ChatGPT",
+      "evidence": [
+        {
+          "evidence_id": "b628897eb5dd",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ee8cd52f2961",
+      "subject_id": "49a6f3317946",
+      "subject_name": "Call Centre Gang",
+      "predicate": "deploys",
+      "object_id": "b658177454a6",
+      "object_name": "Line",
+      "evidence": [
+        {
+          "evidence_id": "4d26c13e2690",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2002889fc48f",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "isRiskSourceFor",
+      "object_id": "982db843fd3e",
+      "object_name": "AI-driven voice cloning technology enabling realistic voice mimicry",
+      "evidence": [
+        {
+          "evidence_id": "131197150cd4",
+          "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8d372b4ada85",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasRisk",
+      "object_id": "ee42ff075067",
+      "object_name": "Risk of AI-powered voice scams targeting high-profile individuals for financial fraud",
+      "evidence": [
+        {
+          "evidence_id": "cb7754f11a90",
+          "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1bc686cd435d",
+      "subject_id": "982db843fd3e",
+      "subject_name": "AI-driven voice cloning technology enabling realistic voice mimicry",
+      "predicate": "causes",
+      "object_id": "ee42ff075067",
+      "object_name": "Risk of AI-powered voice scams targeting high-profile individuals for financial fraud",
+      "evidence": [
+        {
+          "evidence_id": "cb7754f11a90",
+          "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290",
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c4aa2a269c71",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasConsequence",
+      "object_id": "0d1d0b55abad",
+      "object_name": "Scammer demanded money using a fake voice recording sent via chat application",
+      "evidence": [
+        {
+          "evidence_id": "f7b0f4553f67",
+          "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2dc2c2a27072",
+      "subject_id": "ee42ff075067",
+      "subject_name": "Risk of AI-powered voice scams targeting high-profile individuals for financial fraud",
+      "predicate": "leadsTo",
+      "object_id": "0d1d0b55abad",
+      "object_name": "Scammer demanded money using a fake voice recording sent via chat application",
+      "evidence": [
+        {
+          "evidence_id": "f7b0f4553f67",
+          "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+          "source_doc_id": "5350",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a37aabf44dc2",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasImpact",
+      "object_id": "95bb9dc79c16",
+      "object_name": "Potential diplomatic and financial consequences from targeting a head of state with a sophisticated fraud attempt",
+      "evidence": [
+        {
+          "evidence_id": "457596773190",
+          "evidence_sentence": "[4291] Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "622899112d67",
+      "subject_id": "0d1d0b55abad",
+      "subject_name": "Scammer demanded money using a fake voice recording sent via chat application",
+      "predicate": "impacts",
+      "object_id": "95bb9dc79c16",
+      "object_name": "Potential diplomatic and financial consequences from targeting a head of state with a sophisticated fraud attempt",
+      "evidence": [
+        {
+          "evidence_id": "457596773190",
+          "evidence_sentence": "[4291] Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "5350"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8229d7251c18",
+      "subject_id": "95bb9dc79c16",
+      "subject_name": "Potential diplomatic and financial consequences from targeting a head of state with a sophisticated fraud attempt",
+      "predicate": "affects",
+      "object_id": "f66c8728493b",
+      "object_name": "High-profile government officials (heads of state) targeted by impersonation scams",
+      "evidence": [
+        {
+          "evidence_id": "6031c8618333",
+          "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4291",
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ec6a28462393",
+      "subject_id": "982db843fd3e",
+      "subject_name": "AI-driven voice cloning technology enabling realistic voice mimicry",
+      "predicate": "hasThreat",
+      "object_id": "cfa5dd9d4aaf",
+      "object_name": "Organized criminal group (call centre gang) employing AI for fraud",
+      "evidence": [
+        {
+          "evidence_id": "c209ee78dd81",
+          "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country's leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345",
+        "4289"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "406b344b2366",
+      "subject_id": "1e48bfd40c00",
+      "subject_name": "Investigation ordered by government and public warnings issued",
+      "predicate": "mitigates",
+      "object_id": "ee42ff075067",
+      "object_name": "Risk of AI-powered voice scams targeting high-profile individuals for financial fraud",
+      "evidence": [
+        {
+          "evidence_id": "5426bad595b1",
+          "evidence_sentence": "[4291] She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+          "source_doc_id": "4291",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290",
+        "4291"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ca8a3ffffe1d",
+      "subject_id": "0ab1a8859ca8",
+      "subject_name": "AI voice cloning system",
+      "predicate": "hasCapability",
+      "object_id": "836f9755f8cd",
+      "object_name": "voice impersonation for fraud",
+      "evidence": [
+        {
+          "evidence_id": "accdbd40aa48",
+          "evidence_sentence": "[5345] Thailand’s Prime Minister Paetongtarn Shinawatra on Jan 15 warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an Asean leader.",
+          "source_doc_id": "5345",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "5345"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f3480b98b73d",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasEvidence",
+      "object_id": "31c2a3364b1f",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "bf23e2b0e1d7",
+          "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+          "source_doc_id": "4290",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4290"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "1e53fdbe7f50",
+      "subject_id": "pred_270",
+      "subject_name": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+      "predicate": "hasEvidence",
+      "object_id": "35d0e266e112",
+      "object_name": "finance",
+      "evidence": [
+        {
+          "evidence_id": "67938deca137",
+          "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+          "source_doc_id": "4289",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "4289"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "bd68f281505f",
+      "subject_id": "pred_270",
+      "predicate": "hasReport",
+      "object_id": "4289",
+      "evidence": {
+        "evidence_id": "ba68e136dde0",
+        "evidence_sentence": "Even world leaders receive scam calls. Just ask Thailand’s prime minister",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "38ca1cecae3c",
+      "subject_id": "pred_270",
+      "predicate": "hasReport",
+      "object_id": "4290",
+      "evidence": {
+        "evidence_id": "3c645f945947",
+        "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+        "source_doc_id": "4290",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "dd32721b40d0",
+      "subject_id": "pred_270",
+      "predicate": "hasReport",
+      "object_id": "4291",
+      "evidence": {
+        "evidence_id": "74f9c9cd5f94",
+        "evidence_sentence": "Even I was almost fooled, says Paetongtarn on AI scam encounter",
+        "source_doc_id": "4291",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "bb22a76465e5",
+      "subject_id": "pred_270",
+      "predicate": "hasReport",
+      "object_id": "5345",
+      "evidence": {
+        "evidence_id": "c3d41da2cc5b",
+        "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a4cb0a4f5950",
+      "subject_id": "pred_270",
+      "predicate": "hasReport",
+      "object_id": "5350",
+      "evidence": {
+        "evidence_id": "ba9f0b5253b7",
+        "evidence_sentence": "Thailand's Prime Minister Targeted By AI Phone Scam Mimicking World Leaders",
+        "source_doc_id": "5350",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "9cbd9dee7120",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "0c16626527c1",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 426,
+          "end": 448
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "84be29eb2e08",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "84937438577c",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+          "start": 542,
+          "end": 590
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "7c03e81ac9bc",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "aa2830b6287c",
+        "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 236,
+          "end": 258
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "1f3349105f8f",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "1804db392056",
+      "evidence": {
+        "evidence_id": "ce3dc5d4e217",
+        "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Thailand",
+          "start": 0,
+          "end": 8
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "053ebdaa2d82",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "cc5b9a31f99a",
+      "evidence": {
+        "evidence_id": "059eb7323ce7",
+        "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "CNN",
+          "start": 986,
+          "end": 989
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "5bb9347c98a6",
+      "subject_id": "pred_270",
+      "predicate": "involvesAISystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "aa2830b6287c",
+        "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "an AI system",
+          "start": 154,
+          "end": 166
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "fec3d6a538cb",
+      "subject_id": "pred_270",
+      "predicate": "involvesAISystem",
+      "object_id": "439a7e525ce4",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "voice replication tool",
+          "start": 2602,
+          "end": 2624
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "82f427ffbf73",
+      "subject_id": "pred_270",
+      "predicate": "involvesAISystem",
+      "object_id": "9a8295a2b77e",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "ChatGPT",
+          "start": 2579,
+          "end": 2586
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "6b3b6a1a905b",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "7d24292f300a",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "OpenAI",
+          "start": 2438,
+          "end": 2444
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "bde14645a19f",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "ae58cb153e1d",
+      "evidence": {
+        "evidence_id": "f7c1f35c2bb1",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+        "source_doc_id": "4291",
+        "mention_span": {
+          "text": "Prasert Chantararuangthong",
+          "start": 1448,
+          "end": 1474
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "7c6f8d45700b",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "ae58cb153e1d",
+      "evidence": {
+        "evidence_id": "34ee35111578",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+          "start": 1637,
+          "end": 1700
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "a5a9d97f8f50",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "49a6f3317946",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "call centre gang",
+          "start": 420,
+          "end": 436
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f877dd5a161c",
+      "subject_id": "pred_270",
+      "predicate": "involvesStakeholder",
+      "object_id": "c3528f485633",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "neighbouring country’s leader",
+          "start": 491,
+          "end": 520
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "1aff7517eac0",
+      "subject_id": "pred_270",
+      "predicate": "involvesAISystem",
+      "object_id": "b658177454a6",
+      "evidence": {
+        "evidence_id": "231d07592055",
+        "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "Line",
+          "start": 700,
+          "end": 704
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "fbd8c52af116",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "usesTechnique",
+      "object_id": "d8a741738df1",
+      "evidence": {
+        "evidence_id": "ce3dc5d4e217",
+        "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "AI-driven phone scam",
+          "start": 55,
+          "end": 75
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "ece463f73e03",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "usesTechnique",
+      "object_id": "2e25e750a3f6",
+      "evidence": {
+        "evidence_id": "81def0f3a0a9",
+        "evidence_sentence": "They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it. I was taken aback for a moment and realised something was off.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "AI",
+          "start": 38,
+          "end": 40
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "b14eab5f9583",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "usesTechnique",
+      "object_id": "2e25e750a3f6",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "artificial intelligence",
+          "start": 443,
+          "end": 466
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "2586806f1709",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "usesTechnique",
+      "object_id": "487750433573",
+      "evidence": {
+        "evidence_id": "8a9142f78a7c",
+        "evidence_sentence": "Thai PM Paetongtarn says she was almost fooled by ‘Asean leader’ seeking money in AI voice scam",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "AI voice scam",
+          "start": 123,
+          "end": 136
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "198afe2f17d5",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "hasCapability",
+      "object_id": "d1520b0d5a48",
+      "evidence": {
+        "evidence_id": "231d07592055",
+        "evidence_sentence": "Ms Paetongtarn said the scammer initially sent her a voice clip through a chat application, which was not Line.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "voice clip",
+          "start": 647,
+          "end": 657
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "ae2ee2125587",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "hasCapability",
+      "object_id": "cf16feee1d23",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "mimic the voice",
+          "start": 470,
+          "end": 485
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "465bc62a02dc",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleHeldBy",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "0c16626527c1",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 426,
+          "end": 448
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a9dd0574376f",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleHeldBy",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "84937438577c",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+          "start": 542,
+          "end": 590
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "3147e75992d3",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleHeldBy",
+      "object_id": "345d88023b2c",
+      "evidence": {
+        "evidence_id": "aa2830b6287c",
+        "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 236,
+          "end": 258
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "c2db1860bb5d",
+      "subject_id": "3b41d4f24074",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "0c16626527c1",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 426,
+          "end": 448
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "cc9b4be44861",
+      "subject_id": "3b41d4f24074",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "84937438577c",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+          "start": 542,
+          "end": 590
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "31981c0cc3be",
+      "subject_id": "3b41d4f24074",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "aa2830b6287c",
+        "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 236,
+          "end": 258
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a97470f7aba0",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "0c16626527c1",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 426,
+          "end": 448
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "15daae65b015",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "84937438577c",
+        "evidence_sentence": "Thailand's Prime Minister Paetongtarn Shinawatra recently revealed that she fell victim to an AI-driven phone scam.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "Thailand's Prime Minister Paetongtarn Shinawatra",
+          "start": 542,
+          "end": 590
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "909a25b1a348",
+      "subject_id": "3b41d4f24074",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "aa2830b6287c",
+        "evidence_sentence": "Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "Paetongtarn Shinawatra",
+          "start": 236,
+          "end": 258
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "0f22970cc2a8",
+      "subject_id": "be5bffbfc198",
+      "predicate": "roleHeldBy",
+      "object_id": "1804db392056",
+      "evidence": {
+        "evidence_id": "ce3dc5d4e217",
+        "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Thailand",
+          "start": 0,
+          "end": 8
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c7ae9d9f7266",
+      "subject_id": "be5bffbfc198",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "ce3dc5d4e217",
+        "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Thailand",
+          "start": 0,
+          "end": 8
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "050e0ac90e2a",
+      "subject_id": "be5bffbfc198",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "ce3dc5d4e217",
+        "evidence_sentence": "Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": {
+          "text": "Thailand",
+          "start": 0,
+          "end": 8
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "0b352f366016",
+      "subject_id": "8a4254c195b7",
+      "predicate": "roleHeldBy",
+      "object_id": "7d24292f300a",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "OpenAI",
+          "start": 2438,
+          "end": 2444
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "ccadf4e2765b",
+      "subject_id": "8a4254c195b7",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "OpenAI",
+          "start": 2438,
+          "end": 2444
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "485b8da28b52",
+      "subject_id": "8a4254c195b7",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "f7bee0bbfa61",
+        "evidence_sentence": "Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": {
+          "text": "OpenAI",
+          "start": 2438,
+          "end": 2444
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "7c9c94c1dafb",
+      "subject_id": "a3329f6b6b64",
+      "predicate": "roleHeldBy",
+      "object_id": "49a6f3317946",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "call centre gang",
+          "start": 420,
+          "end": 436
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4bde8ef18e41",
+      "subject_id": "a3329f6b6b64",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "call centre gang",
+          "start": 420,
+          "end": 436
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d45d7dc9cbb2",
+      "subject_id": "a3329f6b6b64",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "d85e799e2e24",
+        "evidence_sentence": "Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "call centre gang",
+          "start": 420,
+          "end": 436
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "1057116f0b4d",
+      "subject_id": "e995750eb444",
+      "predicate": "roleHeldBy",
+      "object_id": "ae58cb153e1d",
+      "evidence": {
+        "evidence_id": "f7c1f35c2bb1",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+        "source_doc_id": "4291",
+        "mention_span": {
+          "text": "Prasert Chantararuangthong",
+          "start": 1448,
+          "end": 1474
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "f751097750f6",
+      "subject_id": "e995750eb444",
+      "predicate": "roleHeldBy",
+      "object_id": "ae58cb153e1d",
+      "evidence": {
+        "evidence_id": "34ee35111578",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+          "start": 1637,
+          "end": 1700
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "606fba1c78f1",
+      "subject_id": "e995750eb444",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "f7c1f35c2bb1",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+        "source_doc_id": "4291",
+        "mention_span": {
+          "text": "Prasert Chantararuangthong",
+          "start": 1448,
+          "end": 1474
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a23629547542",
+      "subject_id": "e995750eb444",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "34ee35111578",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+          "start": 1637,
+          "end": 1700
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "593a367301fc",
+      "subject_id": "e995750eb444",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "f7c1f35c2bb1",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+        "source_doc_id": "4291",
+        "mention_span": {
+          "text": "Prasert Chantararuangthong",
+          "start": 1448,
+          "end": 1474
+        },
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "75d195dac218",
+      "subject_id": "e995750eb444",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "34ee35111578",
+        "evidence_sentence": "She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as Deputy PM, to conduct an investigation.",
+        "source_doc_id": "5345",
+        "mention_span": {
+          "text": "Digital Economy and Society Minister Prasert Chantararuangthong",
+          "start": 1637,
+          "end": 1700
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "a7bdf8fba587",
+      "subject_id": "03c5bfcb11db",
+      "predicate": "roleHeldBy",
+      "object_id": "cc5b9a31f99a",
+      "evidence": {
+        "evidence_id": "059eb7323ce7",
+        "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "CNN",
+          "start": 986,
+          "end": 989
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "ab05beb35ec5",
+      "subject_id": "03c5bfcb11db",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_270",
+      "evidence": {
+        "evidence_id": "059eb7323ce7",
+        "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "CNN",
+          "start": 986,
+          "end": 989
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "6bc4fbebaf38",
+      "subject_id": "03c5bfcb11db",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "059eb7323ce7",
+        "evidence_sentence": "According to CNN, Paetongtarn Shinawatra did not reveal who the computer was mimicking but said she received a message in a voice identical to a well-known leader.",
+        "source_doc_id": "5350",
+        "mention_span": {
+          "text": "CNN",
+          "start": 986,
+          "end": 989
+        },
+        "confidence": 0.8
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "f4dcebcb6767",
+      "subject_id": "7d24292f300a",
+      "predicate": "develops",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "303b56172334",
+        "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "46a614ed3ba5",
+      "subject_id": "7d24292f300a",
+      "predicate": "develops",
+      "object_id": "439a7e525ce4",
+      "evidence": {
+        "evidence_id": "77a7f3fdf3e6",
+        "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "7306a7de7e75",
+      "subject_id": "7d24292f300a",
+      "predicate": "develops",
+      "object_id": "9a8295a2b77e",
+      "evidence": {
+        "evidence_id": "c795eb042b1d",
+        "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "57faae45c4f7",
+      "subject_id": "7d24292f300a",
+      "predicate": "develops",
+      "object_id": "b658177454a6",
+      "evidence": {
+        "evidence_id": "80d603aab4b5",
+        "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "f99d0c5791d4",
+      "subject_id": "49a6f3317946",
+      "predicate": "deploys",
+      "object_id": "0ab1a8859ca8",
+      "evidence": {
+        "evidence_id": "f37f92420fc2",
+        "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "cadec0a92972",
+      "subject_id": "49a6f3317946",
+      "predicate": "deploys",
+      "object_id": "439a7e525ce4",
+      "evidence": {
+        "evidence_id": "8ecb35d6ce3d",
+        "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1dd6778905c7",
+      "subject_id": "49a6f3317946",
+      "predicate": "deploys",
+      "object_id": "9a8295a2b77e",
+      "evidence": {
+        "evidence_id": "b628897eb5dd",
+        "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f5f882f52865",
+      "subject_id": "49a6f3317946",
+      "predicate": "deploys",
+      "object_id": "b658177454a6",
+      "evidence": {
+        "evidence_id": "4d26c13e2690",
+        "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country’s leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "7d897dbd88c4",
+      "subject_id": "pred_270",
+      "predicate": "isRiskSourceFor",
+      "object_id": "982db843fd3e",
+      "evidence": {
+        "evidence_id": "131197150cd4",
+        "evidence_sentence": "[4289] Last year, OpenAI, the maker of generative AI chatbot ChatGPT, unveiled its voice replication tool, Voice Engine, but didn't make it available to the public at that stage.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.8
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "3c36dcd3343b",
+      "subject_id": "pred_270",
+      "predicate": "hasRisk",
+      "object_id": "ee42ff075067",
+      "evidence": {
+        "evidence_id": "cb7754f11a90",
+        "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "45591dd6e5a3",
+      "subject_id": "982db843fd3e",
+      "predicate": "causes",
+      "object_id": "ee42ff075067",
+      "evidence": {
+        "evidence_id": "cb7754f11a90",
+        "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.8,
+      "support_count": 1
+    },
+    {
+      "id": "1b34c691b052",
+      "subject_id": "pred_270",
+      "predicate": "hasConsequence",
+      "object_id": "0d1d0b55abad",
+      "evidence": {
+        "evidence_id": "f7b0f4553f67",
+        "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+        "source_doc_id": "5350",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "15d35a42c2ec",
+      "subject_id": "ee42ff075067",
+      "predicate": "leadsTo",
+      "object_id": "0d1d0b55abad",
+      "evidence": {
+        "evidence_id": "f7b0f4553f67",
+        "evidence_sentence": "[5350] They sent another voice message asking for a donation, saying, 'You are the only country in (the Association of Southeast Asian Nations) that hasn't donated yet,' emphasising it.",
+        "source_doc_id": "5350",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6e5fb7f023d8",
+      "subject_id": "pred_270",
+      "predicate": "hasImpact",
+      "object_id": "95bb9dc79c16",
+      "evidence": {
+        "evidence_id": "457596773190",
+        "evidence_sentence": "[4291] Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+        "source_doc_id": "4291",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "a56025f1f6bb",
+      "subject_id": "0d1d0b55abad",
+      "predicate": "impacts",
+      "object_id": "95bb9dc79c16",
+      "evidence": {
+        "evidence_id": "457596773190",
+        "evidence_sentence": "[4291] Prime Minister Paetongtarn Shinawatra on Wednesday warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an ASEAN leader.",
+        "source_doc_id": "4291",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "72e1fd5e88ec",
+      "subject_id": "95bb9dc79c16",
+      "predicate": "affects",
+      "object_id": "f66c8728493b",
+      "evidence": {
+        "evidence_id": "6031c8618333",
+        "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "bc7e7066d07a",
+      "subject_id": "982db843fd3e",
+      "predicate": "hasThreat",
+      "object_id": "cfa5dd9d4aaf",
+      "evidence": {
+        "evidence_id": "c209ee78dd81",
+        "evidence_sentence": "[5345] Speaking at a policy meeting for the fiscal 2026 budget, the premier said she was targeted by a call centre gang using artificial intelligence to mimic the voice of a neighbouring country's leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d7236b4e6272",
+      "subject_id": "1e48bfd40c00",
+      "predicate": "mitigates",
+      "object_id": "ee42ff075067",
+      "evidence": {
+        "evidence_id": "5426bad595b1",
+        "evidence_sentence": "[4291] She later instructed Digital Economy and Society Minister Prasert Chantararuangthong, who doubles as deputy PM, to conduct an investigation.",
+        "source_doc_id": "4291",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "b396abebbf74",
+      "subject_id": "0ab1a8859ca8",
+      "predicate": "hasCapability",
+      "object_id": "836f9755f8cd",
+      "evidence": {
+        "evidence_id": "accdbd40aa48",
+        "evidence_sentence": "[5345] Thailand’s Prime Minister Paetongtarn Shinawatra on Jan 15 warned the public against falling for AI-powered scams after she personally escaped a con artist impersonating an Asean leader.",
+        "source_doc_id": "5345",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "08144ef0834d",
+      "subject_id": "pred_270",
+      "predicate": "hasEvidence",
+      "object_id": "31c2a3364b1f",
+      "evidence": {
+        "evidence_id": "bf23e2b0e1d7",
+        "evidence_sentence": "[4290] Thailand's PM has revealed that she was targeted by an AI-driven phone scam.",
+        "source_doc_id": "4290",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c2eb7c23d435",
+      "subject_id": "pred_270",
+      "predicate": "hasEvidence",
+      "object_id": "35d0e266e112",
+      "evidence": {
+        "evidence_id": "67938deca137",
+        "evidence_sentence": "[4289] Thailand's prime minister has revealed she got a call from an AI system, demanding money in the voice of another famous head of government.",
+        "source_doc_id": "4289",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "AI-driven voice cloning": 1,
+    "Paetongtarn Shinawatra": 5,
+    "Thailand": 1,
+    "artificial intelligence": 2,
+    "CNN": 1,
+    "AI voice cloning system": 1,
+    "Voice Engine": 1,
+    "ChatGPT": 1,
+    "OpenAI": 1,
+    "Prasert Chantararuangthong": 2,
+    "Call Centre Gang": 1,
+    "Neighbouring Country's Leader": 1,
+    "AI voice scam": 1,
+    "voice generation": 1,
+    "voice mimicry": 1,
+    "Line": 1
+  },
+  "report_count": 5,
+  "first_seen": "2025-01-15T00:00:00Z",
+  "last_seen": "2025-01-31"
+}

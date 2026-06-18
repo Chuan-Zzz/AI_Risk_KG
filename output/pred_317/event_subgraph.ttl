@@ -1,0 +1,1893 @@
+@prefix airo: <https://w3id.org/airo#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/airo/incident/CodeOfConduct/6da3dffaa746> a airo:CodeOfConduct ;
+    rdfs:label "Transparency and Accountability" ;
+    airo:confidenceScore "0.6"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ffb5902e174c> ;
+    airo:hasReasoning "The standards mention Transparency and Accountability as governance principles, and the incident highlights failures in human oversight and accountability processes." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/InformationSource/7e35c4f8ff40> a airo:InformationSource ;
+    rdfs:label "aiaaic" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Information source: aiaaic" ;
+    airo:hasInformationSource <https://w3id.org/airo/incident/NewsReport/6444>,
+        <https://w3id.org/airo/incident/NewsReport/6445>,
+        <https://w3id.org/airo/incident/NewsReport/6446>,
+        <https://w3id.org/airo/incident/NewsReport/8088>,
+        <https://w3id.org/airo/incident/NewsReport/8091> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444>,
+        <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088>,
+        <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/RiskControl/b9a869bb84c0> a airo:RiskControl ;
+    rdfs:label "removal of the offensive article after the incident was reported" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5eefe3e079b8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444> ;
+    airo:mitigates <https://w3id.org/airo/incident/Risk/40a64a8d3bf5> .
+
+<https://w3id.org/airo/incident/RoleAssignment/05ecea3c71eb> a airo:RoleAssignment ;
+    rdfs:label "Paris Marx_AIUser" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e2fa1fbaa022> ;
+    airo:hasReasoning "Paris Marx was among the first to identify and report on the problematic AI-generated content, indicating interaction with the content as a reader/user." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/9f102027207f> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/24d0715bf7b4> a airo:RoleAssignment ;
+    rdfs:label "OpenAI_AIProvider" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/242eb28131b6> ;
+    airo:hasReasoning "OpenAI provides the underlying AI models (ChatGPT) that Microsoft uses for its AI-generated content." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/d4dfa68e9585> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/2593bb439458> a airo:RoleAssignment ;
+    rdfs:label "Microsoft_AIProvider" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/247a4e874a65> ;
+    airo:hasReasoning "Microsoft provided the AI-generated content to readers through its MSN platform." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b82ffc2f482e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/305d79d8a62e> a airo:RoleAssignment ;
+    rdfs:label "MSN_AIDeployer" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee40f82044a8> ;
+    airo:hasReasoning "MSN.com's Microsoft Travel section was the platform where the AI-generated content was posted and made available to users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/4434f863698c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/5f12b84ac37b> a airo:RoleAssignment ;
+    rdfs:label "Ottawa Food Bank_AffectedActor" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9f70b5b98856> ;
+    airo:hasReasoning "The Ottawa Food Bank was negatively affected and harmed by being incorrectly listed as a tourist attraction with inappropriate advice." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c17cc6bb253c> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/dcd6e00fc73b> a airo:RoleAssignment ;
+    rdfs:label "Microsoft_AIDeployer" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4c10d80322ba> ;
+    airo:hasReasoning "Microsoft deployed the AI-generated content on its MSN platform through its Microsoft Travel section." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/b82ffc2f482e> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/RoleAssignment/ff81b950adf4> a airo:RoleAssignment ;
+    rdfs:label "The Verge_AIUser" ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/36d67c284167> ;
+    airo:hasReasoning "The Verge reported on and covered the AI-generated content incident, engaging with the content as media users." ;
+    airo:hasRoleInIncident <https://w3id.org/airo/incident/AIRiskIncident/pred_317> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> ;
+    airo:roleHeldBy <https://w3id.org/airo/incident/Stakeholder/c6bb62773a7b> ;
+    airo:roleInvolvesSystem <https://w3id.org/airo/incident/AISystem/577b347086cf> .
+
+<https://w3id.org/airo/incident/event/pred_317> a airo:AIRiskIncident ;
+    airo:firstSeen "2023-08-17T00:00:00"^^xsd:dateTime ;
+    airo:hasSupportCount 5 ;
+    airo:lastSeen "2023-08-20T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/airo/incident/ks/06662707cfb6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff610dd3a0eb> .
+
+<https://w3id.org/airo/incident/ks/073d9bf8651d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/085571fa7c29> .
+
+<https://w3id.org/airo/incident/ks/0a3f6832aa74> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> .
+
+<https://w3id.org/airo/incident/ks/0b382f8b4f12> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> .
+
+<https://w3id.org/airo/incident/ks/0da5fe984568> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b748fa38922> .
+
+<https://w3id.org/airo/incident/ks/10224df0fdc8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> .
+
+<https://w3id.org/airo/incident/ks/137c5f52a379> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8ea233bcab5> .
+
+<https://w3id.org/airo/incident/ks/13c152d54e93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/444c1ad02074> .
+
+<https://w3id.org/airo/incident/ks/147e0af8c8e7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3f962d41c2> .
+
+<https://w3id.org/airo/incident/ks/151c20cb53a1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a1c5d1961d8e> .
+
+<https://w3id.org/airo/incident/ks/178f42eed772> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/18482455902a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c693f252ea> .
+
+<https://w3id.org/airo/incident/ks/1c3b7dfbbd8c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8acae7515c4b> .
+
+<https://w3id.org/airo/incident/ks/1e2b581cbacf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/1f274b76479c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/173f1ab6cad1> .
+
+<https://w3id.org/airo/incident/ks/25950b7631ca> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f436ec6e6965> .
+
+<https://w3id.org/airo/incident/ks/26218f413a18> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6940e9cdbaad> .
+
+<https://w3id.org/airo/incident/ks/2883b8ee702d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3cda30a57e> .
+
+<https://w3id.org/airo/incident/ks/28f84a9c1787> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/86bafcdb1b91> .
+
+<https://w3id.org/airo/incident/ks/2ce8527dd617> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/16bdc30a19a5> .
+
+<https://w3id.org/airo/incident/ks/2e4eedd72d98> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/3a52fbf17368> .
+
+<https://w3id.org/airo/incident/ks/2e6a1372d825> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0bc676b920d5> .
+
+<https://w3id.org/airo/incident/ks/2f8a0d7ff615> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/31ee3297fcad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0291e35a21f> .
+
+<https://w3id.org/airo/incident/ks/329f9152fa57> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/33070efd5fed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63d18a7eb714> .
+
+<https://w3id.org/airo/incident/ks/36f3be188e7a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5c8759c73c3f> .
+
+<https://w3id.org/airo/incident/ks/387296540ccd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/3899f9bec2f8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da031c685dba> .
+
+<https://w3id.org/airo/incident/ks/39f66356ab06> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f243ada5b0c> .
+
+<https://w3id.org/airo/incident/ks/3a433f12daaf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e0eb0b33267> .
+
+<https://w3id.org/airo/incident/ks/3e5a2479dc23> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/3fe7d505495b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/40b22f5a4747> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a93a94805781> .
+
+<https://w3id.org/airo/incident/ks/4227cbe74cf1> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/432332e7b089> .
+
+<https://w3id.org/airo/incident/ks/42f25e43340d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/73cd9cf9c622> .
+
+<https://w3id.org/airo/incident/ks/43262c3ca603> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7fdeead8a84f> .
+
+<https://w3id.org/airo/incident/ks/4509c908a3a5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/77759475182e> .
+
+<https://w3id.org/airo/incident/ks/454546703ecc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/829ea77327ac> .
+
+<https://w3id.org/airo/incident/ks/454d573c8d45> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd1776783589> .
+
+<https://w3id.org/airo/incident/ks/46313c6713bc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a8fda531a9d9> .
+
+<https://w3id.org/airo/incident/ks/465f4fbe137f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9fc3e1f66919> .
+
+<https://w3id.org/airo/incident/ks/471f5d851738> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> .
+
+<https://w3id.org/airo/incident/ks/473f73f84438> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9b59c476fac4> .
+
+<https://w3id.org/airo/incident/ks/488b90a0e123> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/4960da0305d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/4aa8c774bcd7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd2ef50d0fef> .
+
+<https://w3id.org/airo/incident/ks/4bc46ffa538d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4cc34226b7e> .
+
+<https://w3id.org/airo/incident/ks/4cca67783216> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ed1afc25f132> .
+
+<https://w3id.org/airo/incident/ks/4d388ba118d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0120776a9396> .
+
+<https://w3id.org/airo/incident/ks/4d6827177f8e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da338fbc9934> .
+
+<https://w3id.org/airo/incident/ks/4d95828b2202> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/60a7cc603334> .
+
+<https://w3id.org/airo/incident/ks/4d989b9a1584> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/5162c4288d78> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd1776783589> .
+
+<https://w3id.org/airo/incident/ks/53f37e104946> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/5465a82b27c8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/59f57445d797> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/5b12a3c159b6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2510bb0f4ee0> .
+
+<https://w3id.org/airo/incident/ks/5d1b5d8850d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> .
+
+<https://w3id.org/airo/incident/ks/615a8578a2c0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d5907b2218ed> .
+
+<https://w3id.org/airo/incident/ks/62a08f8abaa5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/59d96c1a6f8c> .
+
+<https://w3id.org/airo/incident/ks/63ea3d288170> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bbca9da4a63> .
+
+<https://w3id.org/airo/incident/ks/63f751f4aa43> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d32e0940eed9> .
+
+<https://w3id.org/airo/incident/ks/640820ca117e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5eefe3e079b8> .
+
+<https://w3id.org/airo/incident/ks/6cb4e49b2d65> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> .
+
+<https://w3id.org/airo/incident/ks/72560a7257ed> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f65b24a54b6b> .
+
+<https://w3id.org/airo/incident/ks/747e07298bf8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e0291e35a21f> .
+
+<https://w3id.org/airo/incident/ks/75a75286655b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d722114cf19> .
+
+<https://w3id.org/airo/incident/ks/7628962713d0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8> .
+
+<https://w3id.org/airo/incident/ks/79a48baeff97> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/624348873b2b> .
+
+<https://w3id.org/airo/incident/ks/79f95089fdae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2bf9ef471f63> .
+
+<https://w3id.org/airo/incident/ks/7b44e259e66b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cb7ffcc15572> .
+
+<https://w3id.org/airo/incident/ks/7c7dd9635212> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6600c72bf4> .
+
+<https://w3id.org/airo/incident/ks/7e33d3cc97e6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6600c72bf4> .
+
+<https://w3id.org/airo/incident/ks/7e456c6be695> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca336f2904d2> .
+
+<https://w3id.org/airo/incident/ks/801c8343f327> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63ce99329845> .
+
+<https://w3id.org/airo/incident/ks/801d91c3eb1f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/de9c42c7e413> .
+
+<https://w3id.org/airo/incident/ks/81d47fcbef46> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/828b27380f93> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/085571fa7c29> .
+
+<https://w3id.org/airo/incident/ks/82d04275eef0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/305bd3096116> .
+
+<https://w3id.org/airo/incident/ks/83fd63b9b0ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/455d40203bca> .
+
+<https://w3id.org/airo/incident/ks/850e9d1f0a0c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/855e70e75dd3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/86e0277a3d12> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ef7f39bdfe93> .
+
+<https://w3id.org/airo/incident/ks/8a2966360470> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b48a106220fc> .
+
+<https://w3id.org/airo/incident/ks/8a55159f2df7> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d722114cf19> .
+
+<https://w3id.org/airo/incident/ks/8b9475971d5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/370ea43a7cdf> .
+
+<https://w3id.org/airo/incident/ks/8bc8f8798de3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fb89f429d92c> .
+
+<https://w3id.org/airo/incident/ks/8c5d994a2517> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f243ada5b0c> .
+
+<https://w3id.org/airo/incident/ks/9089d580d6db> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/91a57771100b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b84a57f10f94> .
+
+<https://w3id.org/airo/incident/ks/921c76ac240c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca336f2904d2> .
+
+<https://w3id.org/airo/incident/ks/97a74945e33c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9206a5f59e9d> .
+
+<https://w3id.org/airo/incident/ks/98d0e0561925> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8> .
+
+<https://w3id.org/airo/incident/ks/9b8b2c96b4ec> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1090b4461c7b> .
+
+<https://w3id.org/airo/incident/ks/9d20e9273a4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6d87cc1952f> .
+
+<https://w3id.org/airo/incident/ks/9da552264a5f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d1406ee28cff> .
+
+<https://w3id.org/airo/incident/ks/9e6f251430a6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c693f252ea> .
+
+<https://w3id.org/airo/incident/ks/9f660bce97dd> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e6e04d6d8676> .
+
+<https://w3id.org/airo/incident/ks/a27a307c27a0> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/488c34e91cb7> .
+
+<https://w3id.org/airo/incident/ks/a4f162ba3485> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8> .
+
+<https://w3id.org/airo/incident/ks/a693d1a6df4e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/458062140e35> .
+
+<https://w3id.org/airo/incident/ks/a76c52fe7349> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1e76bd43ebfa> .
+
+<https://w3id.org/airo/incident/ks/a872697d5ef4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> .
+
+<https://w3id.org/airo/incident/ks/aa7ad8715e33> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/ab88e99023ee> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/365e741ca4dc> .
+
+<https://w3id.org/airo/incident/ks/af0fe30eb891> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1974ed9c47e0> .
+
+<https://w3id.org/airo/incident/ks/af6db04173ad> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/afd8815278d8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5e23a4f542a4> .
+
+<https://w3id.org/airo/incident/ks/b65c62b29fae> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f243ada5b0c> .
+
+<https://w3id.org/airo/incident/ks/b83fd9820586> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/42f566b73cf7> .
+
+<https://w3id.org/airo/incident/ks/baecfdacd074> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/536f0da4bccc> .
+
+<https://w3id.org/airo/incident/ks/bb37f517555f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b9259d132cb3> .
+
+<https://w3id.org/airo/incident/ks/bb47f084eee2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3cda30a57e> .
+
+<https://w3id.org/airo/incident/ks/bba77689379b> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c7625b32a82> .
+
+<https://w3id.org/airo/incident/ks/bcbd994cc540> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c693f252ea> .
+
+<https://w3id.org/airo/incident/ks/bf9dac7c5ac4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d722114cf19> .
+
+<https://w3id.org/airo/incident/ks/c11a1fe10473> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> .
+
+<https://w3id.org/airo/incident/ks/c164994b3747> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6600c72bf4> .
+
+<https://w3id.org/airo/incident/ks/c3dc4791d11e> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d722114cf19> .
+
+<https://w3id.org/airo/incident/ks/c40bbf9eaf83> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a4775fb3715f> .
+
+<https://w3id.org/airo/incident/ks/c8fac12fb865> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c9ceda04201a> .
+
+<https://w3id.org/airo/incident/ks/c9e21a446de4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3cda30a57e> .
+
+<https://w3id.org/airo/incident/ks/ca9b7cdb3724> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f243ada5b0c> .
+
+<https://w3id.org/airo/incident/ks/cae37ef44826> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d4f84b9eba7> .
+
+<https://w3id.org/airo/incident/ks/cc5bc51b1751> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/cc6ca8c078b8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd6600c72bf4> .
+
+<https://w3id.org/airo/incident/ks/cc9739d6c781> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3cda30a57e> .
+
+<https://w3id.org/airo/incident/ks/d077f541a73c> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/d0cc217da43f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3462dd4987f> .
+
+<https://w3id.org/airo/incident/ks/d1e84cc51fd2> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/d35301c1129f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/469b5b7a61f9> .
+
+<https://w3id.org/airo/incident/ks/d70f2091ac81> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c054ac00b50> .
+
+<https://w3id.org/airo/incident/ks/d7519d5f8df8> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1afcf9da7ddd> .
+
+<https://w3id.org/airo/incident/ks/d86f6cfc8e64> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/325c47161232> .
+
+<https://w3id.org/airo/incident/ks/db578523acdc> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/80261e571d44> .
+
+<https://w3id.org/airo/incident/ks/db60503cf1cf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/27cc3948e2d7> .
+
+<https://w3id.org/airo/incident/ks/dc3749301f9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85dd077519e> .
+
+<https://w3id.org/airo/incident/ks/ddc45aac3b9f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ee883fcc57b6> .
+
+<https://w3id.org/airo/incident/ks/df4f987dfe0f> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/2aed4bc0ea3b> .
+
+<https://w3id.org/airo/incident/ks/e0e2b80d77c4> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/98828f99fa38> .
+
+<https://w3id.org/airo/incident/ks/e39960ad74e3> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8> .
+
+<https://w3id.org/airo/incident/ks/e8a5045f7b5d> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/00d0c5267660> .
+
+<https://w3id.org/airo/incident/ks/eabab7e34bff> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.7"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca336f2904d2> .
+
+<https://w3id.org/airo/incident/ks/eac3ab03c1d5> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/32bb9deb817a> .
+
+<https://w3id.org/airo/incident/ks/ebfa67faddce> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c693f252ea> .
+
+<https://w3id.org/airo/incident/ks/ed4f849e50bf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/9104b4c33d1d> .
+
+<https://w3id.org/airo/incident/ks/ee0c31ac70d6> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/463bc40bf229> .
+
+<https://w3id.org/airo/incident/ks/f23da83e5c40> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63d18a7eb714> .
+
+<https://w3id.org/airo/incident/ks/f31513b1e341> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4701ef2f4e68> .
+
+<https://w3id.org/airo/incident/ks/f438e305a3b9> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0dd2c29b440> .
+
+<https://w3id.org/airo/incident/ks/f594b3ccd100> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ce7c18fe58ff> .
+
+<https://w3id.org/airo/incident/ks/f6ea49bd2fcb> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/06a9dcae9874> .
+
+<https://w3id.org/airo/incident/ks/f996d544f41a> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bbca9da4a63> .
+
+<https://w3id.org/airo/incident/ks/fcd3388f7b72> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> .
+
+<https://w3id.org/airo/incident/ks/fcdb1aa06abf> a airo:KnowledgeStatement ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca336f2904d2> .
+
+<https://w3id.org/airo/incident/AICapability/436b35bb7edd> a airo:AICapability ;
+    rdfs:label "generate text" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generate" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3462dd4987f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AICapability/93a28aeb7c3c> a airo:AICapability ;
+    rdfs:label "imitate human writing styles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "imitate human writing styles" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AILifecyclePhase/87456803a3b5> a airo:AILifecyclePhase ;
+    rdfs:label "deployment" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/b48a106220fc> ;
+    airo:hasReasoning "The AI-generated article was posted and published on a public website, indicating the system was in active deployment when the incident occurred." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AITechnique/10bdefc64474> a airo:AITechnique ;
+    rdfs:label "generative AI" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "generative AI technology" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/1d4f84b9eba7> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AITechnique/60b6c4e1ac6b> a airo:AITechnique ;
+    rdfs:label "algorithmic techniques" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "algorithmic techniques" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/e4cc34226b7e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AffectedActor/9fa922d1bfab> a airo:AffectedActor ;
+    rdfs:label "the Ottawa Food Bank and its beneficiaries" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c054ac00b50> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/Domain/836687054ba2> a airo:Domain ;
+    rdfs:label "media" ;
+    airo:confidenceScore "0.8"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/370ea43a7cdf> ;
+    airo:hasReasoning "The AI system was used to generate news/travel content for Microsoft's media publication (MSN), placing it in the media domain." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444> .
+
+<https://w3id.org/airo/incident/Hazard/bb7f24d8f249> a airo:Hazard ;
+    rdfs:label "lack of sufficient human review before publication" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/dd2ef50d0fef> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Purpose/c1a075d3a741> a airo:Purpose ;
+    rdfs:label "generate travel content and articles" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "inferred" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/d0dd2c29b440> ;
+    airo:hasReasoning "The evidence shows the AI system was used to create travel-related content (articles about tourist attractions) for Microsoft's travel section." ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/RiskSource/d888638b75f3> a airo:RiskSource ;
+    rdfs:label "AI-generated content without adequate human oversight" ;
+    airo:causes <https://w3id.org/airo/incident/Risk/40a64a8d3bf5> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4701ef2f4e68> ;
+    airo:hasHazard <https://w3id.org/airo/incident/Hazard/bb7f24d8f249> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> .
+
+<https://w3id.org/airo/incident/Stakeholder/058bd845902e> a airo:Stakeholder ;
+    rdfs:label "Samantha Koziara" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Samantha Koziara" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da338fbc9934> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Stakeholder/2e9fe0c3be23> a airo:Stakeholder ;
+    rdfs:label "Nathan McAlone" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Nathan McAlone" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7fdeead8a84f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/Stakeholder/31385db88ec4> a airo:Stakeholder ;
+    rdfs:label "Emily Bender" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Emily Bender" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/455d40203bca> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/Stakeholder/5f0da61bbaae> a airo:Stakeholder ;
+    rdfs:label "Jeff Jones" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Jeff Jones" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/432332e7b089> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Stakeholder/661fb7a9f797> a airo:Stakeholder ;
+    rdfs:label "BuzzFeed" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "BuzzFeed" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f85dd077519e> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Stakeholder/97489b9fbf49> a airo:Stakeholder ;
+    rdfs:label "Gizmodo" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Gizmodo" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/f436ec6e6965> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Stakeholder/fb66c81100fa> a airo:Stakeholder ;
+    rdfs:label "CNET" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "CNET" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4b748fa38922> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Vulnerability/6ea44e9fa0d0> a airo:Vulnerability ;
+    rdfs:label "inadequate editorial controls for AI-generated content" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/458062140e35> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/evidence/00d0c5267660> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/0120776a9396> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/06a9dcae9874> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/0bc676b920d5> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/1090b4461c7b> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/14e95627bcd8> a airo:Evidence ;
+    airo:evidenceText "The article is credited to \"Microsoft Travel,\" and it is likely the product of a large language model (LLM), a type of AI model trained on a vast scrape of text found on the Internet." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/16bdc30a19a5> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/173f1ab6cad1> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/1974ed9c47e0> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/1afcf9da7ddd> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/1e76bd43ebfa> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/242eb28131b6> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/247a4e874a65> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/2510bb0f4ee0> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/27cc3948e2d7> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/2aed4bc0ea3b> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/2bf9ef471f63> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/305bd3096116> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/325c47161232> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/32bb9deb817a> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/36d67c284167> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/42f566b73cf7> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/444c1ad02074> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/469b5b7a61f9> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/488c34e91cb7> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/49e32c033f02> a airo:Evidence ;
+    airo:evidenceText "The food bank was the No. 3 recommendation on the list, sitting behind the National War Memorial and above going to an Ottawa Senators hockey game." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/4c10d80322ba> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/536f0da4bccc> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/59d96c1a6f8c> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/5c8759c73c3f> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/5e23a4f542a4> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/60a7cc603334> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/624348873b2b> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/63ce99329845> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/640f48eb86d6> a airo:Evidence ;
+    airo:evidenceText "Microsoft AI suggests food bank as a “cannot miss” tourist spot in Canada" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/6940e9cdbaad> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/73cd9cf9c622> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/77759475182e> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/80261e571d44> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/829ea77327ac> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/836f6ffb25f6> a airo:Evidence ;
+    airo:evidenceText "Microsoft says listing the Ottawa Food Bank as a tourist destination wasn’t the result of ‘unsupervised AI’" ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/86bafcdb1b91> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/885445b8d113> a airo:Evidence ;
+    airo:evidenceText "Microsoft Deletes Bizarre AI-Generated Travel Guide That Recommended Visiting Food Bank With an \"Empty Stomach\"" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/9206a5f59e9d> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/98828f99fa38> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/9b59c476fac4> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/9f70b5b98856> a airo:Evidence ;
+    airo:evidenceText "[8088] Understandably, the Ottawa Food Bank was upset by its inclusion in a bubbly travel piece." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/9fc3e1f66919> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/a1c5d1961d8e> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/a4775fb3715f> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/a8ea233bcab5> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/a8fda531a9d9> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/b84a57f10f94> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/b9259d132cb3> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/c9ceda04201a> a airo:Evidence ;
+    airo:evidenceText "[8088] Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/ce7c18fe58ff> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/d1406ee28cff> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/d32e0940eed9> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/d5907b2218ed> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/d9d52c18e089> a airo:Evidence ;
+    airo:evidenceText "Microsoft lists Ottawa Food Bank as tourist destination, says ‘human’, not AI error" ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/da031c685dba> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/de9c42c7e413> a airo:Evidence ;
+    airo:evidenceText "[6445] Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/e2fa1fbaa022> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/e3068e20dd62> a airo:Evidence ;
+    airo:evidenceText "Microsoft says listing the Ottawa Food Bank as a tourist destination wasn’t the result of ‘unsupervised AI’" ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/e6e04d6d8676> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/ed1afc25f132> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/ee40f82044a8> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/ef7f39bdfe93> a airo:Evidence ;
+    airo:evidenceText "[8088] Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/f65b24a54b6b> a airo:Evidence ;
+    airo:evidenceText "[8088] The embarrassing listicle was spotted by tech writer Paris Marx on Thursday." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/fb89f429d92c> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/fe019d396ffd> a airo:Evidence ;
+    airo:evidenceText "Microsoft pulls article recommending Ottawa Food Bank to tourists" ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/evidence/ffb5902e174c> a airo:Evidence ;
+    airo:evidenceText "[8091] The 'human oversight' curating algorithmic content on MSN somehow missed a list of tourist hot spots that put the food bank at number three." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/AIModel/1ac34bbb1c66> a airo:AIModel ;
+    rdfs:label "large language model" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "large language model (LLM)" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/14e95627bcd8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AIModel/58c18f803aef> a airo:AIModel ;
+    rdfs:label "GPT-3" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GPT-3" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AIModel/708b03c6db78> a airo:AIModel ;
+    rdfs:label "Microsoft AI model" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft's AI model" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a3462dd4987f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AIModel/b1c847d771e0> a airo:AIModel ;
+    rdfs:label "GPT-4" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "GPT-4" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/Consequence/7c965b41bdb6> a airo:Consequence ;
+    rdfs:label "publication of an article with offensive and damaging messaging about a charitable organization" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/63d18a7eb714> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6446> ;
+    airo:impacts <https://w3id.org/airo/incident/Impact/479ff00c60fc> .
+
+<https://w3id.org/airo/incident/Impact/479ff00c60fc> a airo:Impact ;
+    rdfs:label "reputational harm and public ridicule for the involved parties, and distress to the charitable organization" ;
+    airo:affects <https://w3id.org/airo/incident/AffectedActor/9fa922d1bfab> ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/cd1776783589> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> .
+
+<https://w3id.org/airo/incident/NewsReport/6444> a airo:NewsReport ;
+    rdfs:label "Microsoft pulls article recommending Ottawa Food Bank to tourists" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach, after facing ridicule about the company's reliance on artificial intelligence for news." ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/4e0eb0b33267> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444> .
+
+<https://w3id.org/airo/incident/NewsReport/6445> a airo:NewsReport ;
+    rdfs:label "Microsoft AI suggests food bank as a “cannot miss” tourist spot in Canada" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank, a real charitable organization that " ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/365e741ca4dc> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/NewsReport/6446> a airo:NewsReport ;
+    rdfs:label "Microsoft lists Ottawa Food Bank as tourist destination, says ‘human’, not AI error" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Microsoft lists Ottawa Food Bank as tourist destination, says ‘human’, not AI error
+In a hilarious incident, a Microsoft travel guide for Ottawa, Canada, recommended tourists to must visit the Ottawa """ ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/5b3f962d41c2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6446> .
+
+<https://w3id.org/airo/incident/NewsReport/8088> a airo:NewsReport ;
+    rdfs:label "Microsoft Deletes Bizarre AI-Generated Travel Guide That Recommended Visiting Food Bank With an \"Empty Stomach\"" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Microsoft Deletes Bizarre AI-Generated Travel Guide That Recommended Visiting Food Bank With an "Empty Stomach"
+"This article has been removed and we are investigating how it made it through our revie""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a6d87cc1952f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> .
+
+<https://w3id.org/airo/incident/NewsReport/8091> a airo:NewsReport ;
+    rdfs:label "Microsoft says listing the Ottawa Food Bank as a tourist destination wasn’t the result of ‘unsupervised AI’" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription """Microsoft says listing the Ottawa Food Bank as a tourist destination wasn’t the result of ‘unsupervised AI’
+The ‘human oversight’ curating algorithmic content on MSN somehow missed a list of tourist h""" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8acae7515c4b> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/Stakeholder/4434f863698c> a airo:Stakeholder ;
+    rdfs:label "MSN" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MSN" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/7f243ada5b0c> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8088> .
+
+<https://w3id.org/airo/incident/Stakeholder/9f102027207f> a airo:Stakeholder ;
+    rdfs:label "Paris Marx" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Paris Marx" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ca336f2904d2> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> .
+
+<https://w3id.org/airo/incident/Stakeholder/c17cc6bb253c> a airo:Stakeholder ;
+    rdfs:label "Ottawa Food Bank" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Ottawa Food Bank" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/49c693f252ea>,
+        <https://w3id.org/airo/incident/evidence/49e32c033f02>,
+        <https://w3id.org/airo/incident/evidence/5b3cda30a57e>,
+        <https://w3id.org/airo/incident/evidence/82b224fb7594>,
+        <https://w3id.org/airo/incident/evidence/9104b4c33d1d> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444>,
+        <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 5 .
+
+<https://w3id.org/airo/incident/Stakeholder/c6bb62773a7b> a airo:Stakeholder ;
+    rdfs:label "The Verge" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "The Verge" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/8d722114cf19>,
+        <https://w3id.org/airo/incident/evidence/dd6600c72bf4> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088> ;
+    airo:hasSupportCount 2 ;
+    airo:uses <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> .
+
+<https://w3id.org/airo/incident/Stakeholder/d4dfa68e9585> a airo:Stakeholder ;
+    rdfs:label "OpenAI" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "OpenAI" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/c30dd4f27629> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/1ac34bbb1c66>,
+        <https://w3id.org/airo/incident/AIModel/58c18f803aef>,
+        <https://w3id.org/airo/incident/AIModel/708b03c6db78>,
+        <https://w3id.org/airo/incident/AIModel/b1c847d771e0>,
+        <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> .
+
+<https://w3id.org/airo/incident/Standard/f1f886f41236> a airo:Standard ;
+    rdfs:label "Transparency" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Transparency" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/Standard/f7b37c0f3357> a airo:Standard ;
+    rdfs:label "Accountability" ;
+    airo:confidenceScore "0.85"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Accountability" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/fa090dc639e9> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/evidence/0c054ac00b50> a airo:Evidence ;
+    airo:evidenceText "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach. The food bank, a real charitable organization that feeds struggling families." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/0c7625b32a82> a airo:Evidence ;
+    airo:evidenceText "Headed to Ottawa? Here's what you shouldn't miss! reads its title, written under the official byline of 'Microsoft Travel.'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/1d4f84b9eba7> a airo:Evidence ;
+    airo:evidenceText "\"Microsoft Travel\" appears to be another production use of generative AI technology." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/365e741ca4dc> a airo:Evidence ;
+    airo:evidenceText "Microsoft AI suggests food bank as a “cannot miss” tourist spot in Canada" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/370ea43a7cdf> a airo:Evidence ;
+    airo:evidenceText "[6444] Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach, after facing ridicule about the company's reliance on artificial intelligence for news." ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/evidence/3a52fbf17368> a airo:Evidence ;
+    airo:evidenceText "Each section in the article, bylined vaguely by “Microsoft Travel,” had a brief text description of what you can expect from the destination." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/432332e7b089> a airo:Evidence ;
+    airo:evidenceText "As explained in a statement to The Verge from Jeff Jones, a senior director at Microsoft:" ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/455d40203bca> a airo:Evidence ;
+    airo:evidenceText "In response to Marx's post, frequent LLM critic Emily Bender noted, \"I can't find anything on that page that marks it overtly as AI-generated. Seems like a major failing on two of their 'Responsible AI' principles.\"" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/458062140e35> a airo:Evidence ;
+    airo:evidenceText "We reported in 2020 about Microsoft laying off journalists at Microsoft News and MSN to replace them with artificial intelligence. However, the company says its content is not generated by the AI we're now used to in the form of large language models powering tools like the Bing chatbot or ChatGPT." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/463bc40bf229> a airo:Evidence ;
+    airo:evidenceText "Microsoft lists Ottawa Food Bank as tourist destination, says 'human', not AI error" ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/4701ef2f4e68> a airo:Evidence ;
+    airo:evidenceText "Microsoft's entire AI-generated catalogue should be suspect, as it's been remorselessly churning out AI-generated articles ever since it fired dozens of its journalists and editors at MSN in 2020." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/4b748fa38922> a airo:Evidence ;
+    airo:evidenceText "CNET issued corrections on dozens of AI-written stories." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/4e0eb0b33267> a airo:Evidence ;
+    airo:evidenceText "Microsoft pulls article recommending Ottawa Food Bank to tourists" ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/evidence/5b3f962d41c2> a airo:Evidence ;
+    airo:evidenceText "Microsoft lists Ottawa Food Bank as tourist destination, says ‘human’, not AI error" ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/5eefe3e079b8> a airo:Evidence ;
+    airo:evidenceText "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach." ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/evidence/7fdeead8a84f> a airo:Evidence ;
+    airo:evidenceText "However, the author of the Insider piece, Nathan McAlone, questioned the \"human review\" part, noting that Microsoft Travel also published a string of other travel articles with incongruous or nonsensical elements (all of which have now been taken down) that suggest largely algorithmic composition at work." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/8acae7515c4b> a airo:Evidence ;
+    airo:evidenceText "Microsoft says listing the Ottawa Food Bank as a tourist destination wasn’t the result of ‘unsupervised AI’" ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/a6d87cc1952f> a airo:Evidence ;
+    airo:evidenceText "Microsoft Deletes Bizarre AI-Generated Travel Guide That Recommended Visiting Food Bank With an \"Empty Stomach\"" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/a93a94805781> a airo:Evidence ;
+    airo:evidenceText "“Every day our algorithms comb through hundreds of thousands of pieces of content sent by our partners,” Microsoft writes in the “About Us” page for its Microsoft Start program." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/b48a106220fc> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/d0dd2c29b440> a airo:Evidence ;
+    airo:evidenceText "[6445] Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/da338fbc9934> a airo:Evidence ;
+    airo:evidenceText "“Needless to say, this is not the type of messaging or ‘story’ we would ever put out or wish to be included in,” Samantha Koziara, communications manager at the Ottawa Food Bank, said in a statement to The Verge on Thursday." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/dd2ef50d0fef> a airo:Evidence ;
+    airo:evidenceText "The ‘human oversight’ curating algorithmic content on MSN somehow missed a list of tourist hot spots that put the food bank at number three." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/e4cc34226b7e> a airo:Evidence ;
+    airo:evidenceText "The article was not published by an unsupervised AI. We combine the power of technology with the experience of content editors to surface stories. In this case, the content was generated through a combination of algorithmic techniques with human review, not a large language model or AI system." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/f436ec6e6965> a airo:Evidence ;
+    airo:evidenceText "An AI-written article from Gizmodo failed to correctly list Star Wars movies in chronological order." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/f85dd077519e> a airo:Evidence ;
+    airo:evidenceText "BuzzFeed, like Microsoft, has used AI to write travel guides." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/ff610dd3a0eb> a airo:Evidence ;
+    airo:evidenceText "The ‘human oversight’ curating algorithmic content on MSN somehow missed a list of tourist hot spots that put the food bank at number three." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/Risk/40a64a8d3bf5> a airo:Risk ;
+    rdfs:label "risk of AI generating and publishing inappropriate or offensive content" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "abstracted" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/6bbca9da4a63> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444> ;
+    airo:leadsTo <https://w3id.org/airo/incident/Consequence/7c965b41bdb6> .
+
+<https://w3id.org/airo/incident/Stakeholder/b82ffc2f482e> a airo:Stakeholder ;
+    rdfs:label "Microsoft" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:deploys <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/82b224fb7594>,
+        <https://w3id.org/airo/incident/evidence/9104b4c33d1d>,
+        <https://w3id.org/airo/incident/evidence/cb7ffcc15572>,
+        <https://w3id.org/airo/incident/evidence/e3068e20dd62>,
+        <https://w3id.org/airo/incident/evidence/ee883fcc57b6> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444>,
+        <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 5 ;
+    airo:provides <https://w3id.org/airo/incident/AIModel/1ac34bbb1c66>,
+        <https://w3id.org/airo/incident/AIModel/58c18f803aef>,
+        <https://w3id.org/airo/incident/AIModel/708b03c6db78>,
+        <https://w3id.org/airo/incident/AIModel/b1c847d771e0>,
+        <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> .
+
+<https://w3id.org/airo/incident/evidence/63d18a7eb714> a airo:Evidence ;
+    airo:evidenceText "For the food bank, Microsoft's summary included an astoundingly awful statement given the context of the place it was talking about: 'People who come to us have jobs and families to support, as well as expenses to pay. Life is already difficult enough. Consider going into it on an empty stomach." ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/6bbca9da4a63> a airo:Evidence ;
+    airo:evidenceText "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach, after facing ridicule about the company's reliance on artificial intelligence for news." ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/evidence/82b224fb7594> a airo:Evidence ;
+    airo:evidenceText "Late last week, MSN.com's Microsoft Travel section posted an AI-generated article about the \"cannot miss\" attractions of Ottawa that includes the Ottawa Food Bank, a real charitable organization that feeds struggling families." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/a3462dd4987f> a airo:Evidence ;
+    airo:evidenceText "In its recommendation text, Microsoft's AI model wrote, \"Consider going into it on an empty stomach.\"" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/cd1776783589> a airo:Evidence ;
+    airo:evidenceText "Understandably, the Ottawa Food Bank was upset by its inclusion in a bubbly travel piece." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/085571fa7c29> a airo:Evidence ;
+    airo:evidenceText "Bing, Bard, and ChatGPT: How AI is rewriting the internet" ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/e0291e35a21f> a airo:Evidence ;
+    airo:evidenceText "We reported in 2020 about Microsoft laying off journalists at Microsoft News and MSN to replace them with artificial intelligence. However, the company says its content is not generated by the AI we’re now used to in the form of large language models powering tools like the Bing chatbot or ChatGPT." ;
+    airo:sourceDocId "8091" .
+
+<https://w3id.org/airo/incident/evidence/49c693f252ea> a airo:Evidence ;
+    airo:evidenceText "For the food bank, Microsoft's summary included an astoundingly awful statement given the context of the place it was talking about: 'People who come to us have jobs and families to support, as well as expenses to pay. Life is already difficult enough. Consider going into it on an empty stomach." ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/5b3cda30a57e> a airo:Evidence ;
+    airo:evidenceText "Understandably, the Ottawa Food Bank was upset by its inclusion in a bubbly travel piece." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/7f243ada5b0c> a airo:Evidence ;
+    airo:evidenceText "Microsoft's entire AI-generated catalogue should be suspect, as it's been remorselessly churning out AI-generated articles ever since it fired dozens of its journalists and editors at MSN in 2020." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/8d722114cf19> a airo:Evidence ;
+    airo:evidenceText "Samantha Koziara, communications manager at the Ottawa Food Bank, told The Verge in a statement." ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/ca336f2904d2> a airo:Evidence ;
+    airo:evidenceText "First noticed by tech author Paris Marx on Bluesky, the post on the Ottawa Food Bank began to gain traction on social media late Thursday." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/dd6600c72bf4> a airo:Evidence ;
+    airo:evidenceText "The Verge had reported that the Microsoft listing for tourists had a food bank as the No 3 recommendation." ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/fa090dc639e9> a airo:Evidence ;
+    airo:evidenceText "Bender also pointed toward Microsoft policies; one is \"Transparency,\" and reads, \"How might people misunderstand, misuse, or incorrectly estimate the capabilities of the system?\"",
+        "Bender also pointed toward Microsoft policies; one is \"Transparency,\" and reads, \"How might people misunderstand, misuse, or incorrectly estimate the capabilities of the system?\" and the other is \"Accountability,\" which states, \"How can we create oversight so that humans can be accountable and in control?\"" ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/AIRiskIncident/pred_317> a airo:AIRiskIncident ;
+    rdfs:label "Microsoft pulls article recommending Ottawa Food Bank to tourists" ;
+    airo:confidenceScore "1.0"^^xsd:float ;
+    airo:extractionMode "completed" ;
+    airo:hasConsequence <https://w3id.org/airo/incident/Consequence/7c965b41bdb6> ;
+    airo:hasDescription "pred_317" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/AILifecyclePhase/87456803a3b5>,
+        <https://w3id.org/airo/incident/Domain/836687054ba2>,
+        <https://w3id.org/airo/incident/evidence/640f48eb86d6>,
+        <https://w3id.org/airo/incident/evidence/836f6ffb25f6>,
+        <https://w3id.org/airo/incident/evidence/885445b8d113>,
+        <https://w3id.org/airo/incident/evidence/d9d52c18e089>,
+        <https://w3id.org/airo/incident/evidence/fe019d396ffd> ;
+    airo:hasImpact <https://w3id.org/airo/incident/Impact/479ff00c60fc> ;
+    airo:hasReport <https://w3id.org/airo/incident/NewsReport/6444>,
+        <https://w3id.org/airo/incident/NewsReport/6445>,
+        <https://w3id.org/airo/incident/NewsReport/6446>,
+        <https://w3id.org/airo/incident/NewsReport/8088>,
+        <https://w3id.org/airo/incident/NewsReport/8091> ;
+    airo:hasRisk <https://w3id.org/airo/incident/Risk/40a64a8d3bf5> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6444>,
+        <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:involvesAISystem <https://w3id.org/airo/incident/AISystem/22b23a775194>,
+        <https://w3id.org/airo/incident/AISystem/577b347086cf>,
+        <https://w3id.org/airo/incident/AISystem/cec77c04cdf5>,
+        <https://w3id.org/airo/incident/AISystem/d506240bf849>,
+        <https://w3id.org/airo/incident/AISystem/ee4044a4d8df>,
+        <https://w3id.org/airo/incident/AISystem/f708d3583db5>,
+        <https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c>,
+        <https://w3id.org/airo/incident/AISystem/fc790c91cf2e> ;
+    airo:involvesStakeholder <https://w3id.org/airo/incident/Stakeholder/058bd845902e>,
+        <https://w3id.org/airo/incident/Stakeholder/2e9fe0c3be23>,
+        <https://w3id.org/airo/incident/Stakeholder/31385db88ec4>,
+        <https://w3id.org/airo/incident/Stakeholder/4434f863698c>,
+        <https://w3id.org/airo/incident/Stakeholder/5f0da61bbaae>,
+        <https://w3id.org/airo/incident/Stakeholder/661fb7a9f797>,
+        <https://w3id.org/airo/incident/Stakeholder/97489b9fbf49>,
+        <https://w3id.org/airo/incident/Stakeholder/9f102027207f>,
+        <https://w3id.org/airo/incident/Stakeholder/b82ffc2f482e>,
+        <https://w3id.org/airo/incident/Stakeholder/c17cc6bb253c>,
+        <https://w3id.org/airo/incident/Stakeholder/c6bb62773a7b>,
+        <https://w3id.org/airo/incident/Stakeholder/d4dfa68e9585>,
+        <https://w3id.org/airo/incident/Stakeholder/fb66c81100fa> ;
+    airo:isRiskSourceFor <https://w3id.org/airo/incident/RiskSource/d888638b75f3> ;
+    airo:specifies <https://w3id.org/airo/incident/Standard/f1f886f41236>,
+        <https://w3id.org/airo/incident/Standard/f7b37c0f3357> .
+
+<https://w3id.org/airo/incident/AISystem/22b23a775194> a airo:AISystem ;
+    rdfs:label "MSN" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "MSN" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/ff610dd3a0eb> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/AISystem/cec77c04cdf5> a airo:AISystem ;
+    rdfs:label "Bard" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bard" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/085571fa7c29> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/AISystem/d506240bf849> a airo:AISystem ;
+    rdfs:label "Microsoft Start" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft Start" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/a93a94805781> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/8091> .
+
+<https://w3id.org/airo/incident/AISystem/ee4044a4d8df> a airo:AISystem ;
+    rdfs:label "ChatGPT" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "ChatGPT" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8>,
+        <https://w3id.org/airo/incident/evidence/e0291e35a21f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/f708d3583db5> a airo:AISystem ;
+    rdfs:label "Bing" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bing" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/085571fa7c29>,
+        <https://w3id.org/airo/incident/evidence/da798f3c61b8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/AISystem/fb1e9cb7f41c> a airo:AISystem ;
+    rdfs:label "Microsoft Store" ;
+    airo:confidenceScore "0.9"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Microsoft Store" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445> .
+
+<https://w3id.org/airo/incident/AISystem/fc790c91cf2e> a airo:AISystem ;
+    rdfs:label "Bing Chat" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:extractionMode "explicit" ;
+    airo:hasDescription "Bing chatbot" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/da798f3c61b8>,
+        <https://w3id.org/airo/incident/evidence/e0291e35a21f> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 2 .
+
+<https://w3id.org/airo/incident/evidence/cb7ffcc15572> a airo:Evidence ;
+    airo:evidenceText "Now, the company says this was due to 'human error' and not due to 'unsupervised AI'." ;
+    airo:sourceDocId "6446" .
+
+<https://w3id.org/airo/incident/evidence/da798f3c61b8> a airo:Evidence ;
+    airo:evidenceText "Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services, such as adding AI-generated stories to Bing Search and including AI-generated App review summaries on the Microsoft Store.",
+        "Since the announcement of deep investments and collaborations with ChatGPT-maker OpenAI in January and the emergence of Bing Chat the month after, Microsoft has been experimenting with integrating AI-generated content into its online publications and services..." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/ee883fcc57b6> a airo:Evidence ;
+    airo:evidenceText "The embarrassing listicle was spotted by tech writer Paris Marx on Thursday. It ranked the Ottawa Food Bank smack dab in third place among the capital's must-see tourist attractions, only below The Winterlude Festival and the National War Memorial — all of which it calls 'beautiful attractions' that you 'cannot miss!'" ;
+    airo:sourceDocId "8088" .
+
+<https://w3id.org/airo/incident/evidence/c30dd4f27629> a airo:Evidence ;
+    airo:evidenceText "Microsoft partner OpenAI made waves with LLMs called GPT-3 in 2020 and GPT-4 in 2023, both of which can imitate human writing styles but have frequently been used for unsuitable tasks, according to critics." ;
+    airo:sourceDocId "6445" .
+
+<https://w3id.org/airo/incident/evidence/9104b4c33d1d> a airo:Evidence ;
+    airo:evidenceText "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach, after facing ridicule about the company's reliance on artificial intelligence for news.",
+        "Microsoft removed an article that advised tourists to visit the Ottawa Food Bank on an empty stomach." ;
+    airo:sourceDocId "6444" .
+
+<https://w3id.org/airo/incident/AISystem/577b347086cf> a airo:AISystem ;
+    rdfs:label "Microsoft travel guide" ;
+    airo:confidenceScore "0.95"^^xsd:float ;
+    airo:conformsToStandard <https://w3id.org/airo/incident/Standard/f1f886f41236>,
+        <https://w3id.org/airo/incident/Standard/f7b37c0f3357> ;
+    airo:extractionMode "explicit" ;
+    airo:hasCapability <https://w3id.org/airo/incident/AICapability/436b35bb7edd>,
+        <https://w3id.org/airo/incident/AICapability/93a28aeb7c3c>,
+        <https://w3id.org/airo/incident/Purpose/c1a075d3a741> ;
+    airo:hasDescription "Microsoft travel guide" ;
+    airo:hasEvidence <https://w3id.org/airo/incident/evidence/0c7625b32a82>,
+        <https://w3id.org/airo/incident/evidence/3a52fbf17368>,
+        <https://w3id.org/airo/incident/evidence/463bc40bf229>,
+        <https://w3id.org/airo/incident/evidence/82b224fb7594> ;
+    airo:hasSourceDocument <https://w3id.org/airo/incident/document/6445>,
+        <https://w3id.org/airo/incident/document/6446>,
+        <https://w3id.org/airo/incident/document/8088>,
+        <https://w3id.org/airo/incident/document/8091> ;
+    airo:hasSupportCount 4 ;
+    airo:hasVulnerability <https://w3id.org/airo/incident/Vulnerability/6ea44e9fa0d0> ;
+    airo:usesTechnique <https://w3id.org/airo/incident/AITechnique/10bdefc64474>,
+        <https://w3id.org/airo/incident/AITechnique/60b6c4e1ac6b> .
+

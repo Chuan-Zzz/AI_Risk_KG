@@ -1,0 +1,5087 @@
+{
+  "event_id": "pred_237",
+  "incident_node": {
+    "id": "pred_237",
+    "name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+    "entity_type": "AIRiskIncident",
+    "description": "pred_237",
+    "evidence": [
+      {
+        "evidence_id": "658f7b2ff64a",
+        "evidence_sentence": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+        "source_doc_id": "1537",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "6fdb59ca3bf4",
+        "evidence_sentence": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "c0aaa9ec3482",
+        "evidence_sentence": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+        "source_doc_id": "1792",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "8900016a2362",
+        "evidence_sentence": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      {
+        "evidence_id": "6071fc0f3dd6",
+        "evidence_sentence": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 1.0
+      }
+    ],
+    "extraction_mode": "completed",
+    "confidence": 1.0,
+    "support_count": 1,
+    "source_doc_ids": [
+      "1537",
+      "1538",
+      "1792",
+      "1793",
+      "1794"
+    ],
+    "attributes": {},
+    "reasoning": null
+  },
+  "nodes": [
+    {
+      "id": "pred_237",
+      "name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "entity_type": "AIRiskIncident",
+      "description": "pred_237",
+      "evidence": [
+        {
+          "evidence_id": "658f7b2ff64a",
+          "evidence_sentence": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "6fdb59ca3bf4",
+          "evidence_sentence": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "c0aaa9ec3482",
+          "evidence_sentence": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "8900016a2362",
+          "evidence_sentence": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        },
+        {
+          "evidence_id": "6071fc0f3dd6",
+          "evidence_sentence": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "completed",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537",
+        "1538",
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a8073df0e73f",
+      "name": "aiid",
+      "entity_type": "InformationSource",
+      "description": "Information source: aiid",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537",
+        "1538",
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "attributes": {
+        "report_count": 5
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1537",
+      "name": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+      "entity_type": "NewsReport",
+      "description": "Video from Taiwan reveals a disturbing Tesla TSLA +0.4% crash, where the vehicle plows directly into the top of a large truck lying on its side, straddling two lanes of a freeway. The driver states th",
+      "evidence": [
+        {
+          "evidence_id": "d32d0f4a538f",
+          "evidence_sentence": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "attributes": {
+        "url": "https://www.forbes.com/sites/bradtempleton/2020/06/02/tesla-in-taiwan-crashes-directly-into-overturned-truck-ignores-pedestrian-with-autopilot-on/",
+        "publish_time": "2020-06-02T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1538",
+      "name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "entity_type": "NewsReport",
+      "description": "TAIPEI (Taiwan News) — A Tesla driving on autopilot on National Highway 1 barely missed a pedestrian and collided into an overturned truck on Monday (June 1).\n\nAt 6:35 a.m. on Monday (June 1), a deliv",
+      "evidence": [
+        {
+          "evidence_id": "913374b3d63d",
+          "evidence_sentence": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "attributes": {
+        "url": "https://www.taiwannews.com.tw/en/news/3943199",
+        "publish_time": "2020-06-02T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1792",
+      "name": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+      "entity_type": "NewsReport",
+      "description": "A Tesla crashed into the back of a bright red firetruck on Interstate 405 in Culver City California yesterday. Luckily, the driver and first responders were not injured, but the Tesla was clearly a to",
+      "evidence": [
+        {
+          "evidence_id": "11daf5a2b856",
+          "evidence_sentence": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {
+        "url": "https://www.torquenews.com/1083/tesla-police-blotter-news-tesla-driver-hits-parked-firetruck-blames-autopilot",
+        "publish_time": "2018-01-23T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1793",
+      "name": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+      "entity_type": "NewsReport",
+      "description": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly",
+      "evidence": [
+        {
+          "evidence_id": "6694607d06fd",
+          "evidence_sentence": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {
+        "url": "https://www.latimes.com/business/story/2019-09-03/tesla-was-on-autopilot-when-it-hit-culver-city-fire-truck-ntsb-finds",
+        "publish_time": "2019-09-03T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "1794",
+      "name": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+      "entity_type": "NewsReport",
+      "description": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagem",
+      "evidence": [
+        {
+          "evidence_id": "e78932e575e4",
+          "evidence_sentence": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {
+        "url": "https://www.culvercityobserver.com/story/2019/09/12/news/ntsb-issues-report-on-tesla-crash-with-culver-city-fire-engine/8414.html",
+        "publish_time": "2019-09-12T00:00:00Z",
+        "language": "en"
+      },
+      "reasoning": null
+    },
+    {
+      "id": "c935b3cf9a20",
+      "name": "Tesla Autopilot",
+      "entity_type": "AISystem",
+      "description": "Tesla’s Autopilot system",
+      "evidence": [
+        {
+          "evidence_id": "523f9908e9c5",
+          "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "462891a95b42",
+          "evidence_sentence": "A Tesla driving on autopilot on National Highway 1 barely missed a pedestrian and collided into an overturned truck on Monday (June 1).",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 2,
+            "end": 7
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 429,
+            "end": 438
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "db964241aefc",
+          "evidence_sentence": "This accident sounds eerily similar to a deadly crash in which a Tesla on Autopilot struck a huge white semi-trailer in its path. In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla Autopilot system",
+            "start": 682,
+            "end": 704
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "05c0229d4372",
+          "evidence_sentence": "The driver states the vehicle was in Autopilot mode.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 39,
+            "end": 44
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4d48269d8674",
+          "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 217,
+            "end": 226
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 4,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1538",
+        "1537"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "04ef102f3b33",
+      "name": "Tesla Model S",
+      "entity_type": "AISystem",
+      "description": "2014 Tesla Model S",
+      "evidence": [
+        {
+          "evidence_id": "6aaf1c3409c8",
+          "evidence_sentence": "Apparently the man’s 2014 Tesla Model S didn’t brake either.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "2014 Tesla Model S",
+            "start": 390,
+            "end": 408
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla Model S P85",
+            "start": 485,
+            "end": 502
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla Model S",
+            "start": 360,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7e82df531cf9",
+      "name": "Tesla Inc.",
+      "entity_type": "Stakeholder",
+      "description": "Tesla Inc.",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "c632197698d3",
+          "evidence_sentence": "Tesla, Inc. likes to remind owners, drivers, and fans of the Tesla models equipped with Autopilot that the system is not a level five autonomous driving system, but rather one which aids driving.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla, Inc.",
+            "start": 999,
+            "end": 1010
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "195594e78fa7",
+          "evidence_sentence": "Tesla declined to comment on that.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 39,
+            "end": 44
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 5,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "db195de81204",
+      "name": "National Transportation Safety Board",
+      "entity_type": "Stakeholder",
+      "description": "The National Transportation Safety Board",
+      "evidence": [
+        {
+          "evidence_id": "065eb18bb2bf",
+          "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "The National Transportation Safety Board",
+            "start": 250,
+            "end": 290
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "National Transportation Safety Board",
+            "start": 359,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3d8fedef144f",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "NTSB",
+            "start": 645,
+            "end": 649
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 3,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ccb83301400c",
+      "name": "National Highway Police Bureau",
+      "entity_type": "Stakeholder",
+      "description": "National Highway Police Bureau (NHPB)",
+      "evidence": [
+        {
+          "evidence_id": "d53e4bbfd3ab",
+          "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "National Highway Police Bureau (NHPB)",
+            "start": 759,
+            "end": 796
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e22272580db1",
+      "name": "Tesla Autopilot",
+      "entity_type": "AITechnique",
+      "description": "Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "5efcd832759b",
+          "evidence_sentence": "The driver reported the Tesla S was on autopilot and he was not paying attention.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 1385,
+            "end": 1394
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "c632197698d3",
+          "evidence_sentence": "Tesla, Inc. likes to remind owners, drivers, and fans of the Tesla models equipped with Autopilot that the system is not a level five autonomous driving system, but rather one which aids driving.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 429,
+            "end": 438
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 2,
+      "source_doc_ids": [
+        "1792",
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "7996fe16eaa0",
+      "name": "advanced driver assistance system",
+      "entity_type": "AITechnique",
+      "description": "advanced driver assistance system",
+      "evidence": [
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "advanced driver assistance system",
+            "start": 50,
+            "end": 83
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "ca7d5b25dd54",
+      "name": "forward collision warning",
+      "entity_type": "AICapability",
+      "description": "forward collision warning alert",
+      "evidence": [
+        {
+          "evidence_id": "cd705b7e9ea0",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "forward collision warning alert",
+            "start": 2852,
+            "end": 2883
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "e094971edf22",
+      "name": "automatic emergency braking",
+      "entity_type": "AICapability",
+      "description": "automatic emergency braking system",
+      "evidence": [
+        {
+          "evidence_id": "cd705b7e9ea0",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "automatic emergency braking system",
+            "start": 2930,
+            "end": 2964
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0f6ddcfdb99d",
+      "name": "Culver City Fire Department",
+      "entity_type": "Stakeholder",
+      "description": "Culver City Fire Department",
+      "evidence": [
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Culver City Fire Department",
+            "start": 510,
+            "end": 537
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "04593eeabaff",
+      "name": "California Highway Patrol",
+      "entity_type": "Stakeholder",
+      "description": "California Highway Patrol",
+      "evidence": [
+        {
+          "evidence_id": "1ea1d9123b09",
+          "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "California Highway Patrol",
+            "start": 2271,
+            "end": 2296
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "62667b009b59",
+      "name": "self-driving mode",
+      "entity_type": "AICapability",
+      "description": "Autopilot self-driving mode",
+      "evidence": [
+        {
+          "evidence_id": "c804eee7aadc",
+          "evidence_sentence": "CBS Local Los Angeles reports that firefighters say the driver said the vehicle was operating on Autopilot self-driving mode when the accident occurred.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Autopilot self-driving mode",
+            "start": 943,
+            "end": 970
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "953ad31091f4",
+      "name": "Culver City Firefighters Local 1927",
+      "entity_type": "Stakeholder",
+      "description": "Culver City Firefighters Local 1927",
+      "evidence": [
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Culver City Firefighters Local 1927",
+            "start": 255,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "2f5ea55d85f2",
+      "name": "Tesla Automatic Emergency Braking",
+      "entity_type": "AISystem",
+      "description": "Automatic Emergency Braking",
+      "evidence": [
+        {
+          "evidence_id": "e46cba4f5ce2",
+          "evidence_sentence": "In addition, Tesla’s “Automatic Emergency Braking” is generally never off unless manually disabled, as are the collision warning systems.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Automatic Emergency Braking",
+            "start": 2118,
+            "end": 2145
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "369027967c18",
+      "name": "Cognata",
+      "entity_type": "Stakeholder",
+      "description": "Cognata",
+      "evidence": [
+        {
+          "evidence_id": "20c0b7dd141f",
+          "evidence_sentence": "Simulations done by Cognata of this crash suggest that it is possible the camera was set to too bright an exposure, and the bright white truck was just an overexposed blob.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Cognata",
+            "start": 2651,
+            "end": 2658
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "808394dfad4b",
+      "name": "Tesla Inc._AIDeveloper",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "65656e75d41d",
+          "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": "Tesla Inc. developed the Autopilot system, as indicated by their warnings about its capabilities and limitations."
+    },
+    {
+      "id": "523928e46138",
+      "name": "Tesla Inc._AIProvider",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "630f8a126842",
+          "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "attributes": {},
+      "reasoning": "Tesla provides the Autopilot system to vehicle owners through its vehicles, as shown by their public explanations of its use."
+    },
+    {
+      "id": "eb8669d68541",
+      "name": "National Transportation Safety Board_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "bc73b13be694",
+          "evidence_sentence": "[1793] The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": "The NTSB conducted an official investigation into the crash and issued findings, which is a regulatory function."
+    },
+    {
+      "id": "9e7d3401eb6d",
+      "name": "National Highway Police Bureau_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "12e0b429a16d",
+          "evidence_sentence": "[1538] The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "attributes": {},
+      "reasoning": "The NHPB is a law enforcement agency that investigated and reported on the accident, which is a regulatory function."
+    },
+    {
+      "id": "d8c90540a26a",
+      "name": "California Highway Patrol_Regulator",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "33ec3e7e8d99",
+          "evidence_sentence": "[1794] The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.7
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": "As a state law enforcement agency, the California Highway Patrol likely responded to and investigated the crash, which is a regulatory function."
+    },
+    {
+      "id": "13bc329e8995",
+      "name": "Culver City Fire Department_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "0e1e82ceec81",
+          "evidence_sentence": "[1793] A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": "The Culver City Fire Department's firetruck was struck by the Tesla, making them a directly affected party in the accident."
+    },
+    {
+      "id": "af0ef0e0ac08",
+      "name": "Culver City Firefighters Local 1927_AffectedActor",
+      "entity_type": "RoleAssignment",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "1c1819c5d500",
+          "evidence_sentence": "[1792] What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {},
+      "reasoning": "The firefighters' union tweeted about the incident involving their firetruck, indicating they were directly affected by the accident."
+    },
+    {
+      "id": "9225a23b6aa5",
+      "name": "driver inattention and overreliance on advanced driver assistance system",
+      "entity_type": "RiskSource",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "955bee36b51f",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "253ae1a6bd8c",
+      "name": "risk of vehicle collision due to AI system failure to detect stationary objects",
+      "entity_type": "Risk",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "c587d1912bbc",
+          "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "282706c167bb",
+      "name": "driver disengagement from the driving task while using Autopilot",
+      "entity_type": "Hazard",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "5c48f0b44d0e",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "0e4be20b3242",
+      "name": "AI system's failure to perceive large stationary obstacles and inadequate automatic emergency braking engagement",
+      "entity_type": "Vulnerability",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "f5923a868ff8",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "a8a1e5546fda",
+      "name": "Tesla vehicle collided with a stationary firetruck while operating on Autopilot",
+      "entity_type": "Consequence",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d330969ba768",
+          "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "9cf294bfb135",
+      "name": "vehicle collision causing potential injury and property damage",
+      "entity_type": "Impact",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "729c5b73dcff",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "30456d815462",
+      "name": "vehicle occupants and emergency responders",
+      "entity_type": "AffectedActor",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "d4a38e85d286",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "fc62552c7984",
+      "name": "manufacturer warnings about system limitations and requirement for driver attentiveness",
+      "entity_type": "RiskControl",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "a76e11a395df",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": null
+    },
+    {
+      "id": "c536d6f0b8c2",
+      "name": "advanced driver assistance for highway driving",
+      "entity_type": "Purpose",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "ef6c8f0203ae",
+          "evidence_sentence": "[1794] A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": "The evidence explicitly describes Tesla Autopilot as an 'advanced driver assistance system' designed for highway driving scenarios like the one that crashed."
+    },
+    {
+      "id": "f6e6b325ceb3",
+      "name": "deployment",
+      "entity_type": "AILifecyclePhase",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "4a1c48ea6a69",
+          "evidence_sentence": "[1538] The driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "attributes": {},
+      "reasoning": "The accidents occurred during actual use of the AI system by a driver on public roads, indicating the system was in the deployment phase of its lifecycle."
+    },
+    {
+      "id": "a1da155eae48",
+      "name": "transportation",
+      "entity_type": "Domain",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "4714474b97ff",
+          "evidence_sentence": "[1793] A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": "The AI system is deployed in vehicles (Tesla sedans) for driving on highways, which is clearly within the transportation domain."
+    },
+    {
+      "id": "b0e136158247",
+      "name": "maintain driver attention and readiness to intervene",
+      "entity_type": "Obligation",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "da19735a4cb0",
+          "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "attributes": {},
+      "reasoning": "Tesla's warnings establish an obligation for drivers to remain attentive and ready to take control, which is a governance requirement for using the system."
+    },
+    {
+      "id": "8d7377f6ddc1",
+      "name": "system must require driver attention and cannot permit driver disengagement",
+      "entity_type": "ComplianceRequirement",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "55f806ebd091",
+          "evidence_sentence": "[1794] A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.8
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.8,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "attributes": {},
+      "reasoning": "The NTSB investigation identifies that the system permitted driver disengagement, suggesting a compliance requirement that such systems should prevent or limit this capability."
+    },
+    {
+      "id": "213c7ca91667",
+      "name": "NTSB investigation and findings blaming the system",
+      "entity_type": "EnforcementAction",
+      "description": null,
+      "evidence": [
+        {
+          "evidence_id": "6d62c25700dc",
+          "evidence_sentence": "[1792] In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "attributes": {},
+      "reasoning": "The NTSB conducted an investigation and formally attributed blame to the Tesla Autopilot system, which is an enforcement action."
+    }
+  ],
+  "edges": [
+    {
+      "id": "5992199973c5",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasReport",
+      "object_id": "1537",
+      "object_name": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+      "evidence": [
+        {
+          "evidence_id": "d32d0f4a538f",
+          "evidence_sentence": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8f41ab38f9e9",
+      "subject_id": "a8073df0e73f",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1537",
+      "object_name": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3f71f95300b8",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasReport",
+      "object_id": "1538",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "913374b3d63d",
+          "evidence_sentence": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "06b462ce8ecc",
+      "subject_id": "a8073df0e73f",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1538",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "5388bc4fb6d9",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasReport",
+      "object_id": "1792",
+      "object_name": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "11daf5a2b856",
+          "evidence_sentence": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "75d28e2cd6d5",
+      "subject_id": "a8073df0e73f",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1792",
+      "object_name": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c282050017a8",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasReport",
+      "object_id": "1793",
+      "object_name": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+      "evidence": [
+        {
+          "evidence_id": "6694607d06fd",
+          "evidence_sentence": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "78ced53c2627",
+      "subject_id": "a8073df0e73f",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1793",
+      "object_name": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "35e7e26a4229",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasReport",
+      "object_id": "1794",
+      "object_name": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+      "evidence": [
+        {
+          "evidence_id": "e78932e575e4",
+          "evidence_sentence": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7b8e062f1181",
+      "subject_id": "a8073df0e73f",
+      "subject_name": "aiid",
+      "predicate": "hasInformationSource",
+      "object_id": "1794",
+      "object_name": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+      "evidence": [],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "42e23bc2507e",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesAISystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "523f9908e9c5",
+          "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "462891a95b42",
+          "evidence_sentence": "A Tesla driving on autopilot on National Highway 1 barely missed a pedestrian and collided into an overturned truck on Monday (June 1).",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 2,
+            "end": 7
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1538",
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "730063cb25da",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesAISystem",
+      "object_id": "04ef102f3b33",
+      "object_name": "Tesla Model S",
+      "evidence": [
+        {
+          "evidence_id": "6aaf1c3409c8",
+          "evidence_sentence": "Apparently the man’s 2014 Tesla Model S didn’t brake either.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "2014 Tesla Model S",
+            "start": 390,
+            "end": 408
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla Model S P85",
+            "start": 485,
+            "end": 502
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Tesla Model S",
+            "start": 360,
+            "end": 373
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c1bf7067a252",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "7e82df531cf9",
+      "object_name": "Tesla Inc.",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3bdf2c16d320",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "db195de81204",
+      "object_name": "National Transportation Safety Board",
+      "evidence": [
+        {
+          "evidence_id": "065eb18bb2bf",
+          "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "The National Transportation Safety Board",
+            "start": 250,
+            "end": 290
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "National Transportation Safety Board",
+            "start": 359,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3d8fedef144f",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "NTSB",
+            "start": 645,
+            "end": 649
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a000e494f12d",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "ccb83301400c",
+      "object_name": "National Highway Police Bureau",
+      "evidence": [
+        {
+          "evidence_id": "d53e4bbfd3ab",
+          "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "National Highway Police Bureau (NHPB)",
+            "start": 759,
+            "end": 796
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8de08298878d",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "0f6ddcfdb99d",
+      "object_name": "Culver City Fire Department",
+      "evidence": [
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Culver City Fire Department",
+            "start": 510,
+            "end": 537
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3e701ea8de6c",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "04593eeabaff",
+      "object_name": "California Highway Patrol",
+      "evidence": [
+        {
+          "evidence_id": "1ea1d9123b09",
+          "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "California Highway Patrol",
+            "start": 2271,
+            "end": 2296
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "de62cb3a5943",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "953ad31091f4",
+      "object_name": "Culver City Firefighters Local 1927",
+      "evidence": [
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Culver City Firefighters Local 1927",
+            "start": 255,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ffd174350d81",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesAISystem",
+      "object_id": "2f5ea55d85f2",
+      "object_name": "Tesla Automatic Emergency Braking",
+      "evidence": [
+        {
+          "evidence_id": "e46cba4f5ce2",
+          "evidence_sentence": "In addition, Tesla’s “Automatic Emergency Braking” is generally never off unless manually disabled, as are the collision warning systems.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Automatic Emergency Braking",
+            "start": 2118,
+            "end": 2145
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3df6a4e71e3b",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "involvesStakeholder",
+      "object_id": "369027967c18",
+      "object_name": "Cognata",
+      "evidence": [
+        {
+          "evidence_id": "20c0b7dd141f",
+          "evidence_sentence": "Simulations done by Cognata of this crash suggest that it is possible the camera was set to too bright an exposure, and the bright white truck was just an overexposed blob.",
+          "source_doc_id": "1537",
+          "mention_span": {
+            "text": "Cognata",
+            "start": 2651,
+            "end": 2658
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9be7d74f8b7d",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "usesTechnique",
+      "object_id": "e22272580db1",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "5efcd832759b",
+          "evidence_sentence": "The driver reported the Tesla S was on autopilot and he was not paying attention.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 1385,
+            "end": 1394
+          },
+          "confidence": 0.9
+        },
+        {
+          "evidence_id": "c632197698d3",
+          "evidence_sentence": "Tesla, Inc. likes to remind owners, drivers, and fans of the Tesla models equipped with Autopilot that the system is not a level five autonomous driving system, but rather one which aids driving.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Autopilot",
+            "start": 429,
+            "end": 438
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "30ba45eaeedc",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "usesTechnique",
+      "object_id": "7996fe16eaa0",
+      "object_name": "advanced driver assistance system",
+      "evidence": [
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "advanced driver assistance system",
+            "start": 50,
+            "end": 83
+          },
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8f9924ba31bb",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "hasCapability",
+      "object_id": "ca7d5b25dd54",
+      "object_name": "forward collision warning",
+      "evidence": [
+        {
+          "evidence_id": "cd705b7e9ea0",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "forward collision warning alert",
+            "start": 2852,
+            "end": 2883
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f431726f10f6",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "hasCapability",
+      "object_id": "e094971edf22",
+      "object_name": "automatic emergency braking",
+      "evidence": [
+        {
+          "evidence_id": "cd705b7e9ea0",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "automatic emergency braking system",
+            "start": 2930,
+            "end": 2964
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7127d7263ab8",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "hasCapability",
+      "object_id": "62667b009b59",
+      "object_name": "self-driving mode",
+      "evidence": [
+        {
+          "evidence_id": "c804eee7aadc",
+          "evidence_sentence": "CBS Local Los Angeles reports that firefighters say the driver said the vehicle was operating on Autopilot self-driving mode when the accident occurred.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Autopilot self-driving mode",
+            "start": 943,
+            "end": 970
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "04d5d24f299c",
+      "subject_id": "808394dfad4b",
+      "subject_name": "Tesla Inc._AIDeveloper",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "object_name": "Tesla Inc.",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f29b476eeca7",
+      "subject_id": "808394dfad4b",
+      "subject_name": "Tesla Inc._AIDeveloper",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "d74d362039af",
+      "subject_id": "808394dfad4b",
+      "subject_name": "Tesla Inc._AIDeveloper",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c8791464caf6",
+      "subject_id": "523928e46138",
+      "subject_name": "Tesla Inc._AIProvider",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "object_name": "Tesla Inc.",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "fe8ebcd5f508",
+      "subject_id": "523928e46138",
+      "subject_name": "Tesla Inc._AIProvider",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "4dcef3c8106d",
+      "subject_id": "523928e46138",
+      "subject_name": "Tesla Inc._AIProvider",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "d558cf2e76fe",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "Tesla Inc.",
+            "start": 625,
+            "end": 635
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "e5d8f5264387",
+          "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 25,
+            "end": 30
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "4053786c7006",
+          "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Tesla",
+            "start": 485,
+            "end": 490
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "60d27d16ae66",
+      "subject_id": "eb8669d68541",
+      "subject_name": "National Transportation Safety Board_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "db195de81204",
+      "object_name": "National Transportation Safety Board",
+      "evidence": [
+        {
+          "evidence_id": "065eb18bb2bf",
+          "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "The National Transportation Safety Board",
+            "start": 250,
+            "end": 290
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "National Transportation Safety Board",
+            "start": 359,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3d8fedef144f",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "NTSB",
+            "start": 645,
+            "end": 649
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f9feb000b502",
+      "subject_id": "eb8669d68541",
+      "subject_name": "National Transportation Safety Board_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "065eb18bb2bf",
+          "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "The National Transportation Safety Board",
+            "start": 250,
+            "end": 290
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "National Transportation Safety Board",
+            "start": 359,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3d8fedef144f",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "NTSB",
+            "start": 645,
+            "end": 649
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "846a23d173d2",
+      "subject_id": "eb8669d68541",
+      "subject_name": "National Transportation Safety Board_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "065eb18bb2bf",
+          "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+          "source_doc_id": "1793",
+          "mention_span": {
+            "text": "The National Transportation Safety Board",
+            "start": 250,
+            "end": 290
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "8bf2858e2add",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "National Transportation Safety Board",
+            "start": 359,
+            "end": 395
+          },
+          "confidence": 0.95
+        },
+        {
+          "evidence_id": "3d8fedef144f",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "NTSB",
+            "start": 645,
+            "end": 649
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "58a036367d31",
+      "subject_id": "9e7d3401eb6d",
+      "subject_name": "National Highway Police Bureau_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "ccb83301400c",
+      "object_name": "National Highway Police Bureau",
+      "evidence": [
+        {
+          "evidence_id": "d53e4bbfd3ab",
+          "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "National Highway Police Bureau (NHPB)",
+            "start": 759,
+            "end": 796
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "2e5f28ce6669",
+      "subject_id": "9e7d3401eb6d",
+      "subject_name": "National Highway Police Bureau_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "d53e4bbfd3ab",
+          "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "National Highway Police Bureau (NHPB)",
+            "start": 759,
+            "end": 796
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f5328c4e8e6e",
+      "subject_id": "9e7d3401eb6d",
+      "subject_name": "National Highway Police Bureau_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "d53e4bbfd3ab",
+          "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": {
+            "text": "National Highway Police Bureau (NHPB)",
+            "start": 759,
+            "end": 796
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3a3d12ef984c",
+      "subject_id": "d8c90540a26a",
+      "subject_name": "California Highway Patrol_Regulator",
+      "predicate": "roleHeldBy",
+      "object_id": "04593eeabaff",
+      "object_name": "California Highway Patrol",
+      "evidence": [
+        {
+          "evidence_id": "1ea1d9123b09",
+          "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "California Highway Patrol",
+            "start": 2271,
+            "end": 2296
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f074552af251",
+      "subject_id": "d8c90540a26a",
+      "subject_name": "California Highway Patrol_Regulator",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "1ea1d9123b09",
+          "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "California Highway Patrol",
+            "start": 2271,
+            "end": 2296
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a0aa3c60f8f9",
+      "subject_id": "d8c90540a26a",
+      "subject_name": "California Highway Patrol_Regulator",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "1ea1d9123b09",
+          "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "California Highway Patrol",
+            "start": 2271,
+            "end": 2296
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "754342634326",
+      "subject_id": "13bc329e8995",
+      "subject_name": "Culver City Fire Department_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "0f6ddcfdb99d",
+      "object_name": "Culver City Fire Department",
+      "evidence": [
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Culver City Fire Department",
+            "start": 510,
+            "end": 537
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "3366e7807b4d",
+      "subject_id": "13bc329e8995",
+      "subject_name": "Culver City Fire Department_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Culver City Fire Department",
+            "start": 510,
+            "end": 537
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "718d36e9002f",
+      "subject_id": "13bc329e8995",
+      "subject_name": "Culver City Fire Department_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "cd9667c6a40f",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": {
+            "text": "Culver City Fire Department",
+            "start": 510,
+            "end": 537
+          },
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0defa51ed457",
+      "subject_id": "af0ef0e0ac08",
+      "subject_name": "Culver City Firefighters Local 1927_AffectedActor",
+      "predicate": "roleHeldBy",
+      "object_id": "953ad31091f4",
+      "object_name": "Culver City Firefighters Local 1927",
+      "evidence": [
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Culver City Firefighters Local 1927",
+            "start": 255,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a75cc7c2ac2a",
+      "subject_id": "af0ef0e0ac08",
+      "subject_name": "Culver City Firefighters Local 1927_AffectedActor",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Culver City Firefighters Local 1927",
+            "start": 255,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "76be71cd7a03",
+      "subject_id": "af0ef0e0ac08",
+      "subject_name": "Culver City Firefighters Local 1927_AffectedActor",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "7aa0a1984f76",
+          "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+          "source_doc_id": "1792",
+          "mention_span": {
+            "text": "Culver City Firefighters Local 1927",
+            "start": 255,
+            "end": 290
+          },
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "db89a52a016a",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "develops",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "0b23753f3cee",
+          "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e7a9a003282e",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "develops",
+      "object_id": "04ef102f3b33",
+      "object_name": "Tesla Model S",
+      "evidence": [
+        {
+          "evidence_id": "85b1fae32576",
+          "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "c88d71f4e0b7",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "develops",
+      "object_id": "2f5ea55d85f2",
+      "object_name": "Tesla Automatic Emergency Braking",
+      "evidence": [
+        {
+          "evidence_id": "df54e6519358",
+          "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "0d52fa4f3bdd",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "provides",
+      "object_id": "c935b3cf9a20",
+      "object_name": "Tesla Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "074e5db41da3",
+          "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "e860847c6e00",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "provides",
+      "object_id": "04ef102f3b33",
+      "object_name": "Tesla Model S",
+      "evidence": [
+        {
+          "evidence_id": "6c277298434a",
+          "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b9ee9b46a6db",
+      "subject_id": "7e82df531cf9",
+      "subject_name": "Tesla Inc.",
+      "predicate": "provides",
+      "object_id": "2f5ea55d85f2",
+      "object_name": "Tesla Automatic Emergency Braking",
+      "evidence": [
+        {
+          "evidence_id": "22773c835eca",
+          "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "8812c0a31142",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "isRiskSourceFor",
+      "object_id": "9225a23b6aa5",
+      "object_name": "driver inattention and overreliance on advanced driver assistance system",
+      "evidence": [
+        {
+          "evidence_id": "955bee36b51f",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "a999f403a681",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasRisk",
+      "object_id": "253ae1a6bd8c",
+      "object_name": "risk of vehicle collision due to AI system failure to detect stationary objects",
+      "evidence": [
+        {
+          "evidence_id": "c587d1912bbc",
+          "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "88d12c757bc1",
+      "subject_id": "9225a23b6aa5",
+      "subject_name": "driver inattention and overreliance on advanced driver assistance system",
+      "predicate": "causes",
+      "object_id": "253ae1a6bd8c",
+      "object_name": "risk of vehicle collision due to AI system failure to detect stationary objects",
+      "evidence": [
+        {
+          "evidence_id": "c587d1912bbc",
+          "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+          "source_doc_id": "1537",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "20cb631c89f0",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasConsequence",
+      "object_id": "a8a1e5546fda",
+      "object_name": "Tesla vehicle collided with a stationary firetruck while operating on Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "d330969ba768",
+          "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "b9642a030d3d",
+      "subject_id": "253ae1a6bd8c",
+      "subject_name": "risk of vehicle collision due to AI system failure to detect stationary objects",
+      "predicate": "leadsTo",
+      "object_id": "a8a1e5546fda",
+      "object_name": "Tesla vehicle collided with a stationary firetruck while operating on Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "d330969ba768",
+          "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537",
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f565129ff566",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasImpact",
+      "object_id": "9cf294bfb135",
+      "object_name": "vehicle collision causing potential injury and property damage",
+      "evidence": [
+        {
+          "evidence_id": "729c5b73dcff",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "9748a8644905",
+      "subject_id": "a8a1e5546fda",
+      "subject_name": "Tesla vehicle collided with a stationary firetruck while operating on Autopilot",
+      "predicate": "impacts",
+      "object_id": "9cf294bfb135",
+      "object_name": "vehicle collision causing potential injury and property damage",
+      "evidence": [
+        {
+          "evidence_id": "729c5b73dcff",
+          "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.85
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f5f5712a03ea",
+      "subject_id": "9cf294bfb135",
+      "subject_name": "vehicle collision causing potential injury and property damage",
+      "predicate": "affects",
+      "object_id": "30456d815462",
+      "object_name": "vehicle occupants and emergency responders",
+      "evidence": [
+        {
+          "evidence_id": "d4a38e85d286",
+          "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792",
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "ca41dc21b153",
+      "subject_id": "9225a23b6aa5",
+      "subject_name": "driver inattention and overreliance on advanced driver assistance system",
+      "predicate": "hasHazard",
+      "object_id": "282706c167bb",
+      "object_name": "driver disengagement from the driving task while using Autopilot",
+      "evidence": [
+        {
+          "evidence_id": "5c48f0b44d0e",
+          "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "df13757d2ec7",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "hasVulnerability",
+      "object_id": "0e4be20b3242",
+      "object_name": "AI system's failure to perceive large stationary obstacles and inadequate automatic emergency braking engagement",
+      "evidence": [
+        {
+          "evidence_id": "f5923a868ff8",
+          "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794",
+        "1792",
+        "1537",
+        "1793",
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "53396bb9a35d",
+      "subject_id": "fc62552c7984",
+      "subject_name": "manufacturer warnings about system limitations and requirement for driver attentiveness",
+      "predicate": "mitigates",
+      "object_id": "253ae1a6bd8c",
+      "object_name": "risk of vehicle collision due to AI system failure to detect stationary objects",
+      "evidence": [
+        {
+          "evidence_id": "a76e11a395df",
+          "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1537",
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "6a2442470174",
+      "subject_id": "c935b3cf9a20",
+      "subject_name": "Tesla Autopilot",
+      "predicate": "hasCapability",
+      "object_id": "c536d6f0b8c2",
+      "object_name": "advanced driver assistance for highway driving",
+      "evidence": [
+        {
+          "evidence_id": "ef6c8f0203ae",
+          "evidence_sentence": "[1794] A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash",
+          "source_doc_id": "1794",
+          "mention_span": null,
+          "confidence": 0.95
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1794"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "81406482d81d",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasEvidence",
+      "object_id": "f6e6b325ceb3",
+      "object_name": "deployment",
+      "evidence": [
+        {
+          "evidence_id": "4a1c48ea6a69",
+          "evidence_sentence": "[1538] The driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+          "source_doc_id": "1538",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1538"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "7bab9683825d",
+      "subject_id": "pred_237",
+      "subject_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "predicate": "hasEvidence",
+      "object_id": "a1da155eae48",
+      "object_name": "transportation",
+      "evidence": [
+        {
+          "evidence_id": "4714474b97ff",
+          "evidence_sentence": "[1793] A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system",
+          "source_doc_id": "1793",
+          "mention_span": null,
+          "confidence": 1.0
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1793"
+      ],
+      "reasoning": null
+    },
+    {
+      "id": "f868655c925c",
+      "subject_id": "213c7ca91667",
+      "subject_name": "NTSB investigation and findings blaming the system",
+      "predicate": "respondsToIncident",
+      "object_id": "pred_237",
+      "object_name": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+      "evidence": [
+        {
+          "evidence_id": "6d62c25700dc",
+          "evidence_sentence": "[1792] In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+          "source_doc_id": "1792",
+          "mention_span": null,
+          "confidence": 0.9
+        }
+      ],
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1,
+      "source_doc_ids": [
+        "1792"
+      ],
+      "reasoning": null
+    }
+  ],
+  "knowledge_statements": [
+    {
+      "id": "4ab9d33ce6dd",
+      "subject_id": "pred_237",
+      "predicate": "hasReport",
+      "object_id": "1537",
+      "evidence": {
+        "evidence_id": "d32d0f4a538f",
+        "evidence_sentence": "Tesla In Taiwan Crashes Directly Into Overturned Truck, Ignores Pedestrian, With Autopilot On",
+        "source_doc_id": "1537",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "ec28ba5f2e6b",
+      "subject_id": "pred_237",
+      "predicate": "hasReport",
+      "object_id": "1538",
+      "evidence": {
+        "evidence_id": "913374b3d63d",
+        "evidence_sentence": "Video shows Tesla on autopilot slam into truck on Taiwan highway",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0ebf64b17633",
+      "subject_id": "pred_237",
+      "predicate": "hasReport",
+      "object_id": "1792",
+      "evidence": {
+        "evidence_id": "11daf5a2b856",
+        "evidence_sentence": "Tesla Police Blotter News - Tesla Driver Hits Parked Firetruck - Blames Autopilot",
+        "source_doc_id": "1792",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "598e2c2918d7",
+      "subject_id": "pred_237",
+      "predicate": "hasReport",
+      "object_id": "1793",
+      "evidence": {
+        "evidence_id": "6694607d06fd",
+        "evidence_sentence": "Tesla car was on Autopilot when it hit a Culver City firetruck, NTSB finds",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d341501822be",
+      "subject_id": "pred_237",
+      "predicate": "hasReport",
+      "object_id": "1794",
+      "evidence": {
+        "evidence_id": "e78932e575e4",
+        "evidence_sentence": "NTSB Issues Report on Tesla Crash with Culver City Fire Engine",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "14e89c72dada",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "523f9908e9c5",
+        "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "7da319c69b85",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "462891a95b42",
+        "evidence_sentence": "A Tesla driving on autopilot on National Highway 1 barely missed a pedestrian and collided into an overturned truck on Monday (June 1).",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d12a429220df",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 2,
+          "end": 7
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "415b2e3ed922",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "04ef102f3b33",
+      "evidence": {
+        "evidence_id": "6aaf1c3409c8",
+        "evidence_sentence": "Apparently the man’s 2014 Tesla Model S didn’t brake either.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "2014 Tesla Model S",
+          "start": 390,
+          "end": 408
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "dbb74820c326",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "04ef102f3b33",
+      "evidence": {
+        "evidence_id": "cd9667c6a40f",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla Model S P85",
+          "start": 485,
+          "end": 502
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "174145d28fe8",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "04ef102f3b33",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Tesla Model S",
+          "start": 360,
+          "end": 373
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "3e29888c9df9",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "dad2338b03d4",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "4ac12d5a89ac",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "aa4424fc9a2a",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "065eb18bb2bf",
+        "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "The National Transportation Safety Board",
+          "start": 250,
+          "end": 290
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "585f634b34ec",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "8bf2858e2add",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "National Transportation Safety Board",
+          "start": 359,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "36efc18c85d0",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "3d8fedef144f",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "NTSB",
+          "start": 645,
+          "end": 649
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "acf7fcce1d9c",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "ccb83301400c",
+      "evidence": {
+        "evidence_id": "d53e4bbfd3ab",
+        "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "National Highway Police Bureau (NHPB)",
+          "start": 759,
+          "end": 796
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "1e31a5e0bfdb",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "0f6ddcfdb99d",
+      "evidence": {
+        "evidence_id": "cd9667c6a40f",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Culver City Fire Department",
+          "start": 510,
+          "end": 537
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "09892632cc7b",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "04593eeabaff",
+      "evidence": {
+        "evidence_id": "1ea1d9123b09",
+        "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "California Highway Patrol",
+          "start": 2271,
+          "end": 2296
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "160bf784e129",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "953ad31091f4",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Culver City Firefighters Local 1927",
+          "start": 255,
+          "end": 290
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "eb9ee58f0a45",
+      "subject_id": "pred_237",
+      "predicate": "involvesAISystem",
+      "object_id": "2f5ea55d85f2",
+      "evidence": {
+        "evidence_id": "e46cba4f5ce2",
+        "evidence_sentence": "In addition, Tesla’s “Automatic Emergency Braking” is generally never off unless manually disabled, as are the collision warning systems.",
+        "source_doc_id": "1537",
+        "mention_span": {
+          "text": "Automatic Emergency Braking",
+          "start": 2118,
+          "end": 2145
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "af7ae3cf861a",
+      "subject_id": "pred_237",
+      "predicate": "involvesStakeholder",
+      "object_id": "369027967c18",
+      "evidence": {
+        "evidence_id": "20c0b7dd141f",
+        "evidence_sentence": "Simulations done by Cognata of this crash suggest that it is possible the camera was set to too bright an exposure, and the bright white truck was just an overexposed blob.",
+        "source_doc_id": "1537",
+        "mention_span": {
+          "text": "Cognata",
+          "start": 2651,
+          "end": 2658
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "explicit",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "54ed972f009e",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "usesTechnique",
+      "object_id": "e22272580db1",
+      "evidence": {
+        "evidence_id": "5efcd832759b",
+        "evidence_sentence": "The driver reported the Tesla S was on autopilot and he was not paying attention.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Autopilot",
+          "start": 1385,
+          "end": 1394
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1b45df83647d",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "usesTechnique",
+      "object_id": "e22272580db1",
+      "evidence": {
+        "evidence_id": "c632197698d3",
+        "evidence_sentence": "Tesla, Inc. likes to remind owners, drivers, and fans of the Tesla models equipped with Autopilot that the system is not a level five autonomous driving system, but rather one which aids driving.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Autopilot",
+          "start": 429,
+          "end": 438
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "a08f81a9a651",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "usesTechnique",
+      "object_id": "7996fe16eaa0",
+      "evidence": {
+        "evidence_id": "8bf2858e2add",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "advanced driver assistance system",
+          "start": 50,
+          "end": 83
+        },
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "d3c51c8882d7",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "hasCapability",
+      "object_id": "ca7d5b25dd54",
+      "evidence": {
+        "evidence_id": "cd705b7e9ea0",
+        "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "forward collision warning alert",
+          "start": 2852,
+          "end": 2883
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "1123aa90008f",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "hasCapability",
+      "object_id": "e094971edf22",
+      "evidence": {
+        "evidence_id": "cd705b7e9ea0",
+        "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "automatic emergency braking system",
+          "start": 2930,
+          "end": 2964
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "d299a63ad3a3",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "hasCapability",
+      "object_id": "62667b009b59",
+      "evidence": {
+        "evidence_id": "c804eee7aadc",
+        "evidence_sentence": "CBS Local Los Angeles reports that firefighters say the driver said the vehicle was operating on Autopilot self-driving mode when the accident occurred.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Autopilot self-driving mode",
+          "start": 943,
+          "end": 970
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "dec43a12ca0d",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a0d3832bafff",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "d609fce30d73",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "97f2d93b0155",
+      "subject_id": "808394dfad4b",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "69d6cbb11e09",
+      "subject_id": "808394dfad4b",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "38665f206cf7",
+      "subject_id": "808394dfad4b",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "11a68e63242f",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "4da35cd20f08",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "77db241c1cea",
+      "subject_id": "808394dfad4b",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "98a33048b13e",
+      "subject_id": "523928e46138",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f8c9b444d444",
+      "subject_id": "523928e46138",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "dfc7c2cc452a",
+      "subject_id": "523928e46138",
+      "predicate": "roleHeldBy",
+      "object_id": "7e82df531cf9",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "df72351c25f7",
+      "subject_id": "523928e46138",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "5ed80931c9a5",
+      "subject_id": "523928e46138",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "f27e33eb4207",
+      "subject_id": "523928e46138",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "2e6b8e94f975",
+      "subject_id": "523928e46138",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "d558cf2e76fe",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "Tesla Inc.",
+          "start": 625,
+          "end": 635
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "192e5cbd5b43",
+      "subject_id": "523928e46138",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "e5d8f5264387",
+        "evidence_sentence": "On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is \"fully attentive\" and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 25,
+          "end": 30
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "52d7f3868f11",
+      "subject_id": "523928e46138",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "4053786c7006",
+        "evidence_sentence": "In response to requests for comment at the time, a Tesla Inc. spokesperson didn't address the specific accident, but they pointed out that autopilot requires the attention of the driver.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Tesla",
+          "start": 485,
+          "end": 490
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "321242b298ce",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleHeldBy",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "065eb18bb2bf",
+        "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "The National Transportation Safety Board",
+          "start": 250,
+          "end": 290
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "3456bb397e85",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleHeldBy",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "8bf2858e2add",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "National Transportation Safety Board",
+          "start": 359,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "8bda94b8a0f0",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleHeldBy",
+      "object_id": "db195de81204",
+      "evidence": {
+        "evidence_id": "3d8fedef144f",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "NTSB",
+          "start": 645,
+          "end": 649
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "b19715a08a4a",
+      "subject_id": "eb8669d68541",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "065eb18bb2bf",
+        "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "The National Transportation Safety Board",
+          "start": 250,
+          "end": 290
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "b5b2e7f4a5f5",
+      "subject_id": "eb8669d68541",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "8bf2858e2add",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "National Transportation Safety Board",
+          "start": 359,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "1c63a67bda5e",
+      "subject_id": "eb8669d68541",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "3d8fedef144f",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "NTSB",
+          "start": 645,
+          "end": 649
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "83cb3734077b",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "065eb18bb2bf",
+        "evidence_sentence": "The National Transportation Safety Board said Tuesday that the driver never saw the parked firetruck and didn’t brake.",
+        "source_doc_id": "1793",
+        "mention_span": {
+          "text": "The National Transportation Safety Board",
+          "start": 250,
+          "end": 290
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "cdb26245f739",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "8bf2858e2add",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "National Transportation Safety Board",
+          "start": 359,
+          "end": 395
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "4b3d74b3f67f",
+      "subject_id": "eb8669d68541",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "3d8fedef144f",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "NTSB",
+          "start": 645,
+          "end": 649
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "bea670b96e22",
+      "subject_id": "9e7d3401eb6d",
+      "predicate": "roleHeldBy",
+      "object_id": "ccb83301400c",
+      "evidence": {
+        "evidence_id": "d53e4bbfd3ab",
+        "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "National Highway Police Bureau (NHPB)",
+          "start": 759,
+          "end": 796
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "b8ff32ed9d3a",
+      "subject_id": "9e7d3401eb6d",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "d53e4bbfd3ab",
+        "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "National Highway Police Bureau (NHPB)",
+          "start": 759,
+          "end": 796
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "bd6c8b0ee62b",
+      "subject_id": "9e7d3401eb6d",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "d53e4bbfd3ab",
+        "evidence_sentence": "The National Highway Police Bureau (NHPB) said the driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+        "source_doc_id": "1538",
+        "mention_span": {
+          "text": "National Highway Police Bureau (NHPB)",
+          "start": 759,
+          "end": 796
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "93d0546f75e2",
+      "subject_id": "d8c90540a26a",
+      "predicate": "roleHeldBy",
+      "object_id": "04593eeabaff",
+      "evidence": {
+        "evidence_id": "1ea1d9123b09",
+        "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "California Highway Patrol",
+          "start": 2271,
+          "end": 2296
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "a40e11a48a60",
+      "subject_id": "d8c90540a26a",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "1ea1d9123b09",
+        "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "California Highway Patrol",
+          "start": 2271,
+          "end": 2296
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "838f4d33e5ef",
+      "subject_id": "d8c90540a26a",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "1ea1d9123b09",
+        "evidence_sentence": "The response to a collision in the northbound freeway lanes 25 minutes earlier left a California Highway Patrol vehicle parked on the left shoulder of southbound I-405 and the Culver City Fire Department engine parked diagonally across the southbound HOV lane.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "California Highway Patrol",
+          "start": 2271,
+          "end": 2296
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "700bb943b4bf",
+      "subject_id": "13bc329e8995",
+      "predicate": "roleHeldBy",
+      "object_id": "0f6ddcfdb99d",
+      "evidence": {
+        "evidence_id": "cd9667c6a40f",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Culver City Fire Department",
+          "start": 510,
+          "end": 537
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "185edc6918b4",
+      "subject_id": "13bc329e8995",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "cd9667c6a40f",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Culver City Fire Department",
+          "start": 510,
+          "end": 537
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "19f0dc57e9ce",
+      "subject_id": "13bc329e8995",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "cd9667c6a40f",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": {
+          "text": "Culver City Fire Department",
+          "start": 510,
+          "end": 537
+        },
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "11b8e1eee49a",
+      "subject_id": "af0ef0e0ac08",
+      "predicate": "roleHeldBy",
+      "object_id": "953ad31091f4",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Culver City Firefighters Local 1927",
+          "start": 255,
+          "end": 290
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "8598672d0466",
+      "subject_id": "af0ef0e0ac08",
+      "predicate": "hasRoleInIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Culver City Firefighters Local 1927",
+          "start": 255,
+          "end": 290
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "894708eee88a",
+      "subject_id": "af0ef0e0ac08",
+      "predicate": "roleInvolvesSystem",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "7aa0a1984f76",
+        "evidence_sentence": "What makes the story newsworthy is that the Culver City Firefighters Local 1927 tweeted that the driver of the Tesla Model S reported that the luxury electric car was traveling in Autopilot mode when it struck the un-moving huge, red firetruck.",
+        "source_doc_id": "1792",
+        "mention_span": {
+          "text": "Culver City Firefighters Local 1927",
+          "start": 255,
+          "end": 290
+        },
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.7,
+      "support_count": 1
+    },
+    {
+      "id": "6c0232621152",
+      "subject_id": "7e82df531cf9",
+      "predicate": "develops",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "0b23753f3cee",
+        "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "5da685293a85",
+      "subject_id": "7e82df531cf9",
+      "predicate": "develops",
+      "object_id": "04ef102f3b33",
+      "evidence": {
+        "evidence_id": "85b1fae32576",
+        "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "954b731cb763",
+      "subject_id": "7e82df531cf9",
+      "predicate": "develops",
+      "object_id": "2f5ea55d85f2",
+      "evidence": {
+        "evidence_id": "df54e6519358",
+        "evidence_sentence": "[1793] Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "067917fe9804",
+      "subject_id": "7e82df531cf9",
+      "predicate": "provides",
+      "object_id": "c935b3cf9a20",
+      "evidence": {
+        "evidence_id": "074e5db41da3",
+        "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "8acdc08b02ba",
+      "subject_id": "7e82df531cf9",
+      "predicate": "provides",
+      "object_id": "04ef102f3b33",
+      "evidence": {
+        "evidence_id": "6c277298434a",
+        "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "af0489598c0c",
+      "subject_id": "7e82df531cf9",
+      "predicate": "provides",
+      "object_id": "2f5ea55d85f2",
+      "evidence": {
+        "evidence_id": "22773c835eca",
+        "evidence_sentence": "[1538] On its website, Tesla explains that although the autopilot has steering and braking capabilities, it does not make the vehicle autonomous and is only meant to be used when the driver is 'fully attentive' and prepared to take the wheel at any time.",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "30522cbf7007",
+      "subject_id": "pred_237",
+      "predicate": "isRiskSourceFor",
+      "object_id": "9225a23b6aa5",
+      "evidence": {
+        "evidence_id": "955bee36b51f",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "655e21907e13",
+      "subject_id": "pred_237",
+      "predicate": "hasRisk",
+      "object_id": "253ae1a6bd8c",
+      "evidence": {
+        "evidence_id": "c587d1912bbc",
+        "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+        "source_doc_id": "1537",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "c9043b93541e",
+      "subject_id": "9225a23b6aa5",
+      "predicate": "causes",
+      "object_id": "253ae1a6bd8c",
+      "evidence": {
+        "evidence_id": "c587d1912bbc",
+        "evidence_sentence": "Why does Tesla autopilot not perceive such a large obstacle on the road as this, with its use of cameras and radar?",
+        "source_doc_id": "1537",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "6060c8a34046",
+      "subject_id": "pred_237",
+      "predicate": "hasConsequence",
+      "object_id": "a8a1e5546fda",
+      "evidence": {
+        "evidence_id": "d330969ba768",
+        "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "ba09c39e752e",
+      "subject_id": "253ae1a6bd8c",
+      "predicate": "leadsTo",
+      "object_id": "a8a1e5546fda",
+      "evidence": {
+        "evidence_id": "d330969ba768",
+        "evidence_sentence": "A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system when a vehicle in front of him suddenly changed lanes and he didn’t have time to react.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "4a8b9e78b24b",
+      "subject_id": "pred_237",
+      "predicate": "hasImpact",
+      "object_id": "9cf294bfb135",
+      "evidence": {
+        "evidence_id": "729c5b73dcff",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "2f7794f45b00",
+      "subject_id": "a8a1e5546fda",
+      "predicate": "impacts",
+      "object_id": "9cf294bfb135",
+      "evidence": {
+        "evidence_id": "729c5b73dcff",
+        "evidence_sentence": "In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": null,
+        "confidence": 0.85
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "c4a3142c91fd",
+      "subject_id": "9cf294bfb135",
+      "predicate": "affects",
+      "object_id": "30456d815462",
+      "evidence": {
+        "evidence_id": "d4a38e85d286",
+        "evidence_sentence": "The results of the NTSB's investigation of the crash involved a Tesla Model S P85 and a Culver City Fire Department Culver City Engine 42 in the high-occupancy vehicle lane of southbound Interstate 405.",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.85,
+      "support_count": 1
+    },
+    {
+      "id": "762ab90e8d97",
+      "subject_id": "9225a23b6aa5",
+      "predicate": "hasHazard",
+      "object_id": "282706c167bb",
+      "evidence": {
+        "evidence_id": "5c48f0b44d0e",
+        "evidence_sentence": "A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash in Culver City, California, according to a National Transportation Safety Board brief issued Wednesday.",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "b5eff7f33d8a",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "hasVulnerability",
+      "object_id": "0e4be20b3242",
+      "evidence": {
+        "evidence_id": "f5923a868ff8",
+        "evidence_sentence": "A forward collision warning alert occurred 0.49 seconds prior to impact but the automatic emergency braking system did not engage.",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "a18b251e1ef1",
+      "subject_id": "fc62552c7984",
+      "predicate": "mitigates",
+      "object_id": "253ae1a6bd8c",
+      "evidence": {
+        "evidence_id": "a76e11a395df",
+        "evidence_sentence": "Tesla Inc. warns drivers that the system is not fully autonomous and that drivers who use it must be ready to intervene.",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "abstracted",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "727510f369a1",
+      "subject_id": "c935b3cf9a20",
+      "predicate": "hasCapability",
+      "object_id": "c536d6f0b8c2",
+      "evidence": {
+        "evidence_id": "ef6c8f0203ae",
+        "evidence_sentence": "[1794] A driver's inattention, overreliance on his car's advanced driver assistance system, and use of the system inconsistent with manufacturer guidance, coupled with the system permitting driver disengagement from the driving task, led to the Jan. 22, 2018, crash",
+        "source_doc_id": "1794",
+        "mention_span": null,
+        "confidence": 0.95
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.95,
+      "support_count": 1
+    },
+    {
+      "id": "0b527f5847ba",
+      "subject_id": "pred_237",
+      "predicate": "hasEvidence",
+      "object_id": "f6e6b325ceb3",
+      "evidence": {
+        "evidence_id": "4a1c48ea6a69",
+        "evidence_sentence": "[1538] The driver of the Tesla was a 53-year-old man surnamed Huang (黃), who claimed that he had set the car to run on autopilot at a speed of 110 kilometers per hour prior to the accident.",
+        "source_doc_id": "1538",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    },
+    {
+      "id": "0bf53e66d6a7",
+      "subject_id": "pred_237",
+      "predicate": "hasEvidence",
+      "object_id": "a1da155eae48",
+      "evidence": {
+        "evidence_id": "4714474b97ff",
+        "evidence_sentence": "[1793] A government report says the driver of a Tesla sedan that slammed into a Culver City firetruck on the 405 Freeway last year was using the car’s Autopilot system",
+        "source_doc_id": "1793",
+        "mention_span": null,
+        "confidence": 1.0
+      },
+      "extraction_mode": "inferred",
+      "confidence": 1.0,
+      "support_count": 1
+    },
+    {
+      "id": "a1509672d5da",
+      "subject_id": "213c7ca91667",
+      "predicate": "respondsToIncident",
+      "object_id": "pred_237",
+      "evidence": {
+        "evidence_id": "6d62c25700dc",
+        "evidence_sentence": "[1792] In that crash, the NTSB pinned some of the blame on the Tesla Autopilot system.",
+        "source_doc_id": "1792",
+        "mention_span": null,
+        "confidence": 0.9
+      },
+      "extraction_mode": "inferred",
+      "confidence": 0.9,
+      "support_count": 1
+    }
+  ],
+  "support_statistics": {
+    "Tesla Autopilot": 1,
+    "Tesla Model S": 2,
+    "Tesla Inc.": 1,
+    "National Transportation Safety Board": 3,
+    "National Highway Police Bureau": 1,
+    "Tesla": 3,
+    "Tesla Model S P85": 1,
+    "advanced driver assistance system": 1,
+    "forward collision warning": 1,
+    "automatic emergency braking": 1,
+    "Culver City Fire Department": 1,
+    "California Highway Patrol": 1,
+    "Autopilot": 1,
+    "self-driving mode": 1,
+    "Tesla, Inc.": 1,
+    "Culver City Firefighters Local 1927": 1,
+    "Tesla Automatic Emergency Braking": 1,
+    "Cognata": 1
+  },
+  "report_count": 5,
+  "first_seen": "2018-01-23T00:00:00Z",
+  "last_seen": "2020-06-02T00:00:00Z"
+}
