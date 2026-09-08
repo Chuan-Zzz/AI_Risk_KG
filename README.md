@@ -107,10 +107,10 @@ Three-level human evaluation was conducted with Label Studio (multiple annotator
 
 | Level | Files | Metrics |
 |-------|-------|---------|
-| 1 — Explicit entities | `eval/annotations/level1_entity_*.json` | Precision / Recall / F1 (exact + partial match) |
-| 2 — Risk chain | `eval/annotations/level2_risk_chain_*.json` | Slot accuracy |
-| 3 — Inference fields | `eval/annotations/level3_inference_*.json` | Field accuracy + evidence support rate |
-| ESR validation | `eval/annotations/esr_annotation.json` | Evidence support re-annotation |
+| 1 — Explicit entities | `eval/annotations/level1_entity/` | Precision / Recall / F1 (exact + partial match) |
+| 2 — Risk chain | `eval/annotations/level2_risk_chain/` | Slot accuracy |
+| 3 — Inference fields | `eval/annotations/level3_inference/` | Field accuracy + evidence support rate |
+| ESR validation | `eval/annotations/esr_validation/` | Evidence support re-annotation |
 
 Annotation tasks, label configs, and arbitration assets live in `eval/label_studio/`. All reported metrics can be recomputed offline:
 

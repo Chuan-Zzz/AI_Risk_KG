@@ -23,7 +23,7 @@ sample. This shows how judge error propagates into the reported 84.4%.
 
 Inputs:
     --sample  eval/results/esr_validation_sample.jsonl
-    --map     eval/label_studio/esr_validation/val_key_map.json
+    --map     eval/label_studio/esr_validation/validation_key_map.json
     --a / --b Label Studio export JSONs (one annotator each)
     --arb     optional arbitrator export (only disagreeing tasks)
     --out     optional JSON output path

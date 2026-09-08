@@ -49,7 +49,7 @@ htmlcov/
 docx_content.txt
 
 # Output
-output/
+/output/
 *.log
 logs/
 

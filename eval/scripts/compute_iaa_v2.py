@@ -40,8 +40,8 @@ def compute_ia_f1_level1() -> dict:
     results = {}
 
     for pair_name, fa_name, fb_name in [
-        ("A26 vs A44", "level1_entity_1.json", "level1_entity_3.json"),
-        ("A41 vs A45", "level1_entity_2.json", "level1_entity_4.json"),
+        ("A26 vs A44", "level1_entity/annotator_1.json", "level1_entity/annotator_3.json"),
+        ("A41 vs A45", "level1_entity/annotator_2.json", "level1_entity/annotator_4.json"),
     ]:
         fa = load_json(fa_name)
         fb = load_json(fb_name)
@@ -391,7 +391,7 @@ if __name__ == "__main__":
     r1 = compute_ia_f1_level1()
 
     r2 = compute_rating_metrics(
-        "Level 2 风险链", "level2_risk_chain_",
+        "Level 2 风险链", "level2_risk_chain/annotator_",
         ["risk_source_score", "risk_score", "consequence_score",
          "impact_score", "affected_actor_score", "risk_control_score"],
         {"risk_source_score": "RiskSource", "risk_score": "Risk",
@@ -400,7 +400,7 @@ if __name__ == "__main__":
     )
 
     r3 = compute_rating_metrics(
-        "Level 3 推理字段", "level3_inference_",
+        "Level 3 推理字段", "level3_inference/annotator_",
         ["purpose_score", "lifecycle_score", "domain_score"],
         {"purpose_score": "Purpose", "lifecycle_score": "AILifecyclePhase", "domain_score": "Domain"},
     )

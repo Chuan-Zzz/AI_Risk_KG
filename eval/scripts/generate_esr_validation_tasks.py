@@ -217,7 +217,7 @@ def main():
               ensure_ascii=False, indent=1)
 
     key_map = {val_id(r["edge_key"]): r["edge_key"] for r in sample}
-    json.dump(key_map, open(OUT_DIR / "val_key_map.json", "w", encoding="utf-8"),
+    json.dump(key_map, open(OUT_DIR / "validation_key_map.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 
     # sample record (with verdict metadata, for the metric script; NOT uploaded)

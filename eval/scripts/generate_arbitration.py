@@ -53,8 +53,8 @@ def build_level1_arbitration():
     all_disagree = []
 
     for pair_name, fa_name, fb_name in [
-        ("A26_vs_A44", "level1_entity_1.json", "level1_entity_3.json"),
-        ("A41_vs_A45", "level1_entity_2.json", "level1_entity_4.json"),
+        ("A26_vs_A44", "level1_entity/annotator_1.json", "level1_entity/annotator_3.json"),
+        ("A41_vs_A45", "level1_entity/annotator_2.json", "level1_entity/annotator_4.json"),
     ]:
         fa = load_json(EVAL_DIR / fa_name)
         fb = load_json(EVAL_DIR / fb_name)
@@ -262,22 +262,22 @@ def generate_ls_file(tasks: list[dict], level_dir: str):
         print(f"  {level_dir}: 无不一致任务，跳过")
         return
 
-    out_path = OUTPUT_DIR / level_dir / "arbitration.json"
+    out_path = OUTPUT_DIR / f"{level_dir}_tasks.json"
     save_json(tasks, out_path)
-    print(f"  {level_dir}/arbitration.json: {len(tasks)} 个任务")
+    print(f"  {level_dir}_tasks.json: {len(tasks)} 个任务")
 
 
 if __name__ == "__main__":
     r1 = build_level1_arbitration()
 
     r2 = build_rating_arbitration(
-        "Level 2 风险链", "level2_risk_chain_",
+        "Level 2 风险链", "level2_risk_chain/annotator_",
         ["risk_source_score", "risk_score", "consequence_score",
          "impact_score", "affected_actor_score", "risk_control_score"],
     )
 
     r3 = build_rating_arbitration(
-        "Level 3 推理字段", "level3_inference_",
+        "Level 3 推理字段", "level3_inference/annotator_",
         ["purpose_score", "lifecycle_score", "domain_score"],
     )
 
@@ -295,7 +295,7 @@ if __name__ == "__main__":
         "level2_risk_chain": len(r2),
         "level3_inference": len(r3),
     }
-    save_json(summary, OUTPUT_DIR / "arbitration_summary.json")
+    save_json(summary, OUTPUT_DIR / "summary.json")
     print(f"\n  汇总: {summary}")
 
     print("\n" + "=" * 80)
