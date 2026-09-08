@@ -159,8 +159,8 @@ python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
 │   └── scripts/                      # Evaluation and analysis commands
 ├── docs/
 │   └── evaluation/                   # Evaluation plan, annotation guide, ablation report
-├── web/                              # Local exploration app and figure scripts
-│   └── viewer/                       # ECharts full-graph viewer assets
+├── scripts/                          # Graph statistics, risk classification, and paper figure generation
+│   └── data/                         # Precomputed statistics and classification results
 ├── tests/                            # Pytest test suite
 ├── main.py                           # CLI entry point
 ├── LICENSE

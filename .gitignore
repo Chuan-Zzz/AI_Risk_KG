@@ -56,9 +56,6 @@ logs/
 # Local archive (not for publication)
 archive/
 
-# Large derived data (regenerable from output/, shipped via GitHub Releases)
-web/viewer/data/graph_full.json
-
 # Submission packages
 *.zip
 
