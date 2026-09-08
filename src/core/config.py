@@ -39,8 +39,20 @@ class Config:
 
     def _resolve_env(self, value: Any) -> Any:
         if isinstance(value, str) and value.startswith("${") and value.endswith("}"):
-            env_key = value[2:-1]
-            return os.environ.get(env_key, "")
+            raw = value[2:-1]
+            if ":" in raw:
+                env_key, fallback = raw.split(":", 1)
+                resolved = os.environ.get(env_key, fallback)
+            else:
+                resolved = os.environ.get(raw, "")
+
+            if resolved == "":
+                return ""
+
+            try:
+                return yaml.safe_load(resolved)
+            except Exception:
+                return resolved
         return value
 
     def get(self, key_path: str, default: Any = None) -> Any:
@@ -63,30 +75,47 @@ class Config:
     def llm(self) -> dict[str, Any]:
         return self._data.get("llm", {})
 
+    def to_dict(self) -> dict[str, Any]:
+        return self._data.copy()
+
     @staticmethod
     def _defaults() -> dict[str, Any]:
         return {
             "llm": {
                 "primary": {
                     "provider": "openai",
-                    "model": "gpt-4o-mini",
-                    "base_url": "https://api.lingyaai.cn/v1",
+                    "model": "${LLM_MODEL:deepseek-v4-flash}",
+                    "base_url": "${LLM_BASE_URL:https://api.ldwnb666.xyz/v1}",
                     "api_key": "${LLM_API_KEY}",
+                    "reasoning_effort": "${LLM_REASONING_EFFORT:}",
+                    "temperature": 0.1,
+                    "max_tokens": 8192,
+                },
+                "fallback": {
+                    "provider": "openai",
+                    "model": "${FALLBACK_LLM_MODEL:}",
+                    "base_url": "${LLM_BASE_URL:https://api.ldwnb666.xyz/v1}",
+                    "api_key": "${LLM_API_KEY}",
+                    "reasoning_effort": "",
                     "temperature": 0.1,
                     "max_tokens": 8192,
                 },
             },
             "embedding": {
-                "model": "BAAI/bge-m3",
-                "dimension": 1024,
-                "device": "cpu",
-                "batch_size": 32,
+                "provider": "${EMBEDDING_PROVIDER:local}",
+                "model": "${EMBEDDING_MODEL:BAAI/bge-m3}",
+                "base_url": "${EMBEDDING_BASE_URL:}",
+                "api_key": "${EMBEDDING_API_KEY:}",
+                "dimension": "${EMBEDDING_DIMENSION:1024}",
+                "device": "${EMBEDDING_DEVICE:cpu}",
+                "batch_size": "${EMBEDDING_BATCH_SIZE:32}",
+                "timeout": "${EMBEDDING_TIMEOUT:180}",
             },
             "neo4j": {
-                "uri": "${NEO4J_URI}",
-                "user": "${NEO4J_USER}",
-                "password": "${NEO4J_PASSWORD}",
-                "database": "neo4j",
+                "uri": "${NEO4J_URI:bolt://localhost:7687}",
+                "user": "${NEO4J_USER:neo4j}",
+                "password": "${NEO4J_PASSWORD:}",
+                "database": "${NEO4J_DATABASE:kgclean}",
             },
             "validation": {
                 "max_retries": 3,
@@ -95,9 +124,6 @@ class Config:
             "extraction": {
                 "batch_size": 5,
                 "parallel_workers": 2,
-            },
-            "output": {
-                "dir": "output",
             },
         }
 

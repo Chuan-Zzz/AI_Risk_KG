@@ -1,0 +1,21 @@
+stage,rank,value,count
+RiskSource,1,AI-generated deepfake technology,11
+RiskSource,2,AI model hallucination,8
+RiskSource,3,inaccurate facial recognition matching,8
+RiskSource,4,model hallucination,7
+RiskSource,5,AI-generated deepfake media,7
+RiskSource,6,biased training data,7
+RiskSource,7,AI voice cloning technology,6
+RiskSource,8,Model hallucination,4
+RiskSource,9,deepfake generation technology,4
+RiskSource,10,Deepfake generation technology,3
+AffectedActor,1,Google,5
+AffectedActor,2,children,5
+AffectedActor,3,Taylor Swift,5
+AffectedActor,4,Sam Mitrovic,5
+AffectedActor,5,Kamala Harris,4
+AffectedActor,6,Voters and the general public,4
+AffectedActor,7,The New York Times,4
+AffectedActor,8,Tesla drivers and other road users,4
+AffectedActor,9,Sarah Silverman,4
+AffectedActor,10,Cambridge Analytica,4

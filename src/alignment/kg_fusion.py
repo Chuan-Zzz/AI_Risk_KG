@@ -14,12 +14,14 @@ import logging
 from pathlib import Path
 from typing import Any
 
+import numpy as np
+
 from src.alignment.cross_event import _NON_ALIGNABLE_TYPES, _STAKEHOLDER_TYPES, _alignment_type
 from src.alignment.semantic_aligner import SemanticAligner, UnionFind
 from src.alignment.llm_verifier import LLMVerifier
 from src.core.config import get_config
 from src.core.models import EntityNode, EventKnowledgeSubgraph, OntologyClass
-from src.utils.text import normalize_entity_name
+from src.utils.text import normalize_for_matching
 
 logger = logging.getLogger(__name__)
 
@@ -62,7 +64,12 @@ def _global_entity_resolution(
     n = len(entities)
     uf = UnionFind(n)
 
+    # Cache similarity matrices per type so they are computed only once
+    # and reused by both the threshold merge and the LLM boundary verification.
+    type_sim_cache: dict[str, tuple[list[int], list[EntityNode], np.ndarray]] = {}
+
     # Step 2: Within each type, do name-based blocking + semantic matching
+    aligner = SemanticAligner(threshold=threshold)
     for atype, typed_entities in by_type.items():
         if len(typed_entities) < 2:
             continue
@@ -71,10 +78,10 @@ def _global_entity_resolution(
         nodes = [node for _, node in typed_entities]
         names = [node.name for node in nodes]
 
-        # 2a. Name-based exact blocking (normalized name match)
+        # 2a. Name-based exact blocking (aggressive normalization match)
         name_groups: dict[str, list[int]] = {}
         for local_i, node in enumerate(nodes):
-            norm = normalize_entity_name(node.name).lower()
+            norm = normalize_for_matching(node.name)
             name_groups.setdefault(norm, []).append(local_i)
 
         for norm, members in name_groups.items():
@@ -84,8 +91,8 @@ def _global_entity_resolution(
 
         # 2b. Semantic similarity for remaining unmatched pairs
         try:
-            aligner = SemanticAligner(threshold=threshold)
             sim_matrix = aligner._compute_hybrid_scores(names)
+            type_sim_cache[atype] = (indices, nodes, sim_matrix)
 
             for a in range(len(nodes)):
                 for b in range(a + 1, len(nodes)):
@@ -94,9 +101,9 @@ def _global_entity_resolution(
         except Exception as e:
             logger.warning(f"Semantic alignment failed for type {atype}: {e}")
 
-    # Step 3: LLM verification for boundary pairs
+    # Step 3: LLM verification for boundary pairs (reuses cached sim matrices)
     if llm_verify_top_k > 0:
-        _llm_verify_boundary(entities, uf, threshold, llm_verify_top_k)
+        _llm_verify_boundary(entities, uf, threshold, llm_verify_top_k, type_sim_cache)
 
     # Step 4: Build canonical ID mapping
     # For each group, pick the entity with the longest name as canonical
@@ -113,7 +120,6 @@ def _global_entity_resolution(
             continue
 
         # Pick canonical: highest support_count, then longest name
-        member_entities = [entities[m] for m in members]
         best_idx = max(members, key=lambda m: (
             entities[m][2].support_count,
             len(entities[m][2].name),
@@ -126,7 +132,7 @@ def _global_entity_resolution(
 
     # Log merge statistics
     merge_count = sum(1 for members in root_to_members.values() if len(members) > 1)
-    merged_entities = sum(len(m) for m in root_to_members.values() if len(m) > 1)
+    merged_entities = sum(len(m) for m in root_to_members.values() if len(members) > 1)
     logger.info(
         f"[Phase 2] Global resolution: {n} entities, "
         f"{merge_count} merge groups, {merged_entities} entities merged"
@@ -140,50 +146,68 @@ def _llm_verify_boundary(
     uf: UnionFind,
     threshold: float,
     top_k: int,
+    type_sim_cache: dict[str, tuple[list[int], list[EntityNode], np.ndarray]],
 ) -> None:
-    """Use LLM to verify boundary cases (similarity in [0.55, threshold))."""
+    """Use LLM to verify boundary cases (similarity in [0.55, threshold)).
+
+    Reuses the similarity matrices cached during step 2b to avoid recomputing
+    embeddings and BM25 scores. The ``top_k`` budget is distributed across type
+    groups proportionally so that no single type monopolises the LLM calls.
+    """
     low, high = 0.55, threshold
 
-    by_type: dict[str, list[tuple[int, EntityNode]]] = {}
-    for idx, (event_id, eid, node) in enumerate(entities):
-        atype = _alignment_type(node)
-        by_type.setdefault(atype, []).append((idx, node))
+    # Collect boundary pairs per type, with global indices
+    per_type_pairs: dict[str, list[tuple[int, int, float]]] = {}
+    total_boundary = 0
 
-    boundary_pairs: list[tuple[int, int, float]] = []
+    for atype, (indices, nodes, sim_matrix) in type_sim_cache.items():
+        pairs: list[tuple[int, int, float]] = []
+        for a in range(len(nodes)):
+            for b in range(a + 1, len(nodes)):
+                sim = float(sim_matrix[a, b])
+                if low <= sim < high:
+                    # Skip if already in same group
+                    if uf.find(indices[a]) != uf.find(indices[b]):
+                        pairs.append((indices[a], indices[b], sim))
+        if pairs:
+            # Sort within type by similarity descending
+            pairs.sort(key=lambda x: x[2], reverse=True)
+            per_type_pairs[atype] = pairs
+            total_boundary += len(pairs)
 
-    for atype, typed_entities in by_type.items():
-        if len(typed_entities) < 2:
-            continue
-
-        indices = [idx for idx, _ in typed_entities]
-        nodes = [node for _, node in typed_entities]
-        names = [node.name for node in nodes]
-
-        try:
-            aligner = SemanticAligner(threshold=high)
-            sim_matrix = aligner._compute_hybrid_scores(names)
-
-            for a in range(len(nodes)):
-                for b in range(a + 1, len(nodes)):
-                    sim = float(sim_matrix[a, b])
-                    if low <= sim < high:
-                        # Skip if already in same group
-                        if uf.find(indices[a]) != uf.find(indices[b]):
-                            boundary_pairs.append((indices[a], indices[b], sim))
-        except Exception:
-            continue
-
-    if not boundary_pairs:
+    if total_boundary == 0:
         return
 
-    # Sort by similarity descending, take top_k
-    boundary_pairs.sort(key=lambda x: x[2], reverse=True)
-    boundary_pairs = boundary_pairs[:top_k]
+    # Distribute top_k budget across types proportionally to their boundary count.
+    # Each type gets at least 1 slot if it has boundary pairs and top_k > 0.
+    selected_pairs: list[tuple[int, int, float]] = []
+    if total_boundary <= top_k:
+        # Fewer boundary pairs than budget — verify all
+        for pairs in per_type_pairs.values():
+            selected_pairs.extend(pairs)
+    else:
+        remaining = top_k
+        type_items = list(per_type_pairs.items())
+        for i, (atype, pairs) in enumerate(type_items):
+            if remaining <= 0:
+                break
+            # Proportional allocation, at least 1
+            alloc = max(1, round(top_k * len(pairs) / total_boundary))
+            alloc = min(alloc, remaining, len(pairs))
+            selected_pairs.extend(pairs[:alloc])
+            remaining -= alloc
 
-    logger.info(f"[Phase 2] LLM verifying {len(boundary_pairs)} boundary pairs")
+    # Sort final selection by similarity descending so highest-confidence
+    # boundary pairs are verified first.
+    selected_pairs.sort(key=lambda x: x[2], reverse=True)
+
+    logger.info(
+        f"[Phase 2] LLM verifying {len(selected_pairs)}/{total_boundary} boundary pairs "
+        f"(budget={top_k}, types={len(per_type_pairs)})"
+    )
 
     verifier = LLMVerifier()
-    for idx_a, idx_b, sim in boundary_pairs:
+    for idx_a, idx_b, sim in selected_pairs:
         node_a = entities[idx_a][2]
         node_b = entities[idx_b][2]
         same = verifier.verify(node_a, node_b, sim)
@@ -203,6 +227,8 @@ def _apply_resolution(
     For each entity whose ID is mapped to a canonical ID:
     1. Update the entity's ID to the canonical ID
     2. Update all edges that reference the old ID
+    3. Remove self-loop edges (subject_id == object_id) created by merging
+    4. Deduplicate edges that became identical after ID remapping
     """
     for event_id, sg in subgraphs.items():
         # Build reverse lookup: canonical_id -> list of entities to merge
@@ -227,10 +253,36 @@ def _apply_resolution(
         # Update node list (deduplicated)
         sg.nodes = list(node_map.values())
 
-        # Update edge subject/object IDs
+        # Update edge subject/object IDs, then drop self-loops and duplicates
+        seen_edges: set[tuple[str, str, str]] = set()
+        kept_edges = []
         for edge in sg.edges:
             edge.subject_id = id_mapping.get(edge.subject_id, edge.subject_id)
             edge.object_id = id_mapping.get(edge.object_id, edge.object_id)
+            # Skip self-loops created by entity merging
+            if edge.subject_id == edge.object_id:
+                continue
+            # Skip duplicate edges (same subject, relation, object)
+            key = (edge.subject_id, edge.predicate, edge.object_id)
+            if key in seen_edges:
+                # Merge evidence into the already-kept edge
+                for kept in kept_edges:
+                    if (kept.subject_id, kept.predicate, kept.object_id) == key:
+                        # EvidenceItem is not hashable; dedupe by evidence_id
+                        seen_ev_ids = {ev.evidence_id for ev in kept.evidence}
+                        for ev in edge.evidence:
+                            if ev.evidence_id not in seen_ev_ids:
+                                kept.evidence.append(ev)
+                                seen_ev_ids.add(ev.evidence_id)
+                        kept.source_doc_ids = list(set(
+                            kept.source_doc_ids + edge.source_doc_ids
+                        ))
+                        kept.confidence = round(max(kept.confidence, edge.confidence), 2)
+                        break
+                continue
+            seen_edges.add(key)
+            kept_edges.append(edge)
+        sg.edges = kept_edges
 
     return subgraphs
 
@@ -278,17 +330,24 @@ def fuse_subgraphs(
 
 def write_to_neo4j(
     subgraphs: dict[str, EventKnowledgeSubgraph],
+    *,
+    clear_existing: bool = False,
 ) -> None:
-    """Write all resolved subgraphs to Neo4j."""
+    """Write resolved subgraphs to Neo4j without deleting unrelated data.
+
+    Set ``clear_existing`` only for an intentionally destructive full rebuild.
+    """
+    from src.storage.neo4j_store import Neo4jStore
+    store = Neo4jStore()
     try:
-        from src.storage.neo4j_store import Neo4jStore
-        store = Neo4jStore()
-        store.clear_database()
+        if clear_existing:
+            store.clear_database()
 
         for event_id, sg in subgraphs.items():
             store.add_event_subgraph(sg)
 
-        store.close()
         logger.info(f"[Phase 2] Neo4j: wrote {len(subgraphs)} event subgraphs")
     except Exception as e:
         logger.warning(f"[Phase 2] Neo4j write failed: {e}")
+    finally:
+        store.close()

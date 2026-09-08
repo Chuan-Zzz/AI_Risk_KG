@@ -58,7 +58,6 @@ _CHAIN_PREDICATE_MAP = {
 
 # Slots that get an edge from the incident node
 _INCIDENT_EDGE_MAP = {
-    "risk_source": RelationType.IS_RISK_SOURCE_FOR,
     "risk": RelationType.HAS_RISK,
     "misuse": RelationType.HAS_RISK,           # Misuse is a subclass of Risk
     "consequence": RelationType.HAS_CONSEQUENCE,
@@ -71,8 +70,15 @@ def _get_fallback_doc_id(state: PipelineState, event_id: str) -> str:
     return rep_reports[0] if rep_reports else event_id
 
 
-def _resolve_source_doc_id(slot_data: dict, fallback_doc_id: str) -> str:
-    doc_id = slot_data.get("source_doc_id", "").strip()
+def _as_dict(value: Any) -> dict[str, Any]:
+    return value if isinstance(value, dict) else {}
+
+
+def _resolve_source_doc_id(slot_data: dict[str, Any], fallback_doc_id: str) -> str:
+    raw_doc_id = slot_data.get("source_doc_id", "")
+    if isinstance(raw_doc_id, list):
+        raw_doc_id = " ".join(str(x) for x in raw_doc_id if x)
+    doc_id = str(raw_doc_id).strip()
     if doc_id and doc_id != "event_level":
         return doc_id
     evidence_text = slot_data.get("evidence", "")
@@ -124,6 +130,9 @@ def graph_build_node(state: PipelineState) -> dict[str, Any]:
 
     # 6c. Apply inferred system attributes to AISystem nodes
     _apply_system_attributes(state, nodes)
+
+    # 6d. Deduplicate edges by ID, merging evidence of duplicates
+    edges = _deduplicate_edges(edges)
 
     # 7. KnowledgeStatements
     statements = _build_knowledge_statements(edges)
@@ -208,26 +217,6 @@ def _add_reused_entities(
                 entity.evidence, ExtractionMode.EXPLICIT, entity.confidence, entity.source_doc_ids,
                 subject_name=incident_name, object_name=entity.name,
             ))
-        elif entity.entity_type == OntologyClass.REGULATION:
-            edges.append(_make_edge(
-                event_id, RelationType.GOVERNS, entity.id,
-                entity.evidence, ExtractionMode.EXPLICIT, entity.confidence, entity.source_doc_ids,
-                subject_name=incident_name, object_name=entity.name,
-            ))
-        elif entity.entity_type == OntologyClass.STANDARD:
-            edges.append(_make_edge(
-                event_id, RelationType.SPECIFIES, entity.id,
-                entity.evidence, ExtractionMode.EXPLICIT, entity.confidence, entity.source_doc_ids,
-                subject_name=incident_name, object_name=entity.name,
-            ))
-        elif entity.entity_type == OntologyClass.DATA:
-            edges.append(_make_edge(
-                event_id, RelationType.HAS_EVIDENCE, entity.id,
-                entity.evidence, ExtractionMode.ABSTRACTED, entity.confidence, entity.source_doc_ids,
-                subject_name=incident_name, object_name=entity.name,
-            ))
-
-
 def _add_technical_edges(
     nodes: list[EntityNode],
     edges: list[RelationEdge],
@@ -267,25 +256,7 @@ def _add_technical_edges(
                 subject_name=primary.name, object_name=d.name,
             ))
     else:
-        # No AISystem/AIModel — connect directly to incident
-        for tech in techniques:
-            edges.append(_make_edge(
-                event_id, RelationType.USES_TECHNIQUE, tech.id,
-                tech.evidence, ExtractionMode.ABSTRACTED, tech.confidence, tech.source_doc_ids,
-                subject_name=incident_name, object_name=tech.name,
-            ))
-        for cap in capabilities:
-            edges.append(_make_edge(
-                event_id, RelationType.HAS_CAPABILITY, cap.id,
-                cap.evidence, ExtractionMode.ABSTRACTED, cap.confidence, cap.source_doc_ids,
-                subject_name=incident_name, object_name=cap.name,
-            ))
-        for d in data_nodes:
-            edges.append(_make_edge(
-                event_id, RelationType.HAS_EVIDENCE, d.id,
-                d.evidence, ExtractionMode.ABSTRACTED, d.confidence, d.source_doc_ids,
-                subject_name=incident_name, object_name=d.name,
-            ))
+        logger.info("[Stage 5] No primary AI system/model found; leaving technical detail nodes unlinked")
 
 
 def _add_role_assignments(
@@ -305,13 +276,18 @@ def _add_role_assignments(
     stakeholder_map = {s.name: s for s in stakeholders}
 
     for ra in role_assignments:
+        if not isinstance(ra, dict):
+            continue
         name = ra.get("stakeholder_name", "")
         role_str = ra.get("role", "")
         if not name or not role_str:
             continue
 
-        role_cls = OntologyClass(role_str) if role_str in OntologyClass.__members__.values() else None
-        if role_cls is None:
+        try:
+            role_type = OntologyClass(role_str)
+        except ValueError:
+            continue
+        if role_type not in _STAKEHOLDER_TYPES:
             continue
 
         s = stakeholder_map.get(name)
@@ -323,6 +299,18 @@ def _add_role_assignments(
                     name = sname
                     break
         if not s:
+            # Fuzzy match: aggressive normalization (handles legal suffixes, punctuation)
+            from src.utils.text import normalize_for_matching
+            norm_name = normalize_for_matching(name)
+            for sname, snode in stakeholder_map.items():
+                if normalize_for_matching(sname) == norm_name:
+                    s = snode
+                    name = sname
+                    break
+        if not s:
+            logger.warning(
+                f"[graph_build] role_assignments: stakeholder '{name}' not found in entity list, skipping role {role_str}"
+            )
             continue
 
         confidence = float(ra.get("confidence", 0.8))
@@ -337,6 +325,20 @@ def _add_role_assignments(
                 confidence=confidence,
             )
         ] if ra.get("evidence") else []
+        if not role_evidence:
+            role_evidence = s.evidence[:1]
+
+        role_actor = EntityNode(
+            id=generate_id(event_id, s.id, "actor", role_str),
+            name=s.name,
+            entity_type=role_type,
+            evidence=role_evidence,
+            extraction_mode=ExtractionMode.INFERRED,
+            confidence=confidence,
+            source_doc_ids=[doc_id] if doc_id else s.source_doc_ids,
+            reasoning=reasoning,
+        )
+        nodes.append(role_actor)
 
         role_id = generate_id(event_id, s.id, role_str)
         role_node = EntityNode(
@@ -351,10 +353,10 @@ def _add_role_assignments(
         )
         nodes.append(role_node)
 
-        edges.append(_make_edge(role_id, RelationType.ROLE_HELD_BY, s.id, s.evidence, ExtractionMode.INFERRED, confidence, s.source_doc_ids, subject_name=role_node.name, object_name=s.name))
-        edges.append(_make_edge(role_id, RelationType.HAS_ROLE_IN_INCIDENT, event_id, s.evidence, ExtractionMode.INFERRED, confidence, s.source_doc_ids, subject_name=role_node.name, object_name=incident_name))
+        edges.append(_make_edge(role_id, RelationType.ROLE_HELD_BY, role_actor.id, role_evidence, ExtractionMode.INFERRED, confidence, role_actor.source_doc_ids, subject_name=role_node.name, object_name=role_actor.name, reasoning=reasoning))
+        edges.append(_make_edge(role_id, RelationType.HAS_ROLE_IN_INCIDENT, event_id, role_evidence, ExtractionMode.INFERRED, confidence, role_actor.source_doc_ids, subject_name=role_node.name, object_name=incident_name, reasoning=reasoning))
         if ai_systems:
-            edges.append(_make_edge(role_id, RelationType.ROLE_INVOLVES_SYSTEM, ai_systems[0].id, s.evidence, ExtractionMode.INFERRED, 0.7, s.source_doc_ids, subject_name=role_node.name, object_name=ai_systems[0].name))
+            edges.append(_make_edge(role_id, RelationType.ROLE_INVOLVES_SYSTEM, ai_systems[0].id, role_evidence, ExtractionMode.INFERRED, 0.7, role_actor.source_doc_ids, subject_name=role_node.name, object_name=ai_systems[0].name, reasoning=reasoning))
 
 
 def _add_risk_chain(
@@ -371,7 +373,7 @@ def _add_risk_chain(
     # --- Build all chain entities ---
     all_slots = ["risk_source", "risk", "hazard", "threat", "vulnerability", "consequence", "impact", "affected_actor", "risk_control"]
     for slot_name in all_slots:
-        slot_data = risk_chain.get(slot_name)
+        slot_data = _as_dict(risk_chain.get(slot_name))
         if not slot_data or not slot_data.get("value"):
             continue
         entity_type = _SLOT_TYPE_MAP.get(slot_name)
@@ -379,6 +381,10 @@ def _add_risk_chain(
             continue
 
         value = slot_data["value"]
+        # LLM 偶尔把 value 返回为 list，强制转为 str
+        if isinstance(value, list):
+            value = " ".join(str(v) for v in value if v)
+        value = str(value)
         confidence = float(slot_data.get("confidence", 0.75))
         doc_id = _resolve_source_doc_id(slot_data, fallback_doc_id)
 
@@ -400,12 +406,25 @@ def _add_risk_chain(
         chain_entities[slot_name] = entity
 
     # --- Connect main chain: RiskSource -> Risk -> Consequence -> Impact -> AffectedActor ---
-    # Skip missing slots but keep the chain connected through the last present entity.
+    # Only connect ADJACENT slots. If an intermediate slot is missing, do NOT
+    # bridge across it — that would create semantically wrong edges (e.g.
+    # RiskSource -causes-> Impact). Instead, each present entity still gets its
+    # incident edge so it is not orphaned.
+    _ADJACENT_PREDICATES = {
+        ("risk_source", "risk"): RelationType.CAUSES,
+        ("risk", "consequence"): RelationType.LEADS_TO,
+        ("consequence", "impact"): RelationType.IMPACTS,
+        ("impact", "affected_actor"): RelationType.AFFECTS,
+    }
+
     prev_entity = None
     prev_slot_name = None
     for slot_name in _MAIN_CHAIN_ORDER:
         entity = chain_entities.get(slot_name)
         if not entity:
+            # Reset prev so we don't bridge across a missing slot
+            prev_entity = None
+            prev_slot_name = None
             continue
 
         # Edge from incident to this entity
@@ -416,9 +435,9 @@ def _add_risk_chain(
                 subject_name=incident_name, object_name=entity.name,
             ))
 
-        # Edge from previous present entity to this entity
+        # Edge from previous ADJACENT present entity to this entity
         if prev_entity and prev_slot_name:
-            predicate = _CHAIN_PREDICATE_MAP.get(prev_slot_name)
+            predicate = _ADJACENT_PREDICATES.get((prev_slot_name, slot_name))
             if predicate:
                 chain_doc_ids = list(set(prev_entity.source_doc_ids + entity.source_doc_ids))
                 edges.append(_make_edge(
@@ -500,13 +519,6 @@ def _add_inference_nodes(
         "domain": OntologyClass.DOMAIN,
     }
 
-    # Edge predicates for connecting inference nodes
-    _INFERENCE_EDGE_MAP = {
-        "purpose": RelationType.HAS_CAPABILITY,  # AISystem -> hasCapability -> Purpose
-        "lifecycle_phase": RelationType.USES_TECHNIQUE,  # Incident -> lifecycle
-        "impact_domain": RelationType.AFFECTS,  # Incident -> domain
-    }
-
     fallback_doc_id = _get_fallback_doc_id(state, event_id)
     inferences = state.get("inferences", {})
 
@@ -515,10 +527,18 @@ def _add_inference_nodes(
     primary_system = max(ai_systems, key=lambda s: s.support_count) if ai_systems else None
 
     for field_name, inf_data in inferences.items():
+        inf_data = _as_dict(inf_data)
         if not inf_data.get("value"):
             continue
         etype = _INFERENCE_TYPE_MAP.get(field_name)
         if not etype:
+            continue
+
+        # Purpose is only modeled as a capability of an AI system/model.
+        # Connecting it to the incident through hasEvidence violates the
+        # ontology and makes an otherwise valid graph fail strict validation.
+        if field_name == "purpose" and primary_system is None:
+            logger.info("[Stage 5] Skipping inferred purpose without an AI system/model")
             continue
 
         doc_id = _resolve_source_doc_id(inf_data, fallback_doc_id)
@@ -547,6 +567,7 @@ def _add_inference_nodes(
                 primary_system.id, RelationType.HAS_CAPABILITY, node.id,
                 node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                 subject_name=primary_system.name, object_name=node.name,
+                reasoning=inf_data.get("reasoning"),
             ))
         else:
             # Connect to incident via generic edge
@@ -554,6 +575,7 @@ def _add_inference_nodes(
                 event_id, RelationType.HAS_EVIDENCE, node.id,
                 node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                 subject_name=incident_name, object_name=node.name,
+                reasoning=inf_data.get("reasoning"),
             ))
 
 
@@ -584,7 +606,11 @@ def _make_edge(
     source_doc_ids: list[str],
     subject_name: str = "",
     object_name: str = "",
+    reasoning: str | None = None,
 ) -> RelationEdge:
+    # Sort evidence by confidence descending before truncating, so the
+    # highest-quality evidence is retained.
+    sorted_evidence = sorted(evidence, key=lambda ev: ev.confidence, reverse=True)
     return RelationEdge(
         id=generate_id(subject_id, predicate.value, object_id),
         subject_id=subject_id,
@@ -592,11 +618,30 @@ def _make_edge(
         predicate=predicate,
         object_id=object_id,
         object_name=object_name,
-        evidence=evidence[:3],
+        evidence=sorted_evidence[:3],
         extraction_mode=mode,
         confidence=round(confidence, 2),
         source_doc_ids=source_doc_ids[:5],
+        reasoning=reasoning,
     )
+
+
+def _deduplicate_edges(edges: list[RelationEdge]) -> list[RelationEdge]:
+    """Deduplicate edges by ID, merging evidence and source_doc_ids of duplicates."""
+    edge_map: dict[str, RelationEdge] = {}
+    for edge in edges:
+        if edge.id in edge_map:
+            existing = edge_map[edge.id]
+            existing.evidence.extend(edge.evidence)
+            existing.source_doc_ids = list(set(existing.source_doc_ids + edge.source_doc_ids))
+            existing.confidence = round(max(existing.confidence, edge.confidence), 2)
+        else:
+            edge_map[edge.id] = edge
+    if len(edge_map) < len(edges):
+        logger.info(
+            f"[Stage 5] Deduplicated edges: {len(edges)} -> {len(edge_map)}"
+        )
+    return list(edge_map.values())
 
 
 def _add_governance_nodes(
@@ -626,7 +671,7 @@ def _add_governance_nodes(
     }
 
     for field_name, etype in _GOV_TYPE_MAP.items():
-        data = governance.get(field_name)
+        data = _as_dict(governance.get(field_name))
         if not data or not data.get("value"):
             continue
 
@@ -655,6 +700,7 @@ def _add_governance_nodes(
                 node.id, RelationType.RESPONDS_TO_INCIDENT, event_id,
                 node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                 subject_name=node.name, object_name=incident_name,
+                reasoning=data.get("reasoning"),
             ))
         # Obligation -> imposed by Regulation (if present)
         elif field_name == "obligation":
@@ -665,6 +711,7 @@ def _add_governance_nodes(
                     reg.id, RelationType.IMPOSES_REQUIREMENT, node.id,
                     node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                     subject_name=reg.name, object_name=node.name,
+                    reasoning=data.get("reasoning"),
                 ))
         # TechnicalDocumentation / Documentation -> connected to AISystem
         elif field_name in ("documentation", "technical_documentation", "verification_test"):
@@ -674,12 +721,14 @@ def _add_governance_nodes(
                     primary.id, RelationType.HAS_EVIDENCE, node.id,
                     node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                     subject_name=primary.name, object_name=node.name,
+                    reasoning=data.get("reasoning"),
                 ))
             else:
                 edges.append(_make_edge(
                     event_id, RelationType.HAS_EVIDENCE, node.id,
                     node.evidence, ExtractionMode.INFERRED, confidence, [doc_id],
                     subject_name=incident_name, object_name=node.name,
+                    reasoning=data.get("reasoning"),
                 ))
 
 
@@ -695,8 +744,6 @@ def _add_technical_role_edges(
     ai_systems = [n for n in nodes if n.entity_type in (OntologyClass.AI_SYSTEM, OntologyClass.GPAI_MODEL)]
     ai_models = [n for n in nodes if n.entity_type == OntologyClass.AI_MODEL]
     ai_regulators = [n for n in nodes if n.entity_type == OntologyClass.REGULATOR]
-    stakeholders = {n.name: n for n in nodes if n.entity_type in _STAKEHOLDER_TYPES}
-
     _ROLE_TO_RELATION: dict[str, tuple[RelationType, tuple[OntologyClass, ...]]] = {
         "AIDeveloper": (RelationType.DEVELOPS, (OntologyClass.AI_SYSTEM, OntologyClass.AI_MODEL, OntologyClass.GPAI_MODEL)),
         "AIProvider": (RelationType.PROVIDES, (OntologyClass.AI_SYSTEM, OntologyClass.AI_MODEL, OntologyClass.GPAI_MODEL)),
@@ -707,6 +754,8 @@ def _add_technical_role_edges(
     # --- Role-based technical edges ---
     role_assignments = state.get("role_assignments", [])
     for ra in role_assignments:
+        if not isinstance(ra, dict):
+            continue
         name = ra.get("stakeholder_name", "")
         role = ra.get("role", "")
         mapping = _ROLE_TO_RELATION.get(role)
@@ -714,12 +763,14 @@ def _add_technical_role_edges(
             continue
 
         relation, target_types = mapping
-        snode = stakeholders.get(name)
-        if not snode:
-            for sname, snodeCandidate in stakeholders.items():
-                if sname.lower() == name.lower():
-                    snode = snodeCandidate
-                    break
+        role_type = OntologyClass(role)
+        snode = next(
+            (
+                node for node in nodes
+                if node.entity_type == role_type and node.name.lower() == name.lower()
+            ),
+            None,
+        )
         if not snode:
             continue
 
@@ -741,6 +792,7 @@ def _add_technical_role_edges(
                 evidence, ExtractionMode.INFERRED, confidence,
                 [doc_id] if doc_id else snode.source_doc_ids,
                 subject_name=snode.name, object_name=target.name,
+                reasoning=ra.get("reasoning"),
             ))
 
     # --- Regulator -> enforces -> Regulation ---
@@ -752,6 +804,7 @@ def _add_technical_role_edges(
                 reg_evidence, ExtractionMode.INFERRED, 0.7,
                 regulator.source_doc_ids,
                 subject_name=regulator.name, object_name=reg.name,
+                reasoning="The stakeholder is identified as a regulator linked to the cited regulation.",
             ))
 
     # --- Regulator -> investigates -> AIRiskIncident ---
@@ -762,6 +815,7 @@ def _add_technical_role_edges(
             reg_evidence, ExtractionMode.INFERRED, 0.7,
             regulator.source_doc_ids,
             subject_name=regulator.name, object_name=incident_name,
+            reasoning="The stakeholder is identified as a regulator responding to the incident.",
         ))
 
     # --- AISystem -> compliesWithRegulation -> Regulation ---
@@ -773,6 +827,7 @@ def _add_technical_role_edges(
                 reg.evidence, ExtractionMode.INFERRED, 0.7,
                 primary_system.source_doc_ids,
                 subject_name=primary_system.name, object_name=reg.name,
+                reasoning="The AI system is linked to the cited regulation in the incident evidence.",
             ))
 
     # --- AISystem -> conformsToStandard -> Standard ---
@@ -784,6 +839,7 @@ def _add_technical_role_edges(
                 std.evidence, ExtractionMode.INFERRED, 0.7,
                 primary_system.source_doc_ids,
                 subject_name=primary_system.name, object_name=std.name,
+                reasoning="The AI system is linked to the cited standard in the incident evidence.",
             ))
 
 
@@ -817,13 +873,24 @@ def _add_report_nodes(
             entity_type=OntologyClass.INFORMATION_SOURCE,
             description=f"Information source: {source_name}",
             evidence=[],
-            extraction_mode=ExtractionMode.EXPLICIT,
+            extraction_mode=ExtractionMode.COMPLETED,
             confidence=0.9,
             source_doc_ids=[doc.doc_id for doc in docs],
             attributes={"report_count": len(docs)},
         )
         nodes.append(source_node)
         source_nodes[source_name] = source_node
+        edges.append(_make_edge(
+            event_id,
+            RelationType.HAS_INFORMATION_SOURCE,
+            source_id,
+            [],
+            ExtractionMode.COMPLETED,
+            1.0,
+            [doc.doc_id for doc in docs][:5],
+            subject_name=incident_name,
+            object_name=source_name,
+        ))
 
     # Build NewsReport nodes and connect to incident + source
     for doc in documents:
@@ -863,22 +930,6 @@ def _add_report_nodes(
             subject_name=incident_name,
             object_name=report_node.name,
         ))
-
-        # Connect report to source: source -hasInformationSource-> report
-        source = doc.source_name or "Unknown"
-        source_node = source_nodes.get(source)
-        if source_node:
-            edges.append(_make_edge(
-                source_node.id,
-                RelationType.HAS_INFORMATION_SOURCE,
-                doc.doc_id,
-                [],
-                ExtractionMode.EXPLICIT,
-                0.9,
-                [doc.doc_id],
-                subject_name=source_node.name,
-                object_name=report_node.name,
-            ))
 
     logger.info(
         f"[Stage 5] Added {len(documents)} NewsReport nodes and "

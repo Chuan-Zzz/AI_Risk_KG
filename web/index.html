@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OntoRisk | AI Risk Knowledge Graph</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./interactive.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">OR</span><div><strong>OntoRisk</strong><small>AI RISK GRAPH</small></div></div>
+      <nav>
+        <button class="nav-item active" data-view="overview"><span>◈</span>知识图谱</button>
+        <button class="nav-item" data-view="events"><span>▤</span>事件库</button>
+        <button class="nav-item" data-view="insights"><span>◌</span>风险洞察</button>
+      </nav>
+      <div class="sidebar-foot"><span class="status-dot"></span><span>Neo4j connected</span><b>LIVE</b></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div><p class="eyebrow">AI RISK KNOWLEDGE GRAPH / 2026</p><h1 id="page-title">风险知识图谱</h1></div><div class="top-actions"><button class="icon-btn" id="refresh" title="刷新数据">↻</button><div class="avatar">CR</div></div></header>
+      <section id="overview-view" class="view active-view">
+        <div class="hero-line"><div><h2>从事件，到可解释的风险链</h2><p>浏览 2,034 个AI风险事件，追踪系统、主体、证据与治理控制之间的关联。</p></div><button class="primary-btn" id="explore-random">随机探索 <span>↗</span></button></div>
+        <div class="metrics" id="metrics"></div>
+        <div class="workspace-grid">
+          <section class="panel graph-panel"><div class="panel-head"><div><p class="section-kicker">INTERACTIVE VIEW</p><h3>全局风险网络</h3></div><div class="legend" id="legend"></div></div><div class="graph-toolbar"><span id="graph-status">38 个事件节点 · 动态布局</span><div><button class="graph-tool" id="graph-reset" title="重置布局">重置</button><button class="graph-tool" id="graph-pause" title="暂停或继续动画">暂停</button><button class="graph-tool" id="graph-fit" title="适配画布">适配</button></div></div><div class="graph-stage" id="graph-stage"><div class="graph-loading">正在载入图谱索引…</div><div class="graph-tooltip" id="graph-tooltip"></div></div></section>
+          <section class="panel insight-panel"><div class="panel-head"><div><p class="section-kicker">SIGNAL DESK</p><h3>风险信号</h3></div><span class="live-label">● LIVE</span></div><div id="insight-list" class="insight-list"></div></section>
+        </div>
+        <section class="panel table-panel"><div class="panel-head"><div><p class="section-kicker">RECENT EVENTS</p><h3>最新事件</h3></div><button class="text-btn" data-view="events">查看全部 ↗</button></div><div id="recent-events"></div></section>
+      </section>
+      <section id="events-view" class="view"><div class="view-heading"><div><p class="section-kicker">EVENT CATALOG</p><h2>事件库</h2><p>按事件、风险实体和来源文档快速定位。</p></div><div class="search-box"><span>⌕</span><input id="event-search" placeholder="搜索事件名称或 ID…"></div></div><div class="filter-row"><div id="type-filters" class="filter-group"></div><span id="result-count" class="result-count"></span></div><div id="event-grid" class="event-grid"></div></section>
+      <section id="insights-view" class="view"><div class="view-heading"><div><p class="section-kicker">RISK INTELLIGENCE</p><h2>风险洞察</h2><p>从图谱覆盖率和实体分布中观察结构性信号。</p></div></div><div class="insight-layout"><section class="panel chart-panel"><div class="panel-head"><div><p class="section-kicker">ENTITY DISTRIBUTION</p><h3>实体类型分布</h3></div></div><div id="type-chart" class="type-chart"></div></section><section class="panel chain-panel"><div class="panel-head"><div><p class="section-kicker">RISK CHAIN</p><h3>风险链覆盖</h3></div></div><div id="chain-stats"></div></section></div></section>
+    </main>
+  </div>
+  <div class="drawer-backdrop" id="drawer-backdrop"></div><aside class="drawer" id="drawer"><button class="drawer-close" id="drawer-close">×</button><div id="drawer-content"></div></aside>
+  <script src="./app.js"></script>
+</body>
+</html>

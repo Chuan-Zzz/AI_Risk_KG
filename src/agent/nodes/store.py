@@ -4,35 +4,37 @@ from __future__ import annotations
 
 import json
 import logging
-import re
-from pathlib import Path
 from typing import Any
 
 from src.agent.state import PipelineState
 from src.core.config import get_config
+from src.core.runtime import output_root, sanitize_event_id
 
 logger = logging.getLogger(__name__)
 
-_SAFE_ID_RE = re.compile(r"^[\w\-]+$")
-
-
-def _sanitize_event_id(event_id: str) -> str:
-    if not _SAFE_ID_RE.match(event_id):
-        raise ValueError(f"Invalid event_id: {event_id!r}")
-    return event_id
-
-
 def store_node(state: PipelineState) -> dict[str, Any]:
-    event_id = _sanitize_event_id(state.get("event_id", "unknown"))
+    event_id = sanitize_event_id(state.get("event_id", "unknown"))
     subgraph = state.get("event_subgraph")
 
     config = get_config()
-    output_dir = config.project_root / config.get("output.dir", "output") / event_id
-    output_dir.mkdir(parents=True, exist_ok=True)
 
     if subgraph is None:
         logger.warning(f"[Store] No subgraph to store for event {event_id}")
         return {"status": "FAILED", "error_message": "No subgraph generated", "current_stage": "store"}
+
+    validation_passed = state.get("validation_passed", False)
+    strict_mode = config.get("validation.strict_mode", True)
+    if strict_mode and not validation_passed:
+        logger.error("[Store] Event %s failed validation; strict mode skipped output", event_id)
+        return {
+            "status": "FAILED_VALIDATION",
+            "error_message": "; ".join(state.get("validation_errors", [])[:5]),
+            "current_stage": "store",
+            "stages_completed": state.get("stages_completed", []) + ["store"],
+        }
+
+    output_dir = output_root(config) / event_id
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     # JSON output
     json_path = output_dir / "event_subgraph.json"
@@ -59,7 +61,7 @@ def store_node(state: PipelineState) -> dict[str, Any]:
     logger.info(f"[Store] Event {event_id}: {node_count} nodes, {edge_count} edges, {ks_count} statements")
 
     return {
-        "status": "COMPLETED",
+        "status": "COMPLETED" if validation_passed else "COMPLETED_WITH_VALIDATION_ERRORS",
         "current_stage": "store",
         "stages_completed": state.get("stages_completed", []) + ["store"],
     }

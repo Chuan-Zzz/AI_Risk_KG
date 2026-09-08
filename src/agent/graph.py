@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import logging
-
 from langgraph.graph import END, StateGraph
 
 from src.agent.state import PipelineState
@@ -17,19 +15,11 @@ from src.agent.nodes.graph_build import graph_build_node
 from src.agent.nodes.validation import validation_node
 from src.agent.nodes.store import store_node
 
-logger = logging.getLogger(__name__)
-
-MAX_VALIDATION_RETRIES = 3
-
-
 def _route_after_validation(state: PipelineState) -> str:
-    if state.get("validation_passed", False):
-        return "store"
-    retry = state.get("retry_count", 0)
-    if retry >= MAX_VALIDATION_RETRIES:
-        logger.warning(f"Max validation retries ({MAX_VALIDATION_RETRIES}) reached, storing anyway")
-        return "store"
-    return "graph_build"
+    # Validation does not mutate extraction inputs. Rebuilding the same graph
+    # cannot correct a deterministic constraint failure, so store handles the
+    # result according to validation.strict_mode instead of retrying blindly.
+    return "store"
 
 
 def build_pipeline_graph() -> StateGraph:
@@ -55,11 +45,11 @@ def build_pipeline_graph() -> StateGraph:
     graph.add_edge("inference", "graph_build")
     graph.add_edge("graph_build", "validation")
 
-    # Conditional: validation passed → store, failed → retry graph_build
+    # Store decides whether failed validation may be persisted.
     graph.add_conditional_edges(
         "validation",
         _route_after_validation,
-        {"store": "store", "graph_build": "graph_build"},
+        {"store": "store"},
     )
 
     graph.add_edge("store", END)

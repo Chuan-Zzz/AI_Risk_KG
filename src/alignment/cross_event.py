@@ -13,12 +13,14 @@ from src.alignment.bm25_index import BM25Indexer
 from src.core.config import get_config
 from src.core.embedder import compute_similarity, embed_texts
 from src.core.models import EntityNode, OntologyClass
-from src.utils.text import normalize_entity_name
+from src.utils.text import normalize_entity_name, normalize_for_matching
 
 logger = logging.getLogger(__name__)
 
 # Stakeholder subtypes that should be merged across roles.
 # "Google" as AIProvider and "Google" as AIDeployer are the same real-world entity.
+# NOTE: AffectedActor is intentionally excluded — it is an event-specific role
+# (e.g. "the wrongly arrested individual") and is listed in _NON_ALIGNABLE_TYPES.
 _STAKEHOLDER_TYPES = frozenset({
     OntologyClass.STAKEHOLDER,
     OntologyClass.AI_DEVELOPER,
@@ -26,7 +28,6 @@ _STAKEHOLDER_TYPES = frozenset({
     OntologyClass.AI_DEPLOYER,
     OntologyClass.AI_USER,
     OntologyClass.REGULATOR,
-    OntologyClass.AFFECTED_ACTOR,
 })
 
 # Types that are NOT real-world entities and should NOT create cross-event connections.
@@ -111,7 +112,7 @@ class EntityRegistry:
         return (_alignment_type(entity), normalize_entity_name(entity.name).lower())
 
     def _normalize_name(self, name: str) -> str:
-        return name.lower().strip().replace("-", "").replace("_", "").replace(" ", "")
+        return normalize_for_matching(name)
 
     def register(self, entity: EntityNode) -> EntityNode:
         """Register an entity. If a matching entity exists, return the existing one
@@ -185,7 +186,9 @@ class EntityRegistry:
         for i, (k, e) in enumerate(candidates, start=1):
             hybrid_score = sw * semantic_scores[i] + bw * bm25_scores[i]
 
-            if self._normalize_name(entity.name) == self._normalize_name(e.name):
+            # Apply exact-match bonus only when semantic similarity >= 0.5
+            if (normalize_for_matching(entity.name) == normalize_for_matching(e.name)
+                    and semantic_scores[i] >= 0.5):
                 hybrid_score = max(hybrid_score, 0.85)
 
             if hybrid_score > best_score:

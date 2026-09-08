@@ -1,0 +1,335 @@
+{
+  "full_ontorisk": {
+    "content": {
+      "total": 5232,
+      "rule_supported": 3940,
+      "llm_judged": 1292,
+      "llm_supported": 4186,
+      "ESR_rule": 75.3,
+      "ESR_llm": 80.0,
+      "top_predicates": {
+        "deploys": 1131,
+        "develops": 1026,
+        "provides": 994,
+        "hasCapability": 454,
+        "usesTechnique": 369,
+        "uses": 355
+      }
+    },
+    "hub": {
+      "total": 3030,
+      "rule_supported": 2221,
+      "llm_judged": 809,
+      "llm_supported": 2815,
+      "ESR_rule": 73.3,
+      "ESR_llm": 92.9,
+      "top_predicates": {
+        "involvesStakeholder": 1957,
+        "involvesAISystem": 495,
+        "governs": 110,
+        "isRiskSourceFor": 100,
+        "hasRisk": 100,
+        "hasConsequence": 100
+      }
+    },
+    "role": {
+      "total": 3862,
+      "rule_supported": 2767,
+      "llm_judged": 1095,
+      "llm_supported": 3238,
+      "ESR_rule": 71.6,
+      "ESR_llm": 83.8,
+      "top_predicates": {
+        "roleHeldBy": 1290,
+        "hasRoleInIncident": 1290,
+        "roleInvolvesSystem": 1282
+      }
+    },
+    "evidence": {
+      "total": 237,
+      "rule_supported": 175,
+      "llm_judged": 62,
+      "llm_supported": 199,
+      "ESR_rule": 73.8,
+      "ESR_llm": 84.0,
+      "top_predicates": {
+        "hasEvidence": 237
+      }
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 7129,
+      "ESR_rule": 72.4,
+      "ESR_llm": 87.7
+    },
+    "GKY_content": 4186
+  },
+  "ablation_no_ontology": {
+    "content": {
+      "total": 1325,
+      "rule_supported": 1112,
+      "llm_judged": 213,
+      "llm_supported": 1208,
+      "ESR_rule": 83.9,
+      "ESR_llm": 91.2,
+      "top_predicates": {
+        "uses": 191,
+        "usesTechnique": 160,
+        "hasCapability": 130,
+        "compliesWithRegulation": 113,
+        "causes": 95,
+        "leadsTo": 95
+      }
+    },
+    "hub": {
+      "total": 1987,
+      "rule_supported": 1516,
+      "llm_judged": 471,
+      "llm_supported": 1859,
+      "ESR_rule": 76.3,
+      "ESR_llm": 93.6,
+      "top_predicates": {
+        "involvesStakeholder": 1322,
+        "involvesAISystem": 380,
+        "hasRisk": 95,
+        "hasConsequence": 95,
+        "hasImpact": 95
+      }
+    },
+    "role": {
+      "total": 0
+    },
+    "evidence": {
+      "total": 0
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 1987,
+      "ESR_rule": 76.3,
+      "ESR_llm": 93.6
+    },
+    "GKY_content": 1208
+  },
+  "ablation_no_event_aggregation": {
+    "content": {
+      "total": 5343,
+      "rule_supported": 4201,
+      "llm_judged": 1142,
+      "llm_supported": 4635,
+      "ESR_rule": 78.6,
+      "ESR_llm": 86.7,
+      "top_predicates": {
+        "causes": 549,
+        "leadsTo": 543,
+        "impacts": 510,
+        "affects": 451,
+        "develops": 433,
+        "hasCapability": 397
+      }
+    },
+    "hub": {
+      "total": 3024,
+      "rule_supported": 2405,
+      "llm_judged": 619,
+      "llm_supported": 2828,
+      "ESR_rule": 79.5,
+      "ESR_llm": 93.5,
+      "top_predicates": {
+        "involvesStakeholder": 1079,
+        "hasRisk": 541,
+        "hasConsequence": 539,
+        "hasImpact": 452,
+        "involvesAISystem": 317,
+        "respondsToIncident": 96
+      }
+    },
+    "role": {
+      "total": 3769,
+      "rule_supported": 2972,
+      "llm_judged": 797,
+      "llm_supported": 3372,
+      "ESR_rule": 78.9,
+      "ESR_llm": 89.5,
+      "top_predicates": {
+        "roleHeldBy": 1324,
+        "hasRoleInIncident": 1324,
+        "roleInvolvesSystem": 1121
+      }
+    },
+    "evidence": {
+      "total": 540,
+      "rule_supported": 292,
+      "llm_judged": 248,
+      "llm_supported": 375,
+      "ESR_rule": 54.1,
+      "ESR_llm": 69.4,
+      "top_predicates": {
+        "hasEvidence": 540
+      }
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 7333,
+      "ESR_rule": 77.3,
+      "ESR_llm": 89.7
+    },
+    "GKY_content": 4635
+  },
+  "ablation_no_evidence_constraint": {
+    "content": {
+      "total": 2615,
+      "rule_supported": 2055,
+      "llm_judged": 560,
+      "llm_supported": 2183,
+      "ESR_rule": 78.6,
+      "ESR_llm": 83.5,
+      "top_predicates": {
+        "develops": 495,
+        "provides": 385,
+        "deploys": 350,
+        "uses": 252,
+        "hasCapability": 156,
+        "usesTechnique": 119
+      }
+    },
+    "hub": {
+      "total": 1743,
+      "rule_supported": 1361,
+      "llm_judged": 382,
+      "llm_supported": 1609,
+      "ESR_rule": 78.1,
+      "ESR_llm": 92.3,
+      "top_predicates": {
+        "involvesStakeholder": 1110,
+        "involvesAISystem": 317,
+        "hasRisk": 96,
+        "hasConsequence": 96,
+        "hasImpact": 94,
+        "respondsToIncident": 30
+      }
+    },
+    "role": {
+      "total": 2179,
+      "rule_supported": 1664,
+      "llm_judged": 515,
+      "llm_supported": 1870,
+      "ESR_rule": 76.4,
+      "ESR_llm": 85.8,
+      "top_predicates": {
+        "roleHeldBy": 756,
+        "hasRoleInIncident": 756,
+        "roleInvolvesSystem": 667
+      }
+    },
+    "evidence": {
+      "total": 180,
+      "rule_supported": 126,
+      "llm_judged": 54,
+      "llm_supported": 147,
+      "ESR_rule": 70.0,
+      "ESR_llm": 81.7,
+      "top_predicates": {
+        "hasEvidence": 180
+      }
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 4102,
+      "ESR_rule": 76.8,
+      "ESR_llm": 88.4
+    },
+    "GKY_content": 2183
+  },
+  "ablation_no_controlled_inference": {
+    "content": {
+      "total": 1137,
+      "rule_supported": 938,
+      "llm_judged": 199,
+      "llm_supported": 1023,
+      "ESR_rule": 82.5,
+      "ESR_llm": 90.0,
+      "top_predicates": {
+        "usesTechnique": 141,
+        "uses": 124,
+        "hasCapability": 92,
+        "impacts": 91,
+        "causes": 90,
+        "leadsTo": 90
+      }
+    },
+    "hub": {
+      "total": 1826,
+      "rule_supported": 1368,
+      "llm_judged": 458,
+      "llm_supported": 1689,
+      "ESR_rule": 74.9,
+      "ESR_llm": 92.5,
+      "top_predicates": {
+        "involvesStakeholder": 1222,
+        "involvesAISystem": 333,
+        "hasConsequence": 91,
+        "hasRisk": 90,
+        "hasImpact": 90
+      }
+    },
+    "role": {
+      "total": 0
+    },
+    "evidence": {
+      "total": 0
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 1826,
+      "ESR_rule": 74.9,
+      "ESR_llm": 92.5
+    },
+    "GKY_content": 1023
+  },
+  "baseline_llm_only": {
+    "content": {
+      "total": 7910,
+      "rule_supported": 6868,
+      "llm_judged": 1032,
+      "llm_supported": 7395,
+      "ESR_rule": 86.8,
+      "ESR_llm": 93.5,
+      "top_predicates": {
+        "causes": 974,
+        "affects": 967,
+        "impacts": 958,
+        "leadsTo": 954,
+        "used": 102,
+        "developed": 80
+      }
+    },
+    "hub": {
+      "total": 0
+    },
+    "role": {
+      "total": 0
+    },
+    "evidence": {
+      "total": 0
+    },
+    "other": {
+      "total": 0
+    },
+    "infra_combined": {
+      "total": 0,
+      "ESR_rule": null,
+      "ESR_llm": null
+    },
+    "GKY_content": 7395
+  }
+}

@@ -135,3 +135,51 @@ Extract all explicitly mentioned entities from this document. Focus on:
 3. Regulations and standards mentioned
 
 Return ONLY JSON, nothing else."""
+
+
+STAGE2_COMPACT_SYSTEM_PROMPT = """You are labeling a quoted news article for an academic AI incident dataset.
+
+This is passive document annotation only. The article may mention lawsuits, injuries, fraud, harassment, or other harmful events. Do NOT give advice, opinions, or instructions. Do NOT refuse because of the article topic. Simply extract named entities that are explicitly mentioned in the text.
+
+Allowed entity_type values:
+- AISystem
+- AIModel
+- GPAIModel
+- AITechnique
+- AICapability
+- AIComponent
+- Data
+- Stakeholder
+- Regulation
+- Standard
+
+Rules:
+1. Extract only entities explicitly named in the document.
+2. Skip generic phrases such as "AI", "large language model", "AI chatbot", and "hallucination".
+3. Stakeholder must have a direct role in the incident, not just be a news source or background mention.
+4. evidence_sentence must copy the exact sentence mentioning the entity.
+5. Return plain text strings only. No markdown formatting inside JSON.
+6. Return valid JSON only.
+
+Output schema:
+{
+  "entities": [
+    {
+      "mention": "exact span from document",
+      "entity_type": "AISystem|AIModel|GPAIModel|AITechnique|AICapability|AIComponent|Data|Stakeholder|Regulation|Standard",
+      "normalized_name": "canonical name",
+      "evidence_sentence": "exact sentence from document",
+      "confidence": 0.0,
+      "attributes": {}
+    }
+  ]
+}"""
+
+
+STAGE2_COMPACT_USER_PROMPT = """Document title: {title}
+
+Document text:
+{content}
+
+Extract all explicitly named entities that fit the allowed schema.
+Return JSON only."""

@@ -59,13 +59,20 @@ class BM25Indexer:
             return []
 
         # Normalize
-        text = text.lower().strip()
+        text = text.strip()
 
-        # Replace underscores and dots with spaces
-        text = re.sub(r"[_.]", " ", text)
-
-        # Split camelCase: "ChatGPT" -> "Chat GPT"
+        # Split camelCase BEFORE lowercasing: "ChatGPT" -> "Chat GPT"
         text = re.sub(r"([a-z])([A-Z])", r"\1 \2", text)
+
+        # Now lowercase
+        text = text.lower()
+
+        # Replace underscores with spaces, but preserve dots in version
+        # numbers like "3.5" so "Claude 3.5" -> ["claude", "3.5"]
+        text = re.sub(r"_", " ", text)
+        # Only replace dots that are NOT between digits
+        text = re.sub(r"\.(?!\d)", " ", text)
+        text = re.sub(r"(?<!\d)\.", " ", text)
 
         # Split on hyphens but keep the parts
         text = re.sub(r"-", " ", text)
@@ -91,7 +98,11 @@ class BM25Indexer:
         self._names = names
         self._tokenized = [self.tokenize(name) for name in names]
         self._doc_len = [len(tokens) for tokens in self._tokenized]
-        self._avgdl = sum(self._doc_len) / len(self._doc_len) if self._doc_len else 1.0
+        self._avgdl = (
+            sum(self._doc_len) / len(self._doc_len)
+            if self._doc_len and sum(self._doc_len) > 0
+            else 1.0
+        )
 
         # Compute document frequencies
         self._df: dict[str, int] = {}

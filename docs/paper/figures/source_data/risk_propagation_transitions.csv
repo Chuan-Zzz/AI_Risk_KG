@@ -1,0 +1,5 @@
+transition,count,mean_support_count,evidence_support_rate
+RiskSource->Risk,2008,1,1.0
+Risk->Consequence,2010,1,1.0
+Consequence->Impact,2019,1,1.0
+Impact->AffectedActor,2013,1,1.0

@@ -70,7 +70,9 @@ def _load_aliases_from_reused(entities: list[EntityNode]) -> dict[str, str]:
                 cand_lower = normalize_entity_name(candidate.name).lower()
                 if cand_lower == canon_lower:
                     continue
-                if cand_lower in canon_lower and len(cand_lower) >= 2:
+                # Require minimum length 3 to avoid false matches like
+                # "AI" matching "AIB" or "US" matching "USA".
+                if cand_lower in canon_lower and len(cand_lower) >= 3:
                     if cand_lower not in aliases:
                         aliases[cand_lower] = normalize_entity_name(canonical.name).lower()
 
@@ -100,10 +102,24 @@ def _merge_group(entities: list[EntityNode], indices: list[int]) -> None:
         other = entities[idx]
         canonical.evidence.extend(other.evidence)
         canonical.source_doc_ids = list(set(canonical.source_doc_ids + other.source_doc_ids))
-        canonical.support_count = len(canonical.source_doc_ids)
+        canonical.support_count = max(1, len(canonical.source_doc_ids))
         canonical.confidence = round(max(canonical.confidence, other.confidence), 2)
         if len(other.name) > len(canonical.name):
             canonical.name = other.name
+        # Merge description: keep the longer non-empty one
+        if other.description and len(other.description) > len(canonical.description or ""):
+            canonical.description = other.description
+        # Merge attributes
+        if other.attributes:
+            if not canonical.attributes:
+                canonical.attributes = dict(other.attributes)
+            else:
+                for k, v in other.attributes.items():
+                    if v and (k not in canonical.attributes or not canonical.attributes[k]):
+                        canonical.attributes[k] = v
+        # Merge reasoning
+        if other.reasoning and not canonical.reasoning:
+            canonical.reasoning = other.reasoning
         other.id = ""  # mark for removal
 
 
@@ -156,6 +172,9 @@ def entity_reuse_node(state: PipelineState) -> dict[str, Any]:
         )
 
         if boundary_pairs and llm_top_k > 0:
+            # Sort by similarity descending so highest-confidence boundary pairs
+            # are verified first, then take top_k.
+            boundary_pairs.sort(key=lambda x: x[2], reverse=True)
             boundary_pairs = boundary_pairs[:llm_top_k]
             verifier = LLMVerifier()
             results = []

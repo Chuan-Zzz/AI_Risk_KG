@@ -23,8 +23,32 @@ def truncate(text: str, max_len: int = 2000) -> str:
 
 
 def normalize_entity_name(name: str) -> str:
+    """Normalize entity name for display/storage: strip + collapse whitespace."""
     name = name.strip()
     name = re.sub(r"\s+", " ", name)
+    return name
+
+
+def normalize_for_matching(name: str) -> str:
+    """Aggressive normalization for entity matching / exact-match blocking.
+
+    Lowercases, strips, and removes hyphens, underscores, dots, and whitespace
+    so that "OpenAI", "Open-AI", "Open_AI", "open ai" all map to "openai".
+    Legal suffixes (Inc., Corp., LLC, Ltd., Co.) are also stripped.
+    """
+    if not name:
+        return ""
+    name = name.strip().lower()
+    # Remove legal suffixes (longest first to avoid partial matches)
+    for suffix in (", inc.", ", inc", " inc.", " inc", ", corp.", ", corp",
+                   ", llc", " llc", ", ltd.", ", ltd", " ltd.", " ltd",
+                   ", co.", ", co", " co.", " co", " limited"):
+        if name.endswith(suffix):
+            name = name[: -len(suffix)].strip()
+    # Remove punctuation used as separators
+    name = re.sub(r"[-_.]", "", name)
+    # Remove all whitespace
+    name = re.sub(r"\s+", "", name)
     return name
 
 
@@ -53,8 +77,22 @@ def merge_entities(
             existing = merged[key]
             existing.evidence.extend(entity.evidence)
             existing.source_doc_ids = list(set(existing.source_doc_ids + entity.source_doc_ids))
-            existing.support_count = len(existing.source_doc_ids)
+            existing.support_count = max(1, len(existing.source_doc_ids))
             existing.confidence = round(max(existing.confidence, entity.confidence), 2)
+            # Merge description: keep the longer non-empty one
+            if entity.description and len(entity.description) > len(existing.description or ""):
+                existing.description = entity.description
+            # Merge attributes: union of keys, non-empty values preferred
+            if entity.attributes:
+                if not existing.attributes:
+                    existing.attributes = dict(entity.attributes)
+                else:
+                    for k, v in entity.attributes.items():
+                        if v and (k not in existing.attributes or not existing.attributes[k]):
+                            existing.attributes[k] = v
+            # Merge reasoning: keep non-empty
+            if entity.reasoning and not existing.reasoning:
+                existing.reasoning = entity.reasoning
         else:
             merged[key] = entity.model_copy(deep=True)
             if type_fn:

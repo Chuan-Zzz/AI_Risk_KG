@@ -174,28 +174,28 @@ relations:
     domain: [AIDeployer]
     range: [AISystem]
   uses:
-    domain: [AIUser]
-    range: [AISystem]
+    domain: [AIUser, AISystem, AIModel, GPAIModel]
+    range: [AISystem, Data]
   hasModel:
     domain: [AISystem]
     range: [AIModel]
   usesTechnique:
-    domain: [AISystem]
+    domain: [AISystem, AIModel, GPAIModel]
     range: [AITechnique]
   hasCapability:
-    domain: [AISystem]
-    range: [AICapability]
+    domain: [AISystem, AIModel, GPAIModel]
+    range: [AICapability, Purpose]
 
   # Event Core Relations
   involvesAISystem:
     domain: [AIRiskIncident]
-    range: [AISystem]
+    range: [AISystem, GPAIModel]
   involvesStakeholder:
     domain: [AIRiskIncident]
-    range: [Stakeholder]
+    range: [Stakeholder, AIDeveloper, AIProvider, AIDeployer, AIUser, Regulator, AffectedActor]
   hasRisk:
     domain: [AIRiskIncident, AISystem]
-    range: [Risk]
+    range: [Risk, Misuse]
   hasConsequence:
     domain: [AIRiskIncident, Risk]
     range: [Consequence]
@@ -209,20 +209,20 @@ relations:
   # Role Relations
   roleHeldBy:
     domain: [RoleAssignment]
-    range: [Stakeholder]
+    range: [Stakeholder, AIDeveloper, AIProvider, AIDeployer, AIUser, Regulator, AffectedActor]
   hasRoleInIncident:
     domain: [RoleAssignment]
     range: [AIRiskIncident]
   roleInvolvesSystem:
     domain: [RoleAssignment]
-    range: [AISystem]
+    range: [AISystem, GPAIModel]
 
   # Risk Propagation Chain
   causes:
     domain: [RiskSource]
     range: [Risk]
   leadsTo:
-    domain: [Risk]
+    domain: [Risk, Misuse]
     range: [Consequence]
   impacts:
     domain: [Consequence]
@@ -240,7 +240,7 @@ relations:
     range: [AISystem, Stakeholder]
   imposesRequirement:
     domain: [Regulation]
-    range: [ComplianceRequirement]
+    range: [ComplianceRequirement, Obligation]
   enforces:
     domain: [Regulator]
     range: [Regulation]
@@ -256,8 +256,8 @@ relations:
 
   # Evidence Relations
   hasEvidence:
-    domain: [KnowledgeStatement]
-    range: [Evidence]
+    domain: [KnowledgeStatement, AIRiskIncident, AISystem, AIModel, GPAIModel]
+    range: [Evidence, Data, AILifecyclePhase, Domain, Documentation, TechnicalDocumentation, VerificationTest]
   hasSourceDocument:
     domain: [Evidence]
     range: [NewsReport]
@@ -284,8 +284,8 @@ relations:
     domain: [AIRiskIncident]
     range: [InformationSource]
   compliesWithRegulation:
-    domain: [AISystem]
+    domain: [AISystem, GPAIModel]
     range: [Regulation]
   conformsToStandard:
-    domain: [AISystem]
+    domain: [AISystem, GPAIModel]
     range: [Standard]

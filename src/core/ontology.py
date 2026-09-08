@@ -24,7 +24,7 @@ class AIROOntology:
     def __init__(self, yml_path: Path | None = None) -> None:
         path = yml_path or _ONTOLOGY_YML
         with open(path, encoding="utf-8") as f:
-            self._data = yaml.safe_load(f)
+            self._data = yaml.safe_load(f) or {}
         self._relation_constraints: dict[str, dict[str, list[str]]] = self._data.get("relations", {})
 
     @property
@@ -102,15 +102,17 @@ class AIROOntology:
         edges: list[dict],
     ) -> list[str]:
         errors: list[str] = []
-        has_risk = any(e.get("predicate") in (RelationType.HAS_RISK.value, "hasRisk") for e in edges)
+        has_risk = any(e.get("predicate") == RelationType.HAS_RISK.value for e in edges)
         risk_has_consequence = any(
-            e.get("predicate") in (RelationType.LEADS_TO.value, "leadsTo") for e in edges
+            e.get("predicate") in (RelationType.LEADS_TO.value, RelationType.HAS_CONSEQUENCE.value)
+            for e in edges
         )
-        risk_has_impact = any(
-            e.get("predicate") in (RelationType.IMPACTS.value, "impacts") for e in edges
+        consequence_has_impact = any(
+            e.get("predicate") in (RelationType.IMPACTS.value, RelationType.HAS_IMPACT.value)
+            for e in edges
         )
         risk_control_mitigates = any(
-            e.get("predicate") in (RelationType.MITIGATES.value, "mitigates") for e in edges
+            e.get("predicate") == RelationType.MITIGATES.value for e in edges
         )
         has_risk_control = any(
             e.get("object_type") == OntologyClass.RISK_CONTROL.value for e in edges
@@ -118,8 +120,10 @@ class AIROOntology:
 
         if not has_risk:
             errors.append("AIRiskIncident must have at least one Risk")
-        if has_risk and not (risk_has_consequence or risk_has_impact):
-            errors.append("Risk must connect to at least one Consequence or Impact")
+        if has_risk and not risk_has_consequence:
+            errors.append("Risk must connect to at least one Consequence (via leadsTo or hasConsequence)")
+        if has_risk and risk_has_consequence and not consequence_has_impact:
+            errors.append("Consequence must connect to at least one Impact (via impacts or hasImpact)")
         if has_risk_control and not risk_control_mitigates:
             errors.append("RiskControl must mitigate a Risk")
         return errors

@@ -113,3 +113,46 @@ RISK_CHAIN_USER_PROMPT = """## Event Evidence Package
 ---
 
 Based on the above evidence, extract the risk propagation chain for this AI risk incident. For each slot, include the source_doc_id extracted from the evidence sentence prefix [doc_id]. Return strict JSON. Omit slots that lack evidence support."""
+
+
+RISK_CHAIN_COMPACT_SYSTEM_PROMPT = """You are coding a published AI incident for an academic dataset.
+
+This is post-hoc annotation of third-party reporting. The evidence may mention harm, crime, lawsuits, or abuse. Do NOT refuse because of the subject matter. Do NOT give advice. Only summarize the incident into structured risk-chain slots supported by the supplied evidence.
+
+Possible slots:
+- risk_source
+- risk
+- misuse
+- hazard
+- threat
+- vulnerability
+- consequence
+- impact
+- affected_actor
+- risk_control
+
+Rules:
+1. Omit any slot that is not supported by evidence.
+2. Keep each value short and abstract.
+3. Copy evidence from the provided sentences.
+4. source_doc_id must come from the evidence prefix like [2819].
+5. Return JSON only.
+
+Output schema:
+{
+  "risk_chain": {
+    "risk_source": {"value": "", "evidence": "", "source_doc_id": "", "confidence": 0.0}
+  }
+}"""
+
+
+RISK_CHAIN_COMPACT_USER_PROMPT = """Core entities:
+{core_entities}
+
+Evidence sentences:
+{evidence_sentences}
+
+Support summary:
+{support_statistics}
+
+Extract the supported risk-chain slots and return JSON only."""

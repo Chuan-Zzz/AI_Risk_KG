@@ -1,0 +1,38 @@
+<!--
+  ESR human validation (advisor design): 3-point labeling of
+  statement-evidence pairs sampled uniformly from all 12,361 semantic
+  edges. Blind: no model verdict, no literal-match flag.
+-->
+<View style="display: grid; grid-template: auto/1fr 1fr; column-gap: 1em">
+    <style>
+        .left, .right { width: 100%; height: 100vh; overflow: auto; }
+    </style>
+
+    <view className="left">
+        <Header value="Task Info" />
+        <Text name="meta" value="$meta_info" style="font-size: 14px; color: #666; padding: 10px; background: #f0f2f5; border-radius: 8px;"/>
+
+        <Header value="Evidence Sentence(s)" />
+        <HyperText name="text" value="$evidence_html" inline="true" valueType="text" style="font-size: 14px; line-height: 1.8; padding: 14px; background: #fff; border: 2px solid #4dabf7; border-radius: 8px;"/>
+    </view>
+
+    <view className="right">
+        <Header value="Extracted Statement - Is it supported by the evidence?" />
+        <HyperText name="statement" value="$statement_html" inline="true" valueType="text" style="padding: 12px; background: #fff3cd; border-radius: 8px; font-size: 15px;"/>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #fff;">
+            <Choices name="esr_choice" toName="text" required="true" choice="single">
+                <Choice value="2 · 支持 Supported"/>
+                <Choice value="1 · 部分支持 Partially supported"/>
+                <Choice value="0 · 不支持 Unsupported"/>
+            </Choices>
+        </View>
+
+        <View style="box-shadow: 2px 2px 5px #999; padding: 16px; margin-top: 1em; border-radius: 8px; background: #f8f9fa;">
+            <Header value="Guidelines" style="color: #495057; font-size: 14px;"/>
+            <View style="padding:10px;background:#fff;border-left:3px solid #495057;border-radius:4px;font-size:12px;line-height:1.8;">
+                <Text name="guide" value="Does the evidence sentence(s) support the statement (subject --predicate--&gt; object)?&#10;&#10;2 · 支持 Supported:&#10;- the evidence states the same or equivalent semantics as the statement&#10;- a rewrite / paraphrase / summary of the statement also counts&#10;&#10;1 · 部分支持 Partially supported:&#10;- the evidence covers part of the statement but leaves another part unverified (e.g. confirms the subject and relation but not the exact object, or vice versa)&#10;&#10;0 · 不支持 Unsupported:&#10;- the evidence is unrelated to, or contradicts, the statement&#10;- the evidence is too vague or incomplete to verify the statement&#10;&#10;Judge only from the shown evidence sentence(s); do not speculate beyond them."/>
+            </View>
+        </View>
+    </view>
+</View>

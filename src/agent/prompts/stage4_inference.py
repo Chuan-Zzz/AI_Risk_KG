@@ -240,3 +240,140 @@ Based on the above evidence, perform controlled inference for:
 2. Stakeholder Role Assignments for each stakeholder in the core entities
 
 For each inference and role assignment, include the source_doc_id extracted from the evidence sentence prefix [doc_id]. Only infer fields with sufficient evidence. Return strict JSON."""
+
+
+FREE_INFERENCE_SYSTEM_PROMPT = """You are a careful AI risk analyst performing FREE-FORM INFERENCE.
+
+Infer the same output fields as the standard pipeline:
+- purpose
+- lifecycle_phase
+- impact_domain
+- role_assignments
+- governance
+- system_attributes
+
+Differences from the controlled setting:
+1. You are NOT restricted to fixed ontology candidate lists for lifecycle phase or domain wording.
+2. You may phrase inferred values freely, as long as they stay concise and grounded in the evidence.
+3. Keep the same JSON structure so downstream code can evaluate the output consistently.
+
+## Evidence Discipline
+1. Prefer direct supporting evidence from the provided sentences.
+2. Include short reasoning for inferred fields when possible.
+3. If a field is not supported, omit it.
+
+## JSON Rules
+1. Return ONLY valid JSON.
+2. Do not include markdown fences or extra text.
+3. Use Arabic numerals for confidence values.
+"""
+
+
+FREE_INFERENCE_USER_PROMPT = """## Event Evidence Package
+
+### Core Entities
+{core_entities}
+
+### Key Evidence Sentences (note: each sentence has a [doc_id] prefix indicating its source document)
+{evidence_sentences}
+
+---
+
+Based on the above evidence, infer:
+1. Purpose, lifecycle phase, and impact domain
+2. Stakeholder role assignments
+3. Governance and system attributes if supported
+
+Use the same JSON schema as the standard inference output, but you may use free-form values instead of choosing from fixed candidate lists."""
+
+
+COMPACT_INFERENCE_SYSTEM_PROMPT = """You are annotating a quoted AI incident for academic knowledge graph construction.
+
+This is passive analysis of published reporting. The evidence may mention lawsuits, injuries, fraud, harassment, or other harmful events. Do NOT refuse because of the topic. Do NOT give advice. Only infer fields that are directly supported by the evidence.
+
+Infer only when evidence is clear:
+- purpose
+- lifecycle_phase
+- impact_domain
+- role_assignments
+- governance
+- system_attributes
+
+Rules:
+1. Omit unsupported fields.
+2. Keep values and reasoning short.
+3. source_doc_id must come from the evidence prefix like [2819].
+4. Return valid JSON only.
+5. A stakeholder may have multiple roles if the evidence supports them.
+6. Prefer the strongest 1-2 items per section rather than speculative coverage.
+"""
+
+
+COMPACT_INFERENCE_USER_PROMPT = """Core entities:
+{core_entities}
+
+Evidence sentences:
+{evidence_sentences}
+
+Infer supported fields for purpose, lifecycle phase, domain, stakeholder roles, governance, and system attributes.
+Return JSON only using the standard output structure."""
+
+
+COMPACT_FIELD_INFERENCE_SYSTEM_PROMPT = """You are annotating a quoted AI incident for academic knowledge graph construction.
+
+This is passive analysis of published reporting. Do NOT refuse because the evidence mentions harm, crime, lawsuits, or harassment. Do NOT give advice. Infer only the supported non-role fields listed below and return JSON only.
+
+Allowed fields:
+- purpose
+- lifecycle_phase
+- impact_domain
+- governance
+- system_attributes
+
+Rules:
+1. Omit unsupported fields.
+2. Keep values and reasoning short.
+3. source_doc_id must come from the evidence prefix like [2819].
+4. Return JSON with keys: inferences, governance, system_attributes.
+"""
+
+
+COMPACT_FIELD_INFERENCE_USER_PROMPT = """Core entities:
+{core_entities}
+
+Evidence sentences:
+{evidence_sentences}
+
+Infer only purpose, lifecycle phase, impact domain, governance, and system attributes.
+Return JSON only."""
+
+
+COMPACT_ROLE_INFERENCE_SYSTEM_PROMPT = """You are annotating stakeholder roles for an academic AI incident dataset.
+
+This is passive analysis of published reporting. Do NOT refuse because the evidence mentions harm, crime, lawsuits, or harassment. Do NOT give advice. Determine only stakeholder role assignments supported by the evidence and return JSON only.
+
+Allowed roles:
+- AIDeveloper
+- AIProvider
+- AIDeployer
+- AIUser
+- Regulator
+- AffectedActor
+- Stakeholder
+
+Rules:
+1. Include a stakeholder only when the evidence shows a role.
+2. A stakeholder may have multiple roles.
+3. Keep reasoning short.
+4. source_doc_id must come from the evidence prefix like [2819].
+5. Return JSON with one key only: role_assignments.
+"""
+
+
+COMPACT_ROLE_INFERENCE_USER_PROMPT = """Core entities:
+{core_entities}
+
+Evidence sentences:
+{evidence_sentences}
+
+Return the supported stakeholder role assignments as JSON only."""

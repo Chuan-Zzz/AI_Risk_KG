@@ -165,14 +165,54 @@ class Neo4jStore:
     def close(self) -> None:
         if self._driver:
             self._driver.close()
+            self._driver = None
+
+    @property
+    def driver(self):
+        return self._driver
+
+    def connect(self) -> bool:
+        if self._driver is None:
+            self._connect()
+        return self._driver is not None
 
     def clear_database(self) -> None:
         """Remove all nodes and relationships. Call before re-running with new alignment."""
         if not self._driver:
             return
         with self._driver.session(database=self._database) as session:
-            session.run("MATCH (n) DETACH DELETE n")
+            # Delete in batches to avoid OOM on large graphs
+            while True:
+                result = session.run(
+                    "MATCH (n) WITH n LIMIT 10000 DETACH DELETE n "
+                    "RETURN count(*) AS deleted"
+                )
+                deleted = result.single()["deleted"]
+                if deleted == 0:
+                    break
         logger.info("Neo4j: database cleared")
+
+    def get_stats(self) -> dict[str, Any]:
+        if not self._driver:
+            return {
+                "total_nodes": 0,
+                "total_relations": 0,
+                "nodes_by_type": {},
+            }
+
+        with self._driver.session(database=self._database) as session:
+            total_nodes = session.run("MATCH (n) RETURN count(n) AS c").single()["c"]
+            total_relations = session.run("MATCH ()-[r]->() RETURN count(r) AS c").single()["c"]
+            by_type_result = session.run(
+                "MATCH (n) UNWIND labels(n) AS label RETURN label, count(*) AS c ORDER BY c DESC"
+            )
+            nodes_by_type = {record["label"]: record["c"] for record in by_type_result}
+
+        return {
+            "total_nodes": total_nodes,
+            "total_relations": total_relations,
+            "nodes_by_type": nodes_by_type,
+        }
 
     def add_event_subgraph(self, subgraph: EventKnowledgeSubgraph) -> None:
         if not self._driver:
@@ -207,14 +247,22 @@ class Neo4jStore:
                     )
 
                 elif _is_alignable(node.entity_type):
-                    # Alignable: cross-event shared entity — MERGE on name within type
+                    # Alignable: cross-event shared entity — MERGE on name within type.
+                    # evidence / source_doc_ids / evidence_doc_ids are accumulated across
+                    # events rather than overwritten, so shared entities preserve the
+                    # full provenance from every event that mentions them.
                     ml = _merge_label(node.entity_type)
                     session.run(
                         f"MERGE (n:`{ml}` {{name: $name}}) "
+                        f"ON CREATE SET n.evidence = [], n.source_doc_ids = [], "
+                        f"n.evidence_doc_ids = [], n.event_ids = [] "
                         f"SET n.id = $id, n.entity_type = $entity_type, "
-                        f"n.extraction_mode = $mode, n.confidence = $conf, "
-                        f"n.evidence = $evidence, n.source_doc_ids = $source_doc_ids, "
-                        f"n.evidence_doc_ids = $evidence_doc_ids",
+                        f"n.extraction_mode = $mode, "
+                        f"n.confidence = CASE WHEN $conf > coalesce(n.confidence, 0) "
+                        f"THEN $conf ELSE n.confidence END, "
+                        f"n.evidence = [x IN n.evidence WHERE NOT x IN $evidence] + $evidence, "
+                        f"n.source_doc_ids = [x IN n.source_doc_ids WHERE NOT x IN $source_doc_ids] + $source_doc_ids, "
+                        f"n.evidence_doc_ids = [x IN n.evidence_doc_ids WHERE NOT x IN $evidence_doc_ids] + $evidence_doc_ids",
                         id=node.id,
                         name=node.name,
                         entity_type=node.entity_type.value,
@@ -284,9 +332,14 @@ class Neo4jStore:
                 session.run(
                     f"MATCH {subj_clause}, {obj_clause} "
                     f"MERGE (a)-[r:`{rel_type}`]->(b) "
-                    f"SET r.extraction_mode = $mode, r.confidence = $conf, "
-                    f"r.evidence = $evidence, r.source_doc_ids = $source_doc_ids, "
-                    f"r.evidence_doc_ids = $evidence_doc_ids",
+                    f"ON CREATE SET r.evidence = [], r.source_doc_ids = [], "
+                    f"r.evidence_doc_ids = [] "
+                    f"SET r.extraction_mode = $mode, "
+                    f"r.confidence = CASE WHEN $conf > coalesce(r.confidence, 0) "
+                    f"THEN $conf ELSE r.confidence END, "
+                    f"r.evidence = [x IN r.evidence WHERE NOT x IN $evidence] + $evidence, "
+                    f"r.source_doc_ids = [x IN r.source_doc_ids WHERE NOT x IN $source_doc_ids] + $source_doc_ids, "
+                    f"r.evidence_doc_ids = [x IN r.evidence_doc_ids WHERE NOT x IN $evidence_doc_ids] + $evidence_doc_ids",
                     **params,
                 )
 

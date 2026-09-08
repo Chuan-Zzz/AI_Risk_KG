@@ -1,0 +1,733 @@
+{
+  "meta": {
+    "total_events": 2034,
+    "files_scanned": 2034,
+    "source": "output/pred_*/event_subgraph_fused.json (graph: nodes+edges)",
+    "note": "Conceptual schema (risk_chain/role_assignments/governance) derived from graph. Risk taxonomy: 7 domains, 23 subdomains (see data/ai_risk_taxonomy.csv)."
+  },
+  "time_distribution": {
+    "events_by_year": {
+      "1998": 1,
+      "2004": 1,
+      "2008": 1,
+      "2009": 3,
+      "2010": 2,
+      "2011": 3,
+      "2012": 4,
+      "2013": 2,
+      "2014": 7,
+      "2015": 13,
+      "2016": 41,
+      "2017": 71,
+      "2018": 77,
+      "2019": 83,
+      "2020": 168,
+      "2021": 160,
+      "2022": 169,
+      "2023": 476,
+      "2024": 514,
+      "2025": 169
+    },
+    "domain_share_by_year": {
+      "1998": {
+        "Discrimination & toxicity": 1.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.0,
+        "Other": 0.0
+      },
+      "2004": {
+        "Discrimination & toxicity": 0.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 1.0,
+        "Other": 0.0
+      },
+      "2008": {
+        "Discrimination & toxicity": 0.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 1.0,
+        "Other": 0.0
+      },
+      "2009": {
+        "Discrimination & toxicity": 0.3333,
+        "Privacy & security": 0.3333,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.3333,
+        "Other": 0.0
+      },
+      "2010": {
+        "Discrimination & toxicity": 0.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.5,
+        "Malicious actors & misuse": 0.5,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.0,
+        "Other": 0.0
+      },
+      "2011": {
+        "Discrimination & toxicity": 0.0,
+        "Privacy & security": 0.3333,
+        "Misinformation": 0.6667,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.0,
+        "Other": 0.0
+      },
+      "2012": {
+        "Discrimination & toxicity": 0.75,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.25,
+        "Other": 0.0
+      },
+      "2013": {
+        "Discrimination & toxicity": 1.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.0,
+        "Other": 0.0
+      },
+      "2014": {
+        "Discrimination & toxicity": 0.0,
+        "Privacy & security": 0.0,
+        "Misinformation": 0.1429,
+        "Malicious actors & misuse": 0.1429,
+        "Human-computer interaction": 0.1429,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.5714,
+        "Other": 0.0
+      },
+      "2015": {
+        "Discrimination & toxicity": 0.3846,
+        "Privacy & security": 0.0769,
+        "Misinformation": 0.0,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0,
+        "Socioeconomic & environmental harms": 0.0,
+        "AI system safety, failures & limitations": 0.5385,
+        "Other": 0.0
+      },
+      "2016": {
+        "Discrimination & toxicity": 0.2927,
+        "Privacy & security": 0.122,
+        "Misinformation": 0.0244,
+        "Malicious actors & misuse": 0.0244,
+        "Human-computer interaction": 0.0244,
+        "Socioeconomic & environmental harms": 0.0244,
+        "AI system safety, failures & limitations": 0.4878,
+        "Other": 0.0
+      },
+      "2017": {
+        "Discrimination & toxicity": 0.2676,
+        "Privacy & security": 0.1549,
+        "Misinformation": 0.0563,
+        "Malicious actors & misuse": 0.0,
+        "Human-computer interaction": 0.0282,
+        "Socioeconomic & environmental harms": 0.0282,
+        "AI system safety, failures & limitations": 0.4648,
+        "Other": 0.0
+      },
+      "2018": {
+        "Discrimination & toxicity": 0.1429,
+        "Privacy & security": 0.1169,
+        "Misinformation": 0.039,
+        "Malicious actors & misuse": 0.0519,
+        "Human-computer interaction": 0.1039,
+        "Socioeconomic & environmental harms": 0.013,
+        "AI system safety, failures & limitations": 0.5325,
+        "Other": 0.0
+      },
+      "2019": {
+        "Discrimination & toxicity": 0.1566,
+        "Privacy & security": 0.3494,
+        "Misinformation": 0.0361,
+        "Malicious actors & misuse": 0.0964,
+        "Human-computer interaction": 0.0964,
+        "Socioeconomic & environmental harms": 0.012,
+        "AI system safety, failures & limitations": 0.253,
+        "Other": 0.0
+      },
+      "2020": {
+        "Discrimination & toxicity": 0.3512,
+        "Privacy & security": 0.1607,
+        "Misinformation": 0.0417,
+        "Malicious actors & misuse": 0.1429,
+        "Human-computer interaction": 0.0238,
+        "Socioeconomic & environmental harms": 0.0119,
+        "AI system safety, failures & limitations": 0.2679,
+        "Other": 0.0
+      },
+      "2021": {
+        "Discrimination & toxicity": 0.2375,
+        "Privacy & security": 0.1625,
+        "Misinformation": 0.0563,
+        "Malicious actors & misuse": 0.125,
+        "Human-computer interaction": 0.075,
+        "Socioeconomic & environmental harms": 0.025,
+        "AI system safety, failures & limitations": 0.3187,
+        "Other": 0.0
+      },
+      "2022": {
+        "Discrimination & toxicity": 0.2485,
+        "Privacy & security": 0.1598,
+        "Misinformation": 0.0414,
+        "Malicious actors & misuse": 0.1953,
+        "Human-computer interaction": 0.0533,
+        "Socioeconomic & environmental harms": 0.0592,
+        "AI system safety, failures & limitations": 0.2426,
+        "Other": 0.0
+      },
+      "2023": {
+        "Discrimination & toxicity": 0.1597,
+        "Privacy & security": 0.1008,
+        "Misinformation": 0.1828,
+        "Malicious actors & misuse": 0.2689,
+        "Human-computer interaction": 0.0357,
+        "Socioeconomic & environmental harms": 0.0945,
+        "AI system safety, failures & limitations": 0.1576,
+        "Other": 0.0
+      },
+      "2024": {
+        "Discrimination & toxicity": 0.1245,
+        "Privacy & security": 0.0973,
+        "Misinformation": 0.2023,
+        "Malicious actors & misuse": 0.3619,
+        "Human-computer interaction": 0.0272,
+        "Socioeconomic & environmental harms": 0.0817,
+        "AI system safety, failures & limitations": 0.1051,
+        "Other": 0.0
+      },
+      "2025": {
+        "Discrimination & toxicity": 0.0828,
+        "Privacy & security": 0.0828,
+        "Misinformation": 0.1657,
+        "Malicious actors & misuse": 0.4675,
+        "Human-computer interaction": 0.0414,
+        "Socioeconomic & environmental harms": 0.0533,
+        "AI system safety, failures & limitations": 0.1065,
+        "Other": 0.0
+      }
+    },
+    "period_comparison": {
+      "2018-2021": {
+        "total": 488,
+        "domain_counts": {
+          "Discrimination & toxicity": 121,
+          "Privacy & security": 91,
+          "Misinformation": 22,
+          "Malicious actors & misuse": 56,
+          "Human-computer interaction": 32,
+          "Socioeconomic & environmental harms": 8,
+          "AI system safety, failures & limitations": 158,
+          "Other": 0
+        },
+        "domain_share": {
+          "Discrimination & toxicity": 0.248,
+          "Privacy & security": 0.1865,
+          "Misinformation": 0.0451,
+          "Malicious actors & misuse": 0.1148,
+          "Human-computer interaction": 0.0656,
+          "Socioeconomic & environmental harms": 0.0164,
+          "AI system safety, failures & limitations": 0.3238,
+          "Other": 0.0
+        }
+      },
+      "2022-2024": {
+        "total": 1159,
+        "domain_counts": {
+          "Discrimination & toxicity": 182,
+          "Privacy & security": 125,
+          "Misinformation": 198,
+          "Malicious actors & misuse": 347,
+          "Human-computer interaction": 40,
+          "Socioeconomic & environmental harms": 97,
+          "AI system safety, failures & limitations": 170,
+          "Other": 0
+        },
+        "domain_share": {
+          "Discrimination & toxicity": 0.157,
+          "Privacy & security": 0.1079,
+          "Misinformation": 0.1708,
+          "Malicious actors & misuse": 0.2994,
+          "Human-computer interaction": 0.0345,
+          "Socioeconomic & environmental harms": 0.0837,
+          "AI system safety, failures & limitations": 0.1467,
+          "Other": 0.0
+        }
+      }
+    }
+  },
+  "risk_domain_distribution": {
+    "table": [
+      {
+        "domain": "Discrimination & toxicity",
+        "count": 377,
+        "share": 0.1853
+      },
+      {
+        "domain": "Privacy & security",
+        "count": 262,
+        "share": 0.1288
+      },
+      {
+        "domain": "Misinformation",
+        "count": 265,
+        "share": 0.1303
+      },
+      {
+        "domain": "Malicious actors & misuse",
+        "count": 498,
+        "share": 0.2448
+      },
+      {
+        "domain": "Human-computer interaction",
+        "count": 83,
+        "share": 0.0408
+      },
+      {
+        "domain": "Socioeconomic & environmental harms",
+        "count": 124,
+        "share": 0.061
+      },
+      {
+        "domain": "AI system safety, failures & limitations",
+        "count": 425,
+        "share": 0.2089
+      },
+      {
+        "domain": "Other",
+        "count": 0,
+        "share": 0.0
+      }
+    ],
+    "subdomain_table": [
+      {
+        "domain_id": "1",
+        "domain": "Discrimination & toxicity",
+        "subdomain_id": "1.1",
+        "subdomain": "Unfair discrimination and misrepresentation",
+        "count": 159
+      },
+      {
+        "domain_id": "1",
+        "domain": "Discrimination & toxicity",
+        "subdomain_id": "1.2",
+        "subdomain": "Exposure to toxic content",
+        "count": 146
+      },
+      {
+        "domain_id": "1",
+        "domain": "Discrimination & toxicity",
+        "subdomain_id": "1.3",
+        "subdomain": "Unequal performance across groups",
+        "count": 72
+      },
+      {
+        "domain_id": "2",
+        "domain": "Privacy & security",
+        "subdomain_id": "2.1",
+        "subdomain": "Compromise of privacy by leaking or inferring sensitive information",
+        "count": 211
+      },
+      {
+        "domain_id": "2",
+        "domain": "Privacy & security",
+        "subdomain_id": "2.2",
+        "subdomain": "AI system security vulnerabilities and attacks",
+        "count": 51
+      },
+      {
+        "domain_id": "3",
+        "domain": "Misinformation",
+        "subdomain_id": "3.1",
+        "subdomain": "False or misleading information",
+        "count": 240
+      },
+      {
+        "domain_id": "3",
+        "domain": "Misinformation",
+        "subdomain_id": "3.2",
+        "subdomain": "Pollution of information ecosystem and loss of consensus reality",
+        "count": 25
+      },
+      {
+        "domain_id": "4",
+        "domain": "Malicious actors & misuse",
+        "subdomain_id": "4.1",
+        "subdomain": "Disinformation, surveillance, and influence at scale",
+        "count": 129
+      },
+      {
+        "domain_id": "4",
+        "domain": "Malicious actors & misuse",
+        "subdomain_id": "4.2",
+        "subdomain": "Cyberattacks, weapon development or use, and mass harm",
+        "count": 36
+      },
+      {
+        "domain_id": "4",
+        "domain": "Malicious actors & misuse",
+        "subdomain_id": "4.3",
+        "subdomain": "Fraud, scams, and targeted manipulation",
+        "count": 333
+      },
+      {
+        "domain_id": "5",
+        "domain": "Human-computer interaction",
+        "subdomain_id": "5.1",
+        "subdomain": "Overreliance and unsafe use",
+        "count": 73
+      },
+      {
+        "domain_id": "5",
+        "domain": "Human-computer interaction",
+        "subdomain_id": "5.2",
+        "subdomain": "Loss of human agency and autonomy",
+        "count": 10
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.1",
+        "subdomain": "Power centralization and unfair distribution of benefits",
+        "count": 4
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.2",
+        "subdomain": "Increased inequality and decline in employment quality",
+        "count": 11
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.3",
+        "subdomain": "Economic and cultural devaluation of human effort",
+        "count": 92
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.4",
+        "subdomain": "Competitive dynamics",
+        "count": 2
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.5",
+        "subdomain": "Governance failure",
+        "count": 10
+      },
+      {
+        "domain_id": "6",
+        "domain": "Socioeconomic & environmental harms",
+        "subdomain_id": "6.6",
+        "subdomain": "Environmental harm",
+        "count": 5
+      },
+      {
+        "domain_id": "7",
+        "domain": "AI system safety, failures & limitations",
+        "subdomain_id": "7.1",
+        "subdomain": "AI pursuing its own goals in conflict with human goals or values",
+        "count": 4
+      },
+      {
+        "domain_id": "7",
+        "domain": "AI system safety, failures & limitations",
+        "subdomain_id": "7.2",
+        "subdomain": "AI possessing dangerous capabilities",
+        "count": 5
+      },
+      {
+        "domain_id": "7",
+        "domain": "AI system safety, failures & limitations",
+        "subdomain_id": "7.3",
+        "subdomain": "Lack of capability or robustness",
+        "count": 402
+      },
+      {
+        "domain_id": "7",
+        "domain": "AI system safety, failures & limitations",
+        "subdomain_id": "7.4",
+        "subdomain": "Lack of transparency or interpretability",
+        "count": 14
+      },
+      {
+        "domain_id": "7",
+        "domain": "AI system safety, failures & limitations",
+        "subdomain_id": "7.5",
+        "subdomain": "AI welfare and rights",
+        "count": 0
+      },
+      {
+        "domain_id": "0",
+        "domain": "Other",
+        "subdomain_id": "0",
+        "subdomain": "Other",
+        "count": 0
+      }
+    ],
+    "total_events": 2034,
+    "method": "LLM-based classification (deepseek-v4-flash)"
+  },
+  "risk_propagation": {
+    "transitions": {
+      "RiskSource->Risk": {
+        "count": 2008,
+        "mean_support_count": 1,
+        "evidence_support_rate": 1.0
+      },
+      "Risk->Consequence": {
+        "count": 2010,
+        "mean_support_count": 1,
+        "evidence_support_rate": 1.0
+      },
+      "Consequence->Impact": {
+        "count": 2019,
+        "mean_support_count": 1,
+        "evidence_support_rate": 1.0
+      },
+      "Impact->AffectedActor": {
+        "count": 2013,
+        "mean_support_count": 1,
+        "evidence_support_rate": 1.0
+      }
+    },
+    "complete_chain_events": 1998,
+    "complete_chain_coverage": 0.9823,
+    "top_risk_sources": [
+      {
+        "value": "AI-generated deepfake technology",
+        "count": 11
+      },
+      {
+        "value": "AI model hallucination",
+        "count": 8
+      },
+      {
+        "value": "inaccurate facial recognition matching",
+        "count": 8
+      },
+      {
+        "value": "model hallucination",
+        "count": 7
+      },
+      {
+        "value": "AI-generated deepfake media",
+        "count": 7
+      },
+      {
+        "value": "biased training data",
+        "count": 7
+      },
+      {
+        "value": "AI voice cloning technology",
+        "count": 6
+      },
+      {
+        "value": "Model hallucination",
+        "count": 4
+      },
+      {
+        "value": "deepfake generation technology",
+        "count": 4
+      },
+      {
+        "value": "Deepfake generation technology",
+        "count": 3
+      }
+    ],
+    "top_affected_actors": [
+      {
+        "value": "Google",
+        "count": 5
+      },
+      {
+        "value": "children",
+        "count": 5
+      },
+      {
+        "value": "Taylor Swift",
+        "count": 5
+      },
+      {
+        "value": "Sam Mitrovic",
+        "count": 5
+      },
+      {
+        "value": "Kamala Harris",
+        "count": 4
+      },
+      {
+        "value": "Voters and the general public",
+        "count": 4
+      },
+      {
+        "value": "The New York Times",
+        "count": 4
+      },
+      {
+        "value": "Tesla drivers and other road users",
+        "count": 4
+      },
+      {
+        "value": "Sarah Silverman",
+        "count": 4
+      },
+      {
+        "value": "Cambridge Analytica",
+        "count": 4
+      }
+    ],
+    "top_complete_paths": [
+      {
+        "path": "Accessible AI image-generation technology lacking... -> risk of AI being used to create and distribute non... -> fake nude images of female students were created a... -> psychological distress for victims and fear of lon... -> female high school students",
+        "count": 1
+      },
+      {
+        "path": "AI model hallucination generating false legal info... -> Risk of reliance on AI-generated content without v... -> Law firm submitted legal brief containing six fict... -> Lawsuit dismissed and lawyers sanctioned with mone... -> Plaintiff seeking legal remedy and the attorneys i...",
+        "count": 1
+      },
+      {
+        "path": "Malicious use of deepfake technology to create non... -> risk of AI-generated non-consensual deepfake porno... -> deepfake pornographic videos of the prime minister... -> reputational harm and defamation leading to legal... -> public figures and individuals whose likeness is u...",
+        "count": 1
+      },
+      {
+        "path": "inadequate obstacle detection capability -> risk of AI system navigation failure -> security robot fell into a water fountain and beca... -> loss of security asset and damage to robot -> The Washington Harbour office and retail complex",
+        "count": 1
+      },
+      {
+        "path": "Use of nationality-based profiling in fraud detect... -> Risk of discriminatory social scoring through AI-d... -> Welfare recipients flagged and scrutinized based o... -> Breach of human rights to privacy, equality, and s... -> Welfare recipients in Denmark",
+        "count": 1
+      },
+      {
+        "path": "Misuse of deepfake AI technology to generate non-c... -> Risk of AI-generated deepfake sexual images being... -> Individuals generating and disseminating AI-genera... -> Potential harm and exploitation of children and no... -> Children, specifically teenage girls, and non-cons...",
+        "count": 1
+      },
+      {
+        "path": "Resource-intensive hardware requirements of genera... -> Risk of increased electronic waste generation -> Significant addition of e-waste from high-performa... -> Exacerbation of the existing global e-waste proble... -> Global community and environment",
+        "count": 1
+      },
+      {
+        "path": "AI-generated content without human verification -> risk of AI-generated misinformation -> false event was promoted and believed by the publi... -> public confusion and waste of police resources -> general public and law enforcement",
+        "count": 1
+      },
+      {
+        "path": "Deployment of powerful generative AI voice APIs wi... -> Risk of AI-facilitated automated phone scam operat... -> Cost-effective, automated phone scams mimicking tr... -> Large-scale financial fraud and identity theft tar... -> American consumers, particularly those vulnerable...",
+        "count": 1
+      },
+      {
+        "path": "Inadequate content filtering against discredited s... -> Risk of AI search engines disseminating discredite... -> AI search features presented discredited race scie... -> Amplification of harmful racial pseudoscience and... -> Users of AI-powered search features seeking factua...",
+        "count": 1
+      }
+    ]
+  },
+  "stakeholders_governance": {
+    "role_coverage": {
+      "AIDeveloper": 932,
+      "AIProvider": 899,
+      "AIDeployer": 1040,
+      "AIUser": 578
+    },
+    "regulator_involvement": 520,
+    "enforcement_action_events": 235,
+    "risk_control_events": 1258,
+    "events_with_multiple_roles": 1148,
+    "governance_response_events": 1393,
+    "governance_response_rate": 0.6849,
+    "total_events": 2034
+  },
+  "cross_dimension": {
+    "governance_response_rate_by_domain": {
+      "Discrimination & toxicity": 0.6711,
+      "Privacy & security": 0.729,
+      "Misinformation": 0.6604,
+      "Malicious actors & misuse": 0.6827,
+      "Human-computer interaction": 0.6988,
+      "Socioeconomic & environmental harms": 0.6694,
+      "AI system safety, failures & limitations": 0.6894,
+      "Other": 0.0
+    },
+    "complete_chain_coverage_by_domain": {
+      "Discrimination & toxicity": 0.9867,
+      "Privacy & security": 0.9809,
+      "Misinformation": 0.9736,
+      "Malicious actors & misuse": 0.9779,
+      "Human-computer interaction": 0.988,
+      "Socioeconomic & environmental harms": 1.0,
+      "AI system safety, failures & limitations": 0.9835,
+      "Other": 0.0
+    },
+    "role_diversity_by_period": {
+      "2018-2021": 1.7705,
+      "2022-2024": 1.6497
+    }
+  },
+  "country_distribution": [
+    {
+      "country": "Italy",
+      "count": 5
+    },
+    {
+      "country": "United States",
+      "count": 5
+    },
+    {
+      "country": "Argentina",
+      "count": 4
+    },
+    {
+      "country": "China",
+      "count": 3
+    },
+    {
+      "country": "Indonesia",
+      "count": 2
+    },
+    {
+      "country": "Malaysia",
+      "count": 2
+    },
+    {
+      "country": "United Arab Emirates",
+      "count": 2
+    },
+    {
+      "country": "Iran",
+      "count": 2
+    },
+    {
+      "country": "North Korea",
+      "count": 1
+    },
+    {
+      "country": "South Korea",
+      "count": 1
+    }
+  ]
+}

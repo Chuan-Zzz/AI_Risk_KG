@@ -17,6 +17,7 @@ class PipelineState(TypedDict, total=False):
     # === Input ===
     event_id: str
     documents: list[NewsReport]
+    experiment: dict[str, Any]
 
     # === Stage 1: News Reports Input ===
     report_count: int
@@ -63,10 +64,12 @@ class PipelineState(TypedDict, total=False):
 def create_initial_state(
     event_id: str,
     documents: list[NewsReport],
+    experiment: dict[str, Any] | None = None,
 ) -> PipelineState:
     return PipelineState(
         event_id=event_id,
         documents=documents,
+        experiment=experiment or {},
         report_count=0,
         first_seen=None,
         last_seen=None,

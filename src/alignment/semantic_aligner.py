@@ -11,10 +11,12 @@ from src.alignment.bm25_index import BM25Indexer
 from src.core.config import get_config
 from src.core.embedder import compute_similarity_matrix, embed_texts
 from src.core.models import EntityNode, OntologyClass
+from src.utils.text import normalize_for_matching
 
 logger = logging.getLogger(__name__)
 
-# Stakeholder subtypes that should be aligned together
+# Stakeholder subtypes that should be aligned together.
+# AffectedActor is excluded — it is event-specific (see _NON_ALIGNABLE_TYPES).
 _STAKEHOLDER_TYPES = frozenset({
     OntologyClass.STAKEHOLDER,
     OntologyClass.AI_DEVELOPER,
@@ -22,7 +24,6 @@ _STAKEHOLDER_TYPES = frozenset({
     OntologyClass.AI_DEPLOYER,
     OntologyClass.AI_USER,
     OntologyClass.REGULATOR,
-    OntologyClass.AFFECTED_ACTOR,
 })
 
 
@@ -115,10 +116,6 @@ class SemanticAligner:
             bm25_b=config.get("alignment.bm25_b", 0.75),
         )
 
-    def _normalize_name(self, name: str) -> str:
-        """Normalize entity name for exact matching."""
-        return name.lower().strip().replace("-", "").replace("_", "").replace(" ", "")
-
     def _compute_hybrid_scores(
         self,
         names: list[str],
@@ -138,6 +135,20 @@ class SemanticAligner:
         semantic_sim = compute_similarity_matrix(embeddings)
 
         if not self.use_hybrid:
+            # Still apply exact-match bonus on pure semantic scores
+            for i in range(n):
+                for j in range(i + 1, n):
+                    norm_i = normalize_for_matching(names[i])
+                    norm_j = normalize_for_matching(names[j])
+                    if norm_i and norm_i == norm_j:
+                        # Only apply bonus when semantic similarity is
+                        # moderately high — very low semantic similarity
+                        # with a normalized name match usually means the
+                        # strings collide by accident (e.g. "AI Inc" vs
+                        # "AI-Inc" referring to different organisations).
+                        if float(semantic_sim[i, j]) >= 0.5:
+                            semantic_sim[i, j] = max(float(semantic_sim[i, j]), 0.85)
+                            semantic_sim[j, i] = semantic_sim[i, j]
             return semantic_sim
 
         # 2. BM25 similarity
@@ -148,15 +159,17 @@ class SemanticAligner:
         # 3. Weighted fusion
         hybrid_sim = self.semantic_weight * semantic_sim + self.bm25_weight * bm25_sim
 
-        # 4. Exact match bonus
+        # 4. Exact match bonus — only when semantic similarity is >= 0.5,
+        #    to avoid merging entities whose normalised names collide by
+        #    accident but are semantically unrelated.
         for i in range(n):
             for j in range(i + 1, n):
-                norm_i = self._normalize_name(names[i])
-                norm_j = self._normalize_name(names[j])
-                if norm_i == norm_j and norm_i:
-                    # Exact normalized match gets bonus
-                    hybrid_sim[i, j] = max(hybrid_sim[i, j], 0.85)
-                    hybrid_sim[j, i] = hybrid_sim[i, j]
+                norm_i = normalize_for_matching(names[i])
+                norm_j = normalize_for_matching(names[j])
+                if norm_i and norm_i == norm_j:
+                    if float(semantic_sim[i, j]) >= 0.5:
+                        hybrid_sim[i, j] = max(float(hybrid_sim[i, j]), 0.85)
+                        hybrid_sim[j, i] = hybrid_sim[i, j]
 
         return hybrid_sim
 
@@ -217,9 +230,12 @@ class SemanticAligner:
         if len(entities) < 2:
             return []
 
+        # Use _alignment_type so stakeholder subtypes (AIProvider, AIDeveloper, ...)
+        # are grouped together — otherwise "Google" as AIProvider and "Google" as
+        # AIDeployer would never be compared.
         by_type: dict[str, list[int]] = {}
         for i, e in enumerate(entities):
-            by_type.setdefault(e.entity_type.value, []).append(i)
+            by_type.setdefault(_alignment_type(e), []).append(i)
 
         pairs: list[tuple[int, int, float]] = []
 

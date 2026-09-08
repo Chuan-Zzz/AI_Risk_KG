@@ -1,0 +1,58 @@
+{
+  "design": "3-point labeling of judge-adjudicated edges; GLM verdict vs a single human annotator (author)",
+  "sample_size": 300,
+  "n_resolved": 300,
+  "inter_annotator": {
+    "n": 300,
+    "mode": "single_annotator",
+    "label_distribution": {
+      "2": 185,
+      "1": 25,
+      "0": 90
+    }
+  },
+  "judge_vs_human": {
+    "strict (S=positive, P/U=negative)": {
+      "n": 300,
+      "tp": 109,
+      "fp": 11,
+      "fn": 76,
+      "tn": 104,
+      "accuracy": 0.71,
+      "precision": 0.9083,
+      "recall": 0.5892,
+      "f1": 0.7148,
+      "cohens_kappa": 0.4459
+    },
+    "lenient (S/P=positive, U=negative)": {
+      "n": 300,
+      "tp": 114,
+      "fp": 6,
+      "fn": 96,
+      "tn": 84,
+      "accuracy": 0.66,
+      "precision": 0.95,
+      "recall": 0.5429,
+      "f1": 0.6909,
+      "cohens_kappa": 0.3704
+    }
+  },
+  "confusion_human3_x_judge": {
+    "human_0|judge_unsup": 84,
+    "human_0|judge_sup": 6,
+    "human_1|judge_unsup": 20,
+    "human_1|judge_sup": 5,
+    "human_2|judge_unsup": 76,
+    "human_2|judge_sup": 109
+  },
+  "implied_graph_wide_esr": {
+    "note": "literal layer 9104/12361 deterministic + adjudicated layer 3257 re-estimated at the sample strict-positive rate",
+    "sample_strict_positive_rate": 0.6167,
+    "esr_adjusted_pct": 89.9,
+    "bootstrap95_ci_pct": [
+      88.4,
+      91.3
+    ],
+    "reported_esr_llm_pct": 84.4
+  }
+}

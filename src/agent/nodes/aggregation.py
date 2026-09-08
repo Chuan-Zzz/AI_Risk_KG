@@ -17,17 +17,29 @@ from src.utils.text import merge_entities, normalize_entity_name
 logger = logging.getLogger(__name__)
 
 
+def _ordered_unique_doc_ids(documents: list) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+    for doc in documents:
+        if doc.doc_id in seen:
+            continue
+        seen.add(doc.doc_id)
+        result.append(doc.doc_id)
+    return result
+
+
 def _find_near_duplicate_reports(
     documents: list,
     threshold: float = 0.85,
-    max_representative: int = 10,
+    max_representative: int = 8,
 ) -> list[str]:
     """Find near-duplicate reports using BGE-M3 embeddings.
 
     Returns list of doc_ids to keep (representative reports).
     """
-    if len(documents) <= max_representative:
-        return [d.doc_id for d in documents]
+    unique_doc_ids = _ordered_unique_doc_ids(documents)
+    if len(unique_doc_ids) <= max_representative:
+        return unique_doc_ids
 
     # Extract titles and summaries
     texts = []
@@ -59,7 +71,7 @@ def _find_near_duplicate_reports(
         seen = set()
 
         for i in range(len(doc_ids)):
-            if doc_ids[i] in seen:
+            if doc_ids[i] in seen or doc_ids[i] in to_remove:
                 continue
 
             # Find similar reports (excluding self)
@@ -81,7 +93,13 @@ def _find_near_duplicate_reports(
         logger.warning(f"[Stage 3] Vectorization failed: {e}, using simple dedup")
 
     # Return representative set
-    representatives = [d for d in doc_ids if d not in to_remove]
+    representatives = []
+    for doc_id in doc_ids:
+        if doc_id in to_remove or doc_id in representatives:
+            continue
+        representatives.append(doc_id)
+    if not representatives:
+        representatives = unique_doc_ids
     return representatives[:max_representative]
 
 
@@ -128,31 +146,26 @@ def _detect_conflicts(
 
     # Check for low support count conflicts
     low_support = [e for e in entities if e.support_count < 2]
-    if low_support:
+    if low_support and len(documents) >= 3 and len(entities) > 1:
         conflicts.append({
             "type": "low_support",
             "entities": [e.name for e in low_support],
             "reason": f"{len(low_support)} entities have support_count < 2",
         })
 
-    # Check for contradictory evidence
-    evidence_by_sentence: dict[str, list[tuple[str, str]]] = {}  # sentence -> [(doc_id, sentence)]
+    # Check for entity type conflicts: same entity name assigned different types
+    name_to_types: dict[str, set[str]] = {}
     for e in entities:
-        for ev in e.evidence:
-            key = ev.evidence_sentence.lower().strip()
-            evidence_by_sentence.setdefault(key, []).append((ev.source_doc_id, ev.evidence_sentence))
-
-    for sentence, sources in evidence_by_sentence.items():
-        if len(sources) > 1:
-            # Check if sources are from different documents
-            doc_ids = {s[0] for s in sources}
-            if len(doc_ids) > 1:
-                conflicts.append({
-                    "type": "evidence_conflict",
-                    "sentence": sentence[:100] + "...",
-                    "sources": doc_ids,
-                    "reason": f"Evidence appears in {len(doc_ids)} different documents",
-                })
+        name_key = e.name.lower().strip()
+        name_to_types.setdefault(name_key, set()).add(e.entity_type.value)
+    for name, types in name_to_types.items():
+        if len(types) > 1:
+            conflicts.append({
+                "type": "type_conflict",
+                "entity": name[:100],
+                "types": list(types),
+                "reason": f"Entity '{name[:50]}' assigned conflicting types: {types}",
+            })
 
     logger.info(f"[Stage 3] Detected {len(conflicts)} conflicts")
     return conflicts
@@ -177,7 +190,7 @@ def _aggregate_small(entities: list[EntityNode], documents: list) -> dict[str, A
     conflicts = _detect_conflicts(merged, documents)
 
     return {
-        "representative_reports": [d.doc_id for d in documents],
+        "representative_reports": _ordered_unique_doc_ids(documents),
         "core_entities": core,
         "key_evidence_sentences": evidence_sents[:50],
         "support_statistics": support_stats,
@@ -191,7 +204,7 @@ def _aggregate_medium(entities: list[EntityNode], documents: list) -> dict[str, 
 
     # Use vectorization to select representative reports
     cfg = get_config()
-    max_rep = cfg.get("aggregation.max_representative", 10)
+    max_rep = cfg.get("aggregation.max_representative", 8)
     vector_threshold = cfg.get("aggregation.vector_threshold", 0.85)
 
     representatives = _find_near_duplicate_reports(documents, threshold=vector_threshold, max_representative=max_rep)
@@ -206,6 +219,11 @@ def _aggregate_medium(entities: list[EntityNode], documents: list) -> dict[str, 
                     representatives.append(doc.doc_id)
                     if len(representatives) >= max_rep:
                         break
+
+    dedup_representatives: list[str] = []
+    for doc_id in representatives:
+        if doc_id not in dedup_representatives:
+            dedup_representatives.append(doc_id)
 
     evidence_sents = []
     for e in merged:
@@ -229,7 +247,7 @@ def _aggregate_medium(entities: list[EntityNode], documents: list) -> dict[str, 
     conflicts = _detect_conflicts(merged, documents)
 
     return {
-        "representative_reports": representatives,
+        "representative_reports": dedup_representatives[:max_rep],
         "core_entities": core,
         "key_evidence_sentences": evidence_sents_dedup,
         "support_statistics": support_stats,
@@ -265,16 +283,11 @@ def _aggregate_large(entities: list[EntityNode], documents: list) -> dict[str, A
         })
 
     global_support: dict[str, int] = {}
-    global_conflicts: list[dict] = []
 
     for pkg in local_packages:
         for e in pkg["entities"]:
-            if e.name in global_support:
-                existing_count = global_support[e.name]
-                if e.support_count > existing_count:
-                    global_support[e.name] = e.support_count
-            else:
-                global_support[e.name] = e.support_count
+            # Accumulate support_count across chunks instead of taking max
+            global_support[e.name] = global_support.get(e.name, 0) + e.support_count
 
     evidence_sents = []
     for e in merged:
@@ -303,8 +316,13 @@ def _aggregate_large(entities: list[EntityNode], documents: list) -> dict[str, A
             if len(representatives) >= 15:
                 break
 
+    dedup_representatives: list[str] = []
+    for doc_id in representatives:
+        if doc_id not in dedup_representatives:
+            dedup_representatives.append(doc_id)
+
     return {
-        "representative_reports": representatives,
+        "representative_reports": dedup_representatives[:15],
         "core_entities": core,
         "key_evidence_sentences": evidence_sents_dedup,
         "support_statistics": global_support,

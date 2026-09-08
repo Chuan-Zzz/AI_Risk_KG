@@ -1,0 +1,8 @@
+%% Empty stub: forces cas-dc.cls to skip STIX math font loading so that
+%% pagination is identical across pdfLaTeX / XeTeX / TeX distributions.
+%% Math falls back to Computer Modern (amsfonts Type1, core everywhere).
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{stix}[2026/08/17 determinism stub: no-op]
+\DeclareOption*{}
+\ProcessOptions\relax
+\endinput

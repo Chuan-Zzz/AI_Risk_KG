@@ -1,6 +1,7 @@
 """AI Risk Knowledge Graph - Core Data Models.
 
-Pydantic models aligned with the AIRO Extended Ontology (airo_extended_en.ttl).
+Pydantic models aligned with the AI Risk Incident Ontology
+(data/AIRO_extended.ttl), an extension of the AI Risk Ontology (AIRO).
 """
 
 from __future__ import annotations
@@ -29,6 +30,7 @@ class OntologyClass(str, Enum):
     GPAI_MODEL = "GPAIModel"
     AI_TECHNIQUE = "AITechnique"
     AI_CAPABILITY = "AICapability"
+    AI_COMPONENT = "AIComponent"
     DATA = "Data"
     # Stakeholders
     STAKEHOLDER = "Stakeholder"
