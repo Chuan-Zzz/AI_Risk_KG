@@ -83,9 +83,40 @@ Phase 2: cross-event fusion   → Neo4j global KG
 ## Data
 
 - **Events**: `data/inferred_event_structure_6124.json` — 2034 events mapping to case IDs
-- **Cases**: `data/eval_cases.jsonl` or `data/translated_docs.json`
+- **Cases**: `data/eval_cases.jsonl` (distributed via Releases, see below) or `data/translated_docs.json`
 
 If `eval_cases.jsonl` is absent, the pipeline falls back to `translated_docs.json`.
+
+## Data Availability
+
+Full construction outputs and the source corpus are published as GitHub [Release assets](https://github.com/Chuan-Zzz/AI_Risk_KG/releases):
+
+| Asset | Contents |
+|-------|----------|
+| `ontorisk_intermediate_graphs.zip` | Per-event `event_subgraph.json`, `event_subgraph_fused.json`, and `.ttl` for all 2,034 events |
+| `ontorisk_ablation_outputs.zip` | Outputs of all ablation and baseline variants |
+| `ontorisk_source_data.zip` | Source corpus (`eval_cases.jsonl`) and event structure needed to re-run the pipeline |
+
+Human annotation results and computed metrics are tracked directly in this repository under `eval/annotations/` and `eval/results/`. Three sample events are included under `examples/` so the output format can be inspected without downloading the archives.
+
+## Annotation Data
+
+Three-level human evaluation was conducted with Label Studio (multiple annotators plus arbitration), and all results are public:
+
+| Level | Files | Metrics |
+|-------|-------|---------|
+| 1 — Explicit entities | `eval/annotations/level1_entity_*.json` | Precision / Recall / F1 (exact + partial match) |
+| 2 — Risk chain | `eval/annotations/level2_risk_chain_*.json` | Slot accuracy |
+| 3 — Inference fields | `eval/annotations/level3_inference_*.json` | Field accuracy + evidence support rate |
+| ESR validation | `eval/annotations/esr_annotation.json` | Evidence support re-annotation |
+
+Annotation tasks, label configs, and arbitration assets live in `eval/label_studio/`; the protocol is documented in `docs/evaluation/annotation_guide.md` and `docs/evaluation/evaluation_plan.md`. All reported metrics can be recomputed offline:
+
+```bash
+python eval/scripts/compute_metrics.py               # pre-arbitration metrics
+python eval/scripts/compute_metrics_arbitrated.py    # post-arbitration metrics
+python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
+```
 
 ## Project Structure
 
@@ -94,13 +125,15 @@ If `eval_cases.jsonl` is absent, the pipeline falls back to `translated_docs.jso
 │   ├── config.yml                    # Main configuration
 │   └── ontology.yml                  # AIRO ontology constraints (domain/range)
 ├── data/                             # Input data files
+│   └── AIRO_extended.ttl             # AI Risk Incident Ontology (extended AIRO, v2.0)
+├── examples/                         # Sample per-event outputs (subgraph + fused graph)
 ├── src/
 │   ├── alignment/
 │   │   ├── kg_fusion.py              # Batch-mode cross-event fusion
 │   │   ├── semantic_aligner.py       # Embedding + BM25 alignment
 │   │   └── llm_verifier.py           # LLM boundary-case verification
 │   ├── core/
-│   │   ├── models.py                 # Pydantic models (41 classes, 37 relations)
+│   │   ├── models.py                 # Pydantic models (43 classes, 37 relations)
 │   │   ├── ontology.py               # Ontology validator + normalizer
 │   │   ├── config.py                 # Config loader with env var interpolation
 │   │   ├── datasets.py               # Event/case dataset loader
@@ -109,20 +142,8 @@ If `eval_cases.jsonl` is absent, the pipeline falls back to `translated_docs.jso
 │   ├── agent/
 │   │   ├── state.py                  # PipelineState TypedDict
 │   │   ├── graph.py                  # LangGraph StateGraph definition
-│   │   ├── nodes/
-│   │   │   ├── input_node.py         # Stage 1
-│   │   │   ├── explicit_extract.py   # Stage 2
-│   │   │   ├── aggregation.py        # Stage 3
-│   │   │   ├── entity_reuse.py       # Stage 4 L1
-│   │   │   ├── risk_chain.py         # Stage 4 L2
-│   │   │   ├── inference.py          # Stage 4 L3
-│   │   │   ├── graph_build.py        # Stage 5
-│   │   │   ├── validation.py         # Constraint validation
-│   │   │   └── store.py              # Output to JSON/TTL/Neo4j
-│   │   └── prompts/
-│   │       ├── stage2_explicit.py
-│   │       ├── stage4_risk_chain.py
-│   │       └── stage4_inference.py
+│   │   ├── nodes/                    # Pipeline stages (input → store)
+│   │   └── prompts/                  # Stage 2 / Stage 4 prompts
 │   ├── storage/
 │   │   ├── ttl_store.py              # RDF/Turtle output (airo: namespace)
 │   │   └── neo4j_store.py            # Neo4j graph database
@@ -132,19 +153,18 @@ If `eval_cases.jsonl` is absent, the pipeline falls back to `translated_docs.jso
 │       ├── text.py                   # Entity merge, ID generation, normalization
 │       └── logger.py                 # Logging setup
 ├── eval/
-│   ├── data/                         # Evaluation datasets
-│   ├── scripts/                      # Evaluation and analysis commands
-│   ├── results/                      # Generated metrics, judgments, and reports
-│   ├── label_studio/                 # Label Studio configs and arbitration assets
-│   └── 标注结果/                     # Exported human annotations
+│   ├── annotations/                  # Exported human annotation results (Levels 1-3, ESR)
+│   ├── label_studio/                 # Annotation tasks, label configs, arbitration assets
+│   ├── results/                      # Computed metrics and LLM judgments
+│   └── scripts/                      # Evaluation and analysis commands
 ├── docs/
-│   ├── paper/                        # Paper source and supporting material
-│   ├── evaluation/                   # Evaluation plans and reports
-│   └── graph_viewer/                 # Static ECharts viewer for the fused graph
-├── web/                              # Statistics, indexing, and figure scripts for the web viewer
+│   └── evaluation/                   # Evaluation plan, annotation guide, ablation report
+├── web/                              # Local exploration app and figure scripts
+│   └── viewer/                       # ECharts full-graph viewer assets
+├── tests/                            # Pytest test suite
 ├── main.py                           # CLI entry point
-├── data/
-│   └── AIRO_extended.ttl             # AI Risk Incident Ontology (extended AIRO, v2.0)
+├── LICENSE
+├── CITATION.cff
 └── requirements.txt
 ```
 
@@ -202,10 +222,11 @@ Each successful event run produces files under `output/<event_id>/`:
 
 | File | Format | Description |
 |------|--------|-------------|
-| `event_subgraph.json` | JSON | Full EventKnowledgeSubgraph with nodes, edges, statements |
+| `event_subgraph.json` | JSON | Phase-1 EventKnowledgeSubgraph with nodes, edges, statements |
+| `event_subgraph_fused.json` | JSON | Phase-2 subgraph after cross-event entity fusion |
 | `event_subgraph.ttl` | Turtle/RDF | Semantic graph using `airo:` namespace (https://w3id.org/airo#) |
 
-Neo4j output is written during batch-mode phase 2 after cross-event fusion, if Neo4j is configured and reachable.
+Neo4j output is written during batch-mode phase 2 after cross-event fusion, if Neo4j is configured and reachable. The full set of per-event outputs for all 2,034 events is distributed via GitHub Releases (see [Data Availability](#data-availability)); `examples/` contains three sample events.
 
 ### Risk Propagation Chain
 

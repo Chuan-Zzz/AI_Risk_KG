@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+authors:
+  - alias: Chuan-Zzz
+title: "OntoRisk: Event-centric, Evidence-constrained AI Risk Knowledge Graph Construction"
+version: 1.0.0
+date-released: "2026-09-08"
+license: MIT
+repository-code: "https://github.com/Chuan-Zzz/AI_Risk_KG"
+abstract: >-
+  OntoRisk automatically constructs event-centric AI risk knowledge graphs
+  from multi-document incident reports. The pipeline couples ontology-aligned
+  explicit extraction with evidence-constrained controlled inference, and
+  supports cross-event entity fusion into a global Neo4j graph.
+keywords:
+  - knowledge graph
+  - AI risk
+  - information extraction
+  - ontology
+  - LangGraph
+type: software
