@@ -23,7 +23,7 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-EVAL_DIR = Path(__file__).resolve().parents[1] / "标注结果"
+EVAL_DIR = Path(__file__).resolve().parents[1] / "annotations"
 
 STAKEHOLDER_SUBTYPES = {
     "AIDeveloper", "AIProvider", "AIDeployer", "AIUser",
@@ -103,7 +103,7 @@ def _recover_fp(task: dict) -> list[dict]:
 
 
 def calc_level1() -> dict:
-    data = load_json_files("显式实体评测*.json")
+    data = load_json_files("level1_entity_*.json")
 
     by_type = defaultdict(lambda: {"tp_exact": 0, "tp_partial": 0, "fn": 0, "fp": 0})
     total = {"tp_exact": 0, "tp_partial": 0, "fn": 0, "fp": 0}
@@ -226,7 +226,7 @@ def calc_level1() -> dict:
 # ============================================================
 
 def calc_level2() -> dict:
-    data = load_json_files("风险链评测*.json")
+    data = load_json_files("level2_risk_chain_*.json")
 
     by_slot = defaultdict(lambda: {"correct": 0, "partial": 0, "incorrect": 0, "total": 0})
     total = {"correct": 0, "partial": 0, "incorrect": 0, "total": 0}
@@ -287,7 +287,7 @@ def calc_level2() -> dict:
 # ============================================================
 
 def calc_level3() -> dict:
-    data = load_json_files("推理字段评测*.json")
+    data = load_json_files("level3_inference_*.json")
 
     by_field = defaultdict(lambda: {"correct": 0, "partial": 0, "incorrect": 0, "total": 0})
     total = {"correct": 0, "partial": 0, "incorrect": 0, "total": 0}

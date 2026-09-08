@@ -10,8 +10,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -56,8 +56,8 @@ logs/
 # Local archive (not for publication)
 archive/
 
-# Large derived data (regenerable from output/)
-docs/graph_viewer/data/graph_full.json
+# Large derived data (regenerable from output/, shipped via GitHub Releases)
+web/viewer/data/graph_full.json
 
 # Submission packages
 *.zip

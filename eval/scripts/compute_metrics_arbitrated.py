@@ -25,8 +25,8 @@ from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-EVAL_DIR = Path(__file__).resolve().parents[1] / "标注结果"
-ARBITRATION_DIR = Path(__file__).resolve().parents[1] / "label_studio" / "arbitration"
+EVAL_DIR = Path(__file__).resolve().parents[1] / "annotations"
+ARBITRATION_DIR = Path(__file__).resolve().parents[1] / "label_studio" / "arbitration" / "output"
 
 
 def load_json(path: Path) -> list[dict]:
@@ -123,8 +123,8 @@ def calc_level1_arbitrated() -> dict:
     print("=" * 80)
 
     # 加载仲裁文件
-    arb1 = load_json(ARBITRATION_DIR / "显式实体评测仲裁1.json")
-    arb2 = load_json(ARBITRATION_DIR / "显式实体评测仲裁2.json")
+    arb1 = load_json(ARBITRATION_DIR / "level1_entity_arbitration_1.json")
+    arb2 = load_json(ARBITRATION_DIR / "level1_entity_arbitration_2.json")
     data = arb1 + arb2
 
     print(f"  仲裁1: {len(arb1)} 个任务, 仲裁2: {len(arb2)} 个任务, 合计: {len(data)}")
@@ -349,8 +349,8 @@ def _extract_ratings(task: dict, fields: list[str]) -> dict[str, int]:
 
 def calc_level2_arbitrated() -> dict:
     merged = build_arbitrated_data(
-        "Level 2 风险链", "风险链评测",
-        RISK_CHAIN_SLOTS, "风险链评测仲裁.json",
+        "Level 2 风险链", "level2_risk_chain_",
+        RISK_CHAIN_SLOTS, "level2_risk_chain_arbitration.json",
     )
 
     by_slot = defaultdict(lambda: {"correct": 0, "partial": 0, "incorrect": 0, "total": 0})
@@ -405,8 +405,8 @@ def calc_level2_arbitrated() -> dict:
 
 def calc_level3_arbitrated() -> dict:
     merged = build_arbitrated_data(
-        "Level 3 推理字段", "推理字段评测",
-        INFERENCE_FIELDS, "推理字段评测仲裁.json",
+        "Level 3 推理字段", "level3_inference_",
+        INFERENCE_FIELDS, "level3_inference_arbitration.json",
     )
 
     by_field = defaultdict(lambda: {"correct": 0, "partial": 0, "incorrect": 0, "total": 0})

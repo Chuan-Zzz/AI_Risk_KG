@@ -22,7 +22,7 @@ from collections import defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-EVAL_DIR = Path(__file__).resolve().parents[1] / "标注结果"
+EVAL_DIR = Path(__file__).resolve().parents[1] / "annotations"
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "label_studio" / "arbitration"
 
 
@@ -53,8 +53,8 @@ def build_level1_arbitration():
     all_disagree = []
 
     for pair_name, fa_name, fb_name in [
-        ("A26_vs_A44", "显式实体评测1.json", "显式实体评测3.json"),
-        ("A41_vs_A45", "显式实体评测2.json", "显式实体评测4.json"),
+        ("A26_vs_A44", "level1_entity_1.json", "level1_entity_3.json"),
+        ("A41_vs_A45", "level1_entity_2.json", "level1_entity_4.json"),
     ]:
         fa = load_json(EVAL_DIR / fa_name)
         fb = load_json(EVAL_DIR / fb_name)
@@ -271,13 +271,13 @@ if __name__ == "__main__":
     r1 = build_level1_arbitration()
 
     r2 = build_rating_arbitration(
-        "Level 2 风险链", "风险链评测",
+        "Level 2 风险链", "level2_risk_chain_",
         ["risk_source_score", "risk_score", "consequence_score",
          "impact_score", "affected_actor_score", "risk_control_score"],
     )
 
     r3 = build_rating_arbitration(
-        "Level 3 推理字段", "推理字段评测",
+        "Level 3 推理字段", "level3_inference_",
         ["purpose_score", "lifecycle_score", "domain_score"],
     )
 

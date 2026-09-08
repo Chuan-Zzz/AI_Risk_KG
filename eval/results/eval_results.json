@@ -1,0 +1,254 @@
+{
+  "level1_entity_extraction": {
+    "AISystem": {
+      "tp_exact": 331,
+      "tp_partial": 24,
+      "fn": 79,
+      "fp": 57,
+      "gold_total": 434,
+      "pred_total": 412,
+      "precision": 0.8325242718446602,
+      "recall": 0.7903225806451613,
+      "f1": 0.8108747044917257
+    },
+    "AIModel": {
+      "tp_exact": 25,
+      "tp_partial": 1,
+      "fn": 1,
+      "fp": 4,
+      "gold_total": 27,
+      "pred_total": 30,
+      "precision": 0.85,
+      "recall": 0.9444444444444444,
+      "f1": 0.8947368421052632
+    },
+    "AITechnique": {
+      "tp_exact": 216,
+      "tp_partial": 1,
+      "fn": 33,
+      "fp": 33,
+      "gold_total": 250,
+      "pred_total": 250,
+      "precision": 0.866,
+      "recall": 0.866,
+      "f1": 0.866
+    },
+    "AICapability": {
+      "tp_exact": 197,
+      "tp_partial": 10,
+      "fn": 117,
+      "fp": 24,
+      "gold_total": 324,
+      "pred_total": 231,
+      "precision": 0.8744588744588745,
+      "recall": 0.6234567901234568,
+      "f1": 0.7279279279279279
+    },
+    "AIDeveloper": {
+      "tp_exact": 34,
+      "tp_partial": 50,
+      "fn": 19,
+      "fp": 2,
+      "gold_total": 103,
+      "pred_total": 86,
+      "precision": 0.686046511627907,
+      "recall": 0.5728155339805825,
+      "f1": 0.6243386243386243
+    },
+    "AIProvider": {
+      "tp_exact": 115,
+      "tp_partial": 38,
+      "fn": 38,
+      "fp": 14,
+      "gold_total": 191,
+      "pred_total": 167,
+      "precision": 0.8023952095808383,
+      "recall": 0.7015706806282722,
+      "f1": 0.7486033519553074
+    },
+    "AIDeployer": {
+      "tp_exact": 101,
+      "tp_partial": 65,
+      "fn": 25,
+      "fp": 13,
+      "gold_total": 191,
+      "pred_total": 179,
+      "precision": 0.7458100558659218,
+      "recall": 0.6989528795811518,
+      "f1": 0.7216216216216217
+    },
+    "AIUser": {
+      "tp_exact": 38,
+      "tp_partial": 29,
+      "fn": 27,
+      "fp": 2,
+      "gold_total": 94,
+      "pred_total": 69,
+      "precision": 0.7608695652173914,
+      "recall": 0.5585106382978723,
+      "f1": 0.6441717791411044
+    },
+    "Regulator": {
+      "tp_exact": 181,
+      "tp_partial": 53,
+      "fn": 41,
+      "fp": 9,
+      "gold_total": 275,
+      "pred_total": 243,
+      "precision": 0.8539094650205762,
+      "recall": 0.7545454545454545,
+      "f1": 0.8011583011583011
+    },
+    "AffectedActor": {
+      "tp_exact": 127,
+      "tp_partial": 65,
+      "fn": 83,
+      "fp": 11,
+      "gold_total": 275,
+      "pred_total": 203,
+      "precision": 0.7857142857142857,
+      "recall": 0.58,
+      "f1": 0.6673640167364017
+    },
+    "Stakeholder": {
+      "tp_exact": 665,
+      "tp_partial": 87,
+      "fn": 257,
+      "fp": 37,
+      "gold_total": 1009,
+      "pred_total": 789,
+      "precision": 0.8979721166032953,
+      "recall": 0.7021803766105055,
+      "f1": 0.7880978865406006
+    },
+    "Regulation": {
+      "tp_exact": 58,
+      "tp_partial": 0,
+      "fn": 14,
+      "fp": 7,
+      "gold_total": 72,
+      "pred_total": 65,
+      "precision": 0.8923076923076924,
+      "recall": 0.8055555555555556,
+      "f1": 0.8467153284671534
+    },
+    "Standard": {
+      "tp_exact": 16,
+      "tp_partial": 1,
+      "fn": 4,
+      "fp": 1,
+      "gold_total": 21,
+      "pred_total": 18,
+      "precision": 0.9166666666666666,
+      "recall": 0.7857142857142857,
+      "f1": 0.8461538461538461
+    },
+    "Stakeholder(agg)": {
+      "tp_exact": 1261,
+      "tp_partial": 387,
+      "fn": 490,
+      "fp": 88,
+      "gold_total": 2138,
+      "pred_total": 1736,
+      "precision": 0.8378456221198156,
+      "recall": 0.6803086997193639,
+      "f1": 0.7509034589571503
+    },
+    "Overall": {
+      "tp_exact": 2104,
+      "tp_partial": 424,
+      "fn": 738,
+      "fp": 214,
+      "gold_total": 3266,
+      "pred_total": 2742,
+      "precision": 0.8446389496717724,
+      "recall": 0.7091243110838946,
+      "f1": 0.7709720372836217
+    }
+  },
+  "level2_risk_chain": {
+    "RiskSource": {
+      "correct": 170,
+      "partial": 20,
+      "incorrect": 3,
+      "total": 193,
+      "accuracy": 0.9326424870466321
+    },
+    "Risk": {
+      "correct": 184,
+      "partial": 12,
+      "incorrect": 0,
+      "total": 196,
+      "accuracy": 0.9693877551020408
+    },
+    "Consequence": {
+      "correct": 177,
+      "partial": 17,
+      "incorrect": 1,
+      "total": 195,
+      "accuracy": 0.9512820512820512
+    },
+    "Impact": {
+      "correct": 129,
+      "partial": 48,
+      "incorrect": 17,
+      "total": 194,
+      "accuracy": 0.788659793814433
+    },
+    "AffectedActor": {
+      "correct": 134,
+      "partial": 36,
+      "incorrect": 23,
+      "total": 193,
+      "accuracy": 0.7875647668393783
+    },
+    "RiskControl": {
+      "correct": 146,
+      "partial": 15,
+      "incorrect": 16,
+      "total": 177,
+      "accuracy": 0.867231638418079
+    },
+    "Overall": {
+      "correct": 940,
+      "partial": 148,
+      "incorrect": 60,
+      "total": 1148,
+      "accuracy": 0.8832752613240418
+    }
+  },
+  "level3_inference": {
+    "Purpose": {
+      "correct": 179,
+      "partial": 13,
+      "incorrect": 0,
+      "total": 192,
+      "accuracy": 0.9661458333333334,
+      "evidence_support_rate": 1.0
+    },
+    "AILifecyclePhase": {
+      "correct": 184,
+      "partial": 9,
+      "incorrect": 0,
+      "total": 193,
+      "accuracy": 0.9766839378238342,
+      "evidence_support_rate": 1.0
+    },
+    "Domain": {
+      "correct": 173,
+      "partial": 7,
+      "incorrect": 14,
+      "total": 194,
+      "accuracy": 0.9097938144329897,
+      "evidence_support_rate": 0.9278350515463918
+    },
+    "Overall": {
+      "correct": 536,
+      "partial": 29,
+      "incorrect": 14,
+      "total": 579,
+      "accuracy": 0.9507772020725389,
+      "evidence_support_rate": 0.9758203799654577
+    }
+  }
+}
