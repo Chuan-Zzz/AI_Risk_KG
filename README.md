@@ -99,7 +99,7 @@ Full construction outputs and the source corpus are published as GitHub [Release
 | `ontorisk_ablation_outputs.zip` | Outputs of all ablation and baseline variants |
 | `ontorisk_source_data.zip` | Source corpus (`eval_cases.jsonl`) and event structure needed to re-run the pipeline |
 
-Human annotation results and computed metrics are tracked directly in this repository under `eval/annotations/` and `eval/results/`. Three sample events are included under `examples/` so the output format can be inspected without downloading the archives.
+Human annotation results and computed metrics are tracked directly in this repository under `eval/annotations/` and `eval/results/`.
 
 ## Annotation Data
 
@@ -225,7 +225,7 @@ Each successful event run produces files under `output/<event_id>/`:
 | `event_subgraph_fused.json` | JSON | Phase-2 subgraph after cross-event entity fusion |
 | `event_subgraph.ttl` | Turtle/RDF | Semantic graph using `airo:` namespace (https://w3id.org/airo#) |
 
-Neo4j output is written during batch-mode phase 2 after cross-event fusion, if Neo4j is configured and reachable. The full set of per-event outputs for all 2,034 events is distributed via GitHub Releases (see [Data Availability](#data-availability)); `examples/` contains three sample events.
+Neo4j output is written during batch-mode phase 2 after cross-event fusion, if Neo4j is configured and reachable. The full set of per-event outputs for all 2,034 events is distributed via GitHub Releases (see [Data Availability](#data-availability)).
 
 ### Risk Propagation Chain
 
