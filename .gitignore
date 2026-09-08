@@ -40,6 +40,7 @@ env/
 # Test coverage
 .coverage
 htmlcov/
+.pytest_cache/
 
 # Office temp files
 ~$*
@@ -48,10 +49,18 @@ htmlcov/
 docx_content.txt
 
 # Output
-output/*.json
-output/*.ttl
+output/
 *.log
 logs/
+
+# Local archive (not for publication)
+archive/
+
+# Large derived data (regenerable from output/)
+docs/graph_viewer/data/graph_full.json
+
+# Submission packages
+*.zip
 
 # Neo4j
 neo4j/
@@ -60,6 +69,5 @@ neo4j/
 .DS_Store
 Thumbs.db
 
-# Test data (keep samples, not large files)
+# Optional local datasets
 data/*.jsonl
-!data/evaluation_*.txt
