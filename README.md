@@ -248,5 +248,5 @@ RiskSource ──causes──→ Risk ──leadsTo──→ Consequence ──i
 ## License
 
 - **Code**: MIT — see [LICENSE](LICENSE).
-- **Data** (Release assets, `data/`, `examples/`, `eval/annotations/`, `eval/label_studio/`, `eval/results/`): licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Redistribution and reuse for any purpose are permitted with attribution.
+- **Data** (Release assets, `data/`, `eval/annotations/`, `eval/label_studio/`, `eval/results/`): licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Redistribution and reuse for any purpose are permitted with attribution.
 - **AIRO ontology**: the AI Risk Incident Ontology ([AIRO](https://w3id.org/airo)) is © its authors and licensed under CC BY 4.0; `data/AIRO_extended.ttl` is an extension of AIRO and reuses its terms under that license.
