@@ -128,7 +128,6 @@ python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
 │   └── ontology.yml                  # AIRO ontology constraints (domain/range)
 ├── data/                             # Input data files
 │   └── AIRO_extended.ttl             # AI Risk Incident Ontology (extended AIRO, v2.0)
-├── examples/                         # Sample per-event outputs (subgraph + fused graph)
 ├── src/
 │   ├── alignment/
 │   │   ├── kg_fusion.py              # Batch-mode cross-event fusion
