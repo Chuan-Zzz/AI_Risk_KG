@@ -112,7 +112,7 @@ Three-level human evaluation was conducted with Label Studio (multiple annotator
 | 3 — Inference fields | `eval/annotations/level3_inference_*.json` | Field accuracy + evidence support rate |
 | ESR validation | `eval/annotations/esr_annotation.json` | Evidence support re-annotation |
 
-Annotation tasks, label configs, and arbitration assets live in `eval/label_studio/`; the protocol is documented in `docs/evaluation/annotation_guide.md` and `docs/evaluation/evaluation_plan.md`. All reported metrics can be recomputed offline:
+Annotation tasks, label configs, and arbitration assets live in `eval/label_studio/`. All reported metrics can be recomputed offline:
 
 ```bash
 python eval/scripts/compute_metrics.py               # pre-arbitration metrics
