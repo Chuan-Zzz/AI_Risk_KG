@@ -15,7 +15,7 @@ from that graph:
   transitions        <- edges: causes, leadsTo, impacts, affects
 
 The script is pure data processing (no external services, no API keys) and
-writes an aggregated JSON to ``web/data/app_stats.json``.
+writes an aggregated JSON to ``scripts/data/app_stats.json``.
 """
 
 import glob

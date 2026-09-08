@@ -85,7 +85,7 @@ class Config:
                 "primary": {
                     "provider": "openai",
                     "model": "${LLM_MODEL:deepseek-v4-flash}",
-                    "base_url": "${LLM_BASE_URL:https://api.ldwnb666.xyz/v1}",
+                    "base_url": "${LLM_BASE_URL:}",
                     "api_key": "${LLM_API_KEY}",
                     "reasoning_effort": "${LLM_REASONING_EFFORT:}",
                     "temperature": 0.1,
@@ -94,7 +94,7 @@ class Config:
                 "fallback": {
                     "provider": "openai",
                     "model": "${FALLBACK_LLM_MODEL:}",
-                    "base_url": "${LLM_BASE_URL:https://api.ldwnb666.xyz/v1}",
+                    "base_url": "${LLM_BASE_URL:}",
                     "api_key": "${LLM_API_KEY}",
                     "reasoning_effort": "",
                     "temperature": 0.1,

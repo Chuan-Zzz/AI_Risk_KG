@@ -111,7 +111,7 @@ class LLMClient:
             self._reasoning_effort = config.get("reasoning_effort", "")
 
         self._client = OpenAI(
-            base_url=self._base_url,
+            base_url=self._base_url or None,
             api_key=self._api_key,
             max_retries=0,
             timeout=180,

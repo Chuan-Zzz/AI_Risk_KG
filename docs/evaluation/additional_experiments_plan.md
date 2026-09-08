@@ -1,6 +1,6 @@
 # 小论文补实验方案
 
-> 适用范围：补齐 [小论文.pdf](../paper/小论文.pdf) 中 `6.7 Ablation Study` 与 `7.1 Baseline Comparison` 的占位数据，并形成可直接执行的实验口径。
+> 适用范围：补齐论文（KBS 投稿稿）中 `6.7 Ablation Study` 与 `7.1 Baseline Comparison` 的占位数据，并形成可直接执行的实验口径。
 
 ## 1. 目标与最终产出
 

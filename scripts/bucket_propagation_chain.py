@@ -16,7 +16,7 @@ Bucket definitions are grounded in:
   - IJHCI 2025 "Who is Responsible When AI Fails"
   - OECD Defining AI Incidents (May 2024)
 
-Outputs (under web/data/):
+Outputs (under scripts/data/):
   - bucketing_RiskSource.jsonl    (one record per event: prompt + LLM raw + parsed bucket)
   - bucketing_Consequence.jsonl
   - bucketing_Impact.jsonl
@@ -28,7 +28,7 @@ Outputs (under web/data/):
 Usage:
   export BUCKET_API_KEY="sk-..."
   export BUCKET_BASE_URL="https://api.yuk15n0w.asia/v1"
-  python web/bucket_propagation_chain.py --stage all --concurrency 4
+  python scripts/bucket_propagation_chain.py --stage all --concurrency 4
 """
 
 from __future__ import annotations

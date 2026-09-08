@@ -163,7 +163,7 @@ def _extract_single_doc(
     disable_ontology = is_experiment_enabled(experiment, "disable_ontology_constraint")
     disable_evidence = is_experiment_enabled(experiment, "disable_evidence_constraint")
     # Stage 2 prompts are long; compact mode uses shorter prompts to avoid
-    # Cloudflare 524 timeout on proxy endpoints (othersapi.com ~120s limit).
+    # Cloudflare 524 timeout on upstream proxies (~120s limit).
     compact_mode = requires_compact_mode(llm.model)
     # compact 模式不主动缩短超时：deepseek-v4-flash 经代理响应本身较慢，
     # 45s 会把本可成功的长文档请求误判为超时。统一使用客户端默认 180s。
@@ -171,7 +171,7 @@ def _extract_single_doc(
     request_retries = 3
 
     source_text = _strip_markdown_links(content) if compact_mode else content
-    # compact 截断长度：othersapi 代理的 Cloudflare 120s 硬限制会让长文档请求超时(524)。
+    # compact 截断长度：上游代理的 Cloudflare 120s 硬限制会让长文档请求超时(524)。
     # 1500 字符足以保留关键实体上下文，同时确保单次请求在 120s 内完成。
     text = truncate(source_text, max_len=1500 if compact_mode else 12000)
     system_prompt = STAGE2_COMPACT_SYSTEM_PROMPT if compact_mode else STAGE2_SYSTEM_PROMPT
@@ -345,7 +345,7 @@ def explicit_extract_node(state: PipelineState) -> dict[str, Any]:
     llm = get_llm_client()
     max_workers = config.get("extraction.parallel_workers", 3)
     if requires_low_parallelism(llm.model):
-        # minimax/deepseek/glm via othersapi.com proxy: serial to avoid 524 timeouts
+        # upstream LLM proxies: serial to avoid 524 timeouts
         max_workers = 1
 
     logger.info(f"[Stage 2] Extracting explicit entities from {len(documents)} documents for event {event_id} (parallel={max_workers})")

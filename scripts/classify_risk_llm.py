@@ -5,7 +5,7 @@ Reads each event's risk chain (RiskSource/Risk/Consequence/Impact/AffectedActor)
 plus incident name and key entities, then asks the LLM to assign a domain and
 subdomain based on the taxonomy table.
 
-Results are cached to web/data/risk_classification.jsonl so re-runs skip
+Results are cached to scripts/data/risk_classification.jsonl so re-runs skip
 already-classified events. Supports concurrent processing.
 """
 

@@ -49,7 +49,7 @@ def inference_node(state: PipelineState) -> dict[str, Any]:
     logger.info(f"[Stage 4 L3] Running controlled inference for event {event_id}")
     llm = get_llm_client()
     # Stage 4 L3: enable compact mode for both GLM and DeepSeek.
-    # Non-compact system prompt is ~9800 chars; deepseek-v4-pro via othersapi
+    # Non-compact system prompt is ~9800 chars; deepseek-v4-pro via upstream proxy
     # proxy easily exceeds Cloudflare's 120s hard limit on long prompts.
     # Compact mode uses ~600 char prompts + split into 2 shorter requests.
     compact_mode = requires_compact_mode(llm.model)

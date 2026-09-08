@@ -10,6 +10,8 @@ Automatically constructs event-centric AI risk knowledge graphs from multi-docum
 
 ### 1. Install dependencies
 
+Requires Python 3.13.
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -184,7 +186,7 @@ python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
 | Variable | Required | Description | Example |
 |----------|----------|-------------|---------|
 | `LLM_MODEL` | No | Override the default chat model | `DeepSeek-V4-Flash` |
-| `LLM_BASE_URL` | No | Override the default OpenAI-compatible base URL | `https://api.ldwnb666.xyz/v1` |
+| `LLM_BASE_URL` | No | Override the default OpenAI-compatible base URL | `https://api.example.com/v1` |
 | `LLM_API_KEY` | Yes | OpenAI-compatible API key | `sk-...` |
 | `NEO4J_URI` | No | Neo4j connection URI | `bolt://localhost:7687` |
 | `NEO4J_USER` | No | Neo4j username | `neo4j` |
