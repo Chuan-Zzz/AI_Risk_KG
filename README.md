@@ -161,7 +161,6 @@ python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
 │   └── evaluation/                   # Evaluation plan, annotation guide, ablation report
 ├── scripts/                          # Graph statistics, risk classification, and paper figure generation
 │   └── data/                         # Precomputed statistics and classification results
-├── tests/                            # Pytest test suite
 ├── main.py                           # CLI entry point
 ├── LICENSE
 ├── CITATION.cff
