@@ -159,8 +159,6 @@ python eval/scripts/compute_iaa_v2.py                # inter-annotator agreement
 │   ├── label_studio/                 # Annotation tasks, label configs, arbitration assets
 │   ├── results/                      # Computed metrics and LLM judgments
 │   └── scripts/                      # Evaluation and analysis commands
-├── docs/
-│   └── evaluation/                   # Evaluation plan, annotation guide, ablation report
 ├── scripts/                          # Graph statistics, risk classification, and paper figure generation
 │   └── data/                         # Precomputed statistics and classification results
 ├── main.py                           # CLI entry point
@@ -249,4 +247,6 @@ RiskSource ──causes──→ Risk ──leadsTo──→ Consequence ──i
 
 ## License
 
-MIT
+- **Code**: MIT — see [LICENSE](LICENSE).
+- **Data** (Release assets, `data/`, `examples/`, `eval/annotations/`, `eval/label_studio/`, `eval/results/`): licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Redistribution and reuse for any purpose are permitted with attribution.
+- **AIRO ontology**: the AI Risk Incident Ontology ([AIRO](https://w3id.org/airo)) is © its authors and licensed under CC BY 4.0; `data/AIRO_extended.ttl` is an extension of AIRO and reuses its terms under that license.

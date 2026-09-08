@@ -51,7 +51,7 @@ GOVERNANCE_NODE_TYPES = {
 }
 
 # --- AI risk taxonomy: 7 domains, 23 subdomains ---------------------------
-# Based on the AI risk classification framework (see data/ai_risk_taxonomy.csv).
+# Based on the AI risk classification framework (MIT AI Risk Repository domains).
 # Classification is performed at the subdomain level (first match wins); the
 # domain is determined by the matched subdomain. When the Risk slot is empty
 # or yields no match, classification cascades through Consequence, Impact,
@@ -512,7 +512,7 @@ def main():
             "total_events": total_events,
             "files_scanned": files_scanned,
             "source": "output/pred_*/event_subgraph_fused.json (graph: nodes+edges)",
-            "note": "Conceptual schema (risk_chain/role_assignments/governance) derived from graph. Risk taxonomy: 7 domains, 23 subdomains (see data/ai_risk_taxonomy.csv).",
+            "note": "Conceptual schema (risk_chain/role_assignments/governance) derived from graph. Risk taxonomy: 7 domains, 23 subdomains (MIT AI Risk Repository).",
         },
         "time_distribution": {
             "events_by_year": events_by_year_str,
