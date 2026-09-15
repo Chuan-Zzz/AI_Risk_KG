@@ -50,6 +50,7 @@ docx_content.txt
 
 # Output
 /output/
+/docs/
 *.log
 logs/
 
