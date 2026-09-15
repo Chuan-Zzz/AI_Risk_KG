@@ -104,11 +104,23 @@ class LLMClient:
             self._base_url = cfg.get("llm.primary.base_url", "").rstrip("/")
             self.model = cfg.get("llm.primary.model", "deepseek-v4-flash")
             self._reasoning_effort = cfg.get("llm.primary.reasoning_effort", "")
+            self._temperature = cfg.get("llm.primary.temperature")
+            self._max_tokens = cfg.get("llm.primary.max_tokens")
         else:
             self._api_key = config.get("api_key", "")
             self._base_url = config.get("base_url", "").rstrip("/")
             self.model = config.get("model", "deepseek-v4-flash")
             self._reasoning_effort = config.get("reasoning_effort", "")
+            self._temperature = config.get("temperature")
+            self._max_tokens = config.get("max_tokens")
+
+        # None/"" means "omit the parameter and use the server default"
+        self._temperature = (
+            None if self._temperature in (None, "") else float(self._temperature)
+        )
+        self._max_tokens = (
+            None if self._max_tokens in (None, "") else int(self._max_tokens)
+        )
 
         self._client = OpenAI(
             base_url=self._base_url or None,
@@ -136,6 +148,10 @@ class LLMClient:
         }
         if self._reasoning_effort:
             request_kwargs["reasoning_effort"] = self._reasoning_effort
+        if self._temperature is not None:
+            request_kwargs["temperature"] = self._temperature
+        if self._max_tokens is not None:
+            request_kwargs["max_tokens"] = self._max_tokens
         if timeout is not None:
             request_kwargs["timeout"] = timeout
 
@@ -433,6 +449,8 @@ def get_fallback_llm_client() -> LLMClient | None:
         "base_url": cfg.get("llm.fallback.base_url", ""),
         "model": model,
         "reasoning_effort": cfg.get("llm.fallback.reasoning_effort", ""),
+        "temperature": cfg.get("llm.fallback.temperature"),
+        "max_tokens": cfg.get("llm.fallback.max_tokens"),
     })
     logger.info(f"Fallback LLM client initialized: {model}")
     return _fallback_client
